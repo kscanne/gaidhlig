@@ -15,7 +15,7 @@ install : cuardach.txt aistrigh ga2gd rialacha.txt disambig.pl ambig.txt gdfixer
 	$(INSTALL_DATA) rialacha.txt /usr/local/share/ga2gd
 	$(INSTALL_DATA) ambig.txt /usr/local/share/ga2gd
 	rm -f /usr/local/share/ga2gd/disambig/*.dat
-	cp -f traenail/*.dat /usr/local/share/ga2gd/disambig
+	cp -f ../traenail/*.dat /usr/local/share/ga2gd/disambig
 	chmod 444 /usr/local/share/ga2gd/disambig/*.dat
 
 add : FORCE

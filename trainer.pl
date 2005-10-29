@@ -40,7 +40,7 @@ $spriocfhocal =~ s/ú/u_/g;
 $spriocfhocal .= $tg;
 $spriocfhocal = 'ba_NM' if ($sprioc eq '<N pl="n" gnt="n" gnd="m">bá</N>');
 
-open (IONCHUR, "<:bytes", "traenail/$spriocfhocal") or die "Could not open disambiguated corpus file \"traenail/$spriocfhocal\": $!\n";
+open (IONCHUR, "<:bytes", "../traenail/$spriocfhocal") or die "Could not open disambiguated corpus file \"traenail/$spriocfhocal\": $!\n";
 
 while (<IONCHUR>) {
 	chomp;
@@ -68,7 +68,7 @@ while (<CANDS>) {
 }
 close CANDS;
 
-open (ASCHUR, ">:bytes", "traenail/$spriocfhocal") or die "Could not open output file: $!\n";
+open (ASCHUR, ">:bytes", "../traenail/$spriocfhocal") or die "Could not open output file: $!\n";
 print ASCHUR "$alreadydone{$_} $_\n" foreach (sort keys %alreadydone);
 close ASCHUR;
 
@@ -171,7 +171,7 @@ foreach my $s (keys %P) {
 $P{$_} = log($P{$_}) - log($total) foreach (keys %P);
 
 # store P, C, N, unseen
-open (DATAOUT, ">:bytes", "traenail/$spriocfhocal.dat") or die "Could not open output .dat file: $!\n";
+open (DATAOUT, ">:bytes", "../traenail/$spriocfhocal.dat") or die "Could not open output .dat file: $!\n";
 print DATAOUT Data::Dumper->Dump([\%P, \%C, \%unseen], [qw(P C unseen)]);
 close DATAOUT;
 

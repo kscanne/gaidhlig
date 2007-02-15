@@ -49,6 +49,7 @@ msgstr ""
 msgid "<R>ar bís</R>"
 msgstr ""
 
+# also "sam bith"
 msgid "<R>ar bith</R>"
 msgstr "air bith"
 
@@ -490,6 +491,15 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>ciolar chiot</N>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='f'>cíor thuathail</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>gcíor thuathail</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>chíor thuathail</N>"
+msgstr ""
+
 msgid "<Q>créad fá</Q>"
 msgstr "carson"
 
@@ -691,6 +701,15 @@ msgstr "a h-ochd"
 msgid "<A pl='n' gnt='n'>a naoi</A>"
 msgstr "a naoi"
 
+msgid "<N pl='n' gnt='n' gnd='m'>Deireadh Fómhair</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>nDeireadh Fómhair</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>Dheireadh Fómhair</N>"
+msgstr ""
+
 msgid "<R>fá dtaobh</R>"
 msgstr ""
 
@@ -733,8 +752,11 @@ msgstr "an-dràsta"
 msgid "<R>faoi leith</R>"
 msgstr ""
 
-msgid "<R>faoi seach</R>"
+msgid "<R>faoi réir</R>"
 msgstr ""
+
+msgid "<R>faoi seach</R>"
+msgstr "mu seach_adv"
 
 msgid "<N pl='n' gnt='n'>Fear Manach</N>"
 msgstr ""
@@ -1129,6 +1151,12 @@ msgstr "mar sin fhèin"
 msgid "<N pl='n' gnt='n' gnd='m'>meacan ragaim</N>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='m'>Mheán Fómhair</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>Meán Fómhair</N>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='f'>mhí Feabhra</N>"
 msgstr "an Gearran"
 
@@ -1142,6 +1170,12 @@ msgid "<A pl='n' gnt='n'>mór le rá</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n'>mugadh magadh</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>Mhuir nIocht</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>Muir nIocht</N>"
 msgstr ""
 
 msgid "<N pl='y' gnt='y' gnd='m'>na bhfud</N>"
@@ -1183,11 +1217,12 @@ msgstr "mu dheas"
 msgid "<R>ó thuaidh</R>"
 msgstr "mu thuath"
 
+# OK
 msgid "<R>ó shin</R>"
 msgstr "air ais"
 
 msgid "<S>os cionn</S>"
-msgstr "os cionn"
+msgstr "os cionn_prep"
 
 msgid "<S>os coinne</S>"
 msgstr ""

@@ -2,6 +2,7 @@ INSTALL=/usr/bin/install
 SHELL=/bin/sh
 MAKE=/usr/bin/make
 INSTALL_DATA=$(INSTALL) -m 444
+GRAM=${HOME}/gaeilge/gramadoir/gr
 
 # Note "caighdean" package installed separately
 # The dependencies listed here, plus disambig/*.dat, a README, Copyright, etc.
@@ -27,14 +28,19 @@ add : FORCE
 
 lexicon-gd.txt : focloir.txt
 	perl i.pl -g
+	cat $@ | LC_COLLATE=POSIX sort -u -k1,1 -k2,2n > lextemp.txt
+	mv -f lextemp.txt $@
 	mv -f lextodo.txt lextodo.txt.bak
 #	cat lextodo.txt.bak | keepif -n lexicon-gd.txt latin-1 | LC_ALL=C sort -u -k1,1 -k2,2n | uniq > lextodo.txt
 	cat lextodo.txt.bak | while read x; do TEMP=`echo $$x | sed 's/^\([^ ]*\) .*/^\1 /'`; if ! egrep "$$TEMP" lexicon-gd.txt > /dev/null; then echo $$x; fi; done > lextodo.txt
 	diff -u lextodo.txt.bak lextodo.txt | more
+	cp -f $@ $(GRAM)/gd/$@
+	(cd $(GRAM)/gd; make rebuildlex)
+
 
 GA.txt : /home/kps/math/code/data/Dictionary/IG
 	Gin 18 # writes "ga.txt"
-	cat ga.txt | perl -p ${HOME}/gaeilge/gramadoir/gr/ga/posmap.pl | sed '/^xx /s/.*/xx 4/' > $@
+	cat ga.txt | perl -p $(GRAM)/ga/posmap.pl | sed '/^xx /s/.*/xx 4/' > $@
 	rm -f ga.txt
 
 ga2gd.pot : GA.txt
@@ -45,7 +51,7 @@ neamhrialta.pot : GA.txt
 	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=ISO-8859-1\n"'; echo) > $@
 	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep '^xx ' | tr '@' '\n' | egrep -v '^xx ' | egrep ' ' | sort -k1,1 -k2,2n | uniq | perl ./tagcvt.pl | tr '"' "'" | sed 's/.*/msgid "&"\nmsgstr ""\n/' >> $@
 
-FOINSE=/home/kps/gaeilge/gramadoir/gr/ga/comhshuite-ga.in
+FOINSE=$(GRAM)/ga/comhshuite-ga.in
 comhshuite.pot : $(FOINSE)
 	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=ISO-8859-1\n"'; echo) > $@
 	cat $(FOINSE) | perl ./saorog.pl | tr '"' "'" | sed 's/.*/msgid "&"\nmsgstr ""\n/' >> $@ 

@@ -14,6 +14,7 @@
 <t><V p="y" t="láith">[Bb]ím</V></t> -> bidh mi
 <t><V p="y" t="láith">[Bb]íonn</V></t> -> bidh
 <t><V p="y" t="gnáth">[Bb]hínn</V></t> -> b'àbhaist dhomh a bhith
+###   ---> ADD  Breatain Bheag (Wales) -> Cuimrigh (false friend!)
 # "bunachar" alone translates as "stòr-dàta" in this context, so wipe "sonraí"
 # (and note that "sonraí" plural is actually the correct stem - IG headword...
 <s><N pl="n" gnt="n" gnd="m">bunachar</N></s> <s><N pl="y" gnt="n" gnd="m">sonraí</N></s> -> w($1,1) 

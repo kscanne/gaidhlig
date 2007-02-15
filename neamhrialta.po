@@ -254,8 +254,8 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='m'>caite</N>"
 msgstr ""
 
-msgid "<F>carad</F>"
-msgstr "càirdean"
+msgid "<N pl='y' gnt='y' gnd='m'>carad</N>"
+msgstr ""
 
 msgid "<F>cásaithe</F>"
 msgstr ""
@@ -269,8 +269,8 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='m'>chaite</N>"
 msgstr ""
 
-msgid "<F>charad</F>"
-msgstr "chàirdean"
+msgid "<N pl='y' gnt='y' gnd='m'>charad</N>"
+msgstr ""
 
 msgid "<F>chásaithe</F>"
 msgstr ""
@@ -375,6 +375,9 @@ msgid "<N pl='n' gnt='y' gnd='m'>déanta</N>"
 msgstr ""
 
 msgid "<F>d'éilithe</F>"
+msgstr ""
+
+msgid "<F>d'eisiata</F>"
 msgstr ""
 
 msgid "<F>d'fháiscthe</F>"
@@ -554,6 +557,9 @@ msgstr ""
 msgid "<F>éilithe</F>"
 msgstr ""
 
+msgid "<F>eisiata</F>"
+msgstr ""
+
 msgid "<A pl='n' gnt='y' gnd='f'>faide</A>"
 msgstr "faide"
 
@@ -690,8 +696,8 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='m'>gcaite</N>"
 msgstr ""
 
-msgid "<F>gcarad</F>"
-msgstr "càirdean"
+msgid "<N pl='y' gnt='y' gnd='m'>gcarad</N>"
+msgstr ""
 
 msgid "<F>gcásaithe</F>"
 msgstr ""
@@ -781,6 +787,9 @@ msgid "<F>hatochraiste</F>"
 msgstr ""
 
 msgid "<F>héilithe</F>"
+msgstr ""
+
+msgid "<F>heisiata</F>"
 msgstr ""
 
 msgid "<F>hiarchurtha</F>"
@@ -924,6 +933,7 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f'>mbruite</N>"
 msgstr ""
 
+# olc
 msgid "<A pl='n' gnt='y' gnd='f'>measa</A>"
 msgstr "miosa"
 
@@ -931,6 +941,9 @@ msgid "<A pl='n' gnt='y' gnd='f'>measaide</A>"
 msgstr ""
 
 msgid "<F>m'éilithe</F>"
+msgstr ""
+
+msgid "<F>m'eisiata</F>"
 msgstr ""
 
 msgid "<F>m'fháiscthe</F>"
@@ -1141,6 +1154,9 @@ msgid "<A pl='n' gnt='y' gnd='f'>neasa</A>"
 msgstr ""
 
 msgid "<F>n-éilithe</F>"
+msgstr ""
+
+msgid "<F>n-eisiata</F>"
 msgstr ""
 
 msgid "<F>ngairthe</F>"
@@ -1370,3 +1386,12 @@ msgstr ""
 
 msgid "<F>uilleann</F>"
 msgstr ""
+
+#~ msgid "<F>carad</F>"
+#~ msgstr "càirdean"
+
+#~ msgid "<F>charad</F>"
+#~ msgstr "chàirdean"
+
+#~ msgid "<F>gcarad</F>"
+#~ msgstr "càirdean"

@@ -100,7 +100,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>Abhainn</N>"
 msgstr "Abhainn_nf"
 
 msgid "<R>ábhairín</R>"
-msgstr ""
+msgstr "lethchar_adv"
 
 msgid "<F>ábhal</F>"
 msgstr ""
@@ -138,6 +138,7 @@ msgstr ""
 msgid "<F>abhcach</F>"
 msgstr ""
 
+# or "neach-tagraidh"
 msgid "<N pl='n' gnt='n' gnd='m'>abhcóide</N>"
 msgstr "neach-lagha_nm"
 
@@ -955,6 +956,7 @@ msgstr ""
 msgid "<F>agrathurasóireacht</F>"
 msgstr ""
 
+# or "neach-tagraidh"
 msgid "<N pl='n' gnt='n' gnd='m'>agróir</N>"
 msgstr "tagarair"
 
@@ -1305,6 +1307,7 @@ msgstr ""
 msgid "<F>Aigéineach</F>"
 msgstr ""
 
+# n. legal advocate
 msgid "<F>aighne</F>"
 msgstr "aidhne"
 
@@ -1466,6 +1469,7 @@ msgstr "maisich"
 msgid "<N pl='n' gnt='n' gnd='m'>áilliú</N>"
 msgstr "maiseachadh"
 
+# gd leamhan_nm "elm", but must be cognate for letter name
 msgid "<N pl='n' gnt='n' gnd='f'>ailm</N>"
 msgstr ""
 
@@ -1774,7 +1778,7 @@ msgid "<F>aindiúid</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>aindleathach</A>"
-msgstr ""
+msgstr "mì-laghail_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>aindleathacht</N>"
 msgstr ""
@@ -2204,7 +2208,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>aireachasú</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>aireacht</N>"
-msgstr ""
+msgstr "ministrealachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>aireachtáil</N>"
 msgstr "faireachdainn"
@@ -2270,6 +2274,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>airgeadán</N>"
 msgstr ""
 
+# or "maoineachas_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>airgeadas</N>"
 msgstr "airgeadas"
 
@@ -2493,6 +2498,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>aisfhilleadh</N>"
 msgstr ""
 
+msgid "<A pl='n' gnt='n'>aisfhillteach</A>"
+msgstr ""
+
 msgid "<F>aisfhotha</F>"
 msgstr ""
 
@@ -2667,8 +2675,9 @@ msgstr ""
 msgid "<F>aistreán</F>"
 msgstr ""
 
+# n. traveler
 msgid "<F>aistreánach</F>"
-msgstr ""
+msgstr "neach-siubhail_nm"
 
 msgid "<A pl='n' gnt='n'>aistreánach</A>"
 msgstr ""
@@ -2767,6 +2776,9 @@ msgid "<N pl='n' gnt='n' gnd='f'>aithis</N>"
 msgstr "aithis"
 
 msgid "<A pl='n' gnt='n'>aithiseach</A>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>aithiseoir</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>aithisigh</V>"
@@ -2890,7 +2902,7 @@ msgid "<N pl='n' gnt='n'>ala</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>alabhog</A>"
-msgstr ""
+msgstr "meadh-bhlàth_a"
 
 msgid "<F>alabhreac</F>"
 msgstr ""
@@ -3434,7 +3446,7 @@ msgstr "òran_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>Amhrán</N>"
 msgstr "Òran_nm"
 
-# SBG - also "seinneadair"
+# SBG - also "seinneadair", "neach-seinn"
 msgid "<N pl='n' gnt='n' gnd='m'>amhránaí</N>"
 msgstr "òranaiche_nm"
 
@@ -4801,6 +4813,7 @@ msgstr "ar_poss"
 msgid "<N pl='n' gnt='n' gnd='m'>ár</N>"
 msgstr "àr_nm"
 
+# disambig: (1) temple (head)  (2) charioteer
 msgid "<N pl='n' gnt='n' gnd='m'>ara</N>"
 msgstr "camag"
 
@@ -5034,6 +5047,9 @@ msgid "<N pl='n' gnt='n' gnd='m'>ardchíos</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>ardchlár</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>ardchodarsnacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>ardchomhairle</N>"
@@ -5357,7 +5373,7 @@ msgid "<A pl='n' gnt='n'>Artach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>artaire</N>"
-msgstr ""
+msgstr "mòr-chuisle_nf"
 
 msgid "<A pl='n' gnt='n'>artaireach</A>"
 msgstr ""
@@ -5681,6 +5697,12 @@ msgid "<N pl='n' gnt='n' gnd='m'>atáirgeadh</N>"
 msgstr ""
 
 msgid "<F>atairiscint</F>"
+msgstr ""
+
+msgid "<V p='y' t='ord'>ataispeáin</V>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>ataispeáint</N>"
 msgstr ""
 
 msgid "<F>atall</F>"
@@ -6177,6 +6199,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>athléamh</N>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='m'>athleasú</N>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='f'>athléim</N>"
 msgstr ""
 
@@ -6196,6 +6221,9 @@ msgid "<N pl='n' gnt='n' gnd='m'>athlíonadh</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>athlonnaigh</V>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>athlua</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>athluaigh</V>"
@@ -6319,13 +6347,13 @@ msgid "<N pl='n' gnt='n' gnd='f'>athruaill</N>"
 msgstr "ath-cheumnachadh_nm"
 
 msgid "<A pl='n' gnt='n'>athscinmeach</A>"
-msgstr ""
+msgstr "lastaig_a"
 
 msgid "<F>athscinmeacht</F>"
 msgstr ""
 
 msgid "<F>athscinmeán</F>"
-msgstr ""
+msgstr "lastaig_nf"
 
 msgid "<V p='y' t='ord'>athscinn</V>"
 msgstr ""
@@ -6572,7 +6600,7 @@ msgid "<A pl='n' gnt='n'>Bablónach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>bábóg</N>"
-msgstr ""
+msgstr "liùdhag_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>babún</N>"
 msgstr ""
@@ -6718,9 +6746,11 @@ msgstr ""
 msgid "<F>báfhuinneog</F>"
 msgstr ""
 
+# or "maoidh_v"
 msgid "<V p='y' t='ord'>bagair</V>"
 msgstr "bagair"
 
+# or maoidheadh
 msgid "<N pl='n' gnt='n' gnd='f'>bagairt</N>"
 msgstr "bagairt"
 
@@ -6888,7 +6918,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>bailitheacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>bailitheoir</N>"
-msgstr ""
+msgstr "neach-trusaidh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>bailiú</N>"
 msgstr ""
@@ -6955,7 +6985,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>bainis</N>"
 msgstr "banais_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>bainisteoir</N>"
-msgstr ""
+msgstr "manaidsear_nm"
 
 msgid "<F>bainisteoireach</F>"
 msgstr ""
@@ -8305,6 +8335,7 @@ msgstr "beulach_a"
 msgid "<A pl='n' gnt='n'>béalscaoilte</A>"
 msgstr ""
 
+# or "Màigh_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>Bealtaine</N>"
 msgstr "Bealltainn"
 
@@ -8328,7 +8359,7 @@ msgid "<F>Beangálach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>beangán</N>"
-msgstr "meanglan"
+msgstr "meanglan_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>beangú</N>"
 msgstr ""
@@ -9356,7 +9387,7 @@ msgid "<V p='y' t='ord'>bladhm</V>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>bladhmach</A>"
-msgstr ""
+msgstr "lasrach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>bladhmaire</N>"
 msgstr ""
@@ -10027,7 +10058,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>bogthaise</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>bogthe</A>"
-msgstr ""
+msgstr "meadh-bhlàth_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>bogtheas</N>"
 msgstr ""
@@ -10319,7 +10350,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>bollán</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>bollóg</N>"
-msgstr ""
+msgstr "lof_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>bolmán</N>"
 msgstr ""
@@ -11015,7 +11046,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>breaclach</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>breacleabhar</N>"
-msgstr ""
+msgstr "leabhar-sgrìobhaidh_nm"
 
 msgid "<F>breacóg</F>"
 msgstr ""
@@ -11196,7 +11227,7 @@ msgid "<A pl='n' gnt='n'>breathnaitheach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>breathnóir</N>"
-msgstr ""
+msgstr "neach-amhairc_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>breathnóireacht</N>"
 msgstr ""
@@ -11316,6 +11347,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>breithiúnas</N>"
 msgstr ""
 
+# or latha-breith
 msgid "<N pl='n' gnt='n' gnd='m'>breithlá</N>"
 msgstr "breith-là"
 
@@ -11534,7 +11566,7 @@ msgid "<F>briota</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>briotach</A>"
-msgstr ""
+msgstr "liotach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Briotáin</N>"
 msgstr "Breatainn Bheag_nf"
@@ -11780,6 +11812,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>bróis</N>"
 msgstr ""
 
+# or leabhrachan_nm
 msgid "<N pl='n' gnt='n' gnd='m'>bróisiúr</N>"
 msgstr "leabhran_nm"
 
@@ -12029,8 +12062,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>bruithneog</N>"
 msgstr ""
 
+# smelter
 msgid "<N pl='n' gnt='n' gnd='m'>bruithneoir</N>"
-msgstr ""
+msgstr "leaghadair_nm"
 
 msgid "<V p='y' t='ord'>bruithnigh</V>"
 msgstr ""
@@ -12147,7 +12181,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>buadán</N>"
 msgstr "cuaran"
 
 msgid "<N pl='n' gnt='n' gnd='f'>buaf</N>"
-msgstr ""
+msgstr "muile-mhàg_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>buafhocal</N>"
 msgstr ""
@@ -12485,12 +12519,14 @@ msgstr "boile"
 msgid "<N pl='n' gnt='n' gnd='f'>Buile</N>"
 msgstr "Boile"
 
+# or "lof_nf"
 msgid "<N pl='n' gnt='n' gnd='m'>builín</N>"
-msgstr "buileann"
+msgstr "buileann_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>buille</N>"
 msgstr "buille"
 
+# n. bullion
 msgid "<F>buillean</F>"
 msgstr ""
 
@@ -12498,7 +12534,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>buimbiléir</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>buime</N>"
-msgstr "muime"
+msgstr "muime_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>buimpéis</N>"
 msgstr ""
@@ -12798,6 +12834,9 @@ msgid "<N pl='n' gnt='n' gnd='f'>bunchóip</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>bunchóta</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>bunchruth</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>bunchúis</N>"
@@ -13113,6 +13152,7 @@ msgstr "abartach"
 msgid "<F>cabar</F>"
 msgstr "cabar"
 
+# cavity; also "chaff"
 msgid "<N pl='n' gnt='n' gnd='m'>cabha</N>"
 msgstr ""
 
@@ -13481,11 +13521,13 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>caile</N>"
 msgstr "caileag_nf"
 
+# feminine, girlish, a.
 msgid "<F>caileanda</F>"
 msgstr ""
 
+# SBG
 msgid "<N pl='n' gnt='n' gnd='m'>caileandar</N>"
-msgstr ""
+msgstr "caladair_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>caileann</N>"
 msgstr ""
@@ -13964,6 +14006,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>caisiú</N>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='f'>Caisiúibis</N>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='m'>caisleán</N>"
 msgstr "caisteal"
 
@@ -14086,8 +14131,9 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>caithiseach</A>"
 msgstr ""
 
+# husks, chaff, etc.  - SBG
 msgid "<N pl='n' gnt='n' gnd='f'>cáithleach</N>"
-msgstr "càileach"
+msgstr "càileach_nm"
 
 msgid "<F>cáithluibh</F>"
 msgstr "cadh-luibh"
@@ -14528,8 +14574,9 @@ msgstr ""
 msgid "<F>cancracht</F>"
 msgstr ""
 
+# v. vex
 msgid "<F>cancraigh</F>"
-msgstr ""
+msgstr "leamhaich_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>cancrán</N>"
 msgstr ""
@@ -15727,8 +15774,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>céadchosach</N>"
 msgstr "mial-chòsach"
 
+# forelock
 msgid "<F>céad-dlaoi</F>"
-msgstr ""
+msgstr "logaidh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>céadeagrán</N>"
 msgstr ""
@@ -16031,6 +16079,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>ceannaghaidh</N>"
 msgstr ""
 
+# or "neach-ceannaich"
 msgid "<N pl='n' gnt='n' gnd='m'>ceannaí</N>"
 msgstr "ceannaiche"
 
@@ -16062,7 +16111,7 @@ msgid "<N pl='y' gnt='n' gnd='f'>ceannaithe</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>ceannaitheoir</N>"
-msgstr ""
+msgstr "neach-ceannaich_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>ceannann</N>"
 msgstr ""
@@ -16856,8 +16905,11 @@ msgstr ""
 msgid "<V p='y' t='ord'>ceistigh</V>"
 msgstr "ceistich"
 
+msgid "<N pl='n' gnt='n' gnd='m'>ceistitheoir</N>"
+msgstr "neach-ceasnachaidh_nm"
+
 msgid "<N pl='n' gnt='n' gnd='m'>ceistiú</N>"
-msgstr "ceisteachadh"
+msgstr "ceisteachadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>ceistiúchán</N>"
 msgstr ""
@@ -16998,6 +17050,7 @@ msgstr ""
 msgid "<U>charbh</U>"
 msgstr ""
 
+# or "mar-thà_adv"
 msgid "<R>cheana</R>"
 msgstr "a-cheana_adv"
 
@@ -17074,6 +17127,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>ciall</N>"
 msgstr "ciall"
 
+# "minig_v" = "to mean"
 msgid "<V p='y' t='ord'>ciallaigh</V>"
 msgstr "ciallaich"
 
@@ -17263,7 +17317,7 @@ msgid "<A pl='n' gnt='n'>cigilteach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>cigire</N>"
-msgstr ""
+msgstr "neach-sgrùdaidh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>cigireacht</N>"
 msgstr ""
@@ -18600,6 +18654,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>cliobaire</N>"
 msgstr ""
 
+# also filly = gd "loth_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>cliobóg</N>"
 msgstr "cliobag"
 
@@ -19134,11 +19189,12 @@ msgid "<A pl='n' gnt='n'>cnagbhruite</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>cnagbhruith</N>"
-msgstr ""
+msgstr "leth-bhruicheadh_nm"
 
 msgid "<V p='y' t='ord'>cnagbhruith</V>"
-msgstr ""
+msgstr "leth-bhruich_v"
 
+# n. nutcracker
 msgid "<F>cnagóir</F>"
 msgstr ""
 
@@ -19400,7 +19456,7 @@ msgid "<A pl='n' gnt='n'>cnuasaitheach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>cnuasaitheoir</N>"
-msgstr ""
+msgstr "neach-trusaidh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>cnuasphointe</N>"
 msgstr ""
@@ -19921,7 +19977,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>coimhdeacht</N>"
 msgstr "coimhideachd"
 
 msgid "<N pl='n' gnt='n' gnd='m'>coimhdire</N>"
-msgstr ""
+msgstr "neach-frithealaidh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>cóimheá</N>"
 msgstr ""
@@ -19939,7 +19995,7 @@ msgid "<F>coimhéadach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>coimhéadaí</N>"
-msgstr ""
+msgstr "neach-coimhid_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>cóimheas</N>"
 msgstr "coimheas_nm"
@@ -20447,6 +20503,9 @@ msgstr ""
 
 msgid "<F>coirnéad</F>"
 msgstr "coirneid"
+
+msgid "<N pl='n' gnt='n' gnd='f'>coirneáil</N>"
+msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>coirnéal</N>"
 msgstr "coirneal"
@@ -21008,12 +21067,14 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>cómhargáil</N>"
 msgstr ""
 
+# nàbaidh_nm?
 msgid "<N pl='n' gnt='n' gnd='f'>comharsa</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>comharsanach</N>"
 msgstr ""
 
+# or nàbachd_nf
 msgid "<N pl='n' gnt='n' gnd='f'>comharsanacht</N>"
 msgstr "coimhearsnachd"
 
@@ -21498,8 +21559,9 @@ msgstr ""
 msgid "<V p='y' t='ord'>comhlánaigh</V>"
 msgstr ""
 
+# match (game)
 msgid "<N pl='n' gnt='n' gnd='m'>comhlann</N>"
-msgstr ""
+msgstr "maidse_nm"
 
 msgid "<A pl='n' gnt='n'>comhlántach</A>"
 msgstr ""
@@ -22075,6 +22137,7 @@ msgstr ""
 msgid "<Q>conas</Q>"
 msgstr "ciamar_interr"
 
+# disambig: general, grammatical (naisgear)?
 msgid "<N pl='n' gnt='n' gnd='m'>cónasc</N>"
 msgstr "nasgadh"
 
@@ -23349,8 +23412,9 @@ msgstr "Craobh_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>craobh-abhainn</N>"
 msgstr ""
 
+# sty (eye)
 msgid "<F>craobhabhar</F>"
-msgstr ""
+msgstr "leamhnagan_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>craobhach</N>"
 msgstr ""
@@ -24631,7 +24695,7 @@ msgid "<N pl='y' gnt='n' gnd='m'>cruinnithe</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>cruinnitheoir</N>"
-msgstr ""
+msgstr "neach-trusaidh_nm"
 
 # disambig: vn vs. "meeting" (gd coinneamh)
 msgid "<N pl='n' gnt='n' gnd='m'>cruinniú</N>"
@@ -24899,6 +24963,12 @@ msgid "<V p='y' t='ord'>cuardaigh</V>"
 msgstr "rannsaich_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>cuardaitheoir</N>"
+msgstr ""
+
+msgid "<F>cuarshuimeáil</F>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>cuarshuimeálaí</N>"
 msgstr ""
 
 msgid "<N pl='y' gnt='n' gnd='f'>cuarta</N>"
@@ -25412,7 +25482,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>cuiseog</N>"
 msgstr "cuiseag"
 
 msgid "<N pl='n' gnt='n' gnd='m'>cúiseoir</N>"
-msgstr ""
+msgstr "neach-casaid_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>cúisí</N>"
 msgstr ""
@@ -25430,7 +25500,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>cúisíocht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>cúisitheoir</N>"
-msgstr ""
+msgstr "neach-casaid_nm"
 
 msgid "<F>cúisiúil</F>"
 msgstr ""
@@ -25448,7 +25518,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>cuisliú</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>cuisne</N>"
-msgstr ""
+msgstr "liath-reothadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>cuisneán</N>"
 msgstr ""
@@ -25935,6 +26005,7 @@ msgstr "cunntachalachd_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>cuntasaíocht</N>"
 msgstr "cunntasachd"
 
+# or "neach-cunntais_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>cuntasóir</N>"
 msgstr "cunntasair_nm"
 
@@ -26577,6 +26648,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>dámhachtain</N>"
 msgstr ""
 
+# or langanaich_nf
 msgid "<N pl='n' gnt='n' gnd='f'>damhaíre</N>"
 msgstr "nuallanaich_nf"
 
@@ -27586,6 +27658,9 @@ msgstr "deasag_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>deastógáil</N>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='m'>déata</N>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='m'>deatach</N>"
 msgstr "deatach"
 
@@ -27741,6 +27816,9 @@ msgid "<A pl='n' gnt='n'>deighilteach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>deighilteoir</N>"
+msgstr ""
+
+msgid "<F>deighleán</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>deighleog</N>"
@@ -28363,7 +28441,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>dialachtaic</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>dialann</N>"
-msgstr ""
+msgstr "leabhar-latha_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>dialannaí</N>"
 msgstr ""
@@ -28619,6 +28697,9 @@ msgid "<A pl='n' gnt='n'>díchéillí</A>"
 msgstr "mì-chèillidh"
 
 msgid "<N pl='n' gnt='n' gnd='f'>díchiall</N>"
+msgstr ""
+
+msgid "<V p='y' t='ord'>díchláraigh</V>"
 msgstr ""
 
 msgid "<F>díchnámhaigh</F>"
@@ -29248,8 +29329,9 @@ msgstr ""
 msgid "<F>diomachroíoch</F>"
 msgstr ""
 
+# n. ingratitude
 msgid "<F>diomaí</F>"
-msgstr ""
+msgstr "mì-thaingealachd_nf"
 
 msgid "<V p='y' t='ord'>diomail</V>"
 msgstr ""
@@ -29267,7 +29349,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>diomailteoir</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>diomaíoch</A>"
-msgstr ""
+msgstr "mì-thaingeil_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>diomaíochas</N>"
 msgstr "diobhuidheachas"
@@ -29460,8 +29542,9 @@ msgstr ""
 msgid "<F>díotáil</F>"
 msgstr ""
 
+# indicter, prosecutor
 msgid "<F>díotálaí</F>"
-msgstr ""
+msgstr "neach-casaid_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>díotchúiseamh</N>"
 msgstr ""
@@ -30177,7 +30260,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>dochtúir</N>"
 msgstr "dotair_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>dochtúireacht</N>"
-msgstr "dotaireachd"
+msgstr "dotaireachd_nf"
 
 msgid "<A pl='n' gnt='n'>dóchúil</A>"
 msgstr ""
@@ -31152,7 +31235,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>draoibeog</N>"
 msgstr "dràbag_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>draoidín</N>"
-msgstr ""
+msgstr "lucharan_nf"
 
 msgid "<N pl='n' gnt='n'>draothadh</N>"
 msgstr ""
@@ -31505,8 +31588,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>drochmhianach</N>"
 msgstr ""
 
+# or act = mì-mhisneachadh
 msgid "<N pl='n' gnt='n' gnd='m'>drochmhisneach</N>"
-msgstr "droch-mhisneachd"
+msgstr "droch-mhisneachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>drochmhuinín</N>"
 msgstr ""
@@ -31967,7 +32051,7 @@ msgid "<F>dúbla</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>dúblach</N>"
-msgstr ""
+msgstr "lethbhreac_nm"
 
 msgid "<A pl='n' gnt='n'>dúblach</A>"
 msgstr ""
@@ -32251,8 +32335,9 @@ msgstr ""
 msgid "<F>dúlíonach</F>"
 msgstr ""
 
+# n. melancholy
 msgid "<F>dúlionn</F>"
-msgstr ""
+msgstr "leann-dubh_nm"
 
 msgid "<F>dúlionnach</F>"
 msgstr ""
@@ -32339,13 +32424,13 @@ msgid "<N pl='n' gnt='n' gnd='f'>dúnghaois</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>dúnmharaigh</V>"
-msgstr ""
+msgstr "murt_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>dúnmharfóir</N>"
-msgstr ""
+msgstr "murtair_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>dúnmharú</N>"
-msgstr ""
+msgstr "murtadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>dúnorgain</N>"
 msgstr ""
@@ -33495,7 +33580,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>easonóir</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>easonórach</A>"
-msgstr ""
+msgstr "mì-onarach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>easordú</N>"
 msgstr ""
@@ -33891,6 +33976,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>Éilísiam</N>"
 msgstr ""
 
+# also "maoiseach_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>eilit</N>"
 msgstr "eilid_nf"
 
@@ -34129,7 +34215,7 @@ msgstr ""
 msgid "<F>éiritheacht</F>"
 msgstr ""
 
-msgid "<N pl='n' gnt='n' gnd='m'>Eiritré</N>"
+msgid "<N pl='n' gnt='n' gnd='f'>Eiritré</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>eirleach</N>"
@@ -34378,6 +34464,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>éisteacht</N>"
 msgstr "èisteachd"
 
+# or "neach-èisteachd"
 msgid "<N pl='n' gnt='n' gnd='m'>éisteoir</N>"
 msgstr "èisdear"
 
@@ -35340,7 +35427,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>falscaí</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>falsóir</N>"
-msgstr ""
+msgstr "leisgeadair_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>falsú</N>"
 msgstr ""
@@ -35856,7 +35943,7 @@ msgid "<V p='y' t='ord'>féach</V>"
 msgstr "feuch"
 
 msgid "<N pl='n' gnt='n' gnd='m'>féachadóir</N>"
-msgstr ""
+msgstr "neach-amhairc_nm"
 
 # or "coimhead"
 msgid "<N pl='n' gnt='n' gnd='f'>féachaint</N>"
@@ -36356,7 +36443,7 @@ msgid "<F>féilíocht</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>féilire</N>"
-msgstr ""
+msgstr "mìosachan_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>feiliúint</N>"
 msgstr ""
@@ -36421,7 +36508,13 @@ msgstr ""
 msgid "<F>féinchaomhnú</F>"
 msgstr ""
 
+msgid "<A pl='n' gnt='n'>féinchogúsach</A>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='f'>féinchosaint</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>féinchránas</N>"
 msgstr ""
 
 msgid "<F>féinchuingeach</F>"
@@ -37574,7 +37667,7 @@ msgid "<F>fiosúil</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>fíothal</N>"
-msgstr ""
+msgstr "lucharan_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>firéad</N>"
 msgstr "firead"
@@ -37617,7 +37710,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>fíric</N>"
 msgstr "fìrinn"
 
 msgid "<N pl='n' gnt='n' gnd='m'>firín</N>"
-msgstr ""
+msgstr "lucharan_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>fírinne</N>"
 msgstr "fìrinn_nf"
@@ -37889,6 +37982,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>fleiscín</N>"
 msgstr "sgrìob-cheangail_nf"
 
+msgid "<F>fleiscínigh</F>"
+msgstr ""
+
 msgid "<F>fleiscíniú</F>"
 msgstr ""
 
@@ -38087,6 +38183,9 @@ msgid "<F>fochaid</F>"
 msgstr "fochaid"
 
 msgid "<F>fochaideach</F>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>focháipéis</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n'>fochair</N>"
@@ -38408,6 +38507,7 @@ msgstr ""
 msgid "<V p='y' t='ord'>foilsigh</V>"
 msgstr "foillsich"
 
+# also "neach-foillseachaidh"
 msgid "<N pl='n' gnt='n' gnd='m'>foilsitheoir</N>"
 msgstr "foillsichear"
 
@@ -38604,8 +38704,9 @@ msgstr ""
 msgid "<F>foistine</F>"
 msgstr ""
 
+# diver, grebe
 msgid "<F>foitheach</F>"
-msgstr ""
+msgstr "learg_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>fo-ithir</N>"
 msgstr ""
@@ -38828,7 +38929,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>fonnadh</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>fonnadóir</N>"
-msgstr ""
+msgstr "neach-seinn_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>fonnadóireacht</N>"
 msgstr ""
@@ -39571,7 +39672,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>fosú</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>fótachóip</N>"
-msgstr ""
+msgstr "lethbhreac_nm"
 
 msgid "<V p='y' t='ord'>fótachóipeáil</V>"
 msgstr ""
@@ -39740,6 +39841,9 @@ msgstr "Frangach_nm"
 
 msgid "<A pl='n' gnt='n'>Francach</A>"
 msgstr "Frangach_a"
+
+msgid "<F>Francachas</F>"
+msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>francbhéarla</N>"
 msgstr ""
@@ -40615,7 +40719,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>fuil</N>"
 msgstr "fuil"
 
 msgid "<N pl='n' gnt='n' gnd='m'>fuilaistriú</N>"
-msgstr ""
+msgstr "leasachadh-fala_nm"
 
 msgid "<A pl='n' gnt='n'>fuilchíocrach</A>"
 msgstr ""
@@ -41684,7 +41788,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>gambún</N>"
 msgstr "gaman"
 
 msgid "<N pl='n' gnt='n' gnd='m'>gamhain</N>"
-msgstr ""
+msgstr "laogh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>gamhnach</N>"
 msgstr "gamhnach"
@@ -43314,7 +43418,7 @@ msgid "<F>giollaigh</F>"
 msgstr ""
 
 msgid "<F>giollanra</F>"
-msgstr ""
+msgstr "luchd-frithealaidh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>gíománach</N>"
 msgstr ""
@@ -43386,7 +43490,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>giortú</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>giorún</N>"
-msgstr ""
+msgstr "leanabh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>giosáil</N>"
 msgstr ""
@@ -43821,7 +43925,7 @@ msgid "<F>glasrachán</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>glasreo</N>"
-msgstr ""
+msgstr "liath-reothadh_nm"
 
 msgid "<F>glasrúil</F>"
 msgstr ""
@@ -45002,6 +45106,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>gósta</N>"
 msgstr ""
 
+# or "mabach_a"
 msgid "<A pl='n' gnt='n'>gotach</A>"
 msgstr "mùgach"
 
@@ -46512,6 +46617,7 @@ msgstr ""
 msgid "<F>haras</F>"
 msgstr ""
 
+# also "mòr-ghath"
 msgid "<N pl='n' gnt='n' gnd='m'>harpún</N>"
 msgstr "murghadh_nm"
 
@@ -47827,7 +47933,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>ilchomórtas</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>ilchríoch</N>"
-msgstr ""
+msgstr "mòr-roinn_nf"
 
 msgid "<A pl='n' gnt='n'>ilchríochach</A>"
 msgstr ""
@@ -48418,6 +48524,9 @@ msgid "<A pl='n' gnt='n'>inathnuaite</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>inathraithe</A>"
+msgstr ""
+
+msgid "<A pl='n' gnt='n'>inathraitheach</A>"
 msgstr ""
 
 msgid "<F>inathraitheacht</F>"
@@ -49678,7 +49787,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>iománaíocht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>iomann</N>"
-msgstr ""
+msgstr "laoidh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>iomarbhá</N>"
 msgstr ""
@@ -49869,7 +49978,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>iomrall</N>"
 msgstr "iomrall_nm"
 
 msgid "<A pl='n' gnt='n'>iomrallach</A>"
-msgstr "iomrallach"
+msgstr "iomrallach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>iomramh</N>"
 msgstr "iomramh"
@@ -49906,6 +50015,9 @@ msgstr "Ionad"
 
 msgid "<A pl='n' gnt='n'>ionadach</A>"
 msgstr "ionadail_a"
+
+msgid "<F>ionadacht</F>"
+msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>ionadaí</N>"
 msgstr "neach-ionaid_nm"
@@ -50171,7 +50283,7 @@ msgstr ""
 msgid "<V p='y' t='ord'>ionramháil</V>"
 msgstr ""
 
-msgid "<F>ionramhálaí</F>"
+msgid "<N pl='n' gnt='n' gnd='m'>ionramhálaí</N>"
 msgstr ""
 
 msgid "<F>ionraon</F>"
@@ -50281,6 +50393,9 @@ msgid "<A pl='n' gnt='n'>iontaisithe</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>iontamhail</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>iontamhlú</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>iontaobhach</A>"
@@ -50553,6 +50668,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>iris</N>"
 msgstr "iris"
 
+# or "neach-naidheachd"
 msgid "<N pl='n' gnt='n' gnd='m'>iriseoir</N>"
 msgstr "irisire"
 
@@ -50924,6 +51040,7 @@ msgstr ""
 msgid "<F>ládáil</F>"
 msgstr ""
 
+# also "liagh_nf" for ladle
 msgid "<N pl='n' gnt='n' gnd='m'>ladar</N>"
 msgstr "ladar"
 
@@ -51026,7 +51143,7 @@ msgid "<A pl='n' gnt='n'>laghdaitheach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>laghdú</N>"
-msgstr "lùghdachadh"
+msgstr "lùghdachadh_nm"
 
 msgid "<A pl='n' gnt='n'>lagintinneach</A>"
 msgstr ""
@@ -51093,7 +51210,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>Laideanóis</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>laidhricín</N>"
-msgstr ""
+msgstr "lùdag_nf"
 
 msgid "<F>laidhrín</F>"
 msgstr ""
@@ -51233,8 +51350,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>laiste</N>"
 msgstr ""
 
+# a. lazy
 msgid "<F>laiste</F>"
-msgstr ""
+msgstr "leisg_a"
 
 msgid "<S>laisteas</S>"
 msgstr ""
@@ -51275,20 +51393,24 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>laitéis</N>"
 msgstr ""
 
+# immediately
 msgid "<R>láithreach</R>"
 msgstr ""
 
+# n. ruined site, ruin
 msgid "<F>láithreach</F>"
-msgstr ""
+msgstr "làrach_nf"
 
+# a. present, immediate
 msgid "<A pl='n' gnt='n'>láithreach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>láithreacht</N>"
 msgstr "làthaireachd"
 
+# yes - since "làrach-lìn" is "web site"
 msgid "<N pl='n' gnt='n' gnd='m'>láithreán</N>"
-msgstr ""
+msgstr "làrach_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>láithreas</N>"
 msgstr ""
@@ -51333,7 +51455,7 @@ msgid "<F>lámha</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lámhacán</N>"
-msgstr ""
+msgstr "màgaran_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lámhach</N>"
 msgstr ""
@@ -51502,7 +51624,7 @@ msgid "<A pl='n' gnt='n'>lánfhada</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>langa</N>"
-msgstr "langa"
+msgstr "langa_nf"
 
 # n. "tangle" (seaweed)  - no cognate in Dw.
 msgid "<F>langach</F>"
@@ -51534,9 +51656,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>lann</N>"
 msgstr "lann_nf"
 
-# n. land/building/house
+# n. land/building/house; TYG
 msgid "<F>lann</F>"
-msgstr ""
+msgstr "lann_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lannach</N>"
 msgstr ""
@@ -51577,7 +51699,7 @@ msgid "<F>lánrith</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lansa</N>"
-msgstr "lannsa"
+msgstr "lannsa_nf"
 
 msgid "<A pl='n' gnt='n'>lansach</A>"
 msgstr ""
@@ -51592,6 +51714,9 @@ msgid "<A pl='n' gnt='n'>lánsásta</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>lánscáil</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>lánscáileán</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>lánscoir</V>"
@@ -51647,7 +51772,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>lao</N>"
 msgstr "laogh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>laoch</N>"
-msgstr "laoch"
+msgstr "laoch_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>laochadhradh</N>"
 msgstr ""
@@ -51671,7 +51796,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>laofheoil</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>laoi</N>"
-msgstr ""
+msgstr "laoidh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Laoi</N>"
 msgstr ""
@@ -51817,13 +51942,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>lárú</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>las</V>"
-msgstr "las"
+msgstr "las_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lása</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lasadh</N>"
-msgstr "lasadh"
+msgstr "lasadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>lásáil</N>"
 msgstr ""
@@ -51832,7 +51957,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>lasáinne</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>lasair</N>"
-msgstr "lasair"
+msgstr "lasair_nf"
 
 msgid "<F>lasairchíor</F>"
 msgstr ""
@@ -51846,17 +51971,18 @@ msgstr ""
 msgid "<F>lasairtheocht</F>"
 msgstr ""
 
+# disambig; flame, match TYG match=lasadair
 msgid "<N pl='n' gnt='n' gnd='m'>lasán</N>"
-msgstr "lasair"
+msgstr "lasair;lasadair_nm"
 
 msgid "<A pl='n' gnt='n'>lasánta</A>"
-msgstr ""
+msgstr "lasrach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>lasántacht</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>lasartha</A>"
-msgstr "lasarra"
+msgstr "lasarra_a"
 
 msgid "<F>lasarthacht</F>"
 msgstr ""
@@ -51908,7 +52034,7 @@ msgid "<A pl='n' gnt='n'>lasnairde</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>lasóg</N>"
-msgstr ""
+msgstr "lasair_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lasta</N>"
 msgstr ""
@@ -51975,10 +52101,10 @@ msgid "<N pl='n' gnt='n' gnd='m'>láth</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>lathach</N>"
-msgstr "làthach"
+msgstr "làthach_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>láthair</N>"
-msgstr "làthair"
+msgstr "làthair_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>lathairt</N>"
 msgstr ""
@@ -52002,7 +52128,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>leá</N>"
 msgstr "leaghadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leaba</N>"
-msgstr "leabaidh"
+msgstr "leabaidh_nf"
 
 msgid "<V p='y' t='ord'>leabaigh</V>"
 msgstr "leabaich"
@@ -52020,13 +52146,14 @@ msgid "<F>leabhairchruthach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leabhairín</N>"
-msgstr ""
+msgstr "leabhran_nm"
 
+# libel
 msgid "<N pl='n' gnt='n' gnd='m'>leabhal</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leabhar</N>"
-msgstr "leabhar"
+msgstr "leabhar_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leábharaic</N>"
 msgstr ""
@@ -52053,10 +52180,10 @@ msgid "<N pl='n' gnt='n' gnd='f'>leabhareolaíocht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>leabharlann</N>"
-msgstr "leabharlann"
+msgstr "leabharlann_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leabharlannaí</N>"
-msgstr "leabharlannaiche"
+msgstr "leabharlannaiche_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leabharliosta</N>"
 msgstr ""
@@ -52082,8 +52209,9 @@ msgstr ""
 msgid "<V p='y' t='ord'>leabhraigh</V>"
 msgstr ""
 
+# or leabhrachan_nm
 msgid "<N pl='n' gnt='n' gnd='m'>leabhrán</N>"
-msgstr "leabhran"
+msgstr "leabhran_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leabhróg</N>"
 msgstr "leabhran"
@@ -52166,10 +52294,10 @@ msgid "<N pl='n' gnt='n' gnd='m'>leadaí</N>"
 msgstr "lunndair"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leadaíocht</N>"
-msgstr ""
+msgstr "leisge_nf"
 
 msgid "<V p='y' t='ord'>leadair</V>"
-msgstr ""
+msgstr "liodraig_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leadán</N>"
 msgstr "clàdan"
@@ -52198,8 +52326,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>leadhbán</N>"
 msgstr ""
 
+# disambig; tatter, slattern, blow, fish
 msgid "<N pl='n' gnt='n' gnd='f'>leadhbóg</N>"
-msgstr ""
+msgstr "?;?;?;lèabag_nf"
 
 msgid "<F>leadhbógach</F>"
 msgstr ""
@@ -52236,7 +52365,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>leafaos</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>leag</V>"
-msgstr "leag"
+msgstr "leag_v"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leagáid</N>"
 msgstr "leagaid"
@@ -52274,7 +52403,7 @@ msgid "<F>leáise</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>leaisteach</A>"
-msgstr ""
+msgstr "lastaig_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leaisteachas</N>"
 msgstr ""
@@ -52283,7 +52412,7 @@ msgid "<F>leaisteanna</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>leaistic</N>"
-msgstr ""
+msgstr "lastaig_nf"
 
 msgid "<A pl='n' gnt='n'>leáite</A>"
 msgstr "leaghte"
@@ -52294,11 +52423,12 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>léamar</N>"
 msgstr "leamur"
 
+# false friend - gd = vexing, sarcastic   ga = weak, tepid, dull
 msgid "<A pl='n' gnt='n'>leamh</A>"
-msgstr ""
+msgstr "blian_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>léamh</N>"
-msgstr "leughadh"
+msgstr "leughadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leamhach</N>"
 msgstr ""
@@ -52306,11 +52436,12 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>leamhachán</N>"
 msgstr ""
 
+# moth
 msgid "<N pl='n' gnt='n' gnd='m'>leamhan</N>"
 msgstr "leòman"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leamhán</N>"
-msgstr "leamhan"
+msgstr "leamhan_nm"
 
 msgid "<F>leamhaol</F>"
 msgstr ""
@@ -52334,7 +52465,7 @@ msgid "<F>leamstar</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>lean</V>"
-msgstr "lean"
+msgstr "lean_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>léan</N>"
 msgstr ""
@@ -52346,10 +52477,10 @@ msgid "<A pl='n' gnt='n'>leanas</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>leanbaí</A>"
-msgstr "leanabail"
+msgstr "leanabail_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leanbaíocht</N>"
-msgstr "leanabachd"
+msgstr "leanabachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leanbán</N>"
 msgstr "leannan"
@@ -52358,7 +52489,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>leanbh</N>"
 msgstr "leanabh"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leanbhaois</N>"
-msgstr ""
+msgstr "leanabachd_nf"
 
 msgid "<F>leang</F>"
 msgstr ""
@@ -52367,13 +52498,13 @@ msgid "<A pl='n' gnt='n'>léanmhar</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leann</N>"
-msgstr "leann"
+msgstr "leann_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>léann</N>"
 msgstr "oilean"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leannán</N>"
-msgstr "leannan"
+msgstr "leannan_nm"
 
 msgid "<A pl='n' gnt='n'>leannánta</A>"
 msgstr ""
@@ -52396,12 +52527,14 @@ msgstr "leantair"
 msgid "<N pl='n' gnt='n' gnd='f'>leanúint</N>"
 msgstr "leantainn_nf"
 
+# or seilleanach_a
 msgid "<A pl='n' gnt='n'>leanúnach</A>"
-msgstr "seilleanach"
+msgstr "leanailteach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leanúnachas</N>"
-msgstr ""
+msgstr "leantainneachd_nf"
 
+# n. follower
 msgid "<F>leanúnaí</F>"
 msgstr ""
 
@@ -52425,14 +52558,16 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>learg</N>"
 msgstr ""
 
+# or lèirsinn
 msgid "<N pl='n' gnt='n' gnd='m'>léargas</N>"
 msgstr "lèireas"
 
 msgid "<N pl='n' gnt='n' gnd='m'>léaró</N>"
 msgstr ""
 
+# n. larch
 msgid "<N pl='n' gnt='n' gnd='f'>learóg</N>"
-msgstr "learag"
+msgstr "learag_nf"
 
 msgid "<N pl='y' gnt='n' gnd='f'>léaróga</N>"
 msgstr ""
@@ -52441,7 +52576,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>Learpholl</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>léarscáil</N>"
-msgstr ""
+msgstr "mapa_nm"
 
 msgid "<V p='y' t='ord'>léarscáiligh</V>"
 msgstr ""
@@ -52476,14 +52611,16 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>léasadh</N>"
 msgstr "geadadh"
 
+# a. lazy
 msgid "<F>leásaí</F>"
-msgstr ""
+msgstr "leisg_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>léasaí</N>"
 msgstr ""
 
+# disambig? (1) amend (2) season/preserve (3) improve (4) manure
 msgid "<V p='y' t='ord'>leasaigh</V>"
-msgstr "leasaich"
+msgstr "leasaich_v"
 
 msgid "<V p='y' t='ord'>léasaigh</V>"
 msgstr ""
@@ -52492,7 +52629,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>leasainm</N>"
 msgstr "leas-ainm"
 
 msgid "<A pl='n' gnt='n'>leasaithe</A>"
-msgstr "leasaichte"
+msgstr "leasaichte_a"
 
 msgid "<A pl='n' gnt='n'>leasaitheach</A>"
 msgstr ""
@@ -52515,8 +52652,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>leasbhainisteoir</N>"
 msgstr ""
 
+# lazy and reluctant both ga/gd
 msgid "<A pl='n' gnt='n'>leasc</A>"
-msgstr "leisg"
+msgstr "leisg_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leaschathaoirleach</N>"
 msgstr ""
@@ -52582,8 +52720,10 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>leastar</N>"
 msgstr ""
 
+# disambig?: (1) amendment (concrete)  (2) amending (act) (3) manuring
+# also "mathachadh_nm"  = manuring
 msgid "<N pl='n' gnt='n' gnd='m'>leasú</N>"
-msgstr "leasachadh"
+msgstr "leasachadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leasuachtarán</N>"
 msgstr ""
@@ -52637,7 +52777,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>leathamadán</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>leathan</A>"
-msgstr "leathann"
+msgstr "leathann_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathán</N>"
 msgstr ""
@@ -52659,7 +52799,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>leathantas</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathar</N>"
-msgstr "leathar"
+msgstr "leathar_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathbhádóir</N>"
 msgstr ""
@@ -52701,7 +52841,7 @@ msgid "<A pl='n' gnt='n'>leathchéadú</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathcheann</N>"
-msgstr ""
+msgstr "lethcheann_nm"
 
 msgid "<F>leathcheannach</F>"
 msgstr ""
@@ -52712,8 +52852,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>leathcheathrú</N>"
 msgstr ""
 
+# also "leth-chuairt"
 msgid "<N pl='n' gnt='n' gnd='m'>leathchiorcal</N>"
-msgstr "leth-chearcall"
+msgstr "leth-chearcall_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathchliathán</N>"
 msgstr ""
@@ -52725,19 +52866,19 @@ msgid "<N pl='n' gnt='n' gnd='f'>leathchluas</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='d'>leathchois</N>"
-msgstr ""
+msgstr "leth-chas_nf"
 
 msgid "<F>leath-chomhchiallach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>leathchoróin</N>"
-msgstr ""
+msgstr "leth-chrùn_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leathchos</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>leathchruinne</N>"
-msgstr "leth-chruinne"
+msgstr "leth-chruinne_nm"
 
 msgid "<A pl='n' gnt='n'>leathchuibheasach</A>"
 msgstr ""
@@ -52752,7 +52893,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>leathchuma</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathchúpla</N>"
-msgstr ""
+msgstr "leth-aon_nm"
 
 msgid "<A pl='n' gnt='n'>leathdhéanach</A>"
 msgstr ""
@@ -52761,7 +52902,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>leathdhosaen</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathdhuine</N>"
-msgstr ""
+msgstr "lethchiallach_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathéan</N>"
 msgstr ""
@@ -52797,16 +52938,16 @@ msgid "<N pl='n' gnt='n' gnd='m'>leathlaí</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='d'>leathláimh</N>"
-msgstr ""
+msgstr "leth-làmh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leathlámh</N>"
-msgstr ""
+msgstr "leth-làmh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leathmhaig</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathmhíle</N>"
-msgstr ""
+msgstr "leth-mhìle_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathmhilliún</N>"
 msgstr ""
@@ -52839,14 +52980,14 @@ msgid "<N pl='n' gnt='n' gnd='f'>leathphingin</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathphionta</N>"
-msgstr ""
+msgstr "leth-phinnt_nm"
 
 # SBG n. foolscap
 msgid "<F>leathphraitinn</F>"
 msgstr "fulscap_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathphunt</N>"
-msgstr ""
+msgstr "leth-phunnd_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathrann</N>"
 msgstr "lethrann"
@@ -52882,7 +53023,7 @@ msgid "<F>leathshól</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>leathshúil</N>"
-msgstr ""
+msgstr "leth-shùil_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leathstad</N>"
 msgstr ""
@@ -52912,7 +53053,7 @@ msgid "<F>leath-thunna</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>leathuair</N>"
-msgstr ""
+msgstr "leth-uair_nf"
 
 msgid "<F>leatóir</F>"
 msgstr ""
@@ -52963,7 +53104,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>leibide</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>leibideach</A>"
-msgstr ""
+msgstr "leibideach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leibideacht</N>"
 msgstr ""
@@ -53104,7 +53245,7 @@ msgid "<F>léigeartha</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>léigh</V>"
-msgstr "leugh"
+msgstr "leugh_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leigheas</N>"
 msgstr "leigheas_nm"
@@ -53147,7 +53288,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>léimrás</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>léine</N>"
-msgstr "lèine"
+msgstr "lèine_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>léinseach</N>"
 msgstr ""
@@ -53159,7 +53300,7 @@ msgid "<F>leipreach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leipreachán</N>"
-msgstr ""
+msgstr "lucharan_nf"
 
 msgid "<A pl='n' gnt='n'>léir</A>"
 msgstr "lèir_a"
@@ -53210,7 +53351,7 @@ msgid "<F>léirléigh</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>léirmheas</N>"
-msgstr "lèirmheas"
+msgstr "lèirmheas_nm"
 
 msgid "<F>léirmheas</F>"
 msgstr ""
@@ -53258,10 +53399,10 @@ msgid "<N pl='n' gnt='n' gnd='m'>léirsmaoineamh</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>léirstean</N>"
-msgstr ""
+msgstr "lèirsinn_nf"
 
 msgid "<A pl='n' gnt='n'>léirsteanach</A>"
-msgstr ""
+msgstr "lèirsinneach_a"
 
 msgid "<A pl='n' gnt='n'>léirthuisceanach</A>"
 msgstr ""
@@ -53275,20 +53416,22 @@ msgstr "leis_prep"
 msgid "<O>leis</O>"
 msgstr "leis_pronm"
 
+# also
 msgid "<R>leis</R>"
 msgstr ""
 
+# n. thigh,leg,haunch
 msgid "<F>leis</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>leisce</N>"
-msgstr "leisge"
+msgstr "leisge_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leisceoir</N>"
 msgstr "leisgeadair_nm"
 
 msgid "<A pl='n' gnt='n'>leisciúil</A>"
-msgstr ""
+msgstr "leisg_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leispiach</N>"
 msgstr "leisbeach_nm"
@@ -53300,7 +53443,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>leispiachas</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>leite</N>"
-msgstr "lite"
+msgstr "lite_nf"
 
 msgid "<N pl='n' gnt='d'>leith</N>"
 msgstr "leth_nm"
@@ -53310,13 +53453,13 @@ msgid "<N pl='n' gnt='n' gnd='f'>leith</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leithcheal</N>"
-msgstr ""
+msgstr "leth-bhreith_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leithdháileadh</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leithead</N>"
-msgstr "leud"
+msgstr "leud_nm"
 
 msgid "<F>leitheadach</F>"
 msgstr ""
@@ -53324,8 +53467,9 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>leitheadach</A>"
 msgstr ""
 
+# v. 
 msgid "<F>leitheadaigh</F>"
-msgstr ""
+msgstr "leudaich_v"
 
 msgid "<F>leitheadas</F>"
 msgstr ""
@@ -53334,16 +53478,19 @@ msgid "<N pl='n' gnt='n' gnd='m'>leitheadú</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>leithéid</N>"
-msgstr "leithid"
+msgstr "leithid_nf"
 
+# n. jesting
 msgid "<F>leithéis</F>"
 msgstr ""
 
+# n. jester, clown
 msgid "<F>leithéisí</F>"
 msgstr ""
 
+# or leughadair_nm
 msgid "<N pl='n' gnt='n' gnd='m'>léitheoir</N>"
-msgstr ""
+msgstr "neach-leughaidh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>léitheoireacht</N>"
 msgstr "leughadh_nm"
@@ -53373,7 +53520,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>leithlis</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>leithliseach</A>"
-msgstr ""
+msgstr "lethoireach_a"
 
 msgid "<V p='y' t='ord'>leithlisigh</V>"
 msgstr ""
@@ -53403,7 +53550,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>leithscaradh</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>leithscéal</N>"
-msgstr "leisgeul"
+msgstr "leisgeul_nm"
 
 msgid "<A pl='n' gnt='n'>leithscéalach</A>"
 msgstr ""
@@ -53411,11 +53558,12 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>leithscéalú</N>"
 msgstr ""
 
+# n. hillside
 msgid "<F>leitir</F>"
-msgstr ""
+msgstr "leitir_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leitís</N>"
-msgstr "leiteis"
+msgstr "leatas_nm"
 
 msgid "<F>leitreachán</F>"
 msgstr ""
@@ -53499,8 +53647,9 @@ msgstr ""
 msgid "<V p='y' t='ord'>leomh</V>"
 msgstr ""
 
+# lion only
 msgid "<N pl='n' gnt='n' gnd='m'>leon</N>"
-msgstr "leòn_nm"
+msgstr "leòmhann_nm"
 
 msgid "<V p='y' t='ord'>leon</V>"
 msgstr "leòn_v"
@@ -53512,13 +53661,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>leonadh</N>"
 msgstr "leònadh_nm"
 
 msgid "<A pl='n' gnt='n'>leonta</A>"
-msgstr ""
+msgstr "leònte_a"
 
 msgid "<A pl='n' gnt='n'>leor</A>"
 msgstr "leòr_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>leoraí</N>"
-msgstr "làraidh"
+msgstr "làraidh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>leordhóthain</N>"
 msgstr ""
@@ -53548,7 +53697,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>lí</N>"
 msgstr "lìth"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lia</N>"
-msgstr "lighiche"
+msgstr "lighiche_nm"
 
 msgid "<F>Liabáin</F>"
 msgstr ""
@@ -53567,12 +53716,15 @@ msgstr "caoidh_nf"
 msgid "<N pl='n' gnt='n' gnd='m'>lia-chleachtóir</N>"
 msgstr ""
 
+# so many - in phrases
 msgid "<N pl='n' gnt='n'>liacht</N>"
-msgstr ""
+msgstr "liuthad"
 
+# medicine, healing
 msgid "<N pl='n' gnt='n' gnd='f'>liacht</N>"
-msgstr ""
+msgstr "lèigh-eòlas_nm"
 
+# false friend?  ga = stone, headstone   gd leug = jewel, precious stone
 msgid "<N pl='n' gnt='n' gnd='f'>liag</N>"
 msgstr ""
 
@@ -53586,7 +53738,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>liairne</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>lialann</N>"
-msgstr ""
+msgstr "lèigh-lann_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>Liam</N>"
 msgstr "Liam"
@@ -53608,6 +53760,7 @@ msgstr "liagh"
 msgid "<N pl='n' gnt='n' gnd='f'>liarlóg</N>"
 msgstr ""
 
+# n. gray person, cow, etc.
 msgid "<F>liath</F>"
 msgstr ""
 
@@ -53656,8 +53809,9 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>liathghorm</A>"
 msgstr ""
 
+# hoarfrost
 msgid "<F>liathreo</F>"
-msgstr ""
+msgstr "liath-reothadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>liathróid</N>"
 msgstr ""
@@ -53732,7 +53886,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>Life</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>lig</V>"
-msgstr "leig"
+msgstr "leig_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>ligean</N>"
 msgstr "leigeadh_nm"
@@ -53771,7 +53925,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>lindéar</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>líne</N>"
-msgstr "loidhne"
+msgstr "loidhne_nf"
 
 msgid "<A pl='n' gnt='n'>líneach</A>"
 msgstr ""
@@ -53783,10 +53937,10 @@ msgid "<N pl='n' gnt='n' gnd='m'>línéadach</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>líneáil</N>"
-msgstr ""
+msgstr "lìnigeadh_nm"
 
 msgid "<V p='y' t='ord'>líneáil</V>"
-msgstr ""
+msgstr "lìnig_v"
 
 msgid "<A pl='n' gnt='n'>líneáilte</A>"
 msgstr ""
@@ -53831,6 +53985,7 @@ msgstr "leinn_pronm"
 # 1 = pond, pool
 # 2 = <O>linn</O> gramadoir-ga tagging issues
 #  note Gael Linn is best tagged as "1"
+#  also "lòn_nm"  pool, meadow
 msgid "<N pl='n' gnt='n' gnd='f'>linn</N>"
 msgstr "linn_nf;linne_nf;?"
 
@@ -53912,8 +54067,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>liodán</N>"
 msgstr "liotan"
 
+# disambig: speech, speedy, polished lit
 msgid "<A pl='n' gnt='n'>líofa</A>"
-msgstr "deas-labhrach_a"
+msgstr "deas-labhrach_a;?;lìomharra_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>líofacht</N>"
 msgstr "lìomhachd"
@@ -53921,9 +54077,11 @@ msgstr "lìomhachd"
 msgid "<N pl='n' gnt='n' gnd='m'>líofóir</N>"
 msgstr ""
 
+# n. nerve
 msgid "<F>liog</F>"
 msgstr ""
 
+# n. cowlick
 msgid "<F>lióg</F>"
 msgstr ""
 
@@ -53957,8 +54115,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>Liombúis</N>"
 msgstr ""
 
+# v. polish
 msgid "<F>líomh</F>"
-msgstr "lìomh"
+msgstr "lìomh_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>líomhadh</N>"
 msgstr "lìomhadh"
@@ -53985,8 +54144,9 @@ msgid "<N pl='n' gnt='n' gnd='f'>liomóg</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>líomóid</N>"
-msgstr "liomaid"
+msgstr "liomaid_nf"
 
+# flax, web, net all ok
 msgid "<N pl='n' gnt='n' gnd='m'>líon</N>"
 msgstr "lìon_nm"
 
@@ -53994,7 +54154,7 @@ msgid "<V p='y' t='ord'>líon</V>"
 msgstr "lìon_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>líonadh</N>"
-msgstr "lìonadh"
+msgstr "lìonadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>líonán</N>"
 msgstr ""
@@ -54009,10 +54169,11 @@ msgid "<N pl='n' gnt='n' gnd='f'>líonmhaireacht</N>"
 msgstr "lìonmhorachd"
 
 msgid "<A pl='n' gnt='n'>líonmhar</A>"
-msgstr "lìonmhor"
+msgstr "lìonmhor_a"
 
+# false friend? gd=any liquid, ga=humor (bodily)
 msgid "<N pl='n' gnt='n' gnd='m'>lionn</N>"
-msgstr ""
+msgstr "lionn_nm"
 
 msgid "<A pl='n' gnt='n'>lionndubhach</A>"
 msgstr ""
@@ -54082,7 +54243,7 @@ msgid "<A pl='n' gnt='n'>liopasta</A>"
 msgstr "sliobasta"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lios</N>"
-msgstr ""
+msgstr "lios_nf"
 
 msgid "<F>lioscán</F>"
 msgstr ""
@@ -54201,7 +54362,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>liteagrafaíocht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lítear</N>"
-msgstr ""
+msgstr "liotair_nm"
 
 msgid "<A pl='n' gnt='n'>liteartha</A>"
 msgstr "litearra"
@@ -54213,7 +54374,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>litiam</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>litir</N>"
-msgstr "litir"
+msgstr "litir_nf"
 
 msgid "<F>litirbhuama</F>"
 msgstr ""
@@ -54240,7 +54401,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>litríocht</N>"
 msgstr "litreachas_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>litriú</N>"
-msgstr "litreachadh"
+msgstr "litreachadh_nm"
 
 msgid "<A pl='n' gnt='n'>litriúil</A>"
 msgstr ""
@@ -54258,7 +54419,7 @@ msgid "<F>liúdráil</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>liúdramán</N>"
-msgstr ""
+msgstr "leisgeadar_nm"
 
 msgid "<F>liúdramántacht</F>"
 msgstr ""
@@ -54322,7 +54483,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>lobhar</N>"
 msgstr "lobhar_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>lobhra</N>"
-msgstr ""
+msgstr "luibhre_nf"
 
 msgid "<A pl='n' gnt='n'>lobhrach</A>"
 msgstr "lobharach_a"
@@ -54333,6 +54494,7 @@ msgstr ""
 msgid "<V p='y' t='ord'>loc</V>"
 msgstr ""
 
+# disambig: pen/fold, tuft/lock
 msgid "<N pl='n' gnt='n' gnd='m'>loca</N>"
 msgstr "rocan"
 
@@ -54342,15 +54504,16 @@ msgstr ""
 msgid "<N pl='y' gnt='n' gnd='m'>locaí</N>"
 msgstr ""
 
+# v. grind, polish
 msgid "<F>locair</F>"
-msgstr ""
+msgstr "locair_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lócaiste</N>"
 msgstr "locast"
 
 # plane (tool)
 msgid "<F>locar</F>"
-msgstr "locar_nm"
+msgstr "locair_nf"
 
 msgid "<F>locartha</F>"
 msgstr ""
@@ -54370,8 +54533,9 @@ msgstr "loch_nf"
 msgid "<N pl='n' gnt='n' gnd='m'>Loch</N>"
 msgstr "Loch_nf"
 
+# n. chaff; see lóchán too
 msgid "<F>lóch</F>"
-msgstr ""
+msgstr "càth_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>locháinín</N>"
 msgstr ""
@@ -54379,12 +54543,15 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>lochall</N>"
 msgstr "lochal"
 
+# pond, small lake
 msgid "<N pl='n' gnt='n' gnd='m'>lochán</N>"
-msgstr "lochan"
+msgstr "lochan_nm"
 
+# chaff
 msgid "<N pl='n' gnt='n' gnd='m'>lóchán</N>"
-msgstr "salchar"
+msgstr "càth_nf"
 
+# a. in phrase
 msgid "<F>lochartha</F>"
 msgstr ""
 
@@ -54401,19 +54568,19 @@ msgid "<A pl='n' gnt='n'>Lochlannach</A>"
 msgstr "Lochlannach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lóchrann</N>"
-msgstr "lòchran"
+msgstr "lòchran_nm"
 
 msgid "<A pl='n' gnt='n'>lóchrannach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>locht</N>"
-msgstr "lochd"
+msgstr "lochd_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lochta</N>"
 msgstr "lobhta_nm"
 
 msgid "<A pl='n' gnt='n'>lochtach</A>"
-msgstr ""
+msgstr "lochdach_a"
 
 msgid "<V p='y' t='ord'>lochtaigh</V>"
 msgstr "smachdaich"
@@ -54443,7 +54610,7 @@ msgid "<F>locsadrómach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lód</N>"
-msgstr "lòd"
+msgstr "lòd_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>lódáil</N>"
 msgstr ""
@@ -54538,6 +54705,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>lóghlao</N>"
 msgstr ""
 
+msgid "<A pl='n' gnt='n'>lognormálta</A>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='m'>lógó</N>"
 msgstr ""
 
@@ -54587,16 +54757,18 @@ msgid "<N pl='n' gnt='n' gnd='f'>loimpre</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>loine</N>"
-msgstr "loinid"
+msgstr "loinid_nf"
 
+# lunch meat
 msgid "<F>lóineoil</F>"
 msgstr ""
 
+# cartilage, gristle
 msgid "<N pl='n' gnt='n' gnd='m'>loingeán</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>loingeas</N>"
-msgstr "loingeas"
+msgstr "loingeas_nm"
 
 msgid "<F>loingseach</F>"
 msgstr "loingseach"
@@ -54610,11 +54782,12 @@ msgstr ""
 msgid "<V p='y' t='ord'>loingsigh</V>"
 msgstr ""
 
+# fierceness, vehemence
 msgid "<N pl='n' gnt='n' gnd='f'>loinne</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>loinneog</N>"
-msgstr "luinneag"
+msgstr "luinneag_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>loinnir</N>"
 msgstr "loinnear"
@@ -54648,8 +54821,9 @@ msgstr ""
 msgid "<V p='y' t='ord'>loisc</V>"
 msgstr "loisg_v"
 
+# a. flaming
 msgid "<F>loisceanta</F>"
-msgstr ""
+msgstr "lasrach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>loisceoir</N>"
 msgstr "loisgire"
@@ -54671,13 +54845,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>lóiste</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>lóisteáil</N>"
-msgstr "loistean"
+msgstr "loidseadh_nm"
 
 msgid "<V p='y' t='ord'>lóisteáil</V>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lóistéir</N>"
-msgstr ""
+msgstr "loidsear_nm"
 
 # n. ear (pot)
 msgid "<F>loistín</F>"
@@ -54694,9 +54868,11 @@ msgstr ""
 msgid "<V p='y' t='ord'>loit</V>"
 msgstr "lot_v"
 
+# hurt, wounded, etc.
 msgid "<A pl='n' gnt='n'>loite</A>"
 msgstr ""
 
+# a. injurious
 msgid "<F>loiteach</F>"
 msgstr ""
 
@@ -54719,18 +54895,22 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>lom</A>"
 msgstr "lom_a"
 
+# also "lomair_v"
 msgid "<V p='y' t='ord'>lom</V>"
 msgstr "lom_v"
 
+# loon, diver; gd learg is "black-throated diver" which is ga "lóma Artach"
 msgid "<N pl='n' gnt='n' gnd='m'>lóma</N>"
-msgstr ""
+msgstr "learg_nf"
 
+# a. deciduous
 msgid "<F>lomach</F>"
-msgstr ""
+msgstr "seargach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lomadh</N>"
-msgstr "lomadh"
+msgstr "lomadh_nm"
 
+# also "lomaire_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>lomaire</N>"
 msgstr "lomadair_nm"
 
@@ -54778,13 +54958,13 @@ msgid "<A pl='n' gnt='n'>lómhar</A>"
 msgstr "lomrach"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lomlán</N>"
-msgstr ""
+msgstr "loma-làn_a"
 
 msgid "<A pl='n' gnt='n'>lomlán</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>lomnocht</A>"
-msgstr ""
+msgstr "lomnochd_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lomnochtán</N>"
 msgstr ""
@@ -54810,7 +54990,7 @@ msgstr ""
 
 # elk
 msgid "<N pl='n' gnt='n' gnd='m'>lon</N>"
-msgstr "lon"
+msgstr "lon_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lón</N>"
 msgstr "lòn"
@@ -54847,10 +55027,10 @@ msgid "<A pl='n' gnt='n'>longadánach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>longbhá</N>"
-msgstr ""
+msgstr "long-bhriseadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>longbhriseadh</N>"
-msgstr "long-bhriseadh"
+msgstr "long-bhriseadh_nm"
 
 msgid "<A pl='n' gnt='n'>longbhriste</A>"
 msgstr ""
@@ -54970,8 +55150,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>loscadh</N>"
 msgstr "losgadh"
 
+# frog, tadpole, toad
 msgid "<N pl='n' gnt='n' gnd='m'>loscann</N>"
-msgstr "losgann"
+msgstr "losgann_nm"
 
 msgid "<F>loscánta</F>"
 msgstr ""
@@ -54983,7 +55164,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>lot</N>"
 msgstr "lot_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lota</N>"
-msgstr ""
+msgstr "lot_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>lotnaid</N>"
 msgstr ""
@@ -55001,10 +55182,10 @@ msgid "<N pl='n' gnt='n' gnd='m'>Lú</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lua</N>"
-msgstr ""
+msgstr "luaidh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luach</N>"
-msgstr "luach"
+msgstr "luach_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>luacháil</N>"
 msgstr ""
@@ -55013,7 +55194,7 @@ msgid "<V p='y' t='ord'>luacháil</V>"
 msgstr "luachaich_v"
 
 msgid "<N pl='n' gnt='n' gnd='f'>luachair</N>"
-msgstr "luachair"
+msgstr "luachair_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luachálaí</N>"
 msgstr "luachadair"
@@ -55028,7 +55209,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>luachmhaireacht</N>"
 msgstr "luachmhorachd"
 
 msgid "<A pl='n' gnt='n'>luachmhar</A>"
-msgstr "luachmhor"
+msgstr "luachmhor_a"
 
 msgid "<F>luachmhéadaigh</F>"
 msgstr ""
@@ -55049,7 +55230,7 @@ msgid "<F>luadrálaí</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>luaidhe</N>"
-msgstr ""
+msgstr "luaidhe_nf"
 
 msgid "<F>luaidhnimh</F>"
 msgstr ""
@@ -55067,7 +55248,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>luain</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>luaineach</A>"
-msgstr "luaineach"
+msgstr "luaineach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>luaineacht</N>"
 msgstr "luaineachd"
@@ -55091,38 +55272,43 @@ msgid "<N pl='n' gnt='n' gnd='m'>luaiteachas</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>luaith</N>"
-msgstr "luaithre"
+msgstr "luaithre_nf"
 
+# n. quickness, earliness
 msgid "<F>luaithe</F>"
 msgstr "luaithead"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luaithreach</N>"
-msgstr "luaithreadh"
+msgstr "luaithre_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luaithreadán</N>"
-msgstr ""
+msgstr "soitheach-luaithre_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luaithreamhán</N>"
-msgstr ""
+msgstr "luaithre_nf"
 
+# v. sprinkle with ashes
 msgid "<F>luaithrigh</F>"
 msgstr ""
 
 msgid "<F>luaithriúil</F>"
-msgstr ""
+msgstr "luaithreach_a"
 
+# yacht
 msgid "<N pl='n' gnt='n' gnd='m'>luamh</N>"
-msgstr ""
+msgstr "sgoth_nf"
 
+# yachtsman - no SBG
 msgid "<N pl='n' gnt='n' gnd='m'>luamhaire</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>luamhaireacht</N>"
-msgstr ""
+msgstr "luingearachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luamhán</N>"
 msgstr "luamhan"
 
+# leverage  no SBG
 msgid "<N pl='n' gnt='n' gnd='f'>luamhánacht</N>"
 msgstr ""
 
@@ -55133,6 +55319,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>Luan</N>"
 msgstr "Diluain"
 
+# lamb, kid
 msgid "<N pl='n' gnt='n' gnd='m'>luán</N>"
 msgstr "uan"
 
@@ -55141,7 +55328,7 @@ msgid "<F>luanlus</F>"
 msgstr "lus na gealaich_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luas</N>"
-msgstr "luas"
+msgstr "luaths_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luasaire</N>"
 msgstr ""
@@ -55156,19 +55343,23 @@ msgid "<V p='y' t='ord'>luasc</V>"
 msgstr "luaisg"
 
 msgid "<A pl='n' gnt='n'>luascach</A>"
-msgstr ""
+msgstr "luaisgeanach_a"
 
+# pendulum SBG
 msgid "<N pl='n' gnt='n' gnd='m'>luascadán</N>"
-msgstr ""
+msgstr "slat-shiùdain_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luascadh</N>"
 msgstr "luasgadh"
 
+# oscillator SBG
 msgid "<N pl='n' gnt='n' gnd='m'>luascaire</N>"
-msgstr ""
+msgstr "luaisgeanair_nm"
 
+# disambig: (1) act of swinging (2) playground swing, rocker
+# also "luasgadh_nm" for (1) 
 msgid "<N pl='n' gnt='n' gnd='m'>luascán</N>"
-msgstr "luasgadh"
+msgstr "luasgan_nm;?"
 
 msgid "<A pl='n' gnt='n'>luascánach</A>"
 msgstr ""
@@ -55204,7 +55395,7 @@ msgid "<F>luasraon</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>luath</A>"
-msgstr "luath"
+msgstr "luath_a"
 
 msgid "<F>luathaigeanta</F>"
 msgstr ""
@@ -55270,14 +55461,16 @@ msgid "<V p='y' t='ord'>lúb</V>"
 msgstr "lùb_v"
 
 msgid "<A pl='n' gnt='n'>lúbach</A>"
-msgstr "lùbach"
+msgstr "lùbach_a"
 
+# n. homosexual (slang)
 msgid "<F>lúbadán</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lúbadh</N>"
-msgstr "lùbadh"
+msgstr "lùbadh_nm"
 
+# v. link, loop
 msgid "<F>lúbáil</F>"
 msgstr ""
 
@@ -55299,8 +55492,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>lúbarnaíl</N>"
 msgstr ""
 
+# flake
 msgid "<F>lubhóg</F>"
-msgstr ""
+msgstr "lòineag_nf"
 
 msgid "<F>lúbóg</F>"
 msgstr ""
@@ -55312,7 +55506,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>lúbthacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>luch</N>"
-msgstr "luch"
+msgstr "luch_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>lúcháir</N>"
 msgstr "lùghair"
@@ -55327,7 +55521,7 @@ msgid "<V p='y' t='ord'>lúcháirigh</V>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lucharachán</N>"
-msgstr "lucharan"
+msgstr "lucharan_nf"
 
 msgid "<F>luchartha</F>"
 msgstr ""
@@ -55336,10 +55530,10 @@ msgid "<N pl='n' gnt='n' gnd='f'>luchóg</N>"
 msgstr "luchag_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lucht</N>"
-msgstr "luchd"
+msgstr "luchd_nm"
 
 msgid "<V p='y' t='ord'>luchtaigh</V>"
-msgstr "luchdaich"
+msgstr "luchdaich_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>luchtaire</N>"
 msgstr ""
@@ -55375,10 +55569,10 @@ msgid "<N pl='n' gnt='n' gnd='m'>Lucsamburg</N>"
 msgstr "Lugsamburg_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>Lucsamburgach</N>"
-msgstr ""
+msgstr "Lugsamburgach_nm"
 
 msgid "<F>Lucsamburgach</F>"
-msgstr ""
+msgstr "Lugsamburgach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>lúdrach</N>"
 msgstr "lùdach"
@@ -55392,8 +55586,9 @@ msgstr "lùthmhor"
 msgid "<N pl='n' gnt='n' gnd='m'>lug</N>"
 msgstr ""
 
+# lugworm
 msgid "<N pl='n' gnt='n' gnd='m'>lugach</N>"
-msgstr "lugaidh"
+msgstr "luga_nf"
 
 msgid "<F>lugar</F>"
 msgstr ""
@@ -55402,7 +55597,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>luí</N>"
 msgstr "laighe_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>luibh</N>"
-msgstr "luibh"
+msgstr "luibh_nf"
 
 msgid "<F>luibhean</F>"
 msgstr ""
@@ -55542,7 +55737,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>lúman</N>"
 msgstr "crò_nm"
 
 msgid "<F>lumbágó</F>"
-msgstr ""
+msgstr "leum droma_nf"
 
 msgid "<F>lumpa</F>"
 msgstr ""
@@ -55560,7 +55755,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>lúrapóg</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lus</N>"
-msgstr "lus"
+msgstr "lus_nm"
 
 msgid "<F>lusach</F>"
 msgstr "lusach"
@@ -55612,13 +55807,13 @@ msgid "<N pl='n' gnt='n'>luthairt</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>lúthchleas</N>"
-msgstr ""
+msgstr "lùth-chleas_nm"
 
 msgid "<N pl='y' gnt='n' gnd='m'>lúthchleasa</N>"
-msgstr ""
+msgstr "lùth-chleasachd_nf"
 
 msgid "<A pl='n' gnt='n'>lúthchleasach</A>"
-msgstr ""
+msgstr "lùthmhor_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>lúthchleasaí</N>"
 msgstr "lùth-chleasaiche"
@@ -55627,7 +55822,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>lúthchleasaíocht</N>"
 msgstr "lùth-chleasachd"
 
 msgid "<C>má</C>"
-msgstr "ma"
+msgstr "ma_conj"
 
 msgid "<N pl='n' gnt='n' gnd='f'>má</N>"
 msgstr ""
@@ -55636,7 +55831,7 @@ msgid "<F>mabóg</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mac</N>"
-msgstr "mac"
+msgstr "mac_nm"
 
 msgid "<N pl='y' gnt='n' gnd='m'>maca</N>"
 msgstr ""
@@ -55669,13 +55864,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>macall</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>macalla</N>"
-msgstr "mac-talla"
+msgstr "mac-talla_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>macán</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>macánta</A>"
-msgstr "macanta"
+msgstr "macanta_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>macántacht</N>"
 msgstr "macantachd"
@@ -55696,7 +55891,7 @@ msgid "<F>macarún</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>macasamhail</N>"
-msgstr "mac-samhail"
+msgstr "mac-samhail_nm"
 
 msgid "<F>macasamhlaigh</F>"
 msgstr ""
@@ -55716,6 +55911,7 @@ msgstr ""
 msgid "<V p='y' t='ord'>máchailigh</V>"
 msgstr ""
 
+# semi-false friend?
 msgid "<N pl='n' gnt='n' gnd='m'>machaire</N>"
 msgstr "machair_nf"
 
@@ -55740,8 +55936,9 @@ msgstr ""
 msgid "<F>macleabhar</F>"
 msgstr ""
 
+# n. womb
 msgid "<F>maclog</F>"
-msgstr "machlag"
+msgstr "machlag_nf"
 
 msgid "<F>macnach</F>"
 msgstr ""
@@ -55786,7 +55983,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>madhmadh</N>"
 msgstr "spreadhadh"
 
 msgid "<N pl='n' gnt='n' gnd='m'>madra</N>"
-msgstr "madadh"
+msgstr "madadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>madragal</N>"
 msgstr ""
@@ -55807,7 +56004,7 @@ msgid "<A pl='n' gnt='n'>Maenmarach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>magadh</N>"
-msgstr "magadh"
+msgstr "magadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>magadóir</N>"
 msgstr "magair_nm"
@@ -55833,8 +56030,9 @@ msgstr ""
 msgid "<F>magh</F>"
 msgstr "magh"
 
+# bait
 msgid "<N pl='n' gnt='n' gnd='m'>maghar</N>"
-msgstr "maghar"
+msgstr "maghar_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>magma</N>"
 msgstr "magma"
@@ -55852,7 +56050,7 @@ msgid "<A pl='n' gnt='n'>máguaird</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>magúil</A>"
-msgstr ""
+msgstr "magail_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mahagaine</N>"
 msgstr "mahoganaidh_nm"
@@ -55882,7 +56080,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>maicréal</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>maide</N>"
-msgstr "maide"
+msgstr "maide_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Maidéara</N>"
 msgstr ""
@@ -55903,7 +56101,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>maidhmitheoir</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>maidin</N>"
-msgstr "madainn"
+msgstr "madainn_nf"
 
 msgid "<S>maidir</S>"
 msgstr ""
@@ -55933,10 +56131,10 @@ msgid "<V p='y' t='ord'>maígh</V>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>maighdean</N>"
-msgstr "maighdeann"
+msgstr "maighdeann_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Maighdean</N>"
-msgstr "maighdeann"
+msgstr "maighdeann_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>maighdeanas</N>"
 msgstr "maighdeannas"
@@ -55993,7 +56191,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>Mailí</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>máilín</N>"
-msgstr ""
+msgstr "màileid_nf"
 
 msgid "<F>máilíneach</F>"
 msgstr ""
@@ -56008,7 +56206,7 @@ msgid "<A pl='n' gnt='n'>mailíseach</A>"
 msgstr "ailseach"
 
 msgid "<S>maille</S>"
-msgstr ""
+msgstr "maille_prep"
 
 msgid "<N pl='n' gnt='n' gnd='f'>máille</N>"
 msgstr "màille"
@@ -56073,11 +56271,13 @@ msgstr ""
 msgid "<F>mainís</F>"
 msgstr ""
 
+# or "manachainn_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>mainistir</N>"
 msgstr "mainistir"
 
+# or "lèigh_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>máinlia</N>"
-msgstr ""
+msgstr "lannsair_nm"
 
 msgid "<A pl='n' gnt='n'>máinliach</A>"
 msgstr ""
@@ -56165,7 +56365,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>mairg</N>"
 msgstr "mairg"
 
 msgid "<A pl='n' gnt='n'>mairgiúil</A>"
-msgstr ""
+msgstr "mairg_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mairgneach</N>"
 msgstr ""
@@ -56185,17 +56385,19 @@ msgstr ""
 msgid "<F>Mairíneach</F>"
 msgstr ""
 
+# n. seaman  gd from SBG  (though NB gd màirnealach = slow, dilatory)
 msgid "<N pl='n' gnt='n' gnd='m'>mairnéalach</N>"
-msgstr "mairnealach"
+msgstr "mairnealach_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mairnéalacht</N>"
 msgstr ""
 
+# or mèarrsadh_nm
 msgid "<N pl='n' gnt='n' gnd='f'>máirseáil</N>"
 msgstr "màrsail_nf"
 
 msgid "<V p='y' t='ord'>máirseáil</V>"
-msgstr ""
+msgstr "mèarrs_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>máirseálaí</N>"
 msgstr ""
@@ -56204,7 +56406,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>Máirt</N>"
 msgstr "Dimàirt"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mairteoil</N>"
-msgstr "mairtfheòil"
+msgstr "mairtfheòil_nf"
 
 msgid "<F>máirtín</F>"
 msgstr ""
@@ -56222,7 +56424,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>mais</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>maise</N>"
-msgstr "maise"
+msgstr "maise_nf"
 
 msgid "<V p='y' t='ord'>maisigh</V>"
 msgstr "maisich"
@@ -56254,8 +56456,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>máisiúnachas</N>"
 msgstr ""
 
+# n. match
 msgid "<F>maiste</F>"
-msgstr "maidse"
+msgstr "maidse_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>maisteog</N>"
 msgstr ""
@@ -56267,7 +56470,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>maistíneacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>máistir</N>"
-msgstr "maighstir"
+msgstr "maighstir_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>máistircháipéis</N>"
 msgstr ""
@@ -56285,7 +56488,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>máistreacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>maistreadh</N>"
-msgstr "maistreadh"
+msgstr "maistreadh_nm"
 
 msgid "<F>maistreán</F>"
 msgstr ""
@@ -56308,8 +56511,9 @@ msgstr "maithteach"
 msgid "<A pl='n' gnt='n'>maíteach</A>"
 msgstr ""
 
+# mutton
 msgid "<F>maiteoil</F>"
-msgstr ""
+msgstr "muiltfheòil_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>maith</N>"
 msgstr "math_nm"
@@ -56324,13 +56528,13 @@ msgid "<N pl='n' gnt='n' gnd='f'>maithe</N>"
 msgstr "math_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>maitheamh</N>"
-msgstr "maitheanas"
+msgstr "maitheanas_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>maitheas</N>"
-msgstr "maitheas"
+msgstr "maitheas_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>maithiúnas</N>"
-msgstr "maitheanas"
+msgstr "maitheanas_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>máithreach</N>"
 msgstr ""
@@ -56355,6 +56559,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>mál</N>"
 msgstr ""
 
 # both "brow" and "hillside" senses ok as "mala"
+# gd also has "maoil_nf" = brow
 msgid "<N pl='n' gnt='n' gnd='f'>mala</N>"
 msgstr "mala_nf"
 
@@ -56385,7 +56590,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>maláire</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>malairt</N>"
-msgstr "malairt"
+msgstr "malairt_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Maláiv</N>"
 msgstr ""
@@ -56418,7 +56623,7 @@ msgid "<F>malgamaigh</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mall</A>"
-msgstr "mall"
+msgstr "mall_a"
 
 msgid "<F>malla</F>"
 msgstr ""
@@ -56427,7 +56632,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>mallachar</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mallacht</N>"
-msgstr "mallachd"
+msgstr "mallachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mallachtach</N>"
 msgstr "mallachadh_nm"
@@ -56499,7 +56704,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>Máltais</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mam</N>"
-msgstr ""
+msgstr "mamaidh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mám</N>"
 msgstr "màm_nf"
@@ -56514,11 +56719,12 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>mamach</N>"
 msgstr "mamal"
 
+# a. mammary
 msgid "<F>mamach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mamaí</N>"
-msgstr ""
+msgstr "mamaidh_nf"
 
 msgid "<V p='y' t='ord'>mámáil</V>"
 msgstr ""
@@ -56541,11 +56747,12 @@ msgstr ""
 msgid "<F>mán</F>"
 msgstr ""
 
+# disambig?   ga=motto/slogan or omen/portent   gd only the latter?
 msgid "<N pl='n' gnt='n' gnd='m'>mana</N>"
-msgstr "manadh"
+msgstr "manadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>manach</N>"
-msgstr "manach"
+msgstr "manach_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>manachas</N>"
 msgstr ""
@@ -56619,8 +56826,9 @@ msgstr ""
 msgid "<F>mangabaí</F>"
 msgstr ""
 
+# pollock
 msgid "<N pl='n' gnt='n' gnd='m'>mangach</N>"
-msgstr ""
+msgstr "liùgh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mangainéis</N>"
 msgstr ""
@@ -56673,8 +56881,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>mantóg</N>"
 msgstr "mantag"
 
+# rounded summit, bare head all ok; gd also has "maoil" = "forehead, brow"
 msgid "<N pl='n' gnt='n' gnd='f'>maoil</N>"
-msgstr ""
+msgstr "maol_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>maoildearg</N>"
 msgstr ""
@@ -56689,7 +56898,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>maoilín</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>maoin</N>"
-msgstr "maoin"
+msgstr "maoin_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>maoineach</N>"
 msgstr ""
@@ -56745,7 +56954,7 @@ msgstr "maoithneas"
 msgid "<N pl='n' gnt='n' gnd='m'>maoithneas</N>"
 msgstr ""
 
-# bare, bald thing
+# bare, bald thing, flat in music
 msgid "<F>maol</F>"
 msgstr "maol_nf"
 
@@ -56833,6 +57042,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>maonáis</N>"
 msgstr ""
 
+# also "màidsear_nm" for "major"
 msgid "<N pl='n' gnt='n' gnd='m'>maor</N>"
 msgstr "maor_nm"
 
@@ -56884,13 +57094,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>maoschlár</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>maoth</A>"
-msgstr "maoth"
+msgstr "maoth_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>maothadóir</N>"
 msgstr "maothadair"
 
 msgid "<V p='y' t='ord'>maothaigh</V>"
-msgstr "maothaich"
+msgstr "maothaich_v"
 
 msgid "<A pl='n' gnt='n'>maothaithe</A>"
 msgstr "sàthaichte"
@@ -56946,8 +57156,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>Maracó</N>"
 msgstr ""
 
+# n. seaman
 msgid "<F>maraí</F>"
-msgstr "maraiche"
+msgstr "maraiche_nm"
 
 msgid "<V p='y' t='ord'>maraigh</V>"
 msgstr "marbh_v"
@@ -57034,8 +57245,9 @@ msgstr "marbh-lann"
 msgid "<N pl='n' gnt='n' gnd='m'>marbhleathar</N>"
 msgstr ""
 
+# or "marbhrann_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>marbhna</N>"
-msgstr "marbhnach"
+msgstr "marbhnach_nm"
 
 msgid "<F>marbhsháinn</F>"
 msgstr ""
@@ -57054,7 +57266,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>marc</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>marcach</N>"
-msgstr "marcaiche"
+msgstr "marcaiche_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>Marcach</N>"
 msgstr ""
@@ -57094,16 +57306,19 @@ msgid "<N pl='n' gnt='n' gnd='m'>marcshlua</N>"
 msgstr "marcshluagh"
 
 msgid "<A pl='n' gnt='n'>marfach</A>"
-msgstr ""
+msgstr "marbhtach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>marfóir</N>"
-msgstr ""
+msgstr "murtair_nm"
 
+# n. mark (currency)
 msgid "<F>marg</F>"
 msgstr ""
 
+# disambig?: (1) market (like stock ~)  (2) deal, bargain
+# also "margaid" = market
 msgid "<N pl='n' gnt='n' gnd='m'>margadh</N>"
-msgstr "margadh"
+msgstr "margadh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>margadhluach</N>"
 msgstr ""
@@ -57133,7 +57348,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>marmaláid</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>marmar</N>"
-msgstr "màrmor"
+msgstr "màrmor_nm"
 
 msgid "<A pl='n' gnt='n'>marmarach</A>"
 msgstr ""
@@ -57141,8 +57356,10 @@ msgstr ""
 msgid "<F>marmat</F>"
 msgstr ""
 
+# or gd "maodal" for paunch
+#   disambig?  (1) pudding  (2) paunch
 msgid "<N pl='n' gnt='n' gnd='f'>maróg</N>"
-msgstr "marag"
+msgstr "marag_nf"
 
 msgid "<F>marógach</F>"
 msgstr ""
@@ -57202,8 +57419,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>marthain</N>"
 msgstr ""
 
+# or "mairsinneach_a"
 msgid "<A pl='n' gnt='n'>marthanach</A>"
-msgstr ""
+msgstr "maireannach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>marthanacht</N>"
 msgstr ""
@@ -57277,13 +57495,14 @@ msgid "<N pl='n' gnt='n' gnd='m'>mascára</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>masla</N>"
-msgstr "masladh"
+msgstr "masladh_nm"
 
 msgid "<A pl='n' gnt='n'>maslach</A>"
 msgstr "maslach_a"
 
+# also tàmailtich
 msgid "<V p='y' t='ord'>maslaigh</V>"
-msgstr "tàmailtich"
+msgstr "maslaich_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>maslóir</N>"
 msgstr ""
@@ -57322,7 +57541,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>matalang</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>matamaitic</N>"
-msgstr "matamataig"
+msgstr "matamataig_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>matamaiticeoir</N>"
 msgstr ""
@@ -57337,7 +57556,7 @@ msgid "<A pl='n' gnt='n'>matánach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>máthair</N>"
-msgstr "màthair"
+msgstr "màthair_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>máthairab</N>"
 msgstr "ban-aba"
@@ -57358,10 +57577,10 @@ msgid "<F>mathmharc</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mathshlua</N>"
-msgstr ""
+msgstr "mòr-shluagh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mathúin</N>"
-msgstr "mathan"
+msgstr "mathan_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>matóg</N>"
 msgstr ""
@@ -57406,10 +57625,10 @@ msgid "<P>mé</P>"
 msgstr "mi"
 
 msgid "<N pl='n' gnt='n' gnd='f'>meá</N>"
-msgstr ""
+msgstr "meidh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Meá</N>"
-msgstr "Meidh"
+msgstr "Meidh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>meabhair</N>"
 msgstr "meomhair"
@@ -57454,10 +57673,10 @@ msgid "<N pl='n' gnt='n' gnd='m'>meabhrán</N>"
 msgstr "meòrachan_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meabhrú</N>"
-msgstr "meòrachadh"
+msgstr "meòrachadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meabhrúchán</N>"
-msgstr ""
+msgstr "meòrachadh_nm"
 
 msgid "<F>meacaic</F>"
 msgstr ""
@@ -57475,10 +57694,11 @@ msgid "<N pl='n' gnt='n' gnd='m'>méad</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>méadaigh</V>"
-msgstr "meudaich"
+msgstr "meudaich_v"
 
+# paunch
 msgid "<N pl='n' gnt='n' gnd='f'>méadail</N>"
-msgstr ""
+msgstr "maodal_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>méadailín</N>"
 msgstr ""
@@ -57504,9 +57724,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>meadhar</N>"
 msgstr ""
 
-# meang = whey in SBG
+# meang = whey in SBG; "meug" in modern dicts
 msgid "<N pl='n' gnt='n' gnd='m'>meadhg</N>"
-msgstr "meang"
+msgstr "meug_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meadhrán</N>"
 msgstr ""
@@ -57584,10 +57804,10 @@ msgid "<A pl='n' gnt='n'>meáite</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>meaits</N>"
-msgstr "coimeas"
+msgstr "maidse_nm"
 
 msgid "<V p='y' t='ord'>meaitseáil</V>"
-msgstr ""
+msgstr "maids_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>méala</N>"
 msgstr "smalan"
@@ -57596,7 +57816,7 @@ msgid "<F>méalaigh</F>"
 msgstr "ùmhlaich"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mealbhacán</N>"
-msgstr "meal-bhuc"
+msgstr "meal-bhuc_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mealbhóg</N>"
 msgstr ""
@@ -57623,7 +57843,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>meallacacht</N>"
 msgstr "mealltachd"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mealladh</N>"
-msgstr "mealladh"
+msgstr "mealladh_nm"
 
 # npl mumps  (tinneas-busach_nm)
 msgid "<F>meallta</F>"
@@ -57644,14 +57864,17 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>méalú</N>"
 msgstr ""
 
+# n. member (anat)
 msgid "<F>meamar</F>"
 msgstr ""
 
+# or "miagail_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>meamhlach</N>"
-msgstr ""
+msgstr "mialaich_nf"
 
+# v. meow
 msgid "<F>meamhlaigh</F>"
-msgstr ""
+msgstr "miag_v"
 
 msgid "<N pl='n' gnt='n' gnd='f'>meamraiméis</N>"
 msgstr ""
@@ -57660,22 +57883,25 @@ msgid "<N pl='n' gnt='n' gnd='m'>meamram</N>"
 msgstr "meamran"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meán</N>"
-msgstr "meadhan"
+msgstr "meadhan_nm"
 
+# n. mouth (lit)
 msgid "<F>méan</F>"
 msgstr ""
 
+# n. awl
 msgid "<N pl='n' gnt='n' gnd='m'>meana</N>"
 msgstr ""
 
 msgid "<F>meánábhar</F>"
 msgstr ""
 
+# entrails, guts
 msgid "<N pl='n' gnt='n' gnd='m'>meanach</N>"
-msgstr "meanach"
+msgstr "mionach_nm"
 
 msgid "<A pl='n' gnt='n'>meánach</A>"
-msgstr "meadhanach"
+msgstr "meadhanach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>meánaicme</N>"
 msgstr ""
@@ -57690,10 +57916,10 @@ msgid "<N pl='n' gnt='n' gnd='m'>meán-am</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>meánaois</N>"
-msgstr ""
+msgstr "meadhan-aois_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Meánaois</N>"
-msgstr ""
+msgstr "Meadhan-Aois_nf"
 
 msgid "<A pl='n' gnt='n'>meánaoiseach</A>"
 msgstr ""
@@ -57714,7 +57940,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>meáncheannaí</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>meánchiorcal</N>"
-msgstr ""
+msgstr "meadhan-chearcall_nm"
 
 msgid "<A pl='n' gnt='n'>meánchiorclach</A>"
 msgstr ""
@@ -57726,7 +57952,7 @@ msgid "<F>meánchoimriú</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>meancóg</N>"
-msgstr ""
+msgstr "mearachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meandar</N>"
 msgstr ""
@@ -57734,8 +57960,9 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>meandarach</A>"
 msgstr ""
 
+# disambig yawn vs. yawning?  latter would be mèaranaich_nf
 msgid "<N pl='n' gnt='n' gnd='f'>méanfach</N>"
-msgstr ""
+msgstr "mèaran_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meánfhad</N>"
 msgstr ""
@@ -57776,6 +58003,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>meánlód</N>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='m'>meánluach</N>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='f'>meanma</N>"
 msgstr "meanmna"
 
@@ -57797,8 +58027,9 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>Meánmhuirí</A>"
 msgstr ""
 
+# or "cuilmeanach_a"
 msgid "<A pl='n' gnt='n'>meanmnach</A>"
-msgstr "cuilmeanach"
+msgstr "meanmnach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>meanmnacht</N>"
 msgstr ""
@@ -57806,11 +58037,12 @@ msgstr ""
 msgid "<F>meanmnaigh</F>"
 msgstr ""
 
+# a. stammering, n. blemish
 msgid "<F>meann</F>"
-msgstr ""
+msgstr "meang_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meannán</N>"
-msgstr "meann"
+msgstr "meann_nm"
 
 msgid "<F>meannleathar</F>"
 msgstr ""
@@ -57842,20 +58074,24 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>meánteistiméireacht</N>"
 msgstr ""
 
+# a. moderate
 msgid "<F>meánúil</F>"
 msgstr ""
 
+# semi-false friend; ga=quick usually, "furious" other times
+#  gd is primarily "merry, playful"
 msgid "<A pl='n' gnt='n'>mear</A>"
-msgstr ""
+msgstr "mear_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>méar</N>"
-msgstr "meur"
+msgstr "meur_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>méara</N>"
 msgstr ""
 
+# thimble
 msgid "<N pl='n' gnt='n' gnd='m'>méaracán</N>"
-msgstr "meuran"
+msgstr "meuran_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>méaracht</N>"
 msgstr ""
@@ -57923,6 +58159,9 @@ msgstr ""
 msgid "<F>meardhiailiú</F>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='m'>meardhúisire</N>"
+msgstr ""
+
 msgid "<A pl='n' gnt='n'>meargánta</A>"
 msgstr ""
 
@@ -57969,6 +58208,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>mearú</N>"
 msgstr "mearachadh"
 
+# disambig;  (1) esteem/respect  (2) estimate/ing  (3) fruit/offspring
+#  gd "meas" OK for all three?
+#   but need (4) verbal noun which in gd is "measadh_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>meas</N>"
 msgstr "meas_nm"
 
@@ -57978,17 +58220,20 @@ msgstr "meas_v"
 msgid "<N pl='n' gnt='n' gnd='m'>measán</N>"
 msgstr "measan"
 
+# or "meadhanach_a"
 msgid "<A pl='n' gnt='n'>measartha</A>"
-msgstr "meadhanach_a"
+msgstr "measarra_a"
 
+# nm1 moderate
 msgid "<F>measarthach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>measarthacht</N>"
 msgstr "measarrachd"
 
+# or "cumasg"
 msgid "<N pl='n' gnt='n' gnd='m'>measc</N>"
-msgstr "cumasg"
+msgstr "measg_nm"
 
 msgid "<V p='y' t='ord'>measc</V>"
 msgstr "measgaich_v"
@@ -58046,7 +58291,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>meastóireacht</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>measúil</A>"
-msgstr "measail"
+msgstr "measail_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>measúlacht</N>"
 msgstr ""
@@ -58175,19 +58420,19 @@ msgid "<N pl='n' gnt='n' gnd='m'>Meicsiceo</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>méid</N>"
-msgstr "meud"
+msgstr "meud_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>méid</N>"
-msgstr "meud"
+msgstr "meud_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meideall</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>meidhir</N>"
-msgstr ""
+msgstr "mire_nf"
 
 msgid "<A pl='n' gnt='n'>meidhreach</A>"
-msgstr "meadhrach"
+msgstr "meadhrach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>meidhréis</N>"
 msgstr ""
@@ -58211,7 +58456,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>meigeall</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>meigeallach</N>"
-msgstr "meigeallaich"
+msgstr "meigeadaich_nf"
 
 msgid "<A pl='n' gnt='n'>meigeallach</A>"
 msgstr ""
@@ -58238,7 +58483,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>méigrim</N>"
 msgstr "mìgrim"
 
 msgid "<V p='y' t='ord'>meil</V>"
-msgstr "mill"
+msgstr "meil_v"
 
 msgid "<F>méil</F>"
 msgstr ""
@@ -58249,8 +58494,9 @@ msgstr "meile"
 msgid "<N pl='n' gnt='n' gnd='m'>méile</N>"
 msgstr ""
 
+# bleating; SBG cognate
 msgid "<N pl='n' gnt='n' gnd='f'>méileach</N>"
-msgstr ""
+msgstr "mèilich_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meileanóma</N>"
 msgstr ""
@@ -58298,7 +58544,7 @@ msgid "<F>Meinniníteach</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>meirbh</A>"
-msgstr ""
+msgstr "murtaidh_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>meirbhe</N>"
 msgstr ""
@@ -58325,7 +58571,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>meirfean</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>meirg</N>"
-msgstr "meirg"
+msgstr "meirg_nf"
 
 msgid "<F>meirgdhíonach</F>"
 msgstr ""
@@ -58334,13 +58580,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>meirge</N>"
 msgstr "meirghe"
 
 msgid "<A pl='n' gnt='n'>meirgeach</A>"
-msgstr ""
+msgstr "meirgeach_a"
 
 msgid "<F>meirgeacht</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>meirgigh</V>"
-msgstr ""
+msgstr "meirg_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meirgire</N>"
 msgstr ""
@@ -58364,10 +58610,10 @@ msgid "<N pl='n' gnt='n' gnd='f'>méirínteacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>meirleach</N>"
-msgstr "mèirleach"
+msgstr "mèirleach_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meirleachas</N>"
-msgstr ""
+msgstr "mèirle_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meirliún</N>"
 msgstr ""
@@ -58397,7 +58643,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>meisce</N>"
 msgstr "misg_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>meisceoir</N>"
-msgstr ""
+msgstr "misgear_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>meisceoireacht</N>"
 msgstr "misgeireachd"
@@ -58502,8 +58748,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>méóis</N>"
 msgstr ""
 
+# disposition, temperament; see also ga mianach
 msgid "<N pl='n' gnt='n' gnd='m'>meon</N>"
-msgstr "mèinn"
+msgstr "mèinn_nf"
 
 msgid "<F>meonúil</F>"
 msgstr ""
@@ -58512,7 +58759,7 @@ msgid "<N pl='n' gnt='n'>mhárach</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mí</N>"
-msgstr "mìos"
+msgstr "mìos_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Mí</N>"
 msgstr ""
@@ -58521,7 +58768,7 @@ msgid "<F>miadh</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mí-ádh</N>"
-msgstr ""
+msgstr "mì-shealbh_nm"
 
 msgid "<A pl='n' gnt='n'>mí-ailínithe</A>"
 msgstr ""
@@ -58530,28 +58777,29 @@ msgid "<N pl='n' gnt='n' gnd='m'>mí-áireamh</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mí-áisiúil</A>"
-msgstr ""
+msgstr "mì-ghoireasach_a"
 
 msgid "<F>miam</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mí-ámharach</A>"
-msgstr ""
+msgstr "mì-shealbhach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mian</N>"
 msgstr "miann"
 
+# digging or military, both ga/gd
 msgid "<N pl='n' gnt='n' gnd='m'>mianach</N>"
 msgstr "mèinn_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mianadóir</N>"
-msgstr ""
+msgstr "mèinneadair_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mianadóireacht</N>"
-msgstr ""
+msgstr "mèinnearachd_nf"
 
 msgid "<V p='y' t='ord'>mianaigh</V>"
-msgstr "miannaich"
+msgstr "miannaich_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>miangas</N>"
 msgstr ""
@@ -58560,9 +58808,15 @@ msgid "<A pl='n' gnt='n'>miangasach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mianra</N>"
-msgstr ""
+msgstr "mèinnear_nm"
 
 msgid "<A pl='n' gnt='n'>mianrach</A>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>mianreolaí</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>mianreolaíocht</N>"
 msgstr ""
 
 msgid "<F>mianrilleán</F>"
@@ -58578,7 +58832,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>miasniteoir</N>"
 msgstr "nigheadair-shoithichean_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>míbhéas</N>"
-msgstr ""
+msgstr "mì-bheusachd_nf"
 
 msgid "<A pl='n' gnt='n'>míbhéasach</A>"
 msgstr ""
@@ -58593,7 +58847,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>míbhreithiúnas</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>míbhuíoch</A>"
-msgstr "mi-bhuidheach"
+msgstr "mi-bhuidheach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>míbhuíochas</N>"
 msgstr "mì-bhuidheachas"
@@ -58663,8 +58917,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>míchleachtas</N>"
 msgstr ""
 
+# also dì-chliù
 msgid "<N pl='n' gnt='n' gnd='m'>míchlú</N>"
-msgstr "dì-chliù"
+msgstr "mì-chliù_nm"
 
 msgid "<A pl='n' gnt='n'>míchlúiteach</A>"
 msgstr ""
@@ -58685,10 +58940,11 @@ msgid "<N pl='n' gnt='n' gnd='m'>míchompord</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>míchompordach</A>"
-msgstr ""
+msgstr "mì-chofhurtail_a"
 
+# n. ill luck
 msgid "<F>míchonách</F>"
-msgstr ""
+msgstr "mì-shealbh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>míchóngar</N>"
 msgstr ""
@@ -58727,7 +58983,7 @@ msgid "<A pl='n' gnt='n'>míchuibheasach</A>"
 msgstr "ana-cuibheasach"
 
 msgid "<A pl='n' gnt='n'>míchuibhiúil</A>"
-msgstr ""
+msgstr "mì-chiatach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>míchuma</N>"
 msgstr "mì-chumadh"
@@ -58748,7 +59004,7 @@ msgid "<A pl='n' gnt='n'>míchumtha</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>míchúramach</A>"
-msgstr "mì-chùramach"
+msgstr "mì-chùramach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>micreacnamaíocht</N>"
 msgstr ""
@@ -58830,7 +59086,7 @@ msgid "<A pl='n' gnt='n'>mídhiscréideach</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mídhleathach</A>"
-msgstr ""
+msgstr "mì-laghail_a"
 
 msgid "<A pl='n' gnt='n'>mídhlisteanach</A>"
 msgstr ""
@@ -58845,7 +59101,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>mífheidhm</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mífheiliúnach</A>"
-msgstr ""
+msgstr "mì-fhreagarrach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mífhoighne</N>"
 msgstr ""
@@ -58857,16 +59113,17 @@ msgid "<A pl='n' gnt='n'>mífhóirsteanach</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mífholláin</A>"
-msgstr "mì-fhallain"
+msgstr "mì-fhallain_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mífhonn</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mífhortún</N>"
-msgstr "mì-fhortan"
+msgstr "mì-fhortan_nm"
 
+# mì-shealbhach_a
 msgid "<A pl='n' gnt='n'>mífhortúnach</A>"
-msgstr ""
+msgstr "mì-fhortanach_a"
 
 msgid "<A pl='n' gnt='n'>míghairmiúil</A>"
 msgstr ""
@@ -58874,6 +59131,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>míghar</N>"
 msgstr ""
 
+# n. impropriety
 msgid "<F>mígheanas</F>"
 msgstr ""
 
@@ -58920,7 +59178,7 @@ msgid "<A pl='n' gnt='n'>mí-ionraic</A>"
 msgstr "mì-ionraic"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mil</N>"
-msgstr "mil"
+msgstr "mil_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mílaois</N>"
 msgstr ""
@@ -58956,7 +59214,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>mílí</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>milis</A>"
-msgstr "milis"
+msgstr "milis_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mílíste</N>"
 msgstr ""
@@ -58977,13 +59235,13 @@ msgid "<F>míliú</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>mill</V>"
-msgstr "mill"
+msgstr "mill_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>milléad</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>milleadh</N>"
-msgstr "milleadh"
+msgstr "milleadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>milleagram</N>"
 msgstr ""
@@ -59021,17 +59279,18 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>millte</A>"
 msgstr ""
 
+# nm1 destroyer
 msgid "<F>millteach</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>millteach</A>"
-msgstr "millteach"
+msgstr "millteach_a"
 
 msgid "<A pl='n' gnt='n'>millteanach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>millteanas</N>"
-msgstr ""
+msgstr "miastradh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>millteoir</N>"
 msgstr ""
@@ -59043,10 +59302,10 @@ msgid "<A pl='n' gnt='n'>míloighciúil</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>milseacht</N>"
-msgstr "mìlseachd"
+msgstr "mìlseachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>milseán</N>"
-msgstr "mìlsean"
+msgstr "mìlsean_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>milseog</N>"
 msgstr "mìlseag"
@@ -59091,16 +59350,16 @@ msgid "<N pl='n' gnt='n' gnd='f'>mímhoráltacht</N>"
 msgstr "neo-mhoralachd"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mímhúineadh</N>"
-msgstr ""
+msgstr "mì-mhodh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mímhuinín</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mímhúinte</A>"
-msgstr ""
+msgstr "mì-mhodhail_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>min</N>"
-msgstr "min"
+msgstr "min_nf"
 
 # n. smooth thing
 msgid "<F>mín</F>"
@@ -59110,7 +59369,7 @@ msgid "<A pl='n' gnt='n'>mín</A>"
 msgstr "mìn_a"
 
 msgid "<A pl='n' gnt='n'>mínádúrtha</A>"
-msgstr ""
+msgstr "mì-nàdarrach_a"
 
 msgid "<A pl='n' gnt='n'>mínáireach</A>"
 msgstr "mì-nàireach"
@@ -59143,7 +59402,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>mineastróine</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>minic</A>"
-msgstr "minig"
+msgstr "minig_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>minice</N>"
 msgstr ""
@@ -59152,16 +59411,17 @@ msgid "<N pl='n' gnt='n' gnd='f'>minicíocht</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>mínigh</V>"
-msgstr "mìnich"
+msgstr "mìnich_v"
 
 msgid "<N pl='n' gnt='n' gnd='f'>míníneacht</N>"
 msgstr "mìneachd"
 
 msgid "<N pl='n' gnt='n' gnd='m'>ministir</N>"
-msgstr "ministear"
+msgstr "ministear_nm"
 
+# ministreachd in SBG as alt.
 msgid "<N pl='n' gnt='n' gnd='f'>ministreacht</N>"
-msgstr "ministreachd"
+msgstr "ministrealachd_nf"
 
 msgid "<A pl='n' gnt='n'>mínitheach</A>"
 msgstr ""
@@ -59170,7 +59430,7 @@ msgid "<F>mínitheoir</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>míniú</N>"
-msgstr "mìneachadh"
+msgstr "mìneachadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>míniúchán</N>"
 msgstr ""
@@ -59218,7 +59478,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>míoca</N>"
 msgstr "mioca_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>míochaine</N>"
-msgstr ""
+msgstr "lèigh-eòlas_nm"
 
 msgid "<F>miochair</F>"
 msgstr ""
@@ -59280,7 +59540,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>míóipe</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mí-oiriúnach</A>"
-msgstr ""
+msgstr "mì-fhreagarrach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mí-oiriúnacht</N>"
 msgstr ""
@@ -59310,13 +59570,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>míolra</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>míoltóg</N>"
-msgstr ""
+msgstr "meanbhchuileag_nf"
 
 msgid "<F>míomós</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mion</A>"
-msgstr "mion"
+msgstr "mion_a"
 
 msgid "<F>míona</F>"
 msgstr ""
@@ -59395,13 +59655,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>mioncheistiú</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mionchloch</N>"
-msgstr ""
+msgstr "molag_nf"
 
 msgid "<V p='y' t='ord'>mionchoigeartaigh</V>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mionchruinn</A>"
-msgstr ""
+msgstr "mionaideach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mionchruinneas</N>"
 msgstr ""
@@ -59410,7 +59670,7 @@ msgid "<A pl='n' gnt='n'>mionchúiseach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mionchuntas</N>"
-msgstr ""
+msgstr "mion-chunntas"
 
 msgid "<A pl='n' gnt='n'>mionda</A>"
 msgstr "mion"
@@ -59436,8 +59696,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>mionduine</N>"
 msgstr ""
 
+# shingle beach
 msgid "<F>mionduirling</F>"
-msgstr ""
+msgstr "mol_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mionéadach</N>"
 msgstr ""
@@ -59500,8 +59761,9 @@ msgid "<V p='y' t='ord'>mionnaigh</V>"
 msgstr "mionnaich_v"
 
 msgid "<A pl='n' gnt='n'>mionnaithe</A>"
-msgstr ""
+msgstr "mionnaichte_a"
 
+# n. pinnacle of rock
 msgid "<F>mionnán</F>"
 msgstr ""
 
@@ -59524,7 +59786,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>mionóg</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mionóid</N>"
-msgstr "mionaid"
+msgstr "mionaid_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mionoifigeach</N>"
 msgstr ""
@@ -59533,11 +59795,12 @@ msgid "<N pl='n' gnt='n' gnd='m'>mionpheaca</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mionra</N>"
-msgstr "mions"
+msgstr "mions_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mionrabh</N>"
 msgstr ""
 
+# n. refuse, scrap
 msgid "<F>mionrach</F>"
 msgstr ""
 
@@ -59576,7 +59839,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>mionsciorta</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>mionscrúdaigh</V>"
-msgstr ""
+msgstr "mion-sgrùd_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mionsonra</N>"
 msgstr ""
@@ -59584,20 +59847,23 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>mionsonraithe</A>"
 msgstr ""
 
+# place
 msgid "<N pl='n' gnt='n' gnd='m'>mionta</N>"
-msgstr ""
+msgstr "taigh-cùinnidh_nm"
 
+# n. menthol; no SBG
 msgid "<F>miontal</F>"
 msgstr ""
 
+# plant (SBG); or "cartal_nm", "piunnt_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>miontas</N>"
-msgstr ""
+msgstr "meannt_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mionteagasc</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mionteanga</N>"
-msgstr ""
+msgstr "mion-chànan_nf"
 
 msgid "<F>miontéarma</F>"
 msgstr ""
@@ -59625,13 +59891,13 @@ msgid "<F>míorchat</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mí-ord</N>"
-msgstr ""
+msgstr "mì-rian_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mí-ordú</N>"
-msgstr ""
+msgstr "mì-rian_nf"
 
 msgid "<A pl='n' gnt='n'>mí-ordúil</A>"
-msgstr ""
+msgstr "mì-rianail_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>miorr</N>"
 msgstr ""
@@ -59643,7 +59909,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>míorúilt</N>"
 msgstr "mìorbhail_nf"
 
 msgid "<A pl='n' gnt='n'>míorúilteach</A>"
-msgstr ""
+msgstr "mìorbhaileach_a"
 
 msgid "<F>míorúilteoireacht</F>"
 msgstr ""
@@ -59666,6 +59932,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>míostrú</N>"
 msgstr "mìosachadh"
 
+# or mìosail_a
 msgid "<A pl='n' gnt='n'>míosúil</A>"
 msgstr "mìosach_a"
 
@@ -59682,10 +59949,11 @@ msgid "<F>miotaigh</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>miotal</N>"
-msgstr ""
+msgstr "meatailt_nf"
 
+# metallic; also meddlesome, for which SBG has "miotalach"
 msgid "<A pl='n' gnt='n'>miotalach</A>"
-msgstr "miotalach"
+msgstr "meatailt_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>miotalóir</N>"
 msgstr ""
@@ -59715,7 +59983,7 @@ msgid "<F>mioth</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>miotóg</N>"
-msgstr "miotag"
+msgstr "miotag_nf"
 
 msgid "<F>miotóis</F>"
 msgstr "miotosas"
@@ -59724,10 +59992,10 @@ msgid "<F>míphrionta</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mír</N>"
-msgstr "mìr"
+msgstr "mìr_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mírath</N>"
-msgstr ""
+msgstr "mí-shealbh_nm"
 
 msgid "<A pl='n' gnt='n'>mírathúil</A>"
 msgstr ""
@@ -59739,7 +60007,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>mire</N>"
 msgstr "mire"
 
 msgid "<A pl='n' gnt='n'>míréasúnta</A>"
-msgstr "mì-reusanta"
+msgstr "mì-reusanta_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>míréir</N>"
 msgstr ""
@@ -59748,11 +60016,12 @@ msgid "<A pl='n' gnt='n'>míréireach</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mírialta</A>"
-msgstr ""
+msgstr "mì-riaghailteach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mírialtacht</N>"
-msgstr ""
+msgstr "mì-riaghailt_nf"
 
+# mì-rian = disorder
 msgid "<N pl='n' gnt='n' gnd='f'>míriar</N>"
 msgstr ""
 
@@ -59787,10 +60056,11 @@ msgid "<F>míshásaigh</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>míshásamh</N>"
-msgstr ""
+msgstr "mì-thoileachas_nm"
 
+# or mì-thoilichte
 msgid "<A pl='n' gnt='n'>míshásta</A>"
-msgstr ""
+msgstr "mì-riaraichte_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>míshástacht</N>"
 msgstr ""
@@ -59798,8 +60068,9 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>míshásúil</A>"
 msgstr ""
 
+# unlucky a.
 msgid "<F>míshéanmhar</F>"
-msgstr ""
+msgstr "mì-shealbhach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mísheans</N>"
 msgstr ""
@@ -59808,7 +60079,7 @@ msgid "<A pl='n' gnt='n'>míshibhialta</A>"
 msgstr "mì-shìobhalta"
 
 msgid "<A pl='n' gnt='n'>míshlachtmhar</A>"
-msgstr ""
+msgstr "mì-sgiobalta_a"
 
 msgid "<A pl='n' gnt='n'>míshocair</A>"
 msgstr ""
@@ -59826,7 +60097,7 @@ msgid "<A pl='n' gnt='n'>míshoiléir</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>míshona</A>"
-msgstr "mì-shona"
+msgstr "mì-shona_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>míshonas</N>"
 msgstr ""
@@ -59838,7 +60109,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>míshuaimhneas</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>misinéir</N>"
-msgstr ""
+msgstr "miseanaraidh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>misinéireacht</N>"
 msgstr ""
@@ -59847,13 +60118,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>mismín</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>misneach</N>"
-msgstr "misneachd"
+msgstr "misneachd_nf"
 
 msgid "<V p='y' t='ord'>misnigh</V>"
-msgstr "misnich"
+msgstr "misnich_v"
 
 msgid "<A pl='n' gnt='n'>misniúil</A>"
-msgstr ""
+msgstr "misneachail_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>místá</N>"
 msgstr ""
@@ -59894,8 +60165,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>míthaitneamh</N>"
 msgstr ""
 
+# or mì-chàilear_a
 msgid "<A pl='n' gnt='n'>míthaitneamhach</A>"
-msgstr "mì-thaitneach"
+msgstr "mì-thaitneach_a"
 
 msgid "<F>míthaom</F>"
 msgstr ""
@@ -59946,10 +60218,10 @@ msgid "<F>mocaisín</F>"
 msgstr "mocais"
 
 msgid "<A pl='n' gnt='n'>moch</A>"
-msgstr "moch"
+msgstr "moch_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mochóirí</N>"
-msgstr ""
+msgstr "mocheirigh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mód</N>"
 msgstr "modh"
@@ -59964,7 +60236,7 @@ msgid "<F>modarthacht</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>modh</N>"
-msgstr "modh"
+msgstr "modh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>Modhach</N>"
 msgstr ""
@@ -59984,8 +60256,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>modhnú</N>"
 msgstr ""
 
+# also "màlda_a"
 msgid "<A pl='n' gnt='n'>modhúil</A>"
-msgstr "modhail"
+msgstr "modhail_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>modhúlacht</N>"
 msgstr ""
@@ -59997,7 +60270,7 @@ msgid "<A pl='n' gnt='n'>módúil</A>"
 msgstr "mòdail"
 
 msgid "<N pl='n' gnt='n' gnd='m'>modúl</N>"
-msgstr "modal"
+msgstr "modal_nm"
 
 msgid "<A pl='n' gnt='n'>modúlach</A>"
 msgstr ""
@@ -60097,7 +60370,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>moillaga</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>moille</N>"
-msgstr "maille"
+msgstr "maille_nf"
 
 msgid "<F>moilleadóir</F>"
 msgstr ""
@@ -60118,7 +60391,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>moilliú</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>móimint</N>"
-msgstr ""
+msgstr "mòmaid_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>móiminteam</N>"
 msgstr ""
@@ -60126,14 +60399,15 @@ msgstr ""
 msgid "<F>móimintiúil</F>"
 msgstr ""
 
+# how about "monadh_nm" for moor, hill
 msgid "<N pl='n' gnt='n' gnd='f'>móin</N>"
-msgstr "mòine"
+msgstr "mòine_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>móinéar</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>moing</N>"
-msgstr "muing"
+msgstr "muing_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>móinín</N>"
 msgstr ""
@@ -60221,7 +60495,7 @@ msgid "<F>molach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>moladh</N>"
-msgstr "moladh"
+msgstr "moladh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>molaibdéineam</N>"
 msgstr ""
@@ -60250,14 +60524,16 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>moll</N>"
 msgstr ""
 
+# wether
 msgid "<N pl='n' gnt='n' gnd='m'>molt</N>"
-msgstr "molt"
+msgstr "molt_nm"
 
 msgid "<A pl='n' gnt='n'>moltach</A>"
-msgstr ""
+msgstr "moltach_a"
 
+# wether
 msgid "<N pl='n' gnt='n' gnd='m'>moltachán</N>"
-msgstr ""
+msgstr "molt_nm"
 
 msgid "<F>moltáil</F>"
 msgstr ""
@@ -60275,7 +60551,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>mona</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>monabhar</N>"
-msgstr "monmhar"
+msgstr "monmhar_nm"
 
 msgid "<F>Monacach</F>"
 msgstr ""
@@ -60354,12 +60630,13 @@ msgid "<N pl='n' gnt='n' gnd='f'>monatóireacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>moncaí</N>"
-msgstr "muncaidh"
+msgstr "muncaidh_nm"
 
 # bush country
 msgid "<N pl='n' gnt='n' gnd='m'>mongach</N>"
 msgstr ""
 
+# or "molach_a"
 msgid "<A pl='n' gnt='n'>mongach</A>"
 msgstr "ròmagach"
 
@@ -60430,16 +60707,16 @@ msgid "<N pl='n' gnt='n' gnd='m'>morálaí</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>morálta</A>"
-msgstr ""
+msgstr "moralta_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>moráltacht</N>"
-msgstr "moraltachd"
+msgstr "moraltachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>móramh</N>"
 msgstr "mòrchuid"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mórán</N>"
-msgstr "mòran"
+msgstr "mòran_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mórathrú</N>"
 msgstr ""
@@ -60493,19 +60770,19 @@ msgid "<A pl='n' gnt='n'>mórchroíoch</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mórchuid</N>"
-msgstr "mòrchuid"
+msgstr "mòrchuid_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mórchúis</N>"
-msgstr "mòrchuis"
+msgstr "mòrchuis_nf"
 
 msgid "<A pl='n' gnt='n'>mórchúiseach</A>"
-msgstr "mòrchùiseach"
+msgstr "mòrchuiseach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mórchumhacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mórdháil</N>"
-msgstr ""
+msgstr "mòr-dhail_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mórdheacracht</N>"
 msgstr ""
@@ -60532,13 +60809,13 @@ msgid "<F>mórga</F>"
 msgstr "mòrail"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mórgacht</N>"
-msgstr "mòrachd"
+msgstr "mòrachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>morgadh</N>"
 msgstr "morgadh"
 
 msgid "<N pl='n' gnt='n' gnd='m'>morgáiste</N>"
-msgstr "morgaidse"
+msgstr "morgaidse_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>morgáisteoir</N>"
 msgstr ""
@@ -60613,16 +60890,17 @@ msgid "<F>mór-ríomhaire</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>mór-roinn</N>"
-msgstr ""
+msgstr "mòr-roinn_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Mór-Roinn</N>"
-msgstr ""
+msgstr "Mòr-Roinn_nf"
 
 msgid "<A pl='n' gnt='n'>mór-roinneach</A>"
 msgstr ""
 
+# sea lion
 msgid "<F>mór-rón</F>"
-msgstr ""
+msgstr "leòmhann-mara_nm"
 
 msgid "<A pl='n' gnt='n'>Morsach</A>"
 msgstr ""
@@ -60643,10 +60921,10 @@ msgid "<N pl='n' gnt='n' gnd='f'>mortabháil</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mórtas</N>"
-msgstr ""
+msgstr "moit_nf"
 
 msgid "<A pl='n' gnt='n'>mórtasach</A>"
-msgstr ""
+msgstr "moiteil_a"
 
 msgid "<A pl='n' gnt='n'>mórthaibhseach</A>"
 msgstr ""
@@ -60680,7 +60958,7 @@ msgid "<R>mós</R>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mosach</A>"
-msgstr "mosach"
+msgstr "mosach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mósáic</N>"
 msgstr ""
@@ -60713,7 +60991,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>móta</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mótar</N>"
-msgstr "motar"
+msgstr "motar_nm"
 
 msgid "<F>mótaraigh</F>"
 msgstr ""
@@ -60734,13 +61012,13 @@ msgid "<V p='y' t='ord'>mothaigh</V>"
 msgstr "mothaich"
 
 msgid "<A pl='n' gnt='n'>mothaitheach</A>"
-msgstr ""
+msgstr "mothachail_a"
 
 msgid "<F>mothaitheacht</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>mothálach</A>"
-msgstr ""
+msgstr "mothachail_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>mothálacht</N>"
 msgstr ""
@@ -60773,7 +61051,7 @@ msgid "<A pl='n' gnt='n'>mothrach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mothú</N>"
-msgstr "mothachadh"
+msgstr "mothachadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mothúchán</N>"
 msgstr ""
@@ -60788,7 +61066,7 @@ msgid "<F>mú</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>muc</N>"
-msgstr "muc"
+msgstr "muc_nf"
 
 msgid "<F>mucachán</F>"
 msgstr ""
@@ -60858,7 +61136,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>mufa</N>"
 msgstr "mùtan_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>muga</N>"
-msgstr "muga"
+msgstr "muga_nm"
 
 msgid "<F>mugadán</F>"
 msgstr ""
@@ -60870,7 +61148,7 @@ msgid "<F>muí</F>"
 msgstr "muidhe"
 
 msgid "<N pl='n' gnt='n' gnd='f'>muiceoil</N>"
-msgstr "muic-fheòil"
+msgstr "muic-fheòil_nf"
 
 msgid "<F>muicí</F>"
 msgstr ""
@@ -60903,7 +61181,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>muiléad</N>"
 msgstr "mileid"
 
 msgid "<N pl='n' gnt='n' gnd='m'>muileann</N>"
-msgstr "muileann"
+msgstr "muileann_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>muileata</N>"
 msgstr ""
@@ -60918,7 +61196,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>muillean</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>muilleoir</N>"
-msgstr "muillear"
+msgstr "muillear_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>muilleoireacht</N>"
 msgstr ""
@@ -60931,7 +61209,7 @@ msgstr ""
 
 # back
 msgid "<N pl='n' gnt='n' gnd='f'>muin</N>"
-msgstr "muin"
+msgstr "muin_nf"
 
 # teach; not "mùin"="urinate"
 msgid "<V p='y' t='ord'>múin</V>"
@@ -60943,8 +61221,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>muince</N>"
 msgstr "muince"
 
+# alt spellings too
 msgid "<N pl='n' gnt='n' gnd='f'>muinchille</N>"
-msgstr "muinchill"
+msgstr "muilicheann_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>muine</N>"
 msgstr ""
@@ -60956,16 +61235,18 @@ msgid "<N pl='n' gnt='n' gnd='m'>múineadh</N>"
 msgstr "munadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>muineál</N>"
-msgstr "muineal"
+msgstr "muineal_nm"
 
+# top (of head), crest
 msgid "<F>muinice</F>"
 msgstr ""
 
+# a. headstrong, obstinate
 msgid "<F>muiniceach</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>muinín</N>"
-msgstr "moinig"
+msgstr "muinighin_nf"
 
 msgid "<A pl='n' gnt='n'>muiníneach</A>"
 msgstr ""
@@ -60979,6 +61260,8 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>múinte</A>"
 msgstr "cùirteil"
 
+# false friend: ga=friendliness, kinship, fellowship;
+# gd muinntireas=domestic service
 msgid "<N pl='n' gnt='n' gnd='m'>muintearas</N>"
 msgstr ""
 
@@ -60993,11 +61276,12 @@ msgid "<N pl='n' gnt='n' gnd='f'>múinteoireacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>muintir</N>"
-msgstr "muinntir"
+msgstr "muinntir_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>muir</N>"
-msgstr "muir"
+msgstr "muir_nf"
 
+# n. level stretch of sandy land on shore
 msgid "<F>muirbheach</F>"
 msgstr ""
 
@@ -61040,7 +61324,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>muir-eolas</N>"
 msgstr ""
 
-# SBG
+# SBG; also "mòr-ghath"
 msgid "<N pl='n' gnt='n' gnd='m'>muirgha</N>"
 msgstr "murghadh_nm"
 
@@ -61067,14 +61351,17 @@ msgstr "muinntir"
 msgid "<N pl='n' gnt='n' gnd='m'>muirín</N>"
 msgstr "muinntir"
 
+# mold, compost
 msgid "<N pl='n' gnt='n' gnd='m'>múirín</N>"
-msgstr ""
+msgstr "molldair_nm"
 
+# n. marina
 msgid "<F>muiríne</F>"
 msgstr ""
 
+# n. bent grass  - also "muran_nm"
 msgid "<N pl='n' gnt='n' gnd='f'>muiríneach</N>"
-msgstr "muirineach"
+msgstr "muirineach_nm"
 
 msgid "<N pl='n' gnt='n'>Muirís</N>"
 msgstr ""
@@ -61098,10 +61385,10 @@ msgid "<F>muirmhúr</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>muirn</N>"
-msgstr ""
+msgstr "mùirn_nf"
 
 msgid "<A pl='n' gnt='n'>muirneach</A>"
-msgstr "mùirneach"
+msgstr "mùirneach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>muirnéis</N>"
 msgstr ""
@@ -61174,7 +61461,7 @@ msgid "<F>mulla</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>mullach</N>"
-msgstr "mullach"
+msgstr "mullach_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>mullachán</N>"
 msgstr ""
@@ -61248,7 +61535,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>múr</N>"
 msgstr "mùr"
 
 msgid "<C>mura</C>"
-msgstr ""
+msgstr "mur_conj"
 
 msgid "<V cop='y'>mura</V>"
 msgstr ""
@@ -61288,7 +61575,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>murascaill</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>murdar</N>"
-msgstr ""
+msgstr "murt_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>murlach</N>"
 msgstr ""
@@ -61361,7 +61648,7 @@ msgid "<F>muscail</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>múscail</V>"
-msgstr "mosgail"
+msgstr "mosgail_v"
 
 msgid "<N pl='n' gnt='n' gnd='f'>múscailt</N>"
 msgstr ""
@@ -61454,7 +61741,7 @@ msgid "<F>nadair</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>nádúr</N>"
-msgstr "nàdar"
+msgstr "nàdar_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>nádúrachas</N>"
 msgstr ""
@@ -61501,23 +61788,24 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>naímharú</N>"
 msgstr ""
 
+# or nàimhdeil_a
 msgid "<A pl='n' gnt='n'>naimhdeach</A>"
-msgstr "nàimhdeach"
+msgstr "nàimhdeach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>naimhdeas</N>"
-msgstr "nàimhdeas"
+msgstr "nàimhdeas_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>naíolann</N>"
 msgstr "sgoil-àraich_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>naíon</N>"
-msgstr "naoidhean"
+msgstr "naoidhean_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>naíonacht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>naíonán</N>"
-msgstr ""
+msgstr "naoidhean_nm"
 
 msgid "<A pl='n' gnt='n'>naíonda</A>"
 msgstr ""
@@ -61544,7 +61832,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>naircisíocht</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>náire</N>"
-msgstr "nàire"
+msgstr "nàire_nf"
 
 # also "nàr_a", "nàrach_a"
 msgid "<A pl='n' gnt='n'>náireach</A>"
@@ -61560,7 +61848,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>naíscoil</N>"
 msgstr "sgoil-àraich_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>náisiún</N>"
-msgstr "nàisean"
+msgstr "nàisean_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>náisiúnach</N>"
 msgstr ""
@@ -61568,11 +61856,12 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>náisiúnach</A>"
 msgstr "nàiseantach_a"
 
+# nationalism
 msgid "<N pl='n' gnt='n' gnd='m'>náisiúnachas</N>"
 msgstr "nàiseantachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>náisiúnaí</N>"
-msgstr "nàiseantac_nm"
+msgstr "nàiseantach_nm"
 
 msgid "<F>náisiúnaigh</F>"
 msgstr ""
@@ -61581,10 +61870,11 @@ msgid "<A pl='n' gnt='n'>náisiúnaíoch</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>náisiúnta</A>"
-msgstr "nàiseanta"
+msgstr "nàiseanta_a"
 
+# nationality
 msgid "<N pl='n' gnt='n' gnd='f'>náisiúntacht</N>"
-msgstr "nàiseantachd"
+msgstr "nàiseantachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>náisiúnú</N>"
 msgstr ""
@@ -61602,7 +61892,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>Namaib</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>namhaid</N>"
-msgstr "nàmhaid"
+msgstr "nàmhaid_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>nanashoicind</N>"
 msgstr ""
@@ -61662,7 +61952,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>Naomhspiorad</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>naonúr</N>"
-msgstr ""
+msgstr "naodhnar_nm"
 
 # snipe (bird)
 msgid "<N pl='n' gnt='n' gnd='f'>naoscach</N>"
@@ -62008,6 +62298,9 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>neamhbhríoch</A>"
 msgstr ""
 
+msgid "<A pl='n' gnt='n'>neamhbhristeach</A>"
+msgstr ""
+
 msgid "<A pl='n' gnt='n'>neamhbhuan</A>"
 msgstr "neo-bhuan"
 
@@ -62056,9 +62349,11 @@ msgstr "neo-cheart_a"
 msgid "<N pl='n' gnt='n'>neamhcheist</N>"
 msgstr ""
 
+# also mì-chinnteach_a
 msgid "<A pl='n' gnt='n'>neamhchinnte</A>"
 msgstr "neo-chinnteach"
 
+# also mì-chinnt_nf
 msgid "<N pl='n' gnt='n' gnd='f'>neamhchinnteacht</N>"
 msgstr "neo-chinnteachd"
 
@@ -62223,7 +62518,7 @@ msgid "<F>neamhdhiscréideach</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>neamhdhleathach</A>"
-msgstr ""
+msgstr "mì-laghail_a"
 
 msgid "<F>neamhdhleathacht</F>"
 msgstr ""
@@ -63123,7 +63418,7 @@ msgid "<A pl='n' gnt='n'>niogóideach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>níolón</N>"
-msgstr ""
+msgstr "naidhlean_nm"
 
 msgid "<F>niomh</F>"
 msgstr ""
@@ -63194,7 +63489,7 @@ msgid "<F>nóbailiam</F>"
 msgstr "nobailium"
 
 msgid "<N pl='n' gnt='n' gnd='m'>nócha</N>"
-msgstr "naochad"
+msgstr "naochad_nm"
 
 msgid "<F>nóchadú</F>"
 msgstr ""
@@ -63417,7 +63712,7 @@ msgid "<V p='y' t='ord'>nuachóirigh</V>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>nuacht</N>"
-msgstr "naidheachd"
+msgstr "naidheachd_nf"
 
 msgid "<N pl='y' gnt='n' gnd='m'>nuachtáin</N>"
 msgstr ""
@@ -63435,7 +63730,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>nuachtlitir</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>nuachtóir</N>"
-msgstr ""
+msgstr "neach-naidheachd_nm"
 
 msgid "<F>nuachtóireacht</F>"
 msgstr ""
@@ -63616,13 +63911,14 @@ msgid "<F>óbóir</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>obrádlann</N>"
-msgstr ""
+msgstr "lèigh-lann_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>obráid</N>"
 msgstr ""
 
+# disambig:  operator, surgeon  (also "lèigh_nm" for the latter)
 msgid "<N pl='n' gnt='n' gnd='m'>obráidí</N>"
-msgstr ""
+msgstr ";lannsair_nm"
 
 msgid "<F>obsaidian</F>"
 msgstr ""
@@ -64345,8 +64641,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>oiseoil</N>"
 msgstr "sitheann_nf"
 
+# don't see cognate in SBG?
 msgid "<N pl='n' gnt='n' gnd='m'>oisín</N>"
-msgstr ""
+msgstr "mang_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>Oisín</N>"
 msgstr ""
@@ -64497,7 +64794,7 @@ msgid "<A pl='n' gnt='n'>ollmhar</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>ollmhargadh</N>"
-msgstr ""
+msgstr "mòr-bhùth_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>ollmhéid</N>"
 msgstr ""
@@ -65094,7 +65391,7 @@ msgid "<F>Ostainn</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>óstaíocht</N>"
-msgstr ""
+msgstr "loidseadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Ostair</N>"
 msgstr "Ostair_nf"
@@ -65322,6 +65619,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>pailniú</N>"
 msgstr ""
 
+# or leabhrachan
 msgid "<N pl='n' gnt='n' gnd='m'>paimfléad</N>"
 msgstr "paimhleid"
 
@@ -65532,8 +65830,9 @@ msgstr ""
 msgid "<F>paistís</F>"
 msgstr ""
 
+# or leanabail_a
 msgid "<A pl='n' gnt='n'>páistiúil</A>"
-msgstr "pàisdeil"
+msgstr "pàisdeil_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>páistiúlacht</N>"
 msgstr "pàisdealachd"
@@ -65604,9 +65903,11 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>palandróm</N>"
 msgstr ""
 
+# also "lùchairt_nf"
 msgid "<N pl='n' gnt='n' gnd='m'>pálás</N>"
 msgstr "pàlas"
 
+# a. palatial
 msgid "<F>pálásta</F>"
 msgstr ""
 
@@ -65632,7 +65933,7 @@ msgid "<F>pana</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>pána</N>"
-msgstr ""
+msgstr "leòsan_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>pánaí</N>"
 msgstr ""
@@ -65916,8 +66217,9 @@ msgstr ""
 msgid "<F>pasúr</F>"
 msgstr ""
 
+# hare, leveret; see SBG
 msgid "<N pl='n' gnt='n' gnd='m'>patachán</N>"
-msgstr ""
+msgstr "pata_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Patagóin</N>"
 msgstr "Patagòinia_nm"
@@ -67752,13 +68054,13 @@ msgid "<N pl='n' gnt='n' gnd='m'>polláire</N>"
 msgstr "pollair"
 
 msgid "<N pl='n' gnt='n' gnd='m'>pollán</N>"
-msgstr "pollag"
+msgstr "pollag_nf"
 
 msgid "<F>pollchárta</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>pollóg</N>"
-msgstr ""
+msgstr "pollag_nf"
 
 msgid "<A pl='n' gnt='n'>polltach</A>"
 msgstr ""
@@ -68531,6 +68833,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>príomhearra</N>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='f'>príomheochair</N>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='m'>príomhfheidhmeannach</N>"
 msgstr "àrd-oifigear_nm"
 
@@ -68607,6 +68912,9 @@ msgid "<N pl='n' gnt='n' gnd='m'>príomhtháirge</N>"
 msgstr ""
 
 msgid "<F>príomhthalamh</F>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>príomhthéacs</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>príomhtheanga</N>"
@@ -69253,7 +69561,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>rabharta</N>"
 msgstr "reothart_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>rabhcán</N>"
-msgstr ""
+msgstr "luinneag_nf"
 
 msgid "<F>rabhcánaí</F>"
 msgstr ""
@@ -69356,6 +69664,9 @@ msgid "<N pl='n' gnt='n' gnd='m'>rachta</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>rachtaíl</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>rachtán</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>rachtúil</A>"
@@ -69591,8 +69902,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>raidió</N>"
 msgstr "rèidio_nm"
 
+# false friend - meacan dearg in ga is a carrot
 msgid "<N pl='n' gnt='n' gnd='f'>raidis</N>"
-msgstr ""
+msgstr "meacan-ruadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>raifia</N>"
 msgstr ""
@@ -70234,8 +70546,9 @@ msgstr ""
 msgid "<F>réamatach</F>"
 msgstr ""
 
+# n. rheumatism
 msgid "<F>réamatacht</F>"
-msgstr ""
+msgstr "lòinidh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>réamhaisnéis</N>"
 msgstr "ro-aithris_nf"
@@ -71168,6 +71481,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>rinn</N>"
 msgstr "rinn_nm"
 
+msgid "<A pl='n' gnt='n'>rinnbhlasta</A>"
+msgstr ""
+
 msgid "<A pl='n' gnt='n'>rinneach</A>"
 msgstr ""
 
@@ -71554,6 +71870,9 @@ msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>roghnú</N>"
 msgstr "roghnachadh_nm"
+
+msgid "<N pl='n' gnt='n' gnd='m'>roghnúchán</N>"
+msgstr ""
 
 msgid "<U>róibéis</U>"
 msgstr ""
@@ -73304,7 +73623,7 @@ msgid "<A pl='n' gnt='n'>samhlaíoch</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>samhlaíocht</N>"
-msgstr ""
+msgstr "mac-meanmna_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>samhlaoid</N>"
 msgstr ""
@@ -74045,7 +74364,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>scáineadh</N>"
 msgstr "sgàineadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>scaineagán</N>"
-msgstr ""
+msgstr "morghan_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>scáinne</N>"
 msgstr "sgeinnidh"
@@ -74447,6 +74766,12 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>scáthlán</N>"
 msgstr "sgàthlann"
 
+msgid "<V p='y' t='ord'>scáthlínigh</V>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>scáthlíniú</N>"
+msgstr ""
+
 msgid "<F>scáthshlua</F>"
 msgstr ""
 
@@ -74681,6 +75006,7 @@ msgstr ""
 msgid "<V p='y' t='ord'>sceimhligh</V>"
 msgstr ""
 
+# or "neach-fòirneirt"
 msgid "<N pl='n' gnt='n' gnd='m'>sceimhlitheoir</N>"
 msgstr "neach-fuathais_nm"
 
@@ -76046,7 +76372,7 @@ msgid "<F>seachad</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>seachadadh</N>"
-msgstr ""
+msgstr "lìbhrigeadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>seachadóir</N>"
 msgstr ""
@@ -76055,7 +76381,7 @@ msgid "<F>seachaibh</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>seachaid</V>"
-msgstr ""
+msgstr "lìbhrig_v"
 
 msgid "<V p='y' t='ord'>seachain</V>"
 msgstr "seachain_v"
@@ -76118,7 +76444,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>seachrán</N>"
 msgstr "seachran"
 
 msgid "<A pl='n' gnt='n'>seachránach</A>"
-msgstr "seachranach"
+msgstr "seachranach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>seachránacht</N>"
 msgstr ""
@@ -76390,7 +76716,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>sealla</N>"
 msgstr "cealla"
 
 msgid "<N pl='n' gnt='n' gnd='m'>seallach</N>"
-msgstr ""
+msgstr "neach-amhairc_nm"
 
 # n. shallot  - sgalaid in SBG/Dwelly
 msgid "<F>seallóid</F>"
@@ -77086,8 +77412,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>seicimín</N>"
 msgstr ""
 
+# n. membrane
 msgid "<N pl='n' gnt='n' gnd='f'>seicin</N>"
-msgstr ""
+msgstr "meamhran_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>Seicis</N>"
 msgstr ""
@@ -77471,9 +77798,11 @@ msgstr ""
 msgid "<F>seise</F>"
 msgstr "seis"
 
+# n. sixth (music)
 msgid "<F>seiseach</F>"
 msgstr ""
 
+# tuneful, melodic
 msgid "<A pl='n' gnt='n'>séiseach</A>"
 msgstr "sèisteach"
 
@@ -77800,11 +78129,12 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>siansa</N>"
 msgstr "siansadh"
 
+# n. ringing sound
 msgid "<F>siansach</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>siansach</A>"
-msgstr ""
+msgstr "mànranach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>siansán</N>"
 msgstr "siansan"
@@ -77913,7 +78243,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>síciatracht</N>"
 msgstr "leigheas-inntinn_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>síciatraí</N>"
-msgstr ""
+msgstr "lighiche-inntinn_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Sicil</N>"
 msgstr ""
@@ -78019,7 +78349,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>siléig</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>siléigeach</A>"
-msgstr ""
+msgstr "mosgaideach_a"
 
 msgid "<N pl='n' gnt='n' gnd='f'>Siléis</N>"
 msgstr ""
@@ -78077,6 +78407,7 @@ msgstr ""
 msgid "<F>simiach</F>"
 msgstr ""
 
+# or "luidhear"
 msgid "<N pl='n' gnt='n' gnd='m'>simléar</N>"
 msgstr "similear_nm"
 
@@ -78239,6 +78570,9 @@ msgid "<N pl='n' gnt='n' gnd='f'>sintéis</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>sintéiseach</A>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>sintéiseoir</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>sintéisigh</V>"
@@ -78465,6 +78799,7 @@ msgstr ""
 msgid "<F>síolghé</F>"
 msgstr "muir-ghèadh_nf"
 
+# or "lideadh_nm"  syllable
 msgid "<N pl='n' gnt='n' gnd='m'>siolla</N>"
 msgstr "sìola"
 
@@ -79197,7 +79532,16 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>slánbhia</N>"
 msgstr ""
 
+msgid "<V p='y' t='ord'>slánchóirigh</V>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='f'>slánchruinne</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>slánchuid</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>slánchúis</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>slándáil</N>"
@@ -79332,6 +79676,7 @@ msgstr ""
 msgid "<V p='y' t='ord'>sleamhnaigh</V>"
 msgstr "sleamhnaich_v"
 
+# disambig?: slide (film), slide (playground), sty (eye) -- leamhnagan_nm, slip (berth)
 msgid "<N pl='n' gnt='n' gnd='m'>sleamhnán</N>"
 msgstr "sleamhnag_nf"
 
@@ -79373,6 +79718,7 @@ msgstr "slèibhteach"
 msgid "<N pl='n' gnt='n' gnd='f'>sléibhteoireacht</N>"
 msgstr ""
 
+# or "monadail_a"
 msgid "<A pl='n' gnt='n'>sléibhtiúil</A>"
 msgstr "sliabhach"
 
@@ -80760,8 +81106,9 @@ msgstr "soidium"
 msgid "<N pl='n' gnt='n' gnd='f'>Sóifia</N>"
 msgstr ""
 
+# v. mutate
 msgid "<F>sóigh</F>"
-msgstr ""
+msgstr "mùth_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>soighe</N>"
 msgstr ""
@@ -81293,6 +81640,9 @@ msgstr "seòrsachadh_nm"
 msgid "<V p='y' t='ord'>sórtáil</V>"
 msgstr "seòrsaich_v"
 
+msgid "<N pl='n' gnt='n' gnd='m'>sórtálaí</N>"
+msgstr ""
+
 # n. "sorren", maintenance tax
 msgid "<F>sorthan</F>"
 msgstr ""
@@ -81582,7 +81932,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>spás-am</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>spásárthach</N>"
-msgstr ""
+msgstr "long-fànais_nf"
 
 msgid "<F>spásas</F>"
 msgstr ""
@@ -81590,8 +81940,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>spáseitilt</N>"
 msgstr ""
 
+# also "soitheach-fànais_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>spáslong</N>"
-msgstr "soitheach-fànais_nf"
+msgstr "long-fànais_nf"
 
 msgid "<A pl='n' gnt='n'>spasmach</A>"
 msgstr "spastach_a"
@@ -81975,7 +82326,7 @@ msgstr "spìosraich_v"
 
 # n. (snow)flake
 msgid "<F>spitheog</F>"
-msgstr ""
+msgstr "lòineag_nf"
 
 msgid "<N pl='n' gnt='n' gnd='m'>spladhas</N>"
 msgstr ""
@@ -82023,6 +82374,9 @@ msgid "<N pl='n' gnt='n' gnd='m'>spléachadh</N>"
 msgstr "spleuchdadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>spleáchas</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='f'>spleáchóg</N>"
 msgstr ""
 
 msgid "<F>spleadh</F>"
@@ -82346,6 +82700,9 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>spriocdhírithe</A>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='m'>spriocfhráma</N>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='m'>spriocghrúpa</N>"
 msgstr ""
 
@@ -82541,6 +82898,9 @@ msgstr ""
 msgid "<F>sraitheachán</F>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='m'>sraithmharfóir</N>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='m'>sraithscéal</N>"
 msgstr ""
 
@@ -82641,9 +83001,6 @@ msgid "<F>srathaireacht</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>srathaithe</A>"
-msgstr ""
-
-msgid "<F>srathmharfóir</F>"
 msgstr ""
 
 msgid "<F>srathnaigh</F>"
@@ -82878,8 +83235,9 @@ msgstr "stad_nm"
 msgid "<V p='y' t='ord'>stad</V>"
 msgstr "stad_v"
 
+# also "mabach_a"
 msgid "<A pl='n' gnt='n'>stadach</A>"
-msgstr "stadach"
+msgstr "stadach_a"
 
 msgid "<N pl='n' gnt='n' gnd='m'>stadaire</N>"
 msgstr ""
@@ -84441,8 +84799,9 @@ msgstr "susbainteach_a"
 msgid "<F>substráit</F>"
 msgstr ""
 
+# calf n.
 msgid "<F>sucaí</F>"
-msgstr ""
+msgstr "laogh_nm"
 
 msgid "<A pl='n' gnt='n'>súchaite</A>"
 msgstr ""
@@ -84656,7 +85015,7 @@ msgstr ""
 msgid "<F>súire</F>"
 msgstr ""
 
-# wooing, courtship
+# wooing, courtship; also "leannanachd_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>suirí</N>"
 msgstr "suirghe_nf"
 
@@ -85028,6 +85387,7 @@ msgstr "tacar"
 msgid "<N pl='n' gnt='n' gnd='m'>tacas</N>"
 msgstr ""
 
+# or leanabh
 msgid "<N pl='n' gnt='n' gnd='m'>tachrán</N>"
 msgstr "tàcharan_nm"
 
@@ -85146,6 +85506,9 @@ msgid "<F>tagracht</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>tagraí</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>tagrán</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>tagróir</N>"
@@ -85526,14 +85889,14 @@ msgid "<N pl='n' gnt='n' gnd='m'>taisleach</N>"
 msgstr "taiseachd_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>taisléine</N>"
-msgstr ""
+msgstr "lèine-mharbh_nf"
 
 msgid "<N pl='n' gnt='n' gnd='f'>taisme</N>"
 msgstr ""
 
 # casualty
 msgid "<N pl='n' gnt='n' gnd='m'>taismeach</N>"
-msgstr ""
+msgstr "leòinteach_nm"
 
 msgid "<A pl='n' gnt='n'>taismeach</A>"
 msgstr "tubaisteach"
@@ -85573,7 +85936,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>taistealach</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>taistealaí</N>"
-msgstr ""
+msgstr "neach-siubhail_nm"
 
 msgid "<V p='y' t='ord'>taistil</V>"
 msgstr ""
@@ -86441,8 +86804,9 @@ msgstr "?;teadhair_nf"
 msgid "<N pl='n' gnt='n' gnd='f'>teaglaim</N>"
 msgstr ""
 
+# collector, compiler
 msgid "<F>teaglamaí</F>"
-msgstr ""
+msgstr "neach-trusaidh_nm"
 
 msgid "<V p='y' t='ord'>teagmhaigh</V>"
 msgstr ""
@@ -86981,6 +87345,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>teilitéacs</N>"
 msgstr "teleteacs"
 
+msgid "<N pl='n' gnt='n' gnd='f'>teilitéip</N>"
+msgstr ""
+
 msgid "<F>teillíneach</F>"
 msgstr ""
 
@@ -87374,6 +87741,7 @@ msgstr ""
 msgid "<F>tiargálaí</F>"
 msgstr ""
 
+# also "morair_nm" as in "Taigh nam Morairean"
 msgid "<N pl='n' gnt='n' gnd='m'>tiarna</N>"
 msgstr "tighearna_nm"
 
@@ -87766,6 +88134,7 @@ msgstr "gabhaltas_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>tionóntán</N>"
 msgstr ""
 
+# also "pròiseacht" - see colmcille.net
 msgid "<N pl='n' gnt='n' gnd='m'>tionscadal</N>"
 msgstr "tiasgadal"
 
@@ -87796,6 +88165,7 @@ msgstr "tionnsgalachd"
 msgid "<N pl='n' gnt='n' gnd='m'>tionsclú</N>"
 msgstr ""
 
+# also "pròiseacht" - see colmcille.net
 msgid "<N pl='n' gnt='n' gnd='m'>tionscnamh</N>"
 msgstr "tionnsgnadh"
 
@@ -88357,8 +88727,9 @@ msgstr "tòicear"
 msgid "<A pl='n' gnt='n'>toiciúil</A>"
 msgstr ""
 
+# fulling
 msgid "<F>toicneáil</F>"
-msgstr ""
+msgstr "luadh_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>toighis</N>"
 msgstr ""
@@ -88603,6 +88974,7 @@ msgstr "stòras"
 msgid "<F>tolach</F>"
 msgstr ""
 
+# or "langasaid_nf"
 msgid "<N pl='n' gnt='n' gnd='m'>tolg</N>"
 msgstr "sòfa_nf"
 
@@ -89299,6 +89671,9 @@ msgstr ""
 msgid "<F>trasbhéarlaigh</F>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n' gnd='m'>traschéimniú</N>"
+msgstr ""
+
 msgid "<F>traschóimheas</F>"
 msgstr ""
 
@@ -89776,7 +90151,7 @@ msgid "<N pl='n' gnt='n' gnd='m'>treoirfhocal</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>treoirleabhar</N>"
-msgstr ""
+msgstr "leabhar-iùil_nm"
 
 msgid "<N pl='n' gnt='n' gnd='f'>treoirlíne</N>"
 msgstr ""
@@ -89794,7 +90169,7 @@ msgstr ""
 msgid "<A pl='n' gnt='n'>treorach</A>"
 msgstr ""
 
-# or "neach-iùil_nm", "neach-treòrachaidh"
+# or "neach-iùil_nm", "neach-treòrachaidh", "neach-stiùiridh"
 msgid "<N pl='n' gnt='n' gnd='m'>treoraí</N>"
 msgstr "treòraiche"
 
@@ -90268,8 +90643,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>tromchodladh</N>"
 msgstr ""
 
+# n.
 msgid "<F>tromchroí</F>"
-msgstr ""
+msgstr "leann-dubh_nm"
 
 msgid "<A pl='n' gnt='n'>tromchroíoch</A>"
 msgstr ""
@@ -90293,6 +90669,9 @@ msgid "<N pl='n' gnt='n' gnd='m'>tromualach</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>trón</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>tróp</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>trópaic</N>"
@@ -90535,7 +90914,7 @@ msgid "<N pl='n' gnt='n' gnd='f'>tuaim</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>tuaiplis</N>"
-msgstr ""
+msgstr "mearachd_nf"
 
 msgid "<F>tuaiplisiúil</F>"
 msgstr ""
@@ -90645,7 +91024,7 @@ msgid "<N pl='y' gnt='n' gnd='f'>tuarascálacha</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>tuarascálaí</N>"
-msgstr ""
+msgstr "neach-naidheachd_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>tuarastal</N>"
 msgstr "tuarastal_nm"
@@ -91606,6 +91985,12 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>uathachas</N>"
 msgstr ""
 
+msgid "<F>uathcheartaigh</F>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>uathcheartú</N>"
+msgstr ""
+
 msgid "<F>uathdhó</F>"
 msgstr ""
 
@@ -91613,6 +91998,9 @@ msgid "<F>uathfheidhmeach</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>uathfholaigh</V>"
+msgstr ""
+
+msgid "<V p='y' t='ord'>uathfhormáidigh</V>"
 msgstr ""
 
 msgid "<A pl='n' gnt='n'>uathlathach</A>"
@@ -91640,6 +92028,9 @@ msgid "<A pl='n' gnt='n'>uathoibrithe</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>uathoibriú</N>"
+msgstr ""
+
+msgid "<V p='y' t='ord'>uathoiriúnaigh</V>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>uathordú</N>"
@@ -91697,8 +92088,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>ubhthoradh</N>"
 msgstr ""
 
+# v. "full"
 msgid "<F>úc</F>"
-msgstr ""
+msgstr "luaidh_v"
 
 msgid "<N pl='n' gnt='n' gnd='m'>ucailéile</N>"
 msgstr ""
@@ -92259,7 +92651,7 @@ msgid "<A pl='n' gnt='n'>ultraivialait</A>"
 msgstr ""
 
 msgid "<S>um</S>"
-msgstr ""
+msgstr "mu_prep"
 
 msgid "<N pl='n' gnt='n' gnd='f'>úmachan</N>"
 msgstr ""
@@ -92532,6 +92924,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>urlámhas</N>"
 msgstr ""
 
+# also "làr_nm"
 msgid "<N pl='n' gnt='n' gnd='m'>urlár</N>"
 msgstr "ùrlar_nm"
 
@@ -92911,7 +93304,7 @@ msgid "<A pl='n' gnt='n'>veigeatórach</A>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='f'>veilbhit</N>"
-msgstr ""
+msgstr "meileabhaid_nf"
 
 msgid "<F>veilleam</F>"
 msgstr ""

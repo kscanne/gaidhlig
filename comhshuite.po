@@ -551,6 +551,15 @@ msgstr ""
 msgid "<R>chun tosaigh</R>"
 msgstr ""
 
+msgid "<N pl='n' gnt='n'>cur chuige</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n'>gcur chuige</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n'>chur chuige</N>"
+msgstr ""
+
 msgid "<R>dar ndóigh</R>"
 msgstr ""
 
@@ -902,9 +911,6 @@ msgstr ""
 msgid "<R>i bhfogas</R>"
 msgstr "faisg air"
 
-msgid "<S>i bhfoirm</S>"
-msgstr ""
-
 msgid "<R>i bhfolach</R>"
 msgstr ""
 
@@ -1041,9 +1047,6 @@ msgid "<R>in airde</R>"
 msgstr "an àirde"
 
 msgid "<S>in airicis</S>"
-msgstr ""
-
-msgid "<S>in áit</S>"
 msgstr ""
 
 msgid "<R>in ann</R>"

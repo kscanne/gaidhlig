@@ -991,9 +991,6 @@ msgstr "mhotha"
 msgid "<A pl='n' gnt='y' gnd='f'>mhóide</A>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>mhoille</A>"
-msgstr ""
-
 msgid "<F>m'iarchurtha</F>"
 msgstr ""
 
@@ -1037,9 +1034,6 @@ msgid "<A pl='n' gnt='y' gnd='f'>mó</A>"
 msgstr "motha"
 
 msgid "<A pl='n' gnt='y' gnd='f'>móide</A>"
-msgstr ""
-
-msgid "<A pl='n' gnt='y' gnd='f'>moille</A>"
 msgstr ""
 
 msgid "<F>m'ólta</F>"

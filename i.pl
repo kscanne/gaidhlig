@@ -7,7 +7,7 @@ use warnings;
 # just used for maintaining critical "cuardach.txt" bilingual lexicon
 
 if ($#ARGV != 0) {
-	die "Usage: $0 [-f|-g|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write gramadoir lexicon-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n-u: Attempt automatic additions to focloir.txt from lextodo.txt\n";
+	die "Usage: $0 [-f|-g|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n-u: Attempt automatic additions to focloir.txt from lextodo.txt\n";
 }
 
 my %lexicon;
@@ -998,10 +998,11 @@ if ($ARGV[0] eq '-f') {
 	write_focloir();
 }
 elsif ($ARGV[0] eq '-g') {
-	open (OUTLEX, ">:bytes", "lexicon-gd.txt") or die "Could not open lexicon: $!\n";
+	open (OUTLEX, ">:bytes", "GD.txt") or die "Could not open lexicon: $!\n";
 	foreach (sort keys %lexicon) {
 		unless (/ /) {
 			my $forms = gramadoir_output($_, 0);
+			print OUTLEX "-\n";
 			foreach (@$forms) {
 				s/^([^ ]+) ([^ ]+) ([0-9]+)$/$1 $3/;  # strip pronouns
 				print OUTLEX "$_\n";

@@ -7238,6 +7238,7 @@ rosgrann_nm		0		0
 ro-shealladh_nm		0		0
 ròsta_a		0		0
 ròsta_nm		0	ròstaichean
+ròstadh_nm		0	1
 roth_nf		rotha		0
 rothachadh_nm		0		1
 rothaich_v		0		0

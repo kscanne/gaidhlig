@@ -719,6 +719,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>Dheireadh Fómhair</N>"
 msgstr ""
 
+msgid "<A pl='n' gnt='n'>éasca péasca</A>"
+msgstr ""
+
 msgid "<R>fá dtaobh</R>"
 msgstr ""
 
@@ -781,6 +784,9 @@ msgstr "Fianna Fáil"
 
 msgid "<N pl='n' gnt='n'>d'Fhianna Fáil</N>"
 msgstr "d'Fhianna Fáil"
+
+msgid "<N pl='n' gnt='n'>fionna feanna</N>"
+msgstr ""
 
 msgid "<N pl='n' gnt='n'>fíorchaoin fáilte</N>"
 msgstr ""
@@ -845,6 +851,9 @@ msgstr ""
 msgid "<R>go fóill</R>"
 msgstr "fhathast"
 
+msgid "<R>go folcanta falcanta</R>"
+msgstr ""
+
 msgid "<R>go fras</R>"
 msgstr ""
 
@@ -885,6 +894,9 @@ msgid "<R>go treis</R>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n'>Hong Cong</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n'>húm ná hám</N>"
 msgstr ""
 
 msgid "<R>i bhfách</R>"
@@ -1252,6 +1264,9 @@ msgid "<N pl='n' gnt='n'>Ros Muc</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n'>ruaille buaille</N>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n'>rup rap</N>"
 msgstr ""
 
 msgid "<R>sa treis</R>"

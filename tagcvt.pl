@@ -1,9 +1,11 @@
 #!/usr/bin/perl
 
-# used in makefile
+# used in makefile; one arg is language code
 
 use strict;
 use warnings;
+
+my $langcode = $ARGV[0];
 
 my %tags;
 
@@ -17,7 +19,7 @@ sub converter
 	return $ans;
 }
 
-open (POSTAGS, "/home/kps/gaeilge/gramadoir/gr/ga/pos-ga.txt") or die "Could not open Irish pos tags list: $!\n";
+open (POSTAGS, "/home/kps/gaeilge/gramadoir/gr/$langcode/pos-$langcode.txt") or die "Could not open POS tags list for $langcode: $!\n";
 
 while (<POSTAGS>) {
 	m/^([0-9]+)\s+(<[^>]+>)/;

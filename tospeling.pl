@@ -204,13 +204,13 @@ while (<STDIN>) {
 	elsif ($pos =~ m/^<A/) {
 		$my_pos = 'adj';
 		if ($pos =~ m/gnt="y"/) {
-			$flags = 'gen.sg';
 			if ($pos =~ m/gnd="m"/) {
-				$flags .= '.m';
+				$flags = 'm';
 			}
 			elsif ($pos =~ m/gnd="f"/) {
-				$flags .= '.f';
+				$flags = 'f';
 			}
+			$flags .= '.sg.gen';
 		}
 		elsif ($pos =~ m/pl="y"/) {
 			$flags = 'pl';

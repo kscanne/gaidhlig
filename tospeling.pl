@@ -35,10 +35,18 @@ while (<STDIN>) {
 		else {
 			$flags .= '.dat';
 		}
-		if ($lemmapos eq 'V') {
-			$my_pos = 'vblex';
-			$flags = "ger.$flags";
-		}
+        if ($lemmapos eq 'V') {
+            if ($my_pos =~ /f$/) {
+                $flags = "ger.f.$flags";
+            }
+            elsif ($my_pos =~ /m$/) {
+                $flags = "ger.m.$flags";
+            }
+            else {
+                $flags = "ger.$flags";
+            }
+            $my_pos = 'vblex';
+        }
 		print "$lemma; $surface; $flags; $my_pos\n";
 	}
 	elsif ($pos =~ m/^<V/) {  # don't forget copula

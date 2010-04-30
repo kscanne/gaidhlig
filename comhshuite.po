@@ -965,9 +965,6 @@ msgstr "an cèin"
 msgid "<R>i gceist</R>"
 msgstr ""
 
-msgid "<S>i gcionn</S>"
-msgstr ""
-
 msgid "<S>i gcoinne</S>"
 msgstr ""
 

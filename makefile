@@ -35,27 +35,27 @@ lexicon-gd.txt : GD.txt
 	mv -f lextodo.txt lextodo.txt.bak
 	cat lextodo.txt.bak | while read x; do TEMP=`echo $$x | sed 's/^\([^ ]*\) .*/^\1 /'`; if ! egrep "$$TEMP" lexicon-gd.txt > /dev/null; then echo $$x; fi; done > lextodo.txt
 	diff -u lextodo.txt.bak lextodo.txt | more
-	cp -f $@ $(GRAM)/gd/$@
+	cat $@ | iconv -f utf8 -t iso-8859-1 > $(GRAM)/gd/$@
 	(cd $(GRAM)/gd; make rebuildlex)
 
 
 GA.txt : /home/kps/math/code/data/Dictionary/IG
 	Gin 18 # writes "ga.txt"
-	cat ga.txt | perl -p $(GRAM)/ga/posmap.pl | LC_ALL=C sed '/^xx /s/.*/xx 4/' > $@
+	cat ga.txt | perl -p $(GRAM)/ga/posmap.pl | LC_ALL=C sed '/^xx /s/.*/xx 4/' | iconv -f iso-8859-1 -t utf8 > $@
 	rm -f ga.txt
 
 ga2gd.pot : GA.txt
-	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=ISO-8859-1\\n"'; echo) > $@
-	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | LC_ALL=C sed 's/@.*//' | egrep -v '^xx' | LC_ALL=ga_IE sort -k1,1 -k2,2n | uniq | perl ./tagcvt.pl ga | tr '"' "'" | LC_ALL=C sed 's/.*/msgid "&"\nmsgstr ""\n/' >> $@
+	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@
+	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | sed 's/@.*//' | egrep -v '^xx' | sort -k1,1 -k2,2n | uniq | perl ./tagcvt.pl ga | tr '"' "'" | LC_ALL=C sed 's/.*/msgid "&"\nmsgstr ""\n/' >> $@
 
 neamhrialta.pot : GA.txt
-	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=ISO-8859-1\\n"'; echo) > $@
-	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep '^xx ' | tr '@' '\n' | egrep -v '^xx ' | egrep ' ' | LC_ALL=ga_IE sort -k1,1 -k2,2n | uniq | perl ./tagcvt.pl ga | tr '"' "'" | LC_ALL=C sed 's/.*/msgid "&"\nmsgstr ""\n/' >> $@
+	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@
+	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep '^xx ' | tr '@' '\n' | egrep -v '^xx ' | egrep ' ' | sort -k1,1 -k2,2n | uniq | perl ./tagcvt.pl ga | tr '"' "'" | sed 's/.*/msgid "&"\nmsgstr ""\n/' >> $@
 
 FOINSE=$(GRAM)/ga/comhshuite-ga.in
 comhshuite.pot : $(FOINSE)
-	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=ISO-8859-1\\n"'; echo) > $@
-	cat $(FOINSE) | perl ./saorog.pl | tr '"' "'" | LC_ALL=C sed 's/.*/msgid "&"\nmsgstr ""\n/' >> $@ 
+	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@
+	cat $(FOINSE) | iconv -f iso-8859-1 -t utf8 | perl ./saorog.pl | tr '"' "'" | LC_ALL=C sed 's/.*/msgid "&"\nmsgstr ""\n/' >> $@ 
 
 ga2gd.po : ga2gd.pot
 	msgmerge -N -q --backup=off -U $@ ga2gd.pot > /dev/null 2>&1
@@ -70,7 +70,7 @@ comhshuite.po : comhshuite.pot
 	touch $@
 
 stemmer.pot : neamhrialta.pot comhshuite.pot
-	(cat neamhrialta.pot; egrep '[^</][A-ZÁÉÍÓÚ]' comhshuite.pot | egrep -v 'Content-Type' | LC_ALL=C sed 's/.*/&\nmsgstr ""\n/') > $@
+	(cat neamhrialta.pot; egrep '[^</][A-ZÃÃ‰ÃÃ“Ãš]' comhshuite.pot | egrep -v 'Content-Type' | LC_ALL=C sed 's/.*/&\nmsgstr ""\n/') > $@
 
 stemmer.po : stemmer.pot
 	msgmerge -N -q --backup=off -U $@ stemmer.pot > /dev/null 2>&1
@@ -97,25 +97,25 @@ lookup.txt : cuardach.txt
 #	togail gd glan 20
 
 fullstem.txt : GA.txt
-	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^xx' | LC_ALL=ga_IE sort -u | perl ./tagcvt.pl ga | LC_ALL=ga_IE sort -u > $@
+	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^xx' | sort -u | perl ./tagcvt.pl ga | sort -u > $@
 
 fullstem-gd.txt : GD.txt
-	cat GD.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^x[ x]' | LC_ALL=ga_IE sort -u | perl ./tagcvt.pl gd | LC_ALL=ga_IE sort -u > $@
+	cat GD.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^x[ x]' | sort -u | perl ./tagcvt.pl gd | sort -u > $@
 
 fullstem-nomutate.txt : fullstem.txt
-	cat fullstem.txt | egrep -v '<F>' | LC_ALL=ga_IE egrep -v ">.[A-ZÁÉÍÓÚh'-]" | egrep -v '>(m[Bb]|g[Cc]|n[DdGg]|b[Pp]|t[Ss]|d[Tt])' | egrep -v 'h="y"' | LC_ALL=ga_IE egrep -v 't="ord">h.*>[aeiouáéíóú]' > $@
+	cat fullstem.txt | egrep -v '<F>' | egrep -v ">.[A-ZÃÃ‰ÃÃ“Ãšh'-]" | egrep -v '>(m[Bb]|g[Cc]|n[DdGg]|b[Pp]|t[Ss]|d[Tt])' | egrep -v 'h="y"' | egrep -v 't="ord">h.*>[aeiouÃ¡Ã©Ã­Ã³Ãº]' > $@
 
 fullstem-nomutate-gd.txt : fullstem-gd.txt
-	cat fullstem-gd.txt | LC_ALL=ga_IE egrep -v ">.[h']" | egrep -v ">[th]-" > $@
+	cat fullstem-gd.txt | egrep -v ">.[h']" | egrep -v ">[th]-" > $@
 
 speling-ga.txt : fullstem-nomutate.txt
-	cat fullstem-nomutate.txt | perl tospeling.pl | iconv -f iso-8859-1 -t utf8 > $@
+	cat fullstem-nomutate.txt | perl tospeling.pl > $@
 
 speling-gd.txt : fullstem-nomutate-gd.txt
-	cat fullstem-nomutate-gd.txt | perl tospeling-gd.pl | iconv -f iso-8859-1 -t utf8 > $@
+	cat fullstem-nomutate-gd.txt | perl tospeling-gd.pl > $@
 
 Lingua-GA-Stemmer/share/stemmer.txt : GA.txt Lingua-GA-Stemmer/scripts/stemmer
-	(sed '/^#/d' stemmer.po | sed "/^msg/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat fullstem.txt) | LC_ALL=ga_IE sort -u > $@
+	(sed '/^#/d' stemmer.po | sed "/^msg/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat fullstem.txt) | sort -u > $@
 	perl -I Lingua-GA-Stemmer/lib Lingua-GA-Stemmer/scripts/stemmer -p $@
 
 triailcheck : FORCE

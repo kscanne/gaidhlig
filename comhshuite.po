@@ -467,7 +467,7 @@ msgstr "Bail'-Ath-Cliath"
 msgid "<N pl='n' gnt='n' gnd='m'>Bhaile Átha Cliath</N>"
 msgstr "Bhail'-Ath-Cliath"
 
-msgid "<Q>c[áé] mhéad</Q>"
+msgid "<Q>cé mhéad</Q>"
 msgstr ""
 
 msgid "<Q>cad chuige</Q>"
@@ -563,7 +563,7 @@ msgstr ""
 msgid "<R>dar ndóigh</R>"
 msgstr ""
 
-msgid "<S>d[eá] bhíthin</S>"
+msgid "<S>dá bhíthin</S>"
 msgstr ""
 
 msgid "<S>dá éis</S>"
@@ -719,7 +719,7 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='m'>Dheireadh Fómhair</N>"
 msgstr ""
 
-msgid "<A pl='n' gnt='n'>[Éé]asca péasca</A>"
+msgid "<A pl='n' gnt='n'>éasca péasca</A>"
 msgstr ""
 
 msgid "<R>fá dtaobh</R>"
@@ -1220,17 +1220,18 @@ msgstr "nas motha"
 msgid "<N pl='n' gnt='n'>niúdar neádar</N>"
 msgstr ""
 
-msgid "<R>[Óó] chianaibh</R>"
+msgid "<R>ó chianaibh</R>"
 msgstr ""
 
-msgid "<R>[Óó] dheas</R>"
-msgstr ""
+msgid "<R>ó dheas</R>"
+msgstr "mu dheas"
 
-msgid "<R>[Óó] thuaidh</R>"
-msgstr ""
+msgid "<R>ó thuaidh</R>"
+msgstr "mu thuath"
 
-msgid "<R>[Óó] shin</R>"
-msgstr ""
+# OK
+msgid "<R>ó shin</R>"
+msgstr "air ais"
 
 msgid "<S>os cionn</S>"
 msgstr "os cionn_prep"
@@ -1384,13 +1385,3 @@ msgstr ""
 
 msgid "<R>um an dtaca</R>"
 msgstr ""
-
-#~ msgid "<R>ó dheas</R>"
-#~ msgstr "mu dheas"
-
-#~ msgid "<R>ó thuaidh</R>"
-#~ msgstr "mu thuath"
-
-# OK
-#~ msgid "<R>ó shin</R>"
-#~ msgstr "air ais"

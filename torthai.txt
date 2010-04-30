@@ -17,38 +17,38 @@ am bi thu? nach bi thu? bha mi.
 cha robh mi.
 an robh thu? nach robh thu? bhithinn.
 bhiodh thu.
-tha mi aig òl.
-bidh mi a' òl.
+tha mi aig Ã²l.
+bidh mi a' Ã²l.
 tha mi aig dol.
 bidh mi a' dol.
 An do thuit e?
 Chuala mi gun do thuit e.
 Cha do thuit e.
 Thubhairt e nach do thuit e.
-ainm dìleas.
-airgead beò.
+ainm dÃ¬leas.
+airgead beÃ².
 Alba Nuadh.
-àm saor.
+Ã m saor.
 an Fhraing.
 an siud agus an seo.
 Beul Feirste.
 bean uasal.
 blas geur.
-Breatainn Mhòr.
+Breatainn MhÃ²r.
 caol na coise.
 ceum air cheum.
-còta mòr.
+cÃ²ta mÃ²r.
 Diciadain.
-Didòmhnaich.
+DidÃ²mhnaich.
 Dihaoine.
 deireadh geamhraidh.
 deireadh samhraidh.
 Diluain.
-Dimàirt.
+DimÃ irt.
 Disathairne.
 duine saor.
 duine uasal.
-Dùn Èideann.
+DÃ¹n Ãˆideann.
 eun dearg.
 feamainn dhearg.
 feur tioram.
@@ -62,11 +62,11 @@ gun amharas.
 gun chiall.
 gun smal.
 gun stad.
-latha brèagha air choireigin.
-làithean saora.
-làmh làidir.
+latha brÃ¨agha air choireigin.
+lÃ ithean saora.
+lÃ mh lÃ idir.
 latha saor.
-is leum àrd e.
+is leum Ã rd e.
 leigeadh a-mach.
 Loch Dearg.
 lon dubh.
@@ -74,46 +74,46 @@ long fhada.
 luath no mall.
 lus an easbaige.
 lus buidhe Bealltainn.
-lus mòr.
+lus mÃ²r.
 maide briste.
-Dimàirt Inide.
+DimÃ irt Inide.
 mar eisimpleir.
 meadhan latha.
-Eilean na Càisge.
-Pàrlamaid na h-Eòrpa.
+Eilean na CÃ isge.
+PÃ rlamaid na h-EÃ²rpa.
 priachan dubh.
-Rìoghachd Aonaichte.
+RÃ¬oghachd Aonaichte.
 rudeigin.
-seòl mòr.
-slàn leat.
-slàn leibh.
-slàn sàbhailte.
+seÃ²l mÃ²r.
+slÃ n leat.
+slÃ n leibh.
+slÃ n sÃ bhailte.
 sochair/t-sochair iomallach.
 solas an latha.
-sùil dhubh.
-Talamh an Èisg.
+sÃ¹il dhubh.
+Talamh an Ãˆisg.
 taobh a-muigh.
 taobh a-staigh.
 tuit a-mach.
 toiseach Earraich.
-b'uile/h-uile/uile gu lèir.
+b'uile/h-uile/uile gu lÃ¨ir.
 uisge coisrigte.
 Leugh mi e ann an leabhar air choireigin.
 airgead tioram.
 aran donn.
 air mhodh eile.
-baile mòr.
-beag bìodach.
-stòr-dàta .
-stòir-dàta .
+baile mÃ²r.
+beag bÃ¬odach.
+stÃ²r-dÃ ta .
+stÃ²ir-dÃ ta .
 caith a-mach.
-claidheamh mòr.
+claidheamh mÃ²r.
 cogadh catharra.
-cù allaidh.
+cÃ¹ allaidh.
 cuir a-mach.
 cuir bac air.
 cuir brat air.
-dèan suas.
-dèan suirghe.
+dÃ¨an suas.
+dÃ¨an suirghe.
 druim air ais.
-An robh bò agaibh?
+An robh bÃ² agaibh?

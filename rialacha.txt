@@ -1,47 +1,47 @@
 # <s><N pl="n" gnt="n" gnd="m">ainm</N></s> <t><N pl="n" gnt="." gnd="m">[Bb]aiste</N></t> -> w($1,1) 
-# <s><N pl="n" gnt="n" gnd="m">ainm</N></s> <s><N pl="n" gnt="n" gnd="f">brÈag</N></s> -> w($1,2) 
-<t><N pl="n" gnt="n" gnd="f">·it</N></t> <t><A pl="n" gnt="n">Èigin</A></t> -> ‡iteigin
+# <s><N pl="n" gnt="n" gnd="m">ainm</N></s> <s><N pl="n" gnt="n" gnd="f">br√©ag</N></s> -> w($1,2) 
+<t><N pl="n" gnt="n" gnd="f">√°it</N></t> <t><A pl="n" gnt="n">√©igin</A></t> -> √†iteigin
 # different verb form for "bidh" in the relative
-<t><Q>[Aa]n</Q></t> <t><V p="y" t="f·ist">mbeidh</V></t> -> am bi
+<t><Q>[Aa]n</Q></t> <t><V p="y" t="f√°ist">mbeidh</V></t> -> am bi
 # neamhrialta
-<t><V p="." t="l·ith">at·(?:i[dm]|imid|thar)?</V></t> -> w($1)
+<t><V p="." t="l√°ith">at√°(?:i[dm]|imid|thar)?</V></t> -> w($1)
 # do this before "bhfuil" below
-<t><C>[Gg]o</C></t> <t><V p="y" t="l·ith">bhfuil</V></t> -> gu bheil
+<t><C>[Gg]o</C></t> <t><V p="y" t="l√°ith">bhfuil</V></t> -> gu bheil
 # do this before "bhfuil" in next line
-<t><U>[Nn]ach</U></t> <t><V p="y" t="l·ith">bhfuil</V></t> -> nach eil
+<t><U>[Nn]ach</U></t> <t><V p="y" t="l√°ith">bhfuil</V></t> -> nach eil
 # neamhrialta; do this before general present tense rules below
-<t><V p="." t="l·ith">bhfuil(?:i[dm]|imid|tear)?</V></t> -> w($1)
-<t><V p="y" t="l·ith">[Bb]Ìm</V></t> -> bidh mi
-<t><V p="y" t="l·ith">[Bb]Ìonn</V></t> -> bidh
-<t><V p="y" t="gn·th">[Bb]hÌnn</V></t> -> b'‡bhaist dhomh a bhith
+<t><V p="." t="l√°ith">bhfuil(?:i[dm]|imid|tear)?</V></t> -> w($1)
+<t><V p="y" t="l√°ith">[Bb]√≠m</V></t> -> bidh mi
+<t><V p="y" t="l√°ith">[Bb]√≠onn</V></t> -> bidh
+<t><V p="y" t="gn√°th">[Bb]h√≠nn</V></t> -> b'√†bhaist dhomh a bhith
 ###   ---> ADD  Breatain Bheag (Wales) -> Cuimrigh (false friend!)
-# "bunachar" alone translates as "stÚr-d‡ta" in this context, so wipe "sonraÌ"
-# (and note that "sonraÌ" plural is actually the correct stem - IG headword...
-<s><N pl="n" gnt="n" gnd="m">bunachar</N></s> <s><N pl="y" gnt="n" gnd="m">sonraÌ</N></s> -> w($1,1) 
-<t><Q>[Cc]Èn</Q></t> <t><N pl="n" gnt="n" gnd="m">f·th</N></t> -> carson
+# "bunachar" alone translates as "st√≤r-d√†ta" in this context, so wipe "sonra√≠"
+# (and note that "sonra√≠" plural is actually the correct stem - IG headword...
+<s><N pl="n" gnt="n" gnd="m">bunachar</N></s> <s><N pl="y" gnt="n" gnd="m">sonra√≠</N></s> -> w($1,1) 
+<t><Q>[Cc]√©n</Q></t> <t><N pl="n" gnt="n" gnd="m">f√°th</N></t> -> carson
 <t><S>[Dd]e</S></t> <t><D>do</D></t> -> dhed
 <t><S>[Dd]e</S></t> <t><D>mo</D></t> -> dhem
 <t><S>[Dd]e</S></t> <t><D>bhur</D></t> -> dher
 # these "do" translations could also be "gad,gam,..." in phrases like
-# "T· sÈ do mo bhualadh" ?
+# "T√° s√© do mo bhualadh" ?
 #  or "dod"?
 <t><S>[Dd]o</S></t> <t><D>do</D></t> -> dhad
 #  or "dom"?
 <t><S>[Dd]o</S></t> <t><D>mo</D></t> -> dham
 #  or "dor"?
 <t><S>[Dd]o</S></t> <t><D>bhur</D></t> -> dhur
-<t><N pl="n" gnt="n" gnd="m">duine</N></t> <t><A pl="n" gnt="n">Èigin</A></t> -> cuideigin
+<t><N pl="n" gnt="n" gnd="m">duine</N></t> <t><A pl="n" gnt="n">√©igin</A></t> -> cuideigin
 <t><S>[Ff]aoi</S></t> <t><D>do</D></t> -> fod
 <t><S>[Ff]aoi</S></t> <t><D>mo</D></t> -> fom
 <t><S>[Ff]aoi</S></t> <t><D>bhur</D></t> -> for
 <t><C>[Gg]o</C></t> <t><V p="y" t="caite">raibh</V></t> <t><A pl="n" gnt="n">maith</A></t> <t><O>agat</O></t> -> tapadh leat
 <t><C>[Gg]o</C></t> <t><V p="y" t="caite">raibh</V></t> <t><A pl="n" gnt="n">maith</A></t> <t><O>agaibh</O></t> -> tapadh leibh
-<t><S>[Gg]o dtÌ</S></t> <t><T>an</T></t> -> gun
-# <t><S>[Gg]o dtÌ</S></t> <t><D>a</D></t> -> gun  (plural)
-<t><S>[Gg]o dtÌ</S></t> <t><D>·r</D></t> -> gur
-<t><S>[Gg]o dtÌ</S></t> <t><D>do</D></t> -> gud
-<t><S>[Gg]o dtÌ</S></t> <t><D>mo</D></t> -> gum
-<t><S>[Gg]o dtÌ</S></t> <t><D>bhur</D></t> -> gur
+<t><S>[Gg]o dt√≠</S></t> <t><T>an</T></t> -> gun
+# <t><S>[Gg]o dt√≠</S></t> <t><D>a</D></t> -> gun  (plural)
+<t><S>[Gg]o dt√≠</S></t> <t><D>√°r</D></t> -> gur
+<t><S>[Gg]o dt√≠</S></t> <t><D>do</D></t> -> gud
+<t><S>[Gg]o dt√≠</S></t> <t><D>mo</D></t> -> gum
+<t><S>[Gg]o dt√≠</S></t> <t><D>bhur</D></t> -> gur
 <t><S>[Ii]</S></t> <t><D>do</D></t> -> nad
 <t><S>[Ii]</S></t> <t><D>mo</D></t> -> nam
 <t><S>[Ii]n</S></t> <t><D>bhur</D></t> -> nur
@@ -49,49 +49,49 @@
 <t><S>[Ll]e</S></t> <t><D>mo</D></t> -> lem
 <t><S>[Ll]e</S></t> <t><D>bhur</D></t> -> ler
 # different verb form for "bidh" in the relative
-<t><U>[Nn]ach</U></t> <t><V p="y" t="f·ist">mbeidh</V></t> -> nach bi
+<t><U>[Nn]ach</U></t> <t><V p="y" t="f√°ist">mbeidh</V></t> -> nach bi
 # different verb form for "bidh" in the relative
-<t><U>[Nn]Ì</U></t> <t><V p="y" t="f·ist">bheidh</V></t> -> cha bhi
+<t><U>[Nn]√≠</U></t> <t><V p="y" t="f√°ist">bheidh</V></t> -> cha bhi
 # neamhrialta
-<t><V p="." t="l·ith">[Nn]Ìl(?:i[dm]|imid|tear)?</V></t> -> w($1)
-<t><S>[”Û]</S></t> <t><D>do</D></t> -> bhod
-<t><S>[”Û]</S></t> <t><D>mo</D></t> -> bhom
-<t><S>[”Û]</S></t> <t><D>bhur</D></t> -> bhor
+<t><V p="." t="l√°ith">[Nn]√≠l(?:i[dm]|imid|tear)?</V></t> -> w($1)
+<t><S>[√ì√≥]</S></t> <t><D>do</D></t> -> bhod
+<t><S>[√ì√≥]</S></t> <t><D>mo</D></t> -> bhom
+<t><S>[√ì√≥]</S></t> <t><D>bhur</D></t> -> bhor
 <t><S>[Rr]oimh</S></t> <t><T>an</T></t> -> ron
 # <t><S>[Rr]oimh</S></t> <t><D>a</D></t> -> ron  (plural)
-<t><S>[Rr]oimh</S></t> <t><D>·r</D></t> -> ror
+<t><S>[Rr]oimh</S></t> <t><D>√°r</D></t> -> ror
 <t><S>[Rr]oimh</S></t> <t><D>do</D></t> -> rod
 <t><S>[Rr]oimh</S></t> <t><D>mo</D></t> -> rom
 <t><S>[Rr]oimh</S></t> <t><D>bhur</D></t> -> bhor
-<t><N pl="n" gnt="n" gnd="m">rud</N></t> <t><A pl="n" gnt="n">Èigin</A></t> -> rudeigin
+<t><N pl="n" gnt="n" gnd="m">rud</N></t> <t><A pl="n" gnt="n">√©igin</A></t> -> rudeigin
 # focloir.txt not flexible enough for this yet
 <t><N pl="y" gnt="." gnd="m">sh?eandaoine</N></t> -> seann daoine
 # neamhrialta
-<t><V p="." t="l·ith">[Tt]·(?:i[dm]|imid|thar)?</V></t> -> w($1)
-<t><S>[Tt]rÌ</S></t> <t><N pl="n" gnt="n" gnd="m">[Cc]hÈile</N></t> -> troimh-a-chËile
-<t><D>[Tt]rÌna</D></t> <t><N pl="n" gnt="n" gnd="m">[Cc]hÈile</N></t> -> troimh-a-chËile
-<t><S>[Tt]rÌ</S></t> <t><D>do</D></t> -> trod
-<t><S>[Tt]rÌ</S></t> <t><D>mo</D></t> -> trom
-<t><S>[Tt]rÌ</S></t> <t><D>bhur</D></t> -> tror
-<t><S>[Tt]rÌd</S></t> <t><T>an</T></t> -> tron
-<t><N pl="n" gnt="n" gnd="f">uair</N></t> <t><A pl="n" gnt="n">Èigin</A></t> -> uaireigin
+<t><V p="." t="l√°ith">[Tt]√°(?:i[dm]|imid|thar)?</V></t> -> w($1)
+<t><S>[Tt]r√≠</S></t> <t><N pl="n" gnt="n" gnd="m">[Cc]h√©ile</N></t> -> troimh-a-ch√®ile
+<t><D>[Tt]r√≠na</D></t> <t><N pl="n" gnt="n" gnd="m">[Cc]h√©ile</N></t> -> troimh-a-ch√®ile
+<t><S>[Tt]r√≠</S></t> <t><D>do</D></t> -> trod
+<t><S>[Tt]r√≠</S></t> <t><D>mo</D></t> -> trom
+<t><S>[Tt]r√≠</S></t> <t><D>bhur</D></t> -> tror
+<t><S>[Tt]r√≠d</S></t> <t><T>an</T></t> -> tron
+<t><N pl="n" gnt="n" gnd="f">uair</N></t> <t><A pl="n" gnt="n">√©igin</A></t> -> uaireigin
 <t><S>[Uu]m</S></t> <t><T>an</T></t> -> mun
 # <t><S>[Uu]m</S></t> <t><D>a</D></t> -> mun  (plural)
-<t><S>[Uu]m</S></t> <t><D>·r</D></t> -> mur
+<t><S>[Uu]m</S></t> <t><D>√°r</D></t> -> mur
 <t><S>[Uu]m</S></t> <t><D>do</D></t> -> mud
 <t><S>[Uu]m</S></t> <t><D>mo</D></t> -> mum
 <t><S>[Uu]m</S></t> <t><D>bhur</D></t> -> mur
 ##########################################################################
-<t><C>[Gg]o</C></t> <t><V p="y" t="l·ith">[^<]+m</V></t> -> gu bheil mi a' w($2)
-<t><C>[Gg]o</C></t> <t><V p="y" t="l·ith">[^<]+d</V></t> -> gu bheil sinn a' w($2)
-# <t><C>[Gg]o</C></t> <t><V p="y" t="l·ith">[^<]+nn</V></t> CHUNK -> gu bheil CHUNK a' w($2)
-<t><V p="y" t="l·ith">[^<]+m</V></t> -> bidh mi a' w($1)
-<t><V p="y" t="l·ith">[^<]+d</V></t> -> bidh sinn a' w($1)
-# <t><V p="y" t="l·ith">[^<]+nn</V></t> CHUNK -> bidh CHUNK a' w($1)
-<t><V p="y" t="gn·th">[^<]+nn</V></t> -> b'‡bhaist dhomh a bhith a' w($1)
-<t><V p="y" t="gn·th">[^<]+·</V></t> -> b'‡bhaist dhut a bhith a' w($1)
-<t><V p="y" t="gn·th">[^<]+mis</V></t> -> b'‡bhaist dhuinn a bhith a' w($1)
-<t><V p="y" t="gn·th">[^<]+dÌs</V></t> -> b'‡bhaist dhaibh a bhith a' w($1)
-# <t><V p="y" t="gn·th">[^<]+dh</V></t> -> b'‡bhaist do CHUNK a bhith a' w($1)
+<t><C>[Gg]o</C></t> <t><V p="y" t="l√°ith">[^<]+m</V></t> -> gu bheil mi a' w($2)
+<t><C>[Gg]o</C></t> <t><V p="y" t="l√°ith">[^<]+d</V></t> -> gu bheil sinn a' w($2)
+# <t><C>[Gg]o</C></t> <t><V p="y" t="l√°ith">[^<]+nn</V></t> CHUNK -> gu bheil CHUNK a' w($2)
+<t><V p="y" t="l√°ith">[^<]+m</V></t> -> bidh mi a' w($1)
+<t><V p="y" t="l√°ith">[^<]+d</V></t> -> bidh sinn a' w($1)
+# <t><V p="y" t="l√°ith">[^<]+nn</V></t> CHUNK -> bidh CHUNK a' w($1)
+<t><V p="y" t="gn√°th">[^<]+nn</V></t> -> b'√†bhaist dhomh a bhith a' w($1)
+<t><V p="y" t="gn√°th">[^<]+√°</V></t> -> b'√†bhaist dhut a bhith a' w($1)
+<t><V p="y" t="gn√°th">[^<]+mis</V></t> -> b'√†bhaist dhuinn a bhith a' w($1)
+<t><V p="y" t="gn√°th">[^<]+d√≠s</V></t> -> b'√†bhaist dhaibh a bhith a' w($1)
+# <t><V p="y" t="gn√°th">[^<]+dh</V></t> -> b'√†bhaist do CHUNK a bhith a' w($1)
 # <t ([^>]+)><[^>]+>[^<]+<\/.></t> -> w($2,$1)
 <t><[^>]+>[^<]+<\/.></t> -> w($1)

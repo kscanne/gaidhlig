@@ -63,7 +63,7 @@ while (<STDIN>) {
 					print "$lemma; $surface; $flags.p2.pl; $my_pos\n";
 				}
 				else {
-					print STDERR "Fadhb le foirm $surface\n";
+					print STDERR "Fadhb le foirm $surface (ord)\n";
 				}
 			}
 	         # elsif ($pos =~ m/t="láith"/) { }   
@@ -84,13 +84,13 @@ while (<STDIN>) {
 					print "$lemma; $surface; $flags.p1.pl; $my_pos\n";
 				}
 				else {
-					print STDERR "Fadhb le foirm $surface\n";
+					print STDERR "Fadhb le foirm $surface (coinn)\n";
 				}
 			}
 	         # elsif ($pos =~ m/t="gnáth"/) { }   
 			elsif ($pos =~ m/t="fáist"/) {
 				$flags = 'fti';
-				if ($surface =~ m/idh$/) {
+				if ($surface =~ m/idh$/ or $surface eq 'nì') {
 					print "$lemma; $surface; $flags.p1.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p2.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p3.sg; $my_pos\n";
@@ -99,12 +99,12 @@ while (<STDIN>) {
 					print "$lemma; $surface; $flags.p3.pl; $my_pos\n";
 				}
 				else {
-					print STDERR "Fadhb le foirm $surface\n";
+					print STDERR "Fadhb le foirm $surface (fáist)\n";
 				}
 			}
 			elsif ($pos =~ m/t="caite"/) {
 				$flags = 'past';
-				if ($surface eq $lemma) {
+				if ($surface eq $lemma or $surface eq 'ràinig' or $surface eq 'rinn' or $surface eq 'rug') {
 					print "$lemma; $surface; $flags.p1.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p2.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p3.sg; $my_pos\n";
@@ -113,7 +113,7 @@ while (<STDIN>) {
 					print "$lemma; $surface; $flags.p3.pl; $my_pos\n";
 				}
 				else {
-					print STDERR "Fadhb le foirm $surface\n";
+					print STDERR "Fadhb le foirm $surface (caite)\n";
 				}
 			}
 	         # elsif ($pos =~ m/t="foshuit"/) { }   

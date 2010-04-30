@@ -4,11 +4,13 @@ use strict;
 use warnings;
 use Lingua::GD::Gramadoir;
 
-binmode STDOUT, ":encoding(iso-8859-1)";
-binmode STDERR, ":encoding(iso-8859-1)";
+binmode STDIN, ":bytes";
+binmode STDOUT, ":utf8";
+binmode STDERR, ":utf8";
 
 my $gr = new Lingua::GD::Gramadoir(
 	fix_spelling => 1,
+	input_encoding => 'utf-8',
 );
 
 sub correct_error
@@ -41,7 +43,6 @@ print STDERR "$err\n";
 }
 
 
-binmode STDIN, ":bytes";
 local $/;
 $_ = <STDIN>;
 my $xml = $gr->xml_stream($_);

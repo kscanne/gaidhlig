@@ -6,10 +6,15 @@
 
 use strict;
 use warnings;
+use utf8;
+
+binmode STDIN, ":utf8";
+binmode STDOUT, ":utf8";
+binmode STDERR, ":utf8";
 
 while (<STDIN>) {
 	unless (/^#/) {
-		s/\[.([a-zαινσϊ])\]/$1/g;
+		s/\[.([a-zΓ‘Γ©Γ­Γ³ΓΊ])\]/$1/g;
 		s/(.*):<([A-Z])([^>]*)>/<$2$3>$1<\/$2>/;
 		my $pr;
 		if (/\?.h\?/) {   # optional eclipse+lenite

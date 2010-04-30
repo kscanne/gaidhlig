@@ -5,6 +5,7 @@ use strict;
 use warnings;
 use Term::ANSIColor;
 use Data::Dumper;
+use utf8;
 
 # first argument is the (tagged) word to disambiguate
 my $sprioc = $ARGV[0];
@@ -32,15 +33,15 @@ my $spriocfhocal = $sprioc;    # filename with training data for this word
 $spriocfhocal =~ s/<[^>]+>//g;
 (my $tg) = $sprioc =~ m/^<([A-Z])/;
 $spriocfhocal =~ s/'//g;
-$spriocfhocal =~ s/·/a_/g;
-$spriocfhocal =~ s/È/e_/g;
-$spriocfhocal =~ s/Ì/i_/g;
-$spriocfhocal =~ s/Û/o_/g;
-$spriocfhocal =~ s/˙/u_/g;
+$spriocfhocal =~ s/√°/a_/g;
+$spriocfhocal =~ s/√©/e_/g;
+$spriocfhocal =~ s/√≠/i_/g;
+$spriocfhocal =~ s/√≥/o_/g;
+$spriocfhocal =~ s/√∫/u_/g;
 $spriocfhocal .= $tg;
-$spriocfhocal = 'ba_NM' if ($sprioc eq '<N pl="n" gnt="n" gnd="m">b·</N>');
+$spriocfhocal = 'ba_NM' if ($sprioc eq '<N pl="n" gnt="n" gnd="m">b√°</N>');
 
-open (IONCHUR, "<:bytes", "../traenail/$spriocfhocal") or die "Could not open disambiguated corpus file \"traenail/$spriocfhocal\": $!\n";
+open (IONCHUR, "<:utf8", "../traenail/$spriocfhocal") or die "Could not open disambiguated corpus file \"traenail/$spriocfhocal\": $!\n";
 
 while (<IONCHUR>) {
 	chomp;
@@ -49,7 +50,7 @@ while (<IONCHUR>) {
 }
 close IONCHUR;
 
-open (CANDS, "<:bytes", $datafile) or die "Could not read sentences to train: $!\n";
+open (CANDS, "<:utf8", $datafile) or die "Could not read sentences to train: $!\n";
 while (<CANDS>) {
 	chomp;
 	my $cand = $_;
@@ -68,7 +69,7 @@ while (<CANDS>) {
 }
 close CANDS;
 
-open (ASCHUR, ">:bytes", "../traenail/$spriocfhocal") or die "Could not open output file: $!\n";
+open (ASCHUR, ">:utf8", "../traenail/$spriocfhocal") or die "Could not open output file: $!\n";
 print ASCHUR "$alreadydone{$_} $_\n" foreach (sort keys %alreadydone);
 close ASCHUR;
 
@@ -80,14 +81,14 @@ my %counts;
 my %stoplist;
 my %fullfreq;
 
-open (FREQLIST, "/home/spas/beostem/FREQ") or die "Could not open stem frequency list: $!\n";
+open (FREQLIST, "/home/kps/gaeilge/ga2gd/beostem/FREQ") or die "Could not open stem frequency list: $!\n";
 while (<FREQLIST>) {
 	m/^ *([1-9][0-9]*) (<[^>]+>[^<]+<\/[A-Z]>)$/;
 	$fullfreq{$2} = $1;
 }
 close FREQLIST;
 
-open (STOPLIST, "stoplist.txt") or die "Could not open stoplist: $!\n";
+open (STOPLIST, "<:utf8", "stoplist.txt") or die "Could not open stoplist: $!\n";
 while (<STOPLIST>) {
 	chomp;
 	$stoplist{$_}++;
@@ -171,7 +172,7 @@ foreach my $s (keys %P) {
 $P{$_} = log($P{$_}) - log($total) foreach (keys %P);
 
 # store P, C, N, unseen
-open (DATAOUT, ">:bytes", "../traenail/$spriocfhocal.dat") or die "Could not open output .dat file: $!\n";
+open (DATAOUT, ">:utf8", "../traenail/$spriocfhocal.dat") or die "Could not open output .dat file: $!\n";
 print DATAOUT Data::Dumper->Dump([\%P, \%C, \%unseen], [qw(P C unseen)]);
 close DATAOUT;
 

@@ -2,6 +2,11 @@
 
 use strict;
 use warnings;
+use utf8;
+
+binmode STDIN, ":utf8";
+binmode STDOUT, ":utf8";
+binmode STDERR, ":utf8";
 
 # pipe fullstem-nomutate.txt through this
 # and output in "speling.org" format; see
@@ -51,7 +56,7 @@ while (<STDIN>) {
 	}
 	elsif ($pos =~ m/^<V/) {  # don't forget copula
 		$my_pos = 'vblex';
-		if ($pos =~ m/cop="y"/ or $lemma eq 'feadraÌs') {
+		if ($pos =~ m/cop="y"/ or $lemma eq 'feadra√≠s') {
 			next;
 		}
 		else {
@@ -61,7 +66,7 @@ while (<STDIN>) {
 				if ($surface eq $lemma) {
 					print "$lemma; $surface; $flags.p2.sg; $my_pos\n";
 				}
-				elsif ($surface =~ m/[iÌ]m$/ or $surface eq 'tÈanam') {
+				elsif ($surface =~ m/[i√≠]m$/ or $surface eq 't√©anam') {
 					print "$lemma; $surface; $flags.p1.sg; $my_pos\n";
 				}
 				elsif ($surface =~ m/dh$/) {
@@ -73,17 +78,17 @@ while (<STDIN>) {
 				elsif ($surface =~ m/mis$/) {
 					print "$lemma; $surface; $flags.p1.pl; $my_pos\n";
 				}
-				elsif ($surface =~ m/gÌ$/) {
+				elsif ($surface =~ m/g√≠$/) {
 					print "$lemma; $surface; $flags.p2.pl; $my_pos\n";
 				}
-				elsif ($surface =~ m/dÌs$/) {
+				elsif ($surface =~ m/d√≠s$/) {
 					print "$lemma; $surface; $flags.p3.pl; $my_pos\n";
 				}
 				else {
 					print STDERR "Fadhb le foirm $surface\n";
 				}
 			}
-			elsif ($pos =~ m/t="l·ith"/) {
+			elsif ($pos =~ m/t="l√°ith"/) {
 				$flags = 'pres';
 				if ($surface =~ m/nn$/ or $surface eq 'deir') {
 					print "$lemma; $surface; $flags.p2.sg; $my_pos\n";
@@ -109,52 +114,52 @@ while (<STDIN>) {
 				if ($surface =~ m/inn$/) {
 					print "$lemma; $surface; $flags.p1.sg; $my_pos\n";
 				}
-				elsif ($surface =~ m/fe?·$/) {
+				elsif ($surface =~ m/fe?√°$/) {
 					print "$lemma; $surface; $flags.p2.sg; $my_pos\n";
 				}
 				elsif ($surface =~ m/dh$/) {
 					print "$lemma; $surface; $flags.p3.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p2.pl; $my_pos\n";
 				}
-				elsif ($surface =~ m/fa?Ì$/) {
+				elsif ($surface =~ m/fa?√≠$/) {
 					print "$lemma; $surface; $flags.aut; $my_pos\n";
 				}
 				elsif ($surface =~ m/imis$/) {
 					print "$lemma; $surface; $flags.p1.pl; $my_pos\n";
 				}
-				elsif ($surface =~ m/idÌs$/) {
+				elsif ($surface =~ m/id√≠s$/) {
 					print "$lemma; $surface; $flags.p3.pl; $my_pos\n";
 				}
 				else {
 					print STDERR "Fadhb le foirm $surface\n";
 				}
 			}
-			elsif ($pos =~ m/t="gn·th"/) {
+			elsif ($pos =~ m/t="gn√°th"/) {
 				$flags = 'pii';
 				if ($surface =~ m/nn$/) {
 					print "$lemma; $surface; $flags.p1.sg; $my_pos\n";
 				}
-				elsif ($surface =~ m/te?·$/) {
+				elsif ($surface =~ m/te?√°$/) {
 					print "$lemma; $surface; $flags.p2.sg; $my_pos\n";
 				}
 				elsif ($surface =~ m/dh$/) {
 					print "$lemma; $surface; $flags.p3.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p2.pl; $my_pos\n";
 				}
-				elsif ($surface =~ m/ta?Ì$/) {
+				elsif ($surface =~ m/ta?√≠$/) {
 					print "$lemma; $surface; $flags.aut; $my_pos\n";
 				}
 				elsif ($surface =~ m/mis$/) {
 					print "$lemma; $surface; $flags.p1.pl; $my_pos\n";
 				}
-				elsif ($surface =~ m/dÌs$/) {
+				elsif ($surface =~ m/d√≠s$/) {
 					print "$lemma; $surface; $flags.p3.pl; $my_pos\n";
 				}
 				else {
 					print STDERR "Fadhb le foirm $surface\n";
 				}
 			}
-			elsif ($pos =~ m/t="f·ist"/) {
+			elsif ($pos =~ m/t="f√°ist"/) {
 				$flags = 'fti';
 				if ($surface =~ m/mid$/) {
 					print "$lemma; $surface; $flags.p1.pl; $my_pos\n";

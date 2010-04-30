@@ -2,6 +2,11 @@
 
 use strict;
 use warnings;
+use utf8;
+
+binmode STDIN, ":utf8";
+binmode STDOUT, ":utf8";
+binmode STDERR, ":utf8";
 
 my $pathtodata='/usr/local/share/ga2gd/disambig';
 
@@ -12,13 +17,13 @@ sub get_filename
 	$spriocfhocal =~ s/<[^>]+>//g;
 	(my $tg) = $sprioc =~ m/^<([A-Z])/;
 	$spriocfhocal =~ s/'//g;
-	$spriocfhocal =~ s/·/a_/g;
-	$spriocfhocal =~ s/È/e_/g;
-	$spriocfhocal =~ s/Ì/i_/g;
-	$spriocfhocal =~ s/Û/o_/g;
-	$spriocfhocal =~ s/˙/u_/g;
+	$spriocfhocal =~ s/√°/a_/g;
+	$spriocfhocal =~ s/√©/e_/g;
+	$spriocfhocal =~ s/√≠/i_/g;
+	$spriocfhocal =~ s/√≥/o_/g;
+	$spriocfhocal =~ s/√∫/u_/g;
 	$spriocfhocal .= $tg;
-	$spriocfhocal = 'ba_NM' if ($sprioc eq '<N pl="n" gnt="n" gnd="m">b·</N>');
+	$spriocfhocal = 'ba_NM' if ($sprioc eq '<N pl="n" gnt="n" gnd="m">b√°</N>');
 	return "$pathtodata/$spriocfhocal.dat";
 }
 
@@ -28,7 +33,7 @@ sub resolve_one
 	my $P;
 	my $C;
 	my $unseen;
-	open (DATAIN, "<:bytes", get_filename($sprioc)) or die "Could not open input .dat file for word $sprioc: $!\n";
+	open (DATAIN, "<:utf8", get_filename($sprioc)) or die "Could not open input .dat file for word $sprioc: $!\n";
 	# reads in hashrefs $P, $C, $unseen
 	local $/;
 	my $boo=<DATAIN>;
@@ -59,7 +64,7 @@ sub resolve_one
 }
 
 my @ambig;
-open (AMBIGS, "<:bytes", "/usr/local/share/ga2gd/ambig.txt") or die "Could not open list of ambiguous stems: $!\n";
+open (AMBIGS, "<:utf8", "/usr/local/share/ga2gd/ambig.txt") or die "Could not open list of ambiguous stems: $!\n";
 while (<AMBIGS>) {
 	chomp;
 	push @ambig, $_;

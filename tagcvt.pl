@@ -4,6 +4,11 @@
 
 use strict;
 use warnings;
+use Encode;
+
+binmode STDIN, ":utf8";
+binmode STDOUT, ":utf8";
+binmode STDERR, ":utf8";
 
 my $langcode = $ARGV[0];
 
@@ -19,10 +24,11 @@ sub converter
 	return $ans;
 }
 
-open (POSTAGS, "/home/kps/gaeilge/gramadoir/gr/$langcode/pos-$langcode.txt") or die "Could not open POS tags list for $langcode: $!\n";
+open (POSTAGS, "<:bytes", "/home/kps/gaeilge/gramadoir/gr/$langcode/pos-$langcode.txt") or die "Could not open POS tags list for $langcode: $!\n";
 
 while (<POSTAGS>) {
-	m/^([0-9]+)\s+(<[^>]+>)/;
+	my $curr = decode("iso-8859-1", $_);
+	$curr =~ m/^([0-9]+)\s+(<[^>]+>)/;
 	$tags{$1} = $2;
 }
 

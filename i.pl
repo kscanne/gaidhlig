@@ -2,6 +2,12 @@
 
 use strict;
 use warnings;
+use utf8;
+use Encode;
+
+binmode STDIN, ":utf8";
+binmode STDOUT, ":utf8";
+binmode STDERR, ":utf8";
 
 # GD lexicon manager.  Not part of the ga2gd runtime distribution;
 # just used for maintaining critical "cuardach.txt" bilingual lexicon
@@ -18,7 +24,7 @@ sub dhorlenite
 {
 	my ( $word ) = @_;
 	$word = lenite($word);
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ]|[Ff]h[aeiouàèìòù])/dh'$1/;
+	$word =~ s/^([aeiouÃ Ã¨Ã¬Ã²Ã¹AEIOUÃ€ÃˆÃŒÃ’Ã™]|[Ff]h[aeiouÃ Ã¨Ã¬Ã²Ã¹])/dh'$1/;
 	return $word;
 }
 
@@ -26,35 +32,35 @@ sub lenite
 {
 	my ( $word ) = @_;
 	$word =~ s/^([bcdfgmptBCDFGMPT])([^h'-])/$1h$2/;
-	$word =~ s/^([Ss])([lnraeiouàèìòù])/$1h$2/;
+	$word =~ s/^([Ss])([lnraeiouÃ Ã¨Ã¬Ã²Ã¹])/$1h$2/;
 	return $word;
 }
 
 sub prefixm
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/m'$1/;
+	$word =~ s/^([aeiouÃ Ã¨Ã¬Ã²Ã¹AEIOUÃ€ÃˆÃŒÃ’Ã™])/m'$1/;
 	return $word;
 }
 
 sub prefixd
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/d'$1/;
+	$word =~ s/^([aeiouÃ Ã¨Ã¬Ã²Ã¹AEIOUÃ€ÃˆÃŒÃ’Ã™])/d'$1/;
 	return $word;
 }
 
 sub prefixb
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/b'$1/;
+	$word =~ s/^([aeiouÃ Ã¨Ã¬Ã²Ã¹AEIOUÃ€ÃˆÃŒÃ’Ã™])/b'$1/;
 	return $word;
 }
 
 sub prefixh
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/h-$1/;
+	$word =~ s/^([aeiouÃ Ã¨Ã¬Ã²Ã¹AEIOUÃ€ÃˆÃŒÃ’Ã™])/h-$1/;
 	return $word;
 }
 
@@ -62,10 +68,10 @@ sub prefixt
 {
 	my ( $word, $code ) = @_;
 	if ($code eq '76') {
-		$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/t-$1/;
+		$word =~ s/^([aeiouÃ Ã¨Ã¬Ã²Ã¹AEIOUÃ€ÃˆÃŒÃ’Ã™])/t-$1/;
 	}
 	if ($code eq '72' or $code eq '92') {
-		$word =~ s/^([Ss][aeiouàèìòùlnr])/t-$1/;
+		$word =~ s/^([Ss][aeiouÃ Ã¨Ã¬Ã²Ã¹lnr])/t-$1/;
 	}
 	return $word;
 }
@@ -74,16 +80,16 @@ sub slenderize
 {
 	my ( $word ) = @_;
 
-	if ($word =~ m/ea[^aeiouàèìòù]+$/) {
+	if ($word =~ m/ea[^aeiouÃ Ã¨Ã¬Ã²Ã¹]+$/) {
 		if ($word =~ m/ea(?:nn|[cd]h)$/) {
-			$word =~ s/ea([^aeiouàèìòù]+)$/i$1/;
+			$word =~ s/ea([^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/i$1/;
 		}
 		else {
-			$word =~ s/ea([^aeiouàèìòù]+)$/ei$1/;
+			$word =~ s/ea([^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/ei$1/;
 		}
 	}
 	else {
-		$word =~ s/([aouàòù])([^aeiouàèìòù]+)$/$1i$2/;
+		$word =~ s/([aouÃ Ã²Ã¹])([^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1i$2/;
 	}
 
 	return $word;
@@ -103,11 +109,11 @@ sub imperative
 		elsif ($root eq 'gheibh') {
 			$root = 'faighibh';   # irreg
 		}
-		elsif ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-			$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1aibh/;
+		elsif ($root =~ m/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/) {
+			$root =~ s/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1aibh/;
 		}
 		else {
-			$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1ibh/;
+			$root =~ s/([eÃ¨iÃ¬][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1ibh/;
 		}
 		return $root;
 	}
@@ -129,23 +135,23 @@ sub future
 		# default would be bithidh which is a legit 
 		# future of "bi"
 	}
-	elsif ($root eq 'dèan') {
-		$root = 'nì';
+	elsif ($root eq 'dÃ¨an') {
+		$root = 'nÃ¬';
 	}
 	elsif ($root eq 'cith') {
-		$root = 'chì';
+		$root = 'chÃ¬';
 	}
 	elsif ($root eq 'rach') {
-		$root = 'thèid';
+		$root = 'thÃ¨id';
 	}
 	elsif ($root eq 'toir') {
 		$root = 'bheir';
 	}
-	elsif ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-		$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1aidh/;
+	elsif ($root =~ m/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/) {
+		$root =~ s/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1aidh/;
 	}
 	else {
-		$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1idh/;
+		$root =~ s/([eÃ¨iÃ¬][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1idh/;
 	}
 
 	return $root;
@@ -158,19 +164,19 @@ sub conditional
 	my ( $root, $i, $n ) = @_;
 	if ($n == 1) {
 		if ($i == 0) {
-			if ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-				$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1ainn/;
+			if ($root =~ m/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/) {
+				$root =~ s/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1ainn/;
 			}
 			else {
-				$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1inn/;
+				$root =~ s/([eÃ¨iÃ¬][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1inn/;
 			}
 		}
 		else {
-			if ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-				$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1amaid/;
+			if ($root =~ m/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/) {
+				$root =~ s/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1amaid/;
 			}
 			else {
-				$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1eamaid/;
+				$root =~ s/([eÃ¨iÃ¬][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1eamaid/;
 			}
 		}
 	}
@@ -178,11 +184,11 @@ sub conditional
 		if ($root eq 'bith') {
 			$root = 'biodh';
 		}
-		elsif ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-			$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1adh/;
+		elsif ($root =~ m/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/) {
+			$root =~ s/([aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1adh/;
 		}
 		else {
-			$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1eadh/;
+			$root =~ s/([eÃ¨iÃ¬][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/$1eadh/;
 		}
 	}
 
@@ -204,7 +210,7 @@ sub past
 	elsif ($word eq 'cluinn') {
 		$word = 'chuala';
 	}
-	elsif ($word eq 'dèan') {
+	elsif ($word eq 'dÃ¨an') {
 		$word = 'rinn';
 	}
 	elsif ($word eq 'faic') {
@@ -217,13 +223,13 @@ sub past
 		$word = 'chaidh';
 	}
 	elsif ($word eq 'ruig') {
-		$word = 'ràinig';
+		$word = 'rÃ inig';
 	}
 	elsif ($word eq 'tabhair') {
 		$word = 'thug';
 	}
 	elsif ($word eq 'thig') {
-		$word = 'thàinig';
+		$word = 'thÃ inig';
 	}
 	else {
 		$word = dhorlenite($word);
@@ -235,10 +241,10 @@ sub past
 sub default_pp
 {
 	my ( $word ) = @_;
-	if ($word =~ /([aouàòù])([^aeiouàèìòù]+)$/) {
+	if ($word =~ /([aouÃ Ã²Ã¹])([^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/) {
 		$word =~ s/$/ta/;
 	}
-	elsif ($word =~ /([eièì])([^aeiouàèìòù]+)$/) {
+	elsif ($word =~ /([eiÃ¨Ã¬])([^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/) {
 		$word =~ s/$/te/;
 	}
 	return $word;
@@ -260,10 +266,10 @@ sub default_vn
 	elsif ($word =~ /ich$/) {
 		$word =~ s/ich$/eachadh_nm/;
 	}
-	elsif ($word =~ /([aouàòù])([^aeiouàèìòù]+)$/) {
+	elsif ($word =~ /([aouÃ Ã²Ã¹])([^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/) {
 		$word =~ s/$/adh_nm/;
 	}
-	elsif ($word =~ /([eièì])([^aeiouàèìòù]+)$/) {
+	elsif ($word =~ /([eiÃ¨Ã¬])([^aeiouÃ Ã¨Ã¬Ã²Ã¹]+)$/) {
 		$word =~ s/$/eadh_nm/;
 	}
 	return $word;
@@ -272,11 +278,11 @@ sub default_vn
 sub default_plural_adj
 {
 	my ( $word ) = @_;
-	unless ($word =~ m/[aeiouàèìòù][^aeiouàèìòù]+[aeiouàèìòù]/) {
-		if ($word =~ m/[aouàòù][^aeiouàèìòù]+$/) {
+	unless ($word =~ m/[aeiouÃ Ã¨Ã¬Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+[aeiouÃ Ã¨Ã¬Ã²Ã¹]/) {
+		if ($word =~ m/[aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+$/) {
 			$word =~ s/$/a/;
 		}
-		elsif ($word =~ m/i[^aeiouàèìòù]+$/) {
+		elsif ($word =~ m/i[^aeiouÃ Ã¨Ã¬Ã²Ã¹]+$/) {
 			$word =~ s/$/e/;
 		}
 		
@@ -294,7 +300,7 @@ sub default_gsf
 {
 	my ( $word ) = @_;
 	$word = slenderize($word);
-	$word =~ s/([^aeiouàèìòù])$/$1e/;
+	$word =~ s/([^aeiouÃ Ã¨Ã¬Ã²Ã¹])$/$1e/;
 	return $word;
 }
 
@@ -305,7 +311,7 @@ sub default_plural
 	if ($word =~ m/iche$/) {
 		$word =~ s/$/an/;
 	}
-	elsif ($word =~ m/[aeiouàèìòù]$/) {
+	elsif ($word =~ m/[aeiouÃ Ã¨Ã¬Ã²Ã¹]$/) {
 		$word = 'x';
 		# or +an, but mostly seem abstract
 	}
@@ -324,7 +330,7 @@ sub default_plural
 	elsif ($word =~ m/[^e]ach$/) {
 		$word =~ s/ach$/aich/;
 	}
-	elsif ($word =~ m/[aouàòù][^aeiouàèìòù]+$/) {
+	elsif ($word =~ m/[aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+$/) {
 		$word =~ s/$/an/;
 	}
 	else {
@@ -338,13 +344,13 @@ sub default_gen
 {
 	my ( $word ) = @_;
 
-	if ($word =~ m/[aeiouàèìòù]$/) {
+	if ($word =~ m/[aeiouÃ Ã¨Ã¬Ã²Ã¹]$/) {
 		1;
 	}
 	elsif ($word =~ m/chd$/) {
 		1;
 	}
-	elsif ($word =~ m/[aouàòù][^aeiouàèìòù]+$/) {
+	elsif ($word =~ m/[aouÃ Ã²Ã¹][^aeiouÃ Ã¨Ã¬Ã²Ã¹]+$/) {
 		$word = slenderize($word);
 	}
 	elsif ($word =~ m/air$/) {
@@ -758,7 +764,7 @@ sub user_add_word
 
 sub automatic_additions
 {
-	open (GRAM, "<:bytes", 'lextodo.txt') or die "Could not open gramadoir file: $!\n";
+	open (GRAM, "<:utf8", 'lextodo.txt') or die "Could not open gramadoir file: $!\n";
 	while (<GRAM>) {
 		chomp;
 		m/^([^ ]+) ([0-9]+)/;
@@ -820,7 +826,7 @@ sub automatic_additions
 
 sub write_focloir
 {
-	open (OUTDICT, ">:bytes", "focloir.txt") or die "Could not open dictionary: $!\n";
+	open (OUTDICT, ">:utf8", "focloir.txt") or die "Could not open dictionary: $!\n";
 	foreach (sort keys %lexicon) {
 		print OUTDICT $_."\t\t".$lexicon{$_}."\n";
 	}
@@ -830,10 +836,11 @@ sub write_focloir
 my %tags;
 sub read_tags
 {
-	open (POSTAGS, "/home/kps/gaeilge/gramadoir/gr/ga/pos-ga.txt") or die "Could not open Irish pos tags list: $!\n";
+	open (POSTAGS, "<:bytes", "/home/kps/gaeilge/gramadoir/gr/ga/pos-ga.txt") or die "Could not open Irish pos tags list: $!\n";
 
 	while (<POSTAGS>) {
-		m/^([0-9]+)\s+(<[^>]+>)/;
+		my $curr = decode("iso-8859-1", $_);
+		$curr =~ m/^([0-9]+)\s+(<[^>]+>)/;
 		$tags{$1} = $2;
 	}
 
@@ -862,8 +869,8 @@ sub read_po_file
 
 	my $aref = Locale::PO->load_file_asarray('ga2gd.po');
 	foreach my $msg (@$aref) {
-		my $id = $msg->msgid();
-		my $str = $msg->msgstr();
+		my $id = decode("utf8", $msg->msgid());
+		my $str = decode("utf8",$msg->msgstr());
 		if (defined($id) && defined($str)) {
 			unless ($id eq '""' or $str eq '""') {
 				$id =~ s/"//g;
@@ -914,8 +921,8 @@ sub ga2gd_lexicon
 	read_tags();
 	read_po_file();
 
-	open (IGLEX, "<:bytes", "GA.txt") or die "Could not open Irish lexicon: $!\n";
-	open (OUTLEX, ">:bytes", "cuardach.txt") or die "Could not open lexicon: $!\n";
+	open (IGLEX, "<:utf8", "GA.txt") or die "Could not open Irish lexicon: $!\n";
+	open (OUTLEX, ">:utf8", "cuardach.txt") or die "Could not open lexicon: $!\n";
 
 	my $index=0;
 	my $translated_p;
@@ -977,7 +984,7 @@ sub ga2gd_lexicon
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#  START OF MAIN PROGRAM #-#-#-#-#-#-#-#-#-#-#-#-#-#
-open (DICT, "<:bytes", "focloir.txt") or die "Could not open dictionary: $!\n";
+open (DICT, "<:utf8", "focloir.txt") or die "Could not open dictionary: $!\n";
 while (<DICT>) {
 	chomp;
 	/^([^_]+_\S+)\s+(.*)$/;
@@ -986,7 +993,7 @@ while (<DICT>) {
 close DICT;
 
 if ($ARGV[0] eq '-f') {
-	open (FREQ, "<:bytes", 'FREQ') or die "Could not open frequency file: $!\n";
+	open (FREQ, "<:utf8", 'FREQ') or die "Could not open frequency file: $!\n";
 	while (<FREQ>) {
 		chomp;
 		m/^ *([0-9]+) (.*)/;
@@ -998,7 +1005,7 @@ if ($ARGV[0] eq '-f') {
 	write_focloir();
 }
 elsif ($ARGV[0] eq '-g') {
-	open (OUTLEX, ">:bytes", "GD.txt") or die "Could not open lexicon: $!\n";
+	open (OUTLEX, ">:utf8", "GD.txt") or die "Could not open lexicon: $!\n";
 	foreach (sort keys %lexicon) {
 		unless (/ /) {
 			my $forms = gramadoir_output($_, 0);

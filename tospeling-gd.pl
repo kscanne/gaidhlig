@@ -2,6 +2,11 @@
 
 use strict;
 use warnings;
+use utf8;
+
+binmode STDIN, ":utf8";
+binmode STDOUT, ":utf8";
+binmode STDERR, ":utf8";
 
 # pipe fullstem-nomutate.txt through this
 # and output in "speling.org" format; see
@@ -66,13 +71,13 @@ while (<STDIN>) {
 					print STDERR "Fadhb le foirm $surface (ord)\n";
 				}
 			}
-	         # elsif ($pos =~ m/t="l·ith"/) { }   
+	         # elsif ($pos =~ m/t="l√°ith"/) { }   
 			elsif ($pos =~ m/t="coinn"/) {
 				$flags = 'cni';
 				if ($surface =~ m/nn$/) {
 					print "$lemma; $surface; $flags.p1.sg; $my_pos\n";
 				}
-				elsif ($surface =~ m/fe?·$/) {
+				elsif ($surface =~ m/fe?√°$/) {
 				}
 				elsif ($surface =~ m/dh$/) {
 					print "$lemma; $surface; $flags.p2.sg; $my_pos\n";
@@ -87,10 +92,10 @@ while (<STDIN>) {
 					print STDERR "Fadhb le foirm $surface (coinn)\n";
 				}
 			}
-	         # elsif ($pos =~ m/t="gn·th"/) { }   
-			elsif ($pos =~ m/t="f·ist"/) {
+	         # elsif ($pos =~ m/t="gn√°th"/) { }   
+			elsif ($pos =~ m/t="f√°ist"/) {
 				$flags = 'fti';
-				if ($surface =~ m/idh$/ or $surface eq 'nÏ') {
+				if ($surface =~ m/idh$/ or $surface eq 'n√¨') {
 					print "$lemma; $surface; $flags.p1.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p2.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p3.sg; $my_pos\n";
@@ -99,12 +104,12 @@ while (<STDIN>) {
 					print "$lemma; $surface; $flags.p3.pl; $my_pos\n";
 				}
 				else {
-					print STDERR "Fadhb le foirm $surface (f·ist)\n";
+					print STDERR "Fadhb le foirm $surface (f√°ist)\n";
 				}
 			}
 			elsif ($pos =~ m/t="caite"/) {
 				$flags = 'past';
-				if ($surface eq $lemma or $surface eq 'r‡inig' or $surface eq 'rinn' or $surface eq 'rug') {
+				if ($surface eq $lemma or $surface eq 'r√†inig' or $surface eq 'rinn' or $surface eq 'rug') {
 					print "$lemma; $surface; $flags.p1.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p2.sg; $my_pos\n";
 					print "$lemma; $surface; $flags.p3.sg; $my_pos\n";

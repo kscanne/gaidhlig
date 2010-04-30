@@ -2,9 +2,14 @@
 
 use strict;
 use warnings;
-use Lingua::GA::Gramadoir;
+use utf8;
+#use Lingua::GA::Gramadoir;
 
-my $gr = new Lingua::GA::Gramadoir;
+binmode STDIN, ":utf8";
+binmode STDOUT, ":utf8";
+binmode STDERR, ":utf8";
+
+#my $gr = new Lingua::GA::Gramadoir;
 
 my %lex;
 my @rialacha;
@@ -13,14 +18,14 @@ my @rialacha;
 sub tolower
 {
 	(my $inp) = @_;
-	$inp =~ tr/ABCDEFGHIJKLMNOPQRSTUVWXYZ¡…Õ”⁄/abcdefghijklmnopqrstuvwxyz·ÈÌÛ˙/;
+	$inp =~ tr/ABCDEFGHIJKLMNOPQRSTUVWXYZ√Å√â√ç√ì√ö/abcdefghijklmnopqrstuvwxyz√°√©√≠√≥√∫/;
 	return $inp;
 }
 
 sub toupper
 {
 	(my $inp) = @_;
-	$inp =~ tr/abcdefghijklmnopqrstuvwxyz‡ËÏÚ˘/ABCDEFGHIJKLMNOPQRSTUVWXYZ¿»Ã“Ÿ/;
+	$inp =~ tr/abcdefghijklmnopqrstuvwxyz√†√®√¨√≤√π/ABCDEFGHIJKLMNOPQRSTUVWXYZ√Ä√à√å√í√ô/;
 	return $inp;
 }
 
@@ -74,7 +79,7 @@ sub w
 	}
 	else {
 		$word =~ s/<[^>]+>//g;
-		$word =~ tr/¡…Õ”⁄·ÈÌÛ˙/¿»Ã“Ÿ‡ËÏÚ˘/;
+		$word =~ tr/√Å√â√ç√ì√ö√°√©√≠√≥√∫/√Ä√à√å√í√ô√†√®√¨√≤√π/;
 		return $word;
 	}
 }
@@ -82,7 +87,7 @@ sub w
 ## START OF MAIN
 
 # read in reordering rules
-open (RIAIL, "/usr/local/share/ga2gd/rialacha.txt") or die "Could not open rules file: $!\n";
+open (RIAIL, "<:utf8", "/usr/local/share/ga2gd/rialacha.txt") or die "Could not open rules file: $!\n";
 while (<RIAIL>) {
 	chomp;
 	s/#.*$//;
@@ -104,7 +109,7 @@ while (<RIAIL>) {
 
 
 # read in cuardach.txt to lex
-open (CUARD, "/usr/local/share/ga2gd/cuardach.txt") or die "Could not open bilingual lexicon: $!\n";
+open (CUARD, "<:utf8", "/usr/local/share/ga2gd/cuardach.txt") or die "Could not open bilingual lexicon: $!\n";
 while (<CUARD>) {
 	m/^(<[^>]+>[^<]+<\/[A-Z]>) (.*)$/;
 	my $mykey = $1;

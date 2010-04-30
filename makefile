@@ -127,8 +127,15 @@ torthai.txt-update : FORCE
 	rm -f torthai.txt
 	cat test.txt | sed '/^#/d' | ga2gd > torthai.txt
 
+FREQ : /usr/local/share/crubadan/gd/FREQ
+	cp -f /usr/local/share/crubadan/gd/FREQ $@
+
 clean :
 	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt ambig.txt fullstem.txt fullstem-gd.txt fullstem-nomutate*.txt speling*.txt
+
+distclean :
+	$(MAKE) clean
+	rm -f FREQ
 
 .PRECIOUS : ga2gd.po
 

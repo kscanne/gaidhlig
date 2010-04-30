@@ -1,5 +1,5 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=ISO-8859-1\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 msgid "<F>aicim</F>"
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 msgid "<F>aisghairthe</F>"
 msgstr ""
 
-msgid "<F>aisíoctha</F>"
+msgid "<F>aisÃ­octha</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>aithriste</N>"
@@ -25,10 +25,10 @@ msgstr ""
 msgid "<V p='y' t='ord'>aitim</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>aitim</V>"
+msgid "<V p='y' t='lÃ¡ith'>aitim</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>aitimid</V>"
+msgid "<V p='y' t='lÃ¡ith'>aitimid</V>"
 msgstr ""
 
 msgid "<V p='y' t='foshuit'>aitimid</V>"
@@ -46,28 +46,28 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='m'>aslaithe</N>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>atá</V>"
+msgid "<V p='y' t='lÃ¡ith'>atÃ¡</V>"
 msgstr "a tha"
 
-msgid "<V p='y' t='láith'>atáid</V>"
+msgid "<V p='y' t='lÃ¡ith'>atÃ¡id</V>"
 msgstr "a tha iad"
 
-msgid "<V p='y' t='ord'>atáim</V>"
+msgid "<V p='y' t='ord'>atÃ¡im</V>"
 msgstr "a tha mi"
 
-msgid "<V p='y' t='láith'>atáim</V>"
+msgid "<V p='y' t='lÃ¡ith'>atÃ¡im</V>"
 msgstr "a tha mi"
 
-msgid "<V p='y' t='láith'>atáimid</V>"
+msgid "<V p='y' t='lÃ¡ith'>atÃ¡imid</V>"
 msgstr "a tha sinn"
 
-msgid "<V p='y' t='foshuit'>atáimid</V>"
+msgid "<V p='y' t='foshuit'>atÃ¡imid</V>"
 msgstr "a tha sinn"
 
-msgid "<F>atáthar</F>"
+msgid "<F>atÃ¡thar</F>"
 msgstr "a thathar"
 
-msgid "<V p='n' t='láith'>atáthar</V>"
+msgid "<V p='n' t='lÃ¡ith'>atÃ¡thar</V>"
 msgstr "a thathar"
 
 msgid "<F>athchomhairthe</F>"
@@ -76,7 +76,7 @@ msgstr ""
 msgid "<F>athchurtha</F>"
 msgstr ""
 
-msgid "<F>athdhíolta</F>"
+msgid "<F>athdhÃ­olta</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>athghairthe</N>"
@@ -97,14 +97,14 @@ msgstr "b'annsa"
 msgid "<F>barrloiscthe</F>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>b'éadóiche</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>b'Ã©adÃ³iche</A>"
 msgstr ""
 
 msgid "<A pl='n' gnt='y' gnd='f'>b'fhaide</A>"
 msgstr "b'fhaide"
 
 msgid "<A pl='n' gnt='y' gnd='f'>b'fhearr</A>"
-msgstr "b'fheàrr"
+msgstr "b'fheÃ rr"
 
 msgid "<A pl='n' gnt='y' gnd='f'>b'fhearrde</A>"
 msgstr ""
@@ -124,7 +124,7 @@ msgstr ""
 msgid "<F>bharrloiscthe</F>"
 msgstr ""
 
-msgid "<V p='y' t='fáist'>bheas</V>"
+msgid "<V p='y' t='fÃ¡ist'>bheas</V>"
 msgstr ""
 
 msgid "<V p='y' t='coinn'>bheinnse</V>"
@@ -145,19 +145,19 @@ msgstr ""
 msgid "<V p='y' t='coinn'>bhfaigheadh</V>"
 msgstr "faigheadh"
 
-msgid "<V p='y' t='coinn'>bhfaighfeá</V>"
+msgid "<V p='y' t='coinn'>bhfaighfeÃ¡</V>"
 msgstr "faigheadh tu"
 
-msgid "<V p='n' t='fáist'>bhfaighfear</V>"
+msgid "<V p='n' t='fÃ¡ist'>bhfaighfear</V>"
 msgstr ""
 
-msgid "<V p='n' t='coinn'>bhfaighfí</V>"
+msgid "<V p='n' t='coinn'>bhfaighfÃ­</V>"
 msgstr ""
 
-msgid "<V p='y' t='fáist'>bhfaighidh</V>"
+msgid "<V p='y' t='fÃ¡ist'>bhfaighidh</V>"
 msgstr "faigh"
 
-msgid "<V p='y' t='coinn'>bhfaighidís</V>"
+msgid "<V p='y' t='coinn'>bhfaighidÃ­s</V>"
 msgstr "faigheadh iad"
 
 msgid "<V p='y' t='coinn'>bhfaighimis</V>"
@@ -166,16 +166,16 @@ msgstr "faigheamaid"
 msgid "<V p='y' t='coinn'>bhfaighinn</V>"
 msgstr "faighinn"
 
-msgid "<F>bhfáiscthe</F>"
+msgid "<F>bhfÃ¡iscthe</F>"
 msgstr ""
 
-msgid "<F>bhfásta</F>"
+msgid "<F>bhfÃ¡sta</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>bhfeicimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>bhfeicimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>bhfeicimse</V>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>bhFeirste</N>"
@@ -187,13 +187,13 @@ msgstr ""
 msgid "<F>bhfoligthe</F>"
 msgstr ""
 
-msgid "<F>bhfónta</F>"
+msgid "<F>bhfÃ³nta</F>"
 msgstr ""
 
 msgid "<F>bhforchurtha</F>"
 msgstr ""
 
-msgid "<F>bhforéilithe</F>"
+msgid "<F>bhforÃ©ilithe</F>"
 msgstr ""
 
 msgid "<F>bhformheasta</F>"
@@ -212,19 +212,19 @@ msgid "<F>bhfrithchaite</F>"
 msgstr ""
 
 # "nach eil" etc. in rialacha.txt
-msgid "<V p='y' t='láith'>bhfuil</V>"
+msgid "<V p='y' t='lÃ¡ith'>bhfuil</V>"
 msgstr "bheil"
 
-msgid "<V p='y' t='láith'>bhfuilid</V>"
+msgid "<V p='y' t='lÃ¡ith'>bhfuilid</V>"
 msgstr "bheil iad"
 
 msgid "<V p='y' t='ord'>bhfuilim</V>"
 msgstr "bheil mi"
 
-msgid "<V p='y' t='láith'>bhfuilim</V>"
+msgid "<V p='y' t='lÃ¡ith'>bhfuilim</V>"
 msgstr "bheil mi"
 
-msgid "<V p='y' t='láith'>bhfuilimid</V>"
+msgid "<V p='y' t='lÃ¡ith'>bhfuilimid</V>"
 msgstr "bheil sinn"
 
 msgid "<V p='y' t='foshuit'>bhfuilimid</V>"
@@ -233,19 +233,19 @@ msgstr "bheil sinn"
 msgid "<V p='y' t='ord'>bhfuilimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>bhfuilimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>bhfuilimse</V>"
 msgstr ""
 
 msgid "<F>bhfuiltear</F>"
 msgstr "bheilear"
 
-msgid "<V p='n' t='láith'>bhfuiltear</V>"
+msgid "<V p='n' t='lÃ¡ith'>bhfuiltear</V>"
 msgstr "bheilear"
 
-msgid "<V p='y' t='ord'>bhímse</V>"
+msgid "<V p='y' t='ord'>bhÃ­mse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>bhímse</V>"
+msgid "<V p='y' t='lÃ¡ith'>bhÃ­mse</V>"
 msgstr ""
 
 msgid "<F>bhlite</F>"
@@ -257,10 +257,10 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f'>bhruite</N>"
 msgstr ""
 
-msgid "<V p='y' t='ord'>bímse</V>"
+msgid "<V p='y' t='ord'>bÃ­mse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>bímse</V>"
+msgid "<V p='y' t='lÃ¡ith'>bÃ­mse</V>"
 msgstr ""
 
 msgid "<F>blite</F>"
@@ -281,7 +281,7 @@ msgstr ""
 msgid "<N pl='y' gnt='y' gnd='m'>carad</N>"
 msgstr ""
 
-msgid "<F>cásaithe</F>"
+msgid "<F>cÃ¡saithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>ceangailte</N>"
@@ -296,16 +296,16 @@ msgstr ""
 msgid "<N pl='y' gnt='y' gnd='m'>charad</N>"
 msgstr ""
 
-msgid "<F>chásaithe</F>"
+msgid "<F>chÃ¡saithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>cheangailte</N>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>chí</V>"
+msgid "<V p='y' t='lÃ¡ith'>chÃ­</V>"
 msgstr ""
 
-msgid "<F>chlúdaithe</F>"
+msgid "<F>chlÃºdaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>choiscthe</N>"
@@ -314,28 +314,28 @@ msgstr ""
 msgid "<F>chomhairthe</F>"
 msgstr ""
 
-msgid "<F>chomhdhéanta</F>"
+msgid "<F>chomhdhÃ©anta</F>"
 msgstr ""
 
-msgid "<F>chomórtha</F>"
+msgid "<F>chomÃ³rtha</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>chreidimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>chreidimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>chreidimse</V>"
 msgstr ""
 
 msgid "<F>chuile</F>"
 msgstr "chuileag"
 
-msgid "<N pl='n' gnt='y' gnd='m'>chúnta</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>chÃºnta</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>churtha</N>"
 msgstr ""
 
-msgid "<F>clúdaithe</F>"
+msgid "<F>clÃºdaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>coiscthe</N>"
@@ -344,22 +344,22 @@ msgstr ""
 msgid "<F>comhairthe</F>"
 msgstr ""
 
-msgid "<F>comhdhéanta</F>"
+msgid "<F>comhdhÃ©anta</F>"
 msgstr ""
 
-msgid "<F>comórtha</F>"
+msgid "<F>comÃ³rtha</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>creidimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>creidimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>creidimse</V>"
 msgstr ""
 
 msgid "<F>cuile</F>"
 msgstr "cuileag"
 
-msgid "<N pl='n' gnt='y' gnd='m'>cúnta</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>cÃºnta</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>curtha</N>"
@@ -374,7 +374,7 @@ msgstr ""
 msgid "<F>d'aisghairthe</F>"
 msgstr ""
 
-msgid "<F>d'aisíoctha</F>"
+msgid "<F>d'aisÃ­octha</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>d'aithriste</N>"
@@ -392,7 +392,7 @@ msgstr ""
 msgid "<F>d'athchurtha</F>"
 msgstr ""
 
-msgid "<F>d'athdhíolta</F>"
+msgid "<F>d'athdhÃ­olta</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>d'athghairthe</N>"
@@ -407,25 +407,25 @@ msgstr ""
 msgid "<F>dealraithe</F>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>déanta</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>dÃ©anta</N>"
 msgstr ""
 
-msgid "<F>d'éilithe</F>"
+msgid "<F>d'Ã©ilithe</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>deirimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>deirimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>deirimse</V>"
 msgstr ""
 
 msgid "<F>d'eisiata</F>"
 msgstr ""
 
-msgid "<F>d'fháiscthe</F>"
+msgid "<F>d'fhÃ¡iscthe</F>"
 msgstr ""
 
-msgid "<F>d'fhásta</F>"
+msgid "<F>d'fhÃ¡sta</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>d'Fheirste</N>"
@@ -437,13 +437,13 @@ msgstr ""
 msgid "<F>d'fholigthe</F>"
 msgstr ""
 
-msgid "<F>d'fhónta</F>"
+msgid "<F>d'fhÃ³nta</F>"
 msgstr ""
 
 msgid "<F>d'fhorchurtha</F>"
 msgstr ""
 
-msgid "<F>d'fhoréilithe</F>"
+msgid "<F>d'fhorÃ©ilithe</F>"
 msgstr ""
 
 msgid "<F>d'fhormheasta</F>"
@@ -467,7 +467,7 @@ msgstr ""
 msgid "<F>dhealraithe</F>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>dhéanta</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>dhÃ©anta</N>"
 msgstr ""
 
 msgid "<V p='y' t='caite'>dhearna</V>"
@@ -488,25 +488,25 @@ msgstr "rinn"
 msgid "<V p='y' t='ord'>dheirimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>dheirimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>dheirimse</V>"
 msgstr ""
 
-msgid "<F>dhícheangailte</F>"
+msgid "<F>dhÃ­cheangailte</F>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>dhíchurtha</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>dhÃ­churtha</N>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>dhíolta</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>dhÃ­olta</N>"
 msgstr ""
 
-msgid "<V p='n' t='caite'>dhóbair</V>"
+msgid "<V p='n' t='caite'>dhÃ³bair</V>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>dhóiche</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>dhÃ³iche</A>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>dhóichí</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>dhÃ³ichÃ­</A>"
 msgstr ""
 
 msgid "<F>d'iarchurtha</F>"
@@ -515,16 +515,16 @@ msgstr ""
 msgid "<F>d'iata</F>"
 msgstr ""
 
-msgid "<F>dícheangailte</F>"
+msgid "<F>dÃ­cheangailte</F>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>díchurtha</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>dÃ­churtha</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>d'idirleabharlainne</N>"
 msgstr ""
 
-msgid "<F>d'imchlúdaithe</F>"
+msgid "<F>d'imchlÃºdaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>d'Imrime</N>"
@@ -533,10 +533,10 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f'>d'inste</N>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>d'íoctha</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>d'Ã­octha</N>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>díolta</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>dÃ­olta</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>d'iomartha</N>"
@@ -554,37 +554,37 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='m'>d'ite</N>"
 msgstr ""
 
-msgid "<V p='n' t='caite'>dóbair</V>"
+msgid "<V p='n' t='caite'>dÃ³bair</V>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>dóiche</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>dÃ³iche</A>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>dóichí</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>dÃ³ichÃ­</A>"
 msgstr ""
 
-msgid "<F>d'ólta</F>"
+msgid "<F>d'Ã³lta</F>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='f'>dtalún</N>"
+msgid "<N pl='n' gnt='y' gnd='f'>dtalÃºn</N>"
 msgstr "talmhainn"
 
 msgid "<F>dtarchurtha</F>"
 msgstr ""
 
-msgid "<F>dtéarnaithe</F>"
+msgid "<F>dtÃ©arnaithe</F>"
 msgstr ""
 
 msgid "<F>dteilgthe</F>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>dtig</V>"
+msgid "<V p='y' t='lÃ¡ith'>dtig</V>"
 msgstr "tighinn"
 
 msgid "<V p='y' t='ord'>dtigim</V>"
 msgstr "tighinn"
 
-msgid "<V p='y' t='láith'>dtigim</V>"
+msgid "<V p='y' t='lÃ¡ith'>dtigim</V>"
 msgstr "tighinn"
 
 msgid "<F>dtionlactha</F>"
@@ -599,16 +599,16 @@ msgstr "tonnan"
 msgid "<V p='y' t='ord'>dtuigimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>dtuigimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>dtuigimse</V>"
 msgstr ""
 
 msgid "<F>d'uilleann</F>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>éadóiche</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>Ã©adÃ³iche</A>"
 msgstr ""
 
-msgid "<F>éilithe</F>"
+msgid "<F>Ã©ilithe</F>"
 msgstr ""
 
 msgid "<F>eisiata</F>"
@@ -617,14 +617,14 @@ msgstr ""
 msgid "<A pl='n' gnt='y' gnd='f'>faide</A>"
 msgstr "faide"
 
-msgid "<F>fáiscthe</F>"
+msgid "<F>fÃ¡iscthe</F>"
 msgstr ""
 
-msgid "<F>fásta</F>"
+msgid "<F>fÃ¡sta</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='y' gnd='f'>fearr</A>"
-msgstr "feàrr"
+msgstr "feÃ rr"
 
 msgid "<A pl='n' gnt='y' gnd='f'>fearrde</A>"
 msgstr ""
@@ -632,7 +632,7 @@ msgstr ""
 msgid "<V p='y' t='ord'>feicimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>feicimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>feicimse</V>"
 msgstr ""
 
 # OK "Beul Feirste"
@@ -654,14 +654,14 @@ msgstr ""
 msgid "<A pl='n' gnt='y' gnd='f'>fhaide</A>"
 msgstr "fhaide"
 
-msgid "<F>fháiscthe</F>"
+msgid "<F>fhÃ¡iscthe</F>"
 msgstr ""
 
-msgid "<F>fhásta</F>"
+msgid "<F>fhÃ¡sta</F>"
 msgstr ""
 
 msgid "<A pl='n' gnt='y' gnd='f'>fhearr</A>"
-msgstr "fheàrr"
+msgstr "fheÃ rr"
 
 msgid "<A pl='n' gnt='y' gnd='f'>fhearrde</A>"
 msgstr ""
@@ -669,7 +669,7 @@ msgstr ""
 msgid "<V p='y' t='ord'>fheicimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>fheicimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>fheicimse</V>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>Fheirste</N>"
@@ -684,13 +684,13 @@ msgstr ""
 msgid "<F>fholigthe</F>"
 msgstr ""
 
-msgid "<F>fhónta</F>"
+msgid "<F>fhÃ³nta</F>"
 msgstr ""
 
 msgid "<F>fhorchurtha</F>"
 msgstr ""
 
-msgid "<F>fhoréilithe</F>"
+msgid "<F>fhorÃ©ilithe</F>"
 msgstr ""
 
 msgid "<F>fhormheasta</F>"
@@ -723,13 +723,13 @@ msgstr ""
 msgid "<F>foligthe</F>"
 msgstr ""
 
-msgid "<F>fónta</F>"
+msgid "<F>fÃ³nta</F>"
 msgstr ""
 
 msgid "<F>forchurtha</F>"
 msgstr ""
 
-msgid "<F>foréilithe</F>"
+msgid "<F>forÃ©ilithe</F>"
 msgstr ""
 
 msgid "<F>formheasta</F>"
@@ -765,13 +765,13 @@ msgstr ""
 msgid "<N pl='y' gnt='y' gnd='m'>gcarad</N>"
 msgstr ""
 
-msgid "<F>gcásaithe</F>"
+msgid "<F>gcÃ¡saithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>gceangailte</N>"
 msgstr ""
 
-msgid "<F>gclúdaithe</F>"
+msgid "<F>gclÃºdaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>gcoiscthe</N>"
@@ -780,22 +780,22 @@ msgstr ""
 msgid "<F>gcomhairthe</F>"
 msgstr ""
 
-msgid "<F>gcomhdhéanta</F>"
+msgid "<F>gcomhdhÃ©anta</F>"
 msgstr ""
 
-msgid "<F>gcomórtha</F>"
+msgid "<F>gcomÃ³rtha</F>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>gcreidimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>gcreidimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>gcreidimse</V>"
 msgstr ""
 
 msgid "<F>gcuile</F>"
 msgstr "cuileag"
 
-msgid "<N pl='n' gnt='y' gnd='m'>gcúnta</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>gcÃºnta</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>gcurtha</N>"
@@ -825,7 +825,7 @@ msgstr ""
 msgid "<F>haisghairthe</F>"
 msgstr ""
 
-msgid "<F>haisíoctha</F>"
+msgid "<F>haisÃ­octha</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f' h='y'>haithriste</N>"
@@ -846,7 +846,7 @@ msgstr ""
 msgid "<F>hathchurtha</F>"
 msgstr ""
 
-msgid "<F>hathdhíolta</F>"
+msgid "<F>hathdhÃ­olta</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f' h='y'>hathghairthe</N>"
@@ -858,7 +858,7 @@ msgstr ""
 msgid "<F>hatochraiste</F>"
 msgstr ""
 
-msgid "<F>héilithe</F>"
+msgid "<F>hÃ©ilithe</F>"
 msgstr ""
 
 msgid "<F>heisiata</F>"
@@ -873,7 +873,7 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f' h='y'>hidirleabharlainne</N>"
 msgstr ""
 
-msgid "<F>himchlúdaithe</F>"
+msgid "<F>himchlÃºdaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f' h='y'>hImrime</N>"
@@ -882,7 +882,7 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f' h='y'>hinste</N>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m' h='y'>híoctha</N>"
+msgid "<N pl='n' gnt='y' gnd='m' h='y'>hÃ­octha</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m' h='y'>hiomartha</N>"
@@ -900,7 +900,7 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='m' h='y'>hite</N>"
 msgstr ""
 
-msgid "<F>hólta</F>"
+msgid "<F>hÃ³lta</F>"
 msgstr ""
 
 msgid "<F>huilleann</F>"
@@ -915,7 +915,7 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f'>idirleabharlainne</N>"
 msgstr ""
 
-msgid "<F>imchlúdaithe</F>"
+msgid "<F>imchlÃºdaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>Imrime</N>"
@@ -924,7 +924,7 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f'>inste</N>"
 msgstr "innse"
 
-msgid "<N pl='n' gnt='y' gnd='m'>íoctha</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>Ã­octha</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>iomartha</N>"
@@ -945,10 +945,10 @@ msgstr ""
 msgid "<A pl='n' gnt='y' gnd='f'>lia</A>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>lú</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>lÃº</A>"
 msgstr "lugha"
 
-msgid "<A pl='n' gnt='y' gnd='f'>lúide</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>lÃºide</A>"
 msgstr ""
 
 msgid "<F>m'aischurtha</F>"
@@ -960,7 +960,7 @@ msgstr ""
 msgid "<F>m'aisghairthe</F>"
 msgstr ""
 
-msgid "<F>m'aisíoctha</F>"
+msgid "<F>m'aisÃ­octha</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>m'aithriste</N>"
@@ -978,7 +978,7 @@ msgstr ""
 msgid "<F>m'athchurtha</F>"
 msgstr ""
 
-msgid "<F>m'athdhíolta</F>"
+msgid "<F>m'athdhÃ­olta</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>m'athghairthe</N>"
@@ -999,10 +999,10 @@ msgstr ""
 msgid "<V p='y' t='coinn'>mbeinnse</V>"
 msgstr ""
 
-msgid "<V p='y' t='ord'>mbímse</V>"
+msgid "<V p='y' t='ord'>mbÃ­mse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>mbímse</V>"
+msgid "<V p='y' t='lÃ¡ith'>mbÃ­mse</V>"
 msgstr ""
 
 msgid "<F>mblite</F>"
@@ -1021,16 +1021,16 @@ msgstr "miosa"
 msgid "<A pl='n' gnt='y' gnd='f'>measaide</A>"
 msgstr ""
 
-msgid "<F>m'éilithe</F>"
+msgid "<F>m'Ã©ilithe</F>"
 msgstr ""
 
 msgid "<F>m'eisiata</F>"
 msgstr ""
 
-msgid "<F>m'fháiscthe</F>"
+msgid "<F>m'fhÃ¡iscthe</F>"
 msgstr ""
 
-msgid "<F>m'fhásta</F>"
+msgid "<F>m'fhÃ¡sta</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>m'Fheirste</N>"
@@ -1042,13 +1042,13 @@ msgstr ""
 msgid "<F>m'fholigthe</F>"
 msgstr ""
 
-msgid "<F>m'fhónta</F>"
+msgid "<F>m'fhÃ³nta</F>"
 msgstr ""
 
 msgid "<F>m'fhorchurtha</F>"
 msgstr ""
 
-msgid "<F>m'fhoréilithe</F>"
+msgid "<F>m'fhorÃ©ilithe</F>"
 msgstr ""
 
 msgid "<F>m'fhormheasta</F>"
@@ -1066,10 +1066,10 @@ msgstr ""
 msgid "<A pl='n' gnt='y' gnd='f'>mhinice</A>"
 msgstr "mhinig"
 
-msgid "<A pl='n' gnt='y' gnd='f'>mhó</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>mhÃ³</A>"
 msgstr "mhotha"
 
-msgid "<A pl='n' gnt='y' gnd='f'>mhóide</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>mhÃ³ide</A>"
 msgstr ""
 
 msgid "<F>m'iarchurtha</F>"
@@ -1081,7 +1081,7 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f'>m'idirleabharlainne</N>"
 msgstr ""
 
-msgid "<F>m'imchlúdaithe</F>"
+msgid "<F>m'imchlÃºdaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>m'Imrime</N>"
@@ -1093,7 +1093,7 @@ msgstr "minig"
 msgid "<N pl='n' gnt='y' gnd='f'>m'inste</N>"
 msgstr "m'innse"
 
-msgid "<N pl='n' gnt='y' gnd='m'>m'íoctha</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>m'Ã­octha</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>m'iomartha</N>"
@@ -1111,13 +1111,13 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='m'>m'ite</N>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>mó</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>mÃ³</A>"
 msgstr "motha"
 
-msgid "<A pl='n' gnt='y' gnd='f'>móide</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>mÃ³ide</A>"
 msgstr ""
 
-msgid "<F>m'ólta</F>"
+msgid "<F>m'Ã³lta</F>"
 msgstr ""
 
 msgid "<F>m'uilleann</F>"
@@ -1138,7 +1138,7 @@ msgstr ""
 msgid "<F>n-aisghairthe</F>"
 msgstr ""
 
-msgid "<F>n-aisíoctha</F>"
+msgid "<F>n-aisÃ­octha</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>n-aithriste</N>"
@@ -1147,10 +1147,10 @@ msgstr ""
 msgid "<V p='y' t='ord'>n-aitim</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>n-aitim</V>"
+msgid "<V p='y' t='lÃ¡ith'>n-aitim</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>n-aitimid</V>"
+msgid "<V p='y' t='lÃ¡ith'>n-aitimid</V>"
 msgstr ""
 
 msgid "<V p='y' t='foshuit'>n-aitimid</V>"
@@ -1168,7 +1168,7 @@ msgstr ""
 msgid "<F>n-athchurtha</F>"
 msgstr ""
 
-msgid "<F>n-athdhíolta</F>"
+msgid "<F>n-athdhÃ­olta</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>n-athghairthe</N>"
@@ -1195,7 +1195,7 @@ msgstr ""
 msgid "<F>ndealraithe</F>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>ndéanta</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>ndÃ©anta</N>"
 msgstr ""
 
 msgid "<V p='y' t='caite'>ndearna</V>"
@@ -1216,25 +1216,25 @@ msgstr "rinn"
 msgid "<V p='y' t='ord'>ndeirimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>ndeirimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>ndeirimse</V>"
 msgstr ""
 
-msgid "<F>ndícheangailte</F>"
+msgid "<F>ndÃ­cheangailte</F>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>ndíchurtha</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>ndÃ­churtha</N>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>ndíolta</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>ndÃ­olta</N>"
 msgstr ""
 
-msgid "<V p='n' t='caite'>ndóbair</V>"
+msgid "<V p='n' t='caite'>ndÃ³bair</V>"
 msgstr ""
 
 msgid "<A pl='n' gnt='y' gnd='f'>neasa</A>"
 msgstr ""
 
-msgid "<F>n-éilithe</F>"
+msgid "<F>n-Ã©ilithe</F>"
 msgstr ""
 
 msgid "<F>n-eisiata</F>"
@@ -1258,37 +1258,37 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f'>n-idirleabharlainne</N>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>níl</V>"
+msgid "<V p='y' t='lÃ¡ith'>nÃ­l</V>"
 msgstr "chan eil"
 
-msgid "<V p='y' t='láith'>nílid</V>"
+msgid "<V p='y' t='lÃ¡ith'>nÃ­lid</V>"
 msgstr "chan eil iad"
 
-msgid "<V p='y' t='ord'>nílim</V>"
+msgid "<V p='y' t='ord'>nÃ­lim</V>"
 msgstr "chan eil mi"
 
-msgid "<V p='y' t='láith'>nílim</V>"
+msgid "<V p='y' t='lÃ¡ith'>nÃ­lim</V>"
 msgstr "chan eil mi"
 
-msgid "<V p='y' t='láith'>nílimid</V>"
+msgid "<V p='y' t='lÃ¡ith'>nÃ­limid</V>"
 msgstr "chan eil sinn"
 
-msgid "<V p='y' t='foshuit'>nílimid</V>"
+msgid "<V p='y' t='foshuit'>nÃ­limid</V>"
 msgstr "chan eil sinn"
 
-msgid "<V p='y' t='ord'>nílimse</V>"
+msgid "<V p='y' t='ord'>nÃ­limse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>nílimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>nÃ­limse</V>"
 msgstr ""
 
-msgid "<F>níltear</F>"
+msgid "<F>nÃ­ltear</F>"
 msgstr ""
 
-msgid "<V p='n' t='láith'>níltear</V>"
+msgid "<V p='n' t='lÃ¡ith'>nÃ­ltear</V>"
 msgstr "chan eilear"
 
-msgid "<F>n-imchlúdaithe</F>"
+msgid "<F>n-imchlÃºdaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>nImrime</N>"
@@ -1297,7 +1297,7 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f'>n-inste</N>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>n-íoctha</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>n-Ã­octha</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>n-iomartha</N>"
@@ -1315,13 +1315,13 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='m'>n-ite</N>"
 msgstr ""
 
-msgid "<F>n-ólta</F>"
+msgid "<F>n-Ã³lta</F>"
 msgstr ""
 
 msgid "<F>n-uilleann</F>"
 msgstr ""
 
-msgid "<F>ólta</F>"
+msgid "<F>Ã³lta</F>"
 msgstr ""
 
 msgid "<V p='y' t='caite'>rabhadar</V>"
@@ -1342,70 +1342,70 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='f'>Saighde</N>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='f'>séibe</N>"
+msgid "<N pl='n' gnt='y' gnd='f'>sÃ©ibe</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>Shaighde</N>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='f'>shéibe</N>"
+msgid "<N pl='n' gnt='y' gnd='f'>shÃ©ibe</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='y' gnd='f'>shia</A>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>Shlánaithe</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>ShlÃ¡naithe</N>"
 msgstr ""
 
 msgid "<A pl='n' gnt='y' gnd='f'>sia</A>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>Slánaithe</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>SlÃ¡naithe</N>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>tá</V>"
+msgid "<V p='y' t='lÃ¡ith'>tÃ¡</V>"
 msgstr "tha"
 
-msgid "<V p='y' t='láith'>táid</V>"
+msgid "<V p='y' t='lÃ¡ith'>tÃ¡id</V>"
 msgstr "tha iad"
 
-msgid "<V p='y' t='ord'>táim</V>"
+msgid "<V p='y' t='ord'>tÃ¡im</V>"
 msgstr "tha mi"
 
-msgid "<V p='y' t='láith'>táim</V>"
+msgid "<V p='y' t='lÃ¡ith'>tÃ¡im</V>"
 msgstr "tha mi"
 
-msgid "<V p='y' t='láith'>táimid</V>"
+msgid "<V p='y' t='lÃ¡ith'>tÃ¡imid</V>"
 msgstr "tha sinn"
 
-msgid "<V p='y' t='foshuit'>táimid</V>"
+msgid "<V p='y' t='foshuit'>tÃ¡imid</V>"
 msgstr "tha sinn"
 
-msgid "<V p='y' t='láith'>táimidne</V>"
+msgid "<V p='y' t='lÃ¡ith'>tÃ¡imidne</V>"
 msgstr ""
 
-msgid "<V p='y' t='foshuit'>táimidne</V>"
+msgid "<V p='y' t='foshuit'>tÃ¡imidne</V>"
 msgstr ""
 
-msgid "<V p='y' t='ord'>táimse</V>"
+msgid "<V p='y' t='ord'>tÃ¡imse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>táimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>tÃ¡imse</V>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='f'>talún</N>"
+msgid "<N pl='n' gnt='y' gnd='f'>talÃºn</N>"
 msgstr "talmhainn"
 
 msgid "<F>tarchurtha</F>"
 msgstr ""
 
-msgid "<F>táthar</F>"
+msgid "<F>tÃ¡thar</F>"
 msgstr "thathar"
 
-msgid "<V p='n' t='láith'>táthar</V>"
+msgid "<V p='n' t='lÃ¡ith'>tÃ¡thar</V>"
 msgstr "thathar"
 
-msgid "<F>téarnaithe</F>"
+msgid "<F>tÃ©arnaithe</F>"
 msgstr ""
 
 msgid "<F>teilgthe</F>"
@@ -1414,7 +1414,7 @@ msgstr ""
 msgid "<A pl='n' gnt='y' gnd='f'>teo</A>"
 msgstr "teotha"
 
-msgid "<N pl='n' gnt='y' gnd='f'>thalún</N>"
+msgid "<N pl='n' gnt='y' gnd='f'>thalÃºn</N>"
 msgstr "thalmhainn"
 
 msgid "<F>tharchurtha</F>"
@@ -1423,7 +1423,7 @@ msgstr ""
 msgid "<V p='y' t='caite'>tharla</V>"
 msgstr ""
 
-msgid "<F>théarnaithe</F>"
+msgid "<F>thÃ©arnaithe</F>"
 msgstr ""
 
 msgid "<F>theilgthe</F>"
@@ -1432,13 +1432,13 @@ msgstr ""
 msgid "<A pl='n' gnt='y' gnd='f'>theo</A>"
 msgstr "theotha"
 
-msgid "<V p='y' t='láith'>thig</V>"
+msgid "<V p='y' t='lÃ¡ith'>thig</V>"
 msgstr "tighinn"
 
 msgid "<V p='y' t='ord'>thigim</V>"
 msgstr "tighinn"
 
-msgid "<V p='y' t='láith'>thigim</V>"
+msgid "<V p='y' t='lÃ¡ith'>thigim</V>"
 msgstr "tighinn"
 
 msgid "<F>thionlactha</F>"
@@ -1459,19 +1459,19 @@ msgstr ""
 msgid "<V p='y' t='ord'>thuigimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>thuigimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>thuigimse</V>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>thúisce</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>thÃºisce</A>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>tig</V>"
+msgid "<V p='y' t='lÃ¡ith'>tig</V>"
 msgstr "tighinn"
 
 msgid "<V p='y' t='ord'>tigim</V>"
 msgstr "tighinn"
 
-msgid "<V p='y' t='láith'>tigim</V>"
+msgid "<V p='y' t='lÃ¡ith'>tigim</V>"
 msgstr "tighinn"
 
 msgid "<F>tionlactha</F>"
@@ -1489,26 +1489,26 @@ msgstr ""
 msgid "<A pl='n' gnt='y' gnd='f'>troimide</A>"
 msgstr ""
 
-msgid "<N pl='n' gnt='y' gnd='m'>tSlánaithe</N>"
+msgid "<N pl='n' gnt='y' gnd='m'>tSlÃ¡naithe</N>"
 msgstr ""
 
 msgid "<V p='y' t='ord'>tuigimse</V>"
 msgstr ""
 
-msgid "<V p='y' t='láith'>tuigimse</V>"
+msgid "<V p='y' t='lÃ¡ith'>tuigimse</V>"
 msgstr ""
 
-msgid "<A pl='n' gnt='y' gnd='f'>túisce</A>"
+msgid "<A pl='n' gnt='y' gnd='f'>tÃºisce</A>"
 msgstr ""
 
 msgid "<F>uilleann</F>"
 msgstr ""
 
 #~ msgid "<F>carad</F>"
-#~ msgstr "càirdean"
+#~ msgstr "cÃ irdean"
 
 #~ msgid "<F>charad</F>"
-#~ msgstr "chàirdean"
+#~ msgstr "chÃ irdean"
 
 #~ msgid "<F>gcarad</F>"
-#~ msgstr "càirdean"
+#~ msgstr "cÃ irdean"

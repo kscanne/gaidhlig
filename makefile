@@ -33,7 +33,6 @@ lexicon-gd.txt : GD.txt
 	cat GD.txt | sed '/^-$$/d' | LC_COLLATE=POSIX sort -u -k1,1 -k2,2n > $@
 #	rest of the commands below are just informational - how much more of lextodo.txt is left?
 	mv -f lextodo.txt lextodo.txt.bak
-#	cat lextodo.txt.bak | keepif -n lexicon-gd.txt latin-1 | LC_ALL=C sort -u -k1,1 -k2,2n | uniq > lextodo.txt
 	cat lextodo.txt.bak | while read x; do TEMP=`echo $$x | sed 's/^\([^ ]*\) .*/^\1 /'`; if ! egrep "$$TEMP" lexicon-gd.txt > /dev/null; then echo $$x; fi; done > lextodo.txt
 	diff -u lextodo.txt.bak lextodo.txt | more
 	cp -f $@ $(GRAM)/gd/$@
@@ -90,16 +89,12 @@ cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt
 lookup.txt : cuardach.txt
 	perl i.pl -t 2>&1 | sort -t ':' -k1,1 > $@
 
-toptodo.txt : cuardach.txt FORCE
-	cat cuardach.txt | sed 's/> .*/>/' > todotemp.txt
-	cat /home/spas/beostem/FREQ | sed 's/^ *[0-9]* //' | keepif -n todotemp.txt latin-1 | egrep -v '^<[XY]>' | egrep -v '>[0-9]+<' > toptodo.txt
-	rm -f todotemp.txt
-
-CRUB=/usr/local/share/crubadan/gd
-GLAN-update : lexicon-gd.txt FORCE
-	cat lexicon-gd.txt | sed 's/ .*//' | LC_ALL=ga_IE sort -u | iconv -f iso-8859-1 -t utf8 > $(CRUB)/GLAN
-	cp $(CRUB)/GLAN $(CRUB)/LEXICON
-	togail gd glan 20
+# Using mcneir list now
+#CRUB=/usr/local/share/crubadan/gd
+#GLAN-update : lexicon-gd.txt FORCE
+#	cat lexicon-gd.txt | sed 's/ .*//' | LC_ALL=ga_IE sort -u | iconv -f iso-8859-1 -t utf8 > $(CRUB)/GLAN
+#	cp $(CRUB)/GLAN $(CRUB)/LEXICON
+#	togail gd glan 20
 
 fullstem.txt : GA.txt
 	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^xx' | LC_ALL=ga_IE sort -u | perl ./tagcvt.pl ga | LC_ALL=ga_IE sort -u > $@
@@ -133,7 +128,7 @@ torthai.txt-update : FORCE
 	cat test.txt | sed '/^#/d' | ga2gd > torthai.txt
 
 clean :
-	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt toptodo.txt ambig.txt fullstem.txt
+	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt ambig.txt fullstem.txt fullstem-gd.txt fullstem-nomutate*.txt speling*.txt
 
 .PRECIOUS : ga2gd.po
 

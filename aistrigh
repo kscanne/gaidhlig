@@ -136,8 +136,6 @@ close CUARD;
 # 28 May 2005; now reads output of "stemmer -l" -
 # XML format with tagged words followed immediately by
 # tagged stem.  One sentence per line.
-binmode STDIN, ":bytes";
-
 while (<STDIN>) {
 #	print STDERR "before rules:\n$_\n";
 	foreach my $rule (@rialacha) {

@@ -114,7 +114,7 @@ speling-ga.txt : fullstem-nomutate.txt
 speling-gd.txt : fullstem-nomutate-gd.txt
 	cat fullstem-nomutate-gd.txt | perl tospeling-gd.pl > $@
 
-Lingua-GA-Stemmer/share/stemmer.txt : GA.txt Lingua-GA-Stemmer/scripts/stemmer
+Lingua-GA-Stemmer/share/stemmer.txt : GA.txt Lingua-GA-Stemmer/scripts/stemmer fullstem.txt
 	(sed '/^#/d' stemmer.po | sed "/^msg/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat fullstem.txt) | sort -u > $@
 	perl -I Lingua-GA-Stemmer/lib Lingua-GA-Stemmer/scripts/stemmer -p $@
 

@@ -4,10 +4,12 @@ MAKE=/usr/bin/make
 INSTALL_DATA=$(INSTALL) -m 444
 GRAM=${HOME}/gaeilge/gramadoir/gr
 
+all : cuardach.txt aistrigh ga2gd rialacha.txt disambig.pl ambig.txt gdfixer
+
 # Note "caighdean" package installed separately
 # The dependencies listed here, plus disambig/*.dat, a README, Copyright, etc.
 # are all that is needed for a ga2gd tarball
-install : cuardach.txt aistrigh ga2gd rialacha.txt disambig.pl ambig.txt gdfixer
+install : all
 	$(INSTALL) aistrigh /usr/local/bin
 	$(INSTALL) ga2gd /usr/local/bin
 	$(INSTALL) gdfixer /usr/local/bin
@@ -103,13 +105,26 @@ fullstem-gd.txt : GD.txt
 	cat GD.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^x[ x]' | sort -u | perl ./tagcvt.pl gd | sort -u > $@
 
 fullstem-nomutate.txt : fullstem.txt
-	cat fullstem.txt | egrep -v '<F>' | egrep -v ">.[A-ZÁÉÍÓÚh'-]" | egrep -v '>(m[Bb]|g[Cc]|n[DdGg]|b[Pp]|t[Ss]|d[Tt])' | egrep -v 'h="y"' | egrep -v 't="ord">h.*>[aeiouáéíóú]' > $@
+	cat fullstem.txt | sed '/ t="\(caite\|coinn\|gnáth\|foshuit\)"/s/">\(.\)h\([^Ff]\)/">\1\2/' | egrep -v '<F>' | egrep -v ">.[A-ZÁÉÍÓÚh'-]" | egrep -v '>(m[Bb]|g[Cc]|n[DdGg]|b[Pp]|t[Ss]|d[Tt])' | egrep -v 'h="y"' | egrep -v 't="ord">h.*>[aeiouáéíóú]' > $@
 
 fullstem-nomutate-gd.txt : fullstem-gd.txt
 	cat fullstem-gd.txt | egrep -v ">.[h']" | egrep -v ">[th]-" > $@
 
 speling-ga.txt : fullstem-nomutate.txt
 	cat fullstem-nomutate.txt | perl tospeling.pl > $@
+
+apertium-toinsert.txt : speling-ga.txt
+	python ${HOME}/seal/apertium/apertium/apertium-tools/speling/speling-paradigms-py25.py speling-ga.txt > tempdic
+	python ${HOME}/seal/apertium/apertium/apertium-tools/speling/paradigm-chopper.py tempdic 1line > $@
+	rm -f tempdic
+	sed -i '1,3d' $@
+	sed -i '/^  <\/section>$$/d' $@
+	sed -i '/^<\/dictionary>$$/d' $@
+	sed -i '/__n_[mf]"/s/<i>\([aábBcCdDeéfFgGiímMoópPtT]\)/<par n="initial-\1"\/><i>/' $@
+	sed -i '/__n_[mf]"/s/<i>\([sS]\)\([aeiouáéíóúlnr]\)/<par n="initial-\1"\/><i>\2/' $@
+
+apertium-ga-gd.ga.dix : apertium-toinsert.txt
+	sed '/Insert Here -->/r apertium-toinsert.txt' apertium-ga-gd.ga.dix.in > $@
 
 speling-gd.txt : fullstem-nomutate-gd.txt
 	cat fullstem-nomutate-gd.txt | perl tospeling-gd.pl > $@
@@ -131,7 +146,7 @@ FREQ : /usr/local/share/crubadan/gd/FREQ
 	cp -f /usr/local/share/crubadan/gd/FREQ $@
 
 clean :
-	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt ambig.txt fullstem.txt fullstem-gd.txt fullstem-nomutate*.txt speling*.txt
+	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt ambig.txt fullstem.txt fullstem-gd.txt fullstem-nomutate*.txt speling*.txt apertium-toinsert.txt apertium-ga-gd.ga.dix
 
 distclean :
 	$(MAKE) clean

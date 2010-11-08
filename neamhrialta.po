@@ -287,6 +287,12 @@ msgstr ""
 msgid "<N pl='n' gnt='y' gnd='m'>ceangailte</N>"
 msgstr ""
 
+msgid "<V p='y' t='ord'>ceapaimse</V>"
+msgstr ""
+
+msgid "<V p='y' t='láith'>ceapaimse</V>"
+msgstr ""
+
 msgid "<F>chactha</F>"
 msgstr ""
 
@@ -300,6 +306,12 @@ msgid "<F>chásaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>cheangailte</N>"
+msgstr ""
+
+msgid "<V p='y' t='ord'>cheapaimse</V>"
+msgstr ""
+
+msgid "<V p='y' t='láith'>cheapaimse</V>"
 msgstr ""
 
 msgid "<V p='y' t='láith'>chí</V>"
@@ -769,6 +781,12 @@ msgid "<F>gcásaithe</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='m'>gceangailte</N>"
+msgstr ""
+
+msgid "<V p='y' t='ord'>gceapaimse</V>"
+msgstr ""
+
+msgid "<V p='y' t='láith'>gceapaimse</V>"
 msgstr ""
 
 msgid "<F>gclúdaithe</F>"

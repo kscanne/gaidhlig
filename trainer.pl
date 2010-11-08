@@ -125,7 +125,7 @@ my %unseen;  # probability to assign to unseen tokens
 my $total = 0;   # number of disambiguated sentences
 my $V = 47216;  # total "vocabulary size"; i.e. number of tagged words
                 # in the corpus.  Get it as follows:
-		# cat /home/spas/beostem/FREQ | wc -l
+		# cat ../beostem/FREQ | wc -l
 		# Only needed for "smoothing" zero counts.
 
 # this loop just does *counts*; log probs are computed in following loop

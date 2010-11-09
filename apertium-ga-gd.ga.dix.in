@@ -319,26 +319,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="initial-f_nullout">
-      <e>
-        <p>
-          <l>f</l>
-          <r></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>fh</l>
-          <r></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>bhf</l>
-          <r></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="initial-F">
       <e>
         <p>
@@ -583,44 +563,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="initial-vowel">
-      <e>
-        <p>
-          <l></l>
-          <r></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>n-</l>
-          <r></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>n</l>
-          <r></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>t-</l>
-          <r></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>t</l>
-          <r></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>h</l>
-          <r></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="initial-a">
       <e>
         <p>
@@ -636,14 +578,28 @@
       </e>
       <e r="LR">
         <p>
-          <l>nA</l>
+          <l>t-a</l>
+          <r>a</r>
+        </p>
+      </e>
+      <e r="LR"> 
+        <p>
+          <l>ha</l>
+          <r>a</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-A">
+      <e>
+        <p>
+          <l>A</l>
           <r>A</r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>t-a</l>
-          <r>a</r>
+          <l>nA</l>
+          <r>A</r>
         </p>
       </e>
       <e r="LR">
@@ -654,8 +610,8 @@
       </e>
       <e r="LR"> 
         <p>
-          <l>ha</l>
-          <r>a</r>
+          <l>hA</l>
+          <r>A</r>
         </p>
       </e>
     </pardef>
@@ -674,14 +630,28 @@
       </e>
       <e r="LR">
         <p>
-          <l>nÁ</l>
+          <l>t-á</l>
+          <r>á</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>há</l>
+          <r>á</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-Á">
+      <e>
+        <p>
+          <l>Á</l>
           <r>Á</r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>t-á</l>
-          <r>á</r>
+          <l>nÁ</l>
+          <r>Á</r>
         </p>
       </e>
       <e r="LR">
@@ -690,10 +660,10 @@
           <r>Á</r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR"> 
         <p>
-          <l>há</l>
-          <r>á</r>
+          <l>hÁ</l>
+          <r>Á</r>
         </p>
       </e>
     </pardef>
@@ -712,26 +682,40 @@
       </e>
       <e r="LR">
         <p>
-          <l>nE</l>
-          <r>E</r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
           <l>t-e</l>
           <r>e</r>
-        </p>
-      </e>
-      <e r="LR"> 
-        <p>
-          <l>tE</l>
-          <r>E</r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>he</l>
           <r>e</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-E">
+      <e>
+        <p>
+          <l>E</l>
+          <r>E</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>nE</l>
+          <r>E</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>tE</l>
+          <r>E</r>
+        </p>
+      </e>
+      <e r="LR"> 
+        <p>
+          <l>hE</l>
+          <r>E</r>
         </p>
       </e>
     </pardef>
@@ -750,14 +734,28 @@
       </e>
       <e r="LR">
         <p>
-          <l>nÉ</l>
+          <l>t-é</l>
+          <r>é</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hé</l>
+          <r>é</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-É">
+      <e>
+        <p>
+          <l>É</l>
           <r>É</r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>t-é</l>
-          <r>é</r>
+          <l>nÉ</l>
+          <r>É</r>
         </p>
       </e>
       <e r="LR">
@@ -766,10 +764,10 @@
           <r>É</r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR"> 
         <p>
-          <l>hé</l>
-          <r>é</r>
+          <l>hÉ</l>
+          <r>É</r>
         </p>
       </e>
     </pardef>
@@ -788,14 +786,28 @@
       </e>
       <e r="LR">
         <p>
-          <l>nI</l>
+          <l>t-i</l>
+          <r>i</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hi</l>
+          <r>i</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-I">
+      <e>
+        <p>
+          <l>I</l>
           <r>I</r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>t-i</l>
-          <r>i</r>
+          <l>nI</l>
+          <r>I</r>
         </p>
       </e>
       <e r="LR">
@@ -804,10 +816,10 @@
           <r>I</r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR"> 
         <p>
-          <l>hi</l>
-          <r>i</r>
+          <l>hI</l>
+          <r>I</r>
         </p>
       </e>
     </pardef>
@@ -826,14 +838,28 @@
       </e>
       <e r="LR">
         <p>
-          <l>nÍ</l>
+          <l>t-í</l>
+          <r>í</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hí</l>
+          <r>í</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-Í">
+      <e>
+        <p>
+          <l>Í</l>
           <r>Í</r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>t-í</l>
-          <r>í</r>
+          <l>nÍ</l>
+          <r>Í</r>
         </p>
       </e>
       <e r="LR">
@@ -842,10 +868,10 @@
           <r>Í</r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR"> 
         <p>
-          <l>hí</l>
-          <r>í</r>
+          <l>hÍ</l>
+          <r>Í</r>
         </p>
       </e>
     </pardef>
@@ -864,14 +890,28 @@
       </e>
       <e r="LR">
         <p>
-          <l>nO</l>
+          <l>t-o</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ho</l>
+          <r>o</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-O">
+      <e>
+        <p>
+          <l>O</l>
           <r>O</r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>t-o</l>
-          <r>o</r>
+          <l>nO</l>
+          <r>O</r>
         </p>
       </e>
       <e r="LR">
@@ -880,10 +920,10 @@
           <r>O</r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR"> 
         <p>
-          <l>ho</l>
-          <r>o</r>
+          <l>hO</l>
+          <r>O</r>
         </p>
       </e>
     </pardef>
@@ -902,14 +942,28 @@
       </e>
       <e r="LR">
         <p>
-          <l>nÓ</l>
+          <l>t-ó</l>
+          <r>ó</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hó</l>
+          <r>ó</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-Ó">
+      <e>
+        <p>
+          <l>Ó</l>
           <r>Ó</r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>t-ó</l>
-          <r>ó</r>
+          <l>nÓ</l>
+          <r>Ó</r>
         </p>
       </e>
       <e r="LR">
@@ -918,10 +972,10 @@
           <r>Ó</r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR"> 
         <p>
-          <l>hó</l>
-          <r>ó</r>
+          <l>hÓ</l>
+          <r>Ó</r>
         </p>
       </e>
     </pardef>
@@ -940,14 +994,28 @@
       </e>
       <e r="LR">
         <p>
-          <l>nU</l>
+          <l>t-u</l>
+          <r>u</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hu</l>
+          <r>u</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-U">
+      <e>
+        <p>
+          <l>U</l>
           <r>U</r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>t-u</l>
-          <r>u</r>
+          <l>nU</l>
+          <r>U</r>
         </p>
       </e>
       <e r="LR">
@@ -956,10 +1024,10 @@
           <r>U</r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR"> 
         <p>
-          <l>hu</l>
-          <r>u</r>
+          <l>hU</l>
+          <r>U</r>
         </p>
       </e>
     </pardef>
@@ -978,14 +1046,28 @@
       </e>
       <e r="LR">
         <p>
-          <l>nÚ</l>
+          <l>t-ú</l>
+          <r>ú</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hú</l>
+          <r>ú</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="initial-Ú">
+      <e>
+        <p>
+          <l>Ú</l>
           <r>Ú</r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>t-ú</l>
-          <r>ú</r>
+          <l>nÚ</l>
+          <r>Ú</r>
         </p>
       </e>
       <e r="LR">
@@ -994,10 +1076,10 @@
           <r>Ú</r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR"> 
         <p>
-          <l>hú</l>
-          <r>ú</r>
+          <l>hÚ</l>
+          <r>Ú</r>
         </p>
       </e>
     </pardef>
@@ -2541,9 +2623,8 @@
         </p>
       </e>
       <e>
-        <par n="initial-f_nullout"/>
         <p>
-	  <l>uil</l>
+	  <l>bhfuil</l>
 	  <r>bí<s n="vbser"/><s n="pres"/><s n="dep"/></r>
 	</p>
       </e>

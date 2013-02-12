@@ -44,6 +44,7 @@
     <sdef n="voc"/>
     <sdef n="dat"/>
     <sdef n="gen"/>
+    <sdef n="com"/>
 
     <sdef n="def"/>
     <sdef n="ind"/>
@@ -55,7 +56,7 @@
     <sdef n="p1"/>
     <sdef n="p2"/>
     <sdef n="p3"/>
-    <sdef n="impers"/>
+    <sdef n="aut"/>
 
     <sdef n="cni"/>
     <sdef n="fti"/>
@@ -180,6 +181,12 @@
           <r>b</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>b</l>
+          <r>b</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-B">
       <e>
@@ -206,6 +213,12 @@
           <r>B</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>B</l>
+          <r>B</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-c">
       <e>
@@ -223,6 +236,12 @@
       <e r="LR">
         <p>
           <l>gc</l>
+          <r>c</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>c</l>
           <r>c</r>
         </p>
       </e>
@@ -252,6 +271,12 @@
           <r>C</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>C</l>
+          <r>C</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-d">
       <e>
@@ -269,6 +294,12 @@
       <e r="LR">
         <p>
           <l>nd</l>
+          <r>d</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>d</l>
           <r>d</r>
         </p>
       </e>
@@ -298,6 +329,12 @@
           <r>D</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>D</l>
+          <r>D</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-f">
       <e>
@@ -315,6 +352,12 @@
       <e r="LR">
         <p>
           <l>bhf</l>
+          <r>f</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>f</l>
           <r>f</r>
         </p>
       </e>
@@ -344,6 +387,12 @@
           <r>F</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>F</l>
+          <r>F</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-g">
       <e>
@@ -361,6 +410,12 @@
       <e r="LR">
         <p>
           <l>ng</l>
+          <r>g</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>g</l>
           <r>g</r>
         </p>
       </e>
@@ -390,6 +445,12 @@
           <r>G</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>G</l>
+          <r>G</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-m">
       <e>
@@ -401,6 +462,12 @@
       <e r="LR">
         <p>
           <l>mh</l>
+          <r>m</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>m</l>
           <r>m</r>
         </p>
       </e>
@@ -424,6 +491,12 @@
           <r>M</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>M</l>
+          <r>M</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-p">
       <e>
@@ -441,6 +514,12 @@
       <e r="LR">
         <p>
           <l>bp</l>
+          <r>p</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>p</l>
           <r>p</r>
         </p>
       </e>
@@ -470,6 +549,12 @@
           <r>P</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>P</l>
+          <r>P</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-s">
       <e>
@@ -487,6 +572,12 @@
       <e r="LR">
         <p>
           <l>ts</l>
+          <r>s</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>s</l>
           <r>s</r>
         </p>
       </e>
@@ -516,6 +607,12 @@
           <r>S</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>S</l>
+          <r>S</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-t">
       <e>
@@ -533,6 +630,12 @@
       <e r="LR">
         <p>
           <l>dt</l>
+          <r>t</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>t</l>
           <r>t</r>
         </p>
       </e>
@@ -562,6 +665,12 @@
           <r>T</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>T</l>
+          <r>T</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-a">
       <e>
@@ -585,6 +694,12 @@
       <e r="LR"> 
         <p>
           <l>ha</l>
+          <r>a</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>a</l>
           <r>a</r>
         </p>
       </e>
@@ -614,6 +729,12 @@
           <r>A</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>A</l>
+          <r>A</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-á">
       <e>
@@ -637,6 +758,12 @@
       <e r="LR">
         <p>
           <l>há</l>
+          <r>á</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>á</l>
           <r>á</r>
         </p>
       </e>
@@ -666,6 +793,12 @@
           <r>Á</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>Á</l>
+          <r>Á</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-e">
       <e>
@@ -689,6 +822,12 @@
       <e r="LR">
         <p>
           <l>he</l>
+          <r>e</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>e</l>
           <r>e</r>
         </p>
       </e>
@@ -718,6 +857,12 @@
           <r>E</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>E</l>
+          <r>E</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-é">
       <e>
@@ -741,6 +886,12 @@
       <e r="LR">
         <p>
           <l>hé</l>
+          <r>é</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>é</l>
           <r>é</r>
         </p>
       </e>
@@ -770,6 +921,12 @@
           <r>É</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>É</l>
+          <r>É</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-i">
       <e>
@@ -793,6 +950,12 @@
       <e r="LR">
         <p>
           <l>hi</l>
+          <r>i</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>i</l>
           <r>i</r>
         </p>
       </e>
@@ -822,6 +985,12 @@
           <r>I</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>I</l>
+          <r>I</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-í">
       <e>
@@ -845,6 +1014,12 @@
       <e r="LR">
         <p>
           <l>hí</l>
+          <r>í</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>í</l>
           <r>í</r>
         </p>
       </e>
@@ -874,6 +1049,12 @@
           <r>Í</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>Í</l>
+          <r>Í</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-o">
       <e>
@@ -897,6 +1078,12 @@
       <e r="LR">
         <p>
           <l>ho</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>o</l>
           <r>o</r>
         </p>
       </e>
@@ -926,6 +1113,12 @@
           <r>O</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>O</l>
+          <r>O</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-ó">
       <e>
@@ -949,6 +1142,12 @@
       <e r="LR">
         <p>
           <l>hó</l>
+          <r>ó</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>ó</l>
           <r>ó</r>
         </p>
       </e>
@@ -978,6 +1177,12 @@
           <r>Ó</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>Ó</l>
+          <r>Ó</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-u">
       <e>
@@ -1001,6 +1206,12 @@
       <e r="LR">
         <p>
           <l>hu</l>
+          <r>u</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>u</l>
           <r>u</r>
         </p>
       </e>
@@ -1030,6 +1241,12 @@
           <r>U</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>U</l>
+          <r>U</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-ú">
       <e>
@@ -1056,6 +1273,12 @@
           <r>ú</r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l><a/>ú</l>
+          <r>ú</r>
+        </p>
+      </e>
     </pardef>
     <pardef n="initial-Ú">
       <e>
@@ -1079,6 +1302,12 @@
       <e r="LR"> 
         <p>
           <l>hÚ</l>
+          <r>Ú</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>Ú</l>
           <r>Ú</r>
         </p>
       </e>
@@ -2557,7 +2786,7 @@
       <e>
         <p>
           <l>bhíothas</l>
-          <r>bí<s n="vbser"/><s n="past"/><s n="impers"/><s n="sp"/></r>
+          <r>bí<s n="vbser"/><s n="past"/><s n="aut"/><s n="sp"/></r>
         </p>
       </e>
       <!-- Imperative -->
@@ -2619,7 +2848,7 @@
       <e>
         <p>
           <l>táthar</l>
-          <r>bí<s n="vbser"/><s n="pres"/><s n="impers"/><s n="sp"/></r>
+          <r>bí<s n="vbser"/><s n="pres"/><s n="aut"/><s n="sp"/></r>
         </p>
       </e>
       <e>
@@ -2649,7 +2878,7 @@
       <e r="LR">
         <p>
           <l>atáthar</l>
-          <r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vbser"/><s n="pres"/><s n="impers"/><s n="sp"/></r>
+          <r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vbser"/><s n="pres"/><s n="aut"/><s n="sp"/></r>
         </p>
       </e>
       <!-- Future -->
@@ -2668,7 +2897,7 @@
       <e>
         <p>
           <l>beifear</l>
-          <r>bí<s n="vbser"/><s n="fti"/><s n="impers"/><s n="sp"/></r>
+          <r>bí<s n="vbser"/><s n="fti"/><s n="aut"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>

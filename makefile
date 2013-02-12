@@ -4,7 +4,7 @@ MAKE=/usr/bin/make
 INSTALL_DATA=$(INSTALL) -m 444
 GRAM=${HOME}/gaeilge/gramadoir/gr
 
-all : cuardach.txt aistrigh ga2gd rialacha.txt disambig.pl ambig.txt gdfixer
+all : cuardach.txt aistrigh ga2gd rialacha.txt disambig.pl ambig.txt gdfixer apertium-ga-gd.ga.dix
 
 # Note "caighdean" package installed separately
 # The dependencies listed here, plus disambig/*.dat, a README, Copyright, etc.
@@ -120,11 +120,12 @@ apertium-toinsert.txt : speling-ga.txt
 	sed -i '1,3d' $@
 	sed -i '/^  <\/section>$$/d' $@
 	sed -i '/^<\/dictionary>$$/d' $@
-	sed -i '/__n_[mf]"/s/<i>\([aábBcCdDeéfFgGiímMoópPtT]\)/<par n="initial-\1"\/><i>/' $@
-	sed -i '/__n_[mf]"/s/<i>\([sS]\)\([aeiouáéíóúlnr]\)/<par n="initial-\1"\/><i>\2/' $@
+	sed -i '/__\(n_[mf]\|vblex\|adj\)"/s/"><i>\([aAáÁbBcCdDeEéÉfFgGiIíÍmMoOóÓpPtTuUúÚ]\)/"><par n="initial-\1"\/><i>/' $@
+	sed -i '/__\(n_[mf]\|vblex\|adj\)"/s/"><i>\([sS]\)\([aeiouáéíóúlnr]\)/"><par n="initial-\1"\/><i>\2/' $@
 
-apertium-ga-gd.ga.dix : apertium-toinsert.txt
+apertium-ga-gd.ga.dix : apertium-toinsert.txt apertium-ga-gd.ga.dix.in
 	sed '/Insert Here -->/r apertium-toinsert.txt' apertium-ga-gd.ga.dix.in > $@
+	cp apertium-ga-gd.ga.dix ~/seal/apertium/incubator/apertium-ga-gv/apertium-ga-gv.ga.dix
 
 speling-gd.txt : fullstem-nomutate-gd.txt
 	cat fullstem-nomutate-gd.txt | perl tospeling-gd.pl > $@
@@ -132,6 +133,7 @@ speling-gd.txt : fullstem-nomutate-gd.txt
 Lingua-GA-Stemmer/share/stemmer.txt : GA.txt Lingua-GA-Stemmer/scripts/stemmer fullstem.txt
 	(sed '/^#/d' stemmer.po | sed "/^msg/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat fullstem.txt) | sort -u > $@
 	perl -I Lingua-GA-Stemmer/lib Lingua-GA-Stemmer/scripts/stemmer -p $@
+	(cd Lingua-GA-Stemmer; perl Makefile.PL; make)
 
 triailcheck : FORCE
 	cat test.txt | sed '/^#/d' | ga2gd > torthai-nua.txt

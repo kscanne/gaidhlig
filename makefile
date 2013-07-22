@@ -148,7 +148,7 @@ FREQ : /usr/local/share/crubadan/gd/FREQ
 	cp -f /usr/local/share/crubadan/gd/FREQ $@
 
 clean :
-	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt ambig.txt fullstem.txt fullstem-gd.txt fullstem-nomutate*.txt speling*.txt apertium-toinsert.txt apertium-ga-gd.ga.dix
+	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt ambig.txt fullstem.txt fullstem-gd.txt fullstem-nomutate*.txt speling*.txt apertium-toinsert.txt apertium-ga-gd.ga.dix torthai-nua.txt
 
 distclean :
 	$(MAKE) clean

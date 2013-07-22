@@ -22,6 +22,7 @@ install : all
 	chmod 444 /usr/local/share/ga2gd/disambig/*.dat
 
 add : FORCE
+	$(MAKE) FREQ
 	cp -f focloir.txt focloir.txt.bak
 	perl i.pl -f
 	sort -t '_' -k1,1 -k2,2 focloir.txt > temp.txt

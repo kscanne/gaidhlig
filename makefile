@@ -79,6 +79,12 @@ stemmer.po : stemmer.pot
 	msgmerge -N -q --backup=off -U $@ stemmer.pot > /dev/null 2>&1
 	touch $@
 
+CCGG=${HOME}/gaeilge/ga2gd/ccgg
+searchable.txt: ga2gd.po
+	cat ga2gd.po neamhrialta.po comhshuite.po | egrep -v '^#~' | tr -d "\n" | sed 's/msgid/\n&/g' | egrep -v 'msg(id|str) ""' | sed 's/^msgid "<[^>]*>//' | sed 's/"#.*/"/' | sed 's/^\([^<]*\)<\/.>"msgstr "\([^"]*\)"/\2\t\1/' | sed 's/_\([a-z]*\)/ (\1)/' > $@
+	cat $@ | sed 's/\t.*//' | egrep -n '^' | sed 's/:/: /' > $(CCGG)/ga2gd-b
+	cat $@ | sed 's/.*\t//' | egrep -n '^' | sed 's/:/: /' > $(CCGG)/ga2gd
+
 # creates a list of ambiguous words for disambig.pl to loop over and check for
 ambig.txt : ga2gd.po
 	perl showambig | egrep '^msgid' | sed 's/^msgid "//; s/"$$//' | tr "'" '"' > $@

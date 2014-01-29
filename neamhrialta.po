@@ -521,6 +521,9 @@ msgstr ""
 msgid "<A pl='n' gnt='y' gnd='f'>dhóichí</A>"
 msgstr ""
 
+msgid "<A pl='n' gnt='y' gnd='f'>dhonaide</A>"
+msgstr ""
+
 msgid "<F>d'iarchurtha</F>"
 msgstr ""
 
@@ -578,6 +581,9 @@ msgstr ""
 msgid "<F>d'ólta</F>"
 msgstr ""
 
+msgid "<A pl='n' gnt='y' gnd='f'>donaide</A>"
+msgstr ""
+
 msgid "<N pl='n' gnt='y' gnd='f'>dtalún</N>"
 msgstr "talmhainn"
 
@@ -603,6 +609,9 @@ msgid "<F>dtionlactha</F>"
 msgstr ""
 
 msgid "<F>dtochraiste</F>"
+msgstr ""
+
+msgid "<F>dtonachta</F>"
 msgstr ""
 
 msgid "<N pl='y' gnt='y' gnd='f'>dtonn</N>"
@@ -1465,6 +1474,9 @@ msgstr ""
 msgid "<F>thochraiste</F>"
 msgstr ""
 
+msgid "<F>thonachta</F>"
+msgstr ""
+
 msgid "<N pl='y' gnt='y' gnd='f'>thonn</N>"
 msgstr "thonnan"
 
@@ -1496,6 +1508,9 @@ msgid "<F>tionlactha</F>"
 msgstr ""
 
 msgid "<F>tochraiste</F>"
+msgstr ""
+
+msgid "<F>tonachta</F>"
 msgstr ""
 
 msgid "<N pl='y' gnt='y' gnd='f'>tonn</N>"

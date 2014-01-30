@@ -3677,6 +3677,7 @@ feuchainn_nf		feuchainn		1
 feuch_v		feuchainn_nf		0
 feumalachd_nf		0		0
 feum_nf		feuma		feumannan
+feurach_a		0		0
 feurach_nm		0		1
 feur_nm		feòir		1
 feursann_nf		0		0
@@ -9231,9 +9232,9 @@ teudag_nf		0		0
 teud-chleasaiche_nm		0	0
 teud_nm		teuda		0
 teusas_nm		0		0
-thairis air_pronm		-1	0
-thairis oirre_pronm		-1	0
-thairis orra_pronm		-1	0
+thairis air_pronm		thairis airsan	0
+thairis oirre_pronm		thairis oirrese	0
+thairis orra_pronm		thairis orrasan	0
 thairis_prep		0	0
 thairte_pronm		thairtese	0
 thall_adv		0	0
@@ -9564,7 +9565,7 @@ triubhas_nm		0	0
 triùir_nf		triùir		1
 triuthach_nf		0		1
 tròcaireach_a		0	0
-tròcair_nm		0	0
+tròcair_nf		tròcaire		0
 trod_nf		0	0
 trod_nm		0		0
 trod_poss		0	0

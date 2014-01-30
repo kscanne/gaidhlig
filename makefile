@@ -47,9 +47,17 @@ GA.txt : /home/kps/math/code/data/Dictionary/IG
 	cat ga.txt | perl -p $(GRAM)/ga/posmap.pl | LC_ALL=C sed '/^xx /s/.*/xx 4/' | iconv -f iso-8859-1 -t utf8 > $@
 	rm -f ga.txt
 
+gd2ga.pot : focloir.txt
+	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@
+	cat focloir.txt | sed 's/^\([^_]*_[^ \t]*\).*/msgid "\1"\nmsgstr ""\n/' >> $@
+
 ga2gd.pot : GA.txt
 	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@
 	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | sed 's/@.*//' | egrep -v '^xx' | sort -k1,1 -k2,2n | uniq | perl ./tagcvt.pl ga | tr '"' "'" | LC_ALL=C sed 's/.*/msgid "&"\nmsgstr ""\n/' >> $@
+
+gd2ga.po : gd2ga.pot
+	msgmerge -N -q --backup=off -U $@ gd2ga.pot > /dev/null 2>&1
+	touch $@
 
 neamhrialta.pot : GA.txt
 	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@
@@ -92,6 +100,7 @@ ambig.txt : ga2gd.po
 # reads GA.txt also but ga2gd.po depends on that already
 cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt
 	perl i.pl -t
+	sed -i '/ xx$$/d' $@
 	(sed '/^#/d' comhshuite.po neamhrialta.po | sed "/^msgid/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat cuardach.txt | egrep -v '> x$$' | egrep -v '> xx ' | egrep -v '>xx<') | sort -t '>' -k2,2 | uniq > temp.txt
 	mv -f temp.txt cuardach.txt
 

@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use utf8;
 use Encode;
+use Locale::PO;
+use locale;
 
 binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
@@ -13,7 +15,7 @@ binmode STDERR, ":utf8";
 # just used for maintaining critical "cuardach.txt" bilingual lexicon
 
 if ($#ARGV != 0) {
-	die "Usage: $0 [-f|-g|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n-u: Attempt automatic additions to focloir.txt from lextodo.txt\n";
+	die "Usage: $0 [-f|-g|-s|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-s: Write gd2ga lexicon pairs-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n-u: Attempt automatic additions to focloir.txt from lextodo.txt\n";
 }
 
 my %lexicon;
@@ -367,23 +369,26 @@ sub default_gen
 # 5/23/05; potentially $arg is multiword phrase ("port adhair") 
 #  in which case the first word is inflected and the remainder
 #  is tacked on to the result
+#  First arg is a gd word as it appears in focloir.txt or in msgstr
+#  of ga2gd.po; e.g. "athchuinge_nf"; can have spaces too: "aisig air ais_v"
+#  Second arg is usually false; but true if this function is called
+#  recursively on the verbal noun of a verb
 sub gramadoir_output {
 
 	my ( $arg, $constit_p ) = @_;
-	$_ = $arg;
-	my $ret = [];
-	(my $word, my $pos) = /^([^_]+)_(\S+)$/;
-	unless (exists($lexicon{$_})) {
-		print STDERR "Gramadoir output failed for $_\n";
-		return $ret;
+	(my $word, my $pos) = $arg =~ m/^([^_]+)_(\S+)$/;
+	unless (exists($lexicon{$arg})) {
+		print STDERR "Gramadoir output failed for $arg... this should not happen!\n";
+		return [];
 	}
-	my $data = $lexicon{$_};
+	my $ret = [];
+	my $data = $lexicon{$arg};
 	my $tail = '';
-	($tail) = /( [^_]+)/ if / /;
+	($tail) = $arg =~ /( [^_]+)/ if ($arg =~ m/ /);
 	$word =~ s/ .*//;
 	# nouns: 8 nom sing, 7 gen sin, 8 nom pl, 7 gen pl = 30
 	if ($pos =~ /^n[mf]/) {
-		(my $gencode, my $plcode) = $data =~ m/^(\S+)\s+(\S+)\s*$/;
+		(my $gencode, my $plcode) = $data =~ m/^([^\t]+)\t+(.+)$/;
 		my $nomnum = 72;
 		my $gennum = 88;
 		my $plnum = 104;
@@ -450,7 +455,7 @@ sub gramadoir_output {
 	}
 	# adjs: 4 nom, 2 gsm, 3 gsf, 3 pl = 12 total
 	elsif ($pos eq 'a') {
-		(my $compcode, my $plcode) = $data =~ m/^(\S+)\s+(\S+)\s*$/;
+		(my $compcode, my $plcode) = $data =~ m/^([^\t]+)\t+(.+)$/;
 		push @$ret, "$word$tail 128";
 		push @$ret, lenite($word)."$tail 128";
 		push @$ret, prefixb($word)."$tail 128";
@@ -485,7 +490,7 @@ sub gramadoir_output {
 	# + 21 for each of 1st/2nd/3rd Sing/Pl + Aut, - 2 (no prefix h if 
 	# 1st person imperative) => 7*21-2 = 145 verb forms, 176 total
 	elsif ($pos eq 'v') {
-		(my $vncode, my $rootcode) = $data =~ m/^(\S+)\s+(\S+)\s*$/;
+		(my $vncode, my $rootcode) = $data =~ m/^([^\t]+)\t+(.+)$/;
 		$rootcode = $word if ($rootcode eq '0');
 		push @$ret, "$word$tail 200";  # extra thing added to Gin 18 output
 		my $vnnum = 76;
@@ -510,9 +515,14 @@ sub gramadoir_output {
 			push @$ret, prefixt($gencode,92)."$tail 92";
 		}
 		else {  # irreg vn, so look up in lexicon
-			$vncode =~ s/(_)/$tail$1/;
+			# might have a tail, but want to generate forms before adding
+			# the tail; see for example "aisig air ais_v", vn = "aiseag_nm"
 			my $subret = gramadoir_output($vncode, 1);
-			push @$ret, @$subret;
+			for my $f (@$subret) {
+				$f =~ s/ ([0-9]+)$/$tail $1/;
+				push @$ret, $f;
+			}
+			# and vncode, vnnum used below too...
 			$vnnum = 72 if ($vncode =~ m/nf$/);
 			$vncode =~ s/_.*$//;
 		}
@@ -612,10 +622,10 @@ sub gramadoir_output {
 		push @$ret, "$word$tail 194" for (1..177);
 	}
 	elsif ($pos eq 'pronm') {
-		(my $emphcode, my $dummy) = $data =~ m/^(\S+)\s+(\S+)\s*$/;
+		(my $emphcode, my $dummy) = $data =~ m/^([^\t]+)\t+(.+)$/;
 		$emphcode='xx' if ($emphcode eq '0');
 		push @$ret, "$word$tail 20";
-		push @$ret, "$emphcode$tail 22";
+		push @$ret, "$emphcode 22";
 	}
 	elsif ($pos eq 'art') {
 		push @$ret, "$word$tail 8";
@@ -857,17 +867,13 @@ sub to_xml
 }
 
 my @allpos = qw/ a v n nm nf art pronm prep pn adv vcop conj interr excl poss u aindec card ord /;
-# headwords only; keys on Irish side have XML markup, 
-# values on Scottish side look like focloir.txt headwords,
-# or else with _pos omitted if no ambiguity.
-my %bilingual;
 
-# reads ga2gd.po into bilingual hash
+# reads po file (filename first arg) into bilingual hash (hashref second arg)
 sub read_po_file
 {
-	use Locale::PO;
+	(my $pofile, my $bilingual) = @_;
 
-	my $aref = Locale::PO->load_file_asarray('ga2gd.po');
+	my $aref = Locale::PO->load_file_asarray($pofile);
 	foreach my $msg (@$aref) {
 		my $id = decode("utf8", $msg->msgid());
 		my $str = decode("utf8",$msg->msgstr());
@@ -878,12 +884,13 @@ sub read_po_file
 				(my $tag, my $rest) = $id =~ m/^(<[^>]+>)([^<]+<\/.>)$/;
 				$tag =~ s/'/"/g;
 				for my $aistriuchan (split (/;/,$str)) {
+					next if ($aistriuchan eq '?');
 					if (exists($lexicon{$aistriuchan})) {
-						if (exists($bilingual{$tag.$rest})) {
-							$bilingual{$tag.$rest} .= ";$aistriuchan";
+						if (exists($bilingual->{$tag.$rest})) {
+							$bilingual->{$tag.$rest} .= ";$aistriuchan";
 						}
 						else {
-							$bilingual{$tag.$rest} = $aistriuchan;
+							$bilingual->{$tag.$rest} = $aistriuchan;
 						}
 					}
 					else {
@@ -891,7 +898,7 @@ sub read_po_file
 						foreach (@allpos) {
 							if (exists($lexicon{$aistriuchan."_".$_})) {
 								if ($win) {
-									print STDERR "$aistriuchan is ambiguous ($win,$_) as translation of $tag$rest\n";
+									print STDERR "$aistriuchan is ambiguous ($win,$_) as translation of $rest: add a POS to msgstr!\n";
 								}
 								else {
 									$win = $_;
@@ -899,15 +906,15 @@ sub read_po_file
 							}
 						}
 						if ($win) {
-							if (exists($bilingual{$tag.$rest})) {
-								$bilingual{$tag.$rest} .= ";$aistriuchan"."_$win";
+							if (exists($bilingual->{$tag.$rest})) {
+								$bilingual->{$tag.$rest} .= ";$aistriuchan"."_$win";
 							}
 							else {
-								$bilingual{$tag.$rest} = $aistriuchan."_$win";
+								$bilingual->{$tag.$rest} = $aistriuchan."_$win";
 							}
 						}
 						else {
-							print STDERR "$aistriuchan: not in gd lex as trans of $tag$rest\n";
+							print STDERR "$aistriuchan: given as xln of $rest; add to gd lexicon!!\n";
 						}
 					} # end "else not in lex"
 				} # end loop over split/;/
@@ -916,10 +923,18 @@ sub read_po_file
 	}
 }
 
+sub gd2ga_lexicon
+{
+}
+
 sub ga2gd_lexicon
 {
+	# headwords only; keys on Irish side have XML markup, 
+	# values on Scottish side look like focloir.txt headwords,
+	# or else with _pos omitted if no ambiguity.
+	my %bilingual;
 	read_tags();
-	read_po_file();
+	read_po_file('ga2gd.po', \%bilingual);
 
 	open (IGLEX, "<:utf8", "GA.txt") or die "Could not open Irish lexicon: $!\n";
 	open (OUTLEX, ">:utf8", "cuardach.txt") or die "Could not open lexicon: $!\n";
@@ -930,14 +945,16 @@ sub ga2gd_lexicon
 	my $gd_count=0;
 	my $headword_key='';
 	while (<IGLEX>) {
-		if (m/^-$/) {
+		chomp;
+		my $igline = $_;
+		if ($igline eq '-') {
 			if ($index < $gd_count and $translated_p) {
 				print STDERR "Too many gd forms for $headword_key\n";
 			}
 			$index=0;
 		}
 		else {
-			my $mykey = to_xml($_);
+			my $mykey = to_xml($igline);
 			if ($index==0) {
 				$translated_p = exists($bilingual{$mykey});
 				if ($translated_p) {
@@ -993,7 +1010,7 @@ while (<DICT>) {
 close DICT;
 
 if ($ARGV[0] eq '-f') {
-	open (FREQ, "<:utf8", 'FREQ') or die "Could not open frequency file: $!\n";
+	open (FREQ, "<:utf8", '/usr/local/share/crubadan/gd/FREQ') or die "Could not open frequency file: $!\n";
 	while (<FREQ>) {
 		chomp;
 		m/^ *([0-9]+) (.*)/;
@@ -1017,6 +1034,9 @@ elsif ($ARGV[0] eq '-g') {
 		}
 	}
 	close OUTLEX;
+}
+elsif ($ARGV[0] eq '-s') {
+	gd2ga_lexicon();
 }
 elsif ($ARGV[0] eq '-t') {
 	ga2gd_lexicon();

@@ -8,7 +8,7 @@ binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
-# pipe fullstem-nomutate.txt through this
+# pipe fullstem-nomutate-gd.txt through this
 # and output in "speling.org" format; see
 # http://wiki.apertium.org/wiki/Speling_format
 

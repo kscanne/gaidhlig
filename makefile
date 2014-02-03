@@ -22,7 +22,6 @@ install : all
 	chmod 444 /usr/local/share/ga2gd/disambig/*.dat
 
 add : FORCE
-	$(MAKE) FREQ
 	cp -f focloir.txt focloir.txt.bak
 	perl i.pl -f
 	sort -t '_' -k1,1 -k2,2 focloir.txt > temp.txt
@@ -160,15 +159,11 @@ torthai.txt-update : FORCE
 	rm -f torthai.txt
 	cat test.txt | sed '/^#/d' | ga2gd > torthai.txt
 
-FREQ : /usr/local/share/crubadan/gd/FREQ
-	cp -f /usr/local/share/crubadan/gd/FREQ $@
-
 clean :
 	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt ambig.txt fullstem.txt fullstem-gd.txt fullstem-nomutate*.txt speling*.txt apertium-toinsert.txt apertium-ga-gd.ga.dix torthai-nua.txt
 
 distclean :
 	$(MAKE) clean
-	rm -f FREQ
 
 .PRECIOUS : ga2gd.po
 

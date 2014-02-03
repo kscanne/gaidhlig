@@ -64,7 +64,7 @@
 <t><S>[Rr]oimh</S></t> <t><D>mo</D></t> -> rom
 <t><S>[Rr]oimh</S></t> <t><D>bhur</D></t> -> bhor
 <t><N pl="n" gnt="n" gnd="m">rud</N></t> <t><A pl="n" gnt="n">éigin</A></t> -> rudeigin
-# focloir.txt not flexible enough for this yet
+# gd focloir not flexible enough for this yet
 <t><N pl="y" gnt="." gnd="m">sh?eandaoine</N></t> -> seann daoine
 # neamhrialta
 <t><V p="." t="láith">[Tt]á(?:i[dm]|imid|thar)?</V></t> -> w($1)

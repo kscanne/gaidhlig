@@ -5285,7 +5285,7 @@ msgstr ""
 
 # aontaich = agree, consent, but also "unite"
 # as in Stáit Aontaithe; compare "aonaigh"
-# also have "aonaich" = "unite, combine" in focloir.txt
+# also have "aonaich" = "unite, combine" in focloir
 msgid "<V p='y' t='ord'>aontaigh</V>"
 msgstr "aonaich"
 

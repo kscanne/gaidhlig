@@ -811,6 +811,44 @@ sub to_xml
 	return $ans.$tag;
 }
 
+my %tagmap = (
+	'A' => 'a',
+	'C' => 'conj',
+	'D' => 'poss',
+	'F' => 'u',
+	'I' => 'excl',
+	'N' => 'n',
+	'O' => 'pronm',
+	'P' => 'pn',
+	'Q' => 'interr',
+	'R' => 'adv',
+	'S' => 'prep',
+	'T' => 'art',
+	'U' => 'u',
+	'V' => 'v',
+);
+
+sub xml_to_simple
+{
+	(my $xml) = @_;
+	(my $fulltag, my $word, my $tag) = $xml =~ m/^(<[^>]+>)([^<]+)<\/(.)>$/;
+	my $simpletag;
+
+	if ($tag eq 'N') {
+		$simpletag = 'n';
+		$simpletag = 'nm' if ($fulltag =~ m/gnd=.m/);
+		$simpletag = 'nf' if ($fulltag =~ m/gnd=.f/);
+	}
+	elsif ($tag eq 'V') {
+		$simpletag = 'v';
+		$simpletag = 'vcop' if ($fulltag =~ m/cop=.y/);
+	}
+	else {
+		$simpletag = $tagmap{$tag};
+	}
+	return $word.'_'.$simpletag;
+}
+
 sub add_pair
 {
 	(my $ga, my $gd, my $bilingual) = @_;
@@ -890,23 +928,26 @@ sub read_po_file
 	}
 }
 
-sub gd2ga_lexicon
+# argument is 'ga2gd.po' or 'gd2ga.po'!
+sub write_pairs_file
 {
-	my %bilingual;
-	read_po_file('gd2ga.po', \%bilingual);
-}
+	(my $pofile) = @_;
 
-sub ga2gd_lexicon
-{
-	# headwords only; keys on Irish side have XML markup, 
-	# values on Scottish side look like focloir.txt headwords,
-	# or else with _pos omitted if no ambiguity.
+	my %outputfile = (
+		'ga2gd.po' => 'cuardach.txt',
+		'gd2ga.po' => 'pairs-gd.txt',
+	);
+	my $ga2gd_p = ($pofile =~ m/^ga2gd/);
+
+	# headwords only; keys are Irish either way, and have XML markup
+	# in the ga2gd case. Values on Scottish side look like focloir.txt
+	# headwords, or else with _pos omitted if no ambiguity.
 	my %bilingual;
 	read_tags();
-	read_po_file('ga2gd.po', \%bilingual);
+	read_po_file($pofile, \%bilingual);
 
 	open (IGLEX, "<:utf8", "GA.txt") or die "Could not open Irish lexicon: $!\n";
-	open (OUTLEX, ">:utf8", "cuardach.txt") or die "Could not open lexicon: $!\n";
+	open (OUTLEX, ">:utf8", $outputfile{$pofile}) or die "Could not open pairs file for output: $!\n";
 
 	my $index=0;
 	my $translated_p;
@@ -916,7 +957,7 @@ sub ga2gd_lexicon
 	while (<IGLEX>) {
 		chomp;
 		my $igline = $_;
-		if ($igline eq '-') {
+		if ($igline eq '-') {   # indicates LAST line of an entry
 			if ($index < $gd_count and $translated_p) {
 				print STDERR "Too many gd forms for $headword_key\n";
 			}
@@ -924,6 +965,7 @@ sub ga2gd_lexicon
 		}
 		else {
 			my $mykey = to_xml($igline);
+			$mykey = xml_to_simple($mykey);
 			if ($index==0) {
 				$translated_p = exists($bilingual{$mykey});
 				if ($translated_p) {
@@ -949,14 +991,24 @@ sub ga2gd_lexicon
 					print STDERR "Too many ga forms for $headword_key, gdtotal=$gd_count\n";
 				}
 				elsif ($index < $gd_count) {
-					my $toshow = "$mykey ";
-					for my $transls (@allforms) {
-						my $thisgd = @$transls[$index];
-						$thisgd =~ s/ [0-9]+$//;
-						$toshow .= "$thisgd;";
+					if ($ga2gd_p) {   # prints just one line
+						my $toshow = "$mykey ";
+						for my $transls (@allforms) {
+							my $thisgd = @$transls[$index];
+							$thisgd =~ s/ [0-9]+$//;
+							$toshow .= "$thisgd;";
+						}
+						$toshow =~ s/;$//;
+						print OUTLEX "$toshow\n";
 					}
-					$toshow =~ s/;$/\n/;
-					print OUTLEX $toshow;
+					else { # gd2ga pairs file; many lines if many translations
+						for my $transls (@allforms) {
+							my $toshow = @$transls[$index];
+							$toshow =~ s/ [0-9]+$/ $mykey/;
+							$toshow =~ s/_[^_]+$//;
+							print OUTLEX "$toshow\n";
+						}
+					}
 				}
 			}
 			$index++;
@@ -1011,10 +1063,10 @@ elsif ($ARGV[0] eq '-g') {
 	close OUTLEX;
 }
 elsif ($ARGV[0] eq '-s') {
-	gd2ga_lexicon();
+	write_pairs_file('gd2ga.po');
 }
 elsif ($ARGV[0] eq '-t') {
-	ga2gd_lexicon();
+	write_pairs_file('ga2gd.po');
 }
 else {
 	die "Unrecognized option: $ARGV[0]\n";

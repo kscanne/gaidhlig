@@ -20,7 +20,20 @@ if ($#ARGV != 0) {
 
 my %lexicon;
 my %standard;
+my %prestandard;
 my %freq;
+
+sub add_pair
+{
+	(my $key, my $val, my $href) = @_;
+
+	if (exists($href->{$key})) {
+		$href->{$key} .= ";$val";
+	}
+	else {
+		$href->{$key} = $val;
+	}
+}
 
 sub dhorlenite
 {
@@ -849,47 +862,38 @@ sub xml_to_simple
 	return $word.'_'.$simpletag;
 }
 
-sub add_pair
-{
-	(my $ga, my $gd, my $bilingual) = @_;
 
-	if (exists($bilingual->{$ga})) {
-		$bilingual->{$ga} .= ";$gd";
-	}
-	else {
-		$bilingual->{$ga} = $gd;
-	}
-}
-
-
+# last arg is a boolean; true if we want to allow non-stnd gd forms
+# in the bilingual lexicon... basically true iff it's gd2ga!
 sub maybe_add_pair
 {
-	(my $ga, my $gd, my $bilingual) = @_;
+	(my $ga, my $gd, my $bilingual, my $nonstd_ok_p) = @_;
 
-	if (exists($lexicon{$gd})) {
-		add_pair($ga, $gd, $bilingual);
-		print STDERR "Warning: $gd is listed as an alternate form in focloir.txt\n" if (exists($standard{$gd}));
-	}
-	else {
+	if ($gd !~ m/_/) {
 		my $win='';
-		unless ($gd =~ m/_/) {
-			foreach my $pos (qw/ a v n nm nf art pronm prep pn adv vcop conj interr excl poss u aindec card ord /) {
-				if (exists($lexicon{$gd.'_'.$pos})) {
-					if ($win) {
-						print STDERR "$gd is ambiguous ($win,$pos) as translation of $ga: add a POS to msgstr in ga2gd.po!\n";
-					}
-					else {
-						$win = $pos;
-					}
+		foreach my $pos (qw/ a v n nm nf art pronm prep pn adv vcop conj interr excl poss u aindec card ord /) {
+			if (exists($lexicon{$gd.'_'.$pos})) {
+				if ($win) {
+					print STDERR "$gd is ambiguous ($win,$pos) as translation of $ga: add a POS to msgstr in ga2gd.po!\n";
+				}
+				else {
+					$win = $pos;
 				}
 			}
 		}
-		if ($win) {
-			add_pair($ga, $gd."_$win", $bilingual);
+		$gd .= "_$win" if ($win);
+	}
+	if (exists($lexicon{$gd})) {
+		add_pair($ga, $gd, $bilingual);
+		print STDERR "Warning: $gd is listed as an alternate form in focloir.txt\n" if (exists($standard{$gd}));
+		if ($nonstd_ok_p and exists($prestandard{$gd})) {
+			for my $nonstd (split /;/,$prestandard{$gd}) {
+				add_pair($ga, $nonstd, $bilingual);
+			}
 		}
-		else {
-			print STDERR "$gd: given as xln of $ga; add to gd lexicon!!\n";
-		}
+	}
+	else {
+		print STDERR "$gd: given as xln of $ga; add to gd lexicon!!\n";
 	}
 }
 
@@ -917,10 +921,10 @@ sub read_po_file
 				for my $aistriuchan (split (/;/,$str)) {
 					next if ($aistriuchan eq '?');
 					if ($ga2gd_p) {
-						maybe_add_pair($id, $aistriuchan, $bilingual);
+						maybe_add_pair($id, $aistriuchan, $bilingual, 0);
 					}
 					else {
-						maybe_add_pair($aistriuchan, $id, $bilingual);
+						maybe_add_pair($aistriuchan, $id, $bilingual, 1);
 					}
 				}
 			}
@@ -1030,7 +1034,10 @@ while (<DICT>) {
 	chomp;
 	/^([^_]+_\S+)\t+(.+)\t+([^\t]+)$/;
 	$lexicon{$1} = $2;
-	$standard{$1} = $3 unless ($3 eq '0');
+	if ($3 ne '0') {
+		$standard{$1} = $3;
+		add_pair($3, $1, \%prestandard);
+	}
 }
 close DICT;
 

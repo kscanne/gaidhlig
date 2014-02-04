@@ -29,6 +29,7 @@ Abhainn_nf		Aibhne		Aibhneachan	0
 a-bhàn_adv		0		0	0
 abharsair_nm		0		0	0
 Abharsair_nm		0		0	0
+a' bhèan-uiridh_adv		0		0	a' bhòn-uiridh_adv
 abhlan_nm		0	0	0
 a' bhòn-dè_adv		0		0	0
 a' bhòn-raoir_adv		0		0	0
@@ -48,7 +49,10 @@ acaid_nf		0		0	0
 acaidèamach_nm		0		0	0
 acaineach_a		0	0	0
 acainn_nf		0	0	0
+acair_nf		0		acraichean	acair_nm
 acair_nm		acaire		acraichean	0
+acaire_nf		0		acraichean	acair_nm
+acaire_nm		0		acraichean	acair_nm
 acaireachd_nf		0		0	0
 acarachd_nf		0		0	0
 acarra_a		0		0	0
@@ -126,6 +130,7 @@ agam_pronm		agamsa	0	0
 agartach_nm		0		0	0
 agartachd_nf		0		0	0
 agh_nf		aighe		aighean	0
+agh_nm		aighe		aighean	agh_nf
 àgh_nm		0		1	0
 aghaidh_nf		0		0	0
 aghaidh-choimheach_nf		0		1	0
@@ -1968,6 +1973,7 @@ clàr_nm		0		clàir	0
 Clàr_nm		0		1	0
 clàrachadh_nm		0	1	0
 clàraich_v		0		0	0
+clàr-dhealbh_nm		clàr-dhealbha		0	0
 clàr-fhiacail_nm		clàr-fhiacla	clàr-fhiaclan	0
 clàrsach_nf		0	clàrsaichean	0
 clàr-stòraidh_nm		clàir-stòraidh		clàir-stòraidh	0
@@ -5811,6 +5817,7 @@ misneachail_a		0		0	0
 misneachd_nf		0		0	0
 misnich_v		0		0	0
 miste_a		0		0	0
+mì-stiùireadh_nm		0		1	0
 mì-thaingealachd_nf		0		0	0
 mì-thaingeil_a		0		0	0
 mì-thaitneach_a		0	0	0

@@ -965,7 +965,7 @@ sub write_pairs_file
 		}
 		else {
 			my $mykey = to_xml($igline);
-			$mykey = xml_to_simple($mykey);
+			$mykey = xml_to_simple($mykey) unless $ga2gd_p;
 			if ($index==0) {
 				$translated_p = exists($bilingual{$mykey});
 				if ($translated_p) {

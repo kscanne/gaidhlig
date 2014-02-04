@@ -5,7 +5,6 @@ use warnings;
 use utf8;
 use Encode;
 use Locale::PO;
-use locale;
 
 binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
@@ -15,12 +14,12 @@ binmode STDERR, ":utf8";
 # just used for maintaining critical "cuardach.txt" bilingual lexicon
 
 if ($#ARGV != 0) {
-	die "Usage: $0 [-f|-g|-s|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-s: Write gd2ga lexicon pairs-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n-u: Attempt automatic additions to focloir.txt from lextodo.txt\n";
+	die "Usage: $0 [-f|-g|-s|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-s: Write gd2ga lexicon pairs-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n";
 }
 
 my %lexicon;
+my %standard;
 my %freq;
-my %gramadoir;
 
 sub dhorlenite
 {
@@ -749,7 +748,7 @@ sub print_guesses {
 	return 1;
 }
 
-# updates global variable "lexicon"
+# updates global variables "lexicon" and possible "standard"
 sub user_add_word
 {
 	my $newword=userinput('Enter a word_pos (q to quit)');
@@ -767,70 +766,13 @@ sub user_add_word
 			$currtwo='0' unless $currtwo;
 			$currtwo='1' if ($currtwo eq 'x');
 			$lexicon{$newword} = "$currone\t\t$currtwo";
+			my $stnd=userinput('Alternate of (<CR>=nothing)');
+			if (defined($stnd)) {
+				$standard{$newword} = $stnd;
+				print "Warning: standard form $stnd isn't in lexicon...\n" unless (exists($lexicon{$stnd}));
+			}
 		}
 		return 1;
-	}
-}
-
-sub automatic_additions
-{
-	open (GRAM, "<:utf8", 'lextodo.txt') or die "Could not open gramadoir file: $!\n";
-	while (<GRAM>) {
-		chomp;
-		m/^([^ ]+) ([0-9]+)/;
-		if (exists($gramadoir{$1})) {
-			$gramadoir{$1} .= " $2";
-		}
-		else {
-			$gramadoir{$1} = $2;
-		}
-	}
-	close 	GRAM;
-	foreach (keys %gramadoir) {
-		if ($gramadoir{$_} =~ m/\b72\b/) {
-			unless (m/^.[h-]/) {
-				my $guess = default_gen($_);
-				my $ok = '1';
-				if (exists($gramadoir{$guess})) {
-					$ok = '0' unless ($gramadoir{$guess} =~ m/\b88\b/);
-				}
-				else {
-					$ok = '0';
-				}
-				$guess = default_plural($_);
-				unless ($guess eq 'x') {
-					if (exists($gramadoir{$guess})) {
-						$ok = '0' unless ($gramadoir{$guess} =~ m/\b104\b/);
-					}
-					else {
-						$ok = '0';
-					}
-				}
-				$lexicon{"$_".'_nf'} = "0\t\t0" if ($ok eq '1');
-			}
-		}
-		if ($gramadoir{$_} =~ m/\b76\b/) {
-			unless (m/^.[h-]/) {
-				my $guess = default_gen($_);
-				my $ok = '1';
-				if (exists($gramadoir{$guess})) {
-					$ok = '0' unless ($gramadoir{$guess} =~ m/\b92\b/);
-				}
-				else {
-					$ok = '0';
-				}
-				$guess = default_plural($_);
-				unless ($guess eq 'x') {
-					if (exists($gramadoir{$guess})) {
-						$ok = '0' unless ($gramadoir{$guess} =~ m/\b108\b/);
-					}
-					else {
-						$ok = '0';
-					}
-				}
-				$lexicon{"$_".'_nm'} = "0\t\t0" if ($ok eq '1');
-			}
-		}
 	}
 }
 
@@ -838,7 +780,9 @@ sub write_focloir
 {
 	open (OUTDICT, ">:utf8", "focloir.txt") or die "Could not open dictionary: $!\n";
 	foreach (sort keys %lexicon) {
-		print OUTDICT $_."\t\t".$lexicon{$_}."\n";
+		my $std = '0';
+		$std = $standard{$_} if (exists($standard{$_}));
+		print OUTDICT $_."\t\t".$lexicon{$_}."\t$std\n";
 	}
 	close OUTDICT;
 }
@@ -892,6 +836,7 @@ sub read_po_file
 						else {
 							$bilingual->{$tag.$rest} = $aistriuchan;
 						}
+						print STDERR "Warning: $aistriuchan is listed as an alternate form in focloir.txt\n" if (exists($standard{$aistriuchan}));
 					}
 					else {
 						my $win='';
@@ -1001,11 +946,15 @@ sub ga2gd_lexicon
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#  START OF MAIN PROGRAM #-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+# focloir.txt is really a tsv; one or more tabs separate four fields on
+# each line; spaces allowed within a field
 open (DICT, "<:utf8", "focloir.txt") or die "Could not open dictionary: $!\n";
 while (<DICT>) {
 	chomp;
-	/^([^_]+_\S+)\s+(.*)$/;
+	/^([^_]+_\S+)\t+(.+)\t+([^\t]+)$/;
 	$lexicon{$1} = $2;
+	$standard{$1} = $3 unless ($3 eq '0');
 }
 close DICT;
 
@@ -1040,10 +989,6 @@ elsif ($ARGV[0] eq '-s') {
 }
 elsif ($ARGV[0] eq '-t') {
 	ga2gd_lexicon();
-}
-elsif ($ARGV[0] eq '-u') {
-	automatic_additions();
-	write_focloir();
 }
 else {
 	die "Unrecognized option: $ARGV[0]\n";

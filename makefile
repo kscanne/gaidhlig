@@ -28,7 +28,7 @@ add : FORCE
 	mv -f temp.txt focloir.txt
 	diff -u focloir.txt.bak focloir.txt | more
 
-GD.txt : focloir.txt
+GD.txt : focloir.txt i.pl
 	perl i.pl -g # writes "GD.txt"
 
 lexicon-gd.txt : GD.txt
@@ -97,13 +97,13 @@ ambig.txt : ga2gd.po
 	perl showambig | egrep '^msgid' | sed 's/^msgid "//; s/"$$//' | tr "'" '"' > $@
 
 # reads GA.txt also but ga2gd.po depends on that already
-cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt
+cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt i.pl
 	perl i.pl -t
 	sed -i '/ xx$$/d' $@
 	(sed '/^#/d' comhshuite.po neamhrialta.po | sed "/^msgid/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat cuardach.txt | egrep -v '> x$$' | egrep -v '> xx ' | egrep -v '>xx<') | sort -t '>' -k2,2 | uniq > temp.txt
 	mv -f temp.txt cuardach.txt
 
-lookup.txt : cuardach.txt
+lookup.txt : cuardach.txt i.pl
 	perl i.pl -t 2>&1 | sort -t ':' -k1,1 > $@
 
 # Using mcneir list now

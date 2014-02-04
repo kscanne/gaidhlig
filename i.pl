@@ -912,7 +912,7 @@ sub ga2gd_lexicon
 					@allforms = ();
 					for my $geedee (split /;/,$bilingual{$mykey}) {
 						my $arrref=gramadoir_output($geedee, 0);
-						push @allforms,$arrref;
+						push @allforms,$arrref;  # sic, one arrayref pushed for each semi-colon separated translation
 						if ($gd_count != scalar @$arrref and $gd_count != -1) {
 							print STDERR "Varying gd counts among the translations of $headword_key\n";
 							

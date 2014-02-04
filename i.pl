@@ -13,6 +13,7 @@ binmode STDERR, ":utf8";
 # GD lexicon manager.  Not part of the ga2gd runtime distribution;
 # just used for maintaining critical "cuardach.txt" bilingual lexicon
 
+# TODO: option to output gramadoir-gd eile-gd.bs pairs...
 if ($#ARGV != 0) {
 	die "Usage: $0 [-f|-g|-s|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-s: Write gd2ga lexicon pairs-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n";
 }
@@ -971,9 +972,11 @@ if ($ARGV[0] eq '-f') {
 	write_focloir();
 }
 elsif ($ARGV[0] eq '-g') {
+	# does not currently include alternate forms
+	# if using this for gramadoir-gd, would want those in eile-gd.bs
 	open (OUTLEX, ">:utf8", "GD.txt") or die "Could not open lexicon: $!\n";
 	foreach (sort keys %lexicon) {
-		unless (/ /) {
+		unless (/ / or exists($standard{$_})) {
 			my $forms = gramadoir_output($_, 0);
 			print OUTLEX "-\n";
 			foreach (@$forms) {

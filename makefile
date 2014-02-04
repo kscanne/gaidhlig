@@ -48,7 +48,7 @@ GA.txt : /home/kps/math/code/data/Dictionary/IG
 
 gd2ga.pot : focloir.txt
 	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@
-	cat focloir.txt | sed 's/^\([^_]*_[^ \t]*\).*/msgid "\1"\nmsgstr ""\n/' >> $@
+	cat focloir.txt | egrep '0 *$$' | sed 's/^\([^_]*_[^ \t]*\).*/msgid "\1"\nmsgstr ""\n/' >> $@
 
 ga2gd.pot : GA.txt
 	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@

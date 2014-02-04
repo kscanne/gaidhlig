@@ -766,7 +766,7 @@ sub user_add_word
 			$currtwo=userinput(get_prompt($pos,2).' (<CR>=same,x=none,no spaces)');
 			$currtwo='0' unless $currtwo;
 			$currtwo='1' if ($currtwo eq 'x');
-			$lexicon{$newword} = "$currone\t\t$currtwo";
+			$lexicon{$newword} = "$currone\t$currtwo";
 			my $stnd=userinput('Alternate of (<CR>=nothing)');
 			if (defined($stnd)) {
 				$standard{$newword} = $stnd;
@@ -783,7 +783,7 @@ sub write_focloir
 	foreach (sort keys %lexicon) {
 		my $std = '0';
 		$std = $standard{$_} if (exists($standard{$_}));
-		print OUTDICT $_."\t\t".$lexicon{$_}."\t$std\n";
+		print OUTDICT "$_\t".$lexicon{$_}."\t$std\n";
 	}
 	close OUTDICT;
 }
@@ -948,7 +948,7 @@ sub ga2gd_lexicon
 
 #-#-#-#-#-#-#-#-#-#-#-#-#  START OF MAIN PROGRAM #-#-#-#-#-#-#-#-#-#-#-#-#-#
 
-# focloir.txt is really a tsv; one or more tabs separate four fields on
+# focloir.txt is really a tsv; tabs separate four fields on
 # each line; spaces allowed within a field
 open (DICT, "<:utf8", "focloir.txt") or die "Could not open dictionary: $!\n";
 while (<DICT>) {

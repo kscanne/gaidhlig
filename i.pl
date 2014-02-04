@@ -811,13 +811,58 @@ sub to_xml
 	return $ans.$tag;
 }
 
-my @allpos = qw/ a v n nm nf art pronm prep pn adv vcop conj interr excl poss u aindec card ord /;
+sub add_pair
+{
+	(my $ga, my $gd, my $bilingual) = @_;
+
+	if (exists($bilingual->{$ga})) {
+		$bilingual->{$ga} .= ";$gd";
+	}
+	else {
+		$bilingual->{$ga} = $gd;
+	}
+}
+
+
+sub maybe_add_pair
+{
+	(my $ga, my $gd, my $bilingual) = @_;
+
+	if (exists($lexicon{$gd})) {
+		add_pair($ga, $gd, $bilingual);
+		print STDERR "Warning: $gd is listed as an alternate form in focloir.txt\n" if (exists($standard{$gd}));
+	}
+	else {
+		my $win='';
+		unless ($gd =~ m/_/) {
+			foreach my $pos (qw/ a v n nm nf art pronm prep pn adv vcop conj interr excl poss u aindec card ord /) {
+				if (exists($lexicon{$gd.'_'.$pos})) {
+					if ($win) {
+						print STDERR "$gd is ambiguous ($win,$pos) as translation of $ga: add a POS to msgstr in ga2gd.po!\n";
+					}
+					else {
+						$win = $pos;
+					}
+				}
+			}
+		}
+		if ($win) {
+			add_pair($ga, $gd."_$win", $bilingual);
+		}
+		else {
+			print STDERR "$gd: given as xln of $ga; add to gd lexicon!!\n";
+		}
+	}
+}
 
 # reads po file (filename first arg) into bilingual hash (hashref second arg)
+# in either case (ga2gd or gd2ga, want the Irish words to be the keys, and
+# semi-colon separated gd translations the values)
 sub read_po_file
 {
 	(my $pofile, my $bilingual) = @_;
 
+	my $ga2gd_p = ($pofile =~ m/^ga2gd/);
 	my $aref = Locale::PO->load_file_asarray($pofile);
 	foreach my $msg (@$aref) {
 		my $id = decode("utf8", $msg->msgid());
@@ -826,44 +871,20 @@ sub read_po_file
 			unless ($id eq '""' or $str eq '""') {
 				$id =~ s/"//g;
 				$str =~ s/"//g;
-				(my $tag, my $rest) = $id =~ m/^(<[^>]+>)([^<]+<\/.>)$/;
-				$tag =~ s/'/"/g;
+				if ($ga2gd_p) {
+					(my $tag, my $rest) = $id =~ m/^(<[^>]+>)([^<]+<\/.>)$/;
+					$tag =~ s/'/"/g;
+					$id = "$tag$rest";
+				}
 				for my $aistriuchan (split (/;/,$str)) {
 					next if ($aistriuchan eq '?');
-					if (exists($lexicon{$aistriuchan})) {
-						if (exists($bilingual->{$tag.$rest})) {
-							$bilingual->{$tag.$rest} .= ";$aistriuchan";
-						}
-						else {
-							$bilingual->{$tag.$rest} = $aistriuchan;
-						}
-						print STDERR "Warning: $aistriuchan is listed as an alternate form in focloir.txt\n" if (exists($standard{$aistriuchan}));
+					if ($ga2gd_p) {
+						maybe_add_pair($id, $aistriuchan, $bilingual);
 					}
 					else {
-						my $win='';
-						foreach (@allpos) {
-							if (exists($lexicon{$aistriuchan."_".$_})) {
-								if ($win) {
-									print STDERR "$aistriuchan is ambiguous ($win,$_) as translation of $rest: add a POS to msgstr!\n";
-								}
-								else {
-									$win = $_;
-								}
-							}
-						}
-						if ($win) {
-							if (exists($bilingual->{$tag.$rest})) {
-								$bilingual->{$tag.$rest} .= ";$aistriuchan"."_$win";
-							}
-							else {
-								$bilingual->{$tag.$rest} = $aistriuchan."_$win";
-							}
-						}
-						else {
-							print STDERR "$aistriuchan: given as xln of $rest; add to gd lexicon!!\n";
-						}
-					} # end "else not in lex"
-				} # end loop over split/;/
+						maybe_add_pair($aistriuchan, $id, $bilingual);
+					}
+				}
 			}
 		}
 	}
@@ -871,6 +892,8 @@ sub read_po_file
 
 sub gd2ga_lexicon
 {
+	my %bilingual;
+	read_po_file('gd2ga.po', \%bilingual);
 }
 
 sub ga2gd_lexicon

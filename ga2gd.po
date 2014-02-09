@@ -8427,7 +8427,7 @@ msgid "<F>Balúcastáin</F>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>balún</N>"
-msgstr "balùn"
+msgstr "bailiùn_nm"
 
 msgid "<N pl='n' gnt='n' gnd='m'>balúnaí</N>"
 msgstr ""

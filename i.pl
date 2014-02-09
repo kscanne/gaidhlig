@@ -828,7 +828,7 @@ my %tagmap = (
 	'A' => 'a',
 	'C' => 'conj',
 	'D' => 'poss',
-	'F' => 'u',
+	'F' => 'f',
 	'I' => 'excl',
 	'N' => 'n',
 	'O' => 'pronm',
@@ -862,6 +862,47 @@ sub xml_to_simple
 	return $word.'_'.$simpletag;
 }
 
+my %tagcount = (
+'a' => 12,
+'adv' => 1,
+'aindec' => 12,
+'art' => 1,
+'card' => 5,
+'conj' => 1,
+'excl' => 1,
+'interr' => 1,
+'n' => 7,
+'nf' => 30,
+'nm' => 30,
+'ord' => 5,
+'pn' => 2,
+'poss' => 1,
+'prep' => 1,
+'pronm' => 2,
+'u' => 1,
+'v' => 177,
+'vcop' => 177,
+);
+
+# problem when reading GA.txt for gd2ga pairs file...
+# when an entry in GA.txt is 127 (<F> tag for rare word)
+# we don't know how to look it up in the bilingual hash, which 
+# has the "correct" POS tags as they appear in gd2ga.po
+#   The 1st argument that comes in is already in the underscore form
+#   2nd argument is number of inflection for this word in GA.txt
+#   3rd argument is the bilingual hashref in which we want the key
+sub fix_F_tags
+{
+	(my $word, my $count, my $bilingual) = @_;
+	return $word unless $word =~ m/_f$/;
+	$word =~ s/_f//;
+	for my $pos (keys %tagcount) {
+		if (exists($bilingual->{$word."_$pos"}) and $count == $tagcount{$pos}) {
+			return $word."_$pos";
+		}
+	}
+	return $word.'_f';
+}
 
 # last arg is a boolean; true if we want to allow non-stnd gd forms
 # in the bilingual lexicon... basically true iff it's gd2ga!
@@ -871,7 +912,7 @@ sub maybe_add_pair
 
 	if ($gd !~ m/_/) {
 		my $win='';
-		foreach my $pos (qw/ a v n nm nf art pronm prep pn adv vcop conj interr excl poss u aindec card ord /) {
+		foreach my $pos (keys %tagcount) {
 			if (exists($lexicon{$gd.'_'.$pos})) {
 				if ($win) {
 					print STDERR "$gd is ambiguous ($win,$pos) as translation of $ga: add a POS to msgstr in ga2gd.po!\n";
@@ -953,66 +994,50 @@ sub write_pairs_file
 	open (IGLEX, "<:utf8", "GA.txt") or die "Could not open Irish lexicon: $!\n";
 	open (OUTLEX, ">:utf8", $outputfile{$pofile}) or die "Could not open pairs file for output: $!\n";
 
-	my $index=0;
-	my $translated_p;
-	my @allforms;  # array of arrayrefs; one for each transl (usually 1!)
-	my $gd_count=0;
-	my $headword_key='';
-	while (<IGLEX>) {
-		chomp;
-		my $igline = $_;
-		if ($igline eq '-') {   # indicates LAST line of an entry
-			if ($index < $gd_count and $translated_p) {
-				print STDERR "Too many gd forms for $headword_key\n";
-			}
-			$index=0;
-		}
-		else {
+	while (1) { # while lines to read in IGLEX
+		my @entrywords = ();
+		while (1) {
+			my $igline = <IGLEX>;
+			last unless ($igline); # EOF
+			chomp($igline);
+			last if ($igline eq '-');
 			my $mykey = to_xml($igline);
 			$mykey = xml_to_simple($mykey) unless $ga2gd_p;
-			if ($index==0) {
-				$translated_p = exists($bilingual{$mykey});
-				if ($translated_p) {
-					$headword_key = $mykey;	
-					# all components of $bilingual{$mykey}
-					# are guaranteed to be in lexicon hash:
-					# see the read_po_file function above!
-					$gd_count = -1;
-					@allforms = ();
-					for my $geedee (split /;/,$bilingual{$mykey}) {
-						my $arrref=gramadoir_output($geedee, 0);
-						push @allforms,$arrref;  # sic, one arrayref pushed for each semi-colon separated translation
-						if ($gd_count != scalar @$arrref and $gd_count != -1) {
-							print STDERR "Varying gd counts among the translations of $headword_key\n";
-							
-						}
-						$gd_count = scalar @$arrref;
-					}
-				}
+			push @entrywords, $mykey;
+		}
+		last if scalar @entrywords == 0; # EOF
+		my $normalized = fix_F_tags($entrywords[0], scalar @entrywords, \%bilingual);
+		next unless exists($bilingual{$normalized});
+		my @allforms = ();  # array of arrayrefs...
+		for my $geedee (split /;/,$bilingual{$normalized}) {
+			my $arrref=gramadoir_output($geedee, 0);
+			if (scalar @entrywords == scalar @$arrref) {
+		# sic, one arrayref pushed for each semi-colon separated translation
+				push @allforms,$arrref;
 			}
-			if ($translated_p) {
-				if ($index == $gd_count) {
-					print STDERR "Too many ga forms for $headword_key, gdtotal=$gd_count\n";
+			else {
+				print STDERR "GD word $geedee (".scalar(@$arrref).") and GA word $normalized (".scalar(@entrywords).") have different numbers of inflections... discarding this pair\n";
+			}
+		}
+		next unless scalar @allforms > 0;
+		my $index = 0;
+		for my $gaform (@entrywords) {
+			if ($ga2gd_p) {   # prints just one line
+				my $toshow = "$gaform ";
+				for my $transls (@allforms) {
+					my $thisgd = @$transls[$index];
+					$thisgd =~ s/ [0-9]+$//;
+					$toshow .= "$thisgd;";
 				}
-				elsif ($index < $gd_count) {
-					if ($ga2gd_p) {   # prints just one line
-						my $toshow = "$mykey ";
-						for my $transls (@allforms) {
-							my $thisgd = @$transls[$index];
-							$thisgd =~ s/ [0-9]+$//;
-							$toshow .= "$thisgd;";
-						}
-						$toshow =~ s/;$//;
-						print OUTLEX "$toshow\n";
-					}
-					else { # gd2ga pairs file; many lines if many translations
-						for my $transls (@allforms) {
-							my $toshow = @$transls[$index];
-							$toshow =~ s/ [0-9]+$/ $mykey/;
-							$toshow =~ s/_[^_]+$//;
-							print OUTLEX "$toshow\n";
-						}
-					}
+				$toshow =~ s/;$//;
+				print OUTLEX "$toshow\n";
+			}
+			else { # gd2ga pairs file; many lines if many translations
+				for my $transls (@allforms) {
+					my $toshow = @$transls[$index];
+					$toshow =~ s/ [0-9]+$/ $gaform/;
+					$toshow =~ s/_[^_]+$//;
+					print OUTLEX "$toshow\n";
 				}
 			}
 			$index++;
@@ -1054,11 +1079,12 @@ if ($ARGV[0] eq '-f') {
 	write_focloir();
 }
 elsif ($ARGV[0] eq '-g') {
-	# does not currently include alternate forms
+	# currently includes alternate forms (for checking coverage in gd2ga)
 	# if using this for gramadoir-gd, would want those in eile-gd.bs
 	open (OUTLEX, ">:utf8", "GD.txt") or die "Could not open lexicon: $!\n";
 	foreach (sort keys %lexicon) {
-		unless (/ / or exists($standard{$_})) {
+		#unless (/ / or exists($standard{$_})) {
+		unless (/ /) {
 			my $forms = gramadoir_output($_, 0);
 			print OUTLEX "-\n";
 			foreach (@$forms) {

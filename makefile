@@ -101,7 +101,12 @@ cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt i.pl
 	perl i.pl -t
 	sed -i '/ xx$$/d' $@
 	(sed '/^#/d' comhshuite.po neamhrialta.po | sed "/^msgid/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat cuardach.txt | egrep -v '> x$$' | egrep -v '> xx ' | egrep -v '>xx<') | sort -t '>' -k2,2 | uniq > temp.txt
-	mv -f temp.txt cuardach.txt
+	mv -f temp.txt $@
+
+pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl
+	perl i.pl -s
+	sed '/ xx$$/d' $@ | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
+	mv -f temp.txt $@
 
 lookup.txt : cuardach.txt i.pl
 	perl i.pl -t 2>&1 | sort -t ':' -k1,1 > $@
@@ -118,6 +123,9 @@ fullstem.txt : GA.txt
 
 fullstem-gd.txt : GD.txt
 	cat GD.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^x[ x]' | sort -u | perl ./tagcvt.pl gd | sort -u > $@
+
+all-gd.txt: GD.txt
+	cat GD.txt | egrep -v '^xx ' | egrep -v -- '^-$$' | sed 's/ [0-9]*$$//' | LC_ALL=C sort -u > $@
 
 fullstem-nomutate.txt : fullstem.txt
 	cat fullstem.txt | sed '/ t="\(caite\|coinn\|gnáth\|foshuit\)"/s/">\(.\)h\([^Ff]\)/">\1\2/' | egrep -v '<F>' | egrep -v ">.[A-ZÁÉÍÓÚh'-]" | egrep -v '>(m[Bb]|g[Cc]|n[DdGg]|b[Pp]|t[Ss]|d[Tt])' | egrep -v 'h="y"' | egrep -v 't="ord">h.*>[aeiouáéíóú]' > $@

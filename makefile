@@ -28,6 +28,9 @@ add : FORCE
 	mv -f temp.txt focloir.txt
 	diff -u focloir.txt.bak focloir.txt | more
 
+replacements.txt:
+	cat ga2gd.po | tr -d "\n" | sed 's/msgid/\n&/g' | sed 's/^[^>]*>//' | sed 's/#.*//' | egrep -v 'msgstr ""' | sed 's/<\/.>"msgstr / /' | sed 's/_[a-z]*"/"/' | sed 's/^\([^ ]*\) "\([^"]*\)"$$/^\2^ \1/' | perl ${HOME}/seal/scanadh/get_repls.pl | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
+
 GD.txt : focloir.txt i.pl
 	perl i.pl -g # writes "GD.txt"
 

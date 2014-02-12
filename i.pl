@@ -61,7 +61,7 @@ sub prefixm
 sub prefixd
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/d'$1/;
+	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/dh'$1/;
 	return $word;
 }
 

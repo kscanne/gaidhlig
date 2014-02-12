@@ -171,7 +171,7 @@ torthai.txt-update : FORCE
 	cat test.txt | sed '/^#/d' | ga2gd > torthai.txt
 
 clean :
-	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt ambig.txt fullstem.txt fullstem-gd.txt fullstem-nomutate*.txt speling*.txt apertium-toinsert.txt apertium-ga-gd.ga.dix torthai-nua.txt
+	rm -f GA.txt GD.txt *.bak *.pot messages.mo lookup.txt cuardach.txt lexicon-gd.txt ambig.txt fullstem.txt fullstem-gd.txt fullstem-nomutate*.txt speling*.txt apertium-toinsert.txt apertium-ga-gd.ga.dix torthai-nua.txt all-gd.txt pairs-gd.txt replacements.txt searchable.txt tempdic
 
 distclean :
 	$(MAKE) clean

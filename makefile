@@ -51,7 +51,8 @@ GA.txt : /home/kps/math/code/data/Dictionary/IG
 
 gd2ga.pot : focloir.txt
 	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@
-	cat focloir.txt | egrep '0 *$$' | egrep -v '^[^_]+ ' | sed 's/^\([^_]*_[^ \t]*\).*/msgid "\1"\nmsgstr ""\n/' >> $@
+	cat focloir.txt | egrep '0 *$$' | sed 's/^\([^_]*_[^ \t]*\).*/msgid "\1"\nmsgstr ""\n/' >> $@
+	#cat focloir.txt | egrep '0 *$$' | egrep -v '^[^_]+ ' | sed 's/^\([^_]*_[^ \t]*\).*/msgid "\1"\nmsgstr ""\n/' >> $@
 
 ga2gd.pot : GA.txt
 	(echo 'msgid ""'; echo 'msgstr ""'; echo '"Content-Type: text/plain; charset=UTF-8\\n"'; echo) > $@
@@ -106,10 +107,16 @@ cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt i.pl
 	(sed '/^#/d' comhshuite.po neamhrialta.po | sed "/^msgid/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat cuardach.txt | egrep -v '> x$$' | egrep -v '> xx ' | egrep -v '>xx<') | sort -t '>' -k2,2 | uniq > temp.txt
 	mv -f temp.txt $@
 
-pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl
+# makes "multi-gd.txt" too
+# nothing copied to ~/seal/caighdean
+GIT=${HOME}/seal/caighdean
+pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl $(MULTIGIT) makefile
 	perl i.pl -s
-	sed '/ xx$$/d' $@ | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
-	mv -f temp.txt $@
+	sed '/ xx$$/d' $@ | sed '/^xx[ _]/d' | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
+	cat temp.txt | egrep -v '_' > $@
+	cp -f $@ $(GIT)
+	(cat $(GIT)/multi-gd.txt; cat temp.txt | egrep '_') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > multi-gd.txt
+	cp -f multi-gd.txt $(GIT)
 
 lookup.txt : cuardach.txt i.pl
 	perl i.pl -t 2>&1 | sort -t ':' -k1,1 > $@

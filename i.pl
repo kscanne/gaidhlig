@@ -23,6 +23,8 @@ my %standard;
 my %prestandard;
 my %freq;
 
+# generic function for adding key/value pair to hash
+# if key exists, append to value, delimited by semicolon
 sub add_pair
 {
 	(my $key, my $val, my $href) = @_;
@@ -40,6 +42,13 @@ sub dhorlenite
 	my ( $word ) = @_;
 	$word = lenite($word);
 	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ]|[Ff]h[aeiouàèìòù])/dh'$1/;
+	return $word;
+}
+
+sub delenite
+{
+	my ( $word ) = @_;
+	$word =~ s/^(.)h([^'])/$1$2/;
 	return $word;
 }
 
@@ -85,7 +94,11 @@ sub prefixt
 	if ($code eq '76') {
 		$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/t-$1/;
 	}
-	if ($code eq '72' or $code eq '92') {
+	# 76 is nominative singular masculine
+	# which doesn't admit a t prefix in Irish
+	# but does in the dative for gd so include here for that
+	# only trick is if we translate to an Irish noun starting w/ vowel...
+	if ($code eq '72' or $code eq '92' or $code eq '76') {
 		$word =~ s/^([Ss][aeiouàèìòùlnr])/t-$1/;
 	}
 	return $word;
@@ -110,100 +123,114 @@ sub slenderize
 	return $word;
 }
 
+# Brigh nam Facal tables have imperatives for all numbers
 sub imperative
 {
 	my ( $word, $root, $i, $n ) = @_;
-
-	if ($n == 2 and $i == 1) {   # bithibh should be OK
-		if ($root eq 'their') {
-			$root = 'abraibh';   # irreg
-		}
-		elsif ($root eq 'cith') {
-			$root = 'faicibh';   # irreg
-		}
-		elsif ($root eq 'gheibh') {
-			$root = 'faighibh';   # irreg
-		}
-		elsif ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-			$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1aibh/;
-		}
-		else {
-			$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1ibh/;
-		}
+	if ($root eq 'their') {
+		$root = 'abr';   # irreg
+	}
+	elsif ($root eq 'cith') {
+		$root = 'faic';   # irreg
+	}
+	elsif ($root eq 'gheibh') {
+		$root = 'faigh';   # irreg
+	}
+	my $broad_p = ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/);
+	if ($n == 4) {
+		$root .= 'e' unless ($broad_p);
+		$root .= 'ar';
 		return $root;
 	}
-	else {
-		return $word;
+	if ($i == 0) { # sing
+		if ($n == 1) {
+			$root .= 'e' unless ($broad_p);
+			$root .= 'am';
+		}
+		elsif ($n == 2) {
+			$root = $word;
+		}
+		else { # no fused pronoun in Irish either
+			$root .= 'e' unless ($broad_p);
+			$root .= 'adh';
+		}
 	}
-
+	else { # plural
+		if ($n == 1) {
+			$root .= 'e' unless ($broad_p);
+			$root .= 'amaid';
+		}
+		elsif ($n == 2) {
+			$root .= 'a' if ($broad_p);
+			$root .= 'ibh';
+		}
+		else { # fused ("molaidís") in Irish, so include pronoun here
+			$root .= 'e' unless ($broad_p);
+			$root .= 'adh iad';
+		}
+	}
+	return $root;
 }
 
 sub future
 {
 	my ( $root, $i, $n ) = @_;
 
-	if ($root eq 'their' or $root eq 'gheibh' or $root eq 'thig') {
-		1;  # do nothing, not "theiridh"!
-	}
-	elsif ($root eq 'bith') {
-		$root = 'bidh';
-		# default would be bithidh which is a legit 
-		# future of "bi"
-	}
-	elsif ($root eq 'dèan') {
-		$root = 'nì';
+	if ($root eq 'dèan') {
+		return 'nì' if ($n < 4);
+		return 'nithear';
 	}
 	elsif ($root eq 'cith') {
-		$root = 'chì';
+		return 'chì' if ($n < 4);
+		return 'chithear';
+	}
+	# if root is "bith", "ruig", "cluinn", "beir", can just go ahead
+	if ($n < 4 and ($root eq 'their' or $root eq 'gheibh' or $root eq 'thig')) {
+		return $root;
 	}
 	elsif ($root eq 'rach') {
 		$root = 'thèid';
+		return $root if ($n < 4);
 	}
 	elsif ($root eq 'toir') {
 		$root = 'bheir';
+		return $root if ($n < 4);
 	}
-	elsif ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-		$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1aidh/;
+	my $broad_p = ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/);
+	if ($n < 4) {
+		$root .= 'a' if ($broad_p);
+		$root .= 'idh';
 	}
 	else {
-		$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1idh/;
+		$root .= 'e' unless ($broad_p);
+		$root .= 'ar';
 	}
-
-	return $root;
 	
+	return $root;
 }
 
 # bi =>  bhithinn/bhitheamaid ok, but stick with 'bhiodh' for 2nd/3rd
 sub conditional
 {
 	my ( $root, $i, $n ) = @_;
-	if ($n == 1) {
+	my $broad_p = ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/);
+	if ($n == 1) { # only "fused" forms are in 1st person
 		if ($i == 0) {
-			if ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-				$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1ainn/;
-			}
-			else {
-				$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1inn/;
-			}
+			$root .= "a" if ($broad_p);
+			$root .= "inn";
 		}
 		else {
-			if ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-				$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1amaid/;
-			}
-			else {
-				$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1eamaid/;
-			}
+			$root .= "e" unless ($broad_p);
+			$root .= "amaid";
 		}
 	}
 	else {
 		if ($root eq 'bith') {
 			$root = 'biodh';
 		}
-		elsif ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/) {
-			$root =~ s/([aouàòù][^aeiouàèìòù]+)$/$1adh/;
-		}
 		else {
-			$root =~ s/([eèiì][^aeiouàèìòù]+)$/$1eadh/;
+			$root .= "e" unless ($broad_p);
+			$root .= "adh";
 		}
 	}
 
@@ -212,12 +239,21 @@ sub conditional
 
 sub past
 {
-	my ( $word ) = @_;
+	my ( $word, $autonomous_p ) = @_;
 	if ( $word eq 'abair' ) {
 		$word = 'thubhairt';
 	}
 	elsif ( $word eq 'bi' ) {
-		$word = 'bha';
+		return 'bhathar' if ($autonomous_p);
+		return 'bha';
+	}
+	elsif ($word eq 'thig') {
+		return 'thàinigear' if ($autonomous_p);
+		return 'thàinig';
+	}
+	elsif ($word eq 'rach') {
+		return 'chaidheas' if ($autonomous_p);
+		return 'chaidh';
 	}
 	elsif ($word eq 'beir') {
 		$word = 'rug';
@@ -234,22 +270,20 @@ sub past
 	elsif ($word eq 'faigh') {
 		$word = 'fhuair';
 	}
-	elsif ($word eq 'rach') {
-		$word = 'chaidh';
-	}
 	elsif ($word eq 'ruig') {
 		$word = 'ràinig';
 	}
 	elsif ($word eq 'tabhair') {
 		$word = 'thug';
 	}
-	elsif ($word eq 'thig') {
-		$word = 'thàinig';
+	$word = dhorlenite($word) unless ($word eq 'fhuair');
+	if ($autonomous_p) {
+		$word = 'chunnac' if ($word eq 'chunnaic'); # broaden
+		$word = 'fhuar' if ($word eq 'fhuair');    # broaden
+		$word .= "e" unless ($word =~ m/([aouàòù][^aeiouàèìòù]*)$/);
+		$word .= "a" unless ($word =~ m/a$/); # except chuala, bha
+		$word .= "dh";
 	}
-	else {
-		$word = dhorlenite($word);
-	}
-
 	return $word;
 }
 
@@ -389,7 +423,7 @@ sub default_gen
 sub gramadoir_output {
 
 	my ( $arg, $constit_p ) = @_;
-	(my $word, my $pos) = $arg =~ m/^([^_]+)_(\S+)$/;
+	(my $word, my $pos) = $arg =~ m/^([^_0-9]+)[0-9]*_(\S+)$/;
 	unless (exists($lexicon{$arg})) {
 		print STDERR "Gramadoir output failed for $arg... this should not happen!\n";
 		return [];
@@ -502,6 +536,10 @@ sub gramadoir_output {
 	# verbs: 8 vn, 7 gen vn, 16 pp (5+3+4+4, see adj),
 	# + 21 for each of 1st/2nd/3rd Sing/Pl + Aut, - 2 (no prefix h if 
 	# 1st person imperative) => 7*21-2 = 145 verb forms, 176 total
+	# NB.  There are a small number of forms in gd in which the 
+	# pronoun is fused with the noun; afaik, only in imperative
+	# and conditional. Luckily, in these cases, Irish forms are
+	# also fused, so gd2ga won't mishandle these
 	elsif ($pos eq 'v') {
 		(my $vncode, my $rootcode) = $data =~ m/^([^\t]+)\t+(.+)$/;
 		$rootcode = $word if ($rootcode eq '0');
@@ -568,16 +606,15 @@ sub gramadoir_output {
 				# imperative
 				my $w = imperative($word,$rootcode,$i,$n);	
 		  		push @$ret, "$w$tail $numer";
-		  		push @$ret, "$w$tail $numer";
+		  		push @$ret, lenite($w)."$tail $numer";
 		  		push @$ret, "$w$tail $numer";
 		  		push @$ret, prefixh($w)."$tail $numer" unless ($n==1);
 				# present
 				$numer++;
-		  		push @$ret, "$vncode $vnnum";
-		  		push @$ret, "$vncode $vnnum";
-		  		push @$ret, "$vncode $vnnum";
+		  		push @$ret, "xx 4" for (1..3);
+		  		#push @$ret, "$vncode $vnnum" for (1..3);
 				# past
-				$w = past($word);	
+				$w = past($word, ($n==4));	
 				$numer+=2;
 				if ($n == 1 and $i == 1) {
 					$pron = ' sinn';
@@ -588,6 +625,8 @@ sub gramadoir_output {
 				else {
 					$pron = '';
 				}
+				# always lenited, even in questions and relative clauses
+				# an do phòg 	cha do phòg 	nach do phòg 	gun do phòg 
 		  		push @$ret, $w."$pron$tail $numer";
 		  		push @$ret, $w."$pron$tail $numer";
 		  		push @$ret, $w."$pron$tail $numer";
@@ -605,14 +644,15 @@ sub gramadoir_output {
 		  		push @$ret, "$w$pron$tail $numer";
 				# imperfect
 				$numer++;
-		  		push @$ret, "$vncode $vnnum";
-		  		push @$ret, "$vncode $vnnum";
-		  		push @$ret, "$vncode $vnnum";
+		  		push @$ret, "xx 4" for (1..3);
+		  		#push @$ret, "$vncode $vnnum" for (1..3);
 				# conditional
 				$w = conditional($rootcode,$i,$n);	
 				$numer++;
+				# 2nd sing and 3rd pl are only cases where Irish is fused
+				# but gd is not, so need to add explicit pronouns here
 				if ($n == 2 and $i == 0) {
-					$pron = ' tu';   # not "thu"
+					$pron = ' tu';   # sic; not "thu"
 				}
 				elsif ($n == 3 and $i == 1) {
 					$pron = ' iad';
@@ -620,13 +660,18 @@ sub gramadoir_output {
 				else {
 					$pron = '';
 				}
-		  		push @$ret, "$w$pron$tail $numer";
-		  		push @$ret, "$w$pron$tail $numer";
-		  		push @$ret, "$w$pron$tail $numer";
+				if ($n == 4) {
+		  			push @$ret, "xx 4" for (1..3);
+				}
+				else {
+		  			push @$ret, "$w$pron$tail $numer";
+		  			push @$ret, "$w$pron$tail $numer";
+		  			push @$ret, delenite($w)."$pron$tail $numer";
+				}
 				# subjunctive
 				$numer++;
-		  		push @$ret, "$vncode$tail $vnnum";
-		  		push @$ret, "$vncode$tail $vnnum";
+		  		push @$ret, "xx 4" for (1..2);
+		  		#push @$ret, "$vncode$tail $vnnum" for (1..2);
 			}
 		  }
 		}
@@ -714,7 +759,7 @@ sub get_prompt {
 sub print_guesses {
 	my ($newword) = @_;
 	print "word=$newword\n";
-	(my $word, my $pos) = $newword =~ /^([^_]+)_(\S+)$/;
+	(my $word, my $pos) = $newword =~ /^([^_0-9]+)[0-9]*_(\S+)$/;
 	print "word=$word,pos=$pos\n";
 	my $tail = '';
 	($tail) = $word =~ /( [^_]+)/ if / /;
@@ -1035,8 +1080,10 @@ sub write_pairs_file
 			else { # gd2ga pairs file; many lines if many translations
 				for my $transls (@allforms) {
 					my $toshow = @$transls[$index];
-					$toshow =~ s/ [0-9]+$/ $gaform/;
-					$toshow =~ s/_[^_]+$//;
+					$toshow =~ s/ [0-9]+$//; # kill gd pos code
+					$toshow =~ s/ /_/g;      # multiword on gd side
+					$toshow =~ s/$/ $gaform/;  # add corresponding Irish
+					$toshow =~ s/_[^_]+$//;    # kill POS from Irish
 					print OUTLEX "$toshow\n";
 				}
 			}
@@ -1088,7 +1135,7 @@ elsif ($ARGV[0] eq '-g') {
 			my $forms = gramadoir_output($_, 0);
 			print OUTLEX "-\n";
 			foreach (@$forms) {
-				s/^([^ ]+) ([^ ]+) ([0-9]+)$/$1 $3/;  # strip pronouns
+				#s/^([^ ]+) ([^ ]+) ([0-9]+)$/$1 $3/;  # strip pronouns
 				print OUTLEX "$_\n";
 			}
 		}

@@ -172,34 +172,41 @@ sub imperative
 	return $root;
 }
 
+# as a hack, for i=1, n=3 we return the relative future
+# (chuireas, dh'fhàgas, etc.)
 sub future
 {
 	my ( $root, $i, $n ) = @_;
 
 	if ($root eq 'dèan') {
-		return 'nì' if ($n < 4);
+		return 'nì' if ($n < 4);  # including relative
 		return 'nithear';
 	}
 	elsif ($root eq 'cith') {
-		return 'chì' if ($n < 4);
+		return 'chì' if ($n < 4);  # including relative
 		return 'chithear';
 	}
 	# if root is "bith", "ruig", "cluinn", "beir", can just go ahead
 	if ($n < 4 and ($root eq 'their' or $root eq 'gheibh' or $root eq 'thig')) {
-		return $root;
+		return $root;  # including relative
 	}
 	elsif ($root eq 'rach') {
 		$root = 'thèid';
-		return $root if ($n < 4);
+		return $root if ($n < 4);  # including relative
 	}
 	elsif ($root eq 'toir') {
 		$root = 'bheir';
-		return $root if ($n < 4);
+		return $root if ($n < 4);  # including relative
 	}
 	my $broad_p = ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/);
 	if ($n < 4) {
 		$root .= 'a' if ($broad_p);
 		$root .= 'idh';
+		if ($i==1 and $n==3) {
+			$root =~ s/aidh$/as/;
+			$root =~ s/idh$/eas/;
+			$root = dhorlenite($root);
+		}
 	}
 	else {
 		$root .= 'e' unless ($broad_p);

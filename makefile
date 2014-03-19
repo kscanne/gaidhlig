@@ -26,6 +26,7 @@ add : FORCE
 	perl i.pl -f
 	sort -t '_' -k1,1 -k2,2 focloir.txt > temp.txt
 	mv -f temp.txt focloir.txt
+	$(MAKE) gd2ga.po
 	diff -u focloir.txt.bak focloir.txt | more
 
 replacements.txt:
@@ -110,9 +111,9 @@ cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt i.pl
 # makes "multi-gd.txt" too
 # nothing copied to ~/seal/caighdean
 GIT=${HOME}/seal/caighdean
-pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl $(MULTIGIT) makefile
+pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl makefile
 	perl i.pl -s
-	sed '/ xx$$/d' $@ | sed '/^xx[ _]/d' | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
+	(cat gd2ga.po | sed '/msgid/s/ \([^"]\)/_\1/g' | tr -d "\n" | sed 's/msgid/\n&/g' | sed '1d' | egrep -v 'msgstr ""' | egrep -v 'msgstr ".*;' | sed 's/^msgid "//' | sed 's/_[a-z]*"msgstr "/ /' | sed 's/_[a-z]*"$$//' | sed 's/"$$//'; sed '/ xx$$/d' $@ | sed '/^xx\?[ _]/d') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
 	cat temp.txt | egrep -v '_' > $@
 	cp -f $@ $(GIT)
 	(cat $(GIT)/multi-gd.txt; cat temp.txt | egrep '_') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > multi-gd.txt

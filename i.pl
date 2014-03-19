@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use utf8;
 use Encode;
+use Unicode::Normalize;
 use Locale::PO;
 
 binmode STDIN, ":utf8";
@@ -14,8 +15,8 @@ binmode STDERR, ":utf8";
 # just used for maintaining critical "cuardach.txt" bilingual lexicon
 
 # TODO: option to output gramadoir-gd eile-gd.bs pairs...
-if ($#ARGV != 0) {
-	die "Usage: $0 [-f|-g|-s|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-s: Write gd2ga lexicon pairs-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n";
+if ($#ARGV != 0 and $ARGV[0] ne '-a') {
+	die "Usage: $0 [-a WORD|-f|-g|-s|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-s: Write gd2ga lexicon pairs-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n";
 }
 
 my %lexicon;
@@ -49,6 +50,13 @@ sub delenite
 {
 	my ( $word ) = @_;
 	$word =~ s/^(.)h([^'])/$1$2/;
+	return $word;
+}
+
+sub eclipse
+{
+	my ( $word ) = @_;
+	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/n-$1/;
 	return $word;
 }
 
@@ -456,7 +464,7 @@ sub gramadoir_output {
 
 		push @$ret, "$word$tail $nomnum";
 		push @$ret, lenite($word)."$tail $nomnum";
-		push @$ret, "$word$tail $nomnum";
+		push @$ret, eclipse($word)."$tail $nomnum";
 		push @$ret, prefixm($word)."$tail $nomnum";
 		push @$ret, prefixd($word)."$tail $nomnum";
 		push @$ret, prefixb($word)."$tail $nomnum";
@@ -467,7 +475,7 @@ sub gramadoir_output {
 		}
 		push @$ret, $gencode."$tail $gennum";
 		push @$ret, lenite($gencode)."$tail $gennum";
-		push @$ret, "$gencode$tail $gennum";
+		push @$ret, eclipse($gencode)."$tail $gennum";
 		push @$ret, prefixm($gencode)."$tail $gennum";
 		push @$ret, prefixd($gencode)."$tail $gennum";
 		push @$ret, prefixh($gencode)."$tail $gennum";
@@ -483,7 +491,7 @@ sub gramadoir_output {
 		unless ($constit_p ) {
 			push @$ret, "$plcode$tail $plnum";
 			push @$ret, lenite($plcode)."$tail $plnum";
-			push @$ret, "$plcode$tail $plnum";
+			push @$ret, eclipse($plcode)."$tail $plnum";
 			push @$ret, prefixm($plcode)."$tail $plnum";
 			push @$ret, prefixd($plcode)."$tail $plnum";
 			push @$ret, prefixb($plcode)."$tail $plnum";
@@ -491,7 +499,7 @@ sub gramadoir_output {
 			push @$ret, "$plcode$tail $plnum";
 			push @$ret, "$plcode$tail $genplnum";
 			push @$ret, lenite($plcode)."$tail $genplnum";
-			push @$ret, "$plcode$tail $genplnum";
+			push @$ret, eclipse($plcode)."$tail $genplnum";
 			push @$ret, prefixm($plcode)."$tail $genplnum";
 			push @$ret, prefixd($plcode)."$tail $genplnum";
 			push @$ret, prefixh($plcode)."$tail $genplnum";
@@ -501,7 +509,7 @@ sub gramadoir_output {
 	elsif ($pos eq 'n') {   # no gender, but lenited, etc.
 		push @$ret, "$word$tail 64";
 		push @$ret, lenite($word)."$tail 64";
-		push @$ret, "$word$tail 64";
+		push @$ret, eclipse($word)."$tail 64";
 		push @$ret, prefixm($word)."$tail 64";
 		push @$ret, prefixd($word)."$tail 64";
 		push @$ret, prefixb($word)."$tail 64";
@@ -557,7 +565,7 @@ sub gramadoir_output {
 			$vncode =~ s/_.*$//;
 			push @$ret, "$vncode$tail 76";
 			push @$ret, lenite($vncode)."$tail 76";
-			push @$ret, "$vncode$tail 76";
+			push @$ret, eclipse($vncode)."$tail 76";
 			push @$ret, prefixm($vncode)."$tail 76";
 			push @$ret, prefixd($vncode)."$tail 76";
 			push @$ret, prefixb($vncode)."$tail 76";
@@ -1131,6 +1139,25 @@ if ($ARGV[0] eq '-f') {
 
 	1 while (user_add_word());
 	write_focloir();
+}
+elsif ($ARGV[0] eq '-a') {
+	my %to_output;
+	my $word = NFC(decode('utf-8', $ARGV[1]));
+	my $forms = gramadoir_output($word, 0);
+	if (exists($prestandard{$word})) {
+		for my $nonstd (split /;/,$prestandard{$word}) {
+			my $forms2 = gramadoir_output($nonstd, 0);
+			push @$forms, @$forms2;
+		}
+	}
+	foreach (@$forms) {
+		s/ [0-9]+$//;
+		s/ .*$//;  # pronouns on verbs e.g.
+		$to_output{$_}++ unless ($_ eq 'xx');
+	}
+	for my $k (sort keys %to_output) {
+		print "$k\n";
+	}
 }
 elsif ($ARGV[0] eq '-g') {
 	# currently includes alternate forms (for checking coverage in gd2ga)

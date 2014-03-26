@@ -109,11 +109,12 @@ cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt i.pl
 	mv -f temp.txt $@
 
 # makes "multi-gd.txt" too
-# nothing copied to ~/seal/caighdean
+# Important to include immutable.txt since it helps evaluate coverage
+# of gd2ga; those proper names, English words will now be considered "covered"
 GIT=${HOME}/seal/caighdean
-pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl makefile
+pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl makefile ${HOME}/seal/idirlamha/gd/freq/immutable.txt
 	perl i.pl -s
-	(cat gd2ga.po | sed '/msgid/s/ \([^"]\)/_\1/g' | tr -d "\n" | sed 's/msgid/\n&/g' | sed '1d' | egrep -v 'msgstr ""' | egrep -v 'msgstr ".*;' | sed 's/^msgid "//' | sed 's/_[a-z]*"msgstr "/ /' | sed 's/_[a-z]*"$$//' | sed 's/"$$//'; sed '/ xx$$/d' $@ | sed '/^xx\?[ _]/d') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
+	(cat gd2ga.po | sed '/msgid/s/ \([^"]\)/_\1/g' | tr -d "\n" | sed 's/msgid/\n&/g' | sed '1d' | egrep -v 'msgstr ""' | egrep -v 'msgstr ".*;' | sed 's/^msgid "//' | sed 's/_[a-z]*"msgstr "/ /' | sed 's/_[a-z]*"$$//' | sed 's/"$$//'; sed '/ xx$$/d' $@ | sed '/^xx\?[ _]/d'; cat ${HOME}/seal/idirlamha/gd/freq/immutable.txt | sed 's/.*/& &/') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
 	cat temp.txt | egrep -v '_' > $@
 	cp -f $@ $(GIT)
 	(cat $(GIT)/multi-gd.txt; cat temp.txt | egrep '_') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > multi-gd.txt

@@ -42,7 +42,7 @@ sub dhorlenite
 {
 	my ( $word ) = @_;
 	$word = lenite($word);
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ]|[Ff]h[aeiouàèìòù])/dh'$1/;
+	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ]|[Ff]h[aeiouàèìòùáéíóú])/dh'$1/;
 	return $word;
 }
 
@@ -56,7 +56,7 @@ sub delenite
 sub eclipse
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/n-$1/;
+	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/n-$1/;
 	return $word;
 }
 
@@ -64,35 +64,35 @@ sub lenite
 {
 	my ( $word ) = @_;
 	$word =~ s/^([bcdfgmptBCDFGMPT])([^h'-])/$1h$2/;
-	$word =~ s/^([Ss])([lnraeiouàèìòù])/$1h$2/;
+	$word =~ s/^([Ss])([lnraeiouàèìòùáéíóú])/$1h$2/;
 	return $word;
 }
 
 sub prefixm
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/m'$1/;
+	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/m'$1/;
 	return $word;
 }
 
 sub prefixd
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/dh'$1/;
+	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/dh'$1/;
 	return $word;
 }
 
 sub prefixb
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/b'$1/;
+	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/b'$1/;
 	return $word;
 }
 
 sub prefixh
 {
 	my ( $word ) = @_;
-	$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/h-$1/;
+	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/h-$1/;
 	return $word;
 }
 
@@ -100,14 +100,14 @@ sub prefixt
 {
 	my ( $word, $code ) = @_;
 	if ($code eq '76') {
-		$word =~ s/^([aeiouàèìòùAEIOUÀÈÌÒÙ])/t-$1/;
+		$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/t-$1/;
 	}
 	# 76 is nominative singular masculine
 	# which doesn't admit a t prefix in Irish
 	# but does in the dative for gd so include here for that
 	# only trick is if we translate to an Irish noun starting w/ vowel...
 	if ($code eq '72' or $code eq '92' or $code eq '76') {
-		$word =~ s/^([Ss][aeiouàèìòùlnr])/t-$1/;
+		$word =~ s/^([Ss][aeiouàèìòùáéíóúlnr])/t-$1/;
 	}
 	return $word;
 }
@@ -116,16 +116,16 @@ sub slenderize
 {
 	my ( $word ) = @_;
 
-	if ($word =~ m/ea[^aeiouàèìòù]+$/) {
+	if ($word =~ m/ea[^aeiouàèìòùáéíóú]+$/) {
 		if ($word =~ m/ea(?:nn|[cd]h)$/) {
-			$word =~ s/ea([^aeiouàèìòù]+)$/i$1/;
+			$word =~ s/ea([^aeiouàèìòùáéíóú]+)$/i$1/;
 		}
 		else {
-			$word =~ s/ea([^aeiouàèìòù]+)$/ei$1/;
+			$word =~ s/ea([^aeiouàèìòùáéíóú]+)$/ei$1/;
 		}
 	}
 	else {
-		$word =~ s/([aouàòù])([^aeiouàèìòù]+)$/$1i$2/;
+		$word =~ s/([aouàòù])([^aeiouàèìòùáéíóú]+)$/$1i$2/;
 	}
 
 	return $word;
@@ -144,7 +144,7 @@ sub imperative
 	elsif ($root eq 'gheibh') {
 		$root = 'faigh';   # irreg
 	}
-	my $broad_p = ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/);
+	my $broad_p = ($root =~ m/([aouàòùáóú][^aeiouàèìòùáéíóú]+)$/);
 	if ($n == 4) {
 		$root .= 'e' unless ($broad_p);
 		$root .= 'ar';
@@ -206,7 +206,7 @@ sub future
 		$root = 'bheir';
 		return $root if ($n < 4);  # including relative
 	}
-	my $broad_p = ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/);
+	my $broad_p = ($root =~ m/([aouàòùáóú][^aeiouàèìòùáéíóú]+)$/);
 	if ($n < 4) {
 		$root .= 'a' if ($broad_p);
 		$root .= 'idh';
@@ -228,7 +228,7 @@ sub future
 sub conditional
 {
 	my ( $root, $i, $n ) = @_;
-	my $broad_p = ($root =~ m/([aouàòù][^aeiouàèìòù]+)$/);
+	my $broad_p = ($root =~ m/([aouàòùáóú][^aeiouàèìòùáéíóú]+)$/);
 	if ($n == 1) { # only "fused" forms are in 1st person
 		if ($i == 0) {
 			$root .= "a" if ($broad_p);
@@ -295,7 +295,7 @@ sub past
 	if ($autonomous_p) {
 		$word = 'chunnac' if ($word eq 'chunnaic'); # broaden
 		$word = 'fhuar' if ($word eq 'fhuair');    # broaden
-		$word .= "e" unless ($word =~ m/([aouàòù][^aeiouàèìòù]*)$/);
+		$word .= "e" unless ($word =~ m/([aouàòùáóú][^aeiouàèìòùáéíóú]*)$/);
 		$word .= "a" unless ($word =~ m/a$/); # except chuala, bha
 		$word .= "dh";
 	}
@@ -305,10 +305,10 @@ sub past
 sub default_pp
 {
 	my ( $word ) = @_;
-	if ($word =~ /([aouàòù])([^aeiouàèìòù]+)$/) {
+	if ($word =~ /([aouàòùáóú])([^aeiouàèìòùáéíóú]+)$/) {
 		$word =~ s/$/ta/;
 	}
-	elsif ($word =~ /([eièì])([^aeiouàèìòù]+)$/) {
+	elsif ($word =~ /([eièìéí])([^aeiouàèìòùáéíóú]+)$/) {
 		$word =~ s/$/te/;
 	}
 	return $word;
@@ -330,7 +330,7 @@ sub default_vn
 	elsif ($word =~ /ich$/) {
 		$word =~ s/ich$/eachadh_nm/;
 	}
-	elsif ($word =~ /([aouàòù])([^aeiouàèìòù]+)$/) {
+	elsif ($word =~ /([aouàòùáóú])([^aeiouàèìòùáéíóú]+)$/) {
 		$word =~ s/$/adh_nm/;
 	}
 	elsif ($word =~ /([eièì])([^aeiouàèìòù]+)$/) {
@@ -342,11 +342,11 @@ sub default_vn
 sub default_plural_adj
 {
 	my ( $word ) = @_;
-	unless ($word =~ m/[aeiouàèìòù][^aeiouàèìòù]+[aeiouàèìòù]/) {
-		if ($word =~ m/[aouàòù][^aeiouàèìòù]+$/) {
+	unless ($word =~ m/[aeiouàèìòùáéíóú][^aeiouàèìòùáéíóú]+[aeiouàèìòùáéíóú]/) {
+		if ($word =~ m/[aouàòùáóú][^aeiouàèìòùáéíóú]+$/) {
 			$word =~ s/$/a/;
 		}
-		elsif ($word =~ m/i[^aeiouàèìòù]+$/) {
+		elsif ($word =~ m/i[^aeiouàèìòùáéíóú]+$/) {
 			$word =~ s/$/e/;
 		}
 		
@@ -364,7 +364,7 @@ sub default_gsf
 {
 	my ( $word ) = @_;
 	$word = slenderize($word);
-	$word =~ s/([^aeiouàèìòù])$/$1e/;
+	$word =~ s/([^aeiouàèìòùáéíóú])$/$1e/;
 	return $word;
 }
 
@@ -375,7 +375,7 @@ sub default_plural
 	if ($word =~ m/iche$/) {
 		$word =~ s/$/an/;
 	}
-	elsif ($word =~ m/[aeiouàèìòù]$/) {
+	elsif ($word =~ m/[aeiouàèìòùáéíóú]$/) {
 		$word = 'x';
 		# or +an, but mostly seem abstract
 	}
@@ -394,7 +394,7 @@ sub default_plural
 	elsif ($word =~ m/[^e]ach$/) {
 		$word =~ s/ach$/aich/;
 	}
-	elsif ($word =~ m/[aouàòù][^aeiouàèìòù]+$/) {
+	elsif ($word =~ m/[aouàòùáóú][^aeiouàèìòùáéíóú]+$/) {
 		$word =~ s/$/an/;
 	}
 	else {
@@ -408,13 +408,13 @@ sub default_gen
 {
 	my ( $word ) = @_;
 
-	if ($word =~ m/[aeiouàèìòù]$/) {
+	if ($word =~ m/[aeiouàèìòùáéíóú]$/) {
 		1;
 	}
 	elsif ($word =~ m/chd$/) {
 		1;
 	}
-	elsif ($word =~ m/[aouàòù][^aeiouàèìòù]+$/) {
+	elsif ($word =~ m/[aouàòù][^aeiouàèìòùáéíóú]+$/) {
 		$word = slenderize($word);
 	}
 	elsif ($word =~ m/air$/) {
@@ -656,6 +656,7 @@ sub gramadoir_output {
 				}
 		  		push @$ret, "$w$pron$tail $numer";
 		  		push @$ret, lenite($w)."$pron$tail $numer";
+				$w = dhorlenite($w) if ($n==4);  # dh'fhàgar
 		  		push @$ret, "$w$pron$tail $numer";
 				# imperfect
 				$numer++;

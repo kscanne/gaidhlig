@@ -75,10 +75,12 @@ sub prefixm
 	return $word;
 }
 
+# dh'fhaclan, dh'fhaighinn, etc. all legit
 sub prefixd
 {
 	my ( $word ) = @_;
 	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/dh'$1/;
+	$word =~ s/^([Ff])([aeiouàèìòùáéíóú])/dh'$1h$2/;
 	return $word;
 }
 
@@ -324,7 +326,7 @@ sub default_verbal_root
 sub default_vn
 {
 	my ( $word ) = @_;
-	if ($word =~ /aich$/) {
+	if ($word =~ /[au]ich$/) {
 		$word =~ s/ich$/chadh_nm/;
 	}
 	elsif ($word =~ /ich$/) {
@@ -1153,8 +1155,8 @@ elsif ($ARGV[0] eq '-a') {
 	}
 	foreach (@$forms) {
 		s/ [0-9]+$//;
-		s/ .*$//;  # pronouns on verbs e.g.
-		$to_output{$_}++ unless ($_ eq 'xx');
+		#s/ .*$//;  # pronouns on verbs e.g.
+		$to_output{$_}++ unless ($_ =~ m/^xx/ or $_ eq 'x');
 	}
 	for my $k (sort keys %to_output) {
 		print "$k\n";

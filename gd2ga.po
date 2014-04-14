@@ -103,10 +103,16 @@ msgstr ""
 msgid "àbhaisteach_a"
 msgstr ""
 
+msgid "àbhaisteachadh_nm"
+msgstr ""
+
 msgid "àbhaisteachd_nf"
 msgstr ""
 
 msgid "a-bhàn_adv"
+msgstr ""
+
+msgid "a bharrachd_adv"
 msgstr ""
 
 msgid "abharsair_nm"
@@ -164,6 +170,9 @@ msgid "acadamh_nf"
 msgstr ""
 
 msgid "acaid_nf"
+msgstr ""
+
+msgid "acain_nf"
 msgstr ""
 
 msgid "acaineach_a"
@@ -227,6 +236,12 @@ msgid "a-cheana_adv"
 msgstr ""
 
 msgid "a-chianaibh_adv"
+msgstr ""
+
+msgid "a chionn_prep"
+msgstr ""
+
+msgid "a chionn is_conj"
 msgstr ""
 
 msgid "achladh_nm"
@@ -376,6 +391,9 @@ msgstr ""
 msgid "Afraga_nm"
 msgstr ""
 
+msgid "Afraga-a-Deas_nm"
+msgstr ""
+
 msgid "Afraganach_a"
 msgstr ""
 
@@ -433,6 +451,9 @@ msgstr ""
 msgid "aghaidh-choimheach_nf"
 msgstr ""
 
+msgid "aghaidh-ri-aghaidh_adv"
+msgstr "aghaidh ar aghaidh_adv"
+
 msgid "aghastar_nm"
 msgstr ""
 
@@ -447,6 +468,9 @@ msgstr ""
 
 msgid "agusan_nm"
 msgstr ""
+
+msgid "aibèalach_a"
+msgstr "aibéalach_a"
 
 msgid "àibheis_nf"
 msgstr ""
@@ -491,6 +515,12 @@ msgid "àicheidh_v"
 msgstr ""
 
 msgid "àicheil_a"
+msgstr ""
+
+msgid "aicill_nf"
+msgstr "aicill_nf"
+
+msgid "aicseam_nm"
 msgstr ""
 
 msgid "aictinimeadar_nm"
@@ -558,6 +588,9 @@ msgstr ""
 
 msgid "aigne_nf"
 msgstr ""
+
+msgid "ailbean_nm"
+msgstr "meilsceánach_nm"
 
 msgid "ailbhealach_nm"
 msgstr ""
@@ -631,6 +664,9 @@ msgstr ""
 msgid "ailm_nf"
 msgstr ""
 
+msgid "ailpeach_a"
+msgstr ""
+
 msgid "ailseabra_nf"
 msgstr ""
 
@@ -694,6 +730,9 @@ msgstr ""
 msgid "ain-diadhachd_nf"
 msgstr ""
 
+msgid "ain-diadhaidh_a"
+msgstr ""
+
 msgid "aineamh_nm"
 msgstr ""
 
@@ -743,6 +782,12 @@ msgid "ainm-baistidh_nm"
 msgstr ""
 
 msgid "ainm-brèige_nm"
+msgstr ""
+
+msgid "ainm-cleachdaidh_nm"
+msgstr ""
+
+msgid "ainm-cunntais_nm"
 msgstr ""
 
 msgid "ainmeachadh_nm"
@@ -871,6 +916,9 @@ msgstr ""
 msgid "Aircimeadach_nm"
 msgstr ""
 
+msgid "air cluanaidh_adv"
+msgstr ""
+
 msgid "air cùl_prep"
 msgstr ""
 
@@ -904,10 +952,16 @@ msgstr ""
 msgid "àireamhachd_nf"
 msgstr ""
 
+msgid "àireamhaiche_nm"
+msgstr ""
+
 msgid "àireamhail_a"
 msgstr ""
 
 msgid "àireamhair_nm"
+msgstr ""
+
+msgid "àireamh-fòn_nf"
 msgstr ""
 
 msgid "àireamh-shluaigh_nf"
@@ -956,7 +1010,7 @@ msgid "airidheachd_nf"
 msgstr ""
 
 msgid "àirigh_nf"
-msgstr ""
+msgstr "buaile_nf"
 
 msgid "àirleas_nm"
 msgstr ""
@@ -968,6 +1022,9 @@ msgid "air-letheachas_nm"
 msgstr ""
 
 msgid "air-loidhne_a"
+msgstr ""
+
+msgid "Airmeinia_nf"
 msgstr ""
 
 msgid "Airmeinianach_nm"
@@ -992,6 +1049,9 @@ msgid "air neo_conj"
 msgstr ""
 
 msgid "airse_nf"
+msgstr ""
+
+msgid "air seachran_adv"
 msgstr ""
 
 msgid "air sgàth_prep"
@@ -1126,6 +1186,9 @@ msgstr ""
 msgid "àite-còmhnaidh_nm"
 msgstr ""
 
+msgid "àite-falaich_nm"
+msgstr ""
+
 msgid "àite-fuirich_nm"
 msgstr ""
 
@@ -1133,6 +1196,9 @@ msgid "àiteigin_adv"
 msgstr ""
 
 msgid "àite-obrach_nm"
+msgstr ""
+
+msgid "àite-tuineachaidh_nm"
 msgstr ""
 
 msgid "aitheamh_nm"
@@ -1160,10 +1226,10 @@ msgid "àithn_v"
 msgstr ""
 
 msgid "aithne_nf"
-msgstr ""
+msgstr "aithne_nf"
 
 msgid "àithne_nf"
-msgstr ""
+msgstr "aithne_nf"
 
 msgid "àithneach_a"
 msgstr ""
@@ -1172,6 +1238,9 @@ msgid "aithneachadh_nm"
 msgstr ""
 
 msgid "aithne-chùiseachd_nf"
+msgstr ""
+
+msgid "àithneil_a"
 msgstr ""
 
 msgid "aithnich_v"
@@ -1190,6 +1259,9 @@ msgid "aithris_v"
 msgstr ""
 
 msgid "aithriseach_a"
+msgstr ""
+
+msgid "aithriseachd_nf"
 msgstr ""
 
 msgid "aithrisear_nm"
@@ -1211,6 +1283,15 @@ msgid "àlainn_a"
 msgstr "álainn_a"
 
 msgid "alamorfachd_nf"
+msgstr ""
+
+msgid "Alasca_nm"
+msgstr ""
+
+msgid "Alascanach_a"
+msgstr ""
+
+msgid "Alascanach_nm"
 msgstr ""
 
 msgid "Alba_nf"
@@ -1245,6 +1326,12 @@ msgstr ""
 
 msgid "alcolachd_nf"
 msgstr ""
+
+msgid "algach_a"
+msgstr ""
+
+msgid "algach_nm"
+msgstr "alga_nm"
 
 msgid "allaban_nm"
 msgstr ""
@@ -1352,7 +1439,7 @@ msgid "amail_v"
 msgstr ""
 
 msgid "a-màireach_adv"
-msgstr ""
+msgstr "amárach_adv"
 
 msgid "a-màireach_aindec"
 msgstr ""
@@ -1366,7 +1453,13 @@ msgstr ""
 msgid "amaladh_nm"
 msgstr ""
 
+msgid "amalaich_v"
+msgstr ""
+
 msgid "amar_nm"
+msgstr ""
+
+msgid "amar-snàimh_nm"
 msgstr ""
 
 msgid "amas_nm"
@@ -1379,7 +1472,16 @@ msgid "ambasaid_nf"
 msgstr ""
 
 msgid "am-bliadhna_adv"
+msgstr "i mbliana_adv"
+
+msgid "am broinn_prep"
+msgstr "i lár"
+
+msgid "àm-clàraidh_nm"
 msgstr ""
+
+msgid "à measg_prep"
+msgstr "as measc"
 
 msgid "Ameireagaidh_nf"
 msgstr "Meiriceá_nm"
@@ -1390,16 +1492,25 @@ msgstr "Meiriceá Theas"
 msgid "Ameireagaidh-a-Tuath_nf"
 msgstr ""
 
+msgid "Ameireagaidh-Laideannach_nf"
+msgstr ""
+
 msgid "Ameireaganach_a"
 msgstr "Meiriceánach_a"
 
 msgid "Ameireaganach_nm"
 msgstr "Meiriceánach_nm"
 
+msgid "am-feast_adv"
+msgstr ""
+
 msgid "amh_a"
 msgstr ""
 
 msgid "amhach_nf"
+msgstr ""
+
+msgid "amhail_a"
 msgstr ""
 
 msgid "a-mhàin_adv"
@@ -1427,9 +1538,6 @@ msgid "amharc-tìre_nm"
 msgstr ""
 
 msgid "amhasg_nm"
-msgstr ""
-
-msgid "àmhghar_nf"
 msgstr ""
 
 msgid "àmhghar_nm"
@@ -1469,6 +1577,9 @@ msgid "an_prep"
 msgstr ""
 
 msgid "an_vcop"
+msgstr ""
+
+msgid "anabaich_a"
 msgstr ""
 
 msgid "an-abaich_a"
@@ -1537,7 +1648,10 @@ msgstr "anáil_nf"
 msgid "anailis_nf"
 msgstr "anailís_nf"
 
-msgid "an-àirde_adv"
+msgid "an-àird_adv"
+msgstr ""
+
+msgid "an àiteigin_adv"
 msgstr ""
 
 msgid "analachadh_nm"
@@ -1547,7 +1661,7 @@ msgid "analaich_v"
 msgstr ""
 
 msgid "a-nall_adv"
-msgstr ""
+msgstr "anall_adv"
 
 msgid "anam_nm"
 msgstr ""
@@ -1561,6 +1675,9 @@ msgstr ""
 msgid "anann_nm"
 msgstr ""
 
+msgid "an-aoibhinn_a"
+msgstr ""
+
 msgid "anarag_nf"
 msgstr "anarac_nm"
 
@@ -1570,13 +1687,34 @@ msgstr ""
 msgid "an-asgaidh_adv"
 msgstr "saor in aisce"
 
+msgid "an-ath-bhliadhna_adv"
+msgstr "an bhliain seo chugainn"
+
+msgid "an-ath-là_adv"
+msgstr "amárach_adv"
+
+msgid "an-ath-mhadainn_adv"
+msgstr "maidin amárach_adv"
+
+msgid "an-ath-mhìos_adv"
+msgstr "an mhí seo chugainn"
+
+msgid "an-ath-oidhche_adv"
+msgstr "oíche amárach_adv"
+
+msgid "an-ath-sheachdain_adv"
+msgstr "an tseachtain seo chugainn"
+
 msgid "anatomachd_nf"
 msgstr ""
 
 msgid "an ceann_prep"
 msgstr ""
 
-msgid "an ceartuair_adv"
+msgid "an-ceartuair_adv"
+msgstr ""
+
+msgid "an co-bhoinn ri_prep"
 msgstr ""
 
 msgid "an cois_prep"
@@ -1609,6 +1747,9 @@ msgstr ""
 msgid "an-earar_adv"
 msgstr ""
 
+msgid "anemonaidh_nm"
+msgstr ""
+
 msgid "anfhainne_nf"
 msgstr ""
 
@@ -1627,7 +1768,10 @@ msgstr ""
 msgid "Anglach_nm"
 msgstr ""
 
-msgid "an iar_adv"
+msgid "Angòla_nf"
+msgstr ""
+
+msgid "an-iar_adv"
 msgstr ""
 
 msgid "an-iochdmhor_a"
@@ -1637,7 +1781,7 @@ msgid "a-nìos_adv"
 msgstr ""
 
 msgid "a-nis_adv"
-msgstr ""
+msgstr "anois_adv"
 
 msgid "an làthair_adv"
 msgstr ""
@@ -1651,8 +1795,8 @@ msgstr ""
 msgid "an-luchdaich_v"
 msgstr ""
 
-msgid "an lùib_prep"
-msgstr ""
+msgid "an-lùib_prep"
+msgstr "ceangailte le_prep"
 
 msgid "anmoch_a"
 msgstr ""
@@ -1685,6 +1829,9 @@ msgid "annas_nm"
 msgstr ""
 
 msgid "annasach_a"
+msgstr ""
+
+msgid "annas-làimhe_nm"
 msgstr ""
 
 msgid "annlan_nm"
@@ -1720,7 +1867,7 @@ msgstr ""
 msgid "an sac_nm"
 msgstr ""
 
-msgid "an sàs_adv"
+msgid "an-sàs_adv"
 msgstr ""
 
 msgid "an-seo_adv"
@@ -1732,10 +1879,10 @@ msgstr ""
 msgid "anshocrach_a"
 msgstr ""
 
-msgid "an sin_adv"
+msgid "an-sin_adv"
 msgstr ""
 
-msgid "an siud_adv"
+msgid "an-siud_adv"
 msgstr ""
 
 msgid "antaidh_nf"
@@ -1747,7 +1894,7 @@ msgstr ""
 msgid "an-tlachdmhoireachd_nf"
 msgstr ""
 
-msgid "an toiseach_adv"
+msgid "an-toiseach_adv"
 msgstr ""
 
 msgid "antraipeòlas_nm"
@@ -1769,7 +1916,10 @@ msgid "an-uiridh_adv"
 msgstr ""
 
 msgid "a-null_adv"
-msgstr ""
+msgstr "anall_adv"
+
+msgid "a-nunn_adv"
+msgstr "anonn_adv"
 
 msgid "aocoltach_a"
 msgstr ""
@@ -1777,7 +1927,10 @@ msgstr ""
 msgid "aodach_nm"
 msgstr ""
 
-msgid "aodann_nf"
+msgid "aodach-uachdair_nm"
+msgstr ""
+
+msgid "aodann_nm"
 msgstr ""
 
 msgid "aodannan_nm"
@@ -1795,6 +1948,9 @@ msgstr ""
 msgid "aoghair_nm"
 msgstr ""
 
+msgid "aognaidh_a"
+msgstr ""
+
 msgid "aoibhinn_a"
 msgstr ""
 
@@ -1802,6 +1958,9 @@ msgid "aoibhneach_a"
 msgstr ""
 
 msgid "aoibhneas_nm"
+msgstr ""
+
+msgid "aoidh_nf"
 msgstr ""
 
 msgid "aoidheachd_nf"
@@ -1840,7 +1999,7 @@ msgstr ""
 msgid "aolach_nm"
 msgstr ""
 
-msgid "aolaisdeach_a"
+msgid "aolaisteach_a"
 msgstr ""
 
 msgid "aol-chlach_nf"
@@ -1912,10 +2071,19 @@ msgstr ""
 msgid "aon-deug_card"
 msgstr ""
 
+msgid "aon-fhuaimneach_a"
+msgstr ""
+
+msgid "aon-ghnèitheach_a"
+msgstr ""
+
 msgid "aon-ghuthach_a"
 msgstr ""
 
 msgid "aon-làir_a"
+msgstr ""
+
+msgid "aonranachd_nf"
 msgstr ""
 
 msgid "aon-rathadach_a"
@@ -1970,6 +2138,9 @@ msgid "apa_nm"
 msgstr ""
 
 msgid "aparan_nm"
+msgstr ""
+
+msgid "aplacaid_nf"
 msgstr ""
 
 msgid "apragod_nm"
@@ -2038,7 +2209,13 @@ msgstr ""
 msgid "ar-a-mach_nm"
 msgstr ""
 
+msgid "ar-a-machach_a"
+msgstr ""
+
 msgid "aran_nm"
+msgstr ""
+
+msgid "aran-coirce_nm"
 msgstr ""
 
 msgid "a-raoir_adv"
@@ -2055,6 +2232,9 @@ msgstr ""
 
 msgid "arbhartaich_v"
 msgstr ""
+
+msgid "arc_nm"
+msgstr "arc_nm"
 
 msgid "àrc_nf"
 msgstr ""
@@ -2101,10 +2281,19 @@ msgstr ""
 msgid "àrd-bhaile_nm"
 msgstr ""
 
+msgid "Àrd-Bhaile_nm"
+msgstr ""
+
+msgid "àrd-bheinn_nf"
+msgstr ""
+
 msgid "àrd-chathair_nf"
 msgstr ""
 
 msgid "àrd-cheannas_nm"
+msgstr ""
+
+msgid "àrd-chlachair_nm"
 msgstr ""
 
 msgid "àrd-chomataidh_nf"
@@ -2128,6 +2317,9 @@ msgstr ""
 msgid "àrd-easbaig_nm"
 msgstr ""
 
+msgid "Àrd-Easbaig_nm"
+msgstr ""
+
 msgid "àrd-fhoghlam_nm"
 msgstr ""
 
@@ -2138,6 +2330,15 @@ msgid "àrd-inbhe_nf"
 msgstr ""
 
 msgid "àrd-ìre_nm"
+msgstr ""
+
+msgid "àrd-mhanaidsear_nm"
+msgstr ""
+
+msgid "Àrd-Mhanaidsear_nm"
+msgstr ""
+
+msgid "àrd-neach-sgrùdaidh_nm"
 msgstr ""
 
 msgid "àrd-oifigear_nm"
@@ -2152,6 +2353,9 @@ msgstr ""
 msgid "àrd-sgoil_nf"
 msgstr ""
 
+msgid "ard-shagart_nm"
+msgstr ""
+
 msgid "àrd-shagart_nm"
 msgstr ""
 
@@ -2161,6 +2365,9 @@ msgstr ""
 msgid "àrd-sheanalair_nm"
 msgstr ""
 
+msgid "àrd-tìr_nf"
+msgstr ""
+
 msgid "àrd-ùrlar_nm"
 msgstr ""
 
@@ -2168,6 +2375,9 @@ msgid "àrd-urram_nm"
 msgstr ""
 
 msgid "a-rèir_prep"
+msgstr ""
+
+msgid "a-rèist_adv"
 msgstr ""
 
 msgid "argamaid_nf"
@@ -2225,6 +2435,9 @@ msgid "arraideach_a"
 msgstr ""
 
 msgid "arraing_nm"
+msgstr ""
+
+msgid "àrsaideach_a"
 msgstr ""
 
 msgid "àrsaidh_a"
@@ -2317,6 +2530,12 @@ msgstr ""
 msgid "aslaich_v"
 msgstr ""
 
+msgid "às-mhalairt_nf"
+msgstr ""
+
+msgid "às-mhalairt_v"
+msgstr ""
+
 msgid "asp_nm"
 msgstr ""
 
@@ -2384,6 +2603,9 @@ msgid "Athair_nm"
 msgstr ""
 
 msgid "athaireachd_nf"
+msgstr ""
+
+msgid "athais_nf"
 msgstr ""
 
 msgid "athaiseach_a"
@@ -2458,6 +2680,9 @@ msgstr ""
 msgid "ath-cheumnachadh_nm"
 msgstr ""
 
+msgid "ath-chleachdadh_nm"
+msgstr ""
+
 msgid "ath-chluich_nf"
 msgstr ""
 
@@ -2470,6 +2695,9 @@ msgstr ""
 msgid "ath-chuairteachadh_nm"
 msgstr ""
 
+msgid "ath-chuartachadh_nm"
+msgstr ""
+
 msgid "athchuinge_nf"
 msgstr ""
 
@@ -2479,7 +2707,13 @@ msgstr ""
 msgid "ath-dhìol_v"
 msgstr ""
 
+msgid "ath-eagrachadh_nm"
+msgstr ""
+
 msgid "ath-fhillteach_a"
+msgstr ""
+
+msgid "ath-fhoillseachadh_nm"
 msgstr ""
 
 msgid "ath-fhosgladh_nm"
@@ -2500,6 +2734,9 @@ msgstr ""
 msgid "ath-ghintinn_nf"
 msgstr ""
 
+msgid "ath-innse_nf"
+msgstr ""
+
 msgid "ath-leasachadh_nm"
 msgstr ""
 
@@ -2510,6 +2747,9 @@ msgid "ath-neartachadh_nm"
 msgstr ""
 
 msgid "ath-neartaich_v"
+msgstr ""
+
+msgid "ath-nochdadh_nm"
 msgstr ""
 
 msgid "ath-nuadhachadh_nm"
@@ -2530,6 +2770,9 @@ msgstr "oíche amárach"
 msgid "ath-raonadh_nm"
 msgstr ""
 
+msgid "ath-riochdachadh_nm"
+msgstr ""
+
 msgid "ath-sgrìobh_v"
 msgstr ""
 
@@ -2548,13 +2791,25 @@ msgstr ""
 msgid "ath-smaoinich_v"
 msgstr ""
 
+msgid "ath-stèidheachadh_nm"
+msgstr ""
+
 msgid "ath-thagh_v"
 msgstr ""
 
 msgid "ath-thaghadh_nm"
 msgstr ""
 
+msgid "ath-thagradh_nm"
+msgstr ""
+
+msgid "ath-thilleadh_nm"
+msgstr ""
+
 msgid "ath-thogail_nf"
+msgstr ""
+
+msgid "ath-thòiseachadh_nm"
 msgstr ""
 
 msgid "ath-ùrachadh_nm"
@@ -2567,6 +2822,9 @@ msgid "atlas_nm"
 msgstr ""
 
 msgid "atmhorachd_nf"
+msgstr ""
+
+msgid "a-tuath_adv"
 msgstr ""
 
 msgid "b'_vcop"
@@ -2597,6 +2855,9 @@ msgid "bacadh_nm"
 msgstr ""
 
 msgid "bacadh-adhair_nm"
+msgstr ""
+
+msgid "bacadh-sràide_nm"
 msgstr ""
 
 msgid "bacaiche_nm"
@@ -2698,6 +2959,9 @@ msgstr ""
 msgid "bàidh_nf"
 msgstr ""
 
+msgid "baidhc_nm"
+msgstr ""
+
 msgid "bàidhealachd_nf"
 msgstr ""
 
@@ -2705,6 +2969,18 @@ msgid "bàidheil_a"
 msgstr ""
 
 msgid "baidhsagal_nm"
+msgstr ""
+
+msgid "baidhsagalachd_nf"
+msgstr ""
+
+msgid "baidhsagalair_nm"
+msgstr ""
+
+msgid "baidse_nf"
+msgstr ""
+
+msgid "bàidse_nf"
 msgstr ""
 
 msgid "baigeir_nm"
@@ -2741,6 +3017,9 @@ msgid "bàillidh_nm"
 msgstr ""
 
 msgid "bailteach_a"
+msgstr ""
+
+msgid "bailteil_a"
 msgstr ""
 
 msgid "bàine_nf"
@@ -2815,6 +3094,9 @@ msgstr ""
 msgid "balbhan_nm"
 msgstr ""
 
+msgid "Balèarach_a"
+msgstr ""
+
 msgid "balg_nm"
 msgstr ""
 
@@ -2845,6 +3127,12 @@ msgstr ""
 msgid "balla_nm"
 msgstr ""
 
+msgid "bàlla_nm"
+msgstr ""
+
+msgid "ball-acfhainn_nm"
+msgstr ""
+
 msgid "ballach_a"
 msgstr ""
 
@@ -2852,6 +3140,9 @@ msgid "ballan_nm"
 msgstr ""
 
 msgid "ball-basgaid_nm"
+msgstr ""
+
+msgid "ball-bhòilidh_nm"
 msgstr ""
 
 msgid "ball-coise_nm"
@@ -2863,7 +3154,13 @@ msgstr ""
 msgid "ball-lìn_nm"
 msgstr ""
 
+msgid "ball-maise_nm"
+msgstr ""
+
 msgid "ball-nasg_nm"
+msgstr ""
+
+msgid "ball-pàrlamaid_nm"
 msgstr ""
 
 msgid "ballrachd_nf"
@@ -2882,6 +3179,9 @@ msgid "balmaich_v"
 msgstr ""
 
 msgid "balt_nm"
+msgstr ""
+
+msgid "Baltach_a"
 msgstr ""
 
 msgid "bàn_a"
@@ -2906,6 +3206,9 @@ msgid "banacharaid_nf"
 msgstr ""
 
 msgid "banachdach_nf"
+msgstr ""
+
+msgid "banacheàrd_nm"
 msgstr ""
 
 msgid "bana-chliamhainn_nf"
@@ -2944,6 +3247,9 @@ msgstr ""
 msgid "bana-phrionnsa_nf"
 msgstr ""
 
+msgid "bana-sheinneadair_nm"
+msgstr ""
+
 msgid "banas-taighe_nf"
 msgstr ""
 
@@ -2974,6 +3280,12 @@ msgstr ""
 msgid "ban-diùc_nf"
 msgstr ""
 
+msgid "ban-draoidh_nf"
+msgstr ""
+
+msgid "ban-Eadailteach_nm"
+msgstr ""
+
 msgid "ban-fhàidh_nf"
 msgstr ""
 
@@ -3001,6 +3313,9 @@ msgstr ""
 msgid "bann-làmh_nm"
 msgstr ""
 
+msgid "bann-leathann_a"
+msgstr ""
+
 msgid "banntrach_nf"
 msgstr ""
 
@@ -3010,11 +3325,26 @@ msgstr ""
 msgid "ban-ogha_nf"
 msgstr ""
 
+msgid "ban-òglach_nf"
+msgstr ""
+
 msgid "ban-oighre_nf"
 msgstr ""
 
-msgid "bànrigh_nf"
+msgid "ban-phoileas_nm"
+msgstr ""
+
+msgid "banrigh_nf"
 msgstr "banríon_nf"
+
+msgid "ban-rùnaire_nm"
+msgstr ""
+
+msgid "ban-sgoilear_nm"
+msgstr ""
+
+msgid "ban-sheinneadair_nm"
+msgstr ""
 
 msgid "baoghalta_a"
 msgstr ""
@@ -3079,6 +3409,9 @@ msgstr ""
 msgid "bàrdachd_nf"
 msgstr ""
 
+msgid "bàrdail_a"
+msgstr ""
+
 msgid "bargan_nf"
 msgstr ""
 
@@ -3086,6 +3419,9 @@ msgid "barganaich_v"
 msgstr ""
 
 msgid "barganaiche_nm"
+msgstr ""
+
+msgid "bàr-inneil_nm"
 msgstr ""
 
 msgid "bàrr_nm"
@@ -3115,10 +3451,10 @@ msgstr ""
 msgid "barraid_nf"
 msgstr ""
 
-msgid "barraisd_nm"
+msgid "bàrraisg_nm"
 msgstr ""
 
-msgid "bàrraisg_nm"
+msgid "barraist_nm"
 msgstr ""
 
 msgid "barrall_nm"
@@ -3127,10 +3463,16 @@ msgstr ""
 msgid "barran_nm"
 msgstr ""
 
+msgid "barrantaich_v"
+msgstr ""
+
 msgid "barrantas_nm"
 msgstr ""
 
 msgid "bàrr-cheum_nm"
+msgstr ""
+
+msgid "barrfhad_nm"
 msgstr ""
 
 msgid "bas_nf"
@@ -3148,10 +3490,10 @@ msgstr ""
 msgid "bàsaich_v"
 msgstr ""
 
-msgid "Bascach_a"
+msgid "Basgach_a"
 msgstr ""
 
-msgid "Bascach_nm"
+msgid "Basgach_nm"
 msgstr ""
 
 msgid "basgaid_nf"
@@ -3181,6 +3523,18 @@ msgstr ""
 msgid "bàta_nm"
 msgstr ""
 
+msgid "bàta-aiseig_nm"
+msgstr ""
+
+msgid "bàta-bathair_nm"
+msgstr ""
+
+msgid "bàta-foluaimein_nm"
+msgstr ""
+
+msgid "bàta-iasgaich_nm"
+msgstr ""
+
 msgid "batail_nm"
 msgstr ""
 
@@ -3188,6 +3542,15 @@ msgid "batan_nm"
 msgstr ""
 
 msgid "bataraidh_nf"
+msgstr ""
+
+msgid "bàta-siùil_nm"
+msgstr ""
+
+msgid "bàta-smùide_nm"
+msgstr ""
+
+msgid "bàta-teasairginn_nm"
 msgstr ""
 
 msgid "bàth_v"
@@ -3241,6 +3604,9 @@ msgstr ""
 msgid "beachdaireachd_nf"
 msgstr ""
 
+msgid "beachd-bharail_nf"
+msgstr ""
+
 msgid "beachd-smaoin_nf"
 msgstr ""
 
@@ -3268,13 +3634,37 @@ msgstr ""
 msgid "beagan_nm"
 msgstr ""
 
+msgid "beag-charboin_a"
+msgstr ""
+
+msgid "beag-chuid_nf"
+msgstr ""
+
+msgid "beag-feum_nf"
+msgstr ""
+
+msgid "beag-fhaclair_nm"
+msgstr ""
+
+msgid "beag-seagh_nm"
+msgstr ""
+
+msgid "beag-tùr_nm"
+msgstr ""
+
 msgid "beairt_nf"
 msgstr ""
 
 msgid "beairteach_a"
 msgstr ""
 
+msgid "beairteachadh_nm"
+msgstr ""
+
 msgid "beairteas_nm"
+msgstr ""
+
+msgid "beairtich_v"
 msgstr ""
 
 msgid "bealach_nm"
@@ -3331,10 +3721,19 @@ msgstr ""
 msgid "beannaichte_a"
 msgstr ""
 
+msgid "beanntach_a"
+msgstr ""
+
 msgid "beanntachd_nf"
 msgstr ""
 
+msgid "beanntainn_nm"
+msgstr ""
+
 msgid "bean-phòsta_nf"
+msgstr ""
+
+msgid "bean-seinn_nf"
 msgstr ""
 
 msgid "bean-sìthe_nf"
@@ -3351,6 +3750,9 @@ msgstr ""
 
 msgid "bean-uasal_nf"
 msgstr ""
+
+msgid "Bearmùda_nf"
+msgstr "Beirmiúda_nm"
 
 msgid "beàrn_nf"
 msgstr ""
@@ -3383,18 +3785,6 @@ msgid "bearradh_nm"
 msgstr ""
 
 msgid "beart_nf"
-msgstr ""
-
-msgid "beartach_a"
-msgstr ""
-
-msgid "beartachadh_nm"
-msgstr ""
-
-msgid "beartaich_v"
-msgstr ""
-
-msgid "beartas_nm"
 msgstr ""
 
 msgid "beatha_nf"
@@ -3430,6 +3820,9 @@ msgstr ""
 msgid "bèicearachd_nf"
 msgstr ""
 
+msgid "bèile_nf"
+msgstr ""
+
 msgid "Beilg_nf"
 msgstr ""
 
@@ -3439,10 +3832,19 @@ msgstr ""
 msgid "Beilgeach_nm"
 msgstr ""
 
+msgid "beilleag_nf"
+msgstr ""
+
 msgid "being_nf"
 msgstr ""
 
+msgid "Beinin_nf"
+msgstr ""
+
 msgid "beinn_nf"
+msgstr ""
+
+msgid "beinn-theine_nf"
 msgstr ""
 
 msgid "beir_v"
@@ -3466,6 +3868,9 @@ msgstr ""
 msgid "beirmear_nm"
 msgstr ""
 
+msgid "beirtinn_nf"
+msgstr ""
+
 msgid "bèist_nf"
 msgstr ""
 
@@ -3482,6 +3887,9 @@ msgid "beò_a"
 msgstr ""
 
 msgid "beò_nm"
+msgstr ""
+
+msgid "bèobab_nm"
 msgstr ""
 
 msgid "beodhachd_nf"
@@ -3538,6 +3946,9 @@ msgstr ""
 msgid "beulaibh_n"
 msgstr ""
 
+msgid "beulaibh_nm"
+msgstr ""
+
 msgid "beul-aithris_nf"
 msgstr ""
 
@@ -3592,6 +4003,9 @@ msgstr ""
 msgid "bhàsa_nf"
 msgstr ""
 
+msgid "Bhatacain_nf"
+msgstr ""
+
 msgid "bheat_nm"
 msgstr ""
 
@@ -3616,13 +4030,25 @@ msgstr ""
 msgid "bhìosa_nf"
 msgstr ""
 
+msgid "bhìoto_nm"
+msgstr ""
+
 msgid "bhith_nf"
 msgstr ""
+
+msgid "bho_poss"
+msgstr "óna_poss"
 
 msgid "bho_prep"
 msgstr ""
 
 msgid "bhod_poss"
+msgstr "ó do"
+
+msgid "bhodca_nm"
+msgstr ""
+
+msgid "bhòidse_nm"
 msgstr ""
 
 msgid "bholcànach_a"
@@ -3631,14 +4057,23 @@ msgstr ""
 msgid "bholcàno_nm"
 msgstr ""
 
-msgid "bhom_poss"
+msgid "bholta_nm"
 msgstr ""
+
+msgid "bholtaids_nf"
+msgstr ""
+
+msgid "bhom_poss"
+msgstr "ó mo"
+
+msgid "bhom_prep"
+msgstr "ón_prep"
 
 msgid "bhon_prep"
-msgstr ""
+msgstr "ón_prep"
 
 msgid "bhor_poss"
-msgstr ""
+msgstr "ónár_poss"
 
 msgid "bhòt_nf"
 msgstr ""
@@ -3697,6 +4132,9 @@ msgstr ""
 msgid "biastag_nf"
 msgstr ""
 
+msgid "biast-dubh_nf"
+msgstr ""
+
 msgid "biatas_nm"
 msgstr ""
 
@@ -3716,6 +4154,9 @@ msgid "Bile_nm"
 msgstr ""
 
 msgid "bileag_nf"
+msgstr ""
+
+msgid "bileag-iùil_nf"
 msgstr ""
 
 msgid "bileid_nf"
@@ -3739,6 +4180,12 @@ msgstr ""
 msgid "binnean_nm"
 msgstr ""
 
+msgid "binneas_nm"
+msgstr ""
+
+msgid "bìoball_nm"
+msgstr ""
+
 msgid "Bìoball_nm"
 msgstr ""
 
@@ -3746,6 +4193,9 @@ msgid "bìoballach_a"
 msgstr ""
 
 msgid "bìobhar_nm"
+msgstr ""
+
+msgid "biocas_nm"
 msgstr ""
 
 msgid "bìodach_a"
@@ -3758,6 +4208,9 @@ msgid "bioganta_a"
 msgstr ""
 
 msgid "biolair_nf"
+msgstr ""
+
+msgid "biona_nm"
 msgstr ""
 
 msgid "bior_nm"
@@ -3796,10 +4249,16 @@ msgstr ""
 msgid "bitheantas_nm"
 msgstr ""
 
+msgid "bith-eòlaiche_nm"
+msgstr ""
+
 msgid "bith-eòlas_nm"
 msgstr ""
 
 msgid "bith-eòlasach_a"
+msgstr ""
+
+msgid "bith-eugsamhlachd_nf"
 msgstr ""
 
 msgid "bith-iomadachd_nf"
@@ -3808,13 +4267,22 @@ msgstr ""
 msgid "biùro_nm"
 msgstr ""
 
-msgid "biùrocrat_nm"
+msgid "biurocrasaidh_nm"
+msgstr ""
+
+msgid "biurocrat_nm"
+msgstr ""
+
+msgid "biurocratach_a"
 msgstr ""
 
 msgid "blabhdaireachd_nf"
 msgstr ""
 
 msgid "bladh_nm"
+msgstr ""
+
+msgid "blaigeard_nm"
 msgstr ""
 
 msgid "blàr_nm"
@@ -3853,10 +4321,10 @@ msgstr ""
 msgid "blàths_nm"
 msgstr ""
 
-msgid "bleideag_nf"
+msgid "bleadraig_v"
 msgstr ""
 
-msgid "bleigeard_nm"
+msgid "bleideag_nf"
 msgstr ""
 
 msgid "bleith_v"
@@ -3865,10 +4333,16 @@ msgstr ""
 msgid "bleitheadh_nm"
 msgstr ""
 
+msgid "bleoghain_v"
+msgstr ""
+
 msgid "bleoghann_nf"
 msgstr ""
 
 msgid "bliadhna_nf"
+msgstr ""
+
+msgid "bliadhnach_nm"
 msgstr ""
 
 msgid "bliadhnachan_nm"
@@ -3946,6 +4420,9 @@ msgstr ""
 msgid "bobhla_nm"
 msgstr ""
 
+msgid "bobhstair_nm"
+msgstr ""
+
 msgid "boc_nm"
 msgstr ""
 
@@ -3992,6 +4469,9 @@ msgid "bod_nm"
 msgstr ""
 
 msgid "bodach_nm"
+msgstr ""
+
+msgid "bodachail_a"
 msgstr ""
 
 msgid "bodach-feannaig_nm"
@@ -4051,6 +4531,9 @@ msgstr ""
 msgid "boghadaireachd_nf"
 msgstr ""
 
+msgid "bogha-frois_nm"
+msgstr ""
+
 msgid "boglach_nf"
 msgstr ""
 
@@ -4067,6 +4550,9 @@ msgid "bogsa-fòn_nm"
 msgstr ""
 
 msgid "bogsaig_v"
+msgstr ""
+
+msgid "bogsaigeadh_nm"
 msgstr ""
 
 msgid "bogsair_nm"
@@ -4111,6 +4597,9 @@ msgstr ""
 msgid "boillsgeach_a"
 msgstr ""
 
+msgid "boinneag_nf"
+msgstr ""
+
 msgid "boireann_a"
 msgstr ""
 
@@ -4147,6 +4636,12 @@ msgstr ""
 msgid "boma_nm"
 msgstr ""
 
+msgid "bomair_nm"
+msgstr ""
+
+msgid "bonaid_nm"
+msgstr ""
+
 msgid "bònas_nm"
 msgstr ""
 
@@ -4157,6 +4652,9 @@ msgid "bonnach_nm"
 msgstr ""
 
 msgid "bonnair_nm"
+msgstr ""
+
+msgid "bonntaich_v"
 msgstr ""
 
 msgid "bòracs_nm"
@@ -4174,16 +4672,28 @@ msgstr ""
 msgid "Bòrd_nm"
 msgstr ""
 
-msgid "bòsdail_a"
+msgid "bòrd-gearraidh_nm"
 msgstr ""
 
-msgid "Bosnia_nm"
+msgid "bòrd-stiùiridh_nm"
+msgstr ""
+
+msgid "borgh_nm"
+msgstr ""
+
+msgid "Bosna_nf"
+msgstr ""
+
+msgid "bòst_v"
 msgstr ""
 
 msgid "bòstail_a"
 msgstr ""
 
 msgid "botal_nm"
+msgstr ""
+
+msgid "bòtann_nm"
 msgstr ""
 
 msgid "bothag_nf"
@@ -4202,6 +4712,9 @@ msgid "brà_nf"
 msgstr ""
 
 msgid "brabhsair_nm"
+msgstr ""
+
+msgid "brabhsair-lìn_nm"
 msgstr ""
 
 msgid "bracaist_nf"
@@ -4246,6 +4759,9 @@ msgstr ""
 msgid "bràidean_nm"
 msgstr ""
 
+msgid "braidhm_nm"
+msgstr ""
+
 msgid "bràigh_nm"
 msgstr ""
 
@@ -4253,9 +4769,6 @@ msgid "braighdeanas_nm"
 msgstr ""
 
 msgid "brailis_nf"
-msgstr ""
-
-msgid "braim_nm"
 msgstr ""
 
 msgid "braise_nf"
@@ -4271,6 +4784,9 @@ msgid "bràithreachas_nm"
 msgstr ""
 
 msgid "bràithreil_a"
+msgstr ""
+
+msgid "bràmair_nm"
 msgstr ""
 
 msgid "bran_nm"
@@ -4339,13 +4855,25 @@ msgstr ""
 msgid "bratlong_nf"
 msgstr ""
 
+msgid "brat-ùrlair_nm"
+msgstr ""
+
 msgid "breab_nf"
 msgstr ""
 
 msgid "breab_v"
 msgstr ""
 
+msgid "breabadair_nm"
+msgstr ""
+
+msgid "breabadaireachd_nf"
+msgstr ""
+
 msgid "breabadh_nm"
+msgstr ""
+
+msgid "breabail_nf"
 msgstr ""
 
 msgid "breac_a"
@@ -4363,10 +4891,16 @@ msgstr ""
 msgid "breacan_nm"
 msgstr ""
 
+msgid "breac-mara_nm"
+msgstr ""
+
 msgid "breacnaich_v"
 msgstr ""
 
 msgid "breac-sholas_nm"
+msgstr ""
+
+msgid "breacte_a"
 msgstr ""
 
 msgid "brèagha_a"
@@ -4405,6 +4939,12 @@ msgstr ""
 msgid "breige_nf"
 msgstr ""
 
+msgid "breisleach_nf"
+msgstr ""
+
+msgid "breislich_v"
+msgstr ""
+
 msgid "breith_nf"
 msgstr ""
 
@@ -4412,6 +4952,9 @@ msgid "breith an-abaich_nf"
 msgstr ""
 
 msgid "breitheach_a"
+msgstr ""
+
+msgid "breitheanas_nm"
 msgstr ""
 
 msgid "breith-là_nm"
@@ -4427,6 +4970,9 @@ msgid "breithnich_v"
 msgstr ""
 
 msgid "breò-chlach_nf"
+msgstr ""
+
+msgid "breòite_a"
 msgstr ""
 
 msgid "breòiteachd_nf"
@@ -4506,6 +5052,9 @@ msgstr ""
 
 msgid "briodachadh_nm"
 msgstr "pórú_nm"
+
+msgid "briodadh_nm"
+msgstr ""
 
 msgid "briog_v"
 msgstr ""
@@ -4588,6 +5137,9 @@ msgstr ""
 msgid "bròg_nf"
 msgstr ""
 
+msgid "bròg-spòrs_nf"
+msgstr ""
+
 msgid "broicneach_a"
 msgstr ""
 
@@ -4610,6 +5162,9 @@ msgid "bròn_nm"
 msgstr ""
 
 msgid "brònach_a"
+msgstr ""
+
+msgid "bròn-chluich_nm"
 msgstr ""
 
 msgid "bronn_v"
@@ -4660,6 +5215,9 @@ msgstr ""
 msgid "bruadar_nm"
 msgstr ""
 
+msgid "bruan_nm"
+msgstr ""
+
 msgid "bruanach_nm"
 msgstr ""
 
@@ -4676,6 +5234,9 @@ msgid "brùchdach_a"
 msgstr ""
 
 msgid "brùchdadh_nm"
+msgstr ""
+
+msgid "brù-dhearg_nm"
 msgstr ""
 
 msgid "bruich_a"
@@ -4720,10 +5281,19 @@ msgstr ""
 msgid "brùiteag_nf"
 msgstr ""
 
+msgid "bruth_nm"
+msgstr ""
+
 msgid "brùth_v"
 msgstr ""
 
+msgid "bruthach_nm"
+msgstr ""
+
 msgid "brùthadh_nm"
+msgstr ""
+
+msgid "bruthainneach_a"
 msgstr ""
 
 msgid "bu_vcop"
@@ -4816,10 +5386,16 @@ msgstr ""
 msgid "buan_a"
 msgstr ""
 
+msgid "buanaich_v"
+msgstr ""
+
 msgid "buanaiche_nm"
 msgstr ""
 
 msgid "buanas_nm"
+msgstr ""
+
+msgid "buan-cheangal_nm"
 msgstr ""
 
 msgid "buannachadh_nm"
@@ -4832,6 +5408,9 @@ msgid "buannachdail_a"
 msgstr ""
 
 msgid "buannaich_v"
+msgstr ""
+
+msgid "buannaiche_nm"
 msgstr ""
 
 msgid "buar_nm"
@@ -4847,6 +5426,9 @@ msgid "bucaid_nf"
 msgstr ""
 
 msgid "bucall_nm"
+msgstr ""
+
+msgid "bucas_nm"
 msgstr ""
 
 msgid "bucram_nm"
@@ -4879,6 +5461,9 @@ msgstr ""
 msgid "buidheann-rianachd_nf"
 msgstr ""
 
+msgid "buidheann-stiùiridh_nf"
+msgstr ""
+
 msgid "buidhinn_nf"
 msgstr ""
 
@@ -4895,6 +5480,9 @@ msgid "bùidsear_nm"
 msgstr ""
 
 msgid "buidseat_nm"
+msgstr ""
+
+msgid "buidsidh_nm"
 msgstr ""
 
 msgid "buige_nf"
@@ -4993,19 +5581,31 @@ msgstr ""
 msgid "bungalo_nm"
 msgstr ""
 
+msgid "bun-os-cionn_aindec"
+msgstr "bunoscionn_a"
+
+msgid "bun-phuing_nf"
+msgstr ""
+
 msgid "bun-reachd_nm"
 msgstr ""
 
 msgid "Bun-Reachd_nm"
 msgstr ""
 
+msgid "bun-reachdail_a"
+msgstr ""
+
 msgid "bun-sgoil_nf"
+msgstr ""
+
+msgid "bun-smuain_nf"
 msgstr ""
 
 msgid "bun-stèidh_nf"
 msgstr ""
 
-msgid "bun-structair_nm"
+msgid "bun-structar_nm"
 msgstr ""
 
 msgid "buntainn_nm"
@@ -5020,6 +5620,9 @@ msgstr ""
 msgid "buntàta pronn_nm"
 msgstr ""
 
+msgid "bùrach_nm"
+msgstr ""
+
 msgid "Burmach_nm"
 msgstr ""
 
@@ -5032,6 +5635,9 @@ msgstr ""
 msgid "burraidheachd_nf"
 msgstr ""
 
+msgid "Burundaidh_nf"
+msgstr ""
+
 msgid "bus_nm"
 msgstr ""
 
@@ -5039,6 +5645,9 @@ msgid "busachan_nm"
 msgstr ""
 
 msgid "bus-tràilidh_nm"
+msgstr ""
+
+msgid "bùtaich_v"
 msgstr ""
 
 msgid "butarrais_nf"
@@ -5128,6 +5737,9 @@ msgstr ""
 msgid "càch_pn"
 msgstr ""
 
+msgid "càch-a-chèile_nm"
+msgstr ""
+
 msgid "cachaileith_nf"
 msgstr ""
 
@@ -5197,6 +5809,9 @@ msgstr ""
 msgid "caidreachas_nm"
 msgstr ""
 
+msgid "caigeann_nf"
+msgstr ""
+
 msgid "càil_nf"
 msgstr ""
 
@@ -5212,6 +5827,9 @@ msgstr ""
 msgid "cailceach_a"
 msgstr ""
 
+msgid "cailceam_nm"
+msgstr ""
+
 msgid "càileach_nm"
 msgstr ""
 
@@ -5219,6 +5837,9 @@ msgid "càileachd_nf"
 msgstr ""
 
 msgid "caileag_nf"
+msgstr ""
+
+msgid "càilear_a"
 msgstr ""
 
 msgid "càilidheachd_nf"
@@ -5234,6 +5855,9 @@ msgid "caill_v"
 msgstr ""
 
 msgid "cailleach_nf"
+msgstr ""
+
+msgid "Cailleannach_a"
 msgstr ""
 
 msgid "caillte_a"
@@ -5252,6 +5876,9 @@ msgid "càin_nf"
 msgstr ""
 
 msgid "càin_v"
+msgstr ""
+
+msgid "cainb_nf"
 msgstr ""
 
 msgid "caineal_nm"
@@ -5293,6 +5920,9 @@ msgstr ""
 msgid "càireas_nm"
 msgstr ""
 
+msgid "càirich_v"
+msgstr ""
+
 msgid "càirneach_nm"
 msgstr ""
 
@@ -5303,6 +5933,9 @@ msgid "cairt_v"
 msgstr ""
 
 msgid "Cairt_nf"
+msgstr ""
+
+msgid "Cairtbheil_nf"
 msgstr ""
 
 msgid "cairt-bhòrd_nm"
@@ -5327,6 +5960,9 @@ msgid "cairt-phuist_nm"
 msgstr ""
 
 msgid "càise_nf"
+msgstr ""
+
+msgid "caisead_nm"
 msgstr ""
 
 msgid "caiseanach_a"
@@ -5413,6 +6049,9 @@ msgstr ""
 msgid "caladh_nm"
 msgstr ""
 
+msgid "calaraidh_nm"
+msgstr ""
+
 msgid "calc_v"
 msgstr ""
 
@@ -5434,13 +6073,22 @@ msgstr ""
 msgid "calgag_nf"
 msgstr ""
 
+msgid "calg-dhìreach_a"
+msgstr ""
+
 msgid "call_nm"
 msgstr ""
 
 msgid "callaich_v"
 msgstr ""
 
+msgid "callaid_nf"
+msgstr ""
+
 msgid "calldachd_nf"
+msgstr ""
+
+msgid "calltag_nf"
 msgstr ""
 
 msgid "calltainn_nm"
@@ -5453,6 +6101,9 @@ msgid "calman_nm"
 msgstr ""
 
 msgid "calpa_nm"
+msgstr ""
+
+msgid "calpachas_nm"
 msgstr ""
 
 msgid "calpaiche_nm"
@@ -5494,10 +6145,16 @@ msgstr ""
 msgid "camas_nm"
 msgstr ""
 
+msgid "Cambuidea_nf"
+msgstr ""
+
 msgid "cam-ghob_nf"
 msgstr ""
 
 msgid "càmhal_nm"
+msgstr ""
+
+msgid "camhanaich_nf"
 msgstr ""
 
 msgid "campa_nm"
@@ -5608,6 +6265,9 @@ msgstr ""
 msgid "caochan_nm"
 msgstr ""
 
+msgid "caochladair_nm"
+msgstr ""
+
 msgid "caochladh_nm"
 msgstr ""
 
@@ -5641,6 +6301,12 @@ msgstr ""
 msgid "caoilead_nm"
 msgstr ""
 
+msgid "caoimhneas_nm"
+msgstr ""
+
+msgid "caoimhneil_a"
+msgstr ""
+
 msgid "caoin_a"
 msgstr ""
 
@@ -5651,6 +6317,9 @@ msgid "caoineadh_nm"
 msgstr ""
 
 msgid "caointeach_a"
+msgstr ""
+
+msgid "caoir_nf"
 msgstr ""
 
 msgid "caol_a"
@@ -5674,7 +6343,13 @@ msgstr ""
 msgid "caoldruim_nm"
 msgstr ""
 
+msgid "caol-ghèidse_a"
+msgstr "caol_a"
+
 msgid "caol-mhuinealach_a"
+msgstr ""
+
+msgid "caolshràid_nf"
 msgstr ""
 
 msgid "caol-shràid_nf"
@@ -5731,6 +6406,9 @@ msgstr ""
 msgid "càr_nm"
 msgstr ""
 
+msgid "carabhaidh_nf"
+msgstr ""
+
 msgid "carabhan_nf"
 msgstr ""
 
@@ -5759,9 +6437,6 @@ msgid "Caraibeach_nm"
 msgstr ""
 
 msgid "caraich_v"
-msgstr ""
-
-msgid "càraich_v"
 msgstr ""
 
 msgid "caraiche_nm"
@@ -5821,7 +6496,13 @@ msgstr ""
 msgid "càrdair_nm"
 msgstr ""
 
+msgid "càrdamon_nm"
+msgstr ""
+
 msgid "Carghas_nm"
+msgstr ""
+
+msgid "cargu_nm"
 msgstr ""
 
 msgid "càrn_nm"
@@ -5893,6 +6574,9 @@ msgstr ""
 msgid "càs_nm"
 msgstr ""
 
+msgid "Casachstan_nf"
+msgstr ""
+
 msgid "casad_nm"
 msgstr ""
 
@@ -5920,7 +6604,13 @@ msgstr ""
 msgid "cas-cheum_nm"
 msgstr ""
 
+msgid "cas-chrom_nf"
+msgstr ""
+
 msgid "casg_nm"
+msgstr ""
+
+msgid "casgach_a"
 msgstr ""
 
 msgid "casgadh_nm"
@@ -5933,6 +6623,9 @@ msgid "casgairt_nf"
 msgstr ""
 
 msgid "casgan_nm"
+msgstr ""
+
+msgid "casg-gineamhainn_nm"
 msgstr ""
 
 msgid "castan_nm"
@@ -5992,10 +6685,22 @@ msgstr ""
 msgid "cathairiche_nm"
 msgstr ""
 
+msgid "cathair-rìgh_nf"
+msgstr ""
+
+msgid "cathan_nm"
+msgstr ""
+
 msgid "catharra_a"
 msgstr ""
 
 msgid "cathraiche_nm"
+msgstr ""
+
+msgid "Caucasach_a"
+msgstr ""
+
+msgid "Caucasach_nm"
 msgstr ""
 
 msgid "ceacharra_a"
@@ -6106,10 +6811,16 @@ msgstr ""
 msgid "ceannairceach_nm"
 msgstr ""
 
+msgid "ceann-ama_nm"
+msgstr ""
+
 msgid "ceannan_a"
 msgstr ""
 
 msgid "ceannard_nm"
+msgstr ""
+
+msgid "ceannardas_nm"
 msgstr ""
 
 msgid "ceannas_nm"
@@ -6117,6 +6828,9 @@ msgstr ""
 
 msgid "ceannasach_a"
 msgstr ""
+
+msgid "ceann-a-tuath_nm"
+msgstr "tuaisceart_nm"
 
 msgid "ceann-bhaile_nm"
 msgstr ""
@@ -6160,13 +6874,22 @@ msgstr ""
 msgid "ceann-là_nm"
 msgstr ""
 
+msgid "ceann-làidir_a"
+msgstr ""
+
 msgid "ceann-lùbte_a"
+msgstr ""
+
+msgid "ceann-naidheachd_nm"
 msgstr ""
 
 msgid "ceann-pholan_nm"
 msgstr ""
 
 msgid "ceannrach_nm"
+msgstr ""
+
+msgid "ceann-rèile_nm"
 msgstr ""
 
 msgid "ceannruisgte_a"
@@ -6178,10 +6901,16 @@ msgstr ""
 msgid "ceannsaiche_nm"
 msgstr ""
 
+msgid "ceann-seachdain_nm"
+msgstr ""
+
 msgid "ceann-simid_nm"
 msgstr ""
 
 msgid "ceann-suidhe_nm"
+msgstr ""
+
+msgid "ceann-teagaisg_nm"
 msgstr ""
 
 msgid "ceann-uidhe_nm"
@@ -6205,6 +6934,9 @@ msgstr ""
 msgid "cearb_nf"
 msgstr ""
 
+msgid "cearbach_a"
+msgstr ""
+
 msgid "cearban_nm"
 msgstr ""
 
@@ -6215,6 +6947,12 @@ msgid "cearcall_nm"
 msgstr ""
 
 msgid "Cearcall_nm"
+msgstr ""
+
+msgid "cearcallach_a"
+msgstr ""
+
+msgid "cearc-fhraoich_nf"
 msgstr ""
 
 msgid "cearclan_nm"
@@ -6265,6 +7003,9 @@ msgstr ""
 msgid "ceart-cheàrnach_a"
 msgstr ""
 
+msgid "ceart-cheàrnag_nf"
+msgstr ""
+
 msgid "ceart-chreideamh_nm"
 msgstr ""
 
@@ -6277,7 +7018,16 @@ msgstr ""
 msgid "ceasnaich_v"
 msgstr ""
 
+msgid "ceatàisianach_nm"
+msgstr ""
+
+msgid "ceathach_nm"
+msgstr ""
+
 msgid "ceatharnach_nm"
+msgstr ""
+
+msgid "ceathrad_nm"
 msgstr ""
 
 msgid "ceathramh_nm"
@@ -6292,7 +7042,13 @@ msgstr ""
 msgid "ceathrar_nm"
 msgstr ""
 
+msgid "Ceatsua_nf"
+msgstr ""
+
 msgid "cèic_nf"
+msgstr ""
+
+msgid "cèidse_nf"
 msgstr ""
 
 msgid "ceig_nm"
@@ -6307,6 +7063,12 @@ msgstr ""
 msgid "cèile_nm"
 msgstr ""
 
+msgid "ceileir_v"
+msgstr ""
+
+msgid "ceileireadh_nm"
+msgstr ""
+
 msgid "cèilidh_nf"
 msgstr ""
 
@@ -6314,6 +7076,9 @@ msgid "cèillidh_a"
 msgstr ""
 
 msgid "ceilp_nf"
+msgstr ""
+
+msgid "ceilteach_a"
 msgstr ""
 
 msgid "Ceilteach_a"
@@ -6328,9 +7093,6 @@ msgstr ""
 msgid "Ceiltis_nf"
 msgstr ""
 
-msgid "ceimeagair_nm"
-msgstr ""
-
 msgid "ceimig_nf"
 msgstr ""
 
@@ -6338,6 +7100,9 @@ msgid "ceimigeach_a"
 msgstr ""
 
 msgid "ceimigeachd_nf"
+msgstr ""
+
+msgid "ceimigear_nm"
 msgstr ""
 
 msgid "cèin_a"
@@ -6356,6 +7121,9 @@ msgid "ceirean_nm"
 msgstr ""
 
 msgid "cèirich_v"
+msgstr ""
+
+msgid "ceirsle_nf"
 msgstr ""
 
 msgid "cèis_nf"
@@ -6386,6 +7154,18 @@ msgid "ceithir_card"
 msgstr ""
 
 msgid "ceithir_nm"
+msgstr ""
+
+msgid "ceithir-cheàrnach_a"
+msgstr ""
+
+msgid "ceithir-cheàrnach_nm"
+msgstr ""
+
+msgid "ceithir-deug_nm"
+msgstr ""
+
+msgid "ceithir-sreathach_a"
 msgstr ""
 
 msgid "ceò_nf"
@@ -6427,6 +7207,9 @@ msgstr ""
 msgid "ceudad_nm"
 msgstr ""
 
+msgid "ceudameatair_nm"
+msgstr ""
+
 msgid "ceudna_a"
 msgstr ""
 
@@ -6443,6 +7226,9 @@ msgid "ceumnachd_nf"
 msgstr ""
 
 msgid "ceumnaich_v"
+msgstr ""
+
+msgid "ceumnaiche_nm"
 msgstr ""
 
 msgid "ceus_v"
@@ -6490,10 +7276,19 @@ msgstr ""
 msgid "ciad_a"
 msgstr ""
 
+msgid "ciad_nm"
+msgstr "céad_nm"
+
 msgid "ciad_ord"
 msgstr ""
 
 msgid "ciad-fàth_nf"
+msgstr ""
+
+msgid "ciad-fhoghlam_nm"
+msgstr ""
+
+msgid "ciad-ghin_nf"
 msgstr ""
 
 msgid "ciall_nf"
@@ -6550,6 +7345,9 @@ msgstr ""
 msgid "cidsin_nm"
 msgstr ""
 
+msgid "cile_nm"
+msgstr ""
+
 msgid "cileagram_nm"
 msgstr ""
 
@@ -6592,7 +7390,13 @@ msgstr ""
 msgid "cinneas_nm"
 msgstr ""
 
+msgid "cinneasachd_nf"
+msgstr ""
+
 msgid "cinne-daonna_nm"
+msgstr ""
+
+msgid "cinnidheach_a"
 msgstr ""
 
 msgid "cinnidheachd_nf"
@@ -6613,7 +7417,13 @@ msgstr ""
 msgid "cinntinn_nf"
 msgstr ""
 
+msgid "cìobair_nm"
+msgstr ""
+
 msgid "cìoch_nf"
+msgstr ""
+
+msgid "cìoch-shlugain_nf"
 msgstr ""
 
 msgid "cìocrach_a"
@@ -6640,6 +7450,9 @@ msgstr ""
 msgid "cion-analach_nm"
 msgstr ""
 
+msgid "cion-cosnaidh_nm"
+msgstr ""
+
 msgid "cionn_n"
 msgstr ""
 
@@ -6658,7 +7471,16 @@ msgstr ""
 msgid "ciontaich_v"
 msgstr ""
 
+msgid "ciopair_nm"
+msgstr ""
+
+msgid "Cìorgastan_nf"
+msgstr ""
+
 msgid "ciorram_nm"
+msgstr ""
+
+msgid "ciorramach_a"
 msgstr ""
 
 msgid "ciorramachadh_nm"
@@ -6697,6 +7519,9 @@ msgstr ""
 msgid "cisean_nm"
 msgstr ""
 
+msgid "cìs-mhaor_nm"
+msgstr ""
+
 msgid "cìs-oighreachd_nf"
 msgstr ""
 
@@ -6706,6 +7531,12 @@ msgstr ""
 msgid "Ciste_nf"
 msgstr ""
 
+msgid "ciste-dhràthraichean_nf"
+msgstr ""
+
+msgid "ciste-laighe_nf"
+msgstr ""
+
 msgid "ciùb_nm"
 msgstr ""
 
@@ -6713,6 +7544,9 @@ msgid "ciùbach_a"
 msgstr ""
 
 msgid "ciùbaichte_a"
+msgstr ""
+
+msgid "ciudha_nm"
 msgstr ""
 
 msgid "ciùin_a"
@@ -6731,6 +7565,12 @@ msgid "ciùrr_v"
 msgstr ""
 
 msgid "ciùrradh_nm"
+msgstr ""
+
+msgid "ciùrrta_a"
+msgstr ""
+
+msgid "ciutha_nm"
 msgstr ""
 
 msgid "clàbar_nm"
@@ -6754,19 +7594,34 @@ msgstr ""
 msgid "clachach_a"
 msgstr ""
 
+msgid "clachair_nm"
+msgstr ""
+
 msgid "clachaireachd_nf"
 msgstr ""
 
 msgid "clachan_nm"
 msgstr ""
 
+msgid "clach-aoil_nf"
+msgstr ""
+
 msgid "clacharan_nm"
+msgstr ""
+
+msgid "clach-ghainmhich_nf"
 msgstr ""
 
 msgid "clach-ghràbhalaiche_nm"
 msgstr ""
 
 msgid "clach luachmhor_nf"
+msgstr ""
+
+msgid "clach-mheallain_nf"
+msgstr ""
+
+msgid "clach-mhìle_nf"
 msgstr ""
 
 msgid "cladach_nm"
@@ -6791,6 +7646,9 @@ msgid "cladhaire_nm"
 msgstr ""
 
 msgid "cladhaireachd_nf"
+msgstr ""
+
+msgid "cladhan_nm"
 msgstr ""
 
 msgid "clag_nm"
@@ -6826,6 +7684,9 @@ msgstr ""
 msgid "claistinn_nf"
 msgstr ""
 
+msgid "claistinneach_a"
+msgstr ""
+
 msgid "clamhadh_nm"
 msgstr ""
 
@@ -6835,7 +7696,13 @@ msgstr ""
 msgid "clamhan_nm"
 msgstr ""
 
+msgid "clamhan-gobhlach_nm"
+msgstr ""
+
 msgid "clann_nf"
+msgstr ""
+
+msgid "clann-nighean_nf"
 msgstr ""
 
 msgid "clann-sgoile_nf"
@@ -6886,7 +7753,13 @@ msgstr "próifíl_nf"
 msgid "clàr-ama_nm"
 msgstr ""
 
+msgid "clàr-amais_nm"
+msgstr ""
+
 msgid "clàrc_nm"
+msgstr ""
+
+msgid "clàr-deighe_nm"
 msgstr ""
 
 msgid "clàr-dhealbh_nm"
@@ -6898,10 +7771,28 @@ msgstr ""
 msgid "clàr-fuaime_nm"
 msgstr ""
 
+msgid "clàr-gnothaich_nm"
+msgstr ""
+
+msgid "clàr-innse_nm"
+msgstr ""
+
+msgid "clàr-obrach_nm"
+msgstr ""
+
+msgid "clàr-oideachaidh_nm"
+msgstr ""
+
 msgid "clàrsach_nf"
 msgstr ""
 
+msgid "clàrsair_nm"
+msgstr ""
+
 msgid "clàr-stòraidh_nm"
+msgstr ""
+
+msgid "clàr-taice_nm"
 msgstr ""
 
 msgid "clas_nm"
@@ -6916,6 +7807,9 @@ msgstr ""
 msgid "clasaigeach_nm"
 msgstr ""
 
+msgid "clas-bogaidh_nm"
+msgstr ""
+
 msgid "claspa_nm"
 msgstr ""
 
@@ -6925,6 +7819,9 @@ msgstr ""
 msgid "cleachd_v"
 msgstr ""
 
+msgid "cleachdach_a"
+msgstr ""
+
 msgid "cleachdadh_nm"
 msgstr ""
 
@@ -6932,9 +7829,6 @@ msgid "cleachdaiche_nm"
 msgstr ""
 
 msgid "cleachdte_a"
-msgstr ""
-
-msgid "cleachte_a"
 msgstr ""
 
 msgid "cleamhnachadh_nm"
@@ -6950,6 +7844,9 @@ msgid "cleasachd_nf"
 msgstr ""
 
 msgid "cleasaiche_nm"
+msgstr ""
+
+msgid "cleas-sgrìobhaidh_nm"
 msgstr ""
 
 msgid "clèir_nf"
@@ -6979,11 +7876,20 @@ msgstr ""
 msgid "cleithean_nm"
 msgstr ""
 
+msgid "cleòca_nm"
+msgstr ""
+
 msgid "clì_a"
 msgstr ""
 
 msgid "cliabh_nm"
 msgstr ""
+
+msgid "cliabhair_nm"
+msgstr ""
+
+msgid "cliabhaireachd_nf"
+msgstr "caoladóireacht_nf"
 
 msgid "cliabhan_nm"
 msgstr ""
@@ -6995,6 +7901,12 @@ msgid "cliath_nf"
 msgstr ""
 
 msgid "cliathach_nf"
+msgstr ""
+
+msgid "clìc_nf"
+msgstr ""
+
+msgid "clìceach_a"
 msgstr ""
 
 msgid "clinnceadh_nm"
@@ -7013,6 +7925,12 @@ msgid "cliog_v"
 msgstr ""
 
 msgid "clìomaid_nf"
+msgstr ""
+
+msgid "clionaigeach_a"
+msgstr ""
+
+msgid "cliop_nm"
 msgstr ""
 
 msgid "clipse_nf"
@@ -7147,13 +8065,22 @@ msgstr ""
 msgid "cluas_nf"
 msgstr ""
 
+msgid "cluasag_nf"
+msgstr ""
+
 msgid "cluasan_nm"
+msgstr ""
+
+msgid "cluas-mhara_nf"
 msgstr ""
 
 msgid "club_nm"
 msgstr ""
 
 msgid "Club_nm"
+msgstr ""
+
+msgid "club-òigridh_nm"
 msgstr ""
 
 msgid "cluich_nm"
@@ -7195,10 +8122,16 @@ msgstr ""
 msgid "cnàimh_nm"
 msgstr ""
 
+msgid "cnàimh-droma_nm"
+msgstr ""
+
 msgid "cnàimheach_a"
 msgstr ""
 
 msgid "cnàimhean_nm"
+msgstr ""
+
+msgid "cnàimhneach_nm"
 msgstr ""
 
 msgid "cnàimhte_a"
@@ -7208,9 +8141,6 @@ msgid "cnàmh_v"
 msgstr ""
 
 msgid "cnàmhag_nf"
-msgstr ""
-
-msgid "cnàmharlach_nm"
 msgstr ""
 
 msgid "cnàmh-sgeul_nf"
@@ -7234,6 +8164,9 @@ msgstr ""
 msgid "cnap-shuim_nf"
 msgstr ""
 
+msgid "cnap-starra_nm"
+msgstr ""
+
 msgid "cnatan_nm"
 msgstr ""
 
@@ -7249,7 +8182,10 @@ msgstr ""
 msgid "cneasaich_v"
 msgstr ""
 
-msgid "cneasdachd_nf"
+msgid "cneasta_a"
+msgstr ""
+
+msgid "cneastachd_nf"
 msgstr ""
 
 msgid "cnò_nf"
@@ -7270,10 +8206,16 @@ msgstr ""
 msgid "cnòd_v"
 msgstr ""
 
+msgid "cnò-mheannt_nf"
+msgstr ""
+
 msgid "cnot_nm"
 msgstr ""
 
 msgid "cnuasachadh_nm"
+msgstr ""
+
+msgid "cnuasachd_nf"
 msgstr ""
 
 msgid "cnuasaich_v"
@@ -7297,10 +8239,16 @@ msgstr ""
 msgid "co-ainmear_nm"
 msgstr ""
 
+msgid "co-àiteachail_a"
+msgstr ""
+
 msgid "co-alta_nm"
 msgstr ""
 
 msgid "co-aontaich_v"
+msgstr ""
+
+msgid "co-aontar_nm"
 msgstr ""
 
 msgid "cobhair_nf"
@@ -7334,6 +8282,9 @@ msgid "cochallach_a"
 msgstr ""
 
 msgid "co-cheangail_v"
+msgstr ""
+
+msgid "co-cheangailte_a"
 msgstr ""
 
 msgid "co-cheangal_nm"
@@ -7372,7 +8323,22 @@ msgstr ""
 msgid "co-chonaltradh_nm"
 msgstr ""
 
+msgid "co-chòrdadh_nm"
+msgstr ""
+
+msgid "co-chòrdail_a"
+msgstr ""
+
+msgid "co-chòrdalachd_nf"
+msgstr ""
+
 msgid "co-chorpaich_v"
+msgstr ""
+
+msgid "co-chosmhail_a"
+msgstr ""
+
+msgid "co-chothromachd_nf"
 msgstr ""
 
 msgid "co-chruinn_a"
@@ -7381,7 +8347,16 @@ msgstr ""
 msgid "co-chruinneachadh_nm"
 msgstr ""
 
+msgid "co-chruinnein_a"
+msgstr ""
+
 msgid "co-chruinnich_v"
+msgstr ""
+
+msgid "co-chuingich_v"
+msgstr ""
+
+msgid "co-chur_nm"
 msgstr ""
 
 msgid "còco_nm"
@@ -7399,7 +8374,13 @@ msgstr ""
 msgid "Còdhail_nf"
 msgstr ""
 
+msgid "co-dhalta_nm"
+msgstr ""
+
 msgid "co-dhèanamh_nm"
+msgstr ""
+
+msgid "co-dhearbhadh_nm"
 msgstr ""
 
 msgid "co-dheas_a"
@@ -7426,10 +8407,16 @@ msgstr ""
 msgid "cofaidh_nm"
 msgstr ""
 
+msgid "co-fhaclair_nm"
+msgstr ""
+
 msgid "co-fhaireachdainn_nf"
 msgstr ""
 
 msgid "co-fharpais_nf"
+msgstr ""
+
+msgid "co-fhillte_a"
 msgstr ""
 
 msgid "co-fhios_nf"
@@ -7457,6 +8444,9 @@ msgid "co-fhreagraiche_nm"
 msgstr ""
 
 msgid "co-fhulangach_a"
+msgstr ""
+
+msgid "co-fhulangas_nm"
 msgstr ""
 
 msgid "cofhurtachd_nf"
@@ -7495,6 +8485,9 @@ msgstr ""
 msgid "co-ghin_v"
 msgstr ""
 
+msgid "co-ghnèitheach_a"
+msgstr ""
+
 msgid "co-ghnìomhair_nm"
 msgstr ""
 
@@ -7507,10 +8500,16 @@ msgstr ""
 msgid "coidse_nf"
 msgstr ""
 
+msgid "còidseadh_nm"
+msgstr ""
+
 msgid "còig_card"
 msgstr ""
 
 msgid "còig_nm"
+msgstr ""
+
+msgid "còig-bheusach_a"
 msgstr ""
 
 msgid "còig-cheàrnach_nm"
@@ -7570,9 +8569,6 @@ msgstr ""
 msgid "coiligeann_nm"
 msgstr ""
 
-msgid "coilion_v"
-msgstr ""
-
 msgid "coill_nf"
 msgstr ""
 
@@ -7583,6 +8579,9 @@ msgid "coilleag_nf"
 msgstr ""
 
 msgid "coillear_nm"
+msgstr ""
+
+msgid "coille-uisge_nf"
 msgstr ""
 
 msgid "coillteach_a"
@@ -7604,6 +8603,9 @@ msgid "coimeasgachadh_nm"
 msgstr ""
 
 msgid "coimeasgaich_v"
+msgstr ""
+
+msgid "coimeirsealta_a"
 msgstr ""
 
 msgid "Coimhde_nm"
@@ -7636,6 +8638,9 @@ msgstr ""
 msgid "Coimisean_nm"
 msgstr ""
 
+msgid "coimiseanadh_nm"
+msgstr ""
+
 msgid "coimiseanair_nm"
 msgstr ""
 
@@ -7652,6 +8657,9 @@ msgid "coinean_nm"
 msgstr ""
 
 msgid "coineanach_nm"
+msgstr ""
+
+msgid "coingeis_a"
 msgstr ""
 
 msgid "còinneach_nf"
@@ -7699,6 +8707,18 @@ msgstr ""
 msgid "coirbeachd_nf"
 msgstr ""
 
+msgid "còir-bhòtaidh_nf"
+msgstr ""
+
+msgid "còir-bhreith_nf"
+msgstr ""
+
+msgid "còir-bhreithe_nf"
+msgstr ""
+
+msgid "coirbte_a"
+msgstr ""
+
 msgid "coirbteachd_nf"
 msgstr ""
 
@@ -7714,9 +8734,6 @@ msgstr ""
 msgid "còire_nf"
 msgstr ""
 
-msgid "Coirèa_nf"
-msgstr ""
-
 msgid "coireach_a"
 msgstr ""
 
@@ -7726,28 +8743,34 @@ msgstr ""
 msgid "coireachail_a"
 msgstr ""
 
+msgid "coireall_nm"
+msgstr "tríleach_nm"
+
+msgid "Coiria_nf"
+msgstr ""
+
 msgid "coirich_v"
 msgstr ""
 
 msgid "còirich_v"
 msgstr ""
 
+msgid "coiridh_nf"
+msgstr ""
+
+msgid "Coirinteach_a"
+msgstr ""
+
+msgid "Coirinteach_nm"
+msgstr ""
+
 msgid "còirne_nf"
 msgstr ""
 
-msgid "coirneal_nm"
+msgid "còirneal_nm"
 msgstr ""
 
 msgid "coirneid_nf"
-msgstr ""
-
-msgid "coisde_nf"
-msgstr ""
-
-msgid "Coisde_nf"
-msgstr ""
-
-msgid "coisdear_nm"
 msgstr ""
 
 msgid "coiseachd_nf"
@@ -7766,6 +8789,12 @@ msgid "còisir_nf"
 msgstr ""
 
 msgid "coisrig_v"
+msgstr ""
+
+msgid "coiste_nf"
+msgstr ""
+
+msgid "coistear_nm"
 msgstr ""
 
 msgid "coit_nf"
@@ -7813,13 +8842,13 @@ msgstr ""
 msgid "colag_nf"
 msgstr ""
 
-msgid "colaisdeach_a"
-msgstr ""
-
 msgid "colaiste_nf"
 msgstr ""
 
 msgid "Colaiste_nf"
+msgstr ""
+
+msgid "colaisteach_a"
 msgstr ""
 
 msgid "colamoir_nm"
@@ -7855,16 +8884,34 @@ msgstr ""
 msgid "Coloimbia_nf"
 msgstr ""
 
+msgid "Coloimbianach_a"
+msgstr ""
+
+msgid "Coloimbianach_nm"
+msgstr ""
+
 msgid "coloinealachd_nf"
 msgstr ""
 
+msgid "colòiniach_a"
+msgstr ""
+
+msgid "coloinidh_nf"
+msgstr ""
+
 msgid "coltach_a"
+msgstr ""
+
+msgid "coltachd_nf"
 msgstr ""
 
 msgid "coltar_nm"
 msgstr ""
 
 msgid "coltas_nm"
+msgstr ""
+
+msgid "coluadar_nm"
 msgstr ""
 
 msgid "com_nm"
@@ -7909,6 +8956,12 @@ msgstr ""
 msgid "comannach_nm"
 msgstr ""
 
+msgid "comannaich_v"
+msgstr ""
+
+msgid "comann-sòisealta_nm"
+msgstr ""
+
 msgid "comar_nm"
 msgstr ""
 
@@ -7916,6 +8969,12 @@ msgid "comas_nm"
 msgstr ""
 
 msgid "comasach_a"
+msgstr ""
+
+msgid "comasachd_nf"
+msgstr ""
+
+msgid "comasaich_v"
 msgstr ""
 
 msgid "comataidh_nf"
@@ -7960,16 +9019,19 @@ msgstr ""
 msgid "comhardadh_nm"
 msgstr ""
 
+msgid "comharra_nm"
+msgstr ""
+
 msgid "comharrachadh_nm"
 msgstr ""
 
 msgid "comharra-clèithe_nm"
 msgstr ""
 
-msgid "comharradh_nm"
+msgid "comharraich_v"
 msgstr ""
 
-msgid "comharraich_v"
+msgid "comharra-lìn_nm"
 msgstr ""
 
 msgid "comhart_nm"
@@ -7991,6 +9053,12 @@ msgid "còmhdaichte_a"
 msgstr ""
 
 msgid "còmhdhail_nf"
+msgstr ""
+
+msgid "co-mheas_nm"
+msgstr ""
+
+msgid "co-mheatailt_nf"
 msgstr ""
 
 msgid "còmhghachd_nf"
@@ -8053,10 +9121,19 @@ msgstr ""
 msgid "còmhstri_nf"
 msgstr ""
 
+msgid "còmh-thràth_nm"
+msgstr ""
+
 msgid "com-pàirt_nf"
 msgstr ""
 
+msgid "com-pàirteach_a"
+msgstr ""
+
 msgid "com-pàirteachadh_nm"
+msgstr ""
+
+msgid "com-pàirteachail_a"
 msgstr ""
 
 msgid "com-pàirteachas_nm"
@@ -8089,6 +9166,9 @@ msgstr ""
 msgid "conaltradh_nm"
 msgstr ""
 
+msgid "conasg_nm"
+msgstr ""
+
 msgid "co-nasgadh_nm"
 msgstr ""
 
@@ -8096,6 +9176,9 @@ msgid "conathadh_nm"
 msgstr ""
 
 msgid "conbhalladh_nm"
+msgstr ""
+
+msgid "concrait_nf"
 msgstr ""
 
 msgid "co-neartachadh_nm"
@@ -8114,6 +9197,12 @@ msgid "conn_nm"
 msgstr ""
 
 msgid "connadh_nm"
+msgstr ""
+
+msgid "connlach_nf"
+msgstr ""
+
+msgid "connrag_nf"
 msgstr ""
 
 msgid "connsachadh_nm"
@@ -8158,10 +9247,16 @@ msgstr ""
 msgid "co-obraich_v"
 msgstr ""
 
+msgid "co-ogha_nm"
+msgstr ""
+
 msgid "co-oibriche_nm"
 msgstr ""
 
 msgid "co-òrdanachadh_nm"
+msgstr ""
+
+msgid "co-òrdanaich_v"
 msgstr ""
 
 msgid "co-òrdanaiche_nm"
@@ -8176,6 +9271,12 @@ msgstr ""
 msgid "copag_nf"
 msgstr ""
 
+msgid "copaidh_nf"
+msgstr ""
+
+msgid "copaig_v"
+msgstr ""
+
 msgid "copail_nf"
 msgstr ""
 
@@ -8183,6 +9284,9 @@ msgid "copan_nm"
 msgstr ""
 
 msgid "copar_nm"
+msgstr ""
+
+msgid "co-phàirt_nf"
 msgstr ""
 
 msgid "co-phreasantair_nm"
@@ -8230,13 +9334,28 @@ msgstr ""
 msgid "Còrnach_a"
 msgstr ""
 
+msgid "còrnair_nm"
+msgstr ""
+
 msgid "Còrnais_nf"
 msgstr ""
 
 msgid "co-roinn_nf"
 msgstr ""
 
+msgid "co-roinn_v"
+msgstr ""
+
+msgid "co-roinneil_a"
+msgstr ""
+
+msgid "co-roinnte_a"
+msgstr ""
+
 msgid "corp_nm"
+msgstr ""
+
+msgid "corpailear_nm"
 msgstr ""
 
 msgid "corpan_nm"
@@ -8250,6 +9369,9 @@ msgstr ""
 
 msgid "corpas_nm"
 msgstr "corpas_nm"
+
+msgid "corporaid_nf"
+msgstr ""
 
 msgid "corporra_a"
 msgstr ""
@@ -8284,6 +9406,9 @@ msgstr "corruair_adv"
 msgid "còrr-mhial_nf"
 msgstr ""
 
+msgid "còrsa_nm"
+msgstr ""
+
 msgid "còsag_nf"
 msgstr ""
 
@@ -8305,10 +9430,16 @@ msgstr ""
 msgid "co-sheòrsach_a"
 msgstr ""
 
+msgid "co-sheòrsachd_nf"
+msgstr ""
+
 msgid "co-shìnte_a"
 msgstr ""
 
 msgid "cosmhail_a"
+msgstr ""
+
+msgid "cosmhalachd_nf"
 msgstr ""
 
 msgid "cosnadh_nm"
@@ -8338,13 +9469,22 @@ msgstr ""
 msgid "cothaich_v"
 msgstr ""
 
-msgid "co-theacsa_nm"
+msgid "co-theacs_nm"
 msgstr ""
+
+msgid "co-thiomsach_a"
+msgstr "comhthiomsaitheach_a"
+
+msgid "co-thionndadh_nm"
+msgstr "deilín_nm"
 
 msgid "co-thìreach_nm"
 msgstr ""
 
 msgid "cothlamadh_nm"
+msgstr ""
+
+msgid "co-thorach_a"
 msgstr ""
 
 msgid "cothrom_nm"
@@ -8360,6 +9500,9 @@ msgid "cothromachd_nf"
 msgstr ""
 
 msgid "cothromaich_v"
+msgstr ""
+
+msgid "cothrom-obrach_nm"
 msgstr ""
 
 msgid "cràbhach_a"
@@ -8380,6 +9523,9 @@ msgstr ""
 msgid "cràdh-ghèadh_nf"
 msgstr ""
 
+msgid "cràdh-lot_nm"
+msgstr ""
+
 msgid "craic_nf"
 msgstr "craic_nf"
 
@@ -8398,6 +9544,9 @@ msgstr ""
 msgid "cràin_nf"
 msgstr ""
 
+msgid "cràiteach_a"
+msgstr ""
+
 msgid "crambaid_nf"
 msgstr ""
 
@@ -8413,7 +9562,13 @@ msgstr ""
 msgid "crannag_nf"
 msgstr ""
 
+msgid "crann-ceusaidh_nm"
+msgstr ""
+
 msgid "crannchur_nm"
+msgstr ""
+
+msgid "crannchur-gill_nm"
 msgstr ""
 
 msgid "crannlach_nf"
@@ -8426,6 +9581,9 @@ msgid "craobh_nf"
 msgstr ""
 
 msgid "Craobh_nf"
+msgstr ""
+
+msgid "craobhach_a"
 msgstr ""
 
 msgid "craobh-sgaoil_v"
@@ -8485,6 +9643,9 @@ msgstr ""
 msgid "creachadh_nm"
 msgstr ""
 
+msgid "creachann_nm"
+msgstr ""
+
 msgid "creachdach_a"
 msgstr ""
 
@@ -8519,6 +9680,9 @@ msgid "creamh-gàraidh_nm"
 msgstr ""
 
 msgid "creatlach_nf"
+msgstr ""
+
+msgid "crèche_nm"
 msgstr ""
 
 msgid "creid_v"
@@ -8561,6 +9725,9 @@ msgid "creucht_nf"
 msgstr ""
 
 msgid "creutair_nm"
+msgstr ""
+
+msgid "criadh-chlachair_nm"
 msgstr ""
 
 msgid "criathar_nm"
@@ -8665,6 +9832,9 @@ msgstr ""
 msgid "crios-làimh_nm"
 msgstr ""
 
+msgid "crios-mheadhain_nm"
+msgstr ""
+
 msgid "criospag_nf"
 msgstr ""
 
@@ -8750,6 +9920,9 @@ msgid "crogall_nm"
 msgstr ""
 
 msgid "crogan_nm"
+msgstr ""
+
+msgid "cròice_nf"
 msgstr ""
 
 msgid "cròileagan_nm"
@@ -8878,10 +10051,16 @@ msgstr ""
 msgid "cruadhaich_v"
 msgstr ""
 
+msgid "cruadhtan_nm"
+msgstr ""
+
 msgid "cruaidh_a"
 msgstr ""
 
 msgid "cruaidh_nf"
+msgstr ""
+
+msgid "cruaidh-chàs_nm"
 msgstr ""
 
 msgid "cruaidh-chràbhach_a"
@@ -8926,6 +10105,9 @@ msgstr ""
 msgid "cruinneas_nm"
 msgstr ""
 
+msgid "cruinne-cè_nm"
+msgstr ""
+
 msgid "cruinneil_a"
 msgstr ""
 
@@ -8936,6 +10118,9 @@ msgid "cruinn-eòlas_nm"
 msgstr ""
 
 msgid "cruinnich_v"
+msgstr ""
+
+msgid "cruinn-leum_nf"
 msgstr ""
 
 msgid "cruis_nm"
@@ -8965,6 +10150,9 @@ msgstr ""
 msgid "cruithneachd_nf"
 msgstr ""
 
+msgid "Cruithnis_nf"
+msgstr ""
+
 msgid "crùn_nm"
 msgstr ""
 
@@ -8980,6 +10168,9 @@ msgstr ""
 msgid "cruth_nm"
 msgstr ""
 
+msgid "cruthach_a"
+msgstr ""
+
 msgid "cruthachadh_nm"
 msgstr ""
 
@@ -8990,6 +10181,12 @@ msgid "cruthaich_v"
 msgstr "cruthaigh_v"
 
 msgid "cruthail_a"
+msgstr ""
+
+msgid "cruth-atharrachadh_nm"
+msgstr ""
+
+msgid "cruth-clò_nm"
 msgstr ""
 
 msgid "cruth-tìre_nm"
@@ -9004,6 +10201,9 @@ msgstr ""
 msgid "cuachach_a"
 msgstr ""
 
+msgid "Cuaigear_nm"
+msgstr ""
+
 msgid "cuaille_nm"
 msgstr ""
 
@@ -9014,6 +10214,9 @@ msgid "cuairsgean_nm"
 msgstr ""
 
 msgid "cuairt_nf"
+msgstr ""
+
+msgid "cuairt-bheatha_nf"
 msgstr ""
 
 msgid "cuairteachadh_nm"
@@ -9031,6 +10234,9 @@ msgstr ""
 msgid "cuairt-litir_nf"
 msgstr ""
 
+msgid "cuairt-thomhas_nf"
+msgstr ""
+
 msgid "cual_nf"
 msgstr ""
 
@@ -9041,6 +10247,12 @@ msgid "cuan_nm"
 msgstr ""
 
 msgid "Cuan_nm"
+msgstr ""
+
+msgid "cuango_nm"
+msgstr ""
+
+msgid "cuaraidh_nm"
 msgstr ""
 
 msgid "cuaran_nm"
@@ -9088,6 +10300,9 @@ msgstr ""
 msgid "cù-bruic_nm"
 msgstr ""
 
+msgid "cucaidh_nf"
+msgstr "fianán_nm"
+
 msgid "cucair_nf"
 msgstr ""
 
@@ -9118,6 +10333,9 @@ msgstr ""
 msgid "cuibheasach_a"
 msgstr ""
 
+msgid "Cuibhèit_nf"
+msgstr ""
+
 msgid "cuibhil_v"
 msgstr ""
 
@@ -9140,6 +10358,9 @@ msgid "cuibhrich_v"
 msgstr ""
 
 msgid "cuibhrig_nm"
+msgstr ""
+
+msgid "cuibhrig_v"
 msgstr ""
 
 msgid "cuid_nf"
@@ -9193,6 +10414,12 @@ msgstr ""
 msgid "cùil_nf"
 msgstr ""
 
+msgid "cuilbheart_nm"
+msgstr ""
+
+msgid "cuilbheartach_nm"
+msgstr ""
+
 msgid "cuilc_nf"
 msgstr ""
 
@@ -9223,6 +10450,9 @@ msgstr ""
 msgid "cuimhne_nf"
 msgstr ""
 
+msgid "cuimhneachail_a"
+msgstr ""
+
 msgid "cuimhneachan_nm"
 msgstr ""
 
@@ -9242,6 +10472,9 @@ msgid "Cuimrigh_nf"
 msgstr ""
 
 msgid "Cuimris_nf"
+msgstr ""
+
+msgid "cuimse_nf"
 msgstr ""
 
 msgid "cuimseach_a"
@@ -9268,13 +10501,22 @@ msgstr ""
 msgid "cuingealaich_v"
 msgstr ""
 
+msgid "cuingich_v"
+msgstr ""
+
 msgid "cuinne_nf"
 msgstr ""
 
 msgid "cuinneag_nf"
 msgstr ""
 
+msgid "cuinnean_nm"
+msgstr ""
+
 msgid "cuip_nf"
+msgstr ""
+
+msgid "cuip_v"
 msgstr ""
 
 msgid "cuir_v"
@@ -9337,6 +10579,9 @@ msgstr ""
 msgid "cuisean_nm"
 msgstr ""
 
+msgid "cùis-lagha_nf"
+msgstr ""
+
 msgid "cuisle_nf"
 msgstr ""
 
@@ -9349,7 +10594,13 @@ msgstr ""
 msgid "cùiste_nf"
 msgstr ""
 
+msgid "cùis-uabhais_nf"
+msgstr ""
+
 msgid "cuithe_nf"
+msgstr ""
+
+msgid "cuithe-sneachda_nf"
 msgstr ""
 
 msgid "cùl_nm"
@@ -9361,6 +10612,15 @@ msgstr ""
 msgid "culaidh_nf"
 msgstr ""
 
+msgid "culaidh-ghràin_nf"
+msgstr ""
+
+msgid "culaidh-mhagaidh_nf"
+msgstr ""
+
+msgid "culaidh-thruais_nf"
+msgstr ""
+
 msgid "cularan_nm"
 msgstr ""
 
@@ -9368,6 +10628,9 @@ msgid "cùl-chainnt_nf"
 msgstr ""
 
 msgid "cùl-chainntear_nm"
+msgstr ""
+
+msgid "cùl-fhiosrachadh_nm"
 msgstr ""
 
 msgid "cùl-ionad_nm"
@@ -9392,10 +10655,10 @@ msgid "cùl-taic_nm"
 msgstr ""
 
 msgid "cultar_nm"
-msgstr ""
+msgstr "cultúr_nm"
 
 msgid "cultarach_a"
-msgstr ""
+msgstr "cultúrtha_a"
 
 msgid "cum_v"
 msgstr ""
@@ -9412,10 +10675,16 @@ msgstr ""
 msgid "cumadh_nm"
 msgstr ""
 
+msgid "cumadh-tìre_nm"
+msgstr ""
+
 msgid "cumaidheachd_nf"
 msgstr ""
 
 msgid "cumail_nf"
+msgstr ""
+
+msgid "cumail-suas_nf"
 msgstr ""
 
 msgid "cumanta_a"
@@ -9430,6 +10699,9 @@ msgstr ""
 msgid "cumasg_nf"
 msgstr ""
 
+msgid "cumha_nf"
+msgstr ""
+
 msgid "cumha_nm"
 msgstr ""
 
@@ -9440,6 +10712,9 @@ msgid "cumhachd_nf"
 msgstr ""
 
 msgid "cumhachdach_a"
+msgstr ""
+
+msgid "cumhachd-uisge_nf"
 msgstr ""
 
 msgid "cumhang_a"
@@ -9460,6 +10735,9 @@ msgstr ""
 msgid "cunbhalachd_nf"
 msgstr ""
 
+msgid "cungaidh_nf"
+msgstr ""
+
 msgid "cungaidh-leigheis_nf"
 msgstr ""
 
@@ -9476,6 +10754,9 @@ msgid "cunnartachadh_nm"
 msgstr ""
 
 msgid "cunnartaich_v"
+msgstr ""
+
+msgid "cùnnradair_nm"
 msgstr ""
 
 msgid "cunnradh_nm"
@@ -9499,9 +10780,6 @@ msgstr ""
 msgid "cunntair_nm"
 msgstr ""
 
-msgid "cunntas_nf"
-msgstr ""
-
 msgid "cunntas_nm"
 msgstr ""
 
@@ -9511,7 +10789,10 @@ msgstr ""
 msgid "cunntasair_nm"
 msgstr ""
 
-msgid "cunntas-bheachd_nf"
+msgid "cunntas-beatha_nm"
+msgstr ""
+
+msgid "cunntas-bheachd_nm"
 msgstr ""
 
 msgid "cunntas luchd_nm"
@@ -9523,6 +10804,9 @@ msgstr ""
 msgid "cuntair_nm"
 msgstr ""
 
+msgid "cuòram_nm"
+msgstr ""
+
 msgid "cuota_nm"
 msgstr ""
 
@@ -9532,7 +10816,13 @@ msgstr ""
 msgid "cupa_nm"
 msgstr ""
 
+msgid "cupal_nm"
+msgstr ""
+
 msgid "cupan_nm"
+msgstr ""
+
+msgid "cuplaich_v"
 msgstr ""
 
 msgid "cùpon_nm"
@@ -9556,6 +10846,9 @@ msgstr ""
 msgid "cùrainn_nf"
 msgstr ""
 
+msgid "cur air bhog_nm"
+msgstr ""
+
 msgid "cùram_nm"
 msgstr ""
 
@@ -9565,7 +10858,13 @@ msgstr ""
 msgid "cùram-cloinne_nm"
 msgstr ""
 
+msgid "cur an dreuchd_nm"
+msgstr ""
+
 msgid "curanta_a"
+msgstr ""
+
+msgid "curcuma_nf"
 msgstr ""
 
 msgid "cur na mara_nm"
@@ -9586,10 +10885,16 @@ msgstr ""
 msgid "cur-ris_nm"
 msgstr ""
 
+msgid "cùrs_a"
+msgstr ""
+
 msgid "cùrsa_nf"
 msgstr ""
 
 msgid "cùrsair_nm"
+msgstr ""
+
+msgid "cùrsa-mara_nf"
 msgstr ""
 
 msgid "cur-seachad_nm"
@@ -9599,9 +10904,6 @@ msgid "cùrtair_nm"
 msgstr ""
 
 msgid "cus_nm"
-msgstr ""
-
-msgid "cusbann_nf"
 msgstr ""
 
 msgid "cuspair_nm"
@@ -9619,6 +10921,9 @@ msgstr ""
 msgid "cuspairich_v"
 msgstr ""
 
+msgid "cuspann_nm"
+msgstr ""
+
 msgid "cut_v"
 msgstr ""
 
@@ -9634,8 +10939,11 @@ msgstr ""
 msgid "cuthag_nf"
 msgstr ""
 
-msgid "da_poss"
+msgid "d'_poss"
 msgstr ""
+
+msgid "da_poss"
+msgstr "dá"
 
 msgid "d'a_poss"
 msgstr ""
@@ -9653,6 +10961,9 @@ msgid "dà-bheathach_nm"
 msgstr ""
 
 msgid "dachaigh_nf"
+msgstr ""
+
+msgid "dachaigheil_a"
 msgstr ""
 
 msgid "dà-chànanach_a"
@@ -9680,6 +10991,9 @@ msgid "dadam_nm"
 msgstr ""
 
 msgid "dadamach_a"
+msgstr ""
+
+msgid "dà-dhadam_nm"
 msgstr ""
 
 msgid "dà-dheug_card"
@@ -9736,6 +11050,18 @@ msgstr ""
 msgid "daimsin_nm"
 msgstr ""
 
+msgid "daineamaig_nf"
+msgstr "dinimic_nf"
+
+msgid "daineamaigeach_a"
+msgstr ""
+
+msgid "daineamait_nf"
+msgstr ""
+
+msgid "daineamo_nm"
+msgstr ""
+
 msgid "daingeann_a"
 msgstr ""
 
@@ -9749,6 +11075,9 @@ msgid "daingneachd_nf"
 msgstr ""
 
 msgid "daingnich_v"
+msgstr ""
+
+msgid "daithead_nf"
 msgstr ""
 
 msgid "dall_a"
@@ -9769,11 +11098,20 @@ msgstr ""
 msgid "dallag-an-fheòir_nf"
 msgstr ""
 
+msgid "dalma_a"
+msgstr ""
+
+msgid "dalta_nm"
+msgstr ""
+
 msgid "daltachas_nm"
 msgstr ""
 
 msgid "dam_nm"
 msgstr ""
+
+msgid "dam_prep"
+msgstr "don_prep"
 
 msgid "damaiste_nf"
 msgstr ""
@@ -9785,6 +11123,9 @@ msgid "dàmh_nf"
 msgstr ""
 
 msgid "Dàmhair_nf"
+msgstr ""
+
+msgid "damhan-allaidh_nm"
 msgstr ""
 
 msgid "dàn_nm"
@@ -9803,6 +11144,9 @@ msgid "danns_v"
 msgstr ""
 
 msgid "dannsa_nm"
+msgstr ""
+
+msgid "dannsa-ceum_nm"
 msgstr ""
 
 msgid "dannsair_nm"
@@ -9853,8 +11197,11 @@ msgstr ""
 msgid "daoranach_nm"
 msgstr ""
 
-msgid "dar_poss"
+msgid "daorsa_nf"
 msgstr ""
+
+msgid "dar_poss"
+msgstr "dár_poss"
 
 msgid "dara_a"
 msgstr ""
@@ -9865,7 +11212,19 @@ msgstr ""
 msgid "darach_nm"
 msgstr ""
 
+msgid "dà-shealladh_nm"
+msgstr ""
+
+msgid "dà-shligheach_a"
+msgstr "déthreo_a"
+
 msgid "dà-shùileach_a"
+msgstr ""
+
+msgid "dà-spioraideach_a"
+msgstr ""
+
+msgid "Dà-Spioraideach_a"
 msgstr ""
 
 msgid "dàta_nm"
@@ -9895,11 +11254,14 @@ msgstr ""
 msgid "dà-theangach_a"
 msgstr ""
 
+msgid "dà-theangachas_nm"
+msgstr ""
+
 msgid "dathte_a"
 msgstr ""
 
 msgid "de_prep"
-msgstr ""
+msgstr "de_prep"
 
 msgid "dè_interr"
 msgstr ""
@@ -9926,6 +11288,9 @@ msgid "deachdair_nm"
 msgstr ""
 
 msgid "deachdaireachd_nf"
+msgstr ""
+
+msgid "deadhan_nm"
 msgstr ""
 
 msgid "deagh_a"
@@ -10091,6 +11456,9 @@ msgid "deagh dhuine_nm"
 msgstr ""
 
 msgid "deagh dhùrachd_nf"
+msgstr ""
+
+msgid "Deagh-Dia_nm"
 msgstr ""
 
 msgid "deagh eisimpleir_nf"
@@ -10345,6 +11713,9 @@ msgstr ""
 msgid "dealanachadh_nm"
 msgstr ""
 
+msgid "dealanachd_nf"
+msgstr ""
+
 msgid "dealanaich_v"
 msgstr ""
 
@@ -10369,19 +11740,37 @@ msgstr ""
 msgid "dealbh_v"
 msgstr ""
 
+msgid "dealbhach_a"
+msgstr ""
+
 msgid "dealbhachd_nf"
 msgstr ""
 
 msgid "dealbhadair_nm"
 msgstr ""
 
+msgid "dealbhadaireachd_nf"
+msgstr ""
+
 msgid "dealbhadh_nm"
+msgstr ""
+
+msgid "dealbhadh-coimhearsnachd_nm"
+msgstr "pleanáil phobail"
+
+msgid "dealbh-camara_nf"
 msgstr ""
 
 msgid "dealbh-chluich_nm"
 msgstr ""
 
 msgid "dealbh-dealanaich-cridhe_nf"
+msgstr ""
+
+msgid "dealbh-èibhinn_nm"
+msgstr ""
+
+msgid "dealbhta_a"
 msgstr ""
 
 msgid "dealg_nf"
@@ -10391,6 +11780,9 @@ msgid "dealgach_a"
 msgstr ""
 
 msgid "dealgan_nm"
+msgstr ""
+
+msgid "deàlrach_a"
 msgstr ""
 
 msgid "deàlradh_nm"
@@ -10423,7 +11815,13 @@ msgstr ""
 msgid "dèanadachd_nf"
 msgstr ""
 
+msgid "dèanadas_nm"
+msgstr ""
+
 msgid "dèanamh_nm"
+msgstr ""
+
+msgid "deann_nf"
 msgstr ""
 
 msgid "deanntag_nf"
@@ -10450,7 +11848,13 @@ msgstr ""
 msgid "dearbhadh_nm"
 msgstr ""
 
+msgid "dearbhadh-aithne_nm"
+msgstr ""
+
 msgid "dearbhair_nm"
+msgstr ""
+
+msgid "dearbhair-litreachaidh_nm"
 msgstr ""
 
 msgid "dearbh-aithne_nf"
@@ -10468,10 +11872,22 @@ msgstr ""
 msgid "dearcadh_nm"
 msgstr ""
 
+msgid "dearc-luachrach_nf"
+msgstr ""
+
+msgid "dearcnachadh_nm"
+msgstr ""
+
 msgid "dearg_a"
 msgstr ""
 
 msgid "dearg_nm"
+msgstr ""
+
+msgid "deargadh_nm"
+msgstr ""
+
+msgid "dearganach_nm"
 msgstr ""
 
 msgid "deargann_nf"
@@ -10498,10 +11914,22 @@ msgstr ""
 msgid "deàrnadh_nm"
 msgstr ""
 
+msgid "deàrrs_v"
+msgstr ""
+
+msgid "deàrrsach_a"
+msgstr ""
+
 msgid "deàrrsadh_nm"
 msgstr ""
 
 msgid "deas_a"
+msgstr ""
+
+msgid "deasach_a"
+msgstr ""
+
+msgid "deasach_nm"
 msgstr ""
 
 msgid "deasachadh_nm"
@@ -10547,10 +11975,13 @@ msgid "deatamach_a"
 msgstr ""
 
 msgid "ded_poss"
+msgstr "de do"
+
+msgid "deic_nf"
 msgstr ""
 
 msgid "deich_card"
-msgstr ""
+msgstr "deich"
 
 msgid "deich_nm"
 msgstr ""
@@ -10597,6 +12028,9 @@ msgstr "oighear_nm"
 msgid "deilbheachd_nf"
 msgstr ""
 
+msgid "deilbheadh_nm"
+msgstr ""
+
 msgid "dèile_nf"
 msgstr ""
 
@@ -10609,7 +12043,13 @@ msgstr ""
 msgid "dèiligeadh_nm"
 msgstr ""
 
+msgid "deilignit_nf"
+msgstr ""
+
 msgid "deimhinne_a"
+msgstr ""
+
+msgid "deimhinneach_a"
 msgstr ""
 
 msgid "deimhinneachadh_nm"
@@ -10617,6 +12057,9 @@ msgstr ""
 
 msgid "deimhinnich_v"
 msgstr ""
+
+msgid "deimhinnte_a"
+msgstr "deifnídeach_a"
 
 msgid "dèine_nf"
 msgstr ""
@@ -10676,16 +12119,16 @@ msgid "deithneas_nf"
 msgstr ""
 
 msgid "dem_poss"
-msgstr ""
+msgstr "de mo"
 
 msgid "dem_prep"
-msgstr ""
+msgstr "den_prep"
 
 msgid "den_poss"
 msgstr ""
 
 msgid "den_prep"
-msgstr ""
+msgstr "den_prep"
 
 msgid "dè 'n_interr"
 msgstr ""
@@ -10699,13 +12142,19 @@ msgstr ""
 msgid "deoch_nf"
 msgstr ""
 
+msgid "deoch-làidir_nf"
+msgstr ""
+
 msgid "deoch-liomaid_nf"
 msgstr ""
 
-msgid "deòin_nf"
+msgid "deoghail_v"
 msgstr ""
 
-msgid "Deòirsia_nf"
+msgid "deoghal_nm"
+msgstr ""
+
+msgid "deòin_nf"
 msgstr ""
 
 msgid "deònach_a"
@@ -10720,10 +12169,16 @@ msgstr ""
 msgid "deòradh_nm"
 msgstr ""
 
+msgid "deotar_nm"
+msgstr "ceap nótaí_nm"
+
 msgid "der_poss"
-msgstr ""
+msgstr "dár_poss"
 
 msgid "deuchainn_nf"
+msgstr ""
+
+msgid "deuchainneach_a"
 msgstr ""
 
 msgid "deucon_nm"
@@ -10738,7 +12193,7 @@ msgstr ""
 msgid "deug_n"
 msgstr ""
 
-msgid "deugair_nm"
+msgid "deugaire_nm"
 msgstr ""
 
 msgid "deur_nm"
@@ -10748,7 +12203,7 @@ msgid "deurach_a"
 msgstr ""
 
 msgid "dha_poss"
-msgstr ""
+msgstr "dá"
 
 msgid "dhà_aindec"
 msgstr ""
@@ -10763,7 +12218,7 @@ msgid "dhachaigh_adv"
 msgstr ""
 
 msgid "dhad_poss"
-msgstr ""
+msgstr "do do"
 
 msgid "dhà-dheug_card"
 msgstr ""
@@ -10772,13 +12227,16 @@ msgid "dhaibh_pronm"
 msgstr ""
 
 msgid "dham_poss"
-msgstr ""
+msgstr "do mo"
+
+msgid "dham_prep"
+msgstr "don_prep"
 
 msgid "dhan_poss"
 msgstr ""
 
 msgid "dhan_prep"
-msgstr ""
+msgstr "don_prep"
 
 msgid "dh'an_art"
 msgstr ""
@@ -10795,6 +12253,9 @@ msgstr ""
 msgid "dh'aona-ghnothaich_adv"
 msgstr ""
 
+msgid "dhar_poss"
+msgstr "dár_poss"
+
 msgid "dha-rìribh_adv"
 msgstr "dáiríre_adv"
 
@@ -10808,19 +12269,22 @@ msgid "dh'eadar_prep"
 msgstr ""
 
 msgid "dhed_poss"
-msgstr ""
+msgstr "de do"
 
 msgid "dhem_poss"
-msgstr ""
+msgstr "de mo"
+
+msgid "dhem_prep"
+msgstr "den_prep"
 
 msgid "dhen_poss"
 msgstr ""
 
 msgid "dhen_prep"
-msgstr ""
+msgstr "den_prep"
 
 msgid "dher_poss"
-msgstr ""
+msgstr "dár_poss"
 
 msgid "dheth_adv"
 msgstr ""
@@ -10871,7 +12335,7 @@ msgid "dhuinn_pronm"
 msgstr ""
 
 msgid "dhur_poss"
-msgstr ""
+msgstr "do bhur,de bhur"
 
 msgid "dhut_pronm"
 msgstr ""
@@ -10924,16 +12388,28 @@ msgstr ""
 msgid "Diardaoin_nm"
 msgstr ""
 
+msgid "dias_nf"
+msgstr ""
+
 msgid "diasach_a"
 msgstr ""
 
+msgid "diathad_nm"
+msgstr ""
+
 msgid "diatonach_a"
+msgstr ""
+
+msgid "di-beathte_a"
 msgstr ""
 
 msgid "dibhearsan_nm"
 msgstr ""
 
 msgid "dibhinne_nf"
+msgstr ""
+
+msgid "dìblidh_a"
 msgstr ""
 
 msgid "dìblidheachd_nf"
@@ -10946,6 +12422,9 @@ msgid "dìcheallach_a"
 msgstr ""
 
 msgid "dì-chliù_nm"
+msgstr ""
+
+msgid "dì-choimiseanadh_nm"
 msgstr ""
 
 msgid "dì-chòirich_v"
@@ -10963,7 +12442,13 @@ msgstr ""
 msgid "dì-chreidmheach_nm"
 msgstr ""
 
+msgid "dì-chroiteadh_nm"
+msgstr ""
+
 msgid "Diciadain_nm"
+msgstr ""
+
+msgid "dìdean_nm"
 msgstr ""
 
 msgid "dì-dhaoineachadh_nm"
@@ -10978,13 +12463,10 @@ msgstr ""
 msgid "didseatach_a"
 msgstr ""
 
-msgid "didsiotach_a"
-msgstr ""
-
 msgid "dìg_nf"
 msgstr ""
 
-msgid "digiteach_a"
+msgid "digear_nm"
 msgstr ""
 
 msgid "Dihaoine_nm"
@@ -11041,6 +12523,9 @@ msgstr ""
 msgid "dìneasar_nm"
 msgstr ""
 
+msgid "dinichean_nm"
+msgstr "jíons_nm"
+
 msgid "dinimig_nf"
 msgstr ""
 
@@ -11052,6 +12537,9 @@ msgstr ""
 
 msgid "dìnnear_nf"
 msgstr ""
+
+msgid "dinnsear_nm"
+msgstr "sinséar_nm"
 
 msgid "dìobair_v"
 msgstr ""
@@ -11066,6 +12554,12 @@ msgid "diobhuidheachas_nm"
 msgstr ""
 
 msgid "dìobradh_nm"
+msgstr ""
+
+msgid "dìochuimhne_nf"
+msgstr ""
+
+msgid "dìochuimhneach_a"
 msgstr ""
 
 msgid "dìochuimhnich_v"
@@ -11149,10 +12643,22 @@ msgstr ""
 msgid "dioplòma_nm"
 msgstr "dioplóma_nm"
 
-msgid "dioplomasaidh_nm"
+msgid "dioplòmasach_a"
+msgstr ""
+
+msgid "dioplòmasaidh_nm"
+msgstr ""
+
+msgid "dìoro_nm"
+msgstr ""
+
+msgid "dìorrasach_a"
 msgstr ""
 
 msgid "dìosail_nm"
+msgstr ""
+
+msgid "diosg_nm"
 msgstr ""
 
 msgid "dìosgan_nm"
@@ -11188,10 +12694,16 @@ msgstr ""
 msgid "dì-shoineas_nm"
 msgstr ""
 
+msgid "dìsinn_nf"
+msgstr ""
+
 msgid "dìsread_nm"
 msgstr ""
 
 msgid "dìt_v"
+msgstr ""
+
+msgid "dìteadh_nm"
 msgstr ""
 
 msgid "dìth_nf"
@@ -11210,6 +12722,9 @@ msgid "dìthich_v"
 msgstr ""
 
 msgid "dithis_nf"
+msgstr ""
+
+msgid "dìth-obrach_nf"
 msgstr ""
 
 msgid "dìthreabh_nf"
@@ -11260,6 +12775,9 @@ msgstr "siúit_nf"
 msgid "dleas_v"
 msgstr ""
 
+msgid "dleasnach_a"
+msgstr ""
+
 msgid "dleastanas_nm"
 msgstr ""
 
@@ -11287,10 +12805,19 @@ msgstr ""
 msgid "dlùthachd_nf"
 msgstr ""
 
+msgid "dlùthadh_nm"
+msgstr ""
+
 msgid "dlùthaich_v"
 msgstr ""
 
+msgid "dlùth-chàirdeas_nm"
+msgstr ""
+
 msgid "dlùth-cheangail_v"
+msgstr ""
+
+msgid "dlùth-cheangal_nm"
 msgstr ""
 
 msgid "dlùth-cheangladh_nm"
@@ -11315,6 +12842,12 @@ msgid "dobhar-chù_nm"
 msgstr ""
 
 msgid "dòbhran_nm"
+msgstr ""
+
+msgid "doca_nm"
+msgstr ""
+
+msgid "docair_nm"
 msgstr ""
 
 msgid "dòcha_a"
@@ -11344,8 +12877,11 @@ msgstr ""
 msgid "do-chreidsinn_a"
 msgstr ""
 
-msgid "dod_poss"
+msgid "do-chreidsinneach_a"
 msgstr ""
+
+msgid "dod_poss"
+msgstr "do do"
 
 msgid "do-dhèanta_a"
 msgstr ""
@@ -11365,6 +12901,9 @@ msgstr ""
 msgid "dòigh-beatha_nf"
 msgstr ""
 
+msgid "dòigh-dèiligidh_nf"
+msgstr ""
+
 msgid "dòigheil_a"
 msgstr ""
 
@@ -11372,6 +12911,12 @@ msgid "dòigh-labhairt_nf"
 msgstr ""
 
 msgid "dòigh-obrach_nf"
+msgstr ""
+
+msgid "dòigh-obrachaidh_nf"
+msgstr ""
+
+msgid "dòigh-sgrìobhaidh_nf"
 msgstr ""
 
 msgid "dòigh-siubhail_nf"
@@ -11483,7 +13028,10 @@ msgid "do-lùbaidh_a"
 msgstr ""
 
 msgid "dom_poss"
-msgstr ""
+msgstr "do mo"
+
+msgid "dom_prep"
+msgstr "don_prep"
 
 msgid "domail_nf"
 msgstr ""
@@ -11506,6 +13054,9 @@ msgstr ""
 msgid "domhanag_nf"
 msgstr ""
 
+msgid "domhan-leud_nm"
+msgstr ""
+
 msgid "dòmhlachd_nf"
 msgstr ""
 
@@ -11522,7 +13073,7 @@ msgid "don_poss"
 msgstr ""
 
 msgid "don_prep"
-msgstr ""
+msgstr "don_prep"
 
 msgid "dona_a"
 msgstr ""
@@ -11546,7 +13097,7 @@ msgid "donn-lus_nm"
 msgstr ""
 
 msgid "dor_poss"
-msgstr ""
+msgstr "dár_poss"
 
 msgid "dòrainn_nf"
 msgstr ""
@@ -11566,6 +13117,9 @@ msgstr ""
 msgid "do-rèitichte_a"
 msgstr ""
 
+msgid "dòrlach_nm"
+msgstr ""
+
 msgid "dòrn_nm"
 msgstr ""
 
@@ -11581,6 +13135,9 @@ msgstr ""
 msgid "dòrtadh_nm"
 msgstr ""
 
+msgid "do-ruighinn_a"
+msgstr ""
+
 msgid "dos_nm"
 msgstr ""
 
@@ -11591,6 +13148,9 @@ msgid "dosgaidh_a"
 msgstr ""
 
 msgid "dosgaidheachd_nf"
+msgstr ""
+
+msgid "dosgainn_nf"
 msgstr ""
 
 msgid "do-sgaoilte_a"
@@ -11609,6 +13169,9 @@ msgid "do-sheachanta_a"
 msgstr ""
 
 msgid "do-smachdaidh_a"
+msgstr ""
+
+msgid "dosrach_a"
 msgstr ""
 
 msgid "dotag_nf"
@@ -11633,6 +13196,9 @@ msgid "dothte_a"
 msgstr ""
 
 msgid "dràbag_nf"
+msgstr ""
+
+msgid "drabasta_a"
 msgstr ""
 
 msgid "drabastachd_nf"
@@ -11662,6 +13228,9 @@ msgstr ""
 msgid "dràma_nf"
 msgstr ""
 
+msgid "dràmadach_a"
+msgstr ""
+
 msgid "dràmaire_nm"
 msgstr ""
 
@@ -11674,10 +13243,16 @@ msgstr ""
 msgid "draoidheachd_nf"
 msgstr ""
 
+msgid "draoidheil_a"
+msgstr ""
+
 msgid "draosta_a"
 msgstr ""
 
 msgid "dràsta_adv"
+msgstr ""
+
+msgid "drathais_nf"
 msgstr ""
 
 msgid "dreach_nm"
@@ -11690,6 +13265,9 @@ msgid "dreachadh_nm"
 msgstr ""
 
 msgid "dreachd_nf"
+msgstr ""
+
+msgid "dreachmhor_a"
 msgstr ""
 
 msgid "dreag_nf"
@@ -11734,10 +13312,16 @@ msgstr ""
 msgid "dreuchdail_a"
 msgstr ""
 
+msgid "dreuchd-beatha_nf"
+msgstr "slí bheatha_nf"
+
 msgid "drile_nf"
 msgstr ""
 
 msgid "driodairt_nm"
+msgstr ""
+
+msgid "drioftair_nm"
 msgstr ""
 
 msgid "driogachd_nf"
@@ -11749,13 +13333,19 @@ msgstr ""
 msgid "driogair_nm"
 msgstr ""
 
+msgid "dripeil_a"
+msgstr ""
+
 msgid "dris_nf"
 msgstr ""
 
 msgid "drithleann_nm"
 msgstr ""
 
-msgid "driùchd_nm"
+msgid "dròbhair_nm"
+msgstr ""
+
+msgid "dròbhaireachd_nf"
 msgstr ""
 
 msgid "droch_a"
@@ -11926,7 +13516,19 @@ msgstr ""
 msgid "dronn-uileann_nf"
 msgstr ""
 
+msgid "drùchd_nm"
+msgstr ""
+
+msgid "drùchdach_a"
+msgstr ""
+
 msgid "drùdhadh_nm"
+msgstr ""
+
+msgid "drùdhag_nf"
+msgstr ""
+
+msgid "druga_nf"
 msgstr ""
 
 msgid "druid_nf"
@@ -11978,6 +13580,9 @@ msgid "drungair_nm"
 msgstr ""
 
 msgid "duais_nf"
+msgstr ""
+
+msgid "duais-roinn_nf"
 msgstr ""
 
 msgid "dual_nm"
@@ -12064,6 +13669,9 @@ msgstr ""
 msgid "dùbhlan_nm"
 msgstr ""
 
+msgid "dùbhlanach_a"
+msgstr ""
+
 msgid "dùbhlanach_nm"
 msgstr ""
 
@@ -12078,6 +13686,9 @@ msgstr ""
 
 msgid "dùchas_nm"
 msgstr ""
+
+msgid "ducs_nm"
+msgstr "diúc_nm"
 
 msgid "dùdach_nf"
 msgstr ""
@@ -12121,13 +13732,28 @@ msgstr ""
 msgid "duilleag-cleithe_nf"
 msgstr ""
 
+msgid "duilleag-dhachaigh_nf"
+msgstr ""
+
+msgid "duilleag-lìn_nf"
+msgstr ""
+
+msgid "duilleag-obrach_nf"
+msgstr ""
+
 msgid "dùin_v"
 msgstr ""
 
 msgid "duine_nm"
 msgstr ""
 
+msgid "duine-cloinne_nm"
+msgstr ""
+
 msgid "duineil_a"
+msgstr ""
+
+msgid "duine-uasal_nm"
 msgstr ""
 
 msgid "dùinte_a"
@@ -12136,7 +13762,19 @@ msgstr ""
 msgid "dùiread_nm"
 msgstr ""
 
+msgid "duiseal_nf"
+msgstr ""
+
 msgid "dùisg_v"
+msgstr ""
+
+msgid "Duitseach_a"
+msgstr ""
+
+msgid "Duitseach_nm"
+msgstr ""
+
+msgid "Duitsis_nf"
 msgstr ""
 
 msgid "dùmhlachd_nf"
@@ -12151,6 +13789,9 @@ msgstr ""
 msgid "dùnadh_nm"
 msgstr ""
 
+msgid "dur_poss"
+msgstr "do bhur,de bhur"
+
 msgid "dùr_a"
 msgstr ""
 
@@ -12161,6 +13802,15 @@ msgid "dùrachdach_a"
 msgstr ""
 
 msgid "dùradan_nm"
+msgstr ""
+
+msgid "dùraig_v"
+msgstr ""
+
+msgid "durcanach_a"
+msgstr "buaircíneach_a"
+
+msgid "dùrd_nm"
 msgstr ""
 
 msgid "dùrdail_nf"
@@ -12175,7 +13825,13 @@ msgstr ""
 msgid "dùsgadh_nm"
 msgstr ""
 
+msgid "dùsgadh-inntinn_nm"
+msgstr ""
+
 msgid "duslach_nm"
+msgstr ""
+
+msgid "dust_nm"
 msgstr ""
 
 msgid "dustadh_nm"
@@ -12229,6 +13885,12 @@ msgstr ""
 msgid "Eabhrach_nm"
 msgstr ""
 
+msgid "Eabhraidheach_a"
+msgstr ""
+
+msgid "Eabhraidheach_nm"
+msgstr ""
+
 msgid "eabon_nm"
 msgstr ""
 
@@ -12253,10 +13915,19 @@ msgstr ""
 msgid "eachdraidh_nf"
 msgstr ""
 
+msgid "eachdraidh-beatha_nf"
+msgstr ""
+
 msgid "eachdraidheil_a"
 msgstr ""
 
 msgid "each-obrach_nm"
+msgstr ""
+
+msgid "eachraidh_nm"
+msgstr ""
+
+msgid "each-uisge_nm"
 msgstr ""
 
 msgid "eaconamach_a"
@@ -12271,23 +13942,29 @@ msgstr ""
 msgid "eaconamair_nm"
 msgstr ""
 
+msgid "eacstasaidh_nm"
+msgstr ""
+
 msgid "Eacuador_nm"
 msgstr ""
 
 msgid "Eadailt_nf"
-msgstr ""
+msgstr "Iodáil_nf"
 
 msgid "Eadailteach_a"
-msgstr ""
+msgstr "Iodálach_a"
 
 msgid "Eadailteach_nm"
-msgstr ""
+msgstr "Iodálach_nm"
 
 msgid "Eadailtis_nf"
-msgstr ""
+msgstr "Iodáilis"
 
 msgid "eadar_prep"
-msgstr ""
+msgstr "idir_prep"
+
+msgid "eadar-aghaidh_nf"
+msgstr "comhéadan_nm"
 
 msgid "eadaraibh_pronm"
 msgstr ""
@@ -12298,7 +13975,13 @@ msgstr ""
 msgid "eadar-aisneis_nf"
 msgstr ""
 
+msgid "eadar-àm_nm"
+msgstr ""
+
 msgid "eadar-ama_nm"
+msgstr ""
+
+msgid "eadar-amail_a"
 msgstr ""
 
 msgid "eadar-chluich_nm"
@@ -12320,10 +14003,10 @@ msgid "eadar-ghuidhe_nf"
 msgstr ""
 
 msgid "eadar-lìon_nm"
-msgstr ""
+msgstr "idirlíon_nm"
 
 msgid "Eadar-lìon_nm"
-msgstr ""
+msgstr "Idirlíon_nm"
 
 msgid "eadar-mheadhanach_a"
 msgstr ""
@@ -12334,10 +14017,16 @@ msgstr ""
 msgid "eadar-mhìneachadh_nm"
 msgstr ""
 
-msgid "eadar-nàiseanta_a"
+msgid "eadar-mhìniche_nm"
 msgstr ""
 
+msgid "eadar-nàiseanta_a"
+msgstr "idirnáisiúnta_a"
+
 msgid "Eadar-Nàiseanta_a"
+msgstr ""
+
+msgid "eadar-obrachadh_nm"
 msgstr ""
 
 msgid "eadar-obrachail_a"
@@ -12361,6 +14050,9 @@ msgstr ""
 msgid "eadar-theangair_nm"
 msgstr ""
 
+msgid "eadar-ùghdarrais_a"
+msgstr ""
+
 msgid "eadar-ùine_nf"
 msgstr ""
 
@@ -12368,6 +14060,9 @@ msgid "èadharag_nf"
 msgstr ""
 
 msgid "eadhon_adv"
+msgstr ""
+
+msgid "èadhraig_v"
 msgstr ""
 
 msgid "eag_nf"
@@ -12385,6 +14080,12 @@ msgstr ""
 msgid "eagar_nm"
 msgstr ""
 
+msgid "eag-eòlas_nm"
+msgstr ""
+
+msgid "eag-eòlasach_a"
+msgstr ""
+
 msgid "eaglais_nf"
 msgstr ""
 
@@ -12392,6 +14093,9 @@ msgid "Eaglais_nf"
 msgstr ""
 
 msgid "eaglaiseach_nm"
+msgstr ""
+
+msgid "eaglaiseil_a"
 msgstr ""
 
 msgid "eaglais mhòr_nf"
@@ -12410,6 +14114,9 @@ msgid "eagran_nm"
 msgstr ""
 
 msgid "eagranaich_v"
+msgstr ""
+
+msgid "eag-shiostam_nm"
 msgstr ""
 
 msgid "eala_nf"
@@ -12448,7 +14155,13 @@ msgstr ""
 msgid "ealantair_nm"
 msgstr ""
 
+msgid "ealantas_nm"
+msgstr ""
+
 msgid "ealdhanach_a"
+msgstr ""
+
+msgid "ealla_nm"
 msgstr ""
 
 msgid "eallach_nm"
@@ -12499,9 +14212,6 @@ msgstr ""
 msgid "ear-dheas_nf"
 msgstr ""
 
-msgid "eàrlas_nm"
-msgstr ""
-
 msgid "èarnach_nf"
 msgstr ""
 
@@ -12524,6 +14234,9 @@ msgid "earranta_a"
 msgstr ""
 
 msgid "eàrr-nòta_nm"
+msgstr ""
+
+msgid "eàrr-ràdh_nm"
 msgstr ""
 
 msgid "ear-thuath_nf"
@@ -12568,10 +14281,13 @@ msgstr ""
 msgid "easbhaidh_nf"
 msgstr ""
 
-msgid "easchruthachd_nf"
+msgid "easbhaidheach_a"
 msgstr ""
 
-msgid "eascruthachd_nf"
+msgid "easchruthach_a"
+msgstr ""
+
+msgid "easchruthachd_nf"
 msgstr ""
 
 msgid "èasgaidh_a"
@@ -12584,12 +14300,6 @@ msgid "easgann_nf"
 msgstr ""
 
 msgid "easgann-bhreac_nf"
-msgstr ""
-
-msgid "easlàint_nf"
-msgstr ""
-
-msgid "easlan_a"
 msgstr ""
 
 msgid "eas-onarachadh_nm"
@@ -12697,6 +14407,12 @@ msgstr ""
 msgid "èigheach_nf"
 msgstr ""
 
+msgid "eigheachail_a"
+msgstr ""
+
+msgid "eighich_v"
+msgstr ""
+
 msgid "eighre_nf"
 msgstr ""
 
@@ -12772,6 +14488,9 @@ msgstr ""
 msgid "einnsean_nm"
 msgstr ""
 
+msgid "einnseanair_nm"
+msgstr ""
+
 msgid "einnseanaireachd_nf"
 msgstr ""
 
@@ -12841,13 +14560,13 @@ msgstr ""
 msgid "eirmse_nf"
 msgstr ""
 
+msgid "eirmseach_a"
+msgstr ""
+
 msgid "eirmseachd_nf"
 msgstr ""
 
 msgid "èis_nf"
-msgstr ""
-
-msgid "èisdear_nf"
 msgstr ""
 
 msgid "eisgeachd_nf"
@@ -12865,6 +14584,9 @@ msgstr ""
 msgid "eisimpleireach_a"
 msgstr ""
 
+msgid "eisir_nm"
+msgstr ""
+
 msgid "eisleineach_a"
 msgstr ""
 
@@ -12874,6 +14596,9 @@ msgstr ""
 msgid "èisteachd_nf"
 msgstr ""
 
+msgid "èistear_nf"
+msgstr ""
+
 msgid "eitean_nm"
 msgstr ""
 
@@ -12881,6 +14606,9 @@ msgid "eitheach_nm"
 msgstr ""
 
 msgid "eitig_nf"
+msgstr ""
+
+msgid "eitnigeach_a"
 msgstr ""
 
 msgid "eleactron_nm"
@@ -12916,6 +14644,24 @@ msgstr ""
 msgid "eòlas-comainn_nm"
 msgstr ""
 
+msgid "eòlas-cridhe_nm"
+msgstr ""
+
+msgid "eòlas-diadhachd_nm"
+msgstr ""
+
+msgid "eòlas-inntinn_nm"
+msgstr ""
+
+msgid "eòlas-lagha_nm"
+msgstr ""
+
+msgid "eòlas-leighis_nm"
+msgstr ""
+
+msgid "eòlas-obrach_nm"
+msgstr ""
+
 msgid "eòrna_nm"
 msgstr ""
 
@@ -12940,6 +14686,9 @@ msgstr ""
 msgid "Etiopia_nm"
 msgstr ""
 
+msgid "eucail_nf"
+msgstr ""
+
 msgid "eucairdeas_nf"
 msgstr ""
 
@@ -12952,10 +14701,10 @@ msgstr ""
 msgid "euchd_nm"
 msgstr ""
 
-msgid "eucoir_nf"
+msgid "eu-cneastachd_nf"
 msgstr ""
 
-msgid "eucoireach_a"
+msgid "eucoir_nf"
 msgstr ""
 
 msgid "eucoirich_v"
@@ -12970,10 +14719,19 @@ msgstr ""
 msgid "eu-comasach_a"
 msgstr ""
 
+msgid "eucorach_a"
+msgstr ""
+
+msgid "eucorach_nm"
+msgstr ""
+
 msgid "eu-crìonna_a"
 msgstr ""
 
 msgid "eud_nm"
+msgstr ""
+
+msgid "eudach_a"
 msgstr ""
 
 msgid "eudail_nf"
@@ -13021,10 +14779,34 @@ msgstr ""
 msgid "eunadan_nm"
 msgstr ""
 
+msgid "eun-àir_nm"
+msgstr ""
+
+msgid "eun-ciùil_nm"
+msgstr ""
+
+msgid "eun-Frangach_nm"
+msgstr ""
+
+msgid "eun-fraoich_nm"
+msgstr ""
+
 msgid "eunlaith_nf"
 msgstr ""
 
 msgid "eun-lann_nm"
+msgstr ""
+
+msgid "eun-mara_nm"
+msgstr ""
+
+msgid "eun-raoin_nm"
+msgstr ""
+
+msgid "eun-tràghad_nm"
+msgstr ""
+
+msgid "eun-tumaidh_nm"
 msgstr ""
 
 msgid "eur_v"
@@ -13033,7 +14815,16 @@ msgstr ""
 msgid "euradh_nm"
 msgstr ""
 
+msgid "euslaint_nf"
+msgstr ""
+
 msgid "euslainteach_a"
+msgstr ""
+
+msgid "euslainteach_nm"
+msgstr ""
+
+msgid "euslan_a"
 msgstr ""
 
 msgid "eu-tròcaireach_a"
@@ -13064,6 +14855,9 @@ msgid "facal-luirg_nm"
 msgstr ""
 
 msgid "facal-suaicheantais_nm"
+msgstr ""
+
+msgid "facal-toisich_nm"
 msgstr ""
 
 msgid "faclach_a"
@@ -13120,7 +14914,7 @@ msgstr ""
 msgid "fadalachd_nf"
 msgstr ""
 
-msgid "fad-beatha_a"
+msgid "fad-bheatha_a"
 msgstr ""
 
 msgid "fad-fhulang_nm"
@@ -13132,7 +14926,13 @@ msgstr ""
 msgid "fadhb_nf"
 msgstr ""
 
+msgid "fa-dheòidh_adv"
+msgstr "faoi dheireadh_adv"
+
 msgid "fad-ùine_nf"
+msgstr ""
+
+msgid "fad-ùineach_a"
 msgstr ""
 
 msgid "fàg_v"
@@ -13174,6 +14974,9 @@ msgstr ""
 msgid "faicsinneachd_nf"
 msgstr ""
 
+msgid "faicte_a"
+msgstr ""
+
 msgid "faide_nf"
 msgstr ""
 
@@ -13187,6 +14990,12 @@ msgid "faidhear_adv"
 msgstr ""
 
 msgid "faidhle_nm"
+msgstr ""
+
+msgid "faidhle-fiosrachaidh_nm"
+msgstr ""
+
+msgid "faidhlig_v"
 msgstr ""
 
 msgid "faigh_v"
@@ -13234,9 +15043,6 @@ msgstr ""
 msgid "faillean_nm"
 msgstr ""
 
-msgid "fàillig_v"
-msgstr ""
-
 msgid "fàillinn_nf"
 msgstr ""
 
@@ -13264,7 +15070,13 @@ msgstr ""
 msgid "Fàilte_nf"
 msgstr ""
 
+msgid "fàilteach_a"
+msgstr ""
+
 msgid "fàilteachadh_nm"
+msgstr ""
+
+msgid "fàilteachas_nm"
 msgstr ""
 
 msgid "fàiltich_v"
@@ -13340,6 +15152,9 @@ msgid "faisgeachd_nf"
 msgstr ""
 
 msgid "fàisgeadh_nm"
+msgstr ""
+
+msgid "fàisgte_a"
 msgstr ""
 
 msgid "fàisneachail_a"
@@ -13510,6 +15325,9 @@ msgstr ""
 msgid "faoin-chainnt_nf"
 msgstr ""
 
+msgid "faoineag_nf"
+msgstr ""
+
 msgid "faoineas_nm"
 msgstr ""
 
@@ -13531,9 +15349,6 @@ msgstr ""
 msgid "faotainn_nf"
 msgstr ""
 
-msgid "faothachadh_nm"
-msgstr ""
-
 msgid "far_conj"
 msgstr ""
 
@@ -13552,6 +15367,9 @@ msgstr ""
 msgid "far-ainm_nm"
 msgstr ""
 
+msgid "faram_nm"
+msgstr ""
+
 msgid "faramach_a"
 msgstr ""
 
@@ -13559,6 +15377,9 @@ msgid "farastachd_nf"
 msgstr ""
 
 msgid "farcan_nm"
+msgstr ""
+
+msgid "farchluais_nf"
 msgstr ""
 
 msgid "fàrdach_nf"
@@ -13577,6 +15398,9 @@ msgid "Fàrothach_nm"
 msgstr ""
 
 msgid "farpais_nf"
+msgstr ""
+
+msgid "farpais-cheist_nf"
 msgstr ""
 
 msgid "farpaiseach_nm"
@@ -13621,10 +15445,19 @@ msgstr ""
 msgid "fàsaichte_a"
 msgstr ""
 
+msgid "fàsail_a"
+msgstr ""
+
 msgid "fasan_nm"
 msgstr ""
 
 msgid "fasanta_a"
+msgstr ""
+
+msgid "fàs-bheairt_nf"
+msgstr ""
+
+msgid "fàs-bheatha_nf"
 msgstr ""
 
 msgid "fasgach_a"
@@ -13642,7 +15475,13 @@ msgstr ""
 msgid "fasganadh_nm"
 msgstr ""
 
+msgid "fa sgaoil_adv"
+msgstr ""
+
 msgid "fàsmhor_a"
+msgstr ""
+
+msgid "fàsmhorachd_nf"
 msgstr ""
 
 msgid "fastachd_nf"
@@ -13664,6 +15503,9 @@ msgid "fàth_nm"
 msgstr ""
 
 msgid "fathan_nm"
+msgstr ""
+
+msgid "fathann_nm"
 msgstr ""
 
 msgid "feabhas_nm"
@@ -13700,6 +15542,9 @@ msgid "feadan_nm"
 msgstr ""
 
 msgid "feadanach_a"
+msgstr ""
+
+msgid "feadarail_a"
 msgstr ""
 
 msgid "feadaraileachd_nf"
@@ -13792,6 +15637,18 @@ msgstr ""
 msgid "fearann_nm"
 msgstr ""
 
+msgid "fearas_nm"
+msgstr ""
+
+msgid "fearas-bogha_nm"
+msgstr ""
+
+msgid "fearas-chuideachd_nm"
+msgstr ""
+
+msgid "fearas-feise_nm"
+msgstr ""
+
 msgid "fear-bainnse_nm"
 msgstr ""
 
@@ -13831,6 +15688,9 @@ msgstr ""
 msgid "fear-ealain_nm"
 msgstr ""
 
+msgid "feareigin_nm"
+msgstr ""
+
 msgid "fearg_nf"
 msgstr ""
 
@@ -13852,7 +15712,13 @@ msgstr ""
 msgid "fear-lagha_nm"
 msgstr ""
 
+msgid "fear-mìneachaidh_nm"
+msgstr "fear mínithe_nm"
+
 msgid "feàrna_nf"
+msgstr ""
+
+msgid "fear-naidheachd_nm"
 msgstr ""
 
 msgid "fear-poileataics_nm"
@@ -13874,6 +15740,12 @@ msgid "fearsaid_nf"
 msgstr ""
 
 msgid "Fearsaid_nf"
+msgstr ""
+
+msgid "fear-saoraidh_nm"
+msgstr ""
+
+msgid "fear-seòlaidh_nm"
 msgstr ""
 
 msgid "fear-siubhail_nm"
@@ -13942,7 +15814,19 @@ msgstr ""
 msgid "fèin-aithne_nf"
 msgstr ""
 
+msgid "fèin-dhìonachd_nf"
+msgstr "féinchosaint_nf"
+
+msgid "Fèin-Dhìonachd_nf"
+msgstr ""
+
 msgid "fèineachd_nf"
+msgstr ""
+
+msgid "fèin-eachdraidh_nf"
+msgstr ""
+
+msgid "fèin-fhiosrachadh_nm"
 msgstr ""
 
 msgid "fèin-mheas_nm"
@@ -13958,6 +15842,9 @@ msgid "fèin-mhurt_nm"
 msgstr ""
 
 msgid "fèin-obrachail_a"
+msgstr ""
+
+msgid "fèin-riaghlach_a"
 msgstr ""
 
 msgid "fèin-riaghladh_nm"
@@ -13978,10 +15865,10 @@ msgstr "gnéas_nm"
 msgid "fèis_nf"
 msgstr ""
 
-msgid "fèisd_nf"
+msgid "feiseileachd_nf"
 msgstr ""
 
-msgid "feiseileachd_nf"
+msgid "fèist_nf"
 msgstr ""
 
 msgid "feith_v"
@@ -14009,6 +15896,9 @@ msgid "feòirling_nf"
 msgstr ""
 
 msgid "feòlmhor_a"
+msgstr ""
+
+msgid "feòlmhorachd_nf"
 msgstr ""
 
 msgid "feòrag_nf"
@@ -14041,6 +15931,9 @@ msgstr ""
 msgid "feumalachd_nf"
 msgstr ""
 
+msgid "feumte_a"
+msgstr ""
+
 msgid "feur_nm"
 msgstr ""
 
@@ -14060,6 +15953,9 @@ msgid "feusagach_a"
 msgstr ""
 
 msgid "feusgan_nm"
+msgstr ""
+
+msgid "feusgan-neamhnaid_nm"
 msgstr ""
 
 msgid "fhad's_conj"
@@ -14173,6 +16069,9 @@ msgstr ""
 msgid "fideach_nm"
 msgstr ""
 
+msgid "fideiseach_a"
+msgstr "corrthónach_a"
+
 msgid "fidhcheall_nm"
 msgstr ""
 
@@ -14180,6 +16079,18 @@ msgid "fidheall_nf"
 msgstr ""
 
 msgid "fìdhlear_nm"
+msgstr ""
+
+msgid "fìdhlearachd_nf"
+msgstr ""
+
+msgid "Fìdi_nf"
+msgstr ""
+
+msgid "fidir_v"
+msgstr ""
+
+msgid "fidreadh_nm"
 msgstr ""
 
 msgid "fìge_nf"
@@ -14200,6 +16111,9 @@ msgstr ""
 msgid "figheadaireachd_nf"
 msgstr ""
 
+msgid "fighte_a"
+msgstr ""
+
 msgid "filead_nf"
 msgstr ""
 
@@ -14216,6 +16130,9 @@ msgid "filidh_nm"
 msgstr ""
 
 msgid "filidheachd_nf"
+msgstr ""
+
+msgid "Filipineach_a"
 msgstr ""
 
 msgid "fill_v"
@@ -14269,6 +16186,9 @@ msgstr ""
 msgid "fìon_nm"
 msgstr ""
 
+msgid "fìon-fhogharadh_nm"
+msgstr ""
+
 msgid "fionn_a"
 msgstr ""
 
@@ -14302,6 +16222,9 @@ msgstr ""
 msgid "fìor_a"
 msgstr ""
 
+msgid "fìor-àireamh_nf"
+msgstr ""
+
 msgid "fìor-mhath_a"
 msgstr ""
 
@@ -14314,7 +16237,13 @@ msgstr ""
 msgid "fiosachd_nf"
 msgstr ""
 
+msgid "fiosaiche_nm"
+msgstr ""
+
 msgid "fiosaig_nf"
+msgstr ""
+
+msgid "fiosaigeach_a"
 msgstr ""
 
 msgid "fioscalach_a"
@@ -14330,6 +16259,9 @@ msgid "fiosraich_v"
 msgstr ""
 
 msgid "firead_nf"
+msgstr ""
+
+msgid "fìrean_nm"
 msgstr ""
 
 msgid "fìreanachadh_nm"
@@ -14353,10 +16285,10 @@ msgstr ""
 msgid "fìreantachd_nf"
 msgstr ""
 
-msgid "fìrinn_nf"
+msgid "fìr-eun_nm"
 msgstr ""
 
-msgid "firinneach_a"
+msgid "fìrinn_nf"
 msgstr ""
 
 msgid "fìrinneach_a"
@@ -14387,6 +16319,9 @@ msgid "fiuga_nm"
 msgstr ""
 
 msgid "fiughair_nf"
+msgstr ""
+
+msgid "fiùsa_nm"
 msgstr ""
 
 msgid "flaitheanas_nm"
@@ -14467,6 +16402,9 @@ msgstr ""
 msgid "flùr_nm"
 msgstr ""
 
+msgid "flùranach_a"
+msgstr ""
+
 msgid "flusg_nm"
 msgstr ""
 
@@ -14482,6 +16420,12 @@ msgstr ""
 msgid "fochaid_nf"
 msgstr ""
 
+msgid "fo-cheum_nm"
+msgstr ""
+
+msgid "fo-cheumnach_a"
+msgstr ""
+
 msgid "fo-cheumnaiche_nm"
 msgstr ""
 
@@ -14489,10 +16433,10 @@ msgid "fo-chomataidh_nf"
 msgstr ""
 
 msgid "fod_poss"
-msgstr ""
+msgstr "faoi do"
 
 msgid "fòd_nf"
-msgstr ""
+msgstr "fód_nm"
 
 msgid "fodar_nm"
 msgstr ""
@@ -14524,10 +16468,19 @@ msgstr ""
 msgid "fògarrach_nm"
 msgstr ""
 
+msgid "foghain_v"
+msgstr ""
+
+msgid "foghainteach_a"
+msgstr ""
+
 msgid "foghar_nm"
 msgstr ""
 
 msgid "fogharachd_nf"
+msgstr ""
+
+msgid "fogharadh_nm"
 msgstr ""
 
 msgid "fo-ghiùlanair_nm"
@@ -14545,7 +16498,16 @@ msgstr ""
 msgid "fòghlamaichte_a"
 msgstr ""
 
+msgid "foghlam-ciùird_nm"
+msgstr ""
+
+msgid "foghnadh_nm"
+msgstr ""
+
 msgid "fògradh_nm"
+msgstr ""
+
+msgid "foidhe_pronm"
 msgstr ""
 
 msgid "foighidinn_nf"
@@ -14581,6 +16543,12 @@ msgstr ""
 msgid "foireann_nm"
 msgstr ""
 
+msgid "foirfe_a"
+msgstr ""
+
+msgid "foirfeach_nm"
+msgstr ""
+
 msgid "foirfeachd_nf"
 msgstr ""
 
@@ -14600,6 +16568,9 @@ msgid "foirmeil_a"
 msgstr ""
 
 msgid "foirmeileachd_nf"
+msgstr ""
+
+msgid "foirm-iarrtais_nm"
 msgstr ""
 
 msgid "foirmle_nf"
@@ -14627,12 +16598,18 @@ msgid "foluaineachd_nf"
 msgstr ""
 
 msgid "fom_poss"
-msgstr ""
+msgstr "faoi mo"
+
+msgid "fom_prep"
+msgstr "faoin_prep"
 
 msgid "fon_poss"
 msgstr ""
 
 msgid "fon_prep"
+msgstr "faoin_prep"
+
+msgid "fòn_nm"
 msgstr ""
 
 msgid "fòn_v"
@@ -14644,10 +16621,16 @@ msgstr ""
 msgid "fònadh_nm"
 msgstr ""
 
+msgid "fonaigs_nf"
+msgstr "fónaic_nf"
+
 msgid "fon do_prep"
 msgstr ""
 
 msgid "fon is_vcop"
+msgstr ""
+
+msgid "fòn-làimhe_nm"
 msgstr ""
 
 msgid "fonn_nm"
@@ -14660,7 +16643,7 @@ msgid "for_nm"
 msgstr ""
 
 msgid "for_poss"
-msgstr ""
+msgstr "faoinár_poss"
 
 msgid "for_prep"
 msgstr ""
@@ -14681,6 +16664,9 @@ msgid "for-cheum_a"
 msgstr ""
 
 msgid "for-chraiceann_nm"
+msgstr ""
+
+msgid "fo-reachdas_nm"
 msgstr ""
 
 msgid "foreignear_nm"
@@ -14725,6 +16711,9 @@ msgstr "oscailte_a"
 msgid "fosgailteachd_nf"
 msgstr ""
 
+msgid "fosgarra_a"
+msgstr ""
+
 msgid "fosgarrachd_nf"
 msgstr ""
 
@@ -14734,7 +16723,16 @@ msgstr ""
 msgid "fosglair_nm"
 msgstr ""
 
+msgid "fo-sgrìobhadh_nm"
+msgstr ""
+
 msgid "fothach_nm"
+msgstr ""
+
+msgid "fo-thaghadh_nm"
+msgstr ""
+
+msgid "fo-thalamh_a"
 msgstr ""
 
 msgid "fòthannan_nm"
@@ -14747,6 +16745,9 @@ msgid "fradharc_nm"
 msgstr ""
 
 msgid "fradharcach_a"
+msgstr ""
+
+msgid "fraidhig_v"
 msgstr ""
 
 msgid "Fraing_nf"
@@ -14794,6 +16795,9 @@ msgstr ""
 msgid "frèam_nm"
 msgstr ""
 
+msgid "frèam-obrach_nm"
+msgstr ""
+
 msgid "Freaslannach_nm"
 msgstr ""
 
@@ -14810,6 +16814,15 @@ msgid "freumhaich_v"
 msgstr ""
 
 msgid "frids_nm"
+msgstr ""
+
+msgid "Frisealach_a"
+msgstr ""
+
+msgid "Frisealach_nm"
+msgstr ""
+
+msgid "frìth_nf"
 msgstr ""
 
 msgid "frith-chosamhlachd_nf"
@@ -14845,6 +16858,9 @@ msgstr ""
 msgid "fuadach_nm"
 msgstr ""
 
+msgid "fuadachadh_nm"
+msgstr ""
+
 msgid "fuadaich_v"
 msgstr ""
 
@@ -14854,7 +16870,19 @@ msgstr ""
 msgid "fuaigheal_nm"
 msgstr ""
 
+msgid "fuaigheil_v"
+msgstr ""
+
+msgid "fuaighte_a"
+msgstr ""
+
 msgid "fuaim_nf"
+msgstr ""
+
+msgid "fuaimealas_nm"
+msgstr ""
+
+msgid "fuaimneach_a"
 msgstr ""
 
 msgid "fuaimneachadh_nm"
@@ -14879,9 +16907,6 @@ msgid "fual-bhrosnach_a"
 msgstr ""
 
 msgid "fual-bhrosnach_nm"
-msgstr ""
-
-msgid "fuamhaire_nm"
 msgstr ""
 
 msgid "fuar_a"
@@ -14915,6 +16940,9 @@ msgid "fuath_nm"
 msgstr ""
 
 msgid "fuathaich_v"
+msgstr ""
+
+msgid "fuathasach_a"
 msgstr ""
 
 msgid "fuathmhor_a"
@@ -14977,6 +17005,9 @@ msgstr ""
 msgid "fulangaiche_nm"
 msgstr ""
 
+msgid "fulangas_nm"
+msgstr ""
+
 msgid "fulmair_nm"
 msgstr ""
 
@@ -14986,16 +17017,25 @@ msgstr ""
 msgid "fungas_nm"
 msgstr ""
 
+msgid "fur_poss"
+msgstr "faoi bhur"
+
 msgid "furachail_a"
 msgstr ""
 
 msgid "furachas_nm"
 msgstr ""
 
-msgid "furasdaich_v"
+msgid "furan_nm"
 msgstr ""
 
 msgid "furasta_a"
+msgstr ""
+
+msgid "furastaich_v"
+msgstr ""
+
+msgid "furm_nm"
 msgstr ""
 
 msgid "furmailteachd_nf"
@@ -15103,6 +17143,9 @@ msgstr ""
 msgid "gaillium_nm"
 msgstr ""
 
+msgid "Gaimbia_nf"
+msgstr ""
+
 msgid "gaineamhach_a"
 msgstr ""
 
@@ -15169,6 +17212,9 @@ msgstr ""
 msgid "gàirneid_nf"
 msgstr ""
 
+msgid "gaiseadh_nm"
+msgstr ""
+
 msgid "gaisge_nf"
 msgstr ""
 
@@ -15197,6 +17243,9 @@ msgid "galar neasgaideach_nm"
 msgstr ""
 
 msgid "Galicia_nf"
+msgstr ""
+
+msgid "gall_nm"
 msgstr ""
 
 msgid "Gall_nm"
@@ -15256,6 +17305,12 @@ msgstr ""
 msgid "gann_a"
 msgstr ""
 
+msgid "gànraich_nf"
+msgstr ""
+
+msgid "gànraich_v"
+msgstr ""
+
 msgid "gaoid_nf"
 msgstr ""
 
@@ -15272,6 +17327,9 @@ msgid "gaoisteanach_a"
 msgstr ""
 
 msgid "gaol_nm"
+msgstr ""
+
+msgid "gaolach_a"
 msgstr ""
 
 msgid "gaorr_nm"
@@ -15301,6 +17359,9 @@ msgstr ""
 msgid "gaothran_nm"
 msgstr ""
 
+msgid "gar_poss"
+msgstr "chun ár"
+
 msgid "gar_prep"
 msgstr ""
 
@@ -15326,9 +17387,6 @@ msgid "gàrlach_nm"
 msgstr ""
 
 msgid "garrach_nm"
-msgstr ""
-
-msgid "gàrradaireachd_nf"
 msgstr ""
 
 msgid "gàrradh_nm"
@@ -15520,6 +17578,12 @@ msgstr ""
 msgid "geàrr-chunntas_nm"
 msgstr ""
 
+msgid "geàrr-iomradh_nm"
+msgstr ""
+
+msgid "geàrr-liosta_nf"
+msgstr ""
+
 msgid "geas_nf"
 msgstr ""
 
@@ -15568,6 +17632,9 @@ msgstr ""
 msgid "geimheal_nm"
 msgstr ""
 
+msgid "geimhleag_nf"
+msgstr ""
+
 msgid "geimhlich_v"
 msgstr ""
 
@@ -15583,6 +17650,9 @@ msgstr ""
 msgid "gèire_nf"
 msgstr ""
 
+msgid "genre_nf"
+msgstr ""
+
 msgid "geòcach_a"
 msgstr ""
 
@@ -15596,6 +17666,9 @@ msgid "geodha_nm"
 msgstr ""
 
 msgid "geoimeatrach_a"
+msgstr ""
+
+msgid "geoimeatraidh_nm"
 msgstr ""
 
 msgid "geo-iomadachd_nf"
@@ -15614,6 +17687,12 @@ msgid "geòlas_nm"
 msgstr ""
 
 msgid "geòlasach_a"
+msgstr ""
+
+msgid "geomatras_nm"
+msgstr ""
+
+msgid "geo-phàirc_nf"
 msgstr ""
 
 msgid "geug_nf"
@@ -15640,10 +17719,16 @@ msgstr ""
 msgid "geuraich_v"
 msgstr ""
 
+msgid "geurchuiseach_a"
+msgstr ""
+
 msgid "geur-leanmhainn_nm"
 msgstr ""
 
 msgid "geur-oisean_nm"
+msgstr ""
+
+msgid "gheat_nf"
 msgstr ""
 
 msgid "ghlè_adv"
@@ -15685,6 +17770,12 @@ msgstr ""
 msgid "gille_nm"
 msgstr ""
 
+msgid "gille-coise_nm"
+msgstr ""
+
+msgid "Gille-Coise_nm"
+msgstr ""
+
 msgid "gimleid_nf"
 msgstr ""
 
@@ -15707,6 +17798,9 @@ msgid "ginideach_a"
 msgstr ""
 
 msgid "ginidh_nm"
+msgstr ""
+
+msgid "ginteil_a"
 msgstr ""
 
 msgid "gintinn_nm"
@@ -15739,6 +17833,9 @@ msgstr ""
 msgid "gioragach_a"
 msgstr ""
 
+msgid "giorna-giùirne_adv"
+msgstr ""
+
 msgid "giorrachadh_nm"
 msgstr ""
 
@@ -15763,7 +17860,13 @@ msgstr ""
 msgid "giotàr_nm"
 msgstr ""
 
+msgid "giùlain_v"
+msgstr ""
+
 msgid "giùlan_nm"
+msgstr ""
+
+msgid "giullachd_nf"
 msgstr ""
 
 msgid "giùran_nm"
@@ -15788,6 +17891,9 @@ msgid "glacadaireachd_nf"
 msgstr ""
 
 msgid "glacadh_nm"
+msgstr ""
+
+msgid "glacte_a"
 msgstr ""
 
 msgid "glagair_nm"
@@ -15892,6 +17998,9 @@ msgstr ""
 msgid "gleannan_nm"
 msgstr ""
 
+msgid "gleans_nm"
+msgstr ""
+
 msgid "gleansach_a"
 msgstr ""
 
@@ -15931,6 +18040,9 @@ msgstr ""
 msgid "gleusadh_nm"
 msgstr ""
 
+msgid "gleusta_a"
+msgstr ""
+
 msgid "gleustachd_nf"
 msgstr ""
 
@@ -15955,7 +18067,7 @@ msgstr ""
 msgid "gliostar_nm"
 msgstr ""
 
-msgid "gloic_nf"
+msgid "gloidhc_nf"
 msgstr ""
 
 msgid "gloineadair_nm"
@@ -16018,6 +18130,9 @@ msgstr ""
 msgid "gnàthach_a"
 msgstr ""
 
+msgid "gnàthachas_nm"
+msgstr ""
+
 msgid "gnàthaich_v"
 msgstr ""
 
@@ -16025,6 +18140,9 @@ msgid "gnàthas_nm"
 msgstr ""
 
 msgid "gnàthasach_a"
+msgstr ""
+
+msgid "gnàthas-cainnt_nm"
 msgstr ""
 
 msgid "gnàth-chomataidh_nf"
@@ -16060,6 +18178,9 @@ msgstr ""
 msgid "gnìomhachadh_nm"
 msgstr ""
 
+msgid "gnìomhachail_a"
+msgstr ""
+
 msgid "gnìomhachas_nm"
 msgstr ""
 
@@ -16067,6 +18188,9 @@ msgid "gnìomhachd_nf"
 msgstr ""
 
 msgid "gnìomhaiche_nm"
+msgstr ""
+
+msgid "gnìomhaichte_a"
 msgstr ""
 
 msgid "gnìomhair_nm"
@@ -16192,7 +18316,13 @@ msgstr ""
 msgid "goilf_nm"
 msgstr ""
 
+msgid "goilfear_nm"
+msgstr ""
+
 msgid "goineach_a"
+msgstr ""
+
+msgid "goir_v"
 msgstr ""
 
 msgid "goireas_nm"
@@ -16339,6 +18469,9 @@ msgstr ""
 msgid "gràmar_nm"
 msgstr ""
 
+msgid "gramataigeach_a"
+msgstr ""
+
 msgid "gràn_nm"
 msgstr ""
 
@@ -16351,16 +18484,28 @@ msgstr ""
 msgid "gràn-ubhal_nm"
 msgstr ""
 
+msgid "Graonlainn_nf"
+msgstr ""
+
+msgid "Graonlannach_a"
+msgstr ""
+
 msgid "Graonlannach_nm"
 msgstr ""
 
-msgid "graosdachd_nf"
+msgid "Graonlannais_nf"
+msgstr ""
+
+msgid "graostachd_nf"
 msgstr ""
 
 msgid "gràs_nm"
 msgstr ""
 
 msgid "gràsmhor_a"
+msgstr ""
+
+msgid "greabhal_nm"
 msgstr ""
 
 msgid "gread_v"
@@ -16372,7 +18517,16 @@ msgstr ""
 msgid "greadhnach_a"
 msgstr ""
 
+msgid "greadhnachas_nm"
+msgstr ""
+
+msgid "Greanàda_nf"
+msgstr ""
+
 msgid "greanmhor_a"
+msgstr ""
+
+msgid "greann_nm"
 msgstr ""
 
 msgid "greannach_a"
@@ -16438,14 +18592,17 @@ msgstr ""
 msgid "greiseag_nf"
 msgstr ""
 
+msgid "greis-ghnìomhachais_nf"
+msgstr "taithí oibre"
+
 msgid "Greugach_a"
-msgstr ""
+msgstr "Gréagach_a"
 
 msgid "Greugach_nm"
-msgstr ""
+msgstr "Gréagach_nm"
 
 msgid "Greugais_nf"
-msgstr ""
+msgstr "Gréigis_nf"
 
 msgid "greus_nf"
 msgstr ""
@@ -16471,6 +18628,9 @@ msgstr ""
 msgid "grìbhean_nm"
 msgstr "gríobh_nf"
 
+msgid "grile_nm"
+msgstr "greille_nf"
+
 msgid "grinn_a"
 msgstr ""
 
@@ -16480,10 +18640,31 @@ msgstr ""
 msgid "grinneal_nm"
 msgstr ""
 
+msgid "grinneas_nm"
+msgstr ""
+
+msgid "grìob_nm"
+msgstr ""
+
 msgid "griobhag_nf"
 msgstr ""
 
-msgid "Grionlainn_nf"
+msgid "grìogag_nf"
+msgstr ""
+
+msgid "Grioglachan_nm"
+msgstr ""
+
+msgid "Griogorach_a"
+msgstr ""
+
+msgid "Griogorach_nm"
+msgstr ""
+
+msgid "Griomasach_a"
+msgstr ""
+
+msgid "Griomasach_nm"
 msgstr ""
 
 msgid "grìos_nm"
@@ -16495,7 +18676,16 @@ msgstr ""
 msgid "grìosachadh_nm"
 msgstr ""
 
+msgid "grìosaich_v"
+msgstr ""
+
 msgid "grisgean_nm"
+msgstr ""
+
+msgid "griùlach_nf"
+msgstr ""
+
+msgid "gròban_nm"
 msgstr ""
 
 msgid "grod_a"
@@ -16570,6 +18760,9 @@ msgstr ""
 msgid "grùnsgal_nm"
 msgstr ""
 
+msgid "grùpa_nm"
+msgstr "grúpa_nm"
+
 msgid "gruth_nm"
 msgstr ""
 
@@ -16606,6 +18799,9 @@ msgstr ""
 msgid "gualann_nf"
 msgstr ""
 
+msgid "gual-fiodha_nm"
+msgstr ""
+
 msgid "guàna_nm"
 msgstr ""
 
@@ -16615,6 +18811,9 @@ msgstr ""
 msgid "guasachdach_a"
 msgstr ""
 
+msgid "Guatamala_nf"
+msgstr ""
+
 msgid "gu bitheanta_adv"
 msgstr ""
 
@@ -16622,7 +18821,7 @@ msgid "gu bràth_adv"
 msgstr ""
 
 msgid "gud_poss"
-msgstr ""
+msgstr "chun do"
 
 msgid "gu deimhinne_adv"
 msgstr ""
@@ -16673,7 +18872,10 @@ msgid "gum_conj"
 msgstr ""
 
 msgid "gum_poss"
-msgstr ""
+msgstr "chun mo"
+
+msgid "gum_prep"
+msgstr "chun an"
 
 msgid "Gúm_nm"
 msgstr ""
@@ -16693,6 +18895,9 @@ msgstr ""
 msgid "gun do_conj"
 msgstr ""
 
+msgid "gun fhiosta_adv"
+msgstr ""
+
 msgid "gunna_nm"
 msgstr ""
 
@@ -16703,7 +18908,7 @@ msgid "gur_nm"
 msgstr ""
 
 msgid "gur_poss"
-msgstr ""
+msgstr "chun bhur"
 
 msgid "gur_vcop"
 msgstr ""
@@ -16718,6 +18923,15 @@ msgid "guth_nm"
 msgstr ""
 
 msgid "hàbad_nm"
+msgstr ""
+
+msgid "haidhp_nf"
+msgstr ""
+
+msgid "hàidraidean_nm"
+msgstr ""
+
+msgid "haidridean_nm"
 msgstr ""
 
 msgid "haifnium_nm"
@@ -16738,10 +18952,16 @@ msgstr ""
 msgid "hamstair_nm"
 msgstr ""
 
-msgid "hangair_nm"
+msgid "hangar_nm"
 msgstr ""
 
 msgid "heactair_nm"
+msgstr ""
+
+msgid "Hearach_a"
+msgstr ""
+
+msgid "Hearach_nm"
 msgstr ""
 
 msgid "heileacoptair_nm"
@@ -16750,22 +18970,40 @@ msgstr ""
 msgid "heillium_nm"
 msgstr ""
 
-msgid "hidrigin_nm"
+msgid "hiodrocarbon_nm"
 msgstr ""
 
-msgid "hiodrocarbon_nm"
+msgid "Hiortach_a"
+msgstr ""
+
+msgid "Hiortach_nm"
 msgstr ""
 
 msgid "hocaidh_nm"
 msgstr ""
 
+msgid "hoigh_excl"
+msgstr ""
+
 msgid "hoilmium_nm"
+msgstr ""
+
+msgid "Hondùras_nf"
 msgstr ""
 
 msgid "hormon_nm"
 msgstr ""
 
+msgid "hòro-gheallaidh_nf"
+msgstr ""
+
+msgid "hù-bhitheil_nf"
+msgstr ""
+
 msgid "i_pn"
+msgstr ""
+
+msgid "iac_nm"
 msgstr ""
 
 msgid "iad_pn"
@@ -16780,6 +19018,9 @@ msgstr ""
 msgid "ialtag_nf"
 msgstr ""
 
+msgid "Iameuga_nf"
+msgstr ""
+
 msgid "iar_nf"
 msgstr ""
 
@@ -16789,22 +19030,31 @@ msgstr ""
 msgid "Iaracach_nm"
 msgstr ""
 
-msgid "Iarag_nf"
-msgstr ""
-
 msgid "Iaran_nm"
 msgstr ""
 
 msgid "iarann_nm"
 msgstr ""
 
+msgid "iarannach_a"
+msgstr ""
+
 msgid "Iarann-aois_nf"
+msgstr ""
+
+msgid "iar-cheumnach_a"
+msgstr ""
+
+msgid "iar-cheumnach_nm"
 msgstr ""
 
 msgid "iar-chuairt_nf"
 msgstr ""
 
 msgid "iar-dheas_nf"
+msgstr ""
+
+msgid "iargain_nf"
 msgstr ""
 
 msgid "iarla_nm"
@@ -16825,7 +19075,13 @@ msgstr ""
 msgid "iarmart_nm"
 msgstr ""
 
+msgid "iarnaich_v"
+msgstr ""
+
 msgid "iarnair_nm"
+msgstr ""
+
+msgid "iar-ogha_nm"
 msgstr ""
 
 msgid "iarr_v"
@@ -16879,10 +19135,25 @@ msgstr ""
 msgid "iasgach_nm"
 msgstr ""
 
+msgid "iasgachd_nf"
+msgstr ""
+
 msgid "iasgair_nm"
 msgstr ""
 
+msgid "iasgaireachd_nf"
+msgstr ""
+
 msgid "iasg geal_nm"
+msgstr ""
+
+msgid "iath_v"
+msgstr ""
+
+msgid "iathaire_nm"
+msgstr ""
+
+msgid "iath-shlat_nf"
 msgstr ""
 
 msgid "iceach_a"
@@ -16892,6 +19163,9 @@ msgid "idir_adv"
 msgstr ""
 
 msgid "idir_prep"
+msgstr ""
+
+msgid "idrisgeach_a"
 msgstr ""
 
 msgid "ifrinn_nf"
@@ -16910,9 +19184,6 @@ msgid "imich_v"
 msgstr ""
 
 msgid "imlich_v"
-msgstr ""
-
-msgid "imnidh_nf"
 msgstr ""
 
 msgid "imnidheach_a"
@@ -16936,6 +19207,9 @@ msgstr ""
 msgid "imrich_nf"
 msgstr ""
 
+msgid "imrich-a-steach_nm"
+msgstr ""
+
 msgid "inbhe_nf"
 msgstr ""
 
@@ -16957,10 +19231,16 @@ msgstr ""
 msgid "Inbhir Nis_nm"
 msgstr ""
 
+msgid "inc_nf"
+msgstr ""
+
 msgid "Indo-Eòrpach_a"
 msgstr ""
 
 msgid "ìneach_a"
+msgstr ""
+
+msgid "in-ghabhail_nf"
 msgstr ""
 
 msgid "in-ghabhalachd_nf"
@@ -16978,6 +19258,9 @@ msgstr ""
 msgid "in-imriche_nm"
 msgstr ""
 
+msgid "in-mhalairt_nf"
+msgstr ""
+
 msgid "inneach_nm"
 msgstr ""
 
@@ -16990,7 +19273,28 @@ msgstr ""
 msgid "inneal-analachaidh_nm"
 msgstr ""
 
+msgid "inneal-ciùil_nm"
+msgstr ""
+
+msgid "inneal-clàir_nm"
+msgstr ""
+
+msgid "inneal-claisneachd_nm"
+msgstr ""
+
+msgid "inneal-dealain_nm"
+msgstr ""
+
+msgid "inneal-fighe_nm"
+msgstr ""
+
 msgid "inneal-fionnarachaidh_nm"
+msgstr ""
+
+msgid "inneal-measgachaidh_nm"
+msgstr ""
+
+msgid "inneal-nighe_nm"
 msgstr ""
 
 msgid "innealradh_nm"
@@ -17032,6 +19336,12 @@ msgstr ""
 msgid "innleachdach_nm"
 msgstr ""
 
+msgid "innleachdail_a"
+msgstr ""
+
+msgid "innleachdas_nm"
+msgstr ""
+
 msgid "innleadair_nm"
 msgstr ""
 
@@ -17067,6 +19377,9 @@ msgstr ""
 
 msgid "inntinneachd_nf"
 msgstr ""
+
+msgid "inntinneil_a"
+msgstr "intinne_a"
 
 msgid "inntinn-eòlaiche_nm"
 msgstr ""
@@ -17146,6 +19459,9 @@ msgstr ""
 msgid "iodhlann_nf"
 msgstr ""
 
+msgid "iòga_nm"
+msgstr ""
+
 msgid "iogart_nm"
 msgstr ""
 
@@ -17153,6 +19469,9 @@ msgid "iolach_nf"
 msgstr ""
 
 msgid "iolaire_nf"
+msgstr ""
+
+msgid "iolaire-mhara_nf"
 msgstr ""
 
 msgid "iolarach_a"
@@ -17176,6 +19495,9 @@ msgstr ""
 msgid "iomadach_a"
 msgstr ""
 
+msgid "iomadach_nm"
+msgstr ""
+
 msgid "iomadachadh_nm"
 msgstr ""
 
@@ -17189,6 +19511,12 @@ msgid "iomadalachd_nf"
 msgstr ""
 
 msgid "iomadh_a"
+msgstr ""
+
+msgid "ioma-dhathach_a"
+msgstr ""
+
+msgid "ioma-fhillte_a"
 msgstr ""
 
 msgid "iomagain_nf"
@@ -17233,11 +19561,26 @@ msgstr ""
 msgid "iomallach_a"
 msgstr ""
 
+msgid "iomallachd_nf"
+msgstr ""
+
+msgid "ioma-mheadhan_nm"
+msgstr ""
+
+msgid "ioma-mheadhanach_a"
+msgstr ""
+
 msgid "iomanaiche_nm"
 msgstr ""
 
 msgid "iomarachd_nf"
 msgstr ""
+
+msgid "iomarat_nm"
+msgstr "éimíríocht_nf"
+
+msgid "Iomarat_nm"
+msgstr "Éimíríocht_nf"
 
 msgid "iomarcach_a"
 msgstr ""
@@ -17299,6 +19642,9 @@ msgstr ""
 msgid "iom-leabhar_nm"
 msgstr ""
 
+msgid "iomnaidh_nf"
+msgstr ""
+
 msgid "iom-oibreachadh_nm"
 msgstr ""
 
@@ -17332,10 +19678,22 @@ msgstr ""
 msgid "iomramh_nm"
 msgstr ""
 
+msgid "iom-tharraing_nf"
+msgstr ""
+
+msgid "iom-thionndadh_nm"
+msgstr "inbhéartú_nm"
+
 msgid "ionad_nm"
 msgstr ""
 
 msgid "Ionad_nm"
+msgstr ""
+
+msgid "ionadach_a"
+msgstr ""
+
+msgid "ionadach_nm"
 msgstr ""
 
 msgid "ionadail_a"
@@ -17347,7 +19705,22 @@ msgstr ""
 msgid "Ionad-Cluiche_nm"
 msgstr ""
 
+msgid "ionad-fàilte_nm"
+msgstr ""
+
+msgid "ionad-fiosrachaidh_nm"
+msgstr ""
+
 msgid "ionad-mheasaidh_nm"
+msgstr ""
+
+msgid "ionad-obrach_nm"
+msgstr ""
+
+msgid "ionad-slàinte_nm"
+msgstr ""
+
+msgid "ionad-spòrs_nm"
 msgstr ""
 
 msgid "ionaghailt_nf"
@@ -17398,7 +19771,7 @@ msgstr ""
 msgid "iongrachadh_nm"
 msgstr ""
 
-msgid "ionlasda_a"
+msgid "ionlasta_a"
 msgstr ""
 
 msgid "ion-leighis_a"
@@ -17410,7 +19783,7 @@ msgstr ""
 msgid "ion-mhaithte_a"
 msgstr ""
 
-msgid "ionmhas_nf"
+msgid "ionmhas_nm"
 msgstr ""
 
 msgid "ionmhasail_a"
@@ -17432,6 +19805,9 @@ msgid "ionmholta_a"
 msgstr ""
 
 msgid "ionnanachd_nf"
+msgstr ""
+
+msgid "ionnas_adv"
 msgstr ""
 
 msgid "ionndrainn_nf"
@@ -17458,10 +19834,16 @@ msgstr ""
 msgid "ionnsaigh_nf"
 msgstr ""
 
+msgid "ionnsaigheach_a"
+msgstr ""
+
+msgid "ionnsaigheach_nm"
+msgstr ""
+
 msgid "ionnsramaid_nf"
 msgstr ""
 
-msgid "ionnstramaid_nf"
+msgid "ionnsramaideach_a"
 msgstr ""
 
 msgid "ion-phòsta_a"
@@ -17477,6 +19859,12 @@ msgid "ion-roghnachd_nf"
 msgstr ""
 
 msgid "ion-shamhlaichte_a"
+msgstr ""
+
+msgid "Ioràc_nf"
+msgstr ""
+
+msgid "Iorc_nm"
 msgstr ""
 
 msgid "Iòrdan_nm"
@@ -17501,6 +19889,9 @@ msgid "Iosaid_nm"
 msgstr ""
 
 msgid "ìosal_a"
+msgstr ""
+
+msgid "iosgaid_nf"
 msgstr ""
 
 msgid "Ìoslannach_nm"
@@ -17635,7 +20026,10 @@ msgstr ""
 msgid "Iùdhach_nm"
 msgstr ""
 
-msgid "Iùgoslaibhia_nm"
+msgid "Iùdhais_nf"
+msgstr ""
+
+msgid "Iùgoslàibhia_nm"
 msgstr ""
 
 msgid "iùil-tharraing_nf"
@@ -17659,6 +20053,9 @@ msgstr ""
 msgid "iutharna_nf"
 msgstr ""
 
+msgid "jazz_nm"
+msgstr "snagcheol_nm"
+
 msgid "là_nm"
 msgstr ""
 
@@ -17674,6 +20071,9 @@ msgstr ""
 msgid "labhairt_nf"
 msgstr ""
 
+msgid "labhairteach_a"
+msgstr ""
+
 msgid "labhrachd_nf"
 msgstr ""
 
@@ -17681,6 +20081,9 @@ msgid "labhradh_nm"
 msgstr ""
 
 msgid "labhras_nm"
+msgstr ""
+
+msgid "Làborach_a"
 msgstr ""
 
 msgid "lach_nf"
@@ -17770,10 +20173,16 @@ msgstr ""
 msgid "laghalachd_nf"
 msgstr ""
 
+msgid "lagh-chleachdach_a"
+msgstr ""
+
 msgid "làib_nm"
 msgstr ""
 
 msgid "Laideann_nm"
+msgstr ""
+
+msgid "Laideannach_a"
 msgstr ""
 
 msgid "làidir_a"
@@ -18049,6 +20458,9 @@ msgstr ""
 msgid "làthach_nf"
 msgstr ""
 
+msgid "latha-fèille_nm"
+msgstr ""
+
 msgid "làthair_nf"
 msgstr ""
 
@@ -18082,6 +20494,9 @@ msgstr ""
 msgid "leabhar-cheangladh_nm"
 msgstr ""
 
+msgid "leabhar-chlàr_nm"
+msgstr ""
+
 msgid "leabhar-d_nm"
 msgstr ""
 
@@ -18089,6 +20504,9 @@ msgid "leabhar-fhreagairt_nm"
 msgstr ""
 
 msgid "leabhar-iùil_nm"
+msgstr ""
+
+msgid "leabhar-làimhe_nm"
 msgstr ""
 
 msgid "leabharlann_nm"
@@ -18127,6 +20545,9 @@ msgstr ""
 msgid "leacanaich_v"
 msgstr ""
 
+msgid "leac-uaighe_nf"
+msgstr ""
+
 msgid "leadaig_nf"
 msgstr ""
 
@@ -18151,8 +20572,14 @@ msgstr ""
 msgid "leaghte_a"
 msgstr ""
 
+msgid "leagte_a"
+msgstr ""
+
 msgid "leam_pronm"
 msgstr ""
+
+msgid "lèama_nm"
+msgstr "leama_nm"
 
 msgid "leamh_a"
 msgstr ""
@@ -18191,6 +20618,9 @@ msgid "leanaich_v"
 msgstr ""
 
 msgid "leanailteach_a"
+msgstr ""
+
+msgid "leanmhainneach_a"
 msgstr ""
 
 msgid "leann_nm"
@@ -18256,13 +20686,31 @@ msgstr ""
 msgid "leasan_nm"
 msgstr ""
 
+msgid "leasbach_a"
+msgstr ""
+
+msgid "leasbach_nm"
+msgstr ""
+
 msgid "leas-oifigear_nm"
+msgstr ""
+
+msgid "Leasotach_a"
+msgstr ""
+
+msgid "Leasotach_nm"
+msgstr ""
+
+msgid "Leasoto_nf"
 msgstr ""
 
 msgid "leasradh_nm"
 msgstr ""
 
 msgid "leas-rìgh_nm"
+msgstr ""
+
+msgid "leas-stiùiriche_nm"
 msgstr ""
 
 msgid "leat_pronm"
@@ -18283,11 +20731,14 @@ msgstr ""
 msgid "leathar_nm"
 msgstr ""
 
+msgid "leatrom_nm"
+msgstr ""
+
 msgid "leatromach_a"
 msgstr ""
 
 msgid "led_poss"
-msgstr ""
+msgstr "le do"
 
 msgid "leibh_pronm"
 msgstr ""
@@ -18386,16 +20837,10 @@ msgid "lèirsinneachd_nf"
 msgstr ""
 
 msgid "leis_prep"
-msgstr ""
+msgstr "leis_prep"
 
 msgid "leis_pronm"
-msgstr ""
-
-msgid "leisbeach_a"
-msgstr ""
-
-msgid "leisbeach_nm"
-msgstr ""
+msgstr "leis_pronm"
 
 msgid "leisg_a"
 msgstr ""
@@ -18428,10 +20873,16 @@ msgid "leitir_nf"
 msgstr ""
 
 msgid "lem_poss"
-msgstr ""
+msgstr "le mo"
+
+msgid "lem_prep"
+msgstr "leis an"
 
 msgid "len_poss"
 msgstr ""
+
+msgid "len_prep"
+msgstr "leis an"
 
 msgid "Leòdhas_nm"
 msgstr ""
@@ -18488,7 +20939,7 @@ msgid "leotha_pronm"
 msgstr ""
 
 msgid "ler_poss"
-msgstr ""
+msgstr "lenár"
 
 msgid "leth_nm"
 msgstr ""
@@ -18601,6 +21052,9 @@ msgstr ""
 msgid "leug_nf"
 msgstr ""
 
+msgid "leugach_a"
+msgstr ""
+
 msgid "leugart_nm"
 msgstr ""
 
@@ -18667,10 +21121,10 @@ msgstr ""
 msgid "Lib-Deamach_nm"
 msgstr ""
 
-msgid "libearalach_nm"
+msgid "libearalach_a"
 msgstr ""
 
-msgid "Libeiria_nf"
+msgid "libearalach_nm"
 msgstr ""
 
 msgid "lìbhrig_v"
@@ -18682,10 +21136,16 @@ msgstr ""
 msgid "Libia_nm"
 msgstr ""
 
+msgid "Libiria_nf"
+msgstr ""
+
 msgid "licear_nm"
 msgstr ""
 
-msgid "lideadh_nm"
+msgid "Lichtenstein_nm"
+msgstr ""
+
+msgid "lide_nm"
 msgstr ""
 
 msgid "lighiche_nm"
@@ -18790,9 +21250,6 @@ msgstr ""
 msgid "lìonra_nm"
 msgstr ""
 
-msgid "lìonradh_nm"
-msgstr ""
-
 msgid "liopag_nf"
 msgstr ""
 
@@ -18808,13 +21265,16 @@ msgstr ""
 msgid "Liosach_nm"
 msgstr ""
 
-msgid "liosdachd_nf"
-msgstr ""
-
 msgid "liosta_a"
 msgstr ""
 
 msgid "liosta_nf"
+msgstr ""
+
+msgid "liostachd_nf"
+msgstr ""
+
+msgid "liostadh_nm"
 msgstr ""
 
 msgid "liostaich_v"
@@ -18860,6 +21320,9 @@ msgid "lìth_nf"
 msgstr ""
 
 msgid "litir_nf"
+msgstr ""
+
+msgid "litir-naidheachd_nf"
 msgstr ""
 
 msgid "litreachadh_nm"
@@ -18949,6 +21412,9 @@ msgstr ""
 msgid "lochdach_a"
 msgstr ""
 
+msgid "lochdan_nm"
+msgstr ""
+
 msgid "Lochlann_nf"
 msgstr ""
 
@@ -18979,6 +21445,9 @@ msgstr ""
 msgid "lof_nf"
 msgstr ""
 
+msgid "loga_nm"
+msgstr ""
+
 msgid "logaidh_nm"
 msgstr ""
 
@@ -18991,6 +21460,9 @@ msgstr ""
 msgid "loidhne_nf"
 msgstr ""
 
+msgid "loidhneach_a"
+msgstr ""
+
 msgid "loidse_nf"
 msgstr ""
 
@@ -18998,6 +21470,15 @@ msgid "loidseadh_nm"
 msgstr ""
 
 msgid "loidsear_nm"
+msgstr ""
+
+msgid "loidsig_nf"
+msgstr ""
+
+msgid "loidsigeach_a"
+msgstr ""
+
+msgid "loiliopop_nm"
 msgstr ""
 
 msgid "lòineag_nf"
@@ -19126,6 +21607,9 @@ msgstr ""
 msgid "lorgaireachd_nf"
 msgstr ""
 
+msgid "lorg-coise_nf"
+msgstr ""
+
 msgid "los_conj"
 msgstr ""
 
@@ -19240,6 +21724,9 @@ msgstr ""
 msgid "luathaich_v"
 msgstr ""
 
+msgid "luathaireach_a"
+msgstr ""
+
 msgid "luaths_nm"
 msgstr ""
 
@@ -19300,6 +21787,9 @@ msgstr ""
 msgid "luchdmhor_a"
 msgstr ""
 
+msgid "luchdte_a"
+msgstr ""
+
 msgid "luch-fheòir_nf"
 msgstr ""
 
@@ -19316,6 +21806,9 @@ msgid "luga_nf"
 msgstr ""
 
 msgid "lugha_a"
+msgstr ""
+
+msgid "lughad_nf"
 msgstr ""
 
 msgid "lùghaich_v"
@@ -19414,6 +21907,9 @@ msgstr ""
 msgid "lunndair_nm"
 msgstr ""
 
+msgid "lur_poss"
+msgstr "le bhur"
+
 msgid "lurach_a"
 msgstr ""
 
@@ -19483,6 +21979,9 @@ msgstr ""
 msgid "lùths_nm"
 msgstr ""
 
+msgid "m'_poss"
+msgstr ""
+
 msgid "ma_conj"
 msgstr ""
 
@@ -19511,6 +22010,9 @@ msgid "macanta_a"
 msgstr ""
 
 msgid "macantachd_nf"
+msgstr ""
+
+msgid "macaroni_nm"
 msgstr ""
 
 msgid "mac bràthar_nm"
@@ -19552,7 +22054,13 @@ msgstr ""
 msgid "madadh_nm"
 msgstr ""
 
+msgid "madadh-allaidh_nm"
+msgstr ""
+
 msgid "madadh-ruadh_nm"
+msgstr ""
+
+msgid "Madagasgar_nf"
 msgstr ""
 
 msgid "madainn_nf"
@@ -19597,6 +22105,12 @@ msgstr ""
 msgid "mahoganaidh_nm"
 msgstr ""
 
+msgid "maicreasgop_nm"
+msgstr ""
+
+msgid "maicreasgopach_a"
+msgstr ""
+
 msgid "maide_nm"
 msgstr ""
 
@@ -19634,6 +22148,9 @@ msgid "maighre_nm"
 msgstr ""
 
 msgid "maighstir_nm"
+msgstr ""
+
+msgid "maighstireachd_nf"
 msgstr ""
 
 msgid "maighstir-sgoile_nm"
@@ -19732,12 +22249,6 @@ msgstr ""
 msgid "maistreadh_nm"
 msgstr ""
 
-msgid "maitheanas_nm"
-msgstr ""
-
-msgid "maitheas_nm"
-msgstr ""
-
 msgid "maithteach_a"
 msgstr ""
 
@@ -19745,6 +22256,18 @@ msgid "màl_nm"
 msgstr ""
 
 msgid "mala_nf"
+msgstr ""
+
+msgid "Malabhaidh_nf"
+msgstr ""
+
+msgid "Malabhaidheach_a"
+msgstr ""
+
+msgid "Malabhaidheach_nm"
+msgstr ""
+
+msgid "Malaidhsea_nf"
 msgstr ""
 
 msgid "malairt_nf"
@@ -19778,6 +22301,9 @@ msgid "mallaich_v"
 msgstr ""
 
 msgid "mallaichte_a"
+msgstr ""
+
+msgid "Màlta_nf"
 msgstr ""
 
 msgid "Màltach_nm"
@@ -19858,6 +22384,9 @@ msgstr ""
 msgid "maoim_nf"
 msgstr ""
 
+msgid "maoim-shlèibhe_nf"
+msgstr ""
+
 msgid "maoin_nf"
 msgstr ""
 
@@ -19874,6 +22403,9 @@ msgid "maoiniche_nm"
 msgstr ""
 
 msgid "maoireachd_nf"
+msgstr ""
+
+msgid "Maoiris_nf"
 msgstr ""
 
 msgid "maoiseach_nf"
@@ -19918,6 +22450,9 @@ msgstr ""
 msgid "mapa_nm"
 msgstr ""
 
+msgid "mapadh_nm"
+msgstr ""
+
 msgid "mar_conj"
 msgstr ""
 
@@ -19934,9 +22469,6 @@ msgid "maraiche_nm"
 msgstr ""
 
 msgid "maraireachd_nf"
-msgstr ""
-
-msgid "maraon_adv"
 msgstr ""
 
 msgid "mar-aon_adv"
@@ -20050,6 +22582,9 @@ msgstr ""
 msgid "màs_nm"
 msgstr ""
 
+msgid "Masadon_nf"
+msgstr ""
+
 msgid "masg_nm"
 msgstr ""
 
@@ -20101,6 +22636,9 @@ msgstr ""
 msgid "màthair_nf"
 msgstr ""
 
+msgid "màthair-chèile_nf"
+msgstr ""
+
 msgid "màthaireachd_nf"
 msgstr ""
 
@@ -20125,6 +22663,12 @@ msgstr ""
 msgid "meacan_nm"
 msgstr ""
 
+msgid "meacanaig_nm"
+msgstr ""
+
+msgid "meacanaigeach_a"
+msgstr ""
+
 msgid "meacan-ruadh_nm"
 msgstr ""
 
@@ -20147,6 +22691,12 @@ msgid "meadhan-aoiseil_a"
 msgstr ""
 
 msgid "meadhan-chearcall_nm"
+msgstr ""
+
+msgid "meadhan-chriosach_a"
+msgstr ""
+
+msgid "Meadhan-Chriosach_a"
 msgstr ""
 
 msgid "meadhan-là_nm"
@@ -20227,9 +22777,6 @@ msgstr ""
 msgid "meamran_nm"
 msgstr ""
 
-msgid "mean_a"
-msgstr ""
-
 msgid "meanbh_a"
 msgstr ""
 
@@ -20240,6 +22787,9 @@ msgid "meanbh-chlàr_nm"
 msgstr ""
 
 msgid "meanbhchuileag_nf"
+msgstr ""
+
+msgid "meanbh-fhrìde_nf"
 msgstr ""
 
 msgid "meanbh-rèile_nf"
@@ -20262,6 +22812,9 @@ msgstr ""
 
 msgid "meannt_nm"
 msgstr ""
+
+msgid "meantor_nm"
+msgstr "meantóir_nm"
 
 msgid "meantraig_v"
 msgstr ""
@@ -20347,6 +22900,9 @@ msgstr ""
 msgid "meatabalachd_nf"
 msgstr ""
 
+msgid "meatafor_nm"
+msgstr ""
+
 msgid "meataich_v"
 msgstr ""
 
@@ -20357,6 +22913,9 @@ msgid "meatailt_nf"
 msgstr ""
 
 msgid "meatair_nm"
+msgstr ""
+
+msgid "meataireachd_nf"
 msgstr ""
 
 msgid "meatan_nm"
@@ -20470,22 +23029,22 @@ msgstr ""
 msgid "mèith_a"
 msgstr ""
 
+msgid "menu_nm"
+msgstr ""
+
 msgid "meomhair_nf"
 msgstr ""
 
-msgid "meòmhraich_v"
+msgid "meòrachadh_nm"
 msgstr ""
 
-msgid "meòrachadh_nm"
+msgid "meòrachail_a"
 msgstr ""
 
 msgid "meòrachan_nm"
 msgstr ""
 
 msgid "meòraich_v"
-msgstr ""
-
-msgid "metafor_nm"
 msgstr ""
 
 msgid "meud_nm"
@@ -20527,6 +23086,9 @@ msgstr ""
 msgid "mì_pn"
 msgstr ""
 
+msgid "mì-àbhaisteach_a"
+msgstr ""
+
 msgid "miadan_nm"
 msgstr ""
 
@@ -20554,6 +23116,9 @@ msgstr ""
 msgid "miann_nf"
 msgstr ""
 
+msgid "miannach_a"
+msgstr ""
+
 msgid "miannaich_v"
 msgstr ""
 
@@ -20562,6 +23127,9 @@ msgstr ""
 
 msgid "mias_nf"
 msgstr ""
+
+msgid "miastair_nm"
+msgstr "bradmharcach_nm"
 
 msgid "miastradh_nm"
 msgstr ""
@@ -20641,6 +23209,9 @@ msgstr ""
 msgid "microfòn_nm"
 msgstr ""
 
+msgid "microwave_nm"
+msgstr ""
+
 msgid "mì-dhaonnachd_nf"
 msgstr ""
 
@@ -20663,6 +23234,9 @@ msgid "mì-fhallain_a"
 msgstr ""
 
 msgid "mì-fhoighidneach_a"
+msgstr ""
+
+msgid "mì-fhoirmeil_a"
 msgstr ""
 
 msgid "mì-fhortan_nm"
@@ -20725,7 +23299,16 @@ msgstr ""
 msgid "mìle_nm"
 msgstr ""
 
+msgid "mìlegram_nm"
+msgstr ""
+
 msgid "mileid_nf"
+msgstr ""
+
+msgid "mìleliotair_nm"
+msgstr ""
+
+msgid "mìlemeatair_nm"
 msgstr ""
 
 msgid "milis_a"
@@ -20741,6 +23324,9 @@ msgid "millean_card"
 msgstr ""
 
 msgid "millean_nm"
+msgstr ""
+
+msgid "milleanair_nm"
 msgstr ""
 
 msgid "millteach_a"
@@ -20800,6 +23386,9 @@ msgstr ""
 msgid "mì-nàireach_a"
 msgstr ""
 
+msgid "min-choirce_nf"
+msgstr ""
+
 msgid "mìneachadh_nm"
 msgstr ""
 
@@ -20830,13 +23419,10 @@ msgstr ""
 msgid "ministrealachd_nf"
 msgstr ""
 
+msgid "ministreil_a"
+msgstr ""
+
 msgid "mioca_nf"
-msgstr ""
-
-msgid "miocroscop_nm"
-msgstr ""
-
-msgid "miocroscopach_a"
 msgstr ""
 
 msgid "miodal_nm"
@@ -20956,6 +23542,9 @@ msgstr ""
 msgid "miotosas_nm"
 msgstr ""
 
+msgid "mì-phroifeiseanta_a"
+msgstr ""
+
 msgid "mìr_nm"
 msgstr ""
 
@@ -21049,6 +23638,9 @@ msgstr ""
 msgid "misnich_v"
 msgstr ""
 
+msgid "mì-stà_nm"
+msgstr ""
+
 msgid "miste_a"
 msgstr ""
 
@@ -21071,6 +23663,9 @@ msgid "mì-thoileachas_nm"
 msgstr ""
 
 msgid "mì-thoilichte_a"
+msgstr ""
+
+msgid "mì-thorrachas_nm"
 msgstr ""
 
 msgid "mì-thuarail_a"
@@ -21109,6 +23704,9 @@ msgstr ""
 msgid "modal_nm"
 msgstr ""
 
+msgid "mòdam_nm"
+msgstr ""
+
 msgid "modarra_a"
 msgstr ""
 
@@ -21128,6 +23726,12 @@ msgid "mogal_nm"
 msgstr ""
 
 msgid "mogan_nm"
+msgstr ""
+
+msgid "moileasg_nf"
+msgstr "moileasc_nm"
+
+msgid "moileciuil_nm"
 msgstr ""
 
 msgid "mòine_nf"
@@ -21295,6 +23899,9 @@ msgstr ""
 msgid "mormanta_nm"
 msgstr ""
 
+msgid "Moroco_nm"
+msgstr ""
+
 msgid "mòr-rathad_nm"
 msgstr ""
 
@@ -21328,10 +23935,16 @@ msgstr ""
 msgid "Mòsaimbiceach_nm"
 msgstr ""
 
+msgid "mosg_nm"
+msgstr ""
+
 msgid "mosgaideach_a"
 msgstr ""
 
 msgid "mosgail_v"
+msgstr ""
+
+msgid "mosgìoto_nm"
 msgstr ""
 
 msgid "mosgladh_nm"
@@ -21400,7 +24013,7 @@ msgstr ""
 msgid "mùgach_a"
 msgstr ""
 
-msgid "muic-fheòil_nf"
+msgid "muicfheòil_nf"
 msgstr ""
 
 msgid "muidhe_nm"
@@ -21497,6 +24110,9 @@ msgid "mùirnin_v"
 msgstr ""
 
 msgid "muirsgian_nf"
+msgstr ""
+
+msgid "muir-thìreach_nm"
 msgstr ""
 
 msgid "mulad_nm"
@@ -21661,6 +24277,9 @@ msgstr ""
 msgid "nàbaidh_nm"
 msgstr ""
 
+msgid "Nabhru_nf"
+msgstr ""
+
 msgid "nach_conj"
 msgstr ""
 
@@ -21688,6 +24307,12 @@ msgstr ""
 msgid "naidheachd_nf"
 msgstr ""
 
+msgid "naidheachdair_nm"
+msgstr ""
+
+msgid "naidheachdas_nm"
+msgstr ""
+
 msgid "naidhlean_nm"
 msgstr ""
 
@@ -21710,9 +24335,6 @@ msgid "nàireach_a"
 msgstr ""
 
 msgid "nàisean_nm"
-msgstr ""
-
-msgid "nàiseanachd_nf"
 msgstr ""
 
 msgid "nàiseanta_a"
@@ -21835,6 +24457,9 @@ msgstr ""
 msgid "nathair_nf"
 msgstr ""
 
+msgid "nathair-nimhe_nf"
+msgstr ""
+
 msgid "neach_nm"
 msgstr ""
 
@@ -21853,13 +24478,22 @@ msgstr ""
 msgid "neach-aithris_nm"
 msgstr ""
 
+msgid "neach-amais_nm"
+msgstr ""
+
 msgid "neach-amhairc_nm"
 msgstr ""
 
 msgid "neach-àrainneachd_nm"
 msgstr ""
 
+msgid "neach-bhòtaidh_nm"
+msgstr ""
+
 msgid "neach-bratha_nm"
+msgstr ""
+
+msgid "neach-brathaidh_nm"
 msgstr ""
 
 msgid "neach-brèige_nm"
@@ -21868,13 +24502,25 @@ msgstr ""
 msgid "neach-bruidinn_nm"
 msgstr ""
 
+msgid "neach-caitheimh_nm"
+msgstr ""
+
+msgid "neach-camara_nm"
+msgstr ""
+
 msgid "neach-casaid_nm"
+msgstr ""
+
+msgid "neach-catalog_nm"
 msgstr ""
 
 msgid "neach-cathrach_nm"
 msgstr ""
 
 msgid "neach-ceada_nm"
+msgstr ""
+
+msgid "neach-ceàird_nm"
 msgstr ""
 
 msgid "neach-ceàirde_nm"
@@ -21901,7 +24547,16 @@ msgstr ""
 msgid "neach-clàraidh_nm"
 msgstr ""
 
+msgid "neach-clàrcaidh_nm"
+msgstr ""
+
 msgid "neach-cleachdaidh_nm"
+msgstr ""
+
+msgid "neach-cloinne_nm"
+msgstr ""
+
+msgid "neach-cluiche_nm"
 msgstr ""
 
 msgid "neach-coimhid_nm"
@@ -21916,7 +24571,19 @@ msgstr ""
 msgid "neach-comhairleachaidh_nm"
 msgstr ""
 
+msgid "neach-comharrachaidh_nm"
+msgstr ""
+
 msgid "neach-còmhnaidh_nm"
+msgstr ""
+
+msgid "neach-compàirt_nm"
+msgstr ""
+
+msgid "neach-conaltraidh_nm"
+msgstr ""
+
+msgid "neach-cosnaidh_nm"
 msgstr ""
 
 msgid "neach-cruinneachaidh_nm"
@@ -21949,19 +24616,34 @@ msgstr ""
 msgid "neach-deilbh_nm"
 msgstr ""
 
+msgid "neach-dèilige_nm"
+msgstr ""
+
 msgid "neach de shliochd_nm"
+msgstr ""
+
+msgid "neach-dìona_nm"
 msgstr ""
 
 msgid "neach-diùraidh_nm"
 msgstr ""
 
+msgid "neach-dràma_nm"
+msgstr ""
+
 msgid "neach-dreuchd_nm"
+msgstr ""
+
+msgid "neach-dùthcha_nm"
 msgstr ""
 
 msgid "neach-eachdraidh_nm"
 msgstr ""
 
 msgid "neach-ealain_nm"
+msgstr ""
+
+msgid "neacheigin_nm"
 msgstr ""
 
 msgid "neach-eisimeil_nm"
@@ -22006,10 +24688,16 @@ msgstr ""
 msgid "neach-fulaing_nm"
 msgstr ""
 
+msgid "neach-gabhail_nm"
+msgstr ""
+
 msgid "neach-gairm_nm"
 msgstr ""
 
 msgid "neach-gearain_nm"
+msgstr ""
+
+msgid "neach-gèidh_nm"
 msgstr ""
 
 msgid "neach-gleidhidh_nm"
@@ -22018,16 +24706,34 @@ msgstr ""
 msgid "neach-glèidhteachais_nm"
 msgstr ""
 
+msgid "neach-gnìomha_nm"
+msgstr ""
+
+msgid "neach-gnìomhachais_nm"
+msgstr ""
+
 msgid "neach-gnothaich_nm"
 msgstr ""
 
+msgid "neach-iarrtais_nm"
+msgstr ""
+
+msgid "neach-imrich_nm"
+msgstr ""
+
 msgid "neach-inneil_nm"
+msgstr ""
+
+msgid "neach-iomairt_nm"
 msgstr ""
 
 msgid "neach-ionaid_nm"
 msgstr ""
 
 msgid "neach-ionnsachaidh_nm"
+msgstr ""
+
+msgid "neach-ionnsaigh_nm"
 msgstr ""
 
 msgid "neach-iùil_nm"
@@ -22045,10 +24751,19 @@ msgstr ""
 msgid "neach-leantainn_nm"
 msgstr ""
 
+msgid "neach-leasachaidh_nm"
+msgstr ""
+
 msgid "neach-leughaidh_nm"
 msgstr ""
 
 msgid "neach-malairt_nm"
+msgstr ""
+
+msgid "neach-maoineachaidh_nm"
+msgstr ""
+
+msgid "neach-measaidh_nm"
 msgstr ""
 
 msgid "neach-naidheachd_nm"
@@ -22060,13 +24775,28 @@ msgstr ""
 msgid "neach-oide_nm"
 msgstr ""
 
+msgid "neach-pàirteachaidh_nm"
+msgstr ""
+
+msgid "neach-pàrlamaid_nm"
+msgstr ""
+
+msgid "neach-poileasaidh_nm"
+msgstr ""
+
 msgid "neach-poilitigs_nm"
 msgstr ""
 
 msgid "neach-rannsachaidh_nm"
 msgstr ""
 
+msgid "neach-reic_nm"
+msgstr ""
+
 msgid "neach-riaghlaidh_nm"
+msgstr ""
+
+msgid "neach-rianachd_nm"
 msgstr ""
 
 msgid "neach-Ròmanaidh_nm"
@@ -22081,13 +24811,22 @@ msgstr ""
 msgid "neach-saothrachaidh_nm"
 msgstr ""
 
+msgid "neach-seilbhe_nm"
+msgstr ""
+
 msgid "neach-seinn_nm"
+msgstr ""
+
+msgid "neach-sgrìobhaidh_nm"
 msgstr ""
 
 msgid "neach-sgrùdaidh_nm"
 msgstr ""
 
 msgid "neach-siubhail_nm"
+msgstr ""
+
+msgid "neach-sleagha_nm"
 msgstr ""
 
 msgid "neach-smàlaidh_nm"
@@ -22103,6 +24842,9 @@ msgid "neach-stiùiridh_nm"
 msgstr ""
 
 msgid "neach-tadhail_nm"
+msgstr ""
+
+msgid "neach-taghaidh_nm"
 msgstr ""
 
 msgid "neach-tagraidh_nm"
@@ -22129,13 +24871,22 @@ msgstr ""
 msgid "neach-tòiseachaidh_nm"
 msgstr ""
 
+msgid "neach-trèanaidh_nm"
+msgstr ""
+
 msgid "neach-treòrachaidh_nm"
 msgstr ""
 
 msgid "neach-trusaidh_nm"
 msgstr ""
 
+msgid "neach-tuineachaidh_nm"
+msgstr ""
+
 msgid "neach-turais_nm"
+msgstr ""
+
+msgid "neach-ùidhe_nm"
 msgstr ""
 
 msgid "nead_nf"
@@ -22154,9 +24905,6 @@ msgid "neamhnaid_nf"
 msgstr ""
 
 msgid "nèapaigin_nf"
-msgstr ""
-
-msgid "nèapraigear_nm"
 msgstr ""
 
 msgid "neaptuinium_nm"
@@ -22187,6 +24935,9 @@ msgid "neas_nm"
 msgstr ""
 
 msgid "neasgaid_nf"
+msgstr ""
+
+msgid "nèibhidh_nm"
 msgstr ""
 
 msgid "neo_conj"
@@ -22261,31 +25012,52 @@ msgstr ""
 msgid "neo-chinnteachd_nf"
 msgstr ""
 
-msgid "neo-chiontach_a"
-msgstr ""
-
-msgid "neo-chiontachd_nf"
-msgstr ""
-
 msgid "neo-chlaon_a"
 msgstr ""
 
 msgid "neo-chlaonachd_nf"
 msgstr ""
 
+msgid "neo-chleachdach_a"
+msgstr ""
+
 msgid "neo-chleachdta_a"
+msgstr ""
+
+msgid "neo-chneasta_a"
+msgstr ""
+
+msgid "neo-choileanta_a"
+msgstr ""
+
+msgid "neo-choimeirsealta_a"
 msgstr ""
 
 msgid "neochoireach_a"
 msgstr ""
 
+msgid "neo-chomasach_a"
+msgstr ""
+
 msgid "neo-chomasachd_nf"
+msgstr ""
+
+msgid "neo-chorporra_a"
 msgstr ""
 
 msgid "neo-chosmhail_a"
 msgstr ""
 
 msgid "neo-chràbhach_a"
+msgstr ""
+
+msgid "neo-chràiteach_a"
+msgstr ""
+
+msgid "neo-chreidsinneach_a"
+msgstr ""
+
+msgid "neo-chrìochnach_a"
 msgstr ""
 
 msgid "neo-chrìochnaichte_a"
@@ -22339,6 +25111,9 @@ msgstr ""
 msgid "neo-dhlighealachd_nf"
 msgstr ""
 
+msgid "neo-dhreuchdail_a"
+msgstr ""
+
 msgid "neo-dhruim-altachan_nm"
 msgstr ""
 
@@ -22375,6 +25150,12 @@ msgstr ""
 msgid "neo-fhèinealachd_nf"
 msgstr ""
 
+msgid "neo-fhoghainteach_a"
+msgstr ""
+
+msgid "neo-fhoillsichte_a"
+msgstr ""
+
 msgid "neo-fhoirfe_a"
 msgstr ""
 
@@ -22402,6 +25183,12 @@ msgstr ""
 msgid "neo-ghnìomhach_a"
 msgstr ""
 
+msgid "neoichiontach_a"
+msgstr ""
+
+msgid "neoichiontachd_nf"
+msgstr ""
+
 msgid "neòinean_nm"
 msgstr ""
 
@@ -22417,7 +25204,13 @@ msgstr ""
 msgid "neo-ionann_a"
 msgstr ""
 
+msgid "neo-ionannachd_nf"
+msgstr ""
+
 msgid "neo-làthaireachd_nf"
+msgstr ""
+
+msgid "neo-leantainneach_a"
 msgstr ""
 
 msgid "neo-litireachd_nf"
@@ -22453,6 +25246,9 @@ msgstr ""
 msgid "neo-oifigeil_a"
 msgstr ""
 
+msgid "neo-organach_a"
+msgstr ""
+
 msgid "neo-phàirteach_a"
 msgstr ""
 
@@ -22463,6 +25259,9 @@ msgid "neo-phearsanta_a"
 msgstr ""
 
 msgid "neo-phragtaigeach_a"
+msgstr ""
+
+msgid "neo-phrothaid_nf"
 msgstr ""
 
 msgid "neo-rèidh_a"
@@ -22483,6 +25282,12 @@ msgstr ""
 msgid "neo-sgrùbach_a"
 msgstr ""
 
+msgid "neo-shaoghalta_a"
+msgstr ""
+
+msgid "neo-sheargte_a"
+msgstr ""
+
 msgid "neo-sheasmhach_a"
 msgstr ""
 
@@ -22490,6 +25295,9 @@ msgid "neo-shocair_a"
 msgstr ""
 
 msgid "neo-shoilleireachd_nf"
+msgstr ""
+
+msgid "neo-shoirbheachail_a"
 msgstr ""
 
 msgid "neo-shuimeil_a"
@@ -22502,6 +25310,12 @@ msgid "neo-tharbhach_a"
 msgstr ""
 
 msgid "neo-thoileach_a"
+msgstr ""
+
+msgid "neo-thorach_a"
+msgstr ""
+
+msgid "neo-thorrach_a"
 msgstr ""
 
 msgid "neo-thràthail_a"
@@ -22543,9 +25357,6 @@ msgstr ""
 msgid "nigh_v"
 msgstr ""
 
-msgid "nighe_nf"
-msgstr ""
-
 msgid "nighe_nm"
 msgstr ""
 
@@ -22576,6 +25387,9 @@ msgstr ""
 msgid "nimheil_a"
 msgstr ""
 
+msgid "Niocaragua_nf"
+msgstr ""
+
 msgid "nioibium_nm"
 msgstr ""
 
@@ -22589,6 +25403,15 @@ msgid "Nirribheach_nm"
 msgstr ""
 
 msgid "Nirribhidh_nf"
+msgstr ""
+
+msgid "Nirribhis_nf"
+msgstr ""
+
+msgid "Niseach_a"
+msgstr ""
+
+msgid "Niseach_nm"
 msgstr ""
 
 msgid "nitheigin_pn"
@@ -22651,6 +25474,9 @@ msgstr ""
 msgid "Normanach_nm"
 msgstr ""
 
+msgid "Nòrmandaidh_nf"
+msgstr ""
+
 msgid "norradaich_nf"
 msgstr ""
 
@@ -22690,6 +25516,9 @@ msgstr ""
 msgid "nuadhaich_v"
 msgstr ""
 
+msgid "nuadh-aois_nf"
+msgstr ""
+
 msgid "nuadh-bhàrdachd_nf"
 msgstr ""
 
@@ -22717,8 +25546,11 @@ msgstr ""
 msgid "o_conj"
 msgstr ""
 
+msgid "o_poss"
+msgstr "óna_poss"
+
 msgid "o_prep"
-msgstr ""
+msgstr "ó_prep"
 
 msgid "Ò_excl"
 msgstr ""
@@ -22741,13 +25573,31 @@ msgstr ""
 msgid "obair-chlèireachd_nf"
 msgstr ""
 
+msgid "obair-chùrsa_nf"
+msgstr ""
+
 msgid "obair-dachaigh_nf"
 msgstr ""
 
 msgid "obair-ealain_nf"
 msgstr ""
 
+msgid "obair-ghrèis_nf"
+msgstr ""
+
 msgid "obair-làimhe_nf"
+msgstr ""
+
+msgid "obair-latha_nf"
+msgstr ""
+
+msgid "obair-leasachaidh_nf"
+msgstr ""
+
+msgid "obair-rannsachaidh_nf"
+msgstr ""
+
+msgid "obair-sgoile_nf"
 msgstr ""
 
 msgid "obair-taighe_nf"
@@ -22776,6 +25626,12 @@ msgstr "oibrigh_v"
 
 msgid "obraiche_nm"
 msgstr "oibrí_nm"
+
+msgid "obraiche-drùise_nm"
+msgstr ""
+
+msgid "obraiche-siubhail_nm"
+msgstr ""
 
 msgid "och_excl"
 msgstr ""
@@ -22813,6 +25669,9 @@ msgstr ""
 msgid "ochd-cheàrnach_nm"
 msgstr ""
 
+msgid "ochd-deug_card"
+msgstr ""
+
 msgid "ochdnar_nm"
 msgstr "ochtar_nm"
 
@@ -22824,6 +25683,9 @@ msgstr ""
 
 msgid "ocsid_nf"
 msgstr ""
+
+msgid "od_poss"
+msgstr "ó do"
 
 msgid "odhar_a"
 msgstr ""
@@ -23041,6 +25903,9 @@ msgstr ""
 msgid "oisean_nm"
 msgstr ""
 
+msgid "Oiseanach_a"
+msgstr "Oisíneach_a"
+
 msgid "oisinneach_a"
 msgstr ""
 
@@ -23093,9 +25958,15 @@ msgid "ollamhachd_nf"
 msgstr ""
 
 msgid "om_poss"
-msgstr ""
+msgstr "ó mo"
+
+msgid "om_prep"
+msgstr "ón_prep"
 
 msgid "òmar_nm"
+msgstr ""
+
+msgid "ombudsman_nm"
 msgstr ""
 
 msgid "omhanach_a"
@@ -23105,7 +25976,7 @@ msgid "omrann_nf"
 msgstr ""
 
 msgid "on_prep"
-msgstr ""
+msgstr "ón_prep"
 
 msgid "on a_conj"
 msgstr ""
@@ -23136,6 +26007,9 @@ msgstr ""
 
 msgid "oposam_nm"
 msgstr ""
+
+msgid "or_poss"
+msgstr "ónár_poss"
 
 msgid "òr_nm"
 msgstr ""
@@ -23179,6 +26053,9 @@ msgstr ""
 msgid "òr-bhuidhe_a"
 msgstr ""
 
+msgid "orcastra_nf"
+msgstr ""
+
 msgid "òr-cheàrd_nm"
 msgstr ""
 
@@ -23213,6 +26090,9 @@ msgid "òrdugh_nm"
 msgstr ""
 
 msgid "òrgan_nm"
+msgstr ""
+
+msgid "organach_a"
 msgstr ""
 
 msgid "òr-iasg_nm"
@@ -23260,7 +26140,16 @@ msgstr ""
 msgid "os cionn_prep"
 msgstr ""
 
+msgid "os-fhuaimneach_a"
+msgstr ""
+
 msgid "osgarra_a"
+msgstr ""
+
+msgid "os ìosal_adv"
+msgstr ""
+
+msgid "os làimh_adv"
 msgstr ""
 
 msgid "osna_nf"
@@ -23341,7 +26230,7 @@ msgstr ""
 msgid "pàganachd_nf"
 msgstr ""
 
-msgid "Pagastan_nm"
+msgid "Pagastàn_nm"
 msgstr ""
 
 msgid "paidh_nm"
@@ -23452,19 +26341,25 @@ msgstr ""
 msgid "Pais_nf"
 msgstr ""
 
-msgid "pàisdealachd_nf"
-msgstr ""
-
-msgid "pàisdeil_a"
-msgstr ""
-
 msgid "paisean_nm"
 msgstr ""
 
 msgid "paisg_v"
 msgstr ""
 
+msgid "paisgte_a"
+msgstr ""
+
 msgid "pàiste_nm"
+msgstr ""
+
+msgid "pàistealachd_nf"
+msgstr ""
+
+msgid "pàisteil_a"
+msgstr ""
+
+msgid "paistiuraich_v"
 msgstr ""
 
 msgid "pait_nf"
@@ -23530,7 +26425,13 @@ msgstr ""
 msgid "Paraguaidh_nm"
 msgstr ""
 
-msgid "paraimeadar_nm"
+msgid "parailealogram_nm"
+msgstr ""
+
+msgid "Parailimpeach_a"
+msgstr ""
+
+msgid "paraimeatair_nm"
 msgstr ""
 
 msgid "paraisiut_nm"
@@ -23552,6 +26453,9 @@ msgid "Pàrlamaid_nf"
 msgstr ""
 
 msgid "pàrlamaideach_a"
+msgstr ""
+
+msgid "paròil_nf"
 msgstr ""
 
 msgid "parraisteach_a"
@@ -23596,7 +26500,7 @@ msgstr ""
 msgid "pata_nm"
 msgstr ""
 
-msgid "Patagòinia_nm"
+msgid "Patagòinia_nf"
 msgstr ""
 
 msgid "pathadh_nm"
@@ -23606,6 +26510,9 @@ msgid "pàtran_nm"
 msgstr ""
 
 msgid "pàtranachd_nf"
+msgstr ""
+
+msgid "P-Ceilteach_a"
 msgstr ""
 
 msgid "peacach_a"
@@ -23729,6 +26636,9 @@ msgid "peinntealta_a"
 msgstr ""
 
 msgid "peirceall_nm"
+msgstr ""
+
+msgid "Peirse_nf"
 msgstr ""
 
 msgid "pèirse_nf"
@@ -23863,6 +26773,9 @@ msgstr ""
 msgid "pìob-ealaidh_nf"
 msgstr ""
 
+msgid "pìob-mhòr_nf"
+msgstr ""
+
 msgid "piobrachadh_nm"
 msgstr ""
 
@@ -23893,6 +26806,9 @@ msgstr ""
 msgid "piolaid_nf"
 msgstr ""
 
+msgid "pioramaid_nf"
+msgstr ""
+
 msgid "piorbhaig_nf"
 msgstr ""
 
@@ -23906,6 +26822,9 @@ msgid "pìos_nm"
 msgstr ""
 
 msgid "piostal_nm"
+msgstr ""
+
+msgid "piotsa_nm"
 msgstr ""
 
 msgid "piseach_nf"
@@ -23956,6 +26875,9 @@ msgstr ""
 msgid "plana_nm"
 msgstr ""
 
+msgid "plàna_nm"
+msgstr ""
+
 msgid "planadh_nm"
 msgstr ""
 
@@ -24004,6 +26926,9 @@ msgstr ""
 msgid "plàstair_nm"
 msgstr ""
 
+msgid "platapas_nm"
+msgstr ""
+
 msgid "pleadhag_nf"
 msgstr ""
 
@@ -24032,6 +26957,9 @@ msgid "pleatach_a"
 msgstr ""
 
 msgid "pleatadh_nm"
+msgstr ""
+
+msgid "pleidhe_nm"
 msgstr ""
 
 msgid "ploc_nm"
@@ -24109,10 +27037,13 @@ msgstr ""
 msgid "Poblachd_nf"
 msgstr ""
 
-msgid "poblachdas_nm"
+msgid "poblachdach_a"
 msgstr ""
 
-msgid "poca_nm"
+msgid "poblachdach_nm"
+msgstr ""
+
+msgid "poblachdas_nm"
 msgstr ""
 
 msgid "poca-cadail_nm"
@@ -24130,6 +27061,9 @@ msgstr ""
 msgid "pòcairich_v"
 msgstr ""
 
+msgid "pod-chraoladh_nm"
+msgstr ""
+
 msgid "pòg_nf"
 msgstr ""
 
@@ -24142,10 +27076,16 @@ msgstr ""
 msgid "poidsear_nm"
 msgstr ""
 
+msgid "poidsig_v"
+msgstr ""
+
 msgid "pòigean_nm"
 msgstr ""
 
 msgid "poileagan_nm"
+msgstr ""
+
+msgid "poilean_nm"
 msgstr ""
 
 msgid "poileas_nm"
@@ -24205,6 +27145,9 @@ msgstr "Polannach_a"
 msgid "Pòlainneach_nm"
 msgstr "Polannach_nm"
 
+msgid "Pòlais_nf"
+msgstr ""
+
 msgid "poll_nm"
 msgstr ""
 
@@ -24214,8 +27157,14 @@ msgstr ""
 msgid "pollair_nm"
 msgstr ""
 
+msgid "pollan_nm"
+msgstr ""
+
 msgid "poll-mònach_nm"
 msgstr ""
+
+msgid "polo_nm"
+msgstr "póló_nm"
 
 msgid "pònaidh_nm"
 msgstr ""
@@ -24328,7 +27277,7 @@ msgstr ""
 msgid "practaigeach_a"
 msgstr ""
 
-msgid "pragtaigeach_a"
+msgid "pragmatach_a"
 msgstr ""
 
 msgid "prais_nf"
@@ -24715,10 +27664,10 @@ msgstr "prionsa_nm"
 msgid "Prionnsa_nm"
 msgstr "Prionsa_nm"
 
-msgid "prionnsabal_nm"
+msgid "prionnsachd_nf"
 msgstr ""
 
-msgid "prionnsachd_nf"
+msgid "prionnsapal_nm"
 msgstr ""
 
 msgid "prìosan_nm"
@@ -24766,6 +27715,12 @@ msgstr ""
 msgid "proifeiseanta_a"
 msgstr ""
 
+msgid "proifeiseantach_nm"
+msgstr ""
+
+msgid "proipeilear_nm"
+msgstr ""
+
 msgid "pròis_nf"
 msgstr ""
 
@@ -24805,9 +27760,6 @@ msgstr ""
 msgid "pronnfheòil_nf"
 msgstr ""
 
-msgid "propailear_nm"
-msgstr ""
-
 msgid "prosbaig_nf"
 msgstr ""
 
@@ -24817,13 +27769,19 @@ msgstr ""
 msgid "Pròstanach_nm"
 msgstr ""
 
+msgid "pròtacal_nm"
+msgstr ""
+
 msgid "protain_nm"
 msgstr ""
 
 msgid "prothaid_nf"
 msgstr ""
 
-msgid "protocal_nm"
+msgid "prothaideach_a"
+msgstr ""
+
+msgid "prothaidich_v"
 msgstr ""
 
 msgid "proton_nm"
@@ -24832,10 +27790,16 @@ msgstr ""
 msgid "protoplasma_nm"
 msgstr ""
 
+msgid "protractair_nm"
+msgstr ""
+
+msgid "Prùis_nf"
+msgstr ""
+
 msgid "prùn_nm"
 msgstr ""
 
-msgid "puball_nm"
+msgid "pùball_nm"
 msgstr ""
 
 msgid "pucaid_nf"
@@ -24898,6 +27862,9 @@ msgstr ""
 msgid "punc_nm"
 msgstr ""
 
+msgid "puncair_nm"
+msgstr "punc_nm"
+
 msgid "punnan_nm"
 msgstr ""
 
@@ -24941,6 +27908,9 @@ msgid "puthail_nf"
 msgstr ""
 
 msgid "puthar_nm"
+msgstr ""
+
+msgid "Q-Ceilteach_a"
 msgstr ""
 
 msgid "rabaid_nf"
@@ -25018,6 +27988,9 @@ msgstr ""
 msgid "raib_nf"
 msgstr ""
 
+msgid "raidhc_nf"
+msgstr ""
+
 msgid "raidhfil_nf"
 msgstr ""
 
@@ -25066,6 +28039,9 @@ msgstr ""
 msgid "ràn_nm"
 msgstr ""
 
+msgid "rang_nm"
+msgstr ""
+
 msgid "rangachadh_nm"
 msgstr ""
 
@@ -25105,7 +28081,19 @@ msgstr ""
 msgid "raon_nm"
 msgstr ""
 
+msgid "raon-cluiche_nm"
+msgstr ""
+
+msgid "raon-goilf_nm"
+msgstr ""
+
+msgid "raon-itealan_nm"
+msgstr ""
+
 msgid "raon-laighe_nm"
+msgstr ""
+
+msgid "raon-obrach_nm"
 msgstr ""
 
 msgid "raon ola_nm"
@@ -25129,10 +28117,10 @@ msgstr ""
 msgid "ràsanach_a"
 msgstr ""
 
-msgid "ràsdal_nm"
+msgid "rasgail_nm"
 msgstr ""
 
-msgid "rasgail_nm"
+msgid "ràstal_nm"
 msgstr ""
 
 msgid "ràta_nm"
@@ -25150,6 +28138,9 @@ msgstr ""
 msgid "rathad-iarainn_nm"
 msgstr ""
 
+msgid "rathad-mòr_nm"
+msgstr ""
+
 msgid "rathail_a"
 msgstr ""
 
@@ -25162,6 +28153,9 @@ msgstr ""
 msgid "rathmhor_a"
 msgstr ""
 
+msgid "ratreut_nm"
+msgstr ""
+
 msgid "rè_nf"
 msgstr ""
 
@@ -25172,6 +28166,9 @@ msgid "reaban_nm"
 msgstr ""
 
 msgid "rèaban_nm"
+msgstr ""
+
+msgid "rèabhaireachd_nf"
 msgstr ""
 
 msgid "rèabhlaid_nf"
@@ -25204,7 +28201,16 @@ msgstr ""
 msgid "reachd-eaglaise_nm"
 msgstr ""
 
+msgid "reacòrdair_nm"
+msgstr ""
+
 msgid "reactar_nm"
+msgstr ""
+
+msgid "readhactar_nm"
+msgstr ""
+
+msgid "reaf_nm"
 msgstr ""
 
 msgid "rèaltachd_nf"
@@ -25216,6 +28222,9 @@ msgstr ""
 msgid "reamhar_a"
 msgstr ""
 
+msgid "reamhrachd_nf"
+msgstr ""
+
 msgid "reamhraich_v"
 msgstr ""
 
@@ -25223,6 +28232,9 @@ msgid "reang_nf"
 msgstr ""
 
 msgid "reangach_a"
+msgstr ""
+
+msgid "reasabaidh_nm"
 msgstr ""
 
 msgid "reic_nm"
@@ -25250,6 +28262,18 @@ msgid "rèididheachd_nf"
 msgstr ""
 
 msgid "rèidio_nm"
+msgstr ""
+
+msgid "rèidio-beò_nm"
+msgstr ""
+
+msgid "rèidiografaidh_nm"
+msgstr ""
+
+msgid "rèidium_nm"
+msgstr ""
+
+msgid "rèidius_nm"
 msgstr ""
 
 msgid "reifreann_nm"
@@ -25313,6 +28337,9 @@ msgid "reòiteag_nf"
 msgstr ""
 
 msgid "reòiteag-uisge_nf"
+msgstr ""
+
+msgid "reò-sheargte_a"
 msgstr ""
 
 msgid "reòth_v"
@@ -25538,7 +28565,7 @@ msgid "rìbhinn_nf"
 msgstr ""
 
 msgid "rid_poss"
-msgstr ""
+msgstr "le do"
 
 msgid "rideal_nm"
 msgstr ""
@@ -25577,15 +28604,21 @@ msgid "rillean_nm"
 msgstr ""
 
 msgid "rim_poss"
-msgstr ""
+msgstr "le mo"
 
 msgid "rim_prep"
-msgstr ""
+msgstr "leis an"
 
 msgid "rin_poss"
 msgstr ""
 
 msgid "rin_prep"
+msgstr "leis an"
+
+msgid "rinc_nm"
+msgstr ""
+
+msgid "rinc-deighe_nm"
 msgstr ""
 
 msgid "rinn_nm"
@@ -25615,7 +28648,13 @@ msgstr ""
 msgid "riochdaire_nm"
 msgstr ""
 
+msgid "riochdaireachd_nf"
+msgstr ""
+
 msgid "riochdalachd_nf"
+msgstr ""
+
+msgid "riochd-chluich_nm"
 msgstr ""
 
 msgid "riofag_nf"
@@ -25664,7 +28703,7 @@ msgid "rionnaidh_nm"
 msgstr ""
 
 msgid "rir_poss"
-msgstr ""
+msgstr "lenár_poss"
 
 msgid "ris_adv"
 msgstr ""
@@ -25673,12 +28712,15 @@ msgid "ris_a"
 msgstr ""
 
 msgid "ris_prep"
-msgstr ""
+msgstr "leis_prep"
 
 msgid "ris_pronm"
-msgstr ""
+msgstr "leis_pronm"
 
 msgid "rìs_nm"
+msgstr ""
+
+msgid "ri taobh_prep"
 msgstr ""
 
 msgid "rithe_pronm"
@@ -25723,11 +28765,17 @@ msgstr ""
 msgid "robair_nm"
 msgstr ""
 
+msgid "robotair_nm"
+msgstr ""
+
 msgid "roc_nf"
 msgstr ""
 
 msgid "roc_v"
 msgstr ""
+
+msgid "ròc_nm"
+msgstr "rac_nm"
 
 msgid "rocach_a"
 msgstr ""
@@ -25751,7 +28799,7 @@ msgid "rocladh_nm"
 msgstr ""
 
 msgid "rod_poss"
-msgstr ""
+msgstr "roimh do"
 
 msgid "ròdair_nm"
 msgstr ""
@@ -25763,6 +28811,9 @@ msgid "rogaire_nm"
 msgstr ""
 
 msgid "roghainn_nf"
+msgstr ""
+
+msgid "roghainneil_a"
 msgstr ""
 
 msgid "roghnach_a"
@@ -25801,9 +28852,6 @@ msgstr ""
 msgid "roille_nf"
 msgstr ""
 
-msgid "roimh_prep"
-msgstr ""
-
 msgid "Ròimh_nf"
 msgstr ""
 
@@ -25834,10 +28882,19 @@ msgstr ""
 msgid "Roinn Eòrpa_nf"
 msgstr ""
 
-msgid "ro-innleachd_nf"
+msgid "roinniche_nm"
 msgstr ""
 
+msgid "ro-innleachd_nf"
+msgstr "straitéis_nf"
+
 msgid "ro-innleachdail_a"
+msgstr "straitéiseach_a"
+
+msgid "roinn-pàrlamaid_nf"
+msgstr ""
+
+msgid "roinn-seòrsa_nf"
 msgstr ""
 
 msgid "roipear_nm"
@@ -25883,7 +28940,10 @@ msgid "ro-leasachan_nm"
 msgstr ""
 
 msgid "rom_poss"
-msgstr ""
+msgstr "roimh mo"
+
+msgid "rom_prep"
+msgstr "roimh an"
 
 msgid "ròmach_a"
 msgstr ""
@@ -25936,6 +28996,9 @@ msgstr ""
 msgid "ron_poss"
 msgstr ""
 
+msgid "ron_prep"
+msgstr "roimh an"
+
 msgid "ròn_nm"
 msgstr ""
 
@@ -25957,11 +29020,14 @@ msgstr ""
 msgid "ro-oifigealachd_nf"
 msgstr ""
 
+msgid "ròp_nm"
+msgstr ""
+
 msgid "ròpa_nm"
 msgstr ""
 
 msgid "ror_poss"
-msgstr ""
+msgstr "roimh ár"
 
 msgid "ro-ràdh_nm"
 msgstr ""
@@ -25979,6 +29045,9 @@ msgid "ro-sgoil_nf"
 msgstr ""
 
 msgid "rosgrann_nm"
+msgstr ""
+
+msgid "ro-shealladair_nm"
 msgstr ""
 
 msgid "ro-shealladh_nm"
@@ -26122,6 +29191,9 @@ msgstr ""
 msgid "ruideis_nf"
 msgstr ""
 
+msgid "ruidhle_nm"
+msgstr ""
+
 msgid "ruig_v"
 msgstr "sroich_v"
 
@@ -26132,6 +29204,9 @@ msgid "ruighe_nf"
 msgstr ""
 
 msgid "ruigheachd_nf"
+msgstr ""
+
+msgid "ruigse_nm"
 msgstr ""
 
 msgid "ruigsinn_nf"
@@ -26179,8 +29254,14 @@ msgstr ""
 msgid "ruith_v"
 msgstr ""
 
+msgid "ruitheach_a"
+msgstr ""
+
 msgid "rùm_nm"
 msgstr ""
+
+msgid "ruma_nm"
+msgstr "rum_nm"
 
 msgid "Rumach_a"
 msgstr ""
@@ -26189,6 +29270,9 @@ msgid "Rumach_nm"
 msgstr ""
 
 msgid "rùmail_a"
+msgstr ""
+
+msgid "Rumains_nf"
 msgstr ""
 
 msgid "rùmball_nm"
@@ -26232,6 +29316,9 @@ msgstr ""
 
 msgid "rùn-dìomhair_nm"
 msgstr ""
+
+msgid "rur_poss"
+msgstr "le bhur,roimh bhur"
 
 msgid "rù-rà_a"
 msgstr ""
@@ -26293,6 +29380,12 @@ msgstr ""
 msgid "sàbhaladh_nm"
 msgstr ""
 
+msgid "Sabhdach_a"
+msgstr ""
+
+msgid "Sabhdach_nm"
+msgstr ""
+
 msgid "sabhs_nm"
 msgstr ""
 
@@ -26341,7 +29434,7 @@ msgstr ""
 msgid "Sagsainn-Anhalt_nf"
 msgstr ""
 
-msgid "sàibhear_nm"
+msgid "saibhear_nm"
 msgstr ""
 
 msgid "saideal_nm"
@@ -26372,6 +29465,9 @@ msgid "saighdear_nm"
 msgstr ""
 
 msgid "saighdearachd_nf"
+msgstr ""
+
+msgid "saighdear-coise_nm"
 msgstr ""
 
 msgid "saighead_nf"
@@ -26416,7 +29512,7 @@ msgstr ""
 msgid "sàirdseant_nm"
 msgstr ""
 
-msgid "sàisde_nm"
+msgid "sàiste_nm"
 msgstr ""
 
 msgid "saith_nm"
@@ -26454,6 +29550,9 @@ msgstr ""
 
 msgid "salmaidh_nm"
 msgstr ""
+
+msgid "salsa_nm"
+msgstr "salsa_nm"
 
 msgid "saltair_v"
 msgstr ""
@@ -26534,7 +29633,7 @@ msgid "sampall_nm"
 msgstr ""
 
 msgid "san_prep"
-msgstr ""
+msgstr "san_prep,sa_prep"
 
 msgid "sanas_nm"
 msgstr ""
@@ -26707,7 +29806,13 @@ msgstr ""
 msgid "sàrdain_nm"
 msgstr ""
 
+msgid "Sàrdainea_nf"
+msgstr ""
+
 msgid "sàr-eòlaiche_nm"
+msgstr ""
+
+msgid "sàr-mhath_a"
 msgstr ""
 
 msgid "sàr-mhathas_nm"
@@ -26737,7 +29842,7 @@ msgstr ""
 msgid "sàsar_nm"
 msgstr ""
 
-msgid "sàsdachd_nf"
+msgid "sàstachd_nf"
 msgstr ""
 
 msgid "sàth_nm"
@@ -26756,6 +29861,9 @@ msgid "sàthaich_v"
 msgstr ""
 
 msgid "sàthaichte_a"
+msgstr ""
+
+msgid "Saud-Aràibia_nf"
 msgstr ""
 
 msgid "seabhag_nf"
@@ -26803,10 +29911,16 @@ msgstr ""
 msgid "Seachdain_nf"
 msgstr ""
 
+msgid "seachdaineach_a"
+msgstr ""
+
 msgid "seachdamh_nm"
 msgstr ""
 
 msgid "seachdamh_ord"
+msgstr ""
+
+msgid "seachd-deug_card"
 msgstr ""
 
 msgid "seachdnar_nf"
@@ -26845,6 +29959,12 @@ msgstr ""
 msgid "seagh_nm"
 msgstr ""
 
+msgid "seaghail_a"
+msgstr ""
+
+msgid "seagsaidh_a"
+msgstr "gnéasach_a"
+
 msgid "seal_nm"
 msgstr ""
 
@@ -26875,6 +29995,9 @@ msgstr ""
 msgid "sealbhachadh_nm"
 msgstr ""
 
+msgid "sealbhachd_nf"
+msgstr ""
+
 msgid "sealbhadair_nm"
 msgstr ""
 
@@ -26890,6 +30013,9 @@ msgstr ""
 msgid "sealg_v"
 msgstr ""
 
+msgid "sealgach_a"
+msgstr ""
+
 msgid "sealgair_nm"
 msgstr ""
 
@@ -26897,6 +30023,9 @@ msgid "sealgaireachd_nf"
 msgstr ""
 
 msgid "seall_v"
+msgstr ""
+
+msgid "sealladair_nm"
 msgstr ""
 
 msgid "sealladh_nm"
@@ -26993,6 +30122,9 @@ msgid "seangalachd_nf"
 msgstr ""
 
 msgid "seangan_nm"
+msgstr ""
+
+msgid "Sean-Lochlannais_nf"
 msgstr ""
 
 msgid "seanmhair_nf"
@@ -27220,6 +30352,9 @@ msgstr ""
 msgid "seannsalair_nm"
 msgstr ""
 
+msgid "Seannsalair_nm"
+msgstr ""
+
 msgid "seannsalaireachd_nf"
 msgstr ""
 
@@ -27274,6 +30409,9 @@ msgstr ""
 msgid "Seapanach_nm"
 msgstr ""
 
+msgid "seaplain_nm"
+msgstr ""
+
 msgid "sear_adv"
 msgstr ""
 
@@ -27290,6 +30428,9 @@ msgid "searbhadair_nm"
 msgstr ""
 
 msgid "searbhag_nf"
+msgstr ""
+
+msgid "searbhagach_a"
 msgstr ""
 
 msgid "searbhagachd_nf"
@@ -27311,6 +30452,9 @@ msgid "seargach_a"
 msgstr ""
 
 msgid "seargadh_nm"
+msgstr ""
+
+msgid "seargta_a"
 msgstr ""
 
 msgid "searmon_nm"
@@ -27380,6 +30524,9 @@ msgid "seata_nm"
 msgstr ""
 
 msgid "seatadh_nm"
+msgstr ""
+
+msgid "seatlaig_v"
 msgstr ""
 
 msgid "seic_nf"
@@ -27466,6 +30613,9 @@ msgstr ""
 msgid "sèimhich_v"
 msgstr ""
 
+msgid "seiminear_nm"
+msgstr ""
+
 msgid "sèine_nf"
 msgstr ""
 
@@ -27482,6 +30632,9 @@ msgid "seinneadh_nm"
 msgstr ""
 
 msgid "seipeil_nm"
+msgstr ""
+
+msgid "Sèirb_nf"
 msgstr ""
 
 msgid "seirbheis_nf"
@@ -27535,11 +30688,23 @@ msgstr ""
 msgid "sèithear_nm"
 msgstr ""
 
+msgid "sèithear-cuibhle_nm"
+msgstr ""
+
+msgid "seit-phlèana_nm"
+msgstr "scairdeitleán_nm"
+
+msgid "semeastar_nm"
+msgstr ""
+
 msgid "seo_aindec"
 msgstr ""
 
 msgid "seo_pn"
 msgstr ""
+
+msgid "seòclaid_nf"
+msgstr "seacláid_nf"
 
 msgid "seòl_nm"
 msgstr ""
@@ -27577,10 +30742,25 @@ msgstr ""
 msgid "seòmar-bìdh_nm"
 msgstr ""
 
+msgid "seòmar-cluiche_nm"
+msgstr ""
+
 msgid "seòmar-deasbaid_nm"
 msgstr ""
 
+msgid "seòmar-ionnlaid_nm"
+msgstr ""
+
+msgid "seòmar-leapa_nm"
+msgstr ""
+
 msgid "seòmar-sgeadachaidh_nm"
+msgstr ""
+
+msgid "seòmar-suidhe_nm"
+msgstr ""
+
+msgid "seòmar-teagaisg_nm"
 msgstr ""
 
 msgid "seòrsa_nm"
@@ -27595,10 +30775,13 @@ msgstr ""
 msgid "seòrsaich_v"
 msgstr ""
 
-msgid "seotaire_nm"
+msgid "seòrsaiche_nm"
 msgstr ""
 
-msgid "Serbia_nm"
+msgid "seòrsa-obrach_nm"
+msgstr ""
+
+msgid "seotaire_nm"
 msgstr ""
 
 msgid "seud_nm"
@@ -27611,6 +30794,9 @@ msgid "seudaireachd_nf"
 msgstr ""
 
 msgid "seudar_nm"
+msgstr ""
+
+msgid "seudraidh_nf"
 msgstr ""
 
 msgid "seula_nm"
@@ -27685,6 +30871,9 @@ msgstr ""
 msgid "sgàile_nf"
 msgstr ""
 
+msgid "sgàileag_nf"
+msgstr ""
+
 msgid "sgàilean_nm"
 msgstr ""
 
@@ -27740,6 +30929,9 @@ msgid "sgal_v"
 msgstr ""
 
 msgid "sgàl_nm"
+msgstr ""
+
+msgid "sgàla_nm"
 msgstr ""
 
 msgid "sgalag_nf"
@@ -28039,6 +31231,9 @@ msgstr ""
 msgid "sgil_v"
 msgstr ""
 
+msgid "sgil-bheatha_nf"
+msgstr ""
+
 msgid "sgileil_a"
 msgstr ""
 
@@ -28213,7 +31408,7 @@ msgstr ""
 msgid "sgoilearachd_nf"
 msgstr ""
 
-msgid "sgoileireachd_nf"
+msgid "sgoil-shamhraidh_nf"
 msgstr ""
 
 msgid "sgoilt_v"
@@ -28432,6 +31627,12 @@ msgstr ""
 msgid "sgriubha_nf"
 msgstr ""
 
+msgid "sgriubhadh_nm"
+msgstr ""
+
+msgid "sgriubhaig_v"
+msgstr ""
+
 msgid "sgriubhaire_nm"
 msgstr ""
 
@@ -28544,6 +31745,9 @@ msgid "siaban_nm"
 msgstr ""
 
 msgid "siabann_nm"
+msgstr ""
+
+msgid "sia-bheusach_a"
 msgstr ""
 
 msgid "siach_v"
@@ -28714,6 +31918,9 @@ msgstr ""
 msgid "sinnsireil_a"
 msgstr ""
 
+msgid "sìnte_a"
+msgstr ""
+
 msgid "sìnteachd_nf"
 msgstr ""
 
@@ -28747,6 +31954,9 @@ msgstr ""
 msgid "sìochail_a"
 msgstr ""
 
+msgid "sìochaint_nf"
+msgstr ""
+
 msgid "sìochantair_nm"
 msgstr ""
 
@@ -28759,7 +31969,13 @@ msgstr ""
 msgid "sìodail_a"
 msgstr ""
 
+msgid "Siog_nm"
+msgstr ""
+
 msgid "siogàr_nm"
+msgstr ""
+
+msgid "siogarait_nf"
 msgstr ""
 
 msgid "sìol_nm"
@@ -28834,6 +32050,9 @@ msgstr ""
 msgid "Sìonach_nm"
 msgstr ""
 
+msgid "Sìonais_nf"
+msgstr ""
+
 msgid "sioncratachd_nf"
 msgstr ""
 
@@ -28844,6 +32063,12 @@ msgid "sionnsar_nm"
 msgstr ""
 
 msgid "siop_nf"
+msgstr ""
+
+msgid "Sìophortach_nm"
+msgstr ""
+
+msgid "siopsach_nm"
 msgstr ""
 
 msgid "sìor_a"
@@ -28858,10 +32083,10 @@ msgstr ""
 msgid "siorc_nm"
 msgstr ""
 
-msgid "siorcas_nm"
+msgid "siordan_nm"
 msgstr ""
 
-msgid "siordan_nm"
+msgid "sìor-fhàs_nm"
 msgstr ""
 
 msgid "sìor-iarr_v"
@@ -28901,6 +32126,9 @@ msgid "siosar_nm"
 msgstr ""
 
 msgid "siosarnach_nm"
+msgstr ""
+
+msgid "sìos-luchdaich_v"
 msgstr ""
 
 msgid "siosma_nm"
@@ -29071,6 +32299,9 @@ msgstr ""
 msgid "slaightear_nm"
 msgstr ""
 
+msgid "slaightearachd_nf"
+msgstr ""
+
 msgid "slàinte_nf"
 msgstr ""
 
@@ -29108,6 +32339,9 @@ msgid "slànaich_v"
 msgstr ""
 
 msgid "slànaighear_nm"
+msgstr ""
+
+msgid "slàn-àireamh_nf"
 msgstr ""
 
 msgid "slaod_nm"
@@ -29254,7 +32488,7 @@ msgstr ""
 msgid "slios_nm"
 msgstr ""
 
-msgid "sliosda_a"
+msgid "sliosta_a"
 msgstr ""
 
 msgid "sliotan_nm"
@@ -29297,6 +32531,12 @@ msgid "sluagh_nm"
 msgstr ""
 
 msgid "sluagh-ghairm_nf"
+msgstr ""
+
+msgid "sluagh-phoblachd_nf"
+msgstr ""
+
+msgid "Sluagh-Phoblachd_nf"
 msgstr ""
 
 msgid "sluasaid_nf"
@@ -29444,6 +32684,9 @@ msgid "smuaineachadh_nm"
 msgstr ""
 
 msgid "smuainich_v"
+msgstr ""
+
+msgid "smuanairt_nm"
 msgstr ""
 
 msgid "smug_nm"
@@ -29620,6 +32863,9 @@ msgstr ""
 msgid "snìomhan_nm"
 msgstr ""
 
+msgid "snìomhte_a"
+msgstr ""
+
 msgid "snodhach_nm"
 msgstr ""
 
@@ -29640,6 +32886,9 @@ msgstr ""
 
 msgid "snuadh_nm"
 msgstr ""
+
+msgid "snùcair_nm"
+msgstr "snúcar_nm"
 
 msgid "so-aithneach_a"
 msgstr ""
@@ -29728,6 +32977,9 @@ msgstr ""
 msgid "so-ghluasad_a"
 msgstr ""
 
+msgid "so-ghnìomhaichte_a"
+msgstr ""
+
 msgid "so-ghointe_a"
 msgstr ""
 
@@ -29737,10 +32989,16 @@ msgstr ""
 msgid "soidhne_nm"
 msgstr ""
 
+msgid "soidhneadh_nm"
+msgstr ""
+
 msgid "soidhnig_v"
 msgstr ""
 
 msgid "soidium_nm"
+msgstr ""
+
+msgid "soifiostaigeach_a"
 msgstr ""
 
 msgid "soigh_nf"
@@ -29801,6 +33059,9 @@ msgid "soirbheas_nm"
 msgstr ""
 
 msgid "soirbhich_v"
+msgstr ""
+
+msgid "soircas_nm"
 msgstr ""
 
 msgid "sòisealach_a"
@@ -29926,6 +33187,9 @@ msgstr ""
 msgid "somaltachd_nf"
 msgstr ""
 
+msgid "so-mhaoin_nf"
+msgstr ""
+
 msgid "so-mhìneachaidh_a"
 msgstr ""
 
@@ -29933,6 +33197,9 @@ msgid "so-mhuinte_a"
 msgstr ""
 
 msgid "son_nm"
+msgstr ""
+
+msgid "sòn_nm"
 msgstr ""
 
 msgid "sona_a"
@@ -30064,10 +33331,10 @@ msgstr ""
 msgid "spairt_nf"
 msgstr ""
 
-msgid "spaisdear_nm"
+msgid "spaistear_nm"
 msgstr ""
 
-msgid "spaisdireachd_nf"
+msgid "spaistireachd_nf"
 msgstr ""
 
 msgid "spàl_nm"
@@ -30103,10 +33370,16 @@ msgstr ""
 msgid "spàrsan_nm"
 msgstr ""
 
+msgid "spàs_nm"
+msgstr ""
+
 msgid "spastach_a"
 msgstr ""
 
 msgid "spastach_nm"
+msgstr ""
+
+msgid "spatha_nm"
 msgstr ""
 
 msgid "speach_nf"
@@ -30165,6 +33438,9 @@ msgstr ""
 
 msgid "speireag_nf"
 msgstr ""
+
+msgid "spèirlinn_nf"
+msgstr "smealt Eorpach_nm"
 
 msgid "spèis_nf"
 msgstr ""
@@ -30283,6 +33559,9 @@ msgstr ""
 msgid "splangadh_nm"
 msgstr ""
 
+msgid "splaoid_nf"
+msgstr ""
+
 msgid "spleadh_nm"
 msgstr ""
 
@@ -30371,6 +33650,9 @@ msgid "spreigeach_a"
 msgstr ""
 
 msgid "spreigeadh_nm"
+msgstr ""
+
+msgid "spreòt_v"
 msgstr ""
 
 msgid "spriong_v"
@@ -30511,6 +33793,9 @@ msgstr ""
 msgid "srianadh_nm"
 msgstr ""
 
+msgid "srianag_nf"
+msgstr ""
+
 msgid "srobadh_nm"
 msgstr ""
 
@@ -30572,6 +33857,9 @@ msgid "sruthladh_nm"
 msgstr ""
 
 msgid "sruth-shoillseach_a"
+msgstr ""
+
+msgid "stà_nm"
 msgstr ""
 
 msgid "stàball_nm"
@@ -30661,7 +33949,13 @@ msgstr ""
 msgid "stàitireachd_nf"
 msgstr ""
 
-msgid "staitisteil_a"
+msgid "staitistearachd_nf"
+msgstr ""
+
+msgid "staitistig_nf"
+msgstr ""
+
+msgid "staitistigeil_a"
 msgstr ""
 
 msgid "stal_nm"
@@ -30680,6 +33974,9 @@ msgid "stalcadh_nm"
 msgstr ""
 
 msgid "stalcaich_v"
+msgstr ""
+
+msgid "stalcaireachd_nf"
 msgstr ""
 
 msgid "stalcanta_a"
@@ -30710,6 +34007,9 @@ msgid "stànadair_nm"
 msgstr ""
 
 msgid "stang_nm"
+msgstr ""
+
+msgid "stangaran_nm"
 msgstr ""
 
 msgid "staoig_nf"
@@ -30769,7 +34069,7 @@ msgstr ""
 msgid "steapa_nf"
 msgstr ""
 
-msgid "steatascop_nm"
+msgid "steatasgop_nm"
 msgstr ""
 
 msgid "stèidh_nf"
@@ -30781,16 +34081,31 @@ msgstr ""
 msgid "stèidheachd_nf"
 msgstr ""
 
+msgid "stèidheil_a"
+msgstr ""
+
 msgid "stèidhich_v"
 msgstr ""
 
 msgid "stèidhichte_a"
 msgstr ""
 
+msgid "steig_v"
+msgstr ""
+
 msgid "steigeach_a"
 msgstr ""
 
 msgid "stèisean_nm"
+msgstr ""
+
+msgid "stèisean-cumhachd_nm"
+msgstr ""
+
+msgid "stèisean-poileis_nm"
+msgstr ""
+
+msgid "stèisean-rèile_nm"
 msgstr ""
 
 msgid "steud_nf"
@@ -30832,7 +34147,7 @@ msgstr ""
 msgid "stiùbhartachd_nf"
 msgstr ""
 
-msgid "stiùideò_nm"
+msgid "stiùidio_nm"
 msgstr ""
 
 msgid "stiùir_nf"
@@ -30848,6 +34163,9 @@ msgid "stiùireadh_nm"
 msgstr ""
 
 msgid "stiùiriche_nm"
+msgstr ""
+
+msgid "stiùrag_nf"
 msgstr ""
 
 msgid "stob_nm"
@@ -30979,6 +34297,9 @@ msgstr ""
 msgid "streapadair_nm"
 msgstr ""
 
+msgid "streapadaireachd_nf"
+msgstr ""
+
 msgid "strì_nf"
 msgstr ""
 
@@ -31024,10 +34345,10 @@ msgstr ""
 msgid "stroill_nf"
 msgstr ""
 
-msgid "structair_nm"
+msgid "structaireachd_nf"
 msgstr ""
 
-msgid "structaireachd_nf"
+msgid "structar_nm"
 msgstr ""
 
 msgid "structarail_a"
@@ -31093,7 +34414,13 @@ msgstr ""
 msgid "stuth-fhiaclan_nm"
 msgstr ""
 
+msgid "stuth-teagaisg_nm"
+msgstr ""
+
 msgid "sù_nm"
+msgstr ""
+
+msgid "suaicheanta_a"
 msgstr ""
 
 msgid "suaicheantach_a"
@@ -31142,6 +34469,9 @@ msgid "suairce_a"
 msgstr ""
 
 msgid "suairceas_nm"
+msgstr ""
+
+msgid "suaitheanta_a"
 msgstr ""
 
 msgid "suanaran_nm"
@@ -31216,9 +34546,6 @@ msgstr ""
 msgid "sùgh_nm"
 msgstr ""
 
-msgid "sùgh_v"
-msgstr ""
-
 msgid "sùghach_a"
 msgstr ""
 
@@ -31259,6 +34586,9 @@ msgid "suigeart_nm"
 msgstr ""
 
 msgid "suigeartach_a"
+msgstr ""
+
+msgid "sùigh_v"
 msgstr ""
 
 msgid "sùighteach_a"
@@ -31375,13 +34705,19 @@ msgstr ""
 msgid "sùrdail_a"
 msgstr ""
 
+msgid "surfadh_nm"
+msgstr ""
+
+msgid "surfaich_v"
+msgstr ""
+
 msgid "susbaint_nf"
 msgstr ""
 
 msgid "susbainteach_a"
 msgstr ""
 
-msgid "sùsdal_nm"
+msgid "sùstal_nm"
 msgstr ""
 
 msgid "sutair_nm"
@@ -31525,6 +34861,9 @@ msgstr ""
 msgid "taghta_a"
 msgstr ""
 
+msgid "taghte_a"
+msgstr ""
+
 msgid "tagrachd_nf"
 msgstr ""
 
@@ -31559,6 +34898,15 @@ msgid "taiceil_a"
 msgstr ""
 
 msgid "taidh_nf"
+msgstr ""
+
+msgid "Tàidh_nf"
+msgstr ""
+
+msgid "taidhle_nm"
+msgstr ""
+
+msgid "taidhp_v"
 msgstr ""
 
 msgid "taidhr_nf"
@@ -31625,6 +34973,9 @@ msgid "taigh-òsta_nm"
 msgstr ""
 
 msgid "taigh-seinnse_nm"
+msgstr ""
+
+msgid "taigh-sgoile_nm"
 msgstr ""
 
 msgid "taigh-solais_nm"
@@ -31714,6 +35065,9 @@ msgstr ""
 msgid "tàirneanach_nm"
 msgstr ""
 
+msgid "tairsgeir_nm"
+msgstr ""
+
 msgid "tais_a"
 msgstr ""
 
@@ -31724,9 +35078,6 @@ msgid "taisbeanach_a"
 msgstr ""
 
 msgid "taisbeanadh_nm"
-msgstr ""
-
-msgid "taisdeal_nm"
 msgstr ""
 
 msgid "taiseachd_nf"
@@ -31741,13 +35092,22 @@ msgstr ""
 msgid "tàiseal_nm"
 msgstr ""
 
+msgid "taisealan_nm"
+msgstr ""
+
 msgid "taisg_v"
 msgstr ""
 
 msgid "taisgear_nm"
 msgstr ""
 
+msgid "taisgte_a"
+msgstr ""
+
 msgid "taisich_v"
+msgstr ""
+
+msgid "taisteal_nm"
 msgstr ""
 
 msgid "taistealach_a"
@@ -31781,6 +35141,9 @@ msgid "talamh_nm"
 msgstr ""
 
 msgid "Talamh_nm"
+msgstr ""
+
+msgid "tàlann_nm"
 msgstr ""
 
 msgid "tàlant_nm"
@@ -31817,6 +35180,9 @@ msgid "tàmh_nm"
 msgstr ""
 
 msgid "tàmh_v"
+msgstr ""
+
+msgid "tàmhach_a"
 msgstr ""
 
 msgid "tàmhachd_nf"
@@ -31870,10 +35236,19 @@ msgstr ""
 msgid "taobhadh_nm"
 msgstr ""
 
+msgid "taobh-a-muigh_a"
+msgstr ""
+
+msgid "Taobh-a-Muigh_a"
+msgstr ""
+
 msgid "taobhan_nm"
 msgstr ""
 
-msgid "taobh-duilleag_nf"
+msgid "taobh-duilleig_nm"
+msgstr ""
+
+msgid "taobh-rèile_nf"
 msgstr ""
 
 msgid "taod_nm"
@@ -31907,6 +35282,9 @@ msgid "taomadh_nm"
 msgstr ""
 
 msgid "taoman_nm"
+msgstr ""
+
+msgid "taosgair_nm"
 msgstr ""
 
 msgid "tap_nf"
@@ -31972,6 +35350,9 @@ msgstr ""
 msgid "tàrmasach_a"
 msgstr ""
 
+msgid "tar-phàrtaidh_a"
+msgstr ""
+
 msgid "tàrr_v"
 msgstr ""
 
@@ -32029,7 +35410,7 @@ msgstr ""
 msgid "tasgadh_nm"
 msgstr ""
 
-msgid "tasglann_nm"
+msgid "tasglann_nf"
 msgstr ""
 
 msgid "tàstal_nm"
@@ -32144,6 +35525,9 @@ msgid "Teampall_nm"
 msgstr ""
 
 msgid "teanacas_nm"
+msgstr ""
+
+msgid "teanamaint_nf"
 msgstr ""
 
 msgid "teanantachd_nf"
@@ -32272,8 +35656,14 @@ msgstr ""
 msgid "teas-mheidh_nf"
 msgstr ""
 
+msgid "tèatar_nm"
+msgstr ""
+
 msgid "teatha_nf"
 msgstr "tae_nm"
+
+msgid "tè-eigin_pn"
+msgstr ""
 
 msgid "teich_v"
 msgstr ""
@@ -32311,9 +35701,6 @@ msgstr ""
 msgid "teileagram_nm"
 msgstr ""
 
-msgid "teileasgop_nf"
-msgstr ""
-
 msgid "teine_nm"
 msgstr ""
 
@@ -32324,6 +35711,9 @@ msgid "teinn_nf"
 msgstr ""
 
 msgid "teinne_nf"
+msgstr ""
+
+msgid "teinnteach_a"
 msgstr ""
 
 msgid "teinntean_nm"
@@ -32365,16 +35755,16 @@ msgstr ""
 msgid "telebhisean_nm"
 msgstr ""
 
+msgid "telefòn_nm"
+msgstr ""
+
+msgid "telesgop_nm"
+msgstr ""
+
 msgid "teleteacs_nm"
 msgstr ""
 
 msgid "teò-chridheach_a"
-msgstr ""
-
-msgid "teòclaid_nf"
-msgstr ""
-
-msgid "teodhachd_nf"
 msgstr ""
 
 msgid "teòiridh_nf"
@@ -32593,16 +35983,13 @@ msgstr ""
 msgid "tinneas-busach_nm"
 msgstr ""
 
-msgid "tinneas inntinn_nm"
+msgid "tinneas-inntinn_nm"
 msgstr ""
 
 msgid "tinneas-mara_nm"
 msgstr ""
 
 msgid "tinneas tuiteamach_nm"
-msgstr ""
-
-msgid "tinsil_nf"
 msgstr ""
 
 msgid "tiodhlac_nm"
@@ -32650,6 +36037,9 @@ msgstr ""
 msgid "Tional_nm"
 msgstr ""
 
+msgid "tional-airgid_nm"
+msgstr ""
+
 msgid "tionndadh_nm"
 msgstr ""
 
@@ -32675,6 +36065,9 @@ msgid "tionnsgradh_nm"
 msgstr ""
 
 msgid "tionntadh_nm"
+msgstr ""
+
+msgid "tionsail_nf"
 msgstr ""
 
 msgid "tìoraidh_excl"
@@ -32720,6 +36113,9 @@ msgid "tìr-ghràdh_nm"
 msgstr ""
 
 msgid "tìr-ghràdhaiche_nm"
+msgstr ""
+
+msgid "tìr-imrich_nf"
 msgstr ""
 
 msgid "Tìr Ìosal_nf"
@@ -32812,6 +36208,9 @@ msgstr ""
 msgid "todhar_nm"
 msgstr ""
 
+msgid "todhar-gàrraidh_nm"
+msgstr ""
+
 msgid "tofaidh_nm"
 msgstr ""
 
@@ -32839,7 +36238,7 @@ msgstr ""
 msgid "togsaid_nf"
 msgstr ""
 
-msgid "togta_a"
+msgid "togte_a"
 msgstr ""
 
 msgid "toibheum_nm"
@@ -32915,6 +36314,9 @@ msgid "toinnte_a"
 msgstr ""
 
 msgid "tòir_nf"
+msgstr ""
+
+msgid "toirds_nf"
 msgstr ""
 
 msgid "tòirich_v"
@@ -33028,6 +36430,9 @@ msgstr ""
 msgid "tonnag_nf"
 msgstr ""
 
+msgid "tonsail_nm"
+msgstr ""
+
 msgid "topag_nf"
 msgstr ""
 
@@ -33035,6 +36440,9 @@ msgid "topan_nm"
 msgstr ""
 
 msgid "topas_nm"
+msgstr ""
+
+msgid "torach_a"
 msgstr ""
 
 msgid "tòrachd_nf"
@@ -33073,13 +36481,10 @@ msgstr ""
 msgid "torrach_a"
 msgstr ""
 
+msgid "torrachas_nm"
+msgstr ""
+
 msgid "tòrradh_nm"
-msgstr ""
-
-msgid "tosd_nm"
-msgstr ""
-
-msgid "tosdach_a"
 msgstr ""
 
 msgid "tosgair_nm"
@@ -33089,6 +36494,12 @@ msgid "tosgaireachd_nf"
 msgstr ""
 
 msgid "tost_nm"
+msgstr "tost_nm"
+
+msgid "tòst_nm"
+msgstr "tósta_nm"
+
+msgid "tostach_a"
 msgstr ""
 
 msgid "tostachd_nf"
@@ -33202,9 +36613,6 @@ msgstr ""
 msgid "traon_nm"
 msgstr ""
 
-msgid "trasd-thomhas_nm"
-msgstr ""
-
 msgid "trasg_nf"
 msgstr ""
 
@@ -33224,6 +36632,9 @@ msgid "trasta_a"
 msgstr ""
 
 msgid "trastan_nm"
+msgstr ""
+
+msgid "trast-thomhas_nm"
 msgstr ""
 
 msgid "tràth_a"
@@ -33253,6 +36664,9 @@ msgstr ""
 msgid "trealaich_nf"
 msgstr ""
 
+msgid "treamhlaidh_nf"
+msgstr ""
+
 msgid "trèana_nf"
 msgstr ""
 
@@ -33260,6 +36674,9 @@ msgid "trèanadh_nm"
 msgstr ""
 
 msgid "trèanaig_v"
+msgstr ""
+
+msgid "trèana-oidhche_nf"
 msgstr ""
 
 msgid "treanas_nm"
@@ -33290,6 +36707,12 @@ msgid "trèiceil_nm"
 msgstr ""
 
 msgid "treidhe_nf"
+msgstr ""
+
+msgid "treidhe-fuarachaidh_nf"
+msgstr ""
+
+msgid "treidhe-fuine_nf"
 msgstr ""
 
 msgid "trèig_v"
@@ -33385,7 +36808,7 @@ msgstr ""
 msgid "trì-bhileach_nm"
 msgstr ""
 
-msgid "tribiunal_nm"
+msgid "tribiùnal_nm"
 msgstr ""
 
 msgid "tric_a"
@@ -33412,6 +36835,9 @@ msgstr ""
 msgid "trì-dhualach_a"
 msgstr ""
 
+msgid "trìd-shoilleir_a"
+msgstr ""
+
 msgid "trìd-shoilleireachd_nf"
 msgstr ""
 
@@ -33424,7 +36850,13 @@ msgstr ""
 msgid "trìlleachan_nm"
 msgstr ""
 
+msgid "trillean_nm"
+msgstr ""
+
 msgid "triobhualadh_nm"
+msgstr ""
+
+msgid "trìoblaich_v"
 msgstr ""
 
 msgid "trioblaid_nf"
@@ -33458,7 +36890,7 @@ msgid "triùir_nf"
 msgstr ""
 
 msgid "triuthach_nf"
-msgstr ""
+msgstr "triuch_nm"
 
 msgid "tro_prep"
 msgstr ""
@@ -33479,7 +36911,7 @@ msgid "trod_nm"
 msgstr ""
 
 msgid "trod_poss"
-msgstr ""
+msgstr "trí do"
 
 msgid "troich_nf"
 msgstr ""
@@ -33490,13 +36922,16 @@ msgstr ""
 msgid "troigh_nf"
 msgstr ""
 
-msgid "troimh_prep"
+msgid "troilidh_nm"
 msgstr ""
 
 msgid "troimh-a-chèile_adv"
 msgstr ""
 
 msgid "troimhe_pronm"
+msgstr ""
+
+msgid "troimhe-chèile_aindec"
 msgstr ""
 
 msgid "troimhpe_pronm"
@@ -33506,7 +36941,10 @@ msgid "trom_a"
 msgstr ""
 
 msgid "trom_poss"
-msgstr ""
+msgstr "trí mo"
+
+msgid "trom_prep"
+msgstr "tríd an"
 
 msgid "tromadas_nm"
 msgstr ""
@@ -33526,7 +36964,7 @@ msgstr ""
 msgid "trombòn_nm"
 msgstr ""
 
-msgid "trom-chuiseach_a"
+msgid "trom-chùiseach_a"
 msgstr ""
 
 msgid "tromhad_pronm"
@@ -33560,21 +36998,21 @@ msgid "tron_poss"
 msgstr ""
 
 msgid "tron_prep"
-msgstr ""
+msgstr "tríd an"
 
 msgid "tropaigeach_a"
 msgstr ""
 
 msgid "tror_poss"
-msgstr ""
-
-msgid "trosd_nm"
-msgstr ""
+msgstr "trínár"
 
 msgid "trosg_nm"
 msgstr ""
 
 msgid "trosgan_nm"
+msgstr ""
+
+msgid "trost_nm"
 msgstr ""
 
 msgid "trotan_nm"
@@ -33652,6 +37090,9 @@ msgstr ""
 msgid "trùpair_nm"
 msgstr ""
 
+msgid "trur_poss"
+msgstr "trí bhur"
+
 msgid "trus_v"
 msgstr ""
 
@@ -33694,6 +37135,9 @@ msgstr ""
 msgid "tuairisgeulach_a"
 msgstr ""
 
+msgid "tuairisgeulaiche_nm"
+msgstr ""
+
 msgid "tuairmeas_nm"
 msgstr ""
 
@@ -33706,7 +37150,7 @@ msgstr ""
 msgid "tuairmsich_v"
 msgstr ""
 
-msgid "tuaisdear_nm"
+msgid "tuaistear_nm"
 msgstr ""
 
 msgid "tuam_nm"
@@ -33717,6 +37161,9 @@ msgstr ""
 
 msgid "tuarastal_nm"
 msgstr ""
+
+msgid "tuarastal-mairsinn_nm"
+msgstr "pá maireachtála_nm"
 
 msgid "tuasaid_nf"
 msgstr ""
@@ -33817,6 +37264,9 @@ msgstr ""
 msgid "tuilium_nm"
 msgstr ""
 
+msgid "tuilleadan_nm"
+msgstr ""
+
 msgid "tuilleadh_adv"
 msgstr ""
 
@@ -33830,6 +37280,9 @@ msgid "tuineachas_nm"
 msgstr ""
 
 msgid "tuinich_v"
+msgstr ""
+
+msgid "Tuinisea_nf"
 msgstr ""
 
 msgid "tuinniteas_nm"
@@ -33949,6 +37402,9 @@ msgstr ""
 msgid "turasachd_nf"
 msgstr ""
 
+msgid "turas-latha_nm"
+msgstr ""
+
 msgid "turbaid_nf"
 msgstr ""
 
@@ -33964,7 +37420,13 @@ msgstr ""
 msgid "turcaire_nm"
 msgstr ""
 
+msgid "Turcais_nf"
+msgstr ""
+
 msgid "turchairt_nf"
+msgstr ""
+
+msgid "Turcmanastàn_nf"
 msgstr ""
 
 msgid "turloch_nm"
@@ -34019,6 +37481,9 @@ msgid "uabhasach_a"
 msgstr ""
 
 msgid "uachdar_nm"
+msgstr ""
+
+msgid "uachdarach_a"
 msgstr ""
 
 msgid "uachdaran_nm"
@@ -34127,6 +37592,12 @@ msgid "uam_pronm"
 msgstr ""
 
 msgid "uamhann_nm"
+msgstr ""
+
+msgid "uamhraidh_a"
+msgstr ""
+
+msgid "uamhraidh_adv"
 msgstr ""
 
 msgid "uan_nm"
@@ -34369,10 +37840,16 @@ msgstr ""
 msgid "uiridh_nf"
 msgstr ""
 
+msgid "uirle-thruis_nf"
+msgstr ""
+
 msgid "ùirsgeul_nm"
 msgstr ""
 
 msgid "Ùirsgeul_nm"
+msgstr ""
+
+msgid "ùirsgeulach_a"
 msgstr ""
 
 msgid "ùirsgeulaiche_nm"
@@ -34525,7 +38002,7 @@ msgstr ""
 msgid "ùraich_v"
 msgstr ""
 
-msgid "Uranas_nm"
+msgid "Urànas_nm"
 msgstr ""
 
 msgid "urchaid_nf"
@@ -34585,6 +38062,9 @@ msgstr ""
 msgid "urramach_nm"
 msgstr ""
 
+msgid "Urramach_nm"
+msgstr ""
+
 msgid "urramaich_v"
 msgstr ""
 
@@ -34607,6 +38087,9 @@ msgid "ùruisg_nm"
 msgstr ""
 
 msgid "ùsaireachd_nf"
+msgstr ""
+
+msgid "Usbagastàn_nm"
 msgstr ""
 
 msgid "usgar_nm"
@@ -34634,6 +38117,9 @@ msgid "vandalachd_nf"
 msgstr ""
 
 msgid "vasailleachd_nf"
+msgstr ""
+
+msgid "vector_nm"
 msgstr ""
 
 msgid "x-ghath_nm"

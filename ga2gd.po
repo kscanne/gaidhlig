@@ -56,6 +56,9 @@ msgstr ""
 msgid "<N pl='n' gnt='n' gnd='f'>Abcáisis</N>"
 msgstr ""
 
+msgid "<F>Abcásach</F>"
+msgstr ""
+
 msgid "<N pl='n' gnt='n' gnd='m'>abdóman</N>"
 msgstr ""
 
@@ -12340,6 +12343,9 @@ msgid "<A pl='n' gnt='n'>brádánach</A>"
 msgstr "braonach"
 
 msgid "<F>bradhall</F>"
+msgstr ""
+
+msgid "<N pl='n' gnt='n' gnd='m'>bradmharcach</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>bradmheana</N>"
@@ -44449,6 +44455,9 @@ msgid "<N pl='n' gnt='n' gnd='m'>fomhuireán</N>"
 msgstr ""
 
 msgid "<N pl='n' gnt='n' gnd='m'>fón</N>"
+msgstr ""
+
+msgid "<F>fónaic</F>"
 msgstr ""
 
 # v. phone

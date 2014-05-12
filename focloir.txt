@@ -4071,7 +4071,7 @@ crèis_nf	0	1	0
 crèis_v	0	0	0
 crèiseach_a	0	0	0
 creuchd_nf	creuchda	0	0
-creucht_nf	creuchta	0	0
+creucht_nf	creuchta	0	creuchd_nf
 creutair_nm	0	0	0
 creutar_nm	0	0	creutair_nm
 criadh-chlachair_nm	0	0	0

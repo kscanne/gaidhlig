@@ -98,46 +98,46 @@ msgid "Abhainn_nf"
 msgstr "Abhainn_nf"
 
 msgid "àbhaist_nf"
-msgstr ""
+msgstr "gnáth_nm"
 
 msgid "àbhaisteach_a"
-msgstr ""
+msgstr "gnách_a"
 
 msgid "àbhaisteachadh_nm"
-msgstr ""
+msgstr "normalú_nm"
 
 msgid "àbhaisteachd_nf"
-msgstr ""
+msgstr "nósmhaireacht_nf"
 
 msgid "a-bhàn_adv"
-msgstr ""
+msgstr "síos_adv;aníos_adv"
 
 msgid "a bharrachd_adv"
-msgstr ""
+msgstr "sa bhreis_adv"
 
 msgid "abharsair_nm"
-msgstr ""
+msgstr "áibhirseoir_nm"
 
 msgid "Abharsair_nm"
-msgstr ""
+msgstr "Áibhirseoir_nm"
 
 msgid "abhlan_nm"
-msgstr ""
+msgstr "abhlann_nf"
 
 msgid "a' bhòn-dè_adv"
-msgstr ""
+msgstr "arú inné_adv"
 
 msgid "a' bhòn-raoir_adv"
-msgstr ""
+msgstr "arú aréir_adv"
 
 msgid "a' bhòn-uiridh_adv"
-msgstr ""
+msgstr "arú anuraidh_adv"
 
 msgid "a-bhos_adv"
-msgstr ""
+msgstr "abhus_adv"
 
 msgid "abhras_nm"
-msgstr ""
+msgstr "abhras_nm"
 
 msgid "abhsadh_nm"
 msgstr ""
@@ -9719,9 +9719,6 @@ msgid "crèiseach_a"
 msgstr ""
 
 msgid "creuchd_nf"
-msgstr ""
-
-msgid "creucht_nf"
 msgstr ""
 
 msgid "creutair_nm"

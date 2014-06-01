@@ -11014,6 +11014,9 @@ msgstr ""
 msgid "dàibhig_v"
 msgstr ""
 
+msgid "daibhigeadh_nm"
+msgstr ""
+
 msgid "daibhreas_nm"
 msgstr ""
 
@@ -16159,6 +16162,9 @@ msgstr ""
 msgid "fidreadh_nm"
 msgstr ""
 
+msgid "fidrich_v"
+msgstr ""
+
 msgid "fìge_nf"
 msgstr ""
 
@@ -16906,9 +16912,6 @@ msgstr ""
 msgid "frèam-obrach_nm"
 msgstr ""
 
-msgid "Freaslannach_nm"
-msgstr ""
-
 msgid "freastal_nm"
 msgstr ""
 
@@ -16923,6 +16926,15 @@ msgstr ""
 
 msgid "frids_nm"
 msgstr ""
+
+msgid "Frìoslannach_a"
+msgstr "Freaslannach_a"
+
+msgid "Frìoslannach_nm"
+msgstr "Freaslannach_nm"
+
+msgid "Frìoslannais_nf"
+msgstr "Freaslainnis_nf"
 
 msgid "Frisealach_a"
 msgstr ""
@@ -20430,6 +20442,9 @@ msgstr ""
 
 msgid "lainnireach_a"
 msgstr ""
+
+msgid "lainns_nm"
+msgstr "seoladh_nm"
 
 msgid "lainntear_nm"
 msgstr ""
@@ -27388,6 +27403,9 @@ msgstr ""
 msgid "plub_v"
 msgstr ""
 
+msgid "plubach_a"
+msgstr ""
+
 msgid "plubadaich_nf"
 msgstr ""
 
@@ -33247,6 +33265,9 @@ msgstr ""
 msgid "smugaid_nf"
 msgstr ""
 
+msgid "smùgraich_nf"
+msgstr ""
+
 msgid "smùid_nf"
 msgstr ""
 
@@ -37806,6 +37827,9 @@ msgstr ""
 
 msgid "tuairmsich_v"
 msgstr ""
+
+msgid "tuairnear_nm"
+msgstr "tornóir_nm"
 
 msgid "tuaistear_nm"
 msgstr ""

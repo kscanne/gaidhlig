@@ -958,10 +958,15 @@ sub fix_F_tags
 {
 	(my $word, my $count, my $bilingual) = @_;
 	return $word unless $word =~ m/_f$/;
+	my @indices = ('','2','3');
 	$word =~ s/_f//;
-	for my $pos (keys %tagcount) {
-		if (exists($bilingual->{$word."_$pos"}) and $count == $tagcount{$pos}) {
-			return $word."_$pos";
+	# sort makes it deterministic; prioritizes nf over nm (e.g. bearach)
+	for my $pos (sort keys %tagcount) {
+		for my $i (@indices) {
+			if (exists($bilingual->{$word.$i.'_'.$pos}) and $count == $tagcount{$pos}) {
+				# sic; without the index!
+				return $word.'_'.$pos;
+			}
 		}
 	}
 	return $word.'_f';
@@ -1056,6 +1061,9 @@ sub write_pairs_file
 
 	open (IGLEX, "<:utf8", "GA.txt") or die "Could not open Irish lexicon: $!\n";
 	open (OUTLEX, ">:utf8", $outputfile{$pofile}) or die "Could not open pairs file for output: $!\n";
+	my $normalized;
+	my %ga_used;  # normalized GA headwords we've used for gd2ga
+	my $prev_normalized = '';
 
 	while (1) { # while lines to read in IGLEX
 		my @entrywords = ();
@@ -1069,7 +1077,16 @@ sub write_pairs_file
 			push @entrywords, $mykey;
 		}
 		last if scalar @entrywords == 0; # EOF
-		my $normalized = fix_F_tags($entrywords[0], scalar @entrywords, \%bilingual);
+		$normalized = fix_F_tags($entrywords[0], scalar @entrywords, \%bilingual);
+		if (exists($ga_used{$normalized})) {
+			#print STDERR "Have already seen normalized $normalized in GA.txt\n" unless $ga2gd_p;
+			$ga_used{$normalized}++;
+			$normalized =~ s/_/$ga_used{$normalized}_/;
+			#print STDERR "New normalized: $normalized\n" unless $ga2gd_p;
+		}
+		else {
+			$ga_used{$normalized} = 1;
+		}
 		next unless exists($bilingual{$normalized});
 		my @allforms = ();  # array of arrayrefs...
 		for my $geedee (split /;/,$bilingual{$normalized}) {

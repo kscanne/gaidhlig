@@ -831,7 +831,6 @@ an lùib_prep	0	0	an-lùib_prep
 an-lùib_prep	0	0	0
 anmoch_a	0	0	0
 ann_adv	0	0	0
-ann_prep	0	0	0
 ann_pronm	annsan	0	0
 annad_pronm	annadsa	0	0
 annaibh_pronm	annaibhse	0	0
@@ -914,7 +913,8 @@ aoibhinn_a	0	0	0
 aoibhneach_a	0	0	0
 aoibhneas_nm	0	1	0
 aoidh_nf	0	0	0
-aoidheachd_nf	0	0	0
+aoidh1_nf	0	0	aoigh_nm
+aoidheachd_nf	0	0	aoigheachd_nf
 aoidion_nm	aoidiona	0	0
 aoidionach_a	0	0	0
 aoigh_nm	aoigh	0	0
@@ -982,7 +982,7 @@ aosmhòr_a	0	0	aosmhor_a
 aost'_a	aost'	aost'	aosta_a
 aosta_a	0	0	0
 aotram_a	0	0	aotrom_a
-aotramachd_nf	0	0	0
+aotramachd_nf	0	0	aotromachd_nf
 aotraman_nm	0	aotramain	0
 aotrom_a	aotruime	0	0
 aotrom1_a	0	0	aotrom_a
@@ -1194,7 +1194,7 @@ Astràilianach_nm	0	0	0
 Astralàisia_nf	0	0	0
 at_nm	at	0	0
 at_v	0	0	0
-atamach_nm	0	0	0
+atamach_a	0	0	0
 at-cuisle_nm	0	at-cuislean	0
 ath_aindec	0	0	0
 àth_nf	àtha	0	0
@@ -1491,7 +1491,7 @@ bàn-righinn_nf	0	0	banrigh_nf
 ban-rìghinn_nf	ban-rìghinn	0	banrigh_nf
 ban-rùnaire_nm	0	ban-rùnairean	0
 ban-sgoilear_nm	0	0	0
-ban-sheinneadair_nm	0	0	0
+ban-sheinneadair_nm	0	0	bana-sheinneadair_nm
 bantrach_nf	0	bantraichean	banntrach_nf
 baoghalta_a	0	0	0
 baois_nf	0	1	0
@@ -1527,6 +1527,7 @@ bardachd_nf	0	0	bàrdachd_nf
 bàrdachd_nf	0	0	0
 bàrdail_a	0	0	0
 bargan_nf	0	0	0
+barganachadh_nm	0	1	0
 barganaich_v	0	0	0
 barganaiche_nm	0	0	0
 bàr-inneil_nm	bàr-inneil	bàraichean-inneil	0
@@ -1760,7 +1761,6 @@ beul-chràbhach_a	0	0	0
 beul-chràbhadh_nm	0	1	0
 beul-oideas_nm	0	1	0
 beum_nm	beuma	0	0
-beum_prep	0	0	0
 beurla_nf	0	0	0
 Beurla_nf	0	0	0
 beurlachd_nf	0	0	0
@@ -1933,7 +1933,8 @@ blèideag_nf	0	0	bleideag_nf
 bleigeard_nm	0	0	blaigeard_nm
 bleith_v	0	0	0
 bleitheadh_nm	0	1	0
-bleoghain_v	0	0	0
+bleoghain_v	0	0	bleoghainn_v
+bleoghainn_v	bleoghann_nf	0	0
 bleoghann_nf	0	1	0
 bliadhn_nf	bliadhna	bliadhnaichean	bliadhna_nf
 bliadhn'_nf	bliadhn'	bliadhnaichean	bliadhna_nf
@@ -1987,7 +1988,7 @@ bochdainn_nf	0	1	0
 bochdrach_nm	0	0	0
 bocsa_nm	0	bocsaichean	bogsa_nm
 bocsaig_v	0	0	bogsaig_v
-bocsair_nm	0	0	0
+bocsair_nm	0	0	bogsair_nm
 bod_nm	0	boid	0
 bodach_nm	0	0	0
 bodachail_a	0	0	0
@@ -2035,7 +2036,6 @@ bòidheachd_nf	0	0	bòidhchead_nf
 bòidich_v	0	0	0
 boil_nf	0	1	boile_nf
 boile_nf	0	0	0
-Boile_nf	0	0	0
 Boilibhia_nf	0	0	0
 Boilibhiach_a	0	0	0
 Boilibhiach_nm	0	0	0
@@ -2196,6 +2196,7 @@ brèid_nm	0	0	0
 breige_nf	0	breigichean	0
 brèine_nf	0	0	0
 breisleach_nf	0	1	0
+breisleachail_a	0	0	0
 breislich_v	0	0	0
 breith_nf	breith	0	0
 breith an-abaich_nf	0	0	0
@@ -2242,9 +2243,10 @@ brìgh_nf	brìgh	0	0
 brìgheil_a	0	0	0
 brillean_nm	0	0	0
 briod_nm	brioda	0	0
+briod_v	0	0	brid_v
 briod1_nm	brioda	briodaichean	briod_nm
 briodachadh_nm	0	1	0
-briodadh_nm	0	0	0
+briodadh_nm	0	0	brideadh_nm
 briog_v	0	0	0
 briogadh_nm	0	1	0
 briogais_nf	briogais	0	0
@@ -2650,7 +2652,6 @@ c'àit_interr	0	0	càit_interr
 c'àit'_interr	0	0	càit_interr
 càit'_interr	0	0	càit_interr
 caite_interr	0	0	càit_interr
-càite_adv	0	0	0
 càite_interr	0	0	càit_interr
 c'àite'_interr	0	0	càit_interr
 caiteachas_nm	0	0	0
@@ -2678,7 +2679,7 @@ calcair_nm	0	0	0
 calcium_nm	calcium	0	cailceam_nm
 calculas_nm	0	1	0
 calg_nm	cuilg	cuilg	0
-calgag_nf	0	0	0
+calgag_nf	0	0	colgag_nf
 calg-dhìreach_a	0	0	0
 call_nm	calla	1	0
 callag_nf	0	0	calltag_nf
@@ -2926,6 +2927,7 @@ cathairiche_nm	0	0	0
 cathair-rìgh_nf	cathrach-rìgh	cathraichean-rìgh	0
 cathair-thalmhainn_nf	cathair-thalmhainn	1	athair-thalmhainn_nf
 cathan_nm	0	cathain	0
+càthar_nm	0	1	0
 cathara_a	0	0	catharra_a
 catharra_a	0	0	0
 cathraiche_nm	0	0	0
@@ -3573,6 +3575,7 @@ co-ainm_nm	0	0	0
 co-ainmear_nm	0	0	0
 co-àiteachail_a	0	0	0
 co-alta_nm	0	co-altan	0
+co-amail_a	0	0	0
 co-aois_nm	0	0	comhaois_nm
 co-aoiseach_a	0	0	comhaoiseach_a
 co-aonaich_v	0	0	0
@@ -3849,6 +3852,7 @@ colann_nf	0	0	0
 co-latha-breith_nm	co-latha-breith	co-làithean-breith	co-là-breith_nm
 colbh_nm	0	0	0
 colbh1_nm	cuilbh	cuilbh	colbh_nm
+colgag_nf	0	0	0
 coll_nm	0	1	0
 Collach_a	0	0	0
 Collach_nm	0	0	0

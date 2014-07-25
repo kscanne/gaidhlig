@@ -887,9 +887,9 @@ a-nuas_adv	0	0	0
 an-uasal_a	an-uaisle	0	0
 an uiridh_adv	0	0	an-uiridh_adv
 an-uiridh_adv	0	0	0
-anull_adv	0	0	a-null_adv
-a null_adv	0	0	a-null_adv
-a-null_adv	0	0	0
+anull_adv	0	0	a-nall_adv
+a null_adv	0	0	a-nall_adv
+a-null_adv	0	0	a-nall_adv
 a-nunn_adv	0	0	0
 an-uraidh_adv	0	0	an-uiridh_adv
 aobhar_nm	0	0	adhbhar_nm
@@ -6281,7 +6281,7 @@ eibhir_nf	eibhir	1	0
 èibhleag_nf	0	0	0
 èibhneas_nm	0	1	aoibhneas_nm
 eibleachd_nf	0	0	0
-eicrioch_a	0	0	neo-chrìochnach_a
+eicrioch_a	0	0	0
 èid_v	0	0	0
 eideadh_nm	0	eididhean	èideadh_nm
 èideadh_nm	0	èididhean	0
@@ -10316,10 +10316,11 @@ mì-fhortunach_a	0	0	mì-fhortanach_a
 mì-fhreagarrach_a	0	0	0
 mì-ghean_nm	mì-gheana	1	0
 mì-gheanmnaidh_a	0	0	0
+mì-ghnàthachadh_nm	0	1	0
 mì-ghnàthaich_v	0	0	0
 mì-ghoireasach_a	0	0	0
 mìgrim_nm	0	1	0
-mi-innteanach_a	0	0	0
+mì-innteanach_a	0	0	0
 mì-iomairt_nf	0	1	0
 mì-iomchaidh_a	0	0	0
 mì-iomchaidheachd_nf	0	0	0
@@ -10380,7 +10381,8 @@ ministeireach_a	0	0	ministreil_a
 ministreachd_nf	0	0	ministrealachd_nf
 ministrealachd_nf	0	0	0
 ministreil_a	0	0	0
-mioca_nf	0	0	0
+mioca_nf	0	0	mìoca_nf
+mìoca_nf	0	0	0
 miocroscop_nm	0	0	maicreasgop_nm
 miocroscopach_a	0	0	maicreasgopach_a
 miocrosgop_nm	0	0	maicreasgop_nm
@@ -10637,10 +10639,10 @@ mu_prep	0	0	0
 muc_nf	muice	0	0
 mùch_v	0	0	0
 mùchadh_nm	0	1	0
-mu chairt_adv	0	0	0
 mùchan_nm	0	0	0
 mu choinneamh_prep	0	0	0
 mùchte_a	0	0	0
+mu chuairt_adv	0	0	0
 muclach_nm	0	0	0
 muc-mhara_nf	muice-mara	mucan-mara	0
 mud_poss	0	0	0
@@ -10715,6 +10717,8 @@ mùn_nm	0	1	0
 mu na b'_vcop	0	0	0
 munachas_nm	0	1	0
 munadh_nm	0	1	0
+mùnadh_nm	0	1	0
+munadh1_nm	0	0	monadh_nm
 muncaidh_nm	muncaidh	0	0
 mun cuairt_adv	0	0	0
 mun do_prep	0	0	0
@@ -10802,7 +10806,7 @@ nàiseantach_nm	0	0	0
 naiseantachd_nf	0	0	nàiseantachd_nf
 nàiseantachd_nf	0	0	0
 naisg_v	nasgadh_nm	0	0
-nall_adv	0	0	0
+nall_adv	0	0	a-nall_adv
 nam_art	0	0	0
 nam_conj	0	0	0
 nam_poss	0	0	0
@@ -11115,7 +11119,7 @@ neo-chumanta_a	0	0	0
 neo-chumantachd_nf	0	0	0
 neo-chùmhnantach_a	0	0	0
 neo-chunbhalach_a	0	0	0
-neo-chunbhalachd_nf	0	0	0
+neo-chunbhalachd_nf	0	neo-chunbhalachdan	0
 neo-chùram_nm	0	1	0
 neo-chùramach_a	0	0	0
 neo-dhàicheil_a	0	0	0
@@ -11183,7 +11187,7 @@ neo-phàirteach_a	0	0	0
 neo-phàirteachd_nf	0	0	0
 neo-phearsanta_a	0	0	0
 neo-phragtaigeach_a	0	0	0
-neo-phrothaid_nf	neo-phrothaid	1	0
+neo-phrothaid_a	neo-phrothaid	0	0
 neo-rèidh_a	0	0	0
 neo-riaghailteach_a	0	0	0
 neo-riaghailteachd_nf	0	0	0
@@ -11308,7 +11312,7 @@ nuall_nm	nualla	0	0
 nuallaich_nf	nuallaich	1	nuallanaich_nf
 nuallanaich_nf	0	1	0
 nuas_adv	0	0	a-nuas_adv
-null_adv	0	0	a-null_adv
+null_adv	0	0	a-nall_adv
 nur_poss	0	0	0
 nurs_nf	nurs	nursaichean	0
 o_conj	0	0	0
@@ -11349,10 +11353,10 @@ obraiche_nm	0	0	0
 obraiche-drùise_nm	0	obraichean-drùise	0
 obraiche-siubhail_nm	obraiche-siubhail	obraichean-siubhail	0
 och_excl	0	0	0
-och_nm	och	0	0
 ochanaich_nf	0	1	0
 ochd_card	0	0	0
 ochd_nm	0	0	0
+ochdach_a	0	0	0
 ochdach_nm	0	0	0
 ochdad_nm	0	0	0
 ochdamh_nm	0	0	0
@@ -11525,6 +11529,7 @@ oraid_nf	0	0	òraid_nf
 òraidiche_nm	0	0	0
 orainds_a	0	0	orains_a
 oraindsear_nm	0	0	orainsear_nm
+orainnsear_nm	0	0	orainsear_nm
 orains_a	0	0	0
 orainsear_nm	0	0	0
 oraisd_a	0	0	orains_a
@@ -16638,6 +16643,7 @@ urlar_nm	0	0	ùrlar_nm
 urnaigh_nf	urnaigh	0	ùrnaigh_nf
 ùrnaigh_nf	ùrnaigh	0	0
 ùr-nodha_a	0	0	0
+ùr-nòsach_a	0	0	0
 urnuigh_nf	urnuigh	0	ùrnaigh_nf
 ùrnuigh_nf	0	0	ùrnaigh_nf
 urra_nf	0	urrachan	0

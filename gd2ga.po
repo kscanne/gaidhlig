@@ -28424,19 +28424,20 @@ msgid "pacaid_nf"
 msgstr "paicéad_nm;pacáiste_nm"
 
 msgid "pacaig_v"
-msgstr ""
+msgstr "pacáil_v"
 
 msgid "pacaigeadh_nm"
-msgstr ""
+msgstr "pacáil_nf"
 
 msgid "pacair_nm"
-msgstr ""
+msgstr "pacálaí_nm"
 
+# hawking, peddling (not "packing"); Ó Dónaill has this sense too
 msgid "pacaireachd_nf"
-msgstr ""
+msgstr "pacaireacht_nf"
 
 msgid "paclach_nm"
-msgstr ""
+msgstr "asclán_nm"
 
 msgid "pàganach_a"
 msgstr "págánta_a"
@@ -28450,20 +28451,21 @@ msgstr "págántacht_nf"
 msgid "Pagastàn_nm"
 msgstr "an Phacastáin"
 
-msgid "paidh_nm"
-msgstr ""
+# "paidh" is alt, in TYG dict.
+msgid "pàidh_nm"
+msgstr "pióg_nf"
 
 msgid "paidhir_nf"
 msgstr "péire_nm"
 
 msgid "paidirean_nm"
-msgstr ""
+msgstr "paidrín_nm"
 
 msgid "paidreag_nf"
-msgstr ""
+msgstr "paiste_nm"
 
 msgid "paidse_nf"
-msgstr ""
+msgstr "paiste_nm"
 
 msgid "pàigh_v"
 msgstr "íoc_v"
@@ -28472,7 +28474,7 @@ msgid "pàigheadh_nm"
 msgstr "íoc_nm;íocaíocht_nf;pá_nm"
 
 msgid "pàillean_nm"
-msgstr ""
+msgstr "pailliún_nm"
 
 msgid "pailm_nf"
 msgstr "pailm_nf"
@@ -28484,31 +28486,32 @@ msgid "pailteas_nm"
 msgstr "flúirse_nf;cuid mhór"
 
 msgid "paimhleid_nf"
-msgstr ""
+msgstr "paimfléad_nm"
 
+# snare, trap; rare in both so use cognate
 msgid "painntear_nm"
-msgstr ""
+msgstr "paintéar_nm"
 
 msgid "painntin_nf"
-msgstr ""
+msgstr "paitín_nm"
 
 msgid "pàipear_nm"
 msgstr "páipéar_nm"
 
 msgid "pàipearachadh_nm"
-msgstr ""
+msgstr "páipéarú_nm"
 
 msgid "pàipearachd_nf"
-msgstr ""
+msgstr "páipéarachas_nm"
 
 msgid "pàipearaich_v"
-msgstr ""
+msgstr "páipéaraigh_v"
 
 msgid "pàipearaiche_nm"
-msgstr ""
+msgstr "páipéaraí_nm"
 
 msgid "pàipear-gainmhich_nm"
-msgstr ""
+msgstr "greanpháipéar_nm;páipéar gainimh"
 
 msgid "pàipear-naidheachd_nm"
 msgstr "nuachtán_nm"
@@ -28516,8 +28519,9 @@ msgstr "nuachtán_nm"
 msgid "pàipear-taice_nm"
 msgstr "aguisín_nm"
 
+# genitive in both?
 msgid "pàipeir_a"
-msgstr ""
+msgstr "páipéir"
 
 msgid "paipin_nm"
 msgstr "poipín_nm"
@@ -28525,8 +28529,9 @@ msgstr "poipín_nm"
 msgid "pàirc_nf"
 msgstr "páirc_nf"
 
+# to park; AFB has "pàircich_v" which I have as an alt
 msgid "pàirc_v"
-msgstr ""
+msgstr "páirceáil_v"
 
 msgid "Pàirc_nf"
 msgstr "Páirc_nf"
@@ -28535,7 +28540,7 @@ msgid "pàirc chàraichean_nf"
 msgstr "carrchlós_nm"
 
 msgid "pàirceadh_nm"
-msgstr ""
+msgstr "páirceáil_nf"
 
 msgid "paireafain_nm"
 msgstr "pairifín_nm"
@@ -28546,29 +28551,31 @@ msgstr "pairilis_nf"
 msgid "pàirt_nm"
 msgstr "páirt_nf"
 
+# also "partition" in computing; Ir. deighilt?
 msgid "pàirteachadh_nm"
-msgstr ""
+msgstr "páirtiú_nm"
 
 msgid "pàirteachas_nm"
-msgstr ""
+msgstr "páirteachas_nm"
 
 msgid "pàirtich_v"
-msgstr ""
+msgstr "páirtigh_v"
 
 msgid "pàirt-ùine_a"
 msgstr "páirtaimseartha_a"
 
+# "trócaire" in parallel corpus; "leniency" in SGB
 msgid "pais_nf"
-msgstr ""
+msgstr "páis_nf"
 
 msgid "Pais_nf"
-msgstr ""
+msgstr "Páis_nf"
 
 msgid "paisean_nm"
 msgstr "paisean_nm"
 
 msgid "paisg_v"
-msgstr ""
+msgstr "fill_v"
 
 msgid "paisgte_a"
 msgstr "fillte_a"
@@ -28577,10 +28584,10 @@ msgid "pàiste_nm"
 msgstr "páiste_nm"
 
 msgid "pàistealachd_nf"
-msgstr ""
+msgstr "páistiúlacht_nf"
 
 msgid "pàisteil_a"
-msgstr ""
+msgstr "páistiúil_a"
 
 msgid "paistiuraich_v"
 msgstr "paistéar_v"
@@ -28590,16 +28597,16 @@ msgid "pait_nf"
 msgstr ""
 
 msgid "pàiteach_a"
-msgstr ""
+msgstr "tartmhar_a"
 
 msgid "paitrisg_nf"
-msgstr ""
+msgstr "patraisc_nf"
 
 msgid "pàlas_nm"
-msgstr ""
+msgstr "pálás_nm"
 
 msgid "pallaidium_nm"
-msgstr ""
+msgstr "pallaidiam_nm"
 
 msgid "pana_nm"
 msgstr "panna_nm"
@@ -28617,16 +28624,16 @@ msgid "panda_nm"
 msgstr "panda_nm"
 
 msgid "pannagan_nm"
-msgstr ""
+msgstr "pancóg_nf"
 
 msgid "pannal_nm"
 msgstr "painéal_nm"
 
 msgid "pannal-comhairleachaidh_nm"
-msgstr ""
+msgstr "painéal comhairleach"
 
 msgid "pantraidh_nm"
-msgstr ""
+msgstr "pantrach_nf"
 
 msgid "pàpa_nm"
 msgstr "pápa_nm"
@@ -28635,16 +28642,16 @@ msgid "Pàpa_nm"
 msgstr "Pápa_nm"
 
 msgid "pàpachd_nf"
-msgstr ""
+msgstr "pápacht_nf"
 
 msgid "pàpanach_a"
-msgstr ""
+msgstr "pápánta_a"
 
 msgid "Pàpanach_a"
-msgstr ""
+msgstr "Pápánta_a"
 
 msgid "Pàpanach_nm"
-msgstr ""
+msgstr "Pápaire_nm"
 
 msgid "parabal_nm"
 msgstr "parabal_nm"
@@ -28689,7 +28696,7 @@ msgid "pàrlamaideach_a"
 msgstr "parlaiminteach_a"
 
 msgid "paròil_nf"
-msgstr ""
+msgstr "parúl_nm"
 
 msgid "parraisteach_a"
 msgstr "paróisteach_a"
@@ -28698,10 +28705,10 @@ msgid "parraisteach_nm"
 msgstr "paróisteach_nm"
 
 msgid "pàrras_nm"
-msgstr ""
+msgstr "parthas_nm"
 
 msgid "parsail_nm"
-msgstr ""
+msgstr "beartán_nm"
 
 msgid "pàrtaidh_nf"
 msgstr "páirtí_nm"
@@ -28710,16 +28717,16 @@ msgid "Pàrtaidh_nf"
 msgstr "Páirtí_nm"
 
 msgid "partan_nm"
-msgstr ""
+msgstr "portán_nm"
 
 msgid "pas_nm"
-msgstr ""
+msgstr "pas_nm"
 
 msgid "pasaig_v"
-msgstr ""
+msgstr "pasáil_v"
 
 msgid "pasgadh_nm"
-msgstr ""
+msgstr "filleadh_nm"
 
 # fillteán in computing
 msgid "pasgan_nm"
@@ -28731,8 +28738,9 @@ msgstr "pasta_nm"
 msgid "pastra_nf"
 msgstr "pastae_nm"
 
+# leveret; not in gd corpus at all
 msgid "pata_nm"
-msgstr ""
+msgstr "patachán_nm"
 
 msgid "Patagòinia_nf"
 msgstr "an Phatagóin"
@@ -28744,10 +28752,10 @@ msgid "pàtran_nm"
 msgstr "patrún_nm"
 
 msgid "pàtranachd_nf"
-msgstr ""
+msgstr "pátrúnacht_nf"
 
 msgid "P-Ceilteach_a"
-msgstr ""
+msgstr "P-Ceilteach"
 
 msgid "peacach_a"
 msgstr "peacach_a"
@@ -28793,7 +28801,7 @@ msgid "peantair_nm"
 msgstr "péintéir_nm"
 
 msgid "peapag_nf"
-msgstr ""
+msgstr "puimcín_nm"
 
 msgid "pearraid_nf"
 msgstr "pearóid_nf"
@@ -28801,20 +28809,22 @@ msgstr "pearóid_nf"
 msgid "pearsa_nm"
 msgstr "pearsa_nf;duine_nm"
 
+# 1. personification 2. personalization
 msgid "pearsanachadh_nm"
-msgstr ""
+msgstr "pearsantú_nm"
 
 msgid "pearsanaich_v"
-msgstr ""
+msgstr "pearsantaigh_v"
 
 msgid "pearsanta_a"
 msgstr "pearsanta_a"
 
 msgid "pearsantachd_nf"
-msgstr ""
+msgstr "pearsantacht_nf"
 
+# "pearsa eaglaise" is in de Bhaldraithe for "clergyman"
 msgid "pears-eaglais_nm"
-msgstr ""
+msgstr "pearsa eaglaise;eaglaiseach_nm"
 
 msgid "Pearù_nm"
 msgstr "Peiriú_nm"
@@ -28829,20 +28839,21 @@ msgstr "Peiriúch_nm"
 msgid "peasair_nf"
 msgstr "pis_nf;piseán_nm"
 
+# impudent fellow; don't see an Ir. cognate
 msgid "peasan_nm"
-msgstr ""
+msgstr "soibealtán_nm"
 
 msgid "peas-ghadaiche_nm"
-msgstr ""
+msgstr "peasghadaí_nm"
 
 msgid "peata_nm"
 msgstr "peata_nm"
 
 msgid "peatarnachd_nf"
-msgstr ""
+msgstr "peataireacht_nf"
 
 msgid "peata-ruaidh_nm"
-msgstr ""
+msgstr "puifín_nm"
 
 msgid "peatrail_nm"
 msgstr "peitreal_nm"
@@ -28855,13 +28866,14 @@ msgid "pèidse_nm"
 msgstr "péitse_nm"
 
 msgid "peighinn_nf"
-msgstr ""
+msgstr "pingin_nf"
 
 msgid "peile_nm"
-msgstr ""
+msgstr "paol_nm"
 
+# porpoise; with fada in Wentworth, SBG
 msgid "pèileag_nf"
-msgstr ""
+msgstr "muc mhara"
 
 msgid "peileagan_nm"
 msgstr "peileacán_nm"
@@ -28870,46 +28882,50 @@ msgid "peilear_nm"
 msgstr "urchar_nm;piléar_nm"
 
 msgid "pèin-dlighe_nm"
-msgstr ""
+msgstr "péindlí_nm"
 
 msgid "peinnsean_nm"
-msgstr ""
+msgstr "pinsean_nm"
 
+# superannuation
 msgid "peinnseanachadh_nm"
-msgstr ""
+msgstr "aoisliúntas_nm"
 
+# Dwelly only; punctual, precise
 msgid "peinntealta_a"
-msgstr ""
+msgstr "pointeáilte_a"
 
 msgid "peirceall_nm"
-msgstr ""
+msgstr "preiceall_nm;giall_nm"
 
+# gd corpus is all "Persia"
 msgid "Peirse_nf"
-msgstr ""
+msgstr "an Pheirs"
 
 msgid "pèirse_nf"
-msgstr ""
+msgstr "péirse_nf"
 
 msgid "peirsill_nf"
-msgstr ""
+msgstr "peirsil_nf"
 
+# very rare in gd
 msgid "pèist_nf"
-msgstr ""
+msgstr "péist_nf"
 
 msgid "peisteal_nm"
 msgstr "peisteal_nm"
 
 msgid "peitean_nm"
-msgstr ""
+msgstr "veist_nf"
 
 msgid "peitseag_nf"
-msgstr ""
+msgstr "péitseog_nf"
 
 msgid "peucag_nf"
-msgstr ""
+msgstr "péacóg_nf"
 
 msgid "peur_nf"
-msgstr ""
+msgstr "piorra_nm"
 
 msgid "Pharasach_a"
 msgstr "Fairisíneach_a"
@@ -28924,28 +28940,32 @@ msgid "pian_v"
 msgstr "pian_v"
 
 msgid "piàna_nm"
-msgstr ""
+msgstr "pianó_nm"
 
 msgid "pian-mhùchan_nm"
-msgstr ""
+msgstr "pianmhúchán_nm"
 
 msgid "piantach_a"
-msgstr ""
+msgstr "pianmhar_a"
 
+# pitch (chomh dubh le ~)
 msgid "pic_nf"
-msgstr ""
+msgstr "pic_nf"
 
+# gaff (sailing); this spelling/gender in TYG, Brigh nam Facal for "pike, etc."
 msgid "pic_nm"
-msgstr ""
+msgstr "geaifil_nm"
 
+# (cover with) pitch
 msgid "pic_v"
-msgstr ""
+msgstr "pic_v"
 
+# pickaxe, pick, pike
 msgid "pìc_nf"
-msgstr ""
+msgstr "píce_nm"
 
 msgid "picead_nm"
-msgstr ""
+msgstr "picéad_nm"
 
 msgid "picil_nf"
 msgstr "picil_nf"
@@ -28959,29 +28979,32 @@ msgstr "picilt_nf"
 msgid "picnic_nm"
 msgstr "picnic_nf"
 
+# same word?  rare in either lang
 msgid "pige_nm"
-msgstr ""
+msgstr "pigín_nm"
 
 msgid "pigheann_nm"
-msgstr ""
+msgstr "pióg_nf"
 
 msgid "pile_nf"
 msgstr "piollaire_nm"
 
+# pile
 msgid "pìle_nm"
-msgstr ""
+msgstr "píle_nm"
 
 msgid "pìleat_nm"
-msgstr ""
+msgstr "píolóta_nm"
 
 msgid "pilibean_nm"
-msgstr ""
+msgstr "pilibín_nm"
 
+# pillion
 msgid "pillean_nm"
-msgstr ""
+msgstr "pillín_nm"
 
 msgid "pillsear_nm"
-msgstr ""
+msgstr "pilséar_nm"
 
 msgid "pinc_a"
 msgstr "pinc_a;bándearg_a"
@@ -28990,10 +29013,11 @@ msgid "pinc_nm"
 msgstr "pinc_nm;bándearg_nm"
 
 msgid "pincean_nm"
-msgstr ""
+msgstr "pincín_nm"
 
+# not in gd corpus
 msgid "pinne_nm"
-msgstr ""
+msgstr "pionna_nm"
 
 msgid "pinnt_nm"
 msgstr "pionta_nm"
@@ -29014,52 +29038,60 @@ msgid "piobar_nm"
 msgstr "piobar_nm"
 
 msgid "pìob-ealaidh_nf"
-msgstr ""
+msgstr "siofón_nm"
 
 msgid "pìob-mhòr_nf"
-msgstr ""
+msgstr "píob mhór"
 
 msgid "piobrachadh_nm"
-msgstr ""
+msgstr "broideadh_nm;tathaint_nf"
 
 msgid "piobraich_v"
-msgstr ""
+msgstr "broid_v;prioc_v"
 
 msgid "pioc_v"
 msgstr "pioc_v"
 
+# mature coalfish; "saithe"
 msgid "piocach_nm"
-msgstr ""
+msgstr "saíán_nm"
 
+# Pictish in corpus examples; == Cruithneach too
 msgid "Piocach_a"
-msgstr ""
+msgstr "Piochtach_a"
 
 msgid "Piocach_nm"
-msgstr ""
+msgstr "Piocht_nm"
 
 msgid "piocadh_nm"
-msgstr ""
+msgstr "piocadh_nm"
 
 msgid "piocaid_nf"
-msgstr ""
+msgstr "piocóid_nf"
 
 msgid "piochan_nm"
-msgstr ""
+msgstr "piachán_nm"
+
+# magpie
+msgid "pioghaid_nf"
+msgstr "meaig_nf;snag breac"
 
 msgid "piolaid_nf"
-msgstr ""
+msgstr "piolóid_nf"
 
 msgid "pioramaid_nf"
-msgstr ""
+msgstr "pirimid_nf"
 
 msgid "piorbhaig_nf"
-msgstr ""
+msgstr "peiriúic_nf"
 
+# bobbin; also "pirn" cognate with the gd
 msgid "piorna_nf"
-msgstr ""
+msgstr "eiteán_nm"
 
+# squall, blast of wind
 msgid "piorradh_nm"
-msgstr ""
+msgstr "siorradh_nm"
 
 msgid "pìos_nm"
 msgstr "píosa_nm"
@@ -29068,28 +29100,29 @@ msgid "piostal_nm"
 msgstr "piostal_nm"
 
 msgid "piotsa_nm"
-msgstr ""
+msgstr "píotsa_nm"
 
 msgid "piseach_nf"
 msgstr "biseach_nm"
 
 msgid "piseag_nf"
-msgstr ""
+msgstr "piscín_nm"
 
+# not in corpus; Dwelly only
 msgid "piseagach_a"
-msgstr ""
+msgstr "piseogach_a"
 
+# vulva
 msgid "pit_nf"
-msgstr ""
+msgstr "pit_nf"
 
+# rare in both; "effeminate"
 msgid "piteanta_a"
-msgstr ""
+msgstr "piteogach_a"
 
-msgid "pitheid_nf"
-msgstr ""
-
+# hairy, shaggy
 msgid "piullach_a"
-msgstr ""
+msgstr "peallach_a"
 
 msgid "piuthar_nf"
 msgstr "deirfiúr_nf"
@@ -29097,11 +29130,13 @@ msgstr "deirfiúr_nf"
 msgid "Piuthar_nf"
 msgstr "Deirfiúr_nf"
 
+# not in corpus
 msgid "piuthar-athar_nf"
-msgstr ""
+msgstr "deirfiúr athar"
 
+# once in corpus only
 msgid "piuthar-màthar_nf"
-msgstr ""
+msgstr "deirfiúr máthar"
 
 msgid "plabair_nm"
 msgstr ""
@@ -30188,7 +30223,7 @@ msgid "puthar_nm"
 msgstr ""
 
 msgid "Q-Ceilteach_a"
-msgstr ""
+msgstr "Q-Ceilteach"
 
 msgid "rabaid_nf"
 msgstr ""

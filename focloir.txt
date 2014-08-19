@@ -11621,7 +11621,9 @@ pàganach_nm	0	0	0
 pàganachd_nf	0	0	0
 Pagastan_nm	0	1	Pagastàn_nm
 Pagastàn_nm	0	1	0
-paidh_nm	paidh	paidhichean	0
+paidh_nm	paidh	paidhichean	pàidh_nm
+pàidh_nm	pàidh	0	0
+pàidh1_nm	pàidh	pàidhichean	pàidh_nm
 paidhir_nf	paidhir	pàidhrichean	0
 paidhir1_nf	paidhir	paidhrichean	paidhir_nf
 paidhleat_nm	0	0	pìleat_nm
@@ -11656,6 +11658,7 @@ pàirc_v	0	0	0
 Pàirc_nf	0	0	0
 pàirc chàraichean_nf	0	0	0
 pàirc-chàraichean_nf	pàirce-càraichean	pàircean-càraichean	pàirc chàraichean_nf
+pàirce_nf	0	pàircean	pàirc_nf
 pàirceadh_nm	0	1	0
 pàircich_v	0	0	pàirc_v
 paireafain_nm	paireafain	1	0
@@ -11752,6 +11755,7 @@ peacach_nm	0	0	0
 peacadh_nm	0	0	0
 peacaich_v	0	0	0
 peall_nm	pill	pillean	0
+peallach_a	0	0	piullach_a
 peanas_nm	0	0	0
 peanasaich_v	0	0	0
 peann_nm	pinn	pinn	0
@@ -11860,6 +11864,7 @@ Piocach_nm	0	0	0
 piocadh_nm	0	1	0
 piocaid_nf	0	0	0
 piochan_nm	0	1	0
+pioghaid_nf	0	0	0
 piolaid_nf	0	0	0
 pìolait_nm	0	0	pìleat_nm
 pìolat_nm	0	0	pìleat_nm
@@ -11876,7 +11881,7 @@ piseag_nf	0	0	0
 piseagach_a	0	0	0
 pit_nf	0	0	0
 piteanta_a	0	0	0
-pitheid_nf	0	0	0
+pitheid_nf	0	0	pioghaid_nf
 piullach_a	0	0	0
 piuthar_nf	peathar	peathraichean	0
 Piuthar_nf	Peathar	Peathraichean	0

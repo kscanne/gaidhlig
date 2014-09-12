@@ -32,6 +32,7 @@ add : FORCE
 	-cat focloir.txt | egrep '0$$' | sed 's/\t.*//' > hw-temp.txt
 	-egrep -o '[^[:cntrl:]]+[^0]$$' focloir.txt | keepif -n hw-temp.txt
 	-egrep '^[^_]+[0-9]_.*0$$' focloir.txt
+	-rm -f hw-temp.txt
 
 replacements.txt:
 	cat ga2gd.po | tr -d "\n" | sed 's/msgid/\n&/g' | sed 's/^[^>]*>//' | sed 's/#.*//' | egrep -v 'msgstr ""' | sed 's/<\/.>"msgstr / /' | sed 's/_[a-z]*"/"/' | sed 's/^\([^ ]*\) "\([^"]*\)"$$/^\2^ \1/' | perl ${HOME}/seal/scanadh/get_repls.pl | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@

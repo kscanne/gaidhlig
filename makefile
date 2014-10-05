@@ -116,11 +116,35 @@ cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt i.pl
 # makes "multi-gd.txt" too
 # Important to include immutable.txt since it helps evaluate coverage
 # of gd2ga; those proper names, English words will now be considered "covered"
+# note that the first line below (perl i.pl -s) writes pairs-gd.txt
+# and the lines after that tweak it in various ways, and create multi-gd
 GIT=${HOME}/seal/caighdean
 pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl makefile ${HOME}/seal/idirlamha/gd/freq/immutable.txt
 	perl i.pl -s
+	sed -i '/ xx$$/d; /^xx\?[ _]/d' $@
+	sed -i "/^d'[^ ]* d'/s/^d'\(.*\)/dh'\1\na_dh'\1\nde_dh'\1\ndo_dh'\1\n&/" $@
+	sed -i "/^d'[^ ][^ ]* [BCDFGMPTbcdfgmpt][^h']/s/^d'\([^ ]*\) \(.\)\(.*\)/d'\1 do \2h\3\ndh'\1 do \2h\3\na_dh'\1 do \2h\3\nde_dh'\1 de \2h\3\ndo_dh'\1 do \2h\3/" $@
+	sed -i "/^d'[^ ]* [Ss][aeiouáéíóúlnr]/s/^d'\([^ ]*\) \(.\)\(.*\)/d'\1 do \2h\3\ndh'\1 do \2h\3\na_dh'\1 do \2h\3\nde_dh'\1 de \2h\3\ndo_dh'\1 do \2h\3/" $@
+	sed -i "/^d'[^ ]* [HLNRVhlnqrv]/s/^d'\([^ ]*\) \(.*\)/d'\1 do \2\ndh'\1 do \2\na_dh'\1 do \2\nde_dh'\1 de \2\ndo_dh'\1 do \2/" $@
+	sed -i "/^d'[^ ]* [Ss][^haeiouáéíóúlnr]/s/^d'\([^ ]*\) \(.*\)/d'\1 do \2\ndh'\1 do \2\na_dh'\1 do \2\nde_dh'\1 de \2\ndo_dh'\1 do \2/" $@
+	sed -i "/^b'[^ ][^ ]* [BCDFGMPTbcdfgmpt][^h']/s/^b'\([^ ]*\) \(.\)\(.*\)/b'\1 ba \2h\3/" $@
+	sed -i "/^b'[^ ]* [Ss][aeiouáéíóúlnr]/s/^b'\([^ ]*\) \(.\)\(.*\)/b'\1 ba \2h\3/" $@
+	sed -i "/^b'[^ ]* [HLNRVhlnqrv]/s/^b'\([^ ]*\) \(.*\)/b'\1 ba \2/" $@
+	sed -i "/^b'[^ ]* [Ss][^haeiouáéíóúlnr]/s/^b'\([^ ]*\) \(.*\)/b'\1 ba \2/" $@
+	sed -i "/^[BCDFGMPTbcdfgmpt][^h'][^ ]* b'/s/^./bu_&h/" $@
+	sed -i "/^[Ss][aeiouáéíóúlnr][^h][^ ]* b'/s/^./bu_&h/" $@
+	sed -i "/^[HLNRVhlnqrv][^ ]* b'/s/^/bu_/" $@
+	sed -i "/^[Ss][^haeiouáéíóúlnr][^ ]* b'/s/^/bu_/" $@
+	sed -i "/^m'[^ ][^ ]* [BCDFGMPTbcdfgmpt][^h']/s/^m'\([^ ]*\) \(.\)\(.*\)/m'\1 mo \2h\3/" $@
+	sed -i "/^m'[^ ]* [Ss][aeiouáéíóúlnr]/s/^m'\([^ ]*\) \(.\)\(.*\)/m'\1 mo \2h\3/" $@
+	sed -i "/^m'[^ ]* [HLNRVhlnqrv]/s/^m'\([^ ]*\) \(.*\)/m'\1 mo \2/" $@
+	sed -i "/^m'[^ ]* [Ss][^haeiouáéíóúlnr]/s/^m'\([^ ]*\) \(.*\)/m'\1 mo \2/" $@
+	sed -i "/^[BCDFGMPTbcdfgmpt][^h'][^ ]* m'/s/^./mo_&h/" $@
+	sed -i "/^[Ss][aeiouáéíóúlnr][^h][^ ]* m'/s/^./mo_&h/" $@
+	sed -i "/^[HLNRVhlnqrv][^ ]* m'/s/^/mo_/" $@
+	sed -i "/^[Ss][^haeiouáéíóúlnr][^ ]* m'/s/^/mo_/" $@
 	cat gd2ga.po | sed '/^#/d' | sed '/msgid/s/ \([^"]\)/_\1/g' | tr -d "\n" | sed 's/msgid/\n&/g' | sed '1d' | egrep -v 'msgstr ""' | sed 's/^msgid "//' | sed 's/"msgstr "/ /' | sed 's/"$$//' | bash split.sh | LC_ALL=C sort -k1,1 > po-temp-proc.txt
-	(cat po-temp-proc.txt | sed 's/_[a-z][a-z]* / /' | sed 's/_[a-z][a-z]*$$//' | sed 's/[0-9]*$$//'; sed '/ xx$$/d' $@ | sed '/^xx\?[ _]/d'; egrep '[^0]$$' focloir.txt | sed 's/^\([^\t]*\)\t*[^\t]*\t*[^\t]*\t\([^\t]*\)$$/\1~\2/' | sed 's/ /_/g' | sed 's/~/ /' | LC_ALL=C sort -k2,2 | LC_ALL=C join -1 2 -2 1 - po-temp-proc.txt | sed 's/^[^ ]* //' | sed 's/[0-9]*_[a-z][a-z]* / /' | sed 's/[0-9]*_[a-z][a-z]*$$//'; cat ${HOME}/seal/idirlamha/gd/freq/immutable.txt | sed 's/.*/& &/') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
+	(cat $@; cat po-temp-proc.txt | sed 's/_[a-z][a-z]* / /' | sed 's/_[a-z][a-z]*$$//' | sed 's/[0-9]*$$//'; egrep '[^0]$$' focloir.txt | sed 's/^\([^\t]*\)\t*[^\t]*\t*[^\t]*\t\([^\t]*\)$$/\1~\2/' | sed 's/ /_/g' | sed 's/~/ /' | LC_ALL=C sort -k2,2 | LC_ALL=C join -1 2 -2 1 - po-temp-proc.txt | sed 's/^[^ ]* //' | sed 's/[0-9]*_[a-z][a-z]* / /' | sed 's/[0-9]*_[a-z][a-z]*$$//'; cat ${HOME}/seal/idirlamha/gd/freq/immutable.txt | sed 's/.*/& &/') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
 	cat temp.txt | egrep -v '_' > $@
 	cp -f $@ $(GIT)
 	(cat $(GIT)/multi-gd.txt; cat temp.txt | egrep '_') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > multi-gd.txt
@@ -144,7 +168,7 @@ fullstem-gd.txt : GD.txt
 	cat GD.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^x[ x]' | sort -u | perl ./tagcvt.pl gd | sort -u > $@
 
 all-gd.txt: GD.txt
-	cat GD.txt | egrep -v '^xx ' | egrep -v -- '^-$$' | sed 's/ [0-9]*$$//' | LC_ALL=C sort -u > $@
+	cat GD.txt | egrep -v '^xx ' | egrep -v -- '^-$$' | sed 's/ [0-9]*$$//' | sed "/^d'/s/^d'\(.*\)/dh'\1\n&/" | LC_ALL=C sort -u > $@
 
 fullstem-nomutate.txt : fullstem.txt
 	cat fullstem.txt | sed '/ t="\(caite\|coinn\|gnáth\|foshuit\)"/s/">\(.\)h\([^Ff]\)/">\1\2/' | egrep -v '<F>' | egrep -v ">.[A-ZÁÉÍÓÚh'-]" | egrep -v '>(m[Bb]|g[Cc]|n[DdGg]|b[Pp]|t[Ss]|d[Tt])' | egrep -v 'h="y"' | egrep -v 't="ord">h.*>[aeiouáéíóú]' > $@

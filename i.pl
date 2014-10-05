@@ -38,6 +38,7 @@ sub add_pair
 	}
 }
 
+# verbs only...  see "prefixdh" below also
 sub dhorlenite
 {
 	my ( $word ) = @_;
@@ -75,12 +76,21 @@ sub prefixm
 	return $word;
 }
 
-# dh'fhaclan, dh'fhaighinn, etc. all legit
-sub prefixd
+# now defunct - generate these in makefile after the fact...
+sub prefixdh
 {
 	my ( $word ) = @_;
 	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/dh'$1/;
 	$word =~ s/^([Ff])([aeiouàèìòùáéíóú])/dh'$1h$2/;
+	return $word;
+}
+
+# do + noun is properly d' - dh' + noun used after do, de 
+sub prefixd
+{
+	my ( $word ) = @_;
+	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/d'$1/;
+	$word =~ s/^([Ff])([aeiouàèìòùáéíóú])/d'$1h$2/;
 	return $word;
 }
 

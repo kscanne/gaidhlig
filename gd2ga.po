@@ -1463,7 +1463,7 @@ msgstr "alga_nm"
 
 # 1. wandering 2. suffering
 msgid "allaban_nm"
-msgstr "seachrán_nm;fulaingt_nf;pianpháis_nf"
+msgstr "seachrán_nm;fánaíocht_nf;fulaingt_nf;pianpháis_nf"
 
 # fame
 msgid "alladh_nm"
@@ -1628,6 +1628,9 @@ msgstr "am cláraithe"
 
 msgid "à measg_prep"
 msgstr "as measc"
+
+msgid "àm eigin_adv"
+msgstr "am éigin"
 
 msgid "Ameireagaidh_nf"
 msgstr "Meiriceá_nm"
@@ -3804,6 +3807,7 @@ msgstr "Barrach"
 msgid "barrachas_nm"
 msgstr "barrachas_nm"
 
+# phrase "a bharrachd air" handled in multi-gd
 msgid "barrachd_nf"
 msgstr "tuilleadh_nm"
 
@@ -4661,6 +4665,10 @@ msgstr "bearach_nf;bearach_nm"
 # 1. tingle 2. painful twitch 3. reflex 4. titillation
 msgid "biorgadh_nm"
 msgstr "bíogadh_nm;preabadh_nm"
+
+# bit, computing
+msgid "biot_nm"
+msgstr "giotán_nm"
 
 msgid "bìrlinn_nf"
 msgstr "birling_nf"
@@ -6453,6 +6461,7 @@ msgstr "séipéal_nm"
 msgid "caibideil_nm"
 msgstr "caibidil_nf"
 
+# 1. filing cabinet, e.g. 2. political
 msgid "caibineat_nm"
 msgstr "caibinéad_nm;comh-aireacht_nf"
 
@@ -8951,7 +8960,7 @@ msgid "club-òigridh_nm"
 msgstr "club óige_nm"
 
 msgid "cluich_nm"
-msgstr "cluiche_nm;imirt_nf"
+msgstr "cluiche_nm;imirt_nf;súgradh_nm;seinm_nf"
 
 msgid "cluich_v"
 msgstr "imir_v"
@@ -8960,7 +8969,7 @@ msgid "Cluich_nm"
 msgstr "Cluiche_nm"
 
 msgid "cluicheadair_nm"
-msgstr "imreoir_nm;seinnteoir_nm"
+msgstr "imreoir_nm;seinnteoir_nm;aisteoir_nm"
 
 msgid "cluinn_v"
 msgstr "cluin_v"
@@ -9510,6 +9519,7 @@ msgstr "coillteach_a"
 msgid "coilltearachd_nf"
 msgstr "coillteoireacht_nf"
 
+# and in phrases "an coimeas ri" in multi-gd
 msgid "coimeas_nf"
 msgstr "comparáid_nf"
 
@@ -9981,7 +9991,7 @@ msgid "comharra_nm"
 msgstr "comhartha_nm"
 
 msgid "comharrachadh_nm"
-msgstr "comharthú_nm;ceiliúradh_nm"
+msgstr "marcáil_nf;comharthú_nm;ceiliúradh_nm"
 
 msgid "comharra-clèithe_nm"
 msgstr "tagairt eangaí"
@@ -10504,6 +10514,7 @@ msgstr "meascán_nm"
 msgid "co-thorach_a"
 msgstr "críochnaitheach_a"
 
+# false friend
 msgid "cothrom_nm"
 msgstr "seans_nm;deis_nf"
 
@@ -11299,6 +11310,9 @@ msgstr "cuairteoir_nm"
 # 1. enclose, surround, circle 2. rotate
 msgid "cuairtich_v"
 msgstr "timpeallaigh_v;rothlaigh_v"
+
+msgid "cuairt-iùil_nf"
+msgstr "ciclipéid_nf"
 
 msgid "cuairt-litir_nf"
 msgstr "imlitir_nf;nuachtlitir_nf"
@@ -13053,6 +13067,7 @@ msgstr "neantóg_nf"
 msgid "dèante_a"
 msgstr "déanta_a"
 
+# sometimes before the noun; "an dearbh rud" = "an rud céanna"; see multi-gd
 msgid "dearbh_a"
 msgstr "dearbh_a"
 
@@ -17863,6 +17878,9 @@ msgstr "fíor_a"
 msgid "fìor-àireamh_nf"
 msgstr "réaduimhir_nf"
 
+msgid "fìor-dhealbh_nf"
+msgstr "léaráid_nf"
+
 msgid "fìor-ghlan_a"
 msgstr "fíorghlan_a"
 
@@ -19589,6 +19607,10 @@ msgstr "stánadh_nm"
 
 msgid "geurchuiseach_a"
 msgstr "géarchúiseach_a"
+
+# epigram; SBG
+msgid "geur-dhàn_nm"
+msgstr "eipeagram_nm"
 
 msgid "geur-leanmhainn_nm"
 msgstr "géarleanúint_nf"
@@ -21803,8 +21825,9 @@ msgstr "íonghlan_v"
 msgid "iomhadh_nm"
 msgstr "éad_nm"
 
+# 1. image 2. statue (Ir. cognate works for both)
 msgid "ìomhaigh_nf"
-msgstr "íomhá_nf"
+msgstr "íomhá_nf;dealbh_nf"
 
 # imaginary (not math)
 msgid "ìomhaigheach_a"
@@ -22166,8 +22189,9 @@ msgstr "uirísle_nf"
 msgid "irioslaich_v"
 msgstr "uirísligh_v"
 
+# also "edition (of a periodical)" in corpus examples
 msgid "iris_nf"
-msgstr "iris_nf"
+msgstr "iris_nf;eagrán_nm"
 
 msgid "irisire_nm"
 msgstr "iriseoir_nm"
@@ -33462,9 +33486,10 @@ msgid "seach_prep"
 msgstr "in áit"
 
 msgid "seachad_adv"
-msgstr "seachad_adv"
+msgstr "seachad_adv;thart_adv"
 
-# with "air"
+# with "air"; conjugate the "air" on gd side <=> conjugate Ir. "thar" 
+# see multi-gd for all of those
 msgid "seachad_prep"
 msgstr "thar"
 
@@ -34391,14 +34416,12 @@ msgstr "seomra ranga"
 msgid "seòrsa_nm"
 msgstr "cineál_nm;sórt_nm"
 
+# 1. sorting 2. classifying
 msgid "seòrsachadh_nm"
-msgstr "sórtáil_nf"
-
-msgid "seòrsadh_nm"
-msgstr "catagóiriú_nm"
+msgstr "sórtáil_nf;aicmiú_nm;rangú_nm;catagóiriú_nm"
 
 msgid "seòrsaich_v"
-msgstr "sórtáil_v"
+msgstr "sórtáil_v;aicmigh_v;rangaigh_v"
 
 # denominator; shares plural with much-more-common "seòrsa"
 msgid "seòrsaiche_nm"
@@ -35151,6 +35174,9 @@ msgstr "naíscoil_nf"
 
 msgid "sgoil-chiùil_nf"
 msgstr "scoil cheoil"
+
+msgid "sgoil-dubh_nf"
+msgstr "ealaín dhubh"
 
 msgid "sgoilear_nm"
 msgstr "dalta_nm;scoláire_nm"
@@ -39361,6 +39387,9 @@ msgstr "otharlann_nf"
 msgid "taigh-faire_nm"
 msgstr "teach faire"
 
+msgid "taigh-foillseachaidh_nm"
+msgstr "teach foilsitheoireachta"
+
 msgid "taigh-fuine_nm"
 msgstr "bácús_nm"
 
@@ -40404,7 +40433,7 @@ msgid "thig_v"
 msgstr "tar_v"
 
 msgid "thu_pn"
-msgstr "tú_pn"
+msgstr "tú_pn;thú_pn"
 
 msgid "thuca_pronm"
 msgstr "chucu_pronm"

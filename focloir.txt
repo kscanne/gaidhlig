@@ -6373,7 +6373,7 @@ duibhre_nf	0	0	0
 duibhrich_v	0	0	0
 duibleid_nf	0	0	0
 Duidsis_nf	Duidsis	1	Duitsis_nf
-Dùidsis_nf	Dùidsis_nf	0	Duitsis_nf
+Dùidsis_nf	Dùidsis	0	Duitsis_nf
 duil_nf	0	0	dùil_nf
 dùil_nf	0	0	0
 dùileachadh_nm	0	1	0

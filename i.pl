@@ -39,6 +39,9 @@ sub add_pair
 }
 
 # verbs only...  see "prefixdh" below also
+# not used before fr- in standard language, so "cha do fhreagair", etc.
+# and not "dh'fhreagair" (though this appears a small number of times in
+# corpus)
 sub dhorlenite
 {
 	my ( $word ) = @_;
@@ -98,6 +101,7 @@ sub prefixb
 {
 	my ( $word ) = @_;
 	$word =~ s/^([aeiouàèìòùáéíóúAEIOUÀÈÌÒÙÁÉÍÓÚ])/b'$1/;
+	$word =~ s/^([Ff])([aeiouàèìòùáéíóú])/b'$1h$2/;
 	return $word;
 }
 

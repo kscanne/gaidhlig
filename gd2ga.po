@@ -15463,6 +15463,9 @@ msgstr "fiú_adv"
 msgid "èadhraig_v"
 msgstr "aeráil_v"
 
+msgid "eadraiginn_nf"
+msgstr "eadráin_nf"
+
 msgid "eadra-lìon_nm"
 msgstr "inlíon_nm"
 

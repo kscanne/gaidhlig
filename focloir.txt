@@ -6558,6 +6558,7 @@ eadhar_nm	0	1	adhar_nm
 eadhoin_adv	0	0	eadhon_adv
 eadhon_adv	0	0	0
 èadhraig_v	0	0	0
+eadraiginn_nf	0	0	0
 eadra-lìon_nm	eadra-lìn	eadra-lìontan	0
 eag_nf	eige	0	0
 eagach_a	0	0	0
@@ -16789,6 +16790,7 @@ tobhaig_v	0	0	0
 tòbhaig_v	0	0	tobhaig_v
 tobhaig1_v	0	0	todhaig_v
 tobhta_nf	0	tobhtaichean	0
+tobhta1_nf	0	tobhtan	tobhta_nf
 tobhtag_nf	0	0	0
 tocasaid_nf	tocasaid	0	togsaid_nf
 Tòceo_nf	0	0	Tòcèo_nf

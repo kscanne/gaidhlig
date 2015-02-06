@@ -16,7 +16,7 @@ binmode STDERR, ":utf8";
 
 # TODO: option to output gramadoir-gd eile-gd.bs pairs...
 if ($#ARGV != 0 and $ARGV[0] ne '-a') {
-	die "Usage: $0 [-a WORD|-f|-g|-s|-t|-u]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-s: Write gd2ga lexicon pairs-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n";
+	die "Usage: $0 [-a WORD|-f|-g|-s|-t]\n-f: Manual additions to focloir.txt\n-g: Write GD.txt, essentially same as gramadoir lexicon-gd.txt\n-s: Write gd2ga lexicon pairs-gd.txt\n-t: Write ga2gd lexicon cuardach.txt\n";
 }
 
 my %lexicon;

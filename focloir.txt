@@ -956,10 +956,10 @@ a-nuas_adv	0	0	0
 an-uasal_a	an-uaisle	0	0
 an uiridh_adv	0	0	an-uiridh_adv
 an-uiridh_adv	0	0	0
-anull_adv	0	0	a-nall_adv
-a null_adv	0	0	a-nall_adv
-a-null_adv	0	0	a-nall_adv
-a-nunn_adv	0	0	0
+anull_adv	0	0	a-null_adv
+a null_adv	0	0	a-null_adv
+a-null_adv	0	0	0
+a-nunn_adv	0	0	a-null_adv
 an-uraidh_adv	0	0	an-uiridh_adv
 aobhar_nm	0	0	adhbhar_nm
 aobharachadh_nm	0	1	adhbharachadh_nm
@@ -5492,6 +5492,7 @@ dearbhte_a	0	0	0
 dearc_nf	dearc	0	0
 dearc_v	0	0	0
 dearcadh_nm	0	1	0
+dearcag_nf	0	0	0
 dearc-luachrach_nf	dearc-luachrach	dearcan-luachrach	0
 dearcnachadh_nm	0	1	0
 dearcnaich_v	0	0	0
@@ -6804,6 +6805,8 @@ eirich_v	eirigh_nf	eir	èirich_v
 éirich_v	éirigh_nf	éir	èirich_v
 èirich_v	èirigh_nf	èir	0
 eiridinn_nm	eiridinn	1	0
+eiridneach_a	0	0	0
+eiridneach_nm	0	0	0
 eiridnich_v	0	0	0
 èirig_nf	0	0	0
 eirigh_nf	eirigh	1	èirigh_nf
@@ -7143,7 +7146,7 @@ fanan_nm	0	0	0
 fànas_nm	0	0	0
 fànas-adhair_nm	fànais-adhair	fànasan-adhair	0
 fanear_adv	0	0	fainear_adv
-fa-near_adv	0	0	0
+fa-near_adv	0	0	fainear_adv
 fa'near_adv	0	0	fainear_adv
 fang_nm	0	0	0
 fann_a	0	0	0

@@ -49,6 +49,12 @@ lexicon-gd.txt : GD.txt
 	cat $@ | iconv -f utf8 -t iso-8859-1 > $(GRAM)/gd/$@
 	(cd $(GRAM)/gd; make rebuildlex)
 
+leabhar.pdf: sonrai.tex leabhar.tex
+	pdflatex leabhar.tex
+	cp $@ ${HOME}/public_html/obair
+
+sonrai.tex: tolatex.pl gd2ga.po focloir.txt stemfreq.txt
+	perl tolatex.pl > $@
 
 GA.txt : /home/kps/math/code/data/Dictionary/IG
 	Gin 18 # writes "ga.txt"
@@ -166,6 +172,12 @@ fullstem.txt : GA.txt
 
 fullstem-gd.txt : GD.txt
 	cat GD.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^x[ x]' | sort -u | perl ./tagcvt.pl gd | sort -u > $@
+
+juststem-gd.txt: fullstem-gd.txt
+	cat fullstem-gd.txt | sed 's/<[^>]*>//g' | egrep -v ' .* ' > $@
+
+stemfreq.txt: stemfreq.pl juststem-gd.txt ${HOME}/seal/idirlamha/gd/freq/freq.txt
+	perl stemfreq.pl > $@
 
 all-gd.txt: GD.txt
 	cat GD.txt | egrep -v '^xx ' | egrep -v -- '^-$$' | sed 's/ [0-9]*$$//' | sed "/^d'/s/^d'\(.*\)/dh'\1\n&/" | LC_ALL=C sort -u > $@

@@ -56,9 +56,12 @@ leabhar.pdf: sonrai.tex leabhar.tex
 sonrai.tex: tolatex.pl gd2ga.po focloir.txt stemfreq.txt
 	perl tolatex.pl > $@
 
-GA.txt : /home/kps/math/code/data/Dictionary/IG
+posmap-local.pl: $(GRAM)/ga/posmap.pl
+	cat $(GRAM)/ga/posmap.pl | LC_ALL=C sed '/now fix some to 127/,$$s/^s\/.* 127/#&/' > $@
+
+GA.txt : /home/kps/math/code/data/Dictionary/IG posmap-local.pl
 	Gin 18 # writes "ga.txt"
-	cat ga.txt | perl -p $(GRAM)/ga/posmap.pl | LC_ALL=C sed '/^xx /s/.*/xx 4/' | iconv -f iso-8859-1 -t utf8 > $@
+	cat ga.txt | perl -p posmap-local.pl | LC_ALL=C sed '/^xx /s/.*/xx 4/' | iconv -f iso-8859-1 -t utf8 > $@
 	rm -f ga.txt
 
 gd2ga.pot : focloir.txt
@@ -167,7 +170,7 @@ lookup.txt : cuardach.txt i.pl
 #	cp $(CRUB)/GLAN $(CRUB)/LEXICON
 #	togail gd glan 20
 
-fullstem.txt : GA.txt
+fullstem.txt : GA.txt tagcvt.pl
 	cat GA.txt | tr '\n' '@' | sed 's/-@/\n/g' | egrep -v '^xx' | perl -p -e 'chomp; ($$hd) = /([^@]+)/; s/@/ $$hd\n/g' | egrep -v '^xx' | sort -u | perl ./tagcvt.pl ga | sort -u > $@
 
 fullstem-gd.txt : GD.txt

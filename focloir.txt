@@ -916,7 +916,6 @@ ann-stealladh_nm	0	1	0
 annt'_pronm	anntasan	0	annta_pronm
 annta_pronm	anntasan	0	0
 anochd_adv	0	0	a-nochd_adv
-a nochd_adv	0	0	a-nochd_adv
 a-nochd_adv	0	0	0
 anod_nm	0	0	0
 anois_adv	0	0	a-nis_adv

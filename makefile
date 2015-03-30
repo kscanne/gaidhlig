@@ -51,7 +51,10 @@ lexicon-gd.txt : GD.txt
 
 leabhar.pdf: sonrai.tex leabhar.tex
 	pdflatex leabhar.tex
-	cp $@ ${HOME}/public_html/obair
+	cp $@ ${HOME}/public_html/pub/gd2ga.pdf
+
+falsefriends.txt: sonrai.tex
+	cat sonrai.tex | tr -d "\n" | sed 's/\\noindent/\n&/g' | egrep dbend | sed 's/\\setlen.*//' | sed 's/^.*hypertarget{[^}]*}//' | sed 's/^{.textbf.//' | sed 's/}}, *\\textit{/ /' | sed 's/}:/:/' | sed 's/\\markboth{[^}]*}{[^}]*}/ /' > $@
 
 sonrai.tex: tolatex.pl gd2ga.po focloir.txt stemfreq.txt
 	perl tolatex.pl > $@

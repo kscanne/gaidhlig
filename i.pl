@@ -50,10 +50,19 @@ sub dhorlenite
 	return $word;
 }
 
+# used only in conditional
 sub delenite
 {
 	my ( $word ) = @_;
 	$word =~ s/^(.)h([^'])/$1$2/;
+	return $word;
+}
+
+# used only in conditional
+sub strip_dh
+{
+	my ( $word ) = @_;
+	$word =~ s/^dh'//;
 	return $word;
 }
 
@@ -696,9 +705,15 @@ sub gramadoir_output {
 		  			push @$ret, "xx 4" for (1..3);
 				}
 				else {
+					# chan itheadh, chan fhanainn
+					# matches "ní ithfeadh", "ní fhanfainn" in GA.txt
+		  			push @$ret, strip_dh($w)."$pron$tail $numer";
+					# Ghabhainn...   Dh'fhuiricheadh
+					# matches "ghabhfainn, d'fh.." in Irish
 		  			push @$ret, "$w$pron$tail $numer";
-		  			push @$ret, "$w$pron$tail $numer";
-		  			push @$ret, delenite($w)."$pron$tail $numer";
+					# an iarradh, am postadh, ... 
+					# matches eclipsed versions in Irish: an n-iarrfadh, ...
+		  			push @$ret, delenite(strip_dh($w))."$pron$tail $numer";
 				}
 				# subjunctive
 				$numer++;

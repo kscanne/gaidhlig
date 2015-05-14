@@ -7011,6 +7011,7 @@ eunadair_nm	0	0	0
 eunadan_nm	0	eunadain	0
 eun-àir_nm	eòin-àir	eòin-àir	0
 eun-ciùil_nm	eòin-chiùil	eòin-chiùil	0
+eun-creachaidh_nm	eòin-chreachaidh	eòin-chreachaidh	0
 eun-Frangach_nm	eòin-Fhrangaich	eòin-Fhrangach	0
 eun-fraoich_nm	eòin-fhraoich	eòin-fraoich	0
 eunlaith_nf	0	1	0
@@ -11841,6 +11842,8 @@ neach-ùidh_nm	neach-ùidh	luchd-ùidh	neach-ùidhe_nm
 neach-ùidhe_nm	0	luchd-ùidhe	0
 neactar_nm	0	1	0
 nead_nf	nid	0	0
+nead_nm	nid	nid	nead_nf
+nead1_nm	nid	neadaichean	nead_nf
 neadaich_v	0	0	0
 neamh_nm	0	0	nèamh_nm
 nèamh_nm	nèimh	0	0

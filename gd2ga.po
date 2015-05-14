@@ -16481,6 +16481,9 @@ msgstr "éan creiche"
 msgid "eun-ciùil_nm"
 msgstr "éan ceoil"
 
+msgid "eun-creachaidh_nm"
+msgstr "éan creiche"
+
 msgid "eun-Frangach_nm"
 msgstr "turcaí_nm"
 

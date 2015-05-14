@@ -13130,6 +13130,9 @@ msgstr "samhlaíocht_nf"
 msgid "dealbhadair_nm"
 msgstr "dearthóir_nm;ealaíontóir_nm"
 
+msgid "dealbhadair-aodaich_nm"
+msgstr "dearthóir éadaí"
+
 msgid "dealbhadaireachd_nf"
 msgstr "péintéireacht_nf"
 

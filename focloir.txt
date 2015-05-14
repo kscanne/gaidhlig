@@ -5490,6 +5490,7 @@ dealbhach_a	0	0	0
 dealbhachadh_nm	0	0	dealbhadh_nm
 dealbhachd_nf	0	0	0
 dealbhadair_nm	0	0	0
+dealbhadair-aodaich_nm	dealbhadair-aodaich	dealbhadairean-aodaich	0
 dealbhadaireachd_nf	0	0	0
 dealbhadh_nm	0	0	0
 dèalbhadh_nm	0	0	dealbhadh_nm

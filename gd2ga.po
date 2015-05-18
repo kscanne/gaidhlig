@@ -5060,6 +5060,7 @@ msgstr "tum_v"
 msgid "bogachadh_nm"
 msgstr "tumadh_nm;maothú_nm;bogadh_nm"
 
+# false friend
 msgid "bogadh_nm"
 msgstr "tumadh_nm"
 
@@ -5218,6 +5219,9 @@ msgstr "bonnóg_nf"
 
 msgid "bonnair_nm"
 msgstr "bonnaire_nm"
+
+msgid "bonn-a-sia_nm"
+msgstr "leathphingin_nf"
 
 msgid "bonn-cuimhne_nm"
 msgstr "bonn cuimhneacháin"
@@ -7120,7 +7124,7 @@ msgid "caogadh_nm"
 msgstr "caochadh_nm"
 
 msgid "caoidh_nf"
-msgstr "caí_nf"
+msgstr "caí_nf;caoineadh_nm"
 
 msgid "caoidh_v"
 msgstr "caígh_v"
@@ -18436,6 +18440,7 @@ msgstr "ceardoideachas_nm"
 msgid "fòghnadh_nm"
 msgstr "dóthain_nf"
 
+# false friend
 msgid "fògradh_nm"
 msgstr "deoraíocht_nf"
 
@@ -38575,6 +38580,9 @@ msgstr "stang_nf"
 # lesser weever
 msgid "stangaran_nm"
 msgstr "goineadóir_nm"
+
+msgid "stannd_nm"
+msgstr "stalla_nm;seastán_nm"
 
 msgid "staoig_nf"
 msgstr "stéig_nf"

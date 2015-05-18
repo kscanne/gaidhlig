@@ -2265,6 +2265,7 @@ bonnach_nm	0	0	0
 bonnach1_nm	0	bonnachan	bonnach_nm
 bonnag_nf	0	0	bannach_nm
 bonnair_nm	0	0	0
+bonn-a-sia_nm	buinn-a-sia	buinn-a-sia	0
 bonn-cuimhne_nm	0	buinn-chuimhne	0
 bonn-stèidh_nf	0	0	bun-stèidh_nf
 bonntaich_v	0	0	0
@@ -15924,6 +15925,7 @@ stampadh_nm	0	1	0
 stànadair_nm	0	0	0
 stang_nm	0	0	0
 stangaran_nm	0	0	0
+stannd_nm	stannda	stanndaichean	0
 staoig_nf	staoig	0	0
 staoin_a	0	0	0
 staoin_nf	0	1	0
@@ -16394,6 +16396,7 @@ tàille_nf	0	tàillean	0
 tàilleabh_prep	0	0	tàillibh_prep
 tàilleabhach_nm	0	0	0
 tàilleabhachd_nf	0	0	0
+taillear_nm	0	0	tàillear_nm
 tàillear_nm	0	0	0
 tàillibh_prep	0	0	0
 taillium_nm	taillium	1	0
@@ -16748,6 +16751,7 @@ teòma_a	0	0	0
 teòmachd_nf	0	0	0
 teòraidh_nf	teòraidh	0	teòiridh_nf
 teòth_v	0	0	teòthaich_v
+teothach_nf	0	1	teòthachd_nf
 teothachd_nf	0	0	teòthachd_nf
 teòthachd_nf	0	0	0
 teòthadh_nm	0	1	0

@@ -62,6 +62,11 @@ doileir.txt: sonrai.tex
 sonrai.tex: tolatex.pl gd2ga.po focloir.txt stemfreq.txt
 	perl tolatex.pl > $@
 
+sonrai.xml: sonrai.tex
+	echo '<?xml version="1.0" encoding="UTF-8"?><text><body>' > $@
+	cat sonrai.tex | egrep -v '^\\(setlength|markboth)' | egrep '[a-z]' | sed 's/^\\noindent//' | egrep -v '\\(addcontent|chapter)' | sed 's/^\\textdbend\\textdagger/\\textdagger/' | sed '/^[^\/$$]/s/\([^,.]*\)[,.] */<sense><cit type="translation" xml:lang="ga"><quote>\1<\/quote><\/cit><\/sense>/g' | sed 's/<\/sense>$$/&\n<\/entry>/' | sed '/^\$$\\rightarrow/s/^\$$\\rightarrow\$$ \\hyperlink{\([^}]*\)}.*/<xr><ptr target="#\1"\/><\/xr>\n<\/entry>/' | sed 's/^\\hypertarget{\([^}]*\)}{\\textbf{\([^}]*\)}}, \\textit{\([^}]*\)}: */<entry xml:id="\1">\n<form><orth>\2<\/orth><\/form><gramGrp><pos>\3<\/pos><\/gramGrp>/' | sed 's/^\\hypertarget{\([^}]*\)}{\\textbf{\([^}]*\)}}$$/<entry xml:id="\1">\n<form><orth>\2<\/orth><\/form>/' | sed 's/^\\textbf{\([^}]*\)}, \\textit{\([^}]*\)}$$/<entry>\n<form><orth>\1<\/orth><\/form><gramGrp><pos>\2<\/pos><\/gramGrp>/' | sed 's/^\\textdagger\\hypertarget{\([^}]*\)}{\\textbf{\([^}]*\)}}, \\textit{\([^}]*\)}: */<entry xml:id="\1">\n<form><orth>\2<\/orth><\/form><gramGrp><pos>\3<\/pos><\/gramGrp><lbl>annamh<\/lbl>/' | sed 's/^\$$\\bigstar\$$\\hypertarget{\([^}]*\)}{\\textbf{\([^}]*\)}}, \\textit{\([^}]*\)}: */<entry xml:id="\1">\n<form><orth>\2<\/orth><\/form><gramGrp><pos>\3<\/pos><\/gramGrp><lbl>doiléir<\/lbl>/' | sed 's/^\\textdbend\\hypertarget{\([^}]*\)}{\\textbf{\([^}]*\)}}, \\textit{\([^}]*\)}: */<entry xml:id="\1">\n<form><orth>\2<\/orth><\/form><gramGrp><pos>\3<\/pos><\/gramGrp><lbl>bréagchara<\/lbl>/' | sed 's/^\\textbf{\([^}]*\)}$$/<entry>\n<form><orth>\1<\/orth><\/form>/' >> $@
+	echo '</body></text>' >> $@
+
 posmap-local.pl: $(GRAM)/ga/posmap.pl
 	cat $(GRAM)/ga/posmap.pl | LC_ALL=C sed '/now fix some to 127/,$$s/^s\/.* 127/#&/' > $@
 
@@ -184,6 +189,9 @@ fullstem-gd.txt : GD.txt
 
 juststem-gd.txt: fullstem-gd.txt
 	cat fullstem-gd.txt | sed 's/<[^>]*>//g' | egrep -v ' .* ' > $@
+
+mbm-stem.txt: juststem-gd.txt
+	cat juststem-gd.txt | tolow | sed 's/^\([^ ]*\) \(.*\)$$/\2 \1/' | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 | tr " " "\t" > $@
 
 stemfreq.txt: stemfreq.pl juststem-gd.txt ${HOME}/seal/idirlamha/gd/freq/freq.txt
 	perl stemfreq.pl > $@

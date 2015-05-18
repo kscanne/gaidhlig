@@ -740,7 +740,7 @@ sub gramadoir_output {
 	}
 	elsif ($pos eq 'pn') {
 		push @$ret, "$word$tail 16";
-		push @$ret, "$word$tail 16";   # not sure why
+		push @$ret, "$word$tail 16";   # for é/hé, í/hí, etc.
 	}
 	elsif ($pos eq 'adv') {
 		push @$ret, "$word$tail 24";

@@ -3707,6 +3707,7 @@ clàr-stòraidh_nm	clàir-stòraidh	clàir-stòraidh	0
 clàr-taice_nm	clàir-taice	clàir-taice	0
 clas_nm	clas	clasaichean	0
 clàs_nm	clàsa	0	0
+clàs1_nm	clàsa	clàsaichean	clàs_nm
 clasaigeach_a	0	0	0
 clasaigeach_nm	0	0	0
 clas-bogaidh_nm	clas-bogaidh	clasaichean-bhogaidh	0
@@ -7493,6 +7494,7 @@ fèin-eachdraidh_nf	0	0	0
 fèineag_nf	0	0	0
 fèin-fhiosrachadh_nm	0	0	0
 fèin-leasachadh_nm	0	0	0
+fèin-mharbhadh_nm	0	1	fèin-mhurt_nm
 fèin-mheas_nm	fèin-mheas	1	0
 fèinmheasadh_nm	0	0	fèin-mheasadh_nm
 fèin-mheasadh_nm	0	0	0

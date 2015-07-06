@@ -3987,6 +3987,7 @@ còd-loidhne_nm	0	còdaichean-loidhne	0
 co-èignich_v	0	0	0
 cofaidh_nm	0	1	0
 co-fhaclair_nm	0	0	0
+co-fhad-thràth_nm	co-fhaid-thràth	co-fhadan-tràth	0
 co-fhaireachadh_nm	0	1	co-fhaireachdainn_nf
 co-fhaireachdainn_nf	0	0	0
 co-fharpais_nf	0	0	0

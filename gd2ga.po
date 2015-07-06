@@ -9442,6 +9442,9 @@ msgstr "caife_nm"
 msgid "co-fhaclair_nm"
 msgstr "teasáras_nm"
 
+msgid "co-fhad-thràth_nm"
+msgstr "cónocht_nm"
+
 msgid "co-fhaireachdainn_nf"
 msgstr "comhbhrón_nm"
 

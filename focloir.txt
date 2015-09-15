@@ -3194,6 +3194,8 @@ castan_nm	0	0	0
 cat_nm	0	cait	0
 Catalanach_a	0	0	0
 Catalanach_nm	0	0	0
+Catalànach_a	0	0	Catalanach_a
+Catalànach_nm	0	0	Catalanach_nm
 Catalanais_nf	Catalanais	1	0
 catalog_nm	0	0	0
 catamaran_nm	0	0	0
@@ -5732,6 +5734,7 @@ dha_pronm	dhasan	0	dhà_pronm
 dhà_card	0	0	0
 dhà_pronm	dhàsan	0	0
 dhà1_pronm	dhà-san	0	dhà_pronm
+dhachaidh_adv	0	0	dhachaigh_adv
 dhachaigh_adv	0	0	0
 dhad_poss	0	0	0
 dhà-dheug_card	0	0	0
@@ -8185,6 +8188,7 @@ gairgeann_nm	0	0	0
 gàirich_v	gàireachdainn_nf	0	0
 gairm_nf	0	0	0
 gairm_v	gairm_nf	0	0
+Gairmailt_nf	Gairmailt	1	Gearmailt_nf
 gairmeach_a	0	0	0
 gàirnealachd_nf	0	0	gàirnealaireachd_nf
 gàirnealair_nm	0	0	0
@@ -13059,7 +13063,8 @@ prìomh dhoras_nm	prìomh	1	0
 prìomh dhreuchd_nf	prìomh	1	0
 prìomh dhuais_nf	prìomh	1	0
 prìomh dhùbhlan_nm	prìomh	1	0
-prìomh dhuilleag_nf	prìomh	1	0
+prìomh dhuilleag_nf	prìomh	1	prìomh-dhuilleag_nf
+prìomh-dhuilleag_nf	0	0	0
 prìomh duais_nf	prìomh	1	prìomh dhuais_nf
 prìomh eaglais_nf	prìomh	1	0
 prìomh eileamaid_nf	prìomh	1	0

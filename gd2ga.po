@@ -357,6 +357,7 @@ msgstr "adharcach_a"
 msgid "adhart_nm"
 msgstr "adhairt_nf"
 
+# 1 progressive  2 advanced (settings in CS)
 msgid "adhartach_a"
 msgstr "uaillmhianach_a;forásach_a;casta_a"
 
@@ -11579,7 +11580,7 @@ msgid "cuibheasach_a"
 msgstr "cuibheasach_a;meánach_a"
 
 msgid "Cuibhèit_nf"
-msgstr "Cuáit_nm"
+msgstr "Cuáit_nf"
 
 msgid "Cuibhèiteach_a"
 msgstr "Cuátach_a"
@@ -31132,7 +31133,7 @@ msgstr "príomhdhuais_nf"
 msgid "prìomh dhùbhlan_nm"
 msgstr "príomhdhúshlán_nm"
 
-msgid "prìomh dhuilleag_nf"
+msgid "prìomh-dhuilleag_nf"
 msgstr "príomhleathanach_nm"
 
 msgid "prìomh eaglais_nf"

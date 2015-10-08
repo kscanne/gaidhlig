@@ -12275,8 +12275,9 @@ msgstr "dá"
 msgid "d'a_poss"
 msgstr "dá"
 
+# dá after article, just like Ir.
 msgid "dà_card"
-msgstr "dhá"
+msgstr "dhá;dá"
 
 msgid "dabhach_nf"
 msgstr "dabhach_nf"

@@ -2205,6 +2205,7 @@ bogaich_v	0	0	0
 bogha_nm	0	boghachan	0
 boghadair_nm	0	0	0
 boghadaireachd_nf	0	0	0
+bogha frois_nm	0	boghachan	bogha-frois_nm
 bogha-frois_nm	bogha-frois	boghachan-frois	0
 bogha-froise_nm	0	0	bogha-frois_nm
 boglach_nf	0	boglaichean	0
@@ -7921,6 +7922,7 @@ forsaireachd_nf	0	0	0
 fortan_nm	0	fortain	0
 fòrtan_nm	0	fòrtain	fortan_nm
 fortanach_a	0	0	0
+fòrtanach_a	0	0	fortanach_a
 fortunach_a	0	0	fortanach_a
 fos_adv	0	0	fòs_adv
 fòs_adv	0	0	0

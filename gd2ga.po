@@ -1618,6 +1618,7 @@ msgstr "linn snámha"
 
 # Ir. amas shares sense "aim" but is usually used in 
 # different senses, so declaring it a false friend (spurious-gd)
+# This is also vn of "amais_v" above; "ag_amas" = "ag díriú" in multi-gd
 msgid "amas_nm"
 msgstr "aidhm_nf;sprioc_nf"
 
@@ -8809,6 +8810,9 @@ msgstr "aisteoir_nm;fuirseoir_nm"
 
 msgid "cleas-sgrìobhaidh_nm"
 msgstr "ciúta liteartha"
+
+msgid "cleas-teine_nm"
+msgstr "tine ealaíne"
 
 msgid "clèir_nf"
 msgstr "cléir_nf"

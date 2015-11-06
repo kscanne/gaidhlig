@@ -3735,6 +3735,7 @@ cleas_nm	cleas	0	0
 cleasachd_nf	0	0	0
 cleasaiche_nm	0	0	0
 cleas-sgrìobhaidh_nm	cleas-sgrìobhaidh	cleasan-sgrìobhaidh	0
+cleas-teine_nm	0	cleasan-teine	0
 clèir_nf	0	0	0
 clèireach_nm	0	0	0
 Clèireach_a	0	0	0

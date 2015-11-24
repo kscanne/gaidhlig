@@ -10512,6 +10512,9 @@ msgstr "corparáid_nf"
 msgid "corporra_a"
 msgstr "corparáideach_a"
 
+# false friend
+# several in multi-gd; an_còrr(_de), còrr_'s/air, etc.
+# note that Ir. "corradh is/le/ar" does mean "more than" (FGB, Dinneen)
 msgid "còrr_nm"
 msgstr "breis_nf"
 
@@ -17751,6 +17754,9 @@ msgstr "feolmhar_a"
 
 msgid "feòlmhorachd_nf"
 msgstr "feolmhaireacht_nf;collaíocht_nf"
+
+msgid "feòrachail_a"
+msgstr "fiosrach_a"
 
 # often f~ ruadh; hence "iora rua"
 msgid "feòrag_nf"

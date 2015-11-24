@@ -2845,6 +2845,7 @@ càilidheachd_nf	0	0	0
 cailin_nm	cailin	0	0
 cailis_nf	cailis	0	0
 caill_v	call_nm	0	0
+càill_v	call_nm	0	caill_v
 cailleach_nf	cailliche	cailleachan	0
 cailleach1_nf	0	cailleachan	cailleach_nf
 cailleach-oidhche_nf	caillich-oidhche	cailleachan-oidhche	0
@@ -7532,6 +7533,7 @@ feòil-itheach_a	0	0	0
 feòirling_nf	feòirling	0	0
 feòlmhor_a	0	0	0
 feòlmhorachd_nf	0	0	0
+feòrachail_a	0	0	0
 feòrag_nf	0	0	0
 feòraich_v	0	0	0
 feòran_nm	0	1	0

@@ -142,6 +142,9 @@ GIT=${HOME}/seal/caighdean
 pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl makefile ${HOME}/seal/idirlamha/gd/freq/immutable.txt
 	perl i.pl -s
 	sed -i '/ xx$$/d; /^xx\?[ _]/d' $@
+	sed -i '/^cha_/s/ / ní /' $@   # negative future
+	sed -i '/^chan_[faeiouàèìòùáéíóú]/s/ / ní /' $@   # negative future
+	sed -i 's/ ní gheobhaidh$$/ ní bhfaighidh/' $@  # fix irreg futures
 	sed -i "/^d'[^ ]* d'/s/^d'\(.*\)/dh'\1\na_dh'\1\nde_dh'\1\ndo_dh'\1\n&/" $@
 	sed -i "/^d'[^ ][^ ]* [BCDFGMPTbcdfgmpt][^h']/s/^d'\([^ ]*\) \(.\)\(.*\)/d'\1 do \2h\3\ndh'\1 do \2h\3\na_dh'\1 do \2h\3\nde_dh'\1 de \2h\3\ndo_dh'\1 do \2h\3/" $@
 	sed -i "/^d'[^ ]* [Ss][aeiouáéíóúlnr]/s/^d'\([^ ]*\) \(.\)\(.*\)/d'\1 do \2h\3\ndh'\1 do \2h\3\na_dh'\1 do \2h\3\nde_dh'\1 de \2h\3\ndo_dh'\1 do \2h\3/" $@

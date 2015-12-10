@@ -3,6 +3,7 @@ SHELL=/bin/sh
 MAKE=/usr/bin/make
 INSTALL_DATA=$(INSTALL) -m 444
 GRAM=${HOME}/gaeilge/gramadoir/gr
+STEMMER=${HOME}/gaeilge/ga2gd/Lingua-GA-Stemmer
 
 all : cuardach.txt aistrigh ga2gd rialacha.txt disambig.pl ambig.txt gdfixer apertium-ga-gd.ga.dix
 
@@ -232,10 +233,10 @@ apertium-ga-gd.ga.dix : apertium-toinsert.txt apertium-ga-gd.ga.dix.in
 speling-gd.txt : fullstem-nomutate-gd.txt
 	cat fullstem-nomutate-gd.txt | perl tospeling-gd.pl > $@
 
-Lingua-GA-Stemmer/share/stemmer.txt : GA.txt Lingua-GA-Stemmer/scripts/stemmer fullstem.txt
+stemmerupdate: GA.txt $(STEMMER)/scripts/stemmer fullstem.txt
 	(sed '/^#/d' stemmer.po | sed "/^msg/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat fullstem.txt) | sort -u > $@
-	perl -I Lingua-GA-Stemmer/lib Lingua-GA-Stemmer/scripts/stemmer -p $@
-	(cd Lingua-GA-Stemmer; perl Makefile.PL; make)
+	perl -I $(STEMMER)/lib $(STEMMER)/scripts/stemmer -p $@
+	(cd $(STEMMER); perl Makefile.PL; make)
 
 triailcheck : FORCE
 	cat test.txt | sed '/^#/d' | ga2gd > torthai-nua.txt

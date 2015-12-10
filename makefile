@@ -234,8 +234,8 @@ speling-gd.txt : fullstem-nomutate-gd.txt
 	cat fullstem-nomutate-gd.txt | perl tospeling-gd.pl > $@
 
 stemmerupdate: GA.txt $(STEMMER)/scripts/stemmer fullstem.txt
-	(sed '/^#/d' stemmer.po | sed "/^msg/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat fullstem.txt) | sort -u > $@
-	perl -I $(STEMMER)/lib $(STEMMER)/scripts/stemmer -p $@
+	(sed '/^#/d' stemmer.po | sed "/^msg/{s/='/=@/g; s/' /@ /g; s/'>/@>/}" | tr '@' '"' | tr -d '\n' | sed 's/msgid "/\n/g' | egrep '>"msgstr' | egrep -v 'msgstr ""' | sed 's/"msgstr "/ /; s/"$$//'; cat fullstem.txt) | sort -u > $(STEMMER)/share/stemmer.txt
+	perl -I $(STEMMER)/lib $(STEMMER)/scripts/stemmer -p $(STEMMER)/share/stemmer.txt
 	(cd $(STEMMER); perl Makefile.PL; make)
 
 triailcheck : FORCE

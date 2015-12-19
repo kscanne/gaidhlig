@@ -12170,6 +12170,7 @@ noibhiseach_nm	0	0	0
 nòin_nm	nòin	1	0
 nòisean_nm	0	nòisein	0
 Nollaig_nf	0	0	0
+Nollaig1_nf	Nollaig	0	Nollaig_nf
 nòrmalachd_nf	0	0	0
 Normanach_a	0	0	0
 Normanach_nm	0	0	0

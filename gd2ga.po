@@ -30538,8 +30538,11 @@ msgstr "píotsa_nm"
 msgid "piseach_nf"
 msgstr "biseach_nm"
 
+# false friend; Dwelly has sense "sorcery, witchcraft, divination"
+# but always "kitten" modern corpus.  Because of spelling rule changes
+# need to have "piseog" in spurious-gd
 msgid "piseag_nf"
-msgstr "piscín_nm"
+msgstr "piscín_nm;puisín_nm"
 
 # not in corpus; Dwelly only
 msgid "piseagach_a"

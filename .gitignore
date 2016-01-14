@@ -1,3 +1,4 @@
+all-gd.txt
 ambig.txt
 apertium-toinsert.txt
 comhshuite.pot
@@ -7,6 +8,7 @@ fullstem.txt
 fullstem-nomutate.txt
 GA.txt
 ga2gd.pot
+GD.txt
 gd2ga.pot
 multi-gd.txt
 neamhrialta.pot

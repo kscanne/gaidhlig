@@ -24,7 +24,10 @@ sub converter
 	return $ans;
 }
 
-open (POSTAGS, "<:bytes", "/home/kps/gaeilge/gramadoir/gr/$langcode/pos-$langcode.txt") or die "Could not open POS tags list for $langcode: $!\n";
+my $tagfile = "/home/kps/seal/idirlamha/$langcode/gramadoir-$langcode/pos-$langcode.txt";
+$tagfile = "/home/kps/gaeilge/gramadoir/gr/$langcode/pos-$langcode.txt" if ($langcode eq 'ga');
+
+open (POSTAGS, "<:bytes", $tagfile) or die "Could not open POS tags list for $langcode: $!\n";
 
 while (<POSTAGS>) {
 	my $curr = decode("iso-8859-1", $_);

@@ -7398,6 +7398,7 @@ Fàrothach_nm	0	0	0
 farpais_nf	0	0	0
 farpais-cheist_nf	farpaise-cheist	farpaisean-ceist	0
 farpaiseach_nm	0	0	0
+farpuis_nf	0	0	farpais_nf
 farrach_nm	0	1	0
 farragan_nm	0	farragain	0
 farraid_nf	0	0	0

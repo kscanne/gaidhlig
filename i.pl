@@ -681,15 +681,8 @@ sub gramadoir_output {
 				}
 		  		push @$ret, "$w$pron$tail $numer";
 				if ($n == 3 and $i == 0) {  # hack for cha(n) + an/am
-					my $particle = 'cha';
-					$particle = 'chan' if ($word =~ /^f?[aeiouàèìòù]/i);
-		  			push @$ret, "$particle ".lenite($word)."$tail $numer";
-					# dangerous to do this with an/am since it 
-					# will force this xlation on many article+noun MWEs
-					#$particle = 'an';
-					#$particle = 'am' if ($word =~ /^[bfmp]/i);
-		  			#push @$ret, "$particle $word$tail $numer";
-		  			push @$ret, "$w$pron$tail $numer";
+		  			push @$ret, lenite($word)."$tail $numer";
+		  			push @$ret, "$word$tail $numer";
 				}
 				else {  # the usual
 		  			push @$ret, lenite($w)."$pron$tail $numer";

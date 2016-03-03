@@ -1293,6 +1293,7 @@ asgair_nm	0	0	0
 asgall_nm	0	0	0
 asgnadh_nm	0	0	0
 a-sin_adv	0	0	an-sin_adv
+Asiria_nf	0	0	0
 aslaich_v	0	0	0
 as-mhalairt_nf	as-mhalairt	1	às-mhalairt_nf
 as-mhalairt_v	as-mhalairt_nf	0	às-mhalairt_v
@@ -1332,6 +1333,7 @@ athach_nm	0	0	0
 ath-ainmeachadh_nm	0	1	0
 athair_nm	athar	athraichean	0
 Athair_nm	Athar	Athraichean	0
+athair1_nm	athar	aithrichean	athair_nm
 athair-cèile_nm	athar-cèile	athraichean-cèile	0
 athaireachd_nf	0	0	0
 athair-thalmhainn_nf	athair-thalmhainn	1	0
@@ -4074,6 +4076,7 @@ co-fhulangas_nm	0	1	0
 cofhurtachd_nf	0	0	0
 cofhurtaich_v	0	0	0
 cofhurtail_a	0	0	0
+cog_v	0	0	0
 cogach_a	0	0	0
 cogadh_nm	0	0	0
 Cogadh_nm	0	0	0
@@ -4143,6 +4146,7 @@ coimeasg_v	0	0	coimeasgaich_v
 coimeasgachadh_nm	0	1	0
 coimeasgaich_v	0	0	0
 coimeirsealta_a	0	0	0
+coimhcheangal_nm	0	coimhcheanglaichean	co-cheangal_nm
 Coimhde_nm	0	0	0
 coimheach_a	0	0	0
 coimhead_nm	coimhid	1	0
@@ -4944,6 +4948,7 @@ cudthromach_a	0	0	0
 cudthromachd_nf	0	0	0
 cudtromach_a	0	0	cudthromach_a
 cù-eunaidh_nm	coin-eunaidh	coin-eunaidh	0
+cugalach_a	0	0	cugallach_a
 cugallach_a	0	0	0
 cuibheall_nf	0	0	cuibhle_nf
 cuibheas_nm	0	1	0
@@ -4964,6 +4969,7 @@ cuibhreann_nm	0	0	0
 cuibhrich_v	0	0	0
 cuibhrig_nm	0	0	0
 cuibhrig_v	0	0	0
+cuibhrionn_nm	0	0	cuibhreann_nm
 cuid_nf	codach	codaichean	0
 cuid1_nf	codach	0	cuid_nf
 cuide_adv	0	0	0
@@ -5353,6 +5359,7 @@ daorach_nf	0	1	0
 daoranach_nm	0	0	0
 daorsa_nf	0	0	0
 dar_poss	0	0	0
+d'ar_poss	0	0	dar_poss
 dara_a	0	0	0
 dara_ord	0	0	0
 dàra_ord	0	0	dara_ord
@@ -12664,6 +12671,7 @@ pàigh_v	0	0	0
 paigheadh_nm	0	1	pàigheadh_nm
 pàigheadh_nm	0	1	0
 pàillean_nm	0	0	0
+pàilliun_nm	0	0	pàillean_nm
 paillt_a	0	0	pailt_a
 pailm_nf	0	0	0
 pailt_a	0	0	0
@@ -14217,6 +14225,7 @@ Sàmach_a	0	0	0
 Sàmach_nm	0	0	0
 Samais_nf	Samais	1	Sàmais_nf
 Sàmais_nf	Sàmais	1	0
+Samaria_nf	0	0	0
 Sambia_nm	0	0	0
 samh_nm	0	0	0
 samhach_a	0	0	sàmhach_a
@@ -14630,6 +14639,7 @@ seat_v	0	0	0
 seata_nm	0	seataichean	0
 seatadh_nm	0	0	0
 seatlaig_v	0	0	0
+secel_nf	seceil	0	0
 seic_nf	seic	0	0
 Seic_nf	Seic	1	0
 Seiceach_a	0	0	0
@@ -16505,6 +16515,7 @@ tabhannaich_v	tabhannaich_nf	0	0
 tabhartach_a	0	0	0
 tabhartaiche_nm	0	0	tabhairtiche_nm
 tabhartas_nm	0	0	0
+tabhartas-bìdh_nm	tabhartais-bhìdh	tabhartasan-bìdh	0
 tabhartas-loisgte_nm	tabhartais-loisgte	tabhartasan-loisgte	0
 tablaid_nf	0	0	0
 tac_nf	0	tacannan	0
@@ -17433,6 +17444,7 @@ treasamh_ord	0	0	treas_ord
 treas cuid_nf	treas	treas	0
 treasg_nm	0	1	0
 treas-phàrtaidh_nf	treas-phàrtaidh	0	0
+tréibh_nf	0	0	treubh_nf
 treibhdhireach_a	0	0	0
 treibhdhireas_nm	0	1	0
 trèiceil_nm	trèiceil	1	0

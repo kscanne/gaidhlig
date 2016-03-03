@@ -2834,6 +2834,10 @@ msgstr "ascaill_nf"
 msgid "asgnadh_nm"
 msgstr "buaic_nf"
 
+# OF81: "an Asaír;na hAsaíre"
+msgid "Asiria_nf"
+msgstr "an Aisiria;na hAisiria"
+
 msgid "aslaich_v"
 msgstr "impigh_v"
 
@@ -9603,6 +9607,11 @@ msgstr "sólásaigh_v"
 
 msgid "cofhurtail_a"
 msgstr "compordach_a"
+
+# standalone verb commonly in Bible: "chog e ri Amalec"
+# no good lexical verb in Ir. though...
+msgid "cog_v"
+msgstr "troid_v"
 
 # belligerent, warlike
 msgid "cogach_a"
@@ -33839,6 +33848,9 @@ msgstr "Sámach_nm"
 msgid "Sàmais_nf"
 msgstr "Sáimis_nf"
 
+msgid "Samaria_nf"
+msgstr "an tSamáir;na Samáire"
+
 msgid "Sambia_nm"
 msgstr "an tSaimbia;na Saimbia"
 
@@ -34878,6 +34890,9 @@ msgstr "socrú_nm"
 # settle; Ir. lonnaigh looks good for corpus examples
 msgid "seatlaig_v"
 msgstr "lonnaigh_v"
+
+msgid "secel_nf"
+msgstr "seiceal_nm"
 
 msgid "seic_nf"
 msgstr "seic_nm"
@@ -39912,6 +39927,9 @@ msgstr "tabharthach_a"
 msgid "tabhartas_nm"
 msgstr "deontas_nm"
 
+msgid "tabhartas-bìdh_nm"
+msgstr "abhlann_nf"
+
 msgid "tabhartas-loisgte_nm"
 msgstr "íobairt loiscthe;íobairt dhóite"
 
@@ -42972,8 +42990,9 @@ msgstr "titimeach_a"
 msgid "tuiteamas_nm"
 msgstr "teagmhas_nm;timpiste_nf"
 
+# fem in Ir.
 msgid "tulach_nm"
-msgstr "tulach_nm"
+msgstr "tulach_nf"
 
 # not in corpus at all; "pipkin, posnet"
 msgid "tulan_nm"

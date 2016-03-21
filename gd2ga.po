@@ -835,6 +835,9 @@ msgstr "aingeal_nm"
 msgid "aingidh_a"
 msgstr "olc_a;urchóideach_a;gráiniúil_a"
 
+msgid "aingidh_nm"
+msgstr "ciontach_nm;peacach_nm;urchóideach_nm"
+
 msgid "aingidheachd_nf"
 msgstr "olcas_nm"
 
@@ -3202,6 +3205,9 @@ msgstr "bábhún_nm"
 
 msgid "babhstair_nm"
 msgstr "babhstar_nm"
+
+msgid "Babilon_nf"
+msgstr "an Bhablóin;na Bablóine"
 
 msgid "bac_nm"
 msgstr "bac_nm"
@@ -23722,6 +23728,9 @@ msgstr "leatrom_nm"
 msgid "leatromach_a"
 msgstr "leatromach_a;torrach_a"
 
+msgid "Lebanon_nf"
+msgstr "an Liobáin;na Liobáine"
+
 msgid "led_poss"
 msgstr "le do"
 
@@ -27937,6 +27946,7 @@ msgid "nam_art"
 msgstr "na_art"
 
 # "if" before conditional; verbs starting in b,f,m,p, e.g. nam biodh=dá mbeadh
+# na'm is an alt but just add that to pairs-local to bypass disambig
 msgid "nam_conj"
 msgstr "dá"
 

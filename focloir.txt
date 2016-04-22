@@ -9413,6 +9413,7 @@ innt'_pronm	inntese	0	innte_pronm
 innte_pronm	inntese	0	0
 innteanach_a	0	0	inntinneach_a
 innteannach_a	0	0	inntinneach_a
+innteart_nf	innteirte	0	0
 inntineach_a	0	0	inntinneach_a
 inntinn_nf	0	0	0
 inntinneach_a	0	0	0

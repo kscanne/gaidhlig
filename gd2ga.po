@@ -22107,6 +22107,9 @@ msgstr "Indiach_nm"
 msgid "innte_pronm"
 msgstr "inti_pronm"
 
+msgid "innteart_nf"
+msgstr "iontráil_nf"
+
 msgid "inntinn_nf"
 msgstr "intinn_nf"
 

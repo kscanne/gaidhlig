@@ -14778,6 +14778,9 @@ msgstr "donnlus_nm"
 msgid "donn-òir_a"
 msgstr "órdhonn_a"
 
+msgid "donn-rùsg_nm"
+msgstr "donnroisc_nm"
+
 msgid "dor_poss"
 msgstr "dár_poss"
 
@@ -18265,6 +18268,9 @@ msgstr "fíneáltacht_nf"
 msgid "fiodh_nm"
 msgstr "adhmad_nm"
 
+msgid "fiodhag_nf"
+msgstr "donnroisc_nm"
+
 msgid "fiodh-snodhaich_nm"
 msgstr "sú-adhmad_nm"
 
@@ -21160,8 +21166,9 @@ msgstr "greamaire_nm"
 msgid "grèim-mionaich_nm"
 msgstr "aipindicíteas_nm"
 
+# tréimhse better in plural
 msgid "greis_nf"
-msgstr "tamall_nm"
+msgstr "tamall_nm;tréimhse_nf"
 
 msgid "grèis_nf"
 msgstr "bróidnéireacht_nf;gréas_nm"
@@ -27677,6 +27684,10 @@ msgstr "scian mhara"
 
 msgid "muir-thìreach_nm"
 msgstr "amfaibiach_nm;débheathach_nm"
+
+# cowslip (primula veris)
+msgid "mùisean_nm"
+msgstr "bainne bó bleacht"
 
 # 1. inverse (math) - all parallel corpus egs
 msgid "mùiteach_a"
@@ -42266,9 +42277,6 @@ msgstr "tréiléar_nm;leantóir_nm"
 msgid "trèine_nf"
 msgstr "tréine_nf"
 
-msgid "treis_nf"
-msgstr "tamall_nm"
-
 msgid "treise_nf"
 msgstr "treise_nf"
 
@@ -42299,6 +42307,9 @@ msgstr "treibh_nf"
 # "deserving of membership in the tribe", i.e. "brave, valorous"
 msgid "treubhach_a"
 msgstr "treibheach_a;calma_a;laochta_a"
+
+msgid "treubhachas_nm"
+msgstr "treibheachas_nm"
 
 # "tribune", but note this also coincides with plural "treubh_nf" above
 msgid "treubhan_nm"

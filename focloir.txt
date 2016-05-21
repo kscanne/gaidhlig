@@ -5911,6 +5911,7 @@ diadhachd_nf	0	0	0
 diadhaich_v	0	0	0
 diadhaidh_a	0	0	0
 diadhaire_nm	0	diadhairean	0
+diadhaireachd_nf	0	0	diadhachd_nf
 diagram_nm	0	0	0
 Diamairt_nm	Diamairt	1	Dimàirt_nm
 Diameuga_nf	0	0	Iameuga_nf
@@ -6288,6 +6289,7 @@ donnalaich_nf	donnalaich	1	0
 Donnchadh nan sùl mòr_nm	0	0	0
 donn-lus_nm	0	0	0
 donn-òir_a	donn-òir	0	0
+donn-rùsg_nm	donn-rùsg	donn-rùisg	0
 dor_poss	0	0	0
 dòrainn_nf	0	0	0
 dòrainneach_a	0	0	0
@@ -7792,6 +7794,7 @@ fineal_nm	0	1	0
 fìnealta_a	0	0	0
 fìnealtachd_nf	0	0	0
 fiodh_nm	fiodha	1	0
+fiodhag_nf	fiodhaige	0	0
 fiodh-snodhaich_nm	fiodha-snodhaich	1	0
 fiogair_nm	0	0	fioghair_nm
 fìogais_nf	0	0	fìge_nf
@@ -9651,6 +9654,8 @@ Ioràc_nf	Ioràc	1	0
 Ioràcach_a	0	0	0
 Ioràcach_nm	0	0	0
 Ioràn_nm	0	1	Iaran_nm
+ìoranas_nm	0	1	ìoronas_nm
+ìorantas_nm	0	1	ìoronas_nm
 Iorc_nm	Iorc	1	0
 Iordan_nm	0	1	Iòrdan_nm
 Iòrdan_nm	0	1	0
@@ -11667,6 +11672,7 @@ mùirneach_a	0	0	0
 mùirnin_v	0	0	0
 muirsgian_nf	muirsgein	0	0
 muir-thìreach_nm	0	0	0
+mùisean_nm	0	0	0
 mùiteach_a	0	0	0
 mulad_nm	0	1	0
 muladach_a	0	0	0
@@ -15900,6 +15906,8 @@ Spàinnt_nf	Spàinnt	1	Spàinn_nf
 Spàinnteach_a	0	0	Spàinneach_a
 Spàinnteach_nm	0	0	Spàinneach_nm
 Spàinntis_nf	0	1	Spàinnis_nf
+Spàinteach_a	0	0	Spàinneach_a
+Spàinteach_nm	0	0	Spàinneach_nm
 spàin-teatha_nf	0	spàinean-teatha	0
 spairiseach_a	0	0	0
 spairisteach_a	0	0	spairiseach_a
@@ -17489,7 +17497,7 @@ trèigsinn_nf	trèigsinn	1	0
 trèigte_a	0	0	0
 trèilear_nm	0	0	0
 trèine_nf	0	0	0
-treis_nf	0	0	0
+treis_nf	0	0	greis_nf
 treise_nf	0	0	0
 treiseag_nf	treiseag	0	0
 trèith_nf	0	0	0
@@ -17500,6 +17508,7 @@ treòraich_v	0	0	0
 treòraiche_nm	0	0	0
 treubh_nf	treubha	0	0
 treubhach_a	0	0	0
+treubhachas_nm	0	1	0
 treubhail_a	0	0	treubhach_a
 treubhan_nm	0	0	0
 treud_nm	treuda	0	0

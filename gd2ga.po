@@ -3585,6 +3585,9 @@ msgstr "cispheil_nf"
 msgid "ball-bhòilidh_nm"
 msgstr "eitpheil_nf"
 
+msgid "ball-chrith_nf"
+msgstr "ballchrith_nm"
+
 msgid "ball-coise_nm"
 msgstr "sacar_nm"
 
@@ -7050,6 +7053,12 @@ msgstr "calcaire_nm"
 msgid "calculas_nm"
 msgstr "calcalas_nm"
 
+msgid "Caldeach_a"
+msgstr "Caildéach_a"
+
+msgid "Caldeach_nm"
+msgstr "Caildéach_nm"
+
 msgid "calg_nm"
 msgstr "colg_nm"
 
@@ -8291,6 +8300,9 @@ msgstr "ceobhrán_nm"
 
 msgid "ceòthranach_a"
 msgstr "ceobhránach_a"
+
+msgid "cerub_nm"
+msgstr "ceiribín_nm"
 
 msgid "ceud_nm"
 msgstr "céad_nm"
@@ -12445,7 +12457,7 @@ msgid "cùramach_a"
 msgstr "aireach_a;cúramach_a"
 
 msgid "cùram-cloinne_nm"
-msgstr "cùram clainne"
+msgstr "cúram clainne"
 
 msgid "cur an dreuchd_nm"
 msgstr "ceapadh_nm"
@@ -15069,6 +15081,10 @@ msgstr "dochtúir_nm"
 msgid "dotaireachd_nf"
 msgstr "dochtúireacht_nf"
 
+# (spinning) top
+msgid "dòtaman_nm"
+msgstr "caiseal_nm"
+
 msgid "dòth_v"
 msgstr "dóigh_v;loisc_v"
 
@@ -15751,8 +15767,9 @@ msgid "dùr_a"
 msgstr "dúr_a"
 
 # deagh + ~ handled in multi
+# plural common in corpus == beannachtaí
 msgid "dùrachd_nf"
-msgstr "dúthracht_nf"
+msgstr "dúthracht_nf;beannacht_nf"
 
 msgid "dùrachdach_a"
 msgstr "dúthrachtach_a;cneasta_a"
@@ -16333,6 +16350,9 @@ msgstr "easpa_nf"
 
 msgid "easbhaidheach_a"
 msgstr "lochtach_a;easpach_a"
+
+msgid "eascaraid_nm"
+msgstr "namhaid_nm"
 
 msgid "easchruthach_a"
 msgstr "teibí_a"
@@ -18446,7 +18466,7 @@ msgstr "filíocht_nf"
 msgid "Filipineach_a"
 msgstr "Filipíneach_a"
 
-# Sc. "fold"
+# Sc. "fold"; cf "till_v"
 msgid "fill_v"
 msgstr "fill_v"
 
@@ -20385,6 +20405,9 @@ msgstr "géaruillinn_nf"
 
 msgid "gheat_nf"
 msgstr "luamh_nm"
+
+msgid "ghetto_nm"
+msgstr "geiteo_nm"
 
 # in phrase "glè ghlè"?
 msgid "ghlè_adv"
@@ -32501,6 +32524,10 @@ msgstr "salach_a"
 msgid "rapadh_nm"
 msgstr "rapáil_nf"
 
+# see FGB
+msgid "ràpal_nm"
+msgstr "raiple"
+
 msgid "ràsair_nm"
 msgstr "rásúr_nm"
 
@@ -34526,6 +34553,9 @@ msgstr "sásar_nm"
 
 msgid "sàstachd_nf"
 msgstr "sástacht_nf"
+
+msgid "Sàtan_nm"
+msgstr "Sátan_nm"
 
 msgid "sàth_v"
 msgstr "sáigh_v"
@@ -37295,7 +37325,7 @@ msgid "siùsan_nm"
 msgstr "siúrsán_nm"
 
 msgid "siuthad_excl"
-msgstr "ar aghaidh leat"
+msgstr "ar aghaidh leat;lean ort"
 
 # sloke (seaweed)
 msgid "slabhacan_nm"
@@ -37644,7 +37674,7 @@ msgid "sloinntearachd_nf"
 msgstr "sloinnteoireacht_nf"
 
 msgid "sluagh_nm"
-msgstr "slua_nm;muintir_nf"
+msgstr "slua_nm;muintir_nf;pobal_nm"
 
 msgid "sluagh-ghairm_nf"
 msgstr "sluaghairm_nf"
@@ -41714,6 +41744,7 @@ msgstr "caitheamh_nm"
 msgid "tilgte_a"
 msgstr "teilgthe_a"
 
+# alt. pill_v
 msgid "till_v"
 msgstr "fill_v"
 

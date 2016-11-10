@@ -22755,7 +22755,7 @@ msgstr "iothlainn_nf"
 
 # not in dicts or corpus. Wiktionary.
 msgid "iòga_nm"
-msgstr "geoga_nm"
+msgstr "ióga_nm"
 
 msgid "iogart_nm"
 msgstr "iógart_nm"

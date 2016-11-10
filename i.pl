@@ -521,6 +521,7 @@ sub gramadoir_output {
 			push @$ret, prefixd($plcode)."$tail $plnum";
 			push @$ret, prefixb($plcode)."$tail $plnum";
 			push @$ret, prefixh($plcode)."$tail $plnum";
+			$plcode = 'xx'; $plnum = 4; $genplnum = 4; $tail = ''; # KILL GPL 2016-10-18
 			push @$ret, "$plcode$tail $plnum";
 			push @$ret, "$plcode$tail $genplnum";
 			push @$ret, lenite($plcode)."$tail $genplnum";

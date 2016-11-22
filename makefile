@@ -208,7 +208,7 @@ fullstem-nomutate-gd.txt : fullstem-gd.txt
 	cat fullstem-gd.txt | egrep -v ">.[h']" | egrep -v ">[th]-" > $@
 
 verbalnouns-gd.txt: fullstem-nomutate-gd.txt
-	(echo "tighinn"; egrep '^<N.* <V' fullstem-nomutate-gd.txt | egrep -v 'gnt="y"' | egrep -v '>n-' | sed 's/^<[^>]*>//' | sed 's/<.*//') | sort -u > $@
+	(echo "tighinn"; echo "toirt"; egrep '^<N.* <V' fullstem-nomutate-gd.txt | egrep -v 'gnt="y"' | egrep -v '>n-' | sed 's/^<[^>]*>//' | sed 's/<.*//') | sort -u > $@
 
 speling-ga.txt : fullstem-nomutate.txt
 	cat fullstem-nomutate.txt | perl tospeling.pl > $@

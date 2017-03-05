@@ -139,6 +139,7 @@ acras_nm	0	1	0
 actadh_nm	0	1	0
 actair_nm	0	0	0
 actaireachd_nf	0	0	0
+actanach_nm	0	0	0
 actar_nm	0	0	actair_nm
 acus_conj	0	0	agus_conj
 ad_nf	aide	0	0
@@ -282,6 +283,7 @@ aid_pn	0	0	iad_pn
 aideachadh_nm	0	0	0
 aidhear_nm	0	1	adhar_nm
 àidhear_nm	0	1	adhar_nm
+aidheon_nm	0	0	idheon_nm
 aidhne_nf	0	aidhnean	0
 aidich_v	0	0	0
 aidiutanach_nm	0	0	0
@@ -706,6 +708,7 @@ almain_nf	almain	1	alùmanum_nm
 alman_nm	0	1	alùmanum_nm
 almanac_nf	0	0	0
 almorfachd_nf	0	0	alamorfachd_nf
+aloidh_nf	0	0	0
 alt_nm	uilt	0	0
 Alt_nm	Uilt	0	0
 alt1_nm	uilt	altaibh	alt_nm
@@ -845,7 +848,8 @@ ana-caith_v	ana-caitheamh_nf	0	0
 ana-caitheamh_nf	0	1	0
 ana-caitheanaich_nf	ana-caitheanaich	1	0
 ana-caithteach_a	0	0	0
-ana-ceartas_nm	0	1	0
+ana-ceartas_nm	0	0	0
+ana-cheartas_nm	0	0	ana-ceartas_nm
 anacladh_nm	0	1	0
 ana-cleachdadh_nm	0	1	0
 anacothrom_nm	anacothruim	1	0
@@ -1240,6 +1244,7 @@ ard_a	0	0	àrd_a
 àrdaich_v	0	0	0
 àrdaichear_nm	0	0	0
 àrdaichte_a	0	0	0
+àrd-amasach_a	0	0	0
 àrdan_nm	0	1	0
 àrdanach_a	0	0	0
 àrd-bhaile_nm	0	àrd-bhailtean	0
@@ -1269,6 +1274,7 @@ Ard-Chomhairle_nf	0	0	Àrd-Chomhairle_nf
 àrd-ìre_nm	0	0	0
 àrd-mhanaidsear_nm	0	0	0
 Àrd-Mhanaidsear_nm	0	0	0
+àrd-mhiannach_a	0	0	0
 àrd-mholadh_nm	0	1	0
 àrd-neach-sgrùdaidh_nm	àrd-neach-sgrùdaidh	1	0
 àrd-oifigear_nm	0	0	0
@@ -1287,6 +1293,7 @@ ard-shagart_nm	0	0	àrd-shagart_nm
 ard-sheanadh_nm	0	0	àrd-sheanadh_nm
 àrd-sheanadh_nm	0	0	0
 àrd-sheanalair_nm	0	0	0
+àrd-stiùiriche_nm	0	0	0
 àrd-thìr_nf	0	0	àrd-tìr_nf
 àrd-tìr_nf	0	0	0
 ard-urlar_nm	0	ard-urlair	àrd-ùrlar_nm
@@ -1429,6 +1436,7 @@ a-suas_adv	0	0	suas_adv
 at_nm	at	0	0
 at_v	0	0	0
 ataireachd_nf	0	0	0
+atam_nm	0	0	dadam_nm
 atamach_a	0	0	0
 at-cuisle_nm	0	at-cuislean	0
 ath_aindec	0	0	0
@@ -1810,7 +1818,7 @@ baraisd_nm	0	1	barraist_nm
 baraist_nm	0	1	barraist_nm
 baralach_a	0	0	0
 baran_nm	0	barain	0
-baranachd_nf	0	0	0
+baranachd_nf	0	baranachdan	0
 barantachd_nf	0	0	0
 barantaich_v	0	0	0
 barantas_nm	0	0	0
@@ -1834,6 +1842,7 @@ barganachadh_nm	0	1	0
 barganaich_v	0	0	0
 barganaiche_nm	0	0	0
 bàr-inneil_nm	bàr-inneil	bàraichean-inneil	0
+barpa_nm	0	barpaichean	0
 barr_nm	barra	0	bàrr_nm
 bàrr_nm	barra	barran	0
 barrach_nm	0	1	0
@@ -3396,6 +3405,8 @@ carachd_nf	0	0	0
 carachtrachd_nf	0	0	0
 caractair_nm	0	0	caractar_nm
 caractar_nm	0	0	0
+caractarachd_nf	0	0	carachtrachd_nf
+caractrachd_nf	0	0	carachtrachd_nf
 caradh_nm	0	1	càradh_nm
 càradh_nm	0	1	0
 carago_nm	0	0	cargu_nm
@@ -3513,6 +3524,7 @@ cathadh_nm	0	1	0
 cathair_nf	cathrach	cathraichean	0
 Cathair_nf	Cathrach	Cathraichean	0
 cathair-bhaile_nf	cathrach-baile	cathraichean-baile	0
+cathair-chuibhle_nf	cathrach-cuibhle	cathraichean-cuibhle	0
 cathaireach_a	0	0	cathaireil_a
 cathair-eaglais_nf	0	0	0
 cathaireil_a	0	0	0
@@ -3609,6 +3621,7 @@ ceann-feadhna_nm	cinn-fheadhna	cinn-fheadhna	0
 ceann-fhacal_nm	0	ceann-fhaclan	0
 ceann-fheadhna_nm	cinn-fheadhna	cinn-fheadhna	ceann-feadhna_nm
 ceann-fine_nm	cinn-fhine	cinn-fhine	0
+ceann-fionn_nm	cinn-fhinn	cinn-fhionna	0
 ceann-gnothaich_nm	cinn-gnothaich	cinn-gnothaich	0
 ceann-là_nm	cinn-là	cinn-là	0
 ceann-làidir_a	0	0	0
@@ -3968,10 +3981,12 @@ clach-cuimhneachan_nf	cloiche-cuimhneachan	clachan-cuimhneachan	clach-chuimhne_n
 clach-gainmhich_nf	cloiche-gainmhiche	clachan-gainmhiche	clach-ghainmhich_nf
 clach-ghainmhich_nf	cloiche-gainmhich	clachan-gainmhich	0
 clach-ghràbhalaiche_nm	0	0	0
+clach-ghràin_nf	cloiche-gràin	clachan-gràin	0
 clach luachmhor_nf	cloiche	clachan	0
 clach-mheallain_nf	clach-mheallain	clachan-meallain	0
 clach-mhìle_nf	cloiche-mhìle	clachan-mìle	0
 clach-mhuilinn_nf	cloiche-muilinne	clachan-muilinn	0
+clach-uaighe_nf	cloiche-uaighe	clachan-uaighe	0
 cladach_nm	0	cladaichean	0
 clàdan_nm	0	0	0
 cladh_nm	cladha	1	0
@@ -4278,6 +4293,7 @@ co-amail_a	0	0	0
 co-aois_nm	0	0	comhaois_nm
 co-aoiseach_a	0	0	comhaoiseach_a
 co-aonaich_v	0	0	0
+co-aonta_nm	co-aontaidh	co-aontaidhean	0
 co-aontaich_v	0	0	0
 co-aontar_nm	0	0	0
 cobhair_nf	còbhrach	1	0
@@ -4457,6 +4473,7 @@ Coimhde_nm	0	0	0
 coimheach_a	0	0	0
 coimhead_nm	coimhid	1	0
 coimhead_v	0	0	0
+coimhearsnacdh_nf	coimhearsnacdh	1	coimhearsnachd_nf
 coimhearsnach_nm	0	0	0
 coimhearsnachd_nf	0	coimhearsnachdan	0
 coimhearsneachd_nf	0	coimhearsneachdan	coimhearsnachd_nf
@@ -4584,6 +4601,7 @@ coitich_v	0	0	0
 col_nm	cola	1	0
 co-labhairt_nf	0	0	0
 co-là-bhreith_nm	co-là-bhreith	co-làithean-breith	co-là-breith_nm
+co-là breith_nm	0	co-làithean breith	co-là-breith_nm
 co-là-breith_nm	co-là-breith	co-làithean-breith	0
 colach_a	0	0	0
 col'ach_a	0	0	coltach_a
@@ -4920,6 +4938,7 @@ co-thabhartaiche_nm	0	0	0
 cothachadh_nm	0	1	0
 co-thaiceil_a	0	0	0
 cothaich_v	0	0	0
+co-thàthadh_nm	0	0	0
 co-theacs_nm	co-theacs	co-theacsaichean	0
 co-theacs1_nm	co-theacs	0	co-theacs_nm
 co-theacsa_nm	0	co-theacsaichean	co-theacs_nm
@@ -5109,9 +5128,12 @@ crios-mheadhain_nm	criosa-mheadhain	criosan-meadhain	0
 criospag_nf	0	0	0
 Criost_nm	Criost	1	Crìosd_nm
 Crìost_nm	Crìost	1	Crìosd_nm
+Crìosta_nm	0	0	Crìosd_nm
 crìostachd_nf	0	0	0
+Crìostaidh_nm	0	0	Crìosdaidh_nm
 criostal_nm	0	0	0
 criostalach_a	0	0	0
+Crìostuidh_nm	0	0	Crìosdaidh_nm
 criothnachadh_nm	0	0	0
 criothnaich_v	0	0	0
 cripleach_nm	0	0	crioplach_nm
@@ -5119,6 +5141,7 @@ crith_nf	0	0	0
 crith_v	crith_nf	0	0
 critheanach_a	0	0	0
 critheann_nm	0	1	0
+crìtheol_nm	0	0	0
 crith-talmhainn_nf	crith-talmhainn	crithean-talmhainn	crith-thalmhainn_nf
 crith-thalmhain_nf	crith-thalmhain	crithean-talmhain	crith-thalmhainn_nf
 crith-thalmhainn_nf	crith-talmhainn	crithean-talmhainn	0
@@ -5996,6 +6019,7 @@ dealanachd_nf	0	0	0
 dealanaich_v	0	0	0
 dealanair_nm	0	0	0
 dealan-dè_nm	dealain-dè	dealain-dè	0
+dealan-uisge_nm	dealain-uisge	1	0
 dealas_nm	0	0	0
 dealasach_a	0	0	0
 dealasachd_nf	0	0	0
@@ -6268,6 +6292,7 @@ deusanta_a	0	0	0
 dha_poss	0	0	0
 dha_prep	0	0	do_prep
 dha_pronm	dhasan	0	dhà_pronm
+dh'a_poss	0	0	dha_poss
 dhà_card	0	0	0
 dhà_pronm	dhàsan	0	0
 dhà1_pronm	dhà-san	0	dhà_pronm
@@ -6372,6 +6397,7 @@ dian_a	dèine	0	0
 dianamh_nm	0	1	dèanamh_nm
 dian-amharc_nm	0	0	0
 dian-ruith_nf	0	0	0
+dian-thograch_a	0	0	0
 diardaoin_nm	diardaoin	1	Diardaoin_nm
 Diardaoin_nm	Diardaoin	1	0
 DiarDaoin_nm	DiarDaoin	1	Diardaoin_nm
@@ -6435,6 +6461,7 @@ dìleadh_nm	0	1	0
 dileag_nf	0	0	0
 dileas_a	dilse	0	dìleas_a
 dìleas_a	dìlse	0	0
+dìlinn_nf	0	1	dìle_nf
 dilleachdan_nm	0	0	dìlleachdan_nm
 dìlleachdan_nm	0	0	0
 dìlleachdanachd_nf	0	0	0
@@ -6589,6 +6616,7 @@ diùbh_pronm	diùbhsan	0	dhiubh_pronm
 diuc_nf	diuca	1	0
 diùc_nm	diùc	0	0
 diùca_nm	0	0	diùc_nm
+diùcachd_nf	0	0	0
 diùdo_nm	0	0	0
 diùid_a	0	0	0
 diùlanach_nm	0	0	0
@@ -6597,6 +6625,8 @@ diùlt_v	0	0	0
 diultach_a	0	0	diùltach_a
 diùltach_a	0	0	0
 diùltadh_nm	0	0	0
+diumbach_a	0	0	diombach_a
+diùmbach_a	0	0	diombach_a
 Diùrach_a	0	0	0
 Diùrach_nm	0	0	0
 diùraidh_nm	diùraidh	0	0
@@ -6626,6 +6656,7 @@ dlùthachd_nf	0	0	0
 dlùthadh_nm	0	1	0
 dlùthadh1_nm	0	1	dlùthachadh_nm
 dlùthaich_v	0	0	0
+dlùth-chàirdeach_a	0	0	0
 dlùth-chàirdeas_nm	0	0	0
 dlùth-cheangail_v	dlùth-cheangladh_nm	0	0
 dlùth-cheangal_nm	0	dlùth-cheanglaichean	0
@@ -6737,6 +6768,7 @@ dòlas_nm	0	1	0
 dol-às_nm	dol-às	1	0
 dòlasach_a	0	0	0
 dol-a-steach_nm	dol-a-steach	1	0
+dol-fodha_nm	0	0	0
 dol-seachad_nm	dol-seachad	1	0
 do-lùbachd_nf	0	0	0
 do-lùbaidh_a	0	0	0
@@ -6824,6 +6856,7 @@ dothadh_nm	0	1	dòthadh_nm
 dòthadh_nm	0	1	0
 do-thomhaiste_a	0	0	0
 dothte_a	0	0	0
+do-thuigsinn_a	0	0	0
 dràbag_nf	0	0	0
 drabasda_a	0	0	drabasta_a
 drabasta_a	0	0	0
@@ -6840,6 +6873,7 @@ dràibh_v	0	0	dràibhig_v
 draibheadh_nm	0	1	dràibheadh_nm
 dràibheadh_nm	0	1	0
 dràibhear_nm	0	0	0
+Draibhideach_a	0	0	0
 dràibhig_v	0	0	0
 dram_nm	dram	dramaichean	drama_nm
 dràm_nm	0	0	drama_nm
@@ -7039,6 +7073,7 @@ dubhach_a	0	0	0
 dubhachas_nm	0	1	0
 dubhailc_nf	0	0	0
 dubhan_nm	0	dubhain	0
+dubh-chàineadh_nm	0	1	0
 dubh-dhonn_a	dubh-dhuinne	0	0
 dubh-eun_nm	dubh-eòin	dubh-eòin	0
 dubhfhacal_nm	0	dubhfhaclan	dubh-fhacal_nm
@@ -7452,6 +7487,7 @@ Eigeach_nm	0	0	0
 èigeantach_a	0	0	0
 èigeantas_nm	0	1	0
 eigeil_a	0	0	0
+eigeòlas_nm	0	0	eag-eòlas_nm
 eigh_nf	0	1	0
 éigh_v	éigheach_nf	0	èigh_v
 èigh_v	èigheach_nf	0	0
@@ -7495,6 +7531,7 @@ eileagtronaigeach_a	0	0	0
 eileamaid_nf	eileamaid	0	0
 eilean_nm	0	0	0
 Eilean_nm	0	0	0
+eilean1_nm	0	eileannan	eilean_nm
 eileanach_a	0	0	0
 eileanach_nm	0	0	0
 eileatrom_nf	0	0	0
@@ -7714,6 +7751,7 @@ fabht_nm	0	0	0
 facal_nm	0	faclan	0
 facal-còda_nm	facail-chòda	faclan-còda	0
 facal-faire_nm	facail-faire	faclan-faire	0
+facal-fhreumhachd_nf	0	0	0
 facal-luirg_nm	facail-luirg	faclan-luirg	0
 facal-suaicheantais_nm	facail-suaicheantais	facail-suaicheantais	0
 facal-toisich_nm	facail-toisich	faclan-toisich	0
@@ -8121,6 +8159,7 @@ fearas-chuideachd_nm	fearais-chuideachd	1	0
 fearas-feise_nm	fearais-fheise	1	0
 fearas-mhòr_nm	fearais-mhòir	1	0
 fear-bainnse_nm	fir-bainnse	fir-bainnse	0
+fear-bogha_nm	fir-bhogha	fir-bhogha	0
 fear-brèige_nm	fir-bhrèige	fir-bhrèige	0
 fear-bùtha_nm	fir-bùtha	fir-bùtha	0
 fear-cathrach_nm	fir-cathrach	fir-cathrach	0
@@ -8239,6 +8278,7 @@ fèist_nf	0	0	0
 feith_v	feitheamh_nm	0	0
 fèith_nf	0	0	0
 fèitheach_a	0	0	0
+feitheachd_nf	0	0	feitheamh_nm
 feitheamh_nm	feithimh	1	0
 feitheamh1_nm	0	1	feitheamh_nm
 fèithlean_nm	fèithlean	1	0
@@ -8259,6 +8299,7 @@ feòran_nm	0	1	0
 feuch_v	feuchainn_nf	0	0
 feuchain_nf	feuchain	1	feuchainn_nf
 feuchainn_nf	feuchainn	1	0
+feuchdainn_nf	0	1	feuchainn_nf
 feud_v	0	0	faod_v
 feudail_nf	feudalach	0	eudail_nf
 feum_nf	feuma	feumannan	0
@@ -8448,6 +8489,7 @@ fìor-uisge_nm	0	fìor-uisgeachan	0
 fios_nm	fiosa	0	0
 fìos_nm	fìosa	0	fios_nm
 fiosachd_nf	0	0	0
+fiosagaiche_nm	0	0	fiosaigiche_nm
 fiosaiche_nm	0	0	0
 fiosaics_nf	fiosaics	1	fiosaig_nf
 fiosaig_nf	0	1	0
@@ -8772,6 +8814,7 @@ freumh_nm	freumha	0	0
 freumh1_nm	freumha	freumhaichean	freumh_nm
 freumhaich_v	0	0	0
 freumhail_a	0	0	0
+freumh-fhaclachd_nf	0	0	0
 frids_nm	frids	fridsichean	0
 frionasach_a	0	0	0
 Frìoslann_nf	Frìoslainne	1	0
@@ -8954,9 +8997,10 @@ gail_v	gal_nm	0	guil_v
 gailbheach_a	0	0	0
 gailearaidh_nm	gailearaidh	0	0
 gaileis_nf	0	0	0
+gailium_nm	gailium	1	0
 gailleann_nf	0	0	0
 gaillionn_nf	0	0	gailleann_nf
-gaillium_nm	gaillium	1	0
+gaillium_nm	gaillium	1	gailium_nm
 Gaimbia_nf	0	0	0
 Gaimbitheach_a	0	0	0
 Gaimbitheach_nm	0	0	0
@@ -9712,6 +9756,7 @@ grèiseadh_nm	0	1	0
 greiseag_nf	0	0	0
 greis-ghnìomhachais_nf	greise-ghnìomhachais	greisean-gnìomhachais	0
 greis-gnìomhachais_nf	greise-gnìomhachais	greisean-gnìomhachais	greis-ghnìomhachais_nf
+greis-obrach_nf	greise-obrach	greisean-obrach	0
 Grenada_nf	0	0	Greanàda_nf
 Greug_nf	Greug	1	0
 Greugach_a	0	0	0
@@ -9827,6 +9872,7 @@ gu bitheanta_adv	0	0	0
 gu bràth_adv	0	0	0
 gud_poss	0	0	0
 gu deimhinne_adv	0	0	0
+gu dìlinn_adv	0	0	0
 guga_nm	0	gugachan	0
 guga1_nm	0	gugaichean	guga_nm
 guidh_v	guidhe_nf	0	0
@@ -9940,6 +9986,7 @@ iad_pn	0	0	0
 iadh_v	0	0	iath_v
 iadhaire_nm	0	iadhairean	iathaire_nm
 iadh-shlat_nf	0	0	iath-shlat_nf
+iadhtag_nf	0	0	0
 iadsan_pn	0	0	0
 iad-san_pn	0	0	iadsan_pn
 Iaimeuca_nf	0	0	Iameuga_nf
@@ -10030,6 +10077,7 @@ iath-shlat_nf	0	0	0
 iceach_a	0	0	0
 ideolach_a	0	0	ideòlach_a
 ideòlach_a	0	0	0
+idheon_nm	0	idheonaichean	0
 idir_adv	0	0	0
 idrisgeach_a	0	0	0
 ifrinn_nf	0	0	0
@@ -10277,6 +10325,7 @@ iomlanachd_nf	0	0	0
 iomlanaich_v	0	0	0
 iom-leabhar_nm	0	iom-leabhraichean	0
 iomnaidh_nf	iomnaidh	1	0
+iom-obrachadh_nm	0	0	iom-oibreachadh_nm
 iom-oibreachadh_nm	0	1	0
 iompachadh_nm	0	0	0
 iompaich_v	0	0	0
@@ -10421,6 +10470,7 @@ iosal_a	isle	0	ìosal_a
 Iosarail_nf	Iosarail	1	Israel_nf
 Iosaraileach_a	0	0	Israelach_a
 Iosaraileach_nm	0	0	Israelach_nm
+iosatòp_nm	0	iosatòpaichean	iosotop_nf
 iosban_nm	0	0	isbean_nm
 ìosban_nm	0	0	isbean_nm
 iosgaid_nf	0	0	0
@@ -10505,6 +10555,7 @@ Iùgoslàibhia_nm	0	0	0
 iùil-tharraing_nf	0	0	0
 iùil-tharraingeach_a	0	0	0
 iùl_nm	0	iùilean	0
+Iulianach_a	0	0	0
 iùnais_nf	iùnais	1	aonais_nf
 Iupatar_nm	0	1	0
 iurpais_nf	0	0	0
@@ -10665,6 +10716,7 @@ lannsair_nm	0	0	0
 lannsaireachd_nf	0	0	0
 lanntair_nm	0	0	lainntear_nm
 làn-stad_nm	làn-stad	1	0
+lantanach_nm	0	0	0
 lantanum_nm	lantanum	1	0
 làn-thaic_nf	0	1	0
 lan-thide_a	0	0	làn-thìde_a
@@ -10891,6 +10943,7 @@ leatas_nm	0	0	0
 leath'_pronm	leathase	0	leatha_pronm
 leatha_pronm	leathase	0	0
 leathad_nm	leothaid	leòidean	0
+leathad1_nm	0	0	leathad_nm
 leathan_a	leithne	0	leathann_a
 leathann_a	leithne	0	0
 leathar_nm	0	1	0
@@ -11003,6 +11056,7 @@ ler_poss	0	0	0
 le'r_poss	0	0	ler_poss
 leth_nm	leth	1	0
 leth-aon_nm	0	0	0
+leth-bheatha_nf	0	leth-bheathannan	0
 lethbhreac_nm	lethbhric	lethbhric	0
 leth-bhreac_nm	leth-bhric	0	lethbhreac_nm
 lethbhreac1_nm	lethbhric	0	lethbhreac_nm
@@ -12688,6 +12742,7 @@ nàiseantach_nm	0	0	0
 naiseantachd_nf	0	0	nàiseantachd_nf
 nàiseantachd_nf	0	0	0
 naisg_v	nasgadh_nm	0	0
+naitridean_nm	0	1	nitrigin_nm
 nall_adv	0	0	a-nall_adv
 nam_art	0	0	0
 nam_conj	0	0	0
@@ -12978,6 +13033,7 @@ nearòis_nf	0	1	0
 neart_nm	0	0	0
 neartachadh_nm	0	1	0
 neartaich_v	0	0	0
+neart-gaoithe_nm	neirt-ghaoithe	1	0
 neart-gèile_a	0	0	0
 neartmhor_a	0	0	0
 neas_nm	neasa	0	0
@@ -13200,6 +13256,7 @@ nìon_nm	0	1	nìtheon_nm
 nios_nf	niosa	0	neas_nm
 nìos_adv	0	0	a-nìos_adv
 niosgaid_nf	0	0	neasgaid_nf
+niotraigin_nm	0	1	nitrigin_nm
 niotrat_nm	0	0	0
 Nirribheach_a	0	0	0
 Nirribheach_nm	0	0	0
@@ -13245,6 +13302,8 @@ Normanach_a	0	0	0
 Normanach_nm	0	0	0
 Normandaidh_nf	Normandaidh	1	Nòrmandaidh_nf
 Nòrmandaidh_nf	Nòrmandaidh	1	0
+Nornais_nf	0	1	Nòrnais_nf
+Nòrnais_nf	0	1	0
 norradaich_nf	0	1	0
 norradh_nm	0	1	0
 norrag_nf	0	0	0
@@ -13305,6 +13364,7 @@ obair-ealain_nf	oibre-ealain	oibreachan-ealain	0
 obair-ghrèis_nf	obrach-grèis	1	0
 obair-iarainn_nf	obrach-iarainn	1	0
 obair-làimhe_nf	oibre-làimhe	oibrichean-làimhe	0
+obair-lann_nf	0	0	0
 obair-latha_nf	obrach-latha	1	0
 obair-leasachaidh_nf	obrach-leasachaidh	1	0
 obair-rannsachaidh_nf	obrach-rannsachaidh	1	0
@@ -13375,6 +13435,7 @@ Ogmhìos_nm	Ogmhìosa	1	Ògmhìos_nm
 Òg-mhìos_nm	Òg-mhìosa	1	Ògmhìos_nm
 ogsaid_nf	0	0	0
 ogsaidean_nm	0	1	0
+Ogsatanais_nf	0	1	0
 oibreachadh_nm	0	0	0
 oibrich_v	0	0	0
 oibriche_nm	0	0	0
@@ -13721,6 +13782,7 @@ pàisdeil_a	0	0	pàisteil_a
 paisean_nm	0	0	0
 paisg_v	pasgadh_nm	0	0
 paisgte_a	0	0	0
+pàist'_nm	pàist'	1	pàiste_nm
 pàiste_nm	0	pàistean	0
 pàistealachd_nf	0	0	0
 pàisteil_a	0	0	0
@@ -13772,6 +13834,7 @@ Pàrlamaid_nf	0	0	0
 Pàrlamaid1_nf	Pàrlamaid	0	Pàrlamaid_nf
 pàrlamaideach_a	0	0	0
 paròil_nf	paròil	1	0
+parraist_nm	0	0	paraiste_nm
 parraisteach_a	0	0	0
 parraisteach_nm	0	0	0
 pàrras_nm	0	0	0
@@ -14187,6 +14250,7 @@ post-d_nm	puist-d	puist-d	0
 post-dealain_nm	puist-dealain	puist-dealain	0
 post-dealain1_nm	puist-dealain	puist-dhealain	post-dealain_nm
 post-oifis_nm	puist-oifis	puist-oifis	0
+potasium_nm	0	1	0
 prab_nm	0	0	0
 praban_nm	0	0	0
 prab-shùileach_a	0	0	0
@@ -14365,6 +14429,7 @@ prìosanachd_nf	0	0	0
 prìosanaich_v	0	0	0
 pris_nf	0	0	prìs_nf
 prìs_nf	0	0	0
+prìseal_a	0	0	prìseil_a
 priseil_a	0	0	prìseil_a
 prìseil_a	0	0	0
 prism_nm	prism	1	0
@@ -14452,6 +14517,7 @@ puing_nf	0	0	0
 puingeachadh_nm	0	0	0
 puingeil_a	0	0	pongail_a
 puinnsean_nm	0	0	0
+puinnseanach_a	0	0	puinnseanta_a
 puinnseanaich_v	0	0	0
 puinnseanta_a	0	0	0
 puinse_nm	0	0	0
@@ -14669,6 +14735,7 @@ rèididheachd_nf	0	0	0
 reidio_nm	0	reidiothan	rèidio_nm
 rèidio_nm	0	rèidiothan	0
 rèidio-beò_a	0	0	0
+rèidio-bheò_a	0	0	rèidio-beò_a
 rèidiografaidh_nm	rèidiografaidh	1	0
 rèidium_nm	0	1	0
 rèidius_nm	0	0	0
@@ -14779,6 +14846,7 @@ rìaghladh_nm	0	1	riaghladh_nm
 riaghlaichte_a	0	0	0
 riaghlair_nm	0	0	riaghladair_nm
 riaghlatair_nm	0	0	riaghladair_nm
+riaghlatas_nm	0	0	riaghaltas_nm
 riaghltas_nm	0	0	riaghaltas_nm
 riamh_adv	0	0	a-riamh_adv
 rian_nm	rian	0	0
@@ -14942,6 +15010,7 @@ ro-chraiceann_nm	0	0	for-chraiceann_nm
 ro-chudthromach_a	0	0	0
 rocladh_nm	0	1	0
 rod_poss	0	0	0
+ròd_nm	0	0	rathad_nm
 ròdair_nm	0	0	0
 rodan_nm	0	rodain	radan_nm
 ro-eachdraidh_nf	0	0	0
@@ -15378,6 +15447,7 @@ sanasaich_v	0	0	0
 sanasan_nm	0	sanasain	0
 sanasanaiche_nm	0	0	0
 sanasan-làimh_nm	sanasain-làimh	sanasanan-làimh	0
+sanas-reic_nm	sanais-reic	sanasan-reic	0
 sannt_nm	sannta	1	0
 sanntach_a	0	0	0
 sanntachd_nf	0	0	0
@@ -15437,6 +15507,7 @@ saorthoileach_a	0	0	saor-thoileach_a
 saor-thoileach_a	0	0	0
 saothair_nf	saothrach	1	0
 saothair1_nf	saoithreach	1	saothair_nf
+saothair-chloinne_nf	0	1	0
 saothair-ealain_nf	saothrach-ealain	1	0
 saothar_nf	saothrach	1	saothair_nf
 saothrachadh_nm	0	1	0
@@ -16042,6 +16113,7 @@ sgeith-rionnaig_nm	0	0	0
 sgeul_nm	sgeòil	sgeòil	0
 sgeul1_nm	sgeula	0	sgeul_nm
 sgeul2_nm	sgeoil	sgeoil	sgeul_nm
+sgeulachadh_nm	0	0	sgeulachd_nf
 sgeulachd_nf	0	sgeulachdan	0
 sgeulaiche_nm	0	0	0
 sgeul-rùin_nm	sgeòil-rùin	sgeòil-rùin	0
@@ -16902,6 +16974,7 @@ sodar_nm	0	1	0
 sodaran_nm	0	0	0
 so-dhèanta_a	0	0	0
 so-dhèantachd_nf	0	0	0
+sodium_nm	sodium	1	soidium_nm
 sofa_nf	0	sofathan	sòfa_nf
 sòfa_nf	0	sòfathan	0
 sògh_nm	0	1	0
@@ -16954,7 +17027,7 @@ sòisealach_nm	0	0	0
 sòisealachd_nf	0	0	0
 soisealta_a	0	0	sòisealta_a
 sòisealta_a	0	0	0
-sòisealtas_nm	0	1	0
+sòisealtas_nm	0	0	0
 soisgeul_nm	soisgeil	0	0
 Soisgeul_nm	Soisgeil	0	0
 soisgeulach_a	0	0	0
@@ -17073,6 +17146,7 @@ Spàinnis_nf	0	1	0
 Spàinnt_nf	Spàinnt	1	Spàinn_nf
 Spàinnteach_a	0	0	Spàinneach_a
 Spàinnteach_nm	0	0	Spàinneach_nm
+Spainntis_nf	0	1	Spàinnis_nf
 Spàinntis_nf	0	1	Spàinnis_nf
 Spàinteach_a	0	0	Spàinneach_a
 Spàinteach_nm	0	0	Spàinneach_nm
@@ -17109,6 +17183,7 @@ spastach_a	0	0	0
 spastach_nm	0	0	0
 spatha_nm	0	spathaichean	0
 speach_nf	speacha	speachan	0
+speactram_nm	0	0	0
 speal_nf	speala	0	0
 speal_v	0	0	0
 spealadair_nm	0	0	0
@@ -17324,6 +17399,7 @@ stadach_a	0	0	0
 stadadh_nm	0	1	0
 stàdas_nm	0	0	0
 stadh_nm	stadha	stadhan	stagh_nm
+stadium_nm	stadium	1	stèideam_nm
 stad-phuing_nf	0	0	0
 stagh_nm	stagha	0	0
 staid_nf	0	0	0
@@ -17608,6 +17684,7 @@ Suaineach_nm	0	0	0
 suainealachadh_nm	0	1	0
 suainealaiche_nm	0	0	0
 suainealas_nm	0	1	0
+Suainis_nf	0	1	0
 suaip_nf	0	0	0
 suairc_a	0	0	0
 suairce_a	0	0	suairc_a
@@ -17660,6 +17737,7 @@ suidheachadh1_nm	0	suidhichidhean	suidheachadh_nm
 suidheachadh-deilbh_nm	suidheachaidh-deilbh	1	0
 suidheachan_nm	0	suidheachain	0
 suidhich_v	0	0	0
+suidhiche_a	0	0	suidhichte_a
 suidhichte_a	0	0	0
 suids-chlàr_nm	0	0	0
 suidse_nf	0	0	0
@@ -17976,6 +18054,7 @@ tanalachd_nf	0	0	0
 tanca_nf	0	tancaichean	0
 tancair_nm	0	0	0
 tancard_nm	0	0	0
+tango_nm	0	0	0
 tannasg_nm	0	tannaisg	0
 Tansainìa_nf	0	0	Tansan_nf
 Tansan_nf	Tansaine	1	0
@@ -18112,6 +18191,7 @@ teagaisg_v	teagasg_nm	0	0
 teagaisgeach_a	0	0	0
 teagamh_nm	0	0	0
 teagasg_nm	0	1	0
+teaghalach_nm	0	teaghalaichean	teaghlach_nm
 teaghlach_nm	0	teaghlaichean	0
 teagmhach_a	0	0	0
 teagsa_nm	0	teagsaichean	teacsa_nm
@@ -18245,6 +18325,7 @@ telefòn_nm	telefòn	telefònaichean	0
 telesgop_nm	0	0	0
 teleteacs_nm	teleteacsa	teleteacsaichean	0
 tellaidh_nf	0	0	teilidh_nf
+telurium_nm	telurium	1	0
 tent_nf	tent	0	teanta_nf
 teò-chridheach_a	0	0	0
 teoclaid_nf	teoclaid	0	seòclaid_nf
@@ -18315,6 +18396,8 @@ tiamhaidh_a	0	0	0
 tiasgadal_nm	0	1	0
 Tibeatach_a	0	0	0
 Tibeatach_nm	0	0	0
+Tibeit_nf	0	1	0
+Tibet_nf	0	1	Tibeit_nf
 tibhre_nm	0	0	0
 ticead_nf	0	0	0
 ticeard_nf	ticeaird	0	ticead_nf
@@ -18341,6 +18424,8 @@ tighinn_nf	tighinn	1	0
 tigh'nn_nf	tigh'nn	1	tighinn_nf
 tigh-òsda_nm	tighe-òsda	tighean-òsda	taigh-òsta_nm
 tigh-sgonn_nm	tigh-sgonn	1	taigh-sgonn_nm
+Tìleach_a	0	0	0
+Tìleach_nm	0	0	0
 tilg_v	0	0	0
 tilgeadair_nm	0	0	0
 tilgeadh_nm	0	1	0
@@ -18392,6 +18477,7 @@ tional_nm	0	0	0
 Tional_nm	0	0	0
 tional-airgid_nm	tionail-airgid	1	0
 tionndadh_nm	0	0	0
+tionndaich_v	0	0	tionndaidh_v
 tionndaidh_v	tionndadh_nm	0	0
 tionnsgail_v	tionnsgal_nm	0	0
 tionnsgain_v	tionnsgnadh_nm	0	0
@@ -19132,6 +19218,7 @@ uaigneas_nm	0	1	0
 uaignidheas_nm	0	1	uaigneas_nm
 uaill_nf	0	1	0
 uaill-mhiann_nm	uaill-mhianna	1	0
+uaill-mhiannach_a	0	0	0
 uaim_nf	0	1	0
 uaimh_nf	0	0	0
 uaimh1_nf	uamha	uamhan	uaimh_nf
@@ -19184,6 +19271,7 @@ uanfheòil_nf	uanfheòla	1	0
 uapa_pronm	uapasan	0	0
 uard_nm	0	0	uàrd_nm
 uàrd_nm	0	0	0
+uarraidh_a	0	0	uabhasach_a
 uasal_a	uaisle	0	0
 uasal_nm	0	uaislean	0
 Uasal_nm	0	Uaislean	0
@@ -19393,6 +19481,7 @@ ur_poss	0	0	0
 urainn_a	0	0	urrainn_a
 Uranas_nm	0	1	Urànas_nm
 Urànas_nm	0	1	0
+uranium_nm	0	1	0
 ùrar_a	0	0	0
 urchaid_nf	0	0	0
 urchair_nf	0	0	0

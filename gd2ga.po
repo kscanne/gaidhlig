@@ -426,6 +426,10 @@ msgstr "chun"
 msgid "a dhìth_adv"
 msgstr "de dhíth_adv"
 
+# masculine in Bible (Sean. 15), fem. in AFB
+msgid "adhlac_nm"
+msgstr "adhlacadh_nm"
+
 msgid "adhlacadh_nm"
 msgstr "adhlacadh_nm"
 
@@ -1124,6 +1128,9 @@ msgstr "airgeadas_nm"
 msgid "airgead-beò_nm"
 msgstr "airgead beo"
 
+msgid "airgead-dìolaidh_nm"
+msgstr "airgead cúitimh"
+
 # or ~ tirim in Ir.
 msgid "airgead-làimhe_nm"
 msgstr "airgead láimhe"
@@ -1165,6 +1172,9 @@ msgstr "Airméanach_a"
 
 msgid "Airmeinianach_nm"
 msgstr "Airméanach_nm"
+
+msgid "àirmheachadh_nm"
+msgstr "áireamh_nm"
 
 # enumerate
 msgid "àirmhich_v"
@@ -2294,6 +2304,9 @@ msgstr "aoine_nf"
 msgid "aoir_nf"
 msgstr "aoir_nf"
 
+msgid "aoireil_a"
+msgstr "aorach_a"
+
 msgid "aois_nf"
 msgstr "aois_nf"
 
@@ -2626,6 +2639,10 @@ msgstr "ardaitheoir_nm"
 msgid "àrdaichte_a"
 msgstr "ardaithe_a"
 
+# no "ardarmas" in ga
+msgid "àrd-amas_nm"
+msgstr "ardmhian_nf"
+
 msgid "àrd-amasach_a"
 msgstr "ardaidhmeannach_a"
 
@@ -2711,6 +2728,9 @@ msgstr "bainisteoir ginearálta"
 
 msgid "Àrd-Mhanaidsear_nm"
 msgstr "Bainisteoir Ginearálta"
+
+msgid "àrd-mharaiche_nm"
+msgstr "aimiréal_nm"
 
 msgid "àrd-mhiannach_a"
 msgstr "ardaidhmeannach_a;uaillmhianach_a"
@@ -4790,6 +4810,9 @@ msgstr "vótáil_v"
 msgid "bhòtadh_nm"
 msgstr "vótáil_nf"
 
+msgid "bhòt-postaidh_nf"
+msgstr "vóta poist"
+
 msgid "bhuaibh_pronm"
 msgstr "uaibh_pronm;uait_pronm"
 
@@ -5488,6 +5511,9 @@ msgstr "bonnóg_nf"
 
 msgid "bonnair_nm"
 msgstr "bonnaire_nm"
+
+msgid "bonn-airgid_nm"
+msgstr "bonn airgid"
 
 msgid "bonn-a-sia_nm"
 msgstr "leathphingin_nf"
@@ -6267,6 +6293,9 @@ msgstr "labhairt_nf"
 msgid "bruidhinn_v"
 msgstr "labhair_v"
 
+msgid "bruidhneach_a"
+msgstr "cainteach_a"
+
 msgid "bruigheann_nm"
 msgstr "bruíon_nf"
 
@@ -6383,6 +6412,7 @@ msgstr "buaine_nf"
 msgid "buair_v"
 msgstr "buair_v;cathaigh_v"
 
+# pl ok in both; "temptations"
 msgid "buaireadh_nm"
 msgstr "cathú_nm;buaireamh_nm"
 
@@ -6469,6 +6499,9 @@ msgstr "Búdaíoch_a"
 
 msgid "Budastach_nm"
 msgstr "Búdaí_nm"
+
+msgid "bufat_nm"
+msgstr "buifé_nm"
 
 msgid "bugair_nm"
 msgstr "bugaire_nm"
@@ -6962,6 +6995,9 @@ msgstr "cáithleach_nf"
 
 msgid "càileachd_nf"
 msgstr "cáilíocht_nf"
+
+msgid "càileachdail_a"
+msgstr "cáilíochtúil_a"
 
 msgid "caileag_nf"
 msgstr "cailín_nm;girseach_nf"
@@ -7529,10 +7565,12 @@ msgstr "caoile_nf"
 msgid "caoilead_nm"
 msgstr "caoile_nf"
 
+# cf coibhneas
 msgid "caoimhneas_nm"
 msgstr "cineáltas_nm"
 
 # loving-kindness, e.g. Psalm 136, etc.
+# cf "caomh-thròcair_nf"
 msgid "caoimhneas-gràidh_nm"
 msgstr "ceanúlacht_nf;grá_nm"
 
@@ -7605,6 +7643,11 @@ msgstr "coigilteach_a"
 msgid "caomhnadh_nm"
 msgstr "caomhnú_nm"
 
+# loving-kindness, e.g. Ps 119:88
+# cf "caoimhneas-gràidh_nm"
+msgid "caomh-thròcair_nf"
+msgstr "ceanúlacht_nf"
+
 msgid "caonnag_nf"
 msgstr "troid_nf"
 
@@ -7655,6 +7698,9 @@ msgstr "cearbhas_nm"
 
 msgid "carabhan_nf"
 msgstr "carbhán_nm"
+
+msgid "carabù_nm"
+msgstr "carabú_nm"
 
 msgid "carach_a"
 msgstr "glic_a;cliste_a"
@@ -8087,6 +8133,10 @@ msgstr "ceangailte_a"
 msgid "ceangal_nm"
 msgstr "ceangal_nm;teagmháil_nf;nasc_nm"
 
+# gd "fo ch~", works as "faoi chleamhnas" i nGaeilge
+msgid "ceangal-pòsaidh_nm"
+msgstr "cleamhnas_nm"
+
 msgid "ceanglaiche_nm"
 msgstr "ceanglóir_nm"
 
@@ -8429,7 +8479,14 @@ msgstr "ceil_v"
 msgid "cèile_nm"
 msgstr "céile_nm"
 
-# a' ~, used in Twitter sense
+msgid "ceilearach_a"
+msgstr "ceiliúrach_a"
+
+# cf next
+msgid "ceilearach_nm"
+msgstr "ceiliúr_nm"
+
+# a' ~, used in Twitter sense... cf prev
 msgid "ceilearaich_nf"
 msgstr "giolcaireacht_nf;giolcadh_nm"
 
@@ -10099,7 +10156,7 @@ msgstr "homaighnéasach_a;aerach_a"
 msgid "co-ghnìomhair_nm"
 msgstr "dobhriathar_nm"
 
-# false friend
+# false friend; cf caoimhneas
 msgid "coibhneas_nm"
 msgstr "cineáltas_nm;carthanacht_nf;comaoin_nf"
 
@@ -11211,6 +11268,10 @@ msgstr "Cosavach_a"
 msgid "Cosobhach_nm"
 msgstr "Cosavach_nm"
 
+# def article in both
+msgid "Cosobho_nf"
+msgstr "Cosaiv_nf"
+
 msgid "costa_nm"
 msgstr "cósta_nm"
 
@@ -11387,6 +11448,9 @@ msgstr "craobhach_a;crannach_a"
 
 msgid "craobh-challtainn_nf"
 msgstr "crann coill"
+
+msgid "craobh-fhìge_nf"
+msgstr "crann figí"
 
 msgid "craobh-phailm_nf"
 msgstr "crann pailme;pailm_nf"
@@ -11822,6 +11886,11 @@ msgstr "crochtóireacht_nf"
 msgid "croitse_nf"
 msgstr "croisín_nm"
 
+# curler (sport)
+msgid "cròlach_nm"
+msgstr "curlóir_nm"
+
+# curling (sport)
 msgid "croladh_nm"
 msgstr "curláil_nf"
 
@@ -12139,6 +12208,9 @@ msgstr "saolré_nf"
 msgid "cuairt-bhòrd_nm"
 msgstr "caschlár_nm"
 
+msgid "cuairt-dheireannach_nf"
+msgstr "cluiche ceannais;craobhchomórtas_nm"
+
 # circular, ambient (both Ir. from parallel corpus)
 msgid "cuairteach_a"
 msgstr "ciorclach_a;timpeallach_a"
@@ -12371,6 +12443,9 @@ msgstr "cuidigh_v"
 
 msgid "cuidiche_nm"
 msgstr "cúntóir_nm;cuiditheoir_nm"
+
+msgid "cuid-oidhche_nf"
+msgstr "bia is leaba"
 
 # distaff
 msgid "cuigeal_nf"
@@ -22748,6 +22823,9 @@ msgstr "sí_pn;í_pn"
 
 msgid "iac_nm"
 msgstr "geac_nm"
+
+msgid "iacht_nf"
+msgstr "luamh_nm"
 
 msgid "iad_pn"
 msgstr "siad_pn;iad_pn"
@@ -35133,6 +35211,10 @@ msgstr "rúnaí_nm"
 
 msgid "rùnaireachd_nf"
 msgstr "rúnaíocht_nf"
+
+# rùnaire_nm above more common in modern texts
+msgid "rùn-chlèireach_nm"
+msgstr "rúnaí_nm"
 
 msgid "rùn-dìomhair_nm"
 msgstr "rúndiamhair_nf"

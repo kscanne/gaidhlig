@@ -1131,9 +1131,12 @@ aona_nm	0	0	aon_nm
 aonach_nm	0	aonaichean	0
 aonach1_nm	0	0	aonach_nm
 aonachd_nf	0	0	0
+aonachdach_a	0	0	0
+aonachdach_nm	0	0	aonadair_nm
 aonad_nm	0	0	0
 Aonad_nm	0	0	0
 aonadach_a	0	0	0
+aonadair_nm	0	0	0
 aonadh_nm	0	0	0
 Aonadh_nm	0	0	0
 aona-ghnè_a	0	0	0
@@ -1141,6 +1144,7 @@ aona-ghnèitheach_a	0	0	aon-ghnèitheach_a
 aona-ghuthach_a	0	0	aon-ghuthach_a
 aonaich_v	0	0	0
 aonaichte_a	0	0	0
+aonaidhear_nm	0	0	aonadair_nm
 aonais_nf	0	0	0
 aonamh_nm	0	1	0
 aonan_nm	0	1	0
@@ -4847,6 +4851,8 @@ connsachadh_nm	0	1	0
 connsaich_v	0	0	0
 connspaid_nf	0	0	0
 connspaideach_a	0	0	0
+conntaidh_nm	conntaidh	0	0
+conntaigh_nm	conntaigh	0	conntaidh_nm
 conntraigh_nf	0	0	0
 consairt_nm	consairt	0	consart_nm
 consal_nm	0	0	0
@@ -4897,6 +4903,8 @@ cordadh_nm	0	0	còrdadh_nm
 còrdadh_nm	0	0	0
 coreigin_pn	0	0	0
 co-rèir_nf	0	1	0
+co-rèiteachadh_nm	0	0	0
+co-rèitich_v	0	0	0
 Corìanach_nm	0	0	Coirìanach_nm
 Corintianach_a	0	0	Coirinteach_a
 Corintianach_nm	0	0	Coirinteach_nm

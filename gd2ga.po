@@ -2347,14 +2347,23 @@ msgstr "gearranáil_nf;sliabh_nm"
 msgid "aonachd_nf"
 msgstr "aontacht_nf"
 
+# unionist
+msgid "aonachdach_a"
+msgstr "aontachtach_a"
+
 msgid "aonad_nm"
 msgstr "aonad_nm"
 
 msgid "Aonad_nm"
 msgstr "Aonad_nm"
 
+# unitary
 msgid "aonadach_a"
 msgstr "aonadach_a"
+
+# unionist (pol.)
+msgid "aonadair_nm"
+msgstr "aontachtaí_nm"
 
 msgid "aonadh_nm"
 msgstr "aontas_nm"
@@ -10985,6 +10994,9 @@ msgstr "conspóid_nf"
 msgid "connspaideach_a"
 msgstr "conspóideach_a"
 
+msgid "conntaidh_nm"
+msgstr "contae_nm"
+
 # neap tide; gv = contraie!
 msgid "conntraigh_nf"
 msgstr "mallmhuir_nf"
@@ -11105,6 +11117,12 @@ msgstr "éigin"
 
 msgid "co-rèir_nf"
 msgstr "comhréir_nf"
+
+msgid "co-rèiteachadh_nm"
+msgstr "comhréiteach_nm"
+
+msgid "co-rèitich_v"
+msgstr "comhréitigh_v"
 
 # drinking horn
 msgid "còrn_nm"

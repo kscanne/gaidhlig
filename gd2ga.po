@@ -13189,7 +13189,7 @@ msgstr "dineasár_nm"
 msgid "dail_nf"
 msgstr "léana_nm;gleann_nm"
 
-# not "dáil"!
+# not "dáil"! false friend
 # often "dail" in corpus (but see above), so put stuff like
 # "gun dail" in multi-gd.txt
 msgid "dàil_nf"

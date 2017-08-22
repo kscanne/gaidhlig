@@ -81,6 +81,9 @@ sub lenite
 	return $word;
 }
 
+# note that we don't include words with inital f- here, even though
+# they sometimes appear in the corpus (m'fhacal, etc.)
+# currently handling in pairs-local-gd
 sub prefixm
 {
 	my ( $word ) = @_;

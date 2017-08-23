@@ -221,9 +221,6 @@ msgstr ""
 msgid "<V p='y' t='láith'>bhfuil</V>"
 msgstr "bheil"
 
-msgid "<V p='y' t='láith'>bhfuilid</V>"
-msgstr "bheil iad"
-
 msgid "<V p='y' t='ord'>bhfuilim</V>"
 msgstr "bheil mi"
 
@@ -499,9 +496,6 @@ msgstr ""
 
 msgid "<V p='y' t='caite'>dhearnamar</V>"
 msgstr "do rinn sinn"
-
-msgid "<V p='y' t='caite'>dhein</V>"
-msgstr "rinn"
 
 msgid "<V p='y' t='ord'>dheirimse</V>"
 msgstr ""
@@ -1249,9 +1243,6 @@ msgstr ""
 msgid "<V p='y' t='caite'>ndearnamar</V>"
 msgstr "do rinn sinn"
 
-msgid "<V p='y' t='caite'>ndein</V>"
-msgstr ""
-
 msgid "<V p='y' t='ord'>ndeirimse</V>"
 msgstr ""
 
@@ -1299,9 +1290,6 @@ msgstr ""
 
 msgid "<V p='y' t='láith'>níl</V>"
 msgstr "chan eil"
-
-msgid "<V p='y' t='láith'>nílid</V>"
-msgstr "chan eil iad"
 
 msgid "<V p='y' t='ord'>nílim</V>"
 msgstr "chan eil mi"
@@ -1548,24 +1536,3 @@ msgstr ""
 
 msgid "<N pl='n' gnt='y' gnd='f'>uilleann</N>"
 msgstr ""
-
-#~ msgid "<F>chuile</F>"
-#~ msgstr "chuileag"
-
-#~ msgid "<F>cuile</F>"
-#~ msgstr "cuileag"
-
-#~ msgid "<F>gcuile</F>"
-#~ msgstr "cuileag"
-
-#~ msgid "<F>ndein</F>"
-#~ msgstr "rinn"
-
-#~ msgid "<F>carad</F>"
-#~ msgstr "càirdean"
-
-#~ msgid "<F>charad</F>"
-#~ msgstr "chàirdean"
-
-#~ msgid "<F>gcarad</F>"
-#~ msgstr "càirdean"

@@ -140,6 +140,9 @@ cuardach.txt : comhshuite.po neamhrialta.po ga2gd.po focloir.txt i.pl
 # of gd2ga; those proper names, English words will now be considered "covered"
 # note that the first line below (perl i.pl -s) writes pairs-gd.txt
 # and the lines after that tweak it in various ways, and create multi-gd
+# NB Doesn't actually copy to github repo if files are unchanged... this
+# is especially important for multi-gd since when that changes we need
+# to retokenize the whole test corpus... see seal/idirlamha/gd/freq
 GIT=${HOME}/seal/caighdean
 pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl makefile ${HOME}/seal/idirlamha/gd/freq/immutable.txt
 	perl i.pl -s
@@ -168,9 +171,9 @@ pairs-gd.txt: gd2ga.po focloir.txt GA.txt i.pl makefile ${HOME}/seal/idirlamha/g
 	cat gd2ga.po | sed '/^#/d' | sed '/msgid/s/ \([^"]\)/_\1/g' | tr -d "\n" | sed 's/msgid/\n&/g' | sed '1d' | egrep -v 'msgstr ""' | sed 's/^msgid "//' | sed 's/"msgstr "/ /' | sed 's/"$$//' | bash split.sh | LC_ALL=C sort -k1,1 > po-temp-proc.txt
 	(cat $@; cat po-temp-proc.txt | sed 's/_[a-z][a-z]* / /' | sed 's/_[a-z][a-z]*$$//' | sed 's/[0-9]*$$//'; egrep '[^0]$$' focloir.txt | sed 's/^\([^\t]*\)\t*[^\t]*\t*[^\t]*\t\([^\t]*\)$$/\1~\2/' | sed 's/ /_/g' | sed 's/~/ /' | LC_ALL=C sort -k2,2 | LC_ALL=C join -1 2 -2 1 - po-temp-proc.txt | sed 's/^[^ ]* //' | sed 's/[0-9]*_[a-z][a-z]* / /' | sed 's/[0-9]*_[a-z][a-z]*$$//'; cat ${HOME}/seal/idirlamha/gd/freq/immutable.txt | sed 's/.*/& &/') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
 	cat temp.txt | egrep -v '_' > $@
-	cp -f $@ $(GIT)
+	if ! diff -q $@ $(GIT)/$@; then cp -f $@ $(GIT); fi
 	(cat $(GIT)/multi-gd.txt; cat temp.txt | egrep '_') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > multi-gd.txt
-	cp -f multi-gd.txt $(GIT)
+	if ! diff -q multi-gd.txt $(GIT)/multi-gd.txt; then cp -f multi-gd.txt $(GIT); fi
 	rm -f po-temp-proc.txt temp.txt
 
 lookup.txt : cuardach.txt i.pl

@@ -1971,7 +1971,7 @@ msgid "an-aoibhinn_a"
 msgstr "mairg"
 
 msgid "anarag_nf"
-msgstr "anarac_nm"
+msgstr "anorac_nm"
 
 msgid "anarcach_a"
 msgstr "ainrialta_a"
@@ -9365,7 +9365,7 @@ msgid "claimh_nf"
 msgstr "claimhe_nf"
 
 msgid "clàirneid_nf"
-msgstr "cláirnéid_nf"
+msgstr "clairinéad_nm"
 
 msgid "clais_nf"
 msgstr "clais_nf;díog_nf"
@@ -26261,7 +26261,7 @@ msgid "liostachd_nf"
 msgstr "liostacht_nf"
 
 msgid "liosta-chiùil_nf"
-msgstr "seinmliosta_nm"
+msgstr "seinnliosta_nm"
 
 msgid "liostadh_nm"
 msgstr "liosta_nm"

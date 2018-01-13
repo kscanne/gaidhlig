@@ -1344,7 +1344,7 @@ msgid "air ais_adv"
 msgstr "ar ais"
 
 # false friend; Ir. ar ball = "later"
-# GAOL:
+# GAOL: ar ball
 msgid "air ball_adv"
 msgstr "ar an toirt;láithreach_adv"
 
@@ -1438,7 +1438,7 @@ msgstr "aireach_a"
 # false friend; Ir. áireamh = comhaireamh
 # fem. in faclair.info, but corpus examples "an t-àireamh" common enough
 # so add àireamh_nm as an alt of this
-# GAOL:
+# GAOL: áireamh_nm
 msgid "àireamh_nf"
 msgstr "uimhir_nf"
 
@@ -1593,7 +1593,7 @@ msgid "airnean_nm"
 msgstr "airneán_nm"
 
 # false friend; Ir. airnéis = cattle, chattel, personal effects
-# GAOL:
+# GAOL: airnéis_nf
 msgid "àirneis_nf"
 msgstr "troscán_nm"
 
@@ -1888,7 +1888,7 @@ msgid "aithis_nf"
 msgstr "aithis_nf"
 
 # false friend; Ir. aitheasc = óráid
-# GAOL:
+# GAOL: aitheasc_nm
 msgid "aithisg_nf"
 msgstr "tuairisc_nf"
 
@@ -1965,8 +1965,8 @@ msgstr "aithriseoir_nm"
 msgid "àitich_v"
 msgstr "áitigh_v"
 
-# Ir. áitreabh is a false friend
-# GAOL:
+# Ir. áitreabh is a false friend; see eDIL attrab
+# GAOL: áitreabh_nm
 msgid "aitreabh_nm"
 msgstr "foirgneamh_nm"
 
@@ -2091,8 +2091,8 @@ msgstr "allúrach_a"
 msgid "allmharach_nm"
 msgstr "allúrach_nm"
 
-# false friend I guess
-# GAOL:
+# false friend I guess; ailt (ravine), aill (cliff) are cognate
+# GAOL: ailt_nf
 msgid "allt_nm"
 msgstr "sruthán_nm"
 
@@ -2271,7 +2271,7 @@ msgstr "linn snámha"
 # Ir. amas shares sense "aim" but is usually used in 
 # different senses, so declaring it a false friend (spurious-gd)
 # This is also vn of "amais_v" above; "ag_amas" = "ag díriú" in multi-gd
-# GAOL:
+# GAOL: amas_nm
 msgid "amas_nm"
 msgstr "aidhm_nf;sprioc_nf"
 
@@ -3127,8 +3127,8 @@ msgstr "aon_a"
 msgid "aon_nm"
 msgstr "aon_nm"
 
-# two senses; false friend
-# GAOL:
+# two senses; false friend (although Ir. sense "fair, meeting" in AFB)
+# GAOL: aonach_nm
 msgid "aonach_nm"
 msgstr "gearranáil_nf;sliabh_nm"
 
@@ -4877,7 +4877,7 @@ msgid "bàl_nm"
 msgstr "bál_nm;liathróid_nf"
 
 # false friend; != Ir. bathlach = clumsy person, lout
-# GAOL:
+# GAOL: bathlach_nm
 msgid "balach_nm"
 msgstr "gasúr_nm;buachaill_nm"
 
@@ -5325,7 +5325,7 @@ msgstr "amaideach_a;baoth_a"
 
 # Ir. has sense "lust" too, but usually "foolishness, folly"
 # so declaring this a false friend
-# GAOL:
+# GAOL: baois_nf
 msgid "baois_nf"
 msgstr "drúis_nf"
 
@@ -5724,7 +5724,7 @@ msgid "beachair_nm"
 msgstr "beachaire_nm"
 
 # false friend (Ir. beacht = cinnte, cruinn)
-# GAOL:
+# GAOL: beacht_a
 msgid "beachd_nm"
 msgstr "tuairim_nf;barúil_nf"
 
@@ -6122,7 +6122,7 @@ msgstr "Beinin_nf"
 
 # false friend; cf "beann_nf" above (which includes general sense "peak",
 # translated here as Ir. binn)
-# GAOL:
+# GAOL: binn_nf
 msgid "beinn_nf"
 msgstr "sliabh_nm"
 
@@ -6848,7 +6848,7 @@ msgid "blasta_a"
 msgstr "blasta_a"
 
 # false friend; Ir. bláith = delicate, beautiful, smooth
-# GAOL:
+# GAOL: bláith_a
 msgid "blàth_a"
 msgstr "te_a;teolaí_a"
 
@@ -7345,7 +7345,7 @@ msgid "boinneag_nf"
 msgstr "braonán_nm"
 
 # false friend
-# GAOL:
+# GAOL: ~
 msgid "boireann_a"
 msgstr "baineann_a"
 
@@ -7850,7 +7850,7 @@ msgid "breab_nf"
 msgstr "cic_nm"
 
 # cognate with preab I guess, but ciceáil in corpus
-# GAOL:
+# GAOL: preab_v
 msgid "breab_v"
 msgstr "ciceáil_v"
 
@@ -8476,7 +8476,7 @@ msgid "brùideil_a"
 msgstr "fíochmhar_a;brúidiúil_a"
 
 # false friend; Ir. bruíon = quarrel
-# GAOL:
+# GAOL: bruíon_nf
 msgid "bruidhinn_nf"
 msgstr "labhairt_nf"
 
@@ -9258,11 +9258,11 @@ msgid "càcas_nm"
 msgstr "cácas_nm"
 
 # false friend; Ir. cách = chuile dhuine
-# GAOL:
+# GAOL: cách_nm
 msgid "càch_nm"
 msgstr "an chuid eile"
 
-# GAOL:
+# GAOL: cách_nm
 msgid "càch_pn"
 msgstr "an chuid eile"
 
@@ -9308,7 +9308,7 @@ msgid "cafein_nm"
 msgstr "caiféin_nf"
 
 # cf. Ir. coigilt; false friend
-# GAOL:
+# GAOL: coigilt_nf
 msgid "cagailt_nf"
 msgstr "teallach_nm"
 
@@ -10016,7 +10016,7 @@ msgid "camshronach_a"
 msgstr "camshrónach_a"
 
 # false friend
-# GAOL:
+# GAOL: can_v
 msgid "can_v"
 msgstr "abair_v"
 
@@ -10197,8 +10197,8 @@ msgstr "caoile_nf"
 msgid "caoilead_nm"
 msgstr "caoile_nf"
 
-# cf coibhneas
-# GAOL:
+# cf coibhneas (probably alt of this or vice versa)
+# GAOL: coibhneas_nm
 msgid "caoimhneas_nm"
 msgstr "cineáltas_nm"
 
@@ -10278,7 +10278,7 @@ msgid "caol-shràid_nf"
 msgstr "caolsráid_nf"
 
 # false friend; Ir. caomh = gentle, comely, lovely, mild
-# GAOL:
+# GAOL: caomh_a
 msgid "caomh_a"
 msgstr "maith_a;breá_a"
 
@@ -10614,6 +10614,7 @@ msgstr "cartún_nm"
 
 # Ir. cas_a is a false friend
 # This is "steep, rapid, sudden, headlong, impetuous..."
+# MacBain mentions Ir "casach", "an ascent"?
 # GAOL:
 msgid "cas_a"
 msgstr "tobann_a"
@@ -12814,7 +12815,7 @@ msgstr "cliste_a;gasta_a"
 # Sc. is "jump, leap, skip"
 # calling it a false friend
 # cf "clisich"
-# GAOL:
+# GAOL: clis_v
 msgid "clis_v"
 msgstr "léim_v"
 
@@ -12840,7 +12841,7 @@ msgstr "clis_v"
 
 # active, dextrous, nimble... false friend, even though
 # Ir. cliste shares meaning "dextrous", that's unusual
-# GAOL:
+# GAOL: cliste_a
 msgid "cliste_a"
 msgstr "aclaí_a"
 
@@ -13248,7 +13249,7 @@ msgid "cnuasachd_nf"
 msgstr "meabhrú_nm"
 
 # cnuasaigh is a false friend
-# GAOL:
+# GAOL: cnuasaigh_v
 msgid "cnuasaich_v"
 msgstr "meabhraigh_v"
 
@@ -13686,8 +13687,9 @@ msgstr "homaighnéasach_a;aerach_a"
 msgid "co-ghnìomhair_nm"
 msgstr "dobhriathar_nm"
 
-# false friend; cf caoimhneas
-# GAOL:
+# false friend since senses have drifted; "coibhneas" in Ir.
+# is most often ratio or proportion; cf caoimhneas
+# GAOL: coibhneas_nm
 msgid "coibhneas_nm"
 msgstr "cineáltas_nm;carthanacht_nf;comaoin_nf"
 
@@ -13803,7 +13805,7 @@ msgstr "bóna_nm;coiléar_nm"
 msgid "coiligeann_nm"
 msgstr "coiliceam_nm"
 
-# false friend; coill in gd is "sin, iniquity"
+# false friend; coill in gd is "sin, iniquity"; see also col_nm below
 # GAOL:
 msgid "coill_nf"
 msgstr "col_nm"
@@ -13955,10 +13957,6 @@ msgstr "caoineadh_nm"
 msgid "coinean_nm"
 msgstr "coinín_nm"
 
-# GAOL:
-msgid "coineanach_nm"
-msgstr "coinín_nm"
-
 # see multi-gd
 # GAOL:
 msgid "coingeis_a"
@@ -13967,7 +13965,7 @@ msgstr "cuma"
 # "a loan"; cognate with coinníoll ("provision, condition" in older dicts)
 # so really a false friend
 # "an ~" = "ar iasacht"
-# GAOL:
+# GAOL: coinníoll_nm
 msgid "coingheall_nm"
 msgstr "iasacht_nf"
 
@@ -14358,9 +14356,10 @@ msgstr "cuma_nf;dealramh_nm;cosúlacht_nf"
 msgid "coluadar_nm"
 msgstr "comhluadar_nm"
 
+# chest area, abdominal area, torso
 # Ir. com (coomb, like Welsh cwm) is a false friend
 # But put "com com" in pairs-local vs. spurious because of dot-com addresses
-# GAOL:
+# GAOL: coim_nf
 msgid "com_nm"
 msgstr "colainn_nf"
 
@@ -14942,9 +14941,11 @@ msgstr "coiréal_nm"
 msgid "còras_nm"
 msgstr "córas_nm"
 
-# GAOL: ~
-msgid "corcais_nf"
-msgstr "corc_nm"
+# knife with fixed blade (corc_nm is alt corcas_nm below)
+# not in parallel corpus
+# GAOL:
+msgid "corc_nf"
+msgstr "scian_nf"
 
 # GAOL: ~
 msgid "corcar_nm"
@@ -15068,7 +15069,7 @@ msgstr "corparáideach_a"
 # false friend
 # several in multi-gd; an_còrr(_de), còrr_'s/air, etc.
 # note that Ir. "corradh is/le/ar" does mean "more than" (FGB, Dinneen)
-# GAOL:
+# GAOL: corr_a
 msgid "còrr_nm"
 msgstr "breis_nf"
 
@@ -15291,7 +15292,7 @@ msgid "co-thorach_a"
 msgstr "críochnaitheach_a"
 
 # false friend
-# GAOL:
+# GAOL: cothrom_nm
 msgid "cothrom_nm"
 msgstr "seans_nm;deis_nf"
 
@@ -15893,7 +15894,7 @@ msgstr "crobh_nm"
 
 # geranium, cranesbill
 # false friend; Ir. crobh préacháin is Ranunculus (buttercup)
-# GAOL:
+# GAOL: crobh préacháin
 msgid "crobh-preachain_nm"
 msgstr "crobh fola"
 
@@ -16414,7 +16415,7 @@ msgid "cruth-tìre_nm"
 msgstr "tír-raon_nm"
 
 # false friend; gd is "dog" in general, Ir. cú is a hound
-# GAOL:
+# GAOL: cú_nm
 msgid "cù_nm"
 msgstr "madra_nm"
 
@@ -16527,7 +16528,7 @@ msgid "cuallach_nf"
 msgstr "buachailleacht_nf;ualach_nm"
 
 # Ir. cuan is a false friend (bay) and cuain is totally different (litter)
-# GAOL:
+# GAOL: cuan_nm
 msgid "cuan_nm"
 msgstr "farraige_nf;muir_nf;aigéan_nm"
 
@@ -16648,7 +16649,7 @@ msgstr "corrach_a;neamhchinnte_a;íogair_a"
 
 # Sc. almost always "average, mean", but also means "moderation" for which 
 # Ir. cuibheas would work.  But go with corpus and call this a false friend.
-# GAOL:
+# GAOL: cuibheas_nm
 msgid "cuibheas_nm"
 msgstr "meán_nm"
 
@@ -16877,8 +16878,9 @@ msgstr "Breatain Bheag_nf"
 msgid "Cuimris_nf"
 msgstr "Breatnais_nf"
 
-# Sc. is primarily "aim, target", so declaring this a false friend
-# GAOL:
+# Sc. is primarily "aim, target" (in addition to "moderation" which 
+# would work for Ir. cognate), so declaring this a false friend
+# GAOL: cuimse_nf
 msgid "cuimse_nf"
 msgstr "aidhm_nf"
 
@@ -16889,7 +16891,7 @@ msgstr "cuimseach_a;cruinn_a"
 # aim; so "cuimsigh" is a false friend
 # need to have many pairs in spurious-gd so that rules-gd 
 # won't produce these false friends despite their absence here...
-# GAOL:
+# GAOL: cuimsigh_v
 msgid "cuimsich_v"
 msgstr "aimsigh_v;dírigh_v"
 
@@ -17168,12 +17170,10 @@ msgid "cultarach_a"
 msgstr "cultúrtha_a"
 
 # false friend
-# GAOL:
+# MacBain: "The Gaelic cum is for congv or congbh..."
+# (and congbhaigh, etc. alts of coinnigh in Dinneen)
+# GAOL: ~
 msgid "cum_v"
-msgstr "coinnigh_v"
-
-# GAOL:
-msgid "cùm_v"
 msgstr "coinnigh_v"
 
 # GAOL: ~
@@ -17221,18 +17221,18 @@ msgstr "coitinne_nf"
 msgid "cumasg_nf"
 msgstr "cumasc_nm"
 
-# false friend
-# GAOL:
+# false friend; could include (rare) Irish cognate as a def...
+# GAOL: comha_nf
 msgid "cumha_nf"
 msgstr "coinníoll_nm"
 
 # Ir. is related, but different. Putting this in spurious-gd.
-# GAOL:
+# GAOL: cumha_nm
 msgid "cumha_nm"
 msgstr "caoineadh_nm;marbhna_nm"
 
 # as above, Ir. cumhach is close but not the same.
-# GAOL:
+# GAOL: cumhach_a
 msgid "cumhach_a"
 msgstr "caointeach_a;coinníollach_a"
 
@@ -17584,7 +17584,8 @@ msgstr "glantóir_nm"
 msgid "cuthach_nm"
 msgstr "cuthach_nm"
 
-# GAOL:
+# also spelled cubhag in Dwelly
+# GAOL: ~
 msgid "cuthag_nf"
 msgstr "cuach_nf"
 
@@ -17729,10 +17730,11 @@ msgstr "dineasár_nm"
 msgid "dail_nf"
 msgstr "léana_nm;gleann_nm"
 
-# not "dáil"! false friend
+# not "dáil" in modern Irish senses! false friend
+# This sense is 3 dál in eDIL: "dáil .i. moille no cáirde; gan dáil..."
 # often "dail" in corpus (but see above), so put stuff like
 # "gun dail" in multi-gd.txt
-# GAOL:
+# GAOL: dáil_nf
 msgid "dàil_nf"
 msgstr "moill_nf"
 
@@ -17858,7 +17860,7 @@ msgstr "Dalmátach_nm"
 
 # Ir. means "foster child" too, but primarily "pupil, student"
 # so calling this a false friend.
-# GAOL:
+# GAOL: dalta_nm
 msgid "dalta_nm"
 msgstr "leanbh altrama"
 
@@ -18795,7 +18797,7 @@ msgid "dealasachd_nf"
 msgstr "díograis_nf"
 
 # Ir. dealbh is an "image" but usually "statue" so calling this a false friend
-# GAOL:
+# GAOL: dealbh_nf
 msgid "dealbh_nf"
 msgstr "grianghraf_nm;pictiúr_nm"
 
@@ -18954,6 +18956,8 @@ msgstr "déanamh_nm"
 # force, haste, particle; have plural deannan = roinnt in pairs-local-gd
 # phrases with 'na ~ in multi-gd
 # Also, this is a false friend
+# from "deinmne" in eDIL according to MacBain, don't know that that
+# corresponds to anything in Dinneen or FGB faraor
 # GAOL:
 msgid "deann_nf"
 msgstr "deifir_nf;dithneas_nm"
@@ -19198,7 +19202,7 @@ msgid "deatach_nf"
 msgstr "deatach_nm"
 
 # Ir. deataigh ("smoke") is a false friend
-# GAOL:
+# GAOL: deataigh_v
 msgid "deataich_v"
 msgstr "galaigh_v"
 
@@ -19383,7 +19387,7 @@ msgid "deisciobal_nm"
 msgstr "deisceabal_nm"
 
 # false friend I guess, although "deise" is in Irish dicts with sense "apparel"
-# GAOL:
+# GAOL: deise_nf
 msgid "deise_nf"
 msgstr "culaith_nf"
 
@@ -21293,7 +21297,7 @@ msgid "dreòlan_nm"
 msgstr "dreoilín_nm"
 
 # all parallel corpus examples; false friend; Ir. dréacht = draft
-# GAOL:
+# GAOL: dréacht_nf
 msgid "dreuchd_nf"
 msgstr "post_nm;ceird_nf;gairm_nf"
 
@@ -22233,7 +22237,7 @@ msgid "eachdraiche_nm"
 msgstr "staraí_nm"
 
 # false friend; Ir. eachtra = adventure; cf. eachtradh below
-# GAOL:
+# GAOL: eachtraíocht_nf
 msgid "eachdraidh_nf"
 msgstr "stair_nf;scéal_nm"
 
@@ -22638,7 +22642,9 @@ msgstr "ealaíontacht_nf"
 msgid "ealla_nm"
 msgstr "amharc_nm"
 
-# AFB has "cattle" too, but corpus is always "ualach"; calling it a false friend
+# a burden
+# AFB has the sense "cattle" too, but parallel corpus is always "ualach"
+# therefore calling it a false friend
 # GAOL:
 msgid "eallach_nm"
 msgstr "ualach_nm"
@@ -22675,6 +22681,10 @@ msgstr "eangach_a"
 # GAOL: ~
 msgid "eangach_nf"
 msgstr "eangach_nf"
+
+# GAOL: ~
+msgid "eanghlas_nf"
+msgstr "anglais_nf"
 
 # GAOL: ~
 msgid "eanraich_nf"
@@ -22866,10 +22876,12 @@ msgstr "teibí_a"
 msgid "easchruthachd_nf"
 msgstr "teibíocht_nf"
 
-# false friend
-# GAOL:
+# AFB: 1. active, energetic 2. nimble 3. prompt 4. obliging, willing
+# false friend even though Ir. éasca shares some of these... 
+# parallel corpus defs below; usually "active" or "diligent"
+# GAOL: éasca_a
 msgid "èasgaidh_a"
-msgstr "dícheallach_a"
+msgstr "dícheallach_a;dúthrachtach_a;gníomhach_a"
 
 # 1. nimbleness (Ir. has éascaíocht for this) 2. readiness to oblige
 # GAOL: éascaíocht_nf
@@ -22948,6 +22960,7 @@ msgid "èibheall_nf"
 msgstr "aibhleog_nf;sméaróid_nf"
 
 # false friend (were an Ir. speaker to think it the same as aoibhinn)
+# is it cognate with aoibhinn (see MacBain)
 # GAOL:
 msgid "èibhinn_a"
 msgstr "greannmhar_a;grinn_a"
@@ -23808,8 +23821,10 @@ msgstr "adhain_v;fadaigh_v"
 msgid "fadal_nm"
 msgstr "moill_nf;tuirse_nf"
 
-# false friend; != Ir. fadálach, cf. teadalach_a below
-# GAOL:
+# means "late" or "tardy"
+# false friend; since Ir. fadálach is different range of senses
+# cf. teadalach_a below
+# GAOL: fadálach_a
 msgid "fadalach_a"
 msgstr "mall_a;déanach_a"
 
@@ -23845,10 +23860,6 @@ msgstr "faghairt_nf"
 # GAOL: ~
 msgid "fadhb_nf"
 msgstr "fadhb_nf"
-
-# GAOL:
-msgid "fa-dheòidh_adv"
-msgstr "faoi dheireadh_adv"
 
 # at last
 # GAOL: ~
@@ -24043,8 +24054,10 @@ msgstr "péacán_nm"
 msgid "fàillinn_nf"
 msgstr "faillí_nf;locht_nm"
 
-# false friend; "helm, tiller"
-# GAOL:
+# "helm, tiller"; this is a false friend since "failm"
+# in modern Irish is a thump or a bang
+# (though Dinneen has "tiller" sense, alt failm is alt halmadóir in FGB)
+# GAOL: halmadóir
 msgid "failm_nf"
 msgstr "stiúir_nf"
 
@@ -24481,9 +24494,10 @@ msgstr "faoileán_nm"
 msgid "Faoilteach_nm"
 msgstr "Eanáir_nm"
 
+# "silly, foolish"
 # false friend; there's of course Ir. preposition "faoin" but also
-# adjective "faon" = limp, frail
-# GAOL:
+# adjective "faon" = limp, frail in modern dicts, but "foolish" in Dinneen eg
+# GAOL: faon_a
 msgid "faoin_a"
 msgstr "áiféiseach_a;baoth_a"
 
@@ -24924,7 +24938,7 @@ msgid "fear_nm"
 msgstr "fear_nm;ceann_nm"
 
 # false friend
-# GAOL:
+# GAOL: fear_nm
 msgid "fear_pn"
 msgstr "ceann"
 
@@ -25836,7 +25850,7 @@ msgid "fileamaideach_a"
 msgstr "snáithíneach_a"
 
 # != Ir. fileamhanta = filiúnta = fileata (poetic); false friend mar sin?
-# GAOL:
+# GAOL: fileata_a
 msgid "fileanta_a"
 msgstr "líofa_a"
 
@@ -26112,7 +26126,7 @@ msgid "fios-naidheachd_nm"
 msgstr "preaseisiúint_nf"
 
 # knowledgeable in gd (vs. inquisitive in ga; false friend)
-# GAOL:
+# GAOL: fiosrach_a
 msgid "fiosrach_a"
 msgstr "eolach_a;feasach_a"
 
@@ -26450,11 +26464,11 @@ msgid "fo-fhilleadh_nm"
 msgstr "foshraith_nf"
 
 # false friend
-# GAOL:
+# GAOL: fógair_v
 msgid "fògair_v"
 msgstr "díbir_v"
 
-# GAOL:
+# GAOL: fógairt_nf
 msgid "fògairt_nf"
 msgstr "díbirt_nf"
 
@@ -26514,8 +26528,9 @@ msgstr "ceardoideachas_nm"
 msgid "fòghnadh_nm"
 msgstr "dóthain_nf"
 
+# some mistranslations as "fógra" in parallel corpus?
 # false friend
-# GAOL:
+# GAOL: fógra_nm
 msgid "fògradh_nm"
 msgstr "deoraíocht_nf"
 
@@ -26554,6 +26569,11 @@ msgstr "foilsigh_v"
 # GAOL: ~
 msgid "foillsichear_nm"
 msgstr "foilsitheoir_nm"
+
+# also spelled faithne in Dwelly
+# GAOL: ~
+msgid "foinne_nf"
+msgstr "faithne_nm"
 
 # warty; but also in phrase "finn foinneach"
 # GAOL: ~
@@ -26983,12 +27003,15 @@ msgstr "freagair_v"
 msgid "freagairt_nf"
 msgstr "freagra_nm"
 
-# false friend; Ir. freagrach = guilty, responsible
-# GAOL:
+# suitable
+# false friend (though Dwelly has "answering" and "responsible" senses);
+# Ir. freagrach = guilty, responsible
+# GAOL: freagrach_a
 msgid "freagarrach_a"
 msgstr "oiriúnach_a;feiliúnach_a"
 
-# GAOL:
+# see previous
+# GAOL: freagracht_nf
 msgid "freagarrachd_nf"
 msgstr "oiriúnacht_nf;feiliúnacht_nf"
 
@@ -27137,8 +27160,11 @@ msgstr "díshealbhú_nm"
 msgid "fuadachadh_nm"
 msgstr "ruaigeadh_nm;díbirt_nf"
 
+# drive away
 # false friend; Ir. fuadaigh = hijack, kidnap, abduct
-# GAOL:
+# although FGB does have a sense "blow away" (and Dinneen has that
+# plus further "drive away"...)
+# GAOL: fuadaigh_v
 msgid "fuadaich_v"
 msgstr "ruaig_v;díbir_v"
 
@@ -28114,6 +28140,7 @@ msgid "gealaich_v"
 msgstr "geal_v;bánaigh_v"
 
 # fire; teallach in parallel corpus, false friend (see next)
+# don't see anything like this in Ir., likely cognate with "geal_a"?
 # GAOL:
 msgid "gealbhan_nm"
 msgstr "teallach_nm"
@@ -28156,12 +28183,14 @@ msgstr "geallúnach_a"
 msgid "gealltanas_nm"
 msgstr "gealltanas_nm"
 
-# false friend
-# GAOL:
+# cowardly, fearful
+# false friend; even though FGB has sense "panic-stricken",
+# usual sense of "gealtach" is "crazy"...
+# GAOL: gealtach_a
 msgid "gealtach_a"
 msgstr "faiteach_a;meata_a"
 
-# parallel corpus
+# parallel corpus; see previous
 # GAOL:
 msgid "gealtaire_nm"
 msgstr "cladhaire_nm;meatachán_nm"
@@ -28197,7 +28226,7 @@ msgstr "geanmnaíocht_nf"
 
 # false friend; Ir. is "love, affection", Sc. is "good humor, cheerfulness"
 # "aoibh" is good here since it combines also with "dea-/deagh-" or "droch-"
-# GAOL:
+# GAOL: gean_nm
 msgid "gean_nm"
 msgstr "aoibh_nf"
 
@@ -28817,8 +28846,8 @@ msgid "giùlan_nm"
 msgstr "giúlán_nm;iompar_nm"
 
 # processing, treatment (also giollachd)
-# false friend
-# GAOL:
+# false friend; Ir. cognate is serving, tending which isn't the same
+# GAOL: giollacht_nf
 msgid "giullachd_nf"
 msgstr "próiseáil_nf;cóireáil_nf"
 
@@ -28993,7 +29022,7 @@ msgid "glasraich_nf"
 msgstr "glasra_nm"
 
 # false friend; != Ir. glé (== geal, soilleir)
-# GAOL:
+# GAOL: glé_a
 msgid "glè_adv"
 msgstr "an-;iontach;thar a bheith"
 
@@ -29364,8 +29393,11 @@ msgstr "gníomhachtú_nm"
 msgid "gnìomhachail_a"
 msgstr "tionsclaíoch_a"
 
-# false friend
-# GAOL:
+# "business, industry"
+# false friend, parallel corpus always has this as one of the msgstrs below
+# whereas Irish gníomhachas is "activism"... since that's a relatively
+# new coinage, will use "gníomhaíocht" as best cognate
+# GAOL: gníomhaíocht_nf
 msgid "gnìomhachas_nm"
 msgstr "gnó_nm;tionsclaíocht_nf;tráchtáil_nf"
 
@@ -29518,7 +29550,7 @@ msgstr "gabhlán gainimh"
 
 # false friend; "swallow" (hirundo rustica) in all gd references
 # but "gabhlán gaoithe" is a swift (Apus apus) in Ir. (see g.-mòr below)
-# GAOL:
+# GAOL: gabhlán gaoithe
 msgid "gobhlan-gaoithe_nm"
 msgstr "fáinleog_nf"
 
@@ -29571,7 +29603,7 @@ msgid "goil_nf"
 msgstr "gal_nf;fiuchadh_nm"
 
 # Sc. "boil". Ir. goil is "weep", false friend. 
-# GAOL:
+# GAOL: gal_nf
 msgid "goil_v"
 msgstr "fiuch_v"
 
@@ -29731,6 +29763,7 @@ msgstr "carbhat_nm"
 msgid "grabhataidh_nf"
 msgstr "imtharraingt_nf"
 
+# cf grod_a below (which is a FF)
 # GAOL: grod_a
 msgid "grad_a"
 msgstr "grod_a;tobann_a;tapa_a"
@@ -29949,7 +29982,7 @@ msgstr "grianmhar_a"
 
 # Sc. frown, scowl.  FGB greann^2 is "irritated appearance" but 
 # rare enough that I'm declaring it a false friend and putting in spurious-gd
-# GAOL:
+# GAOL: greann_nm
 msgid "greann_nm"
 msgstr "strainc_nf"
 
@@ -30124,7 +30157,7 @@ msgstr "talamh_nm;grinneall_nm"
 # Ir. grinneas (perspicacity, clarity) not a good match; in spurious-gd
 # Sc. means "elegance, refinement", e.g. grinneas labhairt = cuannacht cainte
 # I'd say it rises to the level of a false friend
-# GAOL:
+# GAOL: grinneas_nm
 msgid "grinneas_nm"
 msgstr "galántacht_nf;cuannacht_nf"
 
@@ -30209,18 +30242,21 @@ msgstr "bruitíneach_nf"
 msgid "gròban_nm"
 msgstr "liathlus_nm"
 
-# false friend
-# GAOL:
+# false friend (cf. grad_a above which is the actual cognate of Ir. grod_a)
+# note that "grod" is an alt of rod_v in FGB
+# GAOL: rodta_a
 msgid "grod_a"
 msgstr "lofa_a;uafásach_a;bréan_a"
 
-# GAOL:
+# cf previous
+# GAOL: rod_v
 msgid "grod_v"
 msgstr "lobh_v"
 
-# GAOL:
+# cf previous two
+# GAOL: rodadh_nm
 msgid "grodadh_nm"
-msgstr "lobhadh_nm"
+msgstr "lobhadh_nm;rodadh_nm"
 
 # gooseberry
 # GAOL:
@@ -30244,7 +30280,7 @@ msgid "gruagach_a"
 msgstr "gruagach_a"
 
 # first def: maiden, girl; false friend mar sin
-# GAOL:
+# GAOL: gruagach_nm
 msgid "gruagach_nf"
 msgstr "cailín_nm"
 
@@ -30453,8 +30489,9 @@ msgstr "guítheach_nm"
 msgid "guil_v"
 msgstr "goil_v"
 
-# Sc. means "curlew".  Same word in Irish is "godwit", false friend
-# GAOL:
+# Sc. means "curlew".  Same word in Irish is "godwit" (another wading bird),
+# so calling this a false friend
+# GAOL: guilbneach_nf
 msgid "guilbneach_nf"
 msgstr "crotach_nm"
 
@@ -30869,7 +30906,7 @@ msgstr "caoineadh_nm;uaigneas_nm;cumha_nm;brón_nm"
 # iargúlta is false friend, more or less
 # Sc. is "forbidden-looking, eerie, haunting, surly, inhospitable
 # Ir. below from parallel corpus
-# GAOL:
+# GAOL: iargúlta_a
 msgid "iargalta_a"
 msgstr "gairgeach_a;doicheallach_a;bagrach_a"
 
@@ -31124,7 +31161,7 @@ msgid "imrich-a-steach_nm"
 msgstr "inimirce_nf"
 
 # false friend; like Ir. inmhe but not the same
-# GAOL:
+# GAOL: inmhe_nf
 msgid "inbhe_nf"
 msgstr "céim_nf;stádas_nm;leibhéal_nm"
 
@@ -31396,7 +31433,7 @@ msgid "inntinn_nf"
 msgstr "intinn_nf"
 
 # false friend; Ir. intinneach = mental, intelligent
-# GAOL:
+# GAOL: intinneach_a
 msgid "inntinneach_a"
 msgstr "suimiúil_a;spéisiúil_a"
 
@@ -33587,8 +33624,8 @@ msgstr "learg_nf;lóma_nm"
 msgid "leas_nm"
 msgstr "leas_nm"
 
-# false friend
-# GAOL:
+# related, but still a false friend (tho see verb below)
+# GAOL: leasú_nm
 msgid "leasachadh_nm"
 msgstr "forbairt_nf"
 
@@ -34601,7 +34638,7 @@ msgstr "liopard_nm"
 
 # Ir. lios (fairy mound, ring fort) related but putting it in spurious-gd
 # false friend
-# GAOL:
+# GAOL: lios_nm
 msgid "lios_nf"
 msgstr "garraí_nm;gairdín_nm"
 
@@ -35174,7 +35211,7 @@ msgstr "lorg_nm;cuardach_nm;aimsiú_nm"
 # false friend; gd = find, ga = search
 # separate entry for "lorgaich" in AFB, "track, track, search, pursue"
 # see below for that...
-# GAOL:
+# GAOL: lorg_v
 msgid "lorg_v"
 msgstr "aimsigh_v"
 
@@ -36162,11 +36199,13 @@ msgstr "mairnéalach_nm"
 msgid "màirnealach_a"
 msgstr "fadálach_a;mall_a"
 
+# Dinneen gives "tediousness" as a def. for "mairnéalacht"
+# along with "sailing, navigation"... false friend all the same
 # GAOL:
 msgid "màirnealachd_nf"
 msgstr "moilleadóireacht_nf"
 
-# GAOL:
+# GAOL: ~
 msgid "mairsinn_nf"
 msgstr "maireachtáil_nf"
 
@@ -38304,7 +38343,7 @@ msgid "mircean_nm"
 msgstr "láir bhán"
 
 # false friend => spurious-gd
-# GAOL:
+# GAOL: meidhir_nf
 msgid "mire_nf"
 msgstr "spraoi_nm;meidhir_nf;macnas_nm"
 
@@ -38317,7 +38356,8 @@ msgstr "súgradh_nm"
 msgid "mìrean_nm"
 msgstr "mír_nf"
 
-# GAOL:
+# cf mire_nf above
+# GAOL: ~
 msgid "mireanach_a"
 msgstr "meidhreach_a"
 
@@ -38663,7 +38703,7 @@ msgstr "mórtasach_a;maíteach_a;uaibhreach_a;bródúil_a"
 msgid "moitif_nm"
 msgstr "móitíf_nf"
 
-# false friend
+# false friend; MacBain says from Norse möl
 # GAOL:
 msgid "mol_nm"
 msgstr "duirling_nf"
@@ -41218,9 +41258,10 @@ msgstr "neamhthoilteanach_a"
 msgid "neo-thorach_a"
 msgstr "neamhthorthúil_a"
 
+# infertile, of women in Bible; cf. previous and torach vs torrach
 # GAOL: ~
 msgid "neo-thorrach_a"
-msgstr "neamhthorthúil_a"
+msgstr "neamhthorthúil_a;aimrid_a"
 
 # GAOL: ~
 msgid "neo-thràthail_a"
@@ -42039,7 +42080,7 @@ msgid "oilean_nm"
 msgstr "oiliúint_nf"
 
 # false friend
-# GAOL:
+# GAOL: oiliúnaí_nm
 msgid "oileanach_nm"
 msgstr "mac léinn_nm"
 
@@ -43646,7 +43687,7 @@ msgstr "éadálach_a;rathúil_a;bisiúil_a"
 # false friend; Dwelly has sense "sorcery, witchcraft, divination"
 # but always "kitten" modern corpus.  Because of spelling rule changes
 # need to have "piseog" in spurious-gd
-# GAOL:
+# GAOL: puisín_nm
 msgid "piseag_nf"
 msgstr "piscín_nm;puisín_nm"
 
@@ -43802,6 +43843,10 @@ msgid "plàst_v"
 msgstr "plástráil_v"
 
 # GAOL: ~
+msgid "plàstadh_nm"
+msgstr "plástráil_nf"
+
+# GAOL: ~
 msgid "plastaig_a"
 msgstr "plaisteach_a"
 
@@ -43844,18 +43889,6 @@ msgstr "achainí_nf"
 # GAOL:
 msgid "plèana_nm"
 msgstr "eitleán_nm"
-
-# GAOL: ~
-msgid "plèastar_nm"
-msgstr "plástar_nm"
-
-# GAOL: ~
-msgid "plèastraig_v"
-msgstr "plástráil_v"
-
-# GAOL: ~
-msgid "plèastraigeadh_nm"
-msgstr "plástráil_nf"
 
 # Dwelly: "patch"; also "plate" as in geology, and "pleat" in AFB
 # GAOL: pléata_nm;pláta_nm
@@ -44014,7 +44047,7 @@ msgid "poblachdas_nm"
 msgstr "poblachtachas_nm"
 
 # bag, sack. Also a misspelling of "pòca" which is an alt of pòcaid_nf
-# false friend
+# false friend; MacBain says from Scots "pock" (== Eng. "poke")
 # GAOL:
 msgid "poca_nm"
 msgstr "mála_nm"
@@ -45059,7 +45092,7 @@ msgstr "bródúil_a;mórtasach_a"
 msgid "pronn_a"
 msgstr "brúite_a"
 
-# false friend, I guess (Ir. bronn totally different)
+# false friend, I guess (Ir. bronn totally different; cognate? see MacBain)
 # GAOL:
 msgid "pronn_v"
 msgstr "brúigh_v"
@@ -46293,19 +46326,20 @@ msgstr "riar_nm;sásamh_nm"
 msgid "riarachair_nm"
 msgstr "riarthóir_nm"
 
-# false friend
-# GAOL:
+# 1. satisfy 2. distribute, allocate
+# false friend when it means "satisfy" (most common sense)!
+# GAOL: riar_v
 msgid "riaraich_v"
-msgstr "sásaigh_v"
+msgstr "sásaigh_v;riar_v"
 
 # GAOL: ~
 msgid "riaraiche_nm"
 msgstr "riarthóir_nm"
 
-# false friend
-# GAOL:
+# false friend; see riaraich_v above
+# GAOL: riartha_a
 msgid "riaraichte_a"
-msgstr "sásta_a"
+msgstr "sásta_a;riartha_a"
 
 # GAOL: ~
 msgid "riaraiste_nm"
@@ -46529,6 +46563,9 @@ msgid "rìoghair_nm"
 msgstr "ríogaí_nm"
 
 # false friend
+# see MacBain, gives Irish rímheighe which I only see in Bedell's Bible
+# Deut. 28:56 (OF81 has cineáltas for that word)
+# Dinneen gives "finery" for "ríméad"
 # GAOL:
 msgid "rìomhach_a"
 msgstr "álainn_a;galánta_a"
@@ -47596,10 +47633,6 @@ msgid "rùraich_v"
 msgstr "lorg_v"
 
 # GAOL: ~
-msgid "rus_nm"
-msgstr "rís_nf"
-
-# GAOL: ~
 msgid "rùsg_nm"
 msgstr "rúsc_nm"
 
@@ -47616,6 +47649,7 @@ msgid "sa_prep"
 msgstr "sa_prep;san_prep"
 
 # false friend; nothing to do with Sabóid
+# nothing good in MacBain (cross-refs tabaid which notes Breton tabut)
 # GAOL:
 msgid "sabaid_nf"
 msgstr "troid_nf"
@@ -48098,9 +48132,10 @@ msgstr "sampla_nm"
 msgid "san_prep"
 msgstr "san_prep;sa_prep"
 
+# notice, warning, etc.
 # false friend; Ir. sanas = gloss, glossary
 # cf sanasan_nm below
-# GAOL:
+# GAOL: sanas_nm
 msgid "sanas_nm"
 msgstr "fógra_nm"
 
@@ -49561,21 +49596,21 @@ msgid "sèine_nf"
 msgstr "slabhra_nm"
 
 # primarily "singing"; false friend
-# GAOL:
+# GAOL: seinm_nf
 msgid "seinn_nf"
 msgstr "canadh_nm"
 
 # primarily "sing"; Ir. seinn is a false friend
-# GAOL:
+# GAOL: seinn_v
 msgid "seinn_v"
 msgstr "can_v"
 
 # primarily "singer"
-# GAOL:
+# GAOL: seinnteoir_nm
 msgid "seinneadair_nm"
 msgstr "amhránaí_nm"
 
-# GAOL:
+# GAOL: seinm_nf
 msgid "seinneadh_nm"
 msgstr "canadh_nm"
 
@@ -49639,10 +49674,11 @@ msgstr "ceol_nm;ton_nm"
 msgid "seirm_v"
 msgstr "cling_v"
 
-# peer, including computing; Ir. seise is related but rare, literary => spurious-gd
+# peer, including computing;
+# Ir. seise is related but rare, literary => spurious-gd
 # not that plural seisean coincides with Irish pronoun (so a false friend)
 # and also Sc. seisean_nm below
-# GAOL:
+# GAOL: seise_nm
 msgid "seise_nm"
 msgstr "comhghleacaí_nm"
 
@@ -50551,7 +50587,7 @@ msgid "sgileil_a"
 msgstr "sciliúil_a"
 
 # false friend
-# GAOL:
+# GAOL: scilling_nf
 msgid "sgillinn_nf"
 msgstr "pingin_nf"
 
@@ -50661,7 +50697,7 @@ msgid "sgìre-riaghlaidh_nf"
 msgstr "bardasacht_nf"
 
 # false friend; Ir. scíth = rest
-# GAOL:
+# GAOL: scíth_nf
 msgid "sgìth_a"
 msgstr "tuirseach_a"
 
@@ -52350,7 +52386,7 @@ msgstr "slaod_v;tarraing_v"
 # all parallel corpus examples correspond to "mall"
 # Ir. "viscous", etc. is related but different enough to go in spurious-gd
 # and declare it to be a false friend
-# GAOL:
+# GAOL: slaodach_a
 msgid "slaodach_a"
 msgstr "mall_a"
 
@@ -53552,20 +53588,12 @@ msgid "solarach_a"
 msgstr "soláthrach_a"
 
 # GAOL: ~
-msgid "solarachadh_nm"
-msgstr "soláthar_nm"
-
-# GAOL: ~
 msgid "solarachd_nf"
 msgstr "soláthar_nm"
 
 # GAOL: ~
 msgid "solaradh_nm"
 msgstr "soláthar_nm"
-
-# GAOL: ~
-msgid "solaraich_v"
-msgstr "soláthair_v"
 
 # GAOL: ~
 msgid "solaraiche_nm"
@@ -54084,7 +54112,7 @@ msgid "spèirlinn_nf"
 msgstr "smealt Eorpach_nm"
 
 # not "spéis"! false friend
-# GAOL:
+# GAOL: spéis_nf
 msgid "spèis_nf"
 msgstr "meas_nm;urraim_nf;grá_nm"
 
@@ -54577,7 +54605,7 @@ msgstr "dordánaí_nm"
 
 # Ir. sraon is a false friend
 # 1. stumble, take a false step
-# GAOL:
+# GAOL: sraon_v
 msgid "sraon_v"
 msgstr "tuisligh_v"
 
@@ -54939,6 +54967,7 @@ msgstr "talcánta_a"
 
 # cliff, precipice, steep rock
 # Ir. stalla (stall) is false friend
+# MacBain says this is from Norse "stallr"
 # GAOL:
 msgid "stalla_nm"
 msgstr "aill_nf"
@@ -55408,6 +55437,7 @@ msgid "stòrlann_nf"
 msgstr "stórlann_nf"
 
 # steam, odor. Ir. stoth ("mop of hair, shock of grain") is a false friend
+# MacBain crossrefs "toth", and then "toit"
 # GAOL:
 msgid "stoth_nm"
 msgstr "gal_nf"
@@ -56058,7 +56088,8 @@ msgid "sulfar_nm"
 msgstr "sulfar_nm"
 
 # fat, blubber.  False friend, of course. Not in parallel corpus.
-# GAOL:
+# eDIL also has defs "fatness, prosperity" for sult, so these are cognate
+# GAOL: sult_nm
 msgid "sult_nm"
 msgstr "raimhre_nf"
 
@@ -56066,8 +56097,8 @@ msgstr "raimhre_nf"
 msgid "Sultain_nf"
 msgstr "Meán Fómhair"
 
-# see "sult_nm" above; sultmhar is a false friend
-# GAOL:
+# see "sult_nm" above; sultmhar is a false friend for same reason
+# GAOL: sultmhar_a
 msgid "sultmhor_a"
 msgstr "beathaithe_a;feolmhar_a"
 
@@ -57174,12 +57205,12 @@ msgstr "crógacht_nf;clisteacht_nf"
 # gs "tapaidh" clashes with adj. below
 # almost always in phrase "tapadh leat/leibh"; see multi-gd
 # "cleverness" in dicts
-# GAOL:
+# GAOL: tapa_nm
 msgid "tapadh_nm"
 msgstr "clisteacht_nf"
 
 # false friend
-# GAOL:
+# GAOL: tapa_a
 msgid "tapaidh_a"
 msgstr "cliste_a"
 
@@ -57459,7 +57490,7 @@ msgid "tatù_nm"
 msgstr "tatú_nm"
 
 # false friend; specifically fem. in gd
-# GAOL:
+# GAOL: té_pn
 msgid "tè_nf"
 msgstr "bean_nf"
 
@@ -57617,8 +57648,9 @@ msgstr "teangaireacht_nf"
 msgid "teann_a"
 msgstr "teann_a"
 
-# move, begin
-# GAOL:
+# move, begin; false friend even though both languages share sense
+# "to draw near" (teann le)
+# GAOL: teann_v
 msgid "teann_v"
 msgstr "bog_v;tosaigh_v"
 
@@ -57632,7 +57664,7 @@ msgid "teannadan_nm"
 msgstr "teanntán_nm"
 
 # false friend (in spurious-gd)
-# GAOL:
+# GAOL: teannadh_nm
 msgid "teannadh_nm"
 msgstr "tosú_nm"
 
@@ -59000,7 +59032,7 @@ msgstr "cuircín_nm;curca_nm"
 msgid "topas_nm"
 msgstr "tópás_nm"
 
-# productive
+# productive, fruitful; cf. torrach_a which has additional sense "pregnant"
 # GAOL: ~
 msgid "torach_a"
 msgstr "torthúil_a"
@@ -59057,7 +59089,9 @@ msgstr "go leor;a lán;an-chuid;cuid mhór;slám"
 msgid "tòrr_v"
 msgstr "carn_v;taisc_v"
 
-# GAOL: ~
+# 1. fertile, fruitful (for which, see also torach_a) 2. pregnant
+# almost always sense 2 in Bible
+# GAOL: torrach_a
 msgid "torrach_a"
 msgstr "torrach_a"
 
@@ -59314,14 +59348,14 @@ msgid "trast-thomhas_nm"
 msgstr "trastomhas_nm"
 
 # false friend
-# GAOL:
+# GAOL: tráth_nm
 msgid "tràth_a"
 msgstr "luath_a"
 
 # "có aca a dh'fhàg tràth?"
 # note adj. above corresponds to "luath", hence "cho tràth" = "chomh luath"
 # false friend
-# GAOL:
+# GAOL: tráth_nm
 msgid "tràth_adv"
 msgstr "go luath;go moch"
 
@@ -59965,12 +59999,12 @@ msgstr "sodar_nm;bogshodar_nm"
 # cognate in Irish (at least in dicts) refers to the object of compassion:
 # piteous, plaintive, touching, mournful; false friend mar sin!
 # cognate more common in Ir.
-# GAOL:
+# GAOL: truacánta_a
 msgid "truacanta_a"
 msgstr "truachroíoch_a"
 
-# same deal as above w/ Ir. truacántacht
-# GAOL:
+# same deal as above w/ Ir. truacántacht, so also false friend
+# GAOL: truacántacht_nf
 msgid "truacantas_nm"
 msgstr "trua_nf;trócaire_nf"
 
@@ -60089,7 +60123,7 @@ msgid "trusadh_nm"
 msgstr "bailiú_nm;tiomsú_nm;díolaim_nf"
 
 # false friend; Ir. troscán means "furniture"
-# GAOL:
+# GAOL: troscán_nm
 msgid "trusgan_nm"
 msgstr "éide_nf"
 
@@ -60234,7 +60268,7 @@ msgid "tuathal_adv"
 msgstr "tuathal_adv"
 
 # false friend; Ir. more generally "culchie, peasant"
-# GAOL:
+# GAOL: tuathánach_nm
 msgid "tuathanach_nm"
 msgstr "feirmeoir_nm"
 
@@ -60537,8 +60571,9 @@ msgstr "tonnadóir_nm"
 msgid "tunnag_nf"
 msgstr "lacha_nf"
 
-# false friend
-# GAOL:
+# false friend; Ir. tura is "dimension, breadth" in FGB, with
+# the additional sense of "plenty, abundance" in eDIL; cf MacBain
+# GAOL: tura_nm
 msgid "tur_a"
 msgstr "iomlán_a"
 
@@ -60735,11 +60770,11 @@ msgid "uachdarach_a"
 msgstr "uachtarach_a;uachtair"
 
 # false friend; Ir. uachtarán = president specifically
-# GAOL:
+# GAOL: uachtarán_nm
 msgid "uachdaran_nm"
 msgstr "tiarna_nm"
 
-# GAOL:
+# GAOL: uachtarán_nm
 msgid "Uachdaran_nm"
 msgstr "Tiarna_nm"
 

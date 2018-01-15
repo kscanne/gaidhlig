@@ -17984,6 +17984,7 @@ soillseach_a	0	0	0
 soillseachadh_nm	0	1	0
 soillseadh_nm	0	0	soillseachadh_nm
 soillsich_v	0	0	0
+soimeach_a	0	0	0
 soindath_nm	soindatha	1	0
 soineannta_a	0	0	0
 soineanntachd_nf	0	0	0
@@ -18784,6 +18785,8 @@ sult_nm	0	1	0
 Sultain_nf	0	1	0
 Sultainn_nf	0	1	Sultain_nf
 sultmhor_a	0	0	0
+sumaid_nf	0	0	sumainn_nf
+sùmaid_nf	0	0	sumainn_nf
 sumain_v	sumanadh_nm	0	0
 sumainn_nf	0	0	0
 sumair_nm	0	0	0
@@ -20545,6 +20548,8 @@ umh'l_a	umh'l	umh'l	umhail_a
 ùmhlachd_nf	0	0	0
 ùmhlaich_v	0	0	0
 umpa_pronm	umpasan	0	0
+umpaidh_nm	umpaidh	0	ùmaidh_nf
+ùmpaidh_nm	ùmpaidh	0	ùmaidh_nf
 uncail_nm	uncail	0	0
 unfairt_nf	unfairt	1	0
 unfairt_v	unfairt_nf	0	0

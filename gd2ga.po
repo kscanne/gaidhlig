@@ -137,15 +137,15 @@ msgstr "oighearshruth_nm"
 msgid "àbhaist_nf"
 msgstr "gnáth_nm"
 
-# GAOL:
+# GAOL: <d àbhaist_nf
 msgid "àbhaisteach_a"
 msgstr "gnách_a"
 
-# GAOL:
+# GAOL: <d àbhaist_nf
 msgid "àbhaisteachadh_nm"
 msgstr "normalú_nm"
 
-# GAOL:
+# GAOL: <d àbhaist_nf
 msgid "àbhaisteachd_nf"
 msgstr "nósmhaireacht_nf"
 
@@ -291,7 +291,7 @@ msgstr "acarsóid_nf;cuan_nm;calafort_nm"
 msgid "acfhainn_nf"
 msgstr "acmhainn_nf;uirlis_nf;ola_nf"
 
-# GAOL:
+# GAOL: acfhainn_nf+ceòl
 msgid "acfhainn-chiùil_nf"
 msgstr "trealamh ceoil"
 
@@ -421,7 +421,7 @@ msgstr "aisteoireacht_nf"
 msgid "actair_nm"
 msgstr "aisteoir_nm"
 
-# GAOL: ~
+# GAOL:
 msgid "actaireachd_nf"
 msgstr "aisteoireacht_nf"
 
@@ -447,7 +447,7 @@ msgstr "haitéir_nm"
 msgid "Adair_nm"
 msgstr "Haitéir_nm"
 
-# GAOL:
+# GAOL: eng:adapter
 msgid "adaptar_nm"
 msgstr "cuibheoir_nm"
 
@@ -9682,6 +9682,7 @@ msgstr "cárta creidmheasa"
 msgid "cairt-cluiche_nm"
 msgstr "cárta imeartha"
 
+# small cart
 # GAOL:
 msgid "cairteag_nf"
 msgstr "carrán_nm;timbril_nf"
@@ -27731,7 +27732,7 @@ msgid "Gàidhealtachd_nf"
 msgstr "Gaeltacht_nf"
 
 # was "Gaeilge na hAlban" but that gets awkward quickly
-# GAOL: ~
+# GAOL: Gaeilge_nf
 msgid "Gàidhlig_nf"
 msgstr "Gàidhlig"
 

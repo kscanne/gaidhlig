@@ -1072,6 +1072,10 @@ sub read_po_file
 						maybe_add_pair($id, $aistriuchan, $bilingual, 0);
 					}
 					else {
+						# strictly speaking is msgstr is e.g. fíor1_nf
+						# the 1 is optional, but preferred for interface
+						# with other systems like gaeilge/sanas
+						$aistriuchan =~ s/1_/_/;
 						maybe_add_pair($aistriuchan, $id, $bilingual, 1);
 					}
 				}

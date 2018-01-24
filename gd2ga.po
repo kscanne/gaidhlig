@@ -3020,7 +3020,7 @@ msgstr "éadach oíche"
 
 # GAOL:
 msgid "aodach-uachdair_nm"
-msgstr "foréadach_nm;brat_nm"
+msgstr "foréadach_nm;brat1_nm"
 
 # focal doiléir
 # GAOL: éadan_nm
@@ -5883,7 +5883,7 @@ msgstr "gan chiall;ar bheagán céille"
 # "feat, wonder" in Sailm
 # GAOL: beart_nm
 msgid "beairt_nf"
-msgstr "inneall_nm;beart_nm;éacht_nm"
+msgstr "inneall_nm;beart1_nm;éacht_nm"
 
 # false friend; Ir. beartach = cleasach
 # GAOL:
@@ -7838,7 +7838,7 @@ msgstr "fánsruth_nm"
 
 # GAOL: ~
 msgid "brat_nm"
-msgstr "brat_nm"
+msgstr "brat1_nm"
 
 # GAOL: ~
 msgid "bratach_nf"
@@ -7898,7 +7898,7 @@ msgstr "bratlong_nf"
 # bible, parallel
 # GAOL:
 msgid "brat-roinn_nm"
-msgstr "brat_nm;cuirtín_nm"
+msgstr "brat1_nm;cuirtín_nm"
 
 # GAOL: brat urláir
 msgid "brat-ùrlair_nm"
@@ -10428,9 +10428,10 @@ msgstr "cor_nm"
 msgid "car_prep"
 msgstr "ar feadh"
 
+# automobile
 # GAOL:
 msgid "càr_nm"
-msgstr "carr_nm"
+msgstr "carr1_nm"
 
 # not in corpus
 # GAOL: ~
@@ -10535,7 +10536,7 @@ msgstr "carat_nm;carait_nf"
 
 # GAOL: carbad_nm
 msgid "carbad_nm"
-msgstr "carbad_nm;carr_nm"
+msgstr "carbad_nm;carr1_nm"
 
 # GAOL: ~
 msgid "carbadair_nm"
@@ -31539,7 +31540,7 @@ msgstr "Íoslainnis_nf"
 
 # GAOL:
 msgid "innleachd_nf"
-msgstr "beart_nm"
+msgstr "beart1_nm"
 
 # tactical, adept, inventive, scheming
 # GAOL:
@@ -43395,7 +43396,7 @@ msgstr "filleadh_nm"
 # fillteán in computing
 # GAOL:
 msgid "pasgan_nm"
-msgstr "beart_nm;burla_nm;pacáiste_nm;fillteán_nm"
+msgstr "beart1_nm;burla_nm;pacáiste_nm;fillteán_nm"
 
 # GAOL: ~
 msgid "pasta_nm"

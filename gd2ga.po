@@ -4719,7 +4719,11 @@ msgstr "bagairt_nf"
 msgid "baibheil_a"
 msgstr "iontach_a"
 
-# GAOL:
+# 1. fortress/battlement 2. cloud (metaphorical - pillar of a cloud)
+# capture second sense in multi (baideal neoil, baideal neòil)
+# MacBain says cognate with english
+# note this is also cognate with gv:bodjal!
+# GAOL: eng:battle
 msgid "baideal_nm"
 msgstr "daingean_nm;bábhún_nm"
 
@@ -7347,9 +7351,11 @@ msgstr "Bóideach"
 msgid "bòidhchead_nf"
 msgstr "dathúlacht_nf;áilleacht_nf;dóighiúlacht_nf"
 
-# GAOL:
+# parallel corpus
+# MacBain: "for buaidheach, "having virtues", from buaidh, q.v."
+# GAOL: <d buaidheach_a
 msgid "bòidheach_a"
-msgstr "deas_a;álainn_a"
+msgstr "deas_a;álainn_a;gleoite_a;dóighiúil_a"
 
 # GAOL: móidigh_v
 msgid "bòidich_v"
@@ -7403,11 +7409,11 @@ msgstr "braonán_nm"
 msgid "boireann_a"
 msgstr "baineann_a"
 
-# GAOL:
+# GAOL: <d boireann_a
 msgid "boireannach_nm"
 msgstr "bean_nf"
 
-# GAOL:
+# GAOL: <d boireann_a
 msgid "boireannta_a"
 msgstr "baininscneach_a;baineann_a"
 
@@ -7426,6 +7432,13 @@ msgstr "boladh_nm"
 # GAOL: ~
 msgid "bolgan_nm"
 msgstr "bolgán_nm"
+
+# 1. buoy 2. boll (measure); MacBain links this sense with English
+# As with gv:bolley, using made up term "ból" which is actually in FGG for
+# "bole" (a reddish clay)
+# GAOL: eng:boll
+msgid "bolla_nm"
+msgstr "ból_nm"
 
 # crier
 # GAOL: ~
@@ -7740,6 +7753,11 @@ msgstr "broim_nm"
 # GAOL: brá_nm
 msgid "bràigh_nm"
 msgstr "brá_nm;barr_nm"
+
+# horse-collar (cf gv:breadagh, swingle-tree)
+# GAOL: ~
+msgid "bràighdeach_nf"
+msgstr "braighdeán_nm"
 
 # GAOL: ~
 msgid "braighdeanas_nm"
@@ -8158,6 +8176,11 @@ msgstr "briathar_nm;focal_nm"
 msgid "briathrach_a"
 msgstr "cainteach_a;briathrach_a"
 
+# affirming, swearing; no cognate with right sense
+# GAOL: <i briathraich_v
+msgid "briathrachadh_nm"
+msgstr "móidiú_nm;mionnú_nm"
+
 # GAOL:
 msgid "briathrachan_nm"
 msgstr "gluais_nf;stór focail"
@@ -8165,6 +8188,16 @@ msgstr "gluais_nf;stór focail"
 # GAOL: briathrachas_nm
 msgid "briathrachas_nm"
 msgstr "briathrachas_nm;téarmaíocht_nf"
+
+# dictionary, lexicon, glossary
+# GAOL: <d briathar_nm
+msgid "briathradair_nm"
+msgstr "foclóir_nm"
+
+# affirming, swearing; no cognate with right sense
+# GAOL: <d briathar_nm
+msgid "briathraich_v"
+msgstr "móidigh_v;mionnaigh_v"
 
 # GAOL: ~
 msgid "brib_nf"
@@ -8233,6 +8266,16 @@ msgstr "bríomhar_a;bríoch_a"
 # GAOL: ~
 msgid "brìoghmhorachd_nf"
 msgstr "bríomhaireacht_nf"
+
+# two words here: 1. brindled, striped 2. pretty (or flattering)
+# latter cognate with Ir. (and Mx)
+# GAOL: ~
+msgid "brionnach_a"
+msgstr "brionnach_a"
+
+# GAOL: <d brionnach_a
+msgid "brionnalachd_nf"
+msgstr "bladaireacht_nf;plámás_nm"
 
 # breeze; not in corpus
 # GAOL:
@@ -8410,7 +8453,9 @@ msgstr "bladair_v"
 msgid "brosgal_nm"
 msgstr "bladar_nm"
 
-# GAOL:
+# brosnaigh is alt brostaigh in FGB
+# almost always spreagadh in parallel corpus
+# GAOL: brostú_nm
 msgid "brosnachadh_nm"
 msgstr "spreagadh_nm;gríosú_nm"
 
@@ -8418,7 +8463,8 @@ msgstr "spreagadh_nm;gríosú_nm"
 msgid "brosnachail_a"
 msgstr "spreagúil_a"
 
-# GAOL:
+# brosnaigh is alt brostaigh in FGB
+# GAOL: brostaigh_v
 msgid "brosnaich_v"
 msgstr "spreag_v"
 
@@ -8660,6 +8706,11 @@ msgstr "buaiceas_nm"
 # GAOL: bua_nm
 msgid "buaidh_nf"
 msgstr "tionchar_nm;éifeacht_nf;bua_nm"
+
+# victorious, effective
+# GAOL: buach_a;<d buaidh_nf
+msgid "buaidheach_a"
+msgstr "buach_a;éifeachtach_a"
 
 # GAOL: ~
 msgid "buail_v"
@@ -9357,6 +9408,12 @@ msgstr "codlatán_nm"
 # GAOL:
 msgid "cadha_nm"
 msgstr "bearnas_nm"
+
+# a wedge, swingletree wedge (MacBain/Dwelly)
+# also an alt spelling for cathag_nf "jackdaw" below
+# GAOL: ~
+msgid "cadhag_nf"
+msgstr "ding_nf"
 
 # GAOL: ~
 msgid "cadh-luibh_nf"
@@ -10850,7 +10907,7 @@ msgstr "cáith_v"
 msgid "cathadh_nm"
 msgstr "síobadh_nm"
 
-# jackdaw, also in combos
+# jackdaw, also in combos (sometimes spelled cadhag)
 # GAOL: ~
 msgid "cathag_nf"
 msgstr "cág_nm"
@@ -12952,6 +13009,7 @@ msgstr "clúmhilleadh_nm"
 msgid "clò_nm"
 msgstr "cló_nm"
 
+# also Mx. clou(w), pl. cloughyn
 # GAOL:
 msgid "clobha_nm"
 msgstr "tlú_nm;maide briste"
@@ -14038,6 +14096,12 @@ msgstr "ríomhaire boise"
 msgid "coimpiutair-stiùiridh_nm"
 msgstr "ríomhaire stiúrtha"
 
+# hinder, restrain, trouble
+# etym. in MacBain and HLSM under gv:cumrail
+# GAOL: eng:cumber
+msgid "coimrig_v"
+msgstr "coisc_v"
+
 # GAOL:
 msgid "co-inbheach_nm"
 msgstr "comhghleacaí_nm"
@@ -15058,12 +15122,14 @@ msgid "còrd_nm"
 msgstr "corda_nm"
 
 # focal doiléir
+# see MacBain - from obs. Eng.?
 # GAOL:
 msgid "còrd_v"
 msgstr "taitin_v"
 
 # focal doiléir
-# GAOL:
+# Manx coardail links here
+# GAOL: <i còrd_v
 msgid "còrdadh_nm"
 msgstr "taitneamh_nm"
 
@@ -15253,6 +15319,11 @@ msgstr "ailbheolas_nm;cuasán_nm"
 # GAOL:
 msgid "còsagach_a"
 msgstr "cuasach_a"
+
+# compare, contrast
+# GAOL:
+msgid "cosamhlachadh_nm"
+msgstr "cóimheas_nm"
 
 # spend, wear; focal doiléir
 # GAOL:
@@ -16008,6 +16079,7 @@ msgid "crobh-preachain_nm"
 msgstr "crobh fola"
 
 # hook, crook, pot-hook.  Ir. crocán is a pot.
+# MacBain says from Norse krókr
 # GAOL:
 msgid "cròcan_nm"
 msgstr "crúca_nm"
@@ -16845,7 +16917,7 @@ msgid "cuideachail_a"
 msgstr "cúntach_a;fóinteach_a;cabhrach_a"
 
 # false friend
-# GAOL:
+# GAOL: <d cuideachd_nf
 msgid "cuideachd_adv"
 msgstr "freisin_adv;fosta_adv;chomh maith_adv"
 
@@ -16854,7 +16926,7 @@ msgid "cuideachd_nf"
 msgstr "comhluadar_nm;cuideachta_nf"
 
 # social, sociable
-# GAOL: ~
+# GAOL: ~;cuideachd_nf+-ail
 msgid "cuideachdail_a"
 msgstr "cuideachtúil_a"
 
@@ -16944,6 +17016,11 @@ msgstr "coileán_nm"
 # GAOL: ~
 msgid "cuileann_nm"
 msgstr "cuileann_nm"
+
+# cognate is rare
+# GAOL: cuile_nf
+msgid "cuilidh_nf"
+msgstr "cuile_nf;siléar_nm"
 
 # GAOL:
 msgid "cuillsean_nm"
@@ -20706,6 +20783,7 @@ msgstr "dochraigh_v"
 msgid "dochair_nf"
 msgstr "dochar_nm"
 
+# see eDIL 2 dochonn "hurt, harm, injury, damage"
 # GAOL:
 msgid "dochann_nm"
 msgstr "leadradh_nm;bualadh_nm;greadadh_nm"
@@ -21836,6 +21914,17 @@ msgstr "drumadóireacht_nf"
 # GAOL: druncaeir_nm
 msgid "drungair_nm"
 msgstr "druncaeir_nm;meisceoir_nm"
+
+# MacBain links dúaidh (O'Br.) - "evil"
+# horrid scene, fight, battle
+# GAOL:
+msgid "duaidh_nf"
+msgstr "cath_nm"
+
+# Dwelly (only): Mischievous, calamitous
+# GAOL:
+msgid "duaidheach_a"
+msgstr "tubaisteach_a"
 
 # GAOL: ~
 msgid "duais_nf"
@@ -58740,10 +58829,20 @@ msgstr "adhlaic_v"
 msgid "tiog_nm"
 msgstr "tic_nm"
 
+# delicate, tender, sensitive
+# GAOL: ~
+msgid "tiom_a"
+msgstr "tim_a"
+
 # thyme; gd also has "lus an rìgh"
 # GAOL: ~
-msgid "tiom_nf"
+msgid "tìom_nf"
 msgstr "tím_nf"
+
+# delicateness, tenderness, sensitivity
+# GAOL: ~
+msgid "tioma_nf"
+msgstr "time_nf"
 
 # GAOL: ~
 msgid "tiom-chainnt_nf"

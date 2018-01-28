@@ -167,6 +167,7 @@ adharagram_nm	0	0	0
 adharc_nf	0	0	0
 adharc1_nf	0	adhaircean	adharc_nf
 adharcach_a	0	0	0
+adharcan_nm	0	adharcain	0
 adhart_nm	0	0	0
 adhartach_a	0	0	0
 adhartach_nm	0	0	0
@@ -8210,6 +8211,7 @@ facal-toisich_nm	facail-toisich	faclan-toisich	0
 fachach_nm	0	fachachan	0
 facinn_nf	facinn	1	faicinn_nf
 faclach_a	0	0	0
+faclachadh_nm	0	1	0
 faclair_nm	0	0	0
 faclaireachd_nf	0	0	0
 faclairiche_nm	0	0	0
@@ -8396,6 +8398,7 @@ Fàl_nm	0	Fàil	0
 falach_nm	0	1	0
 falachan_nm	0	0	0
 falachd_nf	0	0	0
+fàladair_nm	0	0	0
 falaich_v	0	0	0
 falaichte_a	0	0	0
 falaid_nf	0	0	0
@@ -8548,6 +8551,7 @@ fasgain_v	fasganadh_nm	0	0
 fasganadh_nm	0	1	0
 fa sgaoil_adv	0	0	0
 fa-sgaoil_adv	0	0	fa sgaoil_adv
+fasgnadh_nm	0	1	fasganadh_nm
 fàsmhor_a	0	0	0
 fàsmhorachd_nf	0	0	0
 fastachd_nf	0	0	0
@@ -9362,6 +9366,8 @@ freumhail_a	0	0	0
 freumh-fhaclachd_nf	0	0	0
 frids_nm	frids	fridsichean	0
 frineas_nm	0	0	frionas_nm
+friodhan_nm	0	0	frioghan_nm
+frioghan_nm	0	frioghain	0
 frionas_nm	0	0	0
 frionasach_a	0	0	0
 Frìoslann_nf	Frìoslainne	1	0
@@ -9826,6 +9832,7 @@ ged-thà_adv	0	0	ged-tà_adv
 gèibhinn_nf	gèibhinn	0	0
 gèidh_a	0	0	0
 gèidse_nf	0	gèidsichean	0
+geil_nf	0	0	0
 geilb_nf	0	0	gilb_nf
 gèile_nm	0	gèilean	0
 gèile1_nm	0	gèiltean	gèile_nm
@@ -10257,7 +10264,9 @@ gradan_nm	0	1	0
 gradh_nm	0	1	gràdh_nm
 gràdh_nm	0	1	0
 gràdhach_a	0	0	0
+gràdhadair_nm	0	0	0
 gràdhaich_v	0	0	0
+gràdhaiche_nm	0	0	gràdhadair_nm
 gràdh-daonna_nm	gràidh-daonna	1	0
 graf_nm	grafa	grafaichean	0
 grafaigeach_a	0	0	0
@@ -10325,6 +10334,8 @@ Greanàda_nf	0	0	0
 greanmhor_a	0	0	0
 greann_nm	0	0	0
 greannach_a	0	0	0
+greannachadh_nm	0	0	0
+greannaich_v	0	0	0
 greas_v	greasad_nm	0	0
 greasad_nm	0	1	0
 grèata_nm	0	grèataichean	0

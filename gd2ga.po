@@ -494,6 +494,12 @@ msgstr "adharc_nf"
 msgid "adharcach_a"
 msgstr "adharcach_a"
 
+# lapwing, peewit; false friend (Ir. cognate is "tentacle, feeler")
+# also overlaps with pl. adharc
+# GAOL: adharcán_nm
+msgid "adharcan_nm"
+msgstr "pilibín_nm"
+
 # 1. pillow 2. progress (== adhartas)
 # For the "progress" sense, MacBain says this is a "ghost-word",
 # from MIr. araird or OIr. arairt?
@@ -23983,6 +23989,12 @@ msgstr "puifín_nm"
 msgid "faclach_a"
 msgstr "foclach_a"
 
+# express in words, put into words (Dwelly)
+# cf gv:fockley
+# GAOL: <d facal_nm
+msgid "faclachadh_nm"
+msgstr "cur i bhfocail"
+
 # GAOL: ~
 msgid "faclair_nm"
 msgstr "foclóir_nm"
@@ -24518,6 +24530,13 @@ msgstr "folachán_nm"
 # GAOL: ~
 msgid "falachd_nf"
 msgstr "fala_nf"
+
+# reaper, mower; cf. gv:folleyder
+# do I want to link "fàl" above (since this comes from just the one sense
+# which I don't know to be cognate with ga:fál?)
+# GAOL:
+msgid "fàladair_nm"
+msgstr "buainteoir_nm"
 
 # GAOL: ~
 msgid "falaich_v"
@@ -25854,7 +25873,8 @@ msgstr "fad is"
 
 # MacBain links Mid.Ir. fodechtsa (eDIL fo-dechtsa, ...) => feasta?
 # "fós" given in SCC
-# GAOL: feasta_adv
+# HLSM links foast with ga:fós, gd:feasta
+# GAOL: fós_adv
 msgid "fhathast_adv"
 msgstr "fós_adv;go fóill_adv"
 
@@ -26734,6 +26754,7 @@ msgstr "deoraí2_nm;teifeach_nm"
 msgid "foghain_v"
 msgstr "fóir_v"
 
+# cognates in MacBain
 # GAOL: fóinteach_a
 msgid "foghainteach_a"
 msgstr "fóinteach_a;cumasach_a;láidir_a;cróga_a"
@@ -26800,6 +26821,7 @@ msgid "foileag_nf"
 msgstr "bocaire_nm"
 
 # pretty consistently "feall" in parallel corpus (some "comhcheilg")
+# commonly "ri ~" or "le ~" (with deceit)
 # cf "neach/luchd-foille"
 # GAOL:
 msgid "foill_nf"
@@ -27309,9 +27331,14 @@ msgstr "fréamhaí_a"
 msgid "freumh-fhaclachd_nf"
 msgstr "sanasaíocht_nf"
 
-# GAOL:
+# GAOL: eng:fridge
 msgid "frids_nm"
 msgstr "cuisneoir_nm"
+
+# cf gv: frioggan_nm (colg a good translation there too)
+# GAOL:
+msgid "frioghan_nm"
+msgstr "colg_nm"
 
 # GAOL:
 msgid "frionas_nm"
@@ -28682,6 +28709,12 @@ msgstr "aerach_a"
 msgid "gèidse_nf"
 msgstr "tomhsaire_nm"
 
+# spring, fountain, well (Dwelly + MacBain but no etym.)
+# cf gv:geyll_nm
+# GAOL:
+msgid "geil_nf"
+msgstr "tobar_nm;fuarán_nm"
+
 # GAOL: ~
 msgid "gèile_nm"
 msgstr "gála_nm"
@@ -30051,6 +30084,11 @@ msgstr "grá_nm"
 msgid "gràdhach_a"
 msgstr "grámhar_a"
 
+# lover
+# GAOL: <d gràdh_nm
+msgid "gràdhadair_nm"
+msgstr "leannán_nm"
+
 # GAOL: ~
 msgid "gràdhaich_v"
 msgstr "gráigh_v"
@@ -30259,6 +30297,14 @@ msgstr "strainc_nf"
 # GAOL: greannach_a
 msgid "greannach_a"
 msgstr "greannach_a;gruama_a"
+
+# GAOL: ~
+msgid "greannachadh_nm"
+msgstr "greannú_nm"
+
+# GAOL: ~
+msgid "greannaich_v"
+msgstr "greannaigh_v"
 
 # GAOL:
 msgid "greas_v"

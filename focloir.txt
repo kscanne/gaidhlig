@@ -3768,6 +3768,8 @@ cealla1_nf	0	ceallan	cealla_nf
 ceallach_a	0	0	0
 ceallach_nm	0	0	0
 cealla-luirgeach_nf	cealla-luirgeach	ceallan-luirgeach	0
+cealtair_nm	0	0	0
+cealtar_nm	cealtaire	0	cealtair_nm
 Ceanadach_a	0	0	Canèidianach_a
 Ceanadach_nm	0	0	Canèidianach_nm
 ceanalta_a	0	0	0
@@ -9718,6 +9720,7 @@ gàrradaireachd_nf	0	0	gàradaireachd_nf
 garradh_nm	0	0	gàrradh_nm
 gàrradh_nm	0	0	0
 gàrradh-fìona_nm	gàrraidh-fhìona	gàrraidhean-fìona	0
+gart_nm	0	0	0
 gartan_nm	0	0	0
 gas_nf	gaise	gaisean	0
 gas_nm	gas	0	0
@@ -17730,6 +17733,8 @@ slat_nf	0	0	0
 Slat_nf	0	0	0
 slat1_nf	slaite	0	slat_nf
 slatach_a	0	0	0
+slatag_nf	0	0	0
+slatan_nm	0	slatain	0
 slat-shiùdain_nf	slait-siùdain	slatan-siùdain	0
 slat-tomhais_nf	slait-tomhais	slatan-tomhais	0
 slat-tomhaiseach_a	0	0	0
@@ -19866,6 +19871,7 @@ tostachd_nf	0	0	0
 tostair_nm	0	0	0
 tòstalach_a	0	0	0
 tòtamachd_nf	0	0	0
+tràbhach_nf	0	1	0
 trabhaig_nf	0	1	trafaig_nf
 trac_nm	0	0	traca_nm
 traca_nm	0	tracaichean	0

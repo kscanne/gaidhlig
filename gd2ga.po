@@ -291,7 +291,7 @@ msgstr "acarsóid_nf;cuan_nm;calafort_nm"
 msgid "acfhainn_nf"
 msgstr "acmhainn_nf;uirlis_nf;ola_nf"
 
-# GAOL: acfhainn_nf+ceòl
+# GAOL: acfhainn_nf+ceòl_nm
 msgid "acfhainn-chiùil_nf"
 msgstr "trealamh ceoil"
 
@@ -436,8 +436,10 @@ msgstr "achtainíd_nf"
 msgid "ad_nf"
 msgstr "hata_nm"
 
+# 1. shock of corn 2. haddock
 # ga adag is Dinneen only; adag/stuca = stack of grain, cadóg = haddock
-# GAOL: adag_nm
+# MacBain says sense 2 is from English
+# GAOL: adag_nm;eng:haddock
 msgid "adag_nf"
 msgstr "adag_nm;stuca_nm;cadóg_nf"
 
@@ -449,7 +451,7 @@ msgstr "haitéir_nm"
 msgid "Adair_nm"
 msgstr "Haitéir_nm"
 
-# GAOL: eng:adapter
+# GAOL: < eng:adapter
 msgid "adaptar_nm"
 msgstr "cuibheoir_nm"
 
@@ -5282,7 +5284,7 @@ msgid "ban-fhàidh_nf"
 msgstr "banfháidh_nm"
 
 # MacBain: from English
-# GAOL: eng:banquet
+# GAOL: < eng:banquet
 msgid "bangaid_nf"
 msgstr "féasta_nm"
 
@@ -11095,6 +11097,11 @@ msgstr "ceallach_nm"
 msgid "cealla-luirgeach_nf"
 msgstr "gaschill_nf"
 
+# broad cloth (masc in AFB)
+# GAOL: ~
+msgid "cealtair_nm"
+msgstr "cealtair_nf"
+
 # GAOL: ~
 msgid "ceanalta_a"
 msgstr "cineálta_a"
@@ -14092,7 +14099,7 @@ msgstr "coimisinéir_nm"
 msgid "coimiutar_nm"
 msgstr "comaitéir_nm"
 
-# GAOL: eng:computer
+# GAOL: < eng:computer
 msgid "coimpiutair_nm"
 msgstr "ríomhaire_nm"
 
@@ -27362,7 +27369,7 @@ msgstr "fréamhaí_a"
 msgid "freumh-fhaclachd_nf"
 msgstr "sanasaíocht_nf"
 
-# GAOL: eng:fridge
+# GAOL: < eng:fridge
 msgid "frids_nm"
 msgstr "cuisneoir_nm"
 
@@ -28363,6 +28370,12 @@ msgstr "gairdín_nm;garraí_nm"
 # GAOL:
 msgid "gàrradh-fìona_nm"
 msgstr "fíonghort_nm"
+
+# field of standing corn, AFB
+# cognate in MacBain
+# GAOL: ~
+msgid "gart_nm"
+msgstr "gort_nm"
 
 # 1. tick 2. garter
 # GAOL:
@@ -32914,7 +32927,7 @@ msgstr "íorpais_nf"
 msgid "iutharna_nf"
 msgstr "ifreann_nm"
 
-# GAOL: eng:jazz
+# GAOL: < eng:jazz
 msgid "jazz_nm"
 msgstr "snagcheol_nm"
 
@@ -39031,7 +39044,7 @@ msgid "mòd_nm"
 msgstr "tionól_nm"
 
 # model
-# GAOL: eng:model
+# GAOL: < eng:model
 msgid "modail_nf"
 msgstr "samhail_nf"
 
@@ -42588,8 +42601,8 @@ msgstr "óinseach_nf"
 msgid "oir_conj"
 msgstr "óir_conj"
 
-# GAOL:
 # MacBain: from ON
+# GAOL:
 msgid "oir_nf"
 msgstr "fóir2_nf"
 
@@ -44959,7 +44972,7 @@ msgstr "rocach_a"
 msgid "preasantadh_nm"
 msgstr "cur i láthair"
 
-# GAOL: eng:presenter
+# GAOL: < eng:presenter
 msgid "preasantair_nm"
 msgstr "láithreoir_nm"
 
@@ -45604,7 +45617,7 @@ msgstr "ruibhiúil_a;sulfarúil_a"
 msgid "pronnfheòil_nf"
 msgstr "mionfheoil_nf"
 
-# GAOL: eng:propaganda
+# GAOL: < eng:propaganda
 msgid "propaganda_nm"
 msgstr "bolscaireacht_nf"
 
@@ -45649,7 +45662,7 @@ msgstr "prótón_nm"
 msgid "protoplasma_nm"
 msgstr "prótaplasma_nm"
 
-# GAOL: eng:protractor
+# GAOL: < eng:protractor
 msgid "protractair_nm"
 msgstr "uillinntomhas_nm"
 
@@ -45715,7 +45728,7 @@ msgid "puingeachadh_nm"
 msgstr "poncaíocht_nf"
 
 # see MacBain, from the English
-# GAOL: eng:poison
+# GAOL: < eng:poison
 msgid "puinnsean_nm"
 msgstr "nimh_nf"
 
@@ -45847,7 +45860,7 @@ msgstr "cumhacht_nf"
 msgid "Q-Ceilteach_a"
 msgstr "Q-Ceilteach"
 
-# GAOL: eng:rabbit
+# GAOL: < eng:rabbit
 msgid "rabaid_nf"
 msgstr "coinín_nm"
 
@@ -53009,6 +53022,16 @@ msgstr "Slat_nf"
 msgid "slatach_a"
 msgstr "slatach_a"
 
+# cf next
+# GAOL: ~
+msgid "slatag_nf"
+msgstr "slaitín_nf"
+
+# cf prev; also coincides with pl. slat!
+# GAOL: ~
+msgid "slatan_nm"
+msgstr "slaitín_nf"
+
 # GAOL:
 msgid "slat-shiùdain_nf"
 msgstr "luascadán_nm"
@@ -56105,6 +56128,8 @@ msgstr "strapa1_nm"
 msgid "strèan_nm"
 msgstr "straidhn_nf"
 
+# gd has secondary def of striving/struggling that matches gv:strep
+# but isn't among the defs of dreap, even in Dinneen
 # GAOL: ~
 msgid "streap_v"
 msgstr "dreap_v"
@@ -56117,7 +56142,8 @@ msgstr "dreapadóir_nm"
 msgid "streapadaireachd_nf"
 msgstr "dreapadóireacht_nf"
 
-# GAOL: ~
+# see etym notes with verb
+# GAOL: ~;<i streap_v
 msgid "streapadh_nm"
 msgstr "dreapadh_nm"
 
@@ -59826,6 +59852,12 @@ msgstr "tóstalach_a"
 # GAOL: ~
 msgid "tòtamachd_nf"
 msgstr "tótamas_nm"
+
+# 1. rubbish of river floods 2. the grass fiorin (MacBain)
+# cf gv:traagh_nf
+# GAOL:
+msgid "tràbhach_nf"
+msgstr "feorainn_nf"
 
 # track (media)
 # GAOL:

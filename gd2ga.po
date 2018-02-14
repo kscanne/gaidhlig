@@ -331,7 +331,7 @@ msgstr "go deo_adv;choíche_adv"
 # sense one matches cognate in Ir.
 # GAOL: ~
 msgid "achd_nf"
-msgstr "acht_nm"
+msgstr "acht1_nm"
 
 # GAOL: ~
 msgid "Achd_nf"
@@ -543,9 +543,9 @@ msgstr "adhartán_nm"
 msgid "adhartas_nm"
 msgstr "dul chun cinn_nm"
 
-# GAOL: ábhar_nm
+# GAOL: ábhar1_nm
 msgid "adhbhar_nm"
-msgstr "fáth_nm;cúis_nf;ábhar_nm"
+msgstr "fáth_nm;cúis_nf;ábhar1_nm"
 
 # causal, causative, ablative
 # GAOL:
@@ -572,7 +572,7 @@ msgstr "déan_v"
 # materials
 # GAOL:
 msgid "adhbharrach_nm"
-msgstr "ábhar_nm"
+msgstr "ábhar1_nm"
 
 # linked with OIr. in MacBain
 # GAOL: sga:odbrann
@@ -3099,7 +3099,7 @@ msgstr "ligeach_a"
 
 # GAOL: ~
 msgid "aoigh_nm"
-msgstr "aoi_nm"
+msgstr "aoi1_nm"
 
 # GAOL: ~
 msgid "aoigheachd_nf"
@@ -10775,7 +10775,7 @@ msgstr "cos_nf"
 # trouble, difficulty, predicament
 # GAOL: ~
 msgid "càs_nm"
-msgstr "cás_nm"
+msgstr "cás1_nm"
 
 # GAOL: Casacstáin_nf
 msgid "Casachstan_nf"
@@ -11368,7 +11368,7 @@ msgstr "Uachtarán_nm"
 
 # GAOL:
 msgid "ceann-teagaisg_nm"
-msgstr "ábhar_nm;téacs_nm;teagasc_nm"
+msgstr "ábhar1_nm;téacs_nm;teagasc_nm"
 
 # GAOL:
 msgid "ceann-uidhe_nm"
@@ -11510,9 +11510,10 @@ msgstr "dronuilleog_nf"
 msgid "ceart-chreideamh_nm"
 msgstr "ceartchreideamh_nm"
 
-# GAOL: cás_nm
+# Dwelly "receptacle only"
+# GAOL: cás2_nm
 msgid "ceas_nm"
-msgstr "cás_nm;mála_nm"
+msgstr "cás2_nm;mála_nm"
 
 # Ir. ceisniú is alt of ceistiú in FGB
 # GAOL: ceistiú_nm
@@ -11571,7 +11572,7 @@ msgstr "cáca_nm;císte_nm"
 # cage
 # GAOL:
 msgid "cèidse_nf"
-msgstr "caighean_nm;cás_nm"
+msgstr "caighean_nm;cás2_nm"
 
 # not in corpus
 # GAOL: ~
@@ -11704,7 +11705,7 @@ msgstr "ceirtlín_nm"
 
 # GAOL: ~
 msgid "cèis_nf"
-msgstr "cás_nm"
+msgstr "cás2_nm"
 
 # GAOL:
 msgid "cèiseag_nf"
@@ -17761,7 +17762,7 @@ msgstr "an iomarca;barraíocht"
 # #cuspair is hashtag referring to name of FilmGAlba competition
 # GAOL: cuspóir_nm
 msgid "cuspair_nm"
-msgstr "ábhar_nm;cuspóir_nm"
+msgstr "ábhar1_nm;cuspóir_nm"
 
 # GAOL:
 msgid "cuspair-deuchainn_nm"
@@ -20096,7 +20097,7 @@ msgstr "díblíocht_nf"
 
 # GAOL: ~
 msgid "dìcheall_nm"
-msgstr "dícheall_nm"
+msgstr "dícheall1_nm"
 
 # GAOL: ~
 msgid "dìcheallach_a"
@@ -20174,7 +20175,7 @@ msgstr "Dé hAoine"
 
 # GAOL: ~
 msgid "dìle_nf"
-msgstr "díle_nf"
+msgstr "díle1_nf"
 
 # GAOL:
 msgid "dìleab_nf"
@@ -20686,7 +20687,7 @@ msgstr "cúram_nm;dualgas_nm"
 
 # GAOL: ~
 msgid "dlighe_nf"
-msgstr "dlí_nm"
+msgstr "dlí2_nm"
 
 # GAOL:
 msgid "dligheach_a"
@@ -21193,7 +21194,7 @@ msgstr "donn_a"
 
 # GAOL: ~
 msgid "donn_nm"
-msgstr "donn_nm"
+msgstr "donn1_nm"
 
 # GAOL:
 msgid "donnalaich_nf"
@@ -21907,7 +21908,7 @@ msgstr "druid_v;dún_v"
 
 # GAOL: druidim_nf
 msgid "druideadh_nm"
-msgstr "druidim_nf;dúnadh_nm"
+msgstr "druidim_nf;dúnadh1_nm"
 
 # GAOL:
 msgid "drùidh_v"
@@ -22307,7 +22308,7 @@ msgstr "Dún_nm"
 
 # GAOL: ~
 msgid "dùnadh_nm"
-msgstr "dúnadh_nm"
+msgstr "dúnadh1_nm"
 
 # GAOL:
 msgid "dùn-gainmhich_nm"
@@ -24925,6 +24926,8 @@ msgstr "tráth na gceist;quiz_nm"
 msgid "farpaiseach_nm"
 msgstr "iomaitheoir_nm"
 
+# force, violence
+# linked in MacBain
 # GAOL: ~
 msgid "farrach_nm"
 msgstr "forrach_nm"
@@ -24993,7 +24996,7 @@ msgstr "bánaithe_a;uaigneach_a;tréigthe_a;fásúil_a"
 
 # GAOL: faisean_nm
 msgid "fasan_nm"
-msgstr "faisean_nm;nós_nm"
+msgstr "faisean_nm;nós1_nm"
 
 # GAOL: ~
 msgid "fasanta_a"
@@ -26899,7 +26902,7 @@ msgstr "fúithi_pronm"
 # help, aid, etc.
 # GAOL: ~
 msgid "fòir_nf"
-msgstr "fóir1_nf"
+msgstr "fóir2_nf"
 
 # GAOL: ~
 msgid "foircheumnachadh_nm"
@@ -28555,9 +28558,12 @@ msgstr "geanmnaí_a"
 msgid "geamnaidheachd_nf"
 msgstr "geanmnaíocht_nf"
 
-# false friend; Ir. is "love, affection", Sc. is "good humor, cheerfulness"
+# false friend; Ir. is primarily "love, affection" (sga:2 gean),
+# while Sc. is "good humor, cheerfulness"
+# Note Ir. also has "gean gáire" (gean_s)
+# linked with sga:1 gen
 # "aoibh" is good here since it combines also with "dea-/deagh-" or "droch-"
-# GAOL: gean_nm
+# GAOL: gean_s
 msgid "gean_nm"
 msgstr "aoibh_nf"
 
@@ -31552,10 +31558,11 @@ msgstr "aosacht_nf;aibíocht_nf"
 msgid "inbhidheachd_nf"
 msgstr "caithreachas_nm"
 
+# 1 estuary 2 feed (computing)
 # "fotha" in computing
-# GAOL: inbhear_nm
+# GAOL: inbhear1_nm
 msgid "inbhir_nm"
-msgstr "inbhear_nm;fotha_nm"
+msgstr "inbhear1_nm;fotha_nm"
 
 # GAOL: ~
 msgid "Inbhir Nis_nm"
@@ -33083,7 +33090,7 @@ msgstr "lagchroíoch_a"
 # MacBain says from obs. Ir. "lagh", in turn from Eng.
 # GAOL: sga:2 lag
 msgid "lagh_nm"
-msgstr "dlí_nm"
+msgstr "dlí2_nm"
 
 # GAOL: <d lagh_nm
 msgid "Lagh_nm"
@@ -37591,7 +37598,8 @@ msgid "meanmnach_a"
 msgstr "meanmnach_a"
 
 # kid (goat)
-# GAOL: ~
+# meann1_nm in Ir. is literary
+# GAOL: meann1_nm
 msgid "meann_nm"
 msgstr "meannán_nm"
 
@@ -41986,7 +41994,7 @@ msgstr "néal_nm"
 
 # GAOL: ~
 msgid "nòs_nm"
-msgstr "nós_nm"
+msgstr "nós1_nm"
 
 # GAOL: ~
 msgid "nòsach_a"
@@ -42604,7 +42612,7 @@ msgstr "óir_conj"
 # MacBain: from ON
 # GAOL:
 msgid "oir_nf"
-msgstr "fóir2_nf"
+msgstr "fóir3_nf"
 
 # GAOL: oraibh_pronm
 msgid "oirbh_pronm"
@@ -46101,9 +46109,9 @@ msgstr "rangaigh_v;rátáil_v"
 msgid "rang-gabhail_nm"
 msgstr "rangabháil_nf"
 
-# GAOL: rann_nm
+# GAOL: rann1_nm
 msgid "rann_nf"
-msgstr "véarsa_nm;rann_nm"
+msgstr "véarsa_nm;rann1_nm"
 
 # GAOL: ~
 msgid "rannaigheachd_nf"
@@ -48885,12 +48893,12 @@ msgstr "saor-reic_nf"
 
 # GAOL: ~
 msgid "saorsa_nf"
-msgstr "saoirse_nf"
+msgstr "saoirse1_nf"
 
 # "liberty", incl. plural
 # GAOL: ~
 msgid "saorsainn_nf"
-msgstr "saoirse_nf"
+msgstr "saoirse1_nf"
 
 # GAOL:
 msgid "saorsainneachd_nf"
@@ -55648,7 +55656,7 @@ msgstr "goineadóir_nm"
 
 # GAOL:
 msgid "stannd_nm"
-msgstr "stalla_nm;seastán_nm"
+msgstr "stalla_nm;seastán1_nm"
 
 # GAOL: ~
 msgid "staoig_nf"
@@ -56324,7 +56332,7 @@ msgstr "starrach_a"
 
 # GAOL: stuif_nm
 msgid "stuth_nm"
-msgstr "ábhar_nm;stuif_nm"
+msgstr "ábhar1_nm;stuif_nm"
 
 # GAOL:
 msgid "stuthaigeadh_nm"
@@ -56574,7 +56582,7 @@ msgstr "suí_nm"
 # pl for "situations" in corpus, also spelled suidhichean
 # GAOL: suíomh_nm
 msgid "suidheachadh_nm"
-msgstr "socrú_nm;cás_nm;comhthéacs_nm;suíomh_nm"
+msgstr "socrú_nm;cás1_nm;comhthéacs_nm;suíomh_nm"
 
 # GAOL:
 msgid "suidheachadh-deilbh_nm"
@@ -56816,7 +56824,7 @@ msgstr "Suranamach_nm"
 # dictionaries: alacrity, eager exertion, industry
 # GAOL:
 msgid "sùrd_nm"
-msgstr "beocht_nf;lúcháir_nf;dícheall_nm"
+msgstr "beocht_nf;lúcháir_nf;dícheall1_nm"
 
 # leap, bound, caper, ... also NB sùrdagan headword below
 # GAOL:
@@ -56849,7 +56857,7 @@ msgstr "surfálaí_nm"
 
 # GAOL: substaint_nf
 msgid "susbaint_nf"
-msgstr "inneachar_nm;ábhar_nm"
+msgstr "inneachar_nm;ábhar1_nm"
 
 # GAOL: ~
 msgid "susbainteach_a"
@@ -57613,7 +57621,7 @@ msgstr "féarthalamh_nm"
 
 # GAOL: ~
 msgid "tàlann_nm"
-msgstr "tallann_nf"
+msgstr "tallann1_nf"
 
 # GAOL:
 msgid "tàlant_nm"
@@ -61106,7 +61114,7 @@ msgstr "tuile_nf"
 
 # GAOL: ~
 msgid "tuilich_v"
-msgstr "tuil_v"
+msgstr "tuil1_v"
 
 # GAOL: ~
 msgid "tuiliop_nf"

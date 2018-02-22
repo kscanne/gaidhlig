@@ -262,7 +262,7 @@ msgstr "acaointeach_a"
 # 1. anchor 2. acre
 # GAOL: ~
 msgid "acair_nm"
-msgstr "ancaire_nm;acra_nm"
+msgstr "ancaire1_nm;acra1_nm"
 
 # GAOL: ~
 msgid "acaireachd_nf"
@@ -1162,9 +1162,10 @@ msgstr "ainbhios_nm"
 msgid "ainfhiosach_a"
 msgstr "ainbhiosach_a"
 
+# sense 1 = angel, sense 2 = (signal) fire
 # GAOL: ~
 msgid "aingeal_nm"
-msgstr "aingeal_nm"
+msgstr "aingeal1_nm;aingeal2_nm"
 
 # GAOL: aingí_a
 msgid "aingidh_a"
@@ -1434,9 +1435,10 @@ msgstr "ar pinsean"
 msgid "air cùl_prep"
 msgstr "ar chúl_prep"
 
+# ga:aird1_nf = compass direction
 # GAOL: ~
 msgid "àird_nf"
-msgstr "ard_nm;aird_nf"
+msgstr "ard_nm;aird1_nf"
 
 # GAOL: ~
 msgid "àirde_nf"
@@ -1928,17 +1930,19 @@ msgid "aithisg_nf"
 msgstr "tuairisc_nf"
 
 # or aithin_v
-# GAOL:
+# GAOL: aithin2_v
 msgid "àithn_v"
 msgstr "ordaigh_v"
 
+# acquaintance, knowledge
 # GAOL: ~
 msgid "aithne_nf"
-msgstr "aithne_nf"
+msgstr "aithne1_nf"
 
+# commandment, decree
 # GAOL: ~
 msgid "àithne_nf"
-msgstr "aithne_nf"
+msgstr "aithne2_nf"
 
 # GAOL:
 msgid "àithneach_a"
@@ -1959,7 +1963,7 @@ msgstr "sainordaitheach_a"
 
 # GAOL: ~
 msgid "aithnich_v"
-msgstr "aithin_v"
+msgstr "aithin1_v"
 
 # penitent, sorry
 # GAOL: ~
@@ -3537,10 +3541,12 @@ msgstr "coigistiú_nm"
 msgid "arbhartaich_v"
 msgstr "coigistigh_v"
 
+# suckling pig
 # GAOL: ~
 msgid "arc_nm"
-msgstr "arc_nm"
+msgstr "arc1_nm"
 
+# cork, bung, stopper
 # GAOL:
 msgid "àrc_nf"
 msgstr "corc_nm"
@@ -5035,9 +5041,9 @@ msgid "ball-airm_nm"
 msgstr "arm_nm"
 
 # 1. tub 2. teat
-# GAOL: ballán_nm
+# GAOL: ballán1_nm
 msgid "ballan_nm"
-msgstr "tobán_nm;ballán_nm"
+msgstr "tobán_nm;ballán1_nm"
 
 # GAOL:
 msgid "ball-basgaid_nm"
@@ -5124,7 +5130,7 @@ msgstr "bán_a"
 
 # GAOL: ~
 msgid "bàn_nm"
-msgstr "bán_nm"
+msgstr "bán2_nm"
 
 # GAOL: ~
 msgid "ban-aba_nf"
@@ -5305,9 +5311,9 @@ msgstr "ceangal_nm;banda_nm;crios_nm"
 msgid "bannach_nm"
 msgstr "bonnóg_nf"
 
-# GAOL: banna_nm
+# GAOL: banna1_nm
 msgid "bannal_nm"
-msgstr "banna_nm;buíon_nf"
+msgstr "banna1_nm;buíon_nf"
 
 # GAOL:
 msgid "bann farsaing_nm"
@@ -6392,7 +6398,7 @@ msgstr "dordánach_a"
 # conduct
 # GAOL: ~
 msgid "beus_nf"
-msgstr "béas_nm"
+msgstr "béas1_nm"
 
 # GAOL:
 msgid "beus_nm"
@@ -6667,9 +6673,9 @@ msgstr "bille_nm"
 msgid "Bile_nm"
 msgstr "Bille_nm"
 
-# GAOL: bileog_nf
+# GAOL: bileog1_nf
 msgid "bileag_nf"
-msgstr "peiteal_nm;duillín_nm;bileog_nf"
+msgstr "peiteal_nm;duillín_nm;bileog1_nf"
 
 # GAOL: ~
 msgid "bileag-iùil_nf"
@@ -6762,7 +6768,7 @@ msgstr "bosca_nm"
 
 # GAOL: ~
 msgid "bior_nm"
-msgstr "bior_nm"
+msgstr "bior1_nm"
 
 # prick (physical or conscience); closest cognate "bioraigh" means "sharpen"
 # GAOL:
@@ -6780,7 +6786,7 @@ msgstr "bearach_nf;bearach_nm"
 # AFB "pointed stick"; parallel corpus == cognate (pin, etc.)
 # GAOL: biorán_nm
 msgid "bioran_nm"
-msgstr "bior_nm;biorán_nm"
+msgstr "bior1_nm;biorán_nm"
 
 # not in corpus at all
 # 1. tingle 2. painful twitch 3. reflex 4. titillation
@@ -7492,9 +7498,10 @@ msgstr "boinéad_nm;caipín_nm"
 msgid "bònas_nm"
 msgstr "bónas_nm"
 
+# same homonym ga/gd
 # GAOL: ~
 msgid "bonn_nm"
-msgstr "bonn_nm"
+msgstr "bonn1_nm;bonn2_nm"
 
 # GAOL: ~
 msgid "bonnach_nm"
@@ -7757,7 +7764,7 @@ msgstr "bradaí_nm;rógaire_nm"
 msgid "braidhm_nm"
 msgstr "broim_nm"
 
-# 1. hostage, captive 2. top of anything, brae
+# 1. hostage, captive 2. top of anything, brae (Ir. brí2_nf?)
 # GAOL: brá_nm
 msgid "bràigh_nm"
 msgstr "brá_nm;barr_nm"
@@ -7780,9 +7787,10 @@ msgstr "braichlis_nf"
 msgid "braise_nf"
 msgstr "braise_nf"
 
+# brooch
 # GAOL: ~
 msgid "bràiste_nf"
-msgstr "bróiste_nm"
+msgstr "bróiste1_nm"
 
 # GAOL: ~
 msgid "braith-lìn_nf"
@@ -7802,18 +7810,20 @@ msgstr "bráithriúil_a"
 msgid "bràmair_nm"
 msgstr "grá_nm"
 
+# "bran"
 # GAOL: ~
 msgid "bran_nm"
-msgstr "bran_nm"
+msgstr "bran3_nm"
 
 # both marketing and cattle sense in both langs
 # GAOL: ~
 msgid "branndadh_nm"
 msgstr "brandáil_nf"
 
+# brandy
 # GAOL: ~
 msgid "branndaidh_nm"
-msgstr "branda_nm"
+msgstr "branda2_nm"
 
 # GAOL:
 msgid "branndair_nm"
@@ -7995,9 +8005,10 @@ msgstr "breac geal"
 msgid "breacnaich_v"
 msgstr "breachnaigh_v"
 
+# freckle
 # GAOL:
 msgid "breac-seunain_nm"
-msgstr "bricín_nm;bricín gréine"
+msgstr "bricín2_nm;bricín gréine"
 
 # GAOL: ~
 msgid "breac-sholas_nm"
@@ -8230,7 +8241,7 @@ msgstr "pórú_nm"
 
 # GAOL: ~
 msgid "brìgh_nf"
-msgstr "brí_nf"
+msgstr "brí1_nf"
 
 # GAOL: ~
 msgid "brillean_nm"
@@ -8406,9 +8417,10 @@ msgstr "bróidnéireacht_nf"
 msgid "broigheal_nm"
 msgstr "broigheall_nm"
 
-# GAOL: brollach_nm
+# bosom, breast, etc.
+# GAOL: brollach1_nm
 msgid "broilleach_nm"
-msgstr "brollach_nm;ucht_nm"
+msgstr "brollach1_nm;ucht_nm"
 
 # GAOL: ~
 msgid "broinn_nf"
@@ -8832,9 +8844,9 @@ msgid "buannaiche_nm"
 msgstr "buaiteoir_nm"
 
 # herd of cattle
-# GAOL: buar_nm
+# GAOL: buar1_nm
 msgid "buar_nm"
-msgstr "buar_nm;eallach_nm"
+msgstr "buar1_nm;eallach_nm"
 
 # GAOL: buarach_nf
 msgid "buarach_nf"
@@ -9105,7 +9117,7 @@ msgstr "bunaigh_v"
 
 # GAOL: bunús_nm
 msgid "bunait_nf"
-msgstr "bonn_nm;bunús_nm"
+msgstr "bonn1_nm;bunús_nm"
 
 # GAOL: bunúsach_a
 msgid "bunaiteach_a"
@@ -9351,7 +9363,7 @@ msgstr "cabhail_nf"
 
 # GAOL: ~
 msgid "cabhlach_nm"
-msgstr "cabhlach_nm"
+msgstr "cabhlach1_nm"
 
 # GAOL:
 msgid "cabhsair_nm"
@@ -9542,9 +9554,10 @@ msgstr "cailceach_a"
 msgid "cailceam_nm"
 msgstr "cailciam_nm"
 
+# chaff, etc.
 # GAOL: ~
 msgid "càileach_nm"
-msgstr "cáithleach_nf"
+msgstr "cáithleach1_nf"
 
 # GAOL: ~
 msgid "càileachd_nf"
@@ -9722,7 +9735,7 @@ msgstr "coirneach_nm"
 
 # GAOL: ~
 msgid "cairt_nf"
-msgstr "cairt_nf;cárta_nm"
+msgstr "cairt1_nf;cairt2_nf;cárta_nm"
 
 # tan, shovel
 # GAOL: ~
@@ -10030,9 +10043,10 @@ msgstr "calma_a"
 msgid "calman_nm"
 msgstr "colúr_nm;colmán_nm"
 
-# GAOL: colpa_nm
+# 1. calf of leg 2. capital
+# GAOL: colpa1_nm
 msgid "calpa_nm"
-msgstr "colpa_nm;caipiteal_nm"
+msgstr "colpa1_nm;caipiteal_nm"
 
 # capital (like "capital fund") or capitalist
 # GAOL:
@@ -10183,7 +10197,7 @@ msgstr "canbhás_nm"
 # eriophorum angustifolium; cottongrass
 # GAOL: ~
 msgid "canach_nm"
-msgstr "canach_nm"
+msgstr "canach1_nm"
 
 # GAOL: ~
 msgid "Canada_nm"
@@ -10492,7 +10506,7 @@ msgstr "beagán_adv;ábhairín_adv"
 
 # GAOL: ~
 msgid "car_nm"
-msgstr "cor_nm"
+msgstr "cor1_nm"
 
 # GAOL:
 msgid "car_prep"
@@ -10527,7 +10541,7 @@ msgstr "corraí_nm;bogadh_nm"
 # 1. wrestling 2. cunning, wiliness
 # GAOL:
 msgid "carachd_nf"
-msgstr "coraíocht_nf;gliceas_nm"
+msgstr "coraíocht1_nf;gliceas_nm"
 
 # GAOL: ~
 msgid "carachtrachd_nf"
@@ -12871,9 +12885,11 @@ msgstr "cleitín_nm"
 msgid "cleitearnach_nm"
 msgstr "cleitearnach_nf"
 
-# GAOL: cleith_nf
+# 1. post, stake 2. concealment
+# Irish has same two defs, but latter is "Lit." in FGB
+# GAOL: cleith1_nf;cleith2_nf
 msgid "cleith_nf"
-msgstr "cleith_nf;ceilt_nf"
+msgstr "cleith1_nf;ceilt_nf"
 
 # GAOL:
 msgid "cleith_v"
@@ -13156,11 +13172,11 @@ msgstr "clóscríbhinn_nf"
 # meadow, green pasture; Ir. cognate is also "meadow"
 # although more often "deception, trickery, etc."
 # others are from parallel corpus
-# GAOL: cluain_nf
+# GAOL: cluain2_nf
 msgid "cluain_nf"
-msgstr "cluain_nf;léana_nm;móinéar_nm"
+msgstr "cluain2_nf;léana_nm;móinéar_nm"
 
-# GAOL: cluain_nf
+# GAOL: cluain2_nf
 msgid "Cluain_nf"
 msgstr "Cluain_nf"
 
@@ -13700,7 +13716,7 @@ msgstr "ar aon nós_adv;ar aon chuma"
 
 # GAOL:
 msgid "co-dhùin_v"
-msgstr "cinn_v"
+msgstr "cinn2_v"
 
 # focal doiléir
 # GAOL:
@@ -14310,9 +14326,10 @@ msgstr "cóipcheart_nm"
 msgid "còirne_nf"
 msgstr "coirne_nf"
 
+# same ambig in Irish: 1. corner 2. colonel
 # GAOL: ~
 msgid "còirneal_nm"
-msgstr "coirnéal_nm"
+msgstr "coirnéal1_nm;coirnéal2_nm"
 
 # cornet; not in corpus, SBG only
 # GAOL: ~
@@ -14347,10 +14364,11 @@ msgstr "coisí_nm"
 msgid "coisinn_v"
 msgstr "buaigh_v"
 
+# a choir
 # not "cóisir"; false friend (even though "festive party" given in Dwelly)
 # GAOL: cóisir_nf
 msgid "còisir_nf"
-msgstr "cór_nm"
+msgstr "cór2_nm"
 
 # GAOL: ~
 msgid "coisrig_v"
@@ -15197,7 +15215,7 @@ msgstr "Cornach_a"
 
 # GAOL:
 msgid "còrnair_nm"
-msgstr "coirnéal_nm;cúinne_nm"
+msgstr "coirnéal1_nm;cúinne_nm"
 
 # GAOL: ~
 msgid "Còrnais_nf"
@@ -15435,7 +15453,7 @@ msgstr "Cósta_nm"
 
 # GAOL: ~
 msgid "còta_nm"
-msgstr "cóta_nm"
+msgstr "cóta1_nm"
 
 # GAOL: ~
 msgid "cotan_nm"
@@ -15761,11 +15779,12 @@ msgstr "mullach_nm"
 msgid "creachdach_nm"
 msgstr "créachtach_nm"
 
+# clay
 # GAOL: ~
 msgid "crèadh_nf"
-msgstr "cré_nf"
+msgstr "cré1_nf"
 
-# GAOL: cré_nf
+# GAOL: cré1_nf
 msgid "Crèadh_nf"
 msgstr "Cré_nf"
 
@@ -16669,7 +16688,7 @@ msgstr "cuairsceann_nm"
 # mostly the cognate (cycle, circuit, etc.) but also "round" (of competition)
 # GAOL: cuairt_nf
 msgid "cuairt_nf"
-msgstr "cuairt_nf;babhta_nm"
+msgstr "cuairt_nf;babhta1_nm"
 
 # GAOL:
 msgid "cuairt-bheatha_nf"
@@ -17357,9 +17376,10 @@ msgstr "faisnéis chúlra"
 msgid "cùl-ionad_nm"
 msgstr "cúlionad_nm"
 
+# boar
 # GAOL: ~
 msgid "cullach_nm"
-msgstr "collach_nm"
+msgstr "collach1_nm"
 
 # Ir. cochall more common than cognate
 # GAOL: calla_nm
@@ -22384,7 +22404,7 @@ msgstr "spreagadh_nm"
 
 # GAOL:
 msgid "duslach_nm"
-msgstr "cré_nf;luaith_nf;deannach_nm"
+msgstr "cré1_nf;luaith_nf;deannach_nm"
 
 # GAOL: dusta_nm
 msgid "dust_nm"
@@ -24018,7 +24038,7 @@ msgstr "mana_nm"
 
 # GAOL:
 msgid "facal-toisich_nm"
-msgstr "brollach_nm;réamhrá_nm"
+msgstr "brollach2_nm;réamhrá_nm"
 
 # GAOL:
 msgid "fachach_nm"
@@ -25096,7 +25116,7 @@ msgstr "arm_nm;fórsa_nm"
 
 # GAOL:
 msgid "feachd-mara_nf"
-msgstr "cabhlach_nm"
+msgstr "cabhlach1_nm"
 
 # GAOL:
 msgid "feachd-phoilis_nf"
@@ -25526,7 +25546,7 @@ msgstr "stiúrthóir_nm"
 # cf next!
 # GAOL:
 msgid "feart_nf"
-msgstr "aird_nf"
+msgstr "aird2_nf"
 
 # feature, characteristic, property, attribute (esp. common in computing)
 # in phrase "Dia nam feart" e.g. (God of many attributes)
@@ -25541,6 +25561,7 @@ msgstr "gné_nf"
 msgid "fear-taca_nm"
 msgstr "fear taca"
 
+# thrift/sea pink
 # GAOL:
 msgid "feartag_nf"
 msgstr "rabhán2_nm"
@@ -28986,7 +29007,7 @@ msgstr "áfach_adv"
 # gully, ravine; more often an inflection of "geal"
 # GAOL:
 msgid "gil_nf"
-msgstr "altán_nm"
+msgstr "altán1_nm"
 
 # MacBain: *gl@.bi-; cf. Greek @Ggláfw, carve. But cf. Welsh gylyf, sickle,
 # Old Cornish gilb, foratorium, allied to Gaelic guilbneach, q.v.
@@ -37640,7 +37661,7 @@ msgstr "aimliú_nm;mearú_nm"
 
 # GAOL:
 msgid "mearachd_nf"
-msgstr "botún_nm;earráid_nf;meancóg_nf"
+msgstr "botún2_nm;earráid_nf;meancóg_nf"
 
 # GAOL:
 msgid "mearachdach_a"
@@ -39393,7 +39414,7 @@ msgstr "ga_nm"
 
 # GAOL:
 msgid "mòr-ghil_nf"
-msgstr "altán_nm"
+msgstr "altán1_nm"
 
 # GAOL: ~
 msgid "mòr-ghleus_nm"
@@ -41129,7 +41150,7 @@ msgstr "neascóid_nf"
 
 # GAOL:
 msgid "nèibhidh_nm"
-msgstr "cabhlach_nm"
+msgstr "cabhlach1_nm"
 
 # cf no_conj
 # GAOL: ~
@@ -42689,7 +42710,7 @@ msgstr "oirthearach_nm"
 
 # GAOL:
 msgid "oisean_nm"
-msgstr "cúinne_nm;coirnéal_nm"
+msgstr "cúinne_nm;coirnéal1_nm"
 
 # GAOL: ~
 msgid "Oiseanach_a"
@@ -45891,7 +45912,7 @@ msgstr "rabhadh_nm"
 
 # GAOL: ~
 msgid "ràbhan_nm"
-msgstr "rabhán1_nm"
+msgstr "rabhán3_nm"
 
 # Dwelly only
 # GAOL:
@@ -45901,7 +45922,7 @@ msgstr "roscach_a"
 # doggerel
 # GAOL: ~
 msgid "rabhd_nm"
-msgstr "rabhán1_nm"
+msgstr "rabhán3_nm"
 
 # parallel corpus; only corpus example
 # GAOL:
@@ -52625,7 +52646,7 @@ msgstr "córas oibriúcháin"
 # "sheet"; bileog in computing
 # GAOL:
 msgid "siota_nm"
-msgstr "bileog_nf;braillín_nf"
+msgstr "bileog1_nf;braillín_nf"
 
 # GAOL: ~
 msgid "sìota_nm"
@@ -57213,9 +57234,9 @@ msgstr "tíl_nf"
 msgid "taidhp_v"
 msgstr "clóscríobh_v"
 
-# GAOL:
+# GAOL: eng:tire
 msgid "taidhr_nf"
-msgstr "bonn_nm"
+msgstr "bonn1_nm"
 
 # MacBain: from Scottish haggis, Old French hachis, English hash, from hack.
 # GAOL:
@@ -61902,7 +61923,7 @@ msgstr "céim_nf"
 # focal doiléir
 # GAOL: uídh_nf
 msgid "ùidh_nf"
-msgstr "spéis_nf;suim_nf;aird_nf;uídh_nf"
+msgstr "spéis_nf;suim_nf;aird2_nf;uídh_nf"
 
 # cognate "úim"
 # fem. Dwelly, masc. AFB, both in Colin Mark
@@ -62047,7 +62068,7 @@ msgstr "fuinseog_nf"
 # focal doiléir; gd ùire clashes with comp. of adj. ùr
 # GAOL: úir_nf
 msgid "ùir_nf"
-msgstr "cré_nf;ithir_nf;talamh_nm;úir_nf"
+msgstr "cré1_nf;ithir_nf;talamh_nm;úir_nf"
 
 # Dinneen has uircín, "See orc"... orcán "little pig" is alt of arcán in FGB
 # GAOL: arcán_nm

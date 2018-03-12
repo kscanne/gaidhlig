@@ -10487,6 +10487,7 @@ gu_u	0	0	0
 Guadalupach_a	0	0	0
 Guadalupach_nm	0	0	0
 guais_nf	0	0	0
+guàis_nf	0	0	0
 gual_nm	0	1	0
 guala_nf	gualainn	guaillean	gualann_nf
 gualadair_nm	0	0	0

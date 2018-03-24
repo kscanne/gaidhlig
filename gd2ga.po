@@ -48531,7 +48531,7 @@ msgstr "Sáirsint_nm"
 
 # GAOL: ~
 msgid "sàiste_nm"
-msgstr "sáiste_nm"
+msgstr "sáiste_nf"
 
 # backbone - Dwelly, Mac Bain, etc.
 # only corpus examples are mistakes for sàith_nf below

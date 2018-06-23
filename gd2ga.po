@@ -20928,6 +20928,7 @@ msgstr "slí maireachtála;slí bheatha"
 msgid "dòigh-dèiligidh_nf"
 msgstr "cur chuige"
 
+# false friend
 # GAOL:
 msgid "dòigheil_a"
 msgstr "deas_a;sásta_a;sásúil_a;breá_a"

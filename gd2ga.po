@@ -42073,6 +42073,10 @@ msgstr "anótáil_v"
 msgid "nòtair_nm"
 msgstr "nótaire_nm"
 
+# GAOL:
+msgid "nothaist_nm"
+msgstr "amadán_nm"
+
 # not in corpus; sulky, surly
 # GAOL:
 msgid "nuadarra_a"

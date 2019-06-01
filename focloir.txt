@@ -14177,6 +14177,7 @@ nòta_nm	0	nòtaichean	nota_nf
 notachadh_nm	0	0	0
 notaich_v	0	0	0
 nòtair_nm	0	0	0
+nothaist_nm	0	0	0
 'n-seo_adv	0	0	an-seo_adv
 'n-sin_adv	0	0	an-sin_adv
 nua-aimsireil_a	0	0	nuadh-aimsireil_a

@@ -1978,6 +1978,7 @@ msgstr "aithreachas_nm"
 msgid "aithridh_nf"
 msgstr "aithrí_nf"
 
+# should maybe mark as f.f. given prominence of first two senses?
 # GAOL: aithris_nf
 msgid "aithris_nf"
 msgstr "tuairisc_nf;ráiteas_nm;aithris_nf"
@@ -1985,6 +1986,10 @@ msgstr "tuairisc_nf;ráiteas_nm;aithris_nf"
 # GAOL: ~
 msgid "aithris_v"
 msgstr "aithris_v"
+
+# GAOL: aithris_nf+bhideo_a
+msgid "aithris-bhideo_nf"
+msgstr "tuairisc fhíse"
 
 # GAOL: aithriseach_a
 msgid "aithriseach_a"
@@ -15247,6 +15252,10 @@ msgstr "comhroinnte_a"
 msgid "coron_nm"
 msgstr "coróin_nf;coróinéad_nm"
 
+# GAOL: ~
+msgid "coròna-bhìoras_nm"
+msgstr "coróinvíreas_nm"
+
 # GAOL: corp_nm
 msgid "corp_nm"
 msgstr "corp_nm;colainn_nf"
@@ -16447,6 +16456,10 @@ msgstr "aiséitiúil_a"
 # GAOL: ~
 msgid "cruaidh-chridheach_a"
 msgstr "cruachroíoch_a"
+
+# GAOL: cruaidh_a+feum_nf
+msgid "cruaidh-fheum_nf"
+msgstr "géarghá_nm"
 
 # GAOL: ~
 msgid "cruan_nm"
@@ -35962,6 +35975,11 @@ msgstr "cos-slua_nm"
 msgid "luchd-comh-pàirt_nm"
 msgstr "rannpháirtithe"
 
+# no "neach-leasa" in the corpus
+# GAOL: luchd_nm+leas_nm
+msgid "luchd-leasa_nm"
+msgstr "páirtithe leasmhara"
+
 # GAOL: ~
 msgid "luchdmhor_a"
 msgstr "luchtmhar_a"
@@ -43697,6 +43715,11 @@ msgstr "pasta_nm"
 msgid "pastra_nf"
 msgstr "pastae_nm"
 
+# used in both sense, dough and a small cake
+# GAOL: en:pastry
+msgid "pastraidh_nm"
+msgstr "taosrán_nm;císte milis"
+
 # leveret; not in gd corpus at all
 # GAOL: ~
 msgid "pata_nm"
@@ -45584,7 +45607,7 @@ msgstr "prócadóir_nm"
 msgid "proghan_nm"
 msgstr "dríodar_nm"
 
-# GAOL:
+# GAOL: eng:program
 msgid "prògram_nm"
 msgstr "clár_nm;feidhmchlár_nm;ríomhchlár_nm"
 
@@ -45592,7 +45615,11 @@ msgstr "clár_nm;feidhmchlár_nm;ríomhchlár_nm"
 msgid "prògramadh_nm"
 msgstr "ríomhchlárú_nm"
 
-# GAOL:
+# GAOL: eng:programmer
+msgid "prògramair_nm"
+msgstr "ríomhchláraitheoir_nm"
+
+# GAOL: eng:professor
 msgid "proifeasair_nm"
 msgstr "ollamh_nm"
 

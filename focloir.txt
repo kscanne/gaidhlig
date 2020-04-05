@@ -5998,9 +5998,7 @@ cutair_nm	0	0	0
 cuthach_nm	0	1	0
 cuthag_nf	0	0	0
 cuthag1_nf	cuthaige	0	cuthag_nf
-d'_poss	0	0	0
 da_poss	0	0	0
-d'a_poss	0	0	0
 dà_card	0	0	0
 dabhach_nf	0	dabhaichean	0
 dà-bheathach_a	0	0	0
@@ -6096,8 +6094,6 @@ damhsadh_nm	0	1	dannsadh_nm
 damnadh_nm	0	1	0
 dan_nm	0	dain	dàn_nm
 dan_prep	0	0	dhan_prep
-d'an_poss	0	0	dh'an_poss
-d'an_prep	0	0	dh'an_prep
 da'n_prep	0	0	dhan_prep
 dàn_nm	0	dàin	0
 dàn1_nm	0	dàintean	dàn_nm
@@ -6146,7 +6142,6 @@ daorach_nf	0	1	0
 daoranach_nm	0	0	0
 daorsa_nf	0	0	0
 dar_poss	0	0	0
-d'ar_poss	0	0	dar_poss
 dara_a	0	0	0
 dara_ord	0	0	0
 dàra_ord	0	0	dara_ord

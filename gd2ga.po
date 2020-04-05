@@ -17846,15 +17846,7 @@ msgid "cuthag_nf"
 msgstr "cuach1_nf"
 
 # GAOL: ~
-msgid "d'_poss"
-msgstr "do_poss"
-
-# GAOL: ~
 msgid "da_poss"
-msgstr "dá"
-
-# GAOL:
-msgid "d'a_poss"
 msgstr "dá"
 
 # dá after article, just like Ir.

@@ -14620,6 +14620,7 @@ pailt_a	0	0	0
 pàilt_a	0	0	pailt_a
 pailteas_nm	0	1	0
 paimhleid_nf	0	0	0
+painnse_nf	0	painnseachan	0
 painntear_nm	0	0	0
 painntin_nf	0	0	0
 paipear_nm	0	0	pàipear_nm
@@ -17075,6 +17076,7 @@ sgàrlaid_nf	0	1	0
 Sgarpach_a	0	0	0
 Sgarpach_nm	0	0	0
 sgarradh_nm	0	0	sgaradh_nm
+sgarrag_nf	0	0	0
 sgath_nm	sgath	1	0
 sgath_v	0	0	0
 sgàth_nm	sgàtha	0	0
@@ -17266,6 +17268,7 @@ sgoladh_nm	0	0	0
 sgolag_nf	0	0	0
 sgolap_nm	0	0	0
 sgolb_nm	sguilb	0	0
+sgollag_nf	0	0	0
 sgoltadh_nm	0	0	0
 sgona_nf	0	sgonaichean	0
 sgonn_nm	0	0	0
@@ -17290,6 +17293,7 @@ sgothach_a	0	0	sgòthach_a
 sgòthach_a	0	0	0
 sgothadh_nm	0	1	0
 sgoth-seòlaidh_nf	sgotha-seòlaidh	sgothan-seòlaidh	0
+sgrail_nf	0	0	0
 sgraing_nf	0	0	0
 sgrath_nf	sgratha	0	0
 sgrath_v	0	0	0
@@ -19126,6 +19130,7 @@ taitneach_a	0	0	0
 taitneadh_nm	0	1	0
 taitneas_nm	0	0	0
 tàl_nm	0	0	0
+talach_nm	0	1	0
 taladh_nm	0	0	tàladh_nm
 tàladh_nm	0	0	0
 tàlaidh_v	tàladh_nm	0	0

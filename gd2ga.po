@@ -17442,7 +17442,7 @@ msgstr "siméadracht_nf"
 msgid "cumadh_nm"
 msgstr "cuma_nf"
 
-# GAOL:
+# GAOL: cumadh_nm+tìr_nf
 msgid "cumadh-tìre_nm"
 msgstr "topagrafaíocht_nf"
 
@@ -17510,7 +17510,7 @@ msgstr "cúng_a"
 msgid "cùmhnant_nm"
 msgstr "cúnant_nm;conradh_nm"
 
-# GAOL:
+# GAOL: cùmhnant_nm+-ach
 msgid "cùmhnantach_a"
 msgstr "coinníollach_a"
 
@@ -17522,7 +17522,7 @@ msgstr "cúnantóir_nm"
 msgid "cunbhalach_a"
 msgstr "rialta_a"
 
-# GAOL:
+# GAOL: cunbhalach_a+-d
 msgid "cunbhalachd_nf"
 msgstr "seasmhacht_nf"
 
@@ -17530,7 +17530,7 @@ msgstr "seasmhacht_nf"
 msgid "cungaidh_nf"
 msgstr "druga_nm;comhábhar_nm"
 
-# GAOL:
+# GAOL: cungaidh_nf+leigheas_nm
 msgid "cungaidh-leigheis_nf"
 msgstr "cógas_nm;druga_nm"
 
@@ -17555,7 +17555,7 @@ msgstr "baolú_nm"
 # endanger, imperil (SBG/Dwelly); no corpus examples
 # phrasal in Irish; cuir i gcontúirt/mbaol
 # bagair (threaten) is closest lexical verb I can think of
-# GAOL:
+# GAOL: <d cunnart_nm
 msgid "cunnartaich_v"
 msgstr "bagair_v"
 
@@ -17605,19 +17605,19 @@ msgstr "cuntasaíocht_nf;cuntasóireacht_nf"
 msgid "cunntasair_nm"
 msgstr "cuntasóir_nm"
 
-# GAOL:
+# GAOL: cunntas_nm+beatha_nf
 msgid "cunntas-beatha_nm"
 msgstr "beathaisnéis_nf"
 
-# GAOL:
+# GAOL: cunntas_nm+beachd_nm
 msgid "cunntas-bheachd_nm"
 msgstr "pobalbhreith_nf"
 
-# GAOL:
+# GAOL: cunntas_nm+luchd_nm
 msgid "cunntas luchd_nm"
 msgstr "lastliosta_nm"
 
-# GAOL:
+# GAOL: cunntas_nm+sluagh_nm
 msgid "cunntas-sluaigh_nm"
 msgstr "daonáireamh_nm"
 
@@ -21776,7 +21776,7 @@ msgstr "mífhuaimniú_nm"
 
 # GAOL: ~
 msgid "droch Ghàidhlig_nf"
-msgstr "drochGhàidhlig"
+msgstr "droch-Ghàidhlig"
 
 # GAOL: ~
 msgid "droch là_nm"
@@ -24462,6 +24462,8 @@ msgstr "feoirling_nf"
 msgid "faire_nf"
 msgstr "faire_nf"
 
+# FGB fáir!
+# gv:faarey linked here
 # GAOL:
 msgid "fàire_nf"
 msgstr "fíor na spéire;spéirlíne_nf"
@@ -29535,13 +29537,13 @@ msgstr "gleorán2_nm"
 msgid "gleus_nf"
 msgstr "gléas_nm"
 
-# GAOL:
+# GAOL: gléas_v
 msgid "gleus_v"
-msgstr "tiúin_v"
+msgstr "tiúnáil_v"
 
-# GAOL:
+# GAOL: gléasadh_nm
 msgid "gleusadh_nm"
-msgstr "tiúnadh_nm"
+msgstr "tiúnáil_nf"
 
 # AFB:
 # 1 tuned, prepared 2 ready 3 neat, trim, tidy
@@ -33415,7 +33417,7 @@ msgstr "lánchumhachtóir_nm"
 
 # GAOL: ~
 msgid "landaig_v"
-msgstr "landáil_v"
+msgstr "leaindeáil_v"
 
 # GAOL:
 msgid "làn-fhiosrachadh_nm"
@@ -43330,6 +43332,11 @@ msgstr "flúirse_nf;cuid mhór"
 msgid "paimhleid_nf"
 msgstr "paimfléad_nm"
 
+# paunch
+# GAOL: eng:paunch
+msgid "painnse_nf"
+msgstr "méadail_nf;bolg_nm"
+
 # snare, trap; rare in both so use cognate
 # GAOL: ~
 msgid "painntear_nm"
@@ -46678,7 +46685,7 @@ msgstr "gadaí_nm;ropaire_nm"
 
 # GAOL:
 msgid "reubaltach_nm"
-msgstr "reibiliúnaí_nm"
+msgstr "reibiliúnach_nm"
 
 # GAOL: ~
 msgid "reubte_a"
@@ -50904,6 +50911,12 @@ msgstr "Scarpach"
 msgid "Sgarpach_nm"
 msgstr "Scarpach"
 
+# skate, ray-fish; Dwelly only
+# see gv:scarrag_nf
+# GAOL:
+msgid "sgarrag_nf"
+msgstr "roc_nm;sciata_nm"
+
 # anything, nothing "gun sgath airgid", without any money?
 # "chan eil sgath sgìths orm" = "níl tuirse ar bith orm"
 # so Ir. faic, dada don't really work
@@ -51555,6 +51568,13 @@ msgstr "muirín_nm"
 msgid "sgolb_nm"
 msgstr "scolb_nm"
 
+# dinghy
+# linked with gv:skollag_nf
+# don't see cognate in ga
+# GAOL:
+msgid "sgollag_nf"
+msgstr "báidín_nm"
+
 # GAOL: scoilteadh_nm
 msgid "sgoltadh_nm"
 msgstr "scoilteadh_nm;scoilt_nf"
@@ -51647,6 +51667,12 @@ msgstr "scoitheadh_nm"
 msgid "sgoth-seòlaidh_nf"
 msgstr "luamh_nm"
 
+# (Manx) shearwater
+# cognate with gv:scraayl_nf
+# GAOL:
+msgid "sgrail_nf"
+msgstr "cánóg dhubh"
+
 # frown, scowl
 # GAOL:
 msgid "sgraing_nf"
@@ -51675,6 +51701,7 @@ msgid "sgrathail_a"
 msgstr "gránna_a;uafásach_a"
 
 # crust (cognate), scab
+# linked with gv:screb_nf also
 # GAOL: screab_nf
 msgid "sgreab_nf"
 msgstr "screab_nf;gearb_nf"
@@ -56390,7 +56417,7 @@ msgid "stupaid_nf"
 msgstr "súitín_nm"
 
 # MacBain: from Scottish stour, Middle English stour, tumult.
-# GAOL:
+# GAOL: stúr_nm
 msgid "stùr_nm"
 msgstr "deannach_nm"
 
@@ -56537,17 +56564,18 @@ msgstr "suas_adv"
 
 # GAOL: ~
 msgid "Suasaidheach_a"
-msgstr "Suasalannach_a"
+msgstr "Suasach_a"
 
 # GAOL: ~
 msgid "Suasaidheach_nm"
-msgstr "Suasalannach_nm"
+msgstr "Suasach_nm"
 
+# cognate with ga:suaith_v?
 # GAOL:
 msgid "suath_v"
 msgstr "cuimil_v"
 
-# GAOL:
+# GAOL: <i suath_v
 msgid "suathadh_nm"
 msgstr "cuimilt_nf"
 
@@ -56852,8 +56880,8 @@ msgstr "Sumatrach_a"
 msgid "Sumatrach_nm"
 msgstr "Sumatrach_nm"
 
-# MacBain connects with Ir. sonnta
-# GAOL: sonnta_a
+# MacBain connects with Ir. sonnta_a (???)
+# GAOL:
 msgid "sunnd_nm"
 msgstr "aoibh_nf;áthas_nm;giúmar_nm"
 
@@ -57481,12 +57509,12 @@ msgstr "táin_nf"
 
 # "thaw"; cf aiteamh
 # MacBain has tainneamh
-# GAOL: sga:tinad
+# GAOL: sga:tinaid
 msgid "taineamh_nm"
 msgstr "coscairt_nf"
 
 # MacBain: from the English thank.
-# GAOL:
+# GAOL: eng:thank
 msgid "taing_nf"
 msgstr "buíochas_nm"
 
@@ -57662,6 +57690,10 @@ msgstr "taitneamh_nm"
 # GAOL: ~
 msgid "tàl_nm"
 msgstr "tál1_nm"
+
+# GAOL:
+msgid "talach_nm"
+msgstr "canrán_nm;gearán_nm"
 
 # 1. vn of next 2. lullaby (esp. in pl)
 # GAOL:

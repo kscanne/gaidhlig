@@ -2098,7 +2098,7 @@ msgstr "alcólach_nm"
 
 # GAOL: ~
 msgid "alcolachd_nf"
-msgstr "alcólacht_nf"
+msgstr "alcólachas_nm"
 
 # GAOL: ~
 msgid "algach_a"

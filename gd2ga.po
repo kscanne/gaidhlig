@@ -4147,7 +4147,7 @@ msgstr "adamhach_a"
 
 # GAOL:
 msgid "at-cuisle_nm"
-msgstr "aineoras_nm"
+msgstr "ainéaras_nm"
 
 # handle most in multi-gd
 # GAOL:
@@ -12158,7 +12158,7 @@ msgstr "eitneach_a"
 # SGB has "racism", but corpus meanings look like "ethnicity" cf. above
 # GAOL: ciníochas_nm
 msgid "cinnidheachd_nf"
-msgstr "eitneachas_nm"
+msgstr "eitneacht_nf"
 
 # GAOL: ~
 msgid "cinnt_nf"
@@ -41236,7 +41236,7 @@ msgstr "neamhfhiúntach_a"
 # intransitive (grammar)
 # GAOL:
 msgid "neo-aisigeach_a"
-msgstr "neamh-aistreach_a"
+msgstr "neamhaistreach_a"
 
 # GAOL:
 msgid "neo-aithnichte_a"
